@@ -1,0 +1,231 @@
+BẢN TIN 24H | KINH TẾ – THỊ TRƯỜNG – CÔNG NGHỆ | 25/08/2026
+
+Run key: vn-global-daily-news-briefing:2026-08-25:daily
+Chế độ: Daily mode — chạy đúng lịch lúc 07:02, Asia/Ho_Chi_Minh.
+Cửa sổ dữ liệu cố định: [24/08/2026 07:00, 25/08/2026 07:00), Asia/Ho_Chi_Minh.
+
+EXECUTIVE SUMMARY
+
+1. VN-Index tăng 20,66 điểm (+1,17%) lên 1.788,78, nhưng VIC và VHM đóng góp khoảng 18 điểm; mức tăng vì vậy tập trung mạnh ở nhóm vốn hóa lớn. Tổng giá trị giao dịch ba sàn đạt khoảng 20.500 tỷ đồng, khối ngoại mua ròng hơn 167 tỷ đồng.
+2. Chi phí vận hành trong nước tiếp tục chịu áp lực: Viettel Post nâng phụ phí xăng dầu dịch vụ thường từ 8% lên 10%, trong khi Quốc hội thông qua giảm 30% thuế phải nộp cho hộ/cá nhân và doanh nghiệp doanh thu không quá 10 tỷ đồng trong 2026–2027.
+3. Rủi ro thương mại và năng lượng tăng: Mỹ đe dọa nâng thuế ô tô, xe tải và linh kiện từ Canada lên 50% từ 01/01; cùng lúc, gói trừng phạt mới với Iran và cảnh báo tại eo Hormuz làm tăng rủi ro dầu, logistics và tỷ giá.
+4. Công nghệ phân hóa rõ: iPhone 17 Pro Max giảm giá cuối vòng đời ở Việt Nam, nhưng TrendForce vẫn dự báo giá hợp đồng DRAM/NAND tăng hai chữ số trong quý III/2026. Nvidia đẩy nhanh hạ tầng suy luận Groq, trong khi các vụ thu hồi Tesla, BIOS lỗi Lenovo và kiện tụng dữ liệu Twitch nhấn mạnh chi phí hậu mãi, cập nhật phần mềm và quản trị dữ liệu.
+
+MARKET PULSE — CHỐT TRONG CỬA SỔ
+
+- VN-Index: 1.788,78 điểm; +20,66 điểm (+1,17%) ngày 24/8.
+- HNX-Index: 283,19 điểm; -0,88 điểm (-0,31%).
+- UPCoM-Index: 127,75 điểm; +0,23 điểm (+0,18%).
+- Thanh khoản: tổng giá trị giao dịch ba sàn khoảng 20.500 tỷ đồng; riêng khớp lệnh HOSE khoảng 18.701 tỷ đồng.
+- Khối ngoại: mua ròng hơn 167 tỷ đồng.
+- USD/VND Vietcombank lúc 23:00 ngày 24/8: mua tiền mặt 25.950; mua chuyển khoản 25.980; bán 26.360 đồng/USD.
+- Bộ nhớ, bối cảnh quý III/2026: TrendForce dự báo giá hợp đồng DRAM thông thường tăng 13–18% QoQ và NAND Flash tăng 10–15% QoQ; đây là dự báo ngành, không phải giá spot ngày 24/8.
+
+Nguồn Market Pulse:
+- Chứng khoán Việt Nam: https://dantri.com.vn/kinh-doanh/chung-khoan-len-21-diem-vic-pnj-tang-manh-20260824153908182.htm
+- USD/VND Vietcombank: https://www.vietcombank.com.vn/vi-VN/KHCN/Cong-cu-Tien-ich/Ty-gia
+- Dự báo DRAM/NAND quý III/2026: https://www.trendforce.com/presscenter/news/20260703-13134.html
+
+TIN TRONG NƯỚC
+
+1. VN-INDEX TIẾN SÁT 1.800 ĐIỂM, NHƯNG ĐÀ TĂNG TẬP TRUNG Ở NHÓM TRỤ
+Phân loại: fact | Kinh tế – tài chính – chứng khoán Việt Nam
+Thời gian: 24/08/2026 15:55 GMT+7
+Địa lý: Việt Nam
+Tóm tắt: VN-Index đóng cửa 1.788,78 điểm, tăng 20,66 điểm. HNX-Index giảm 0,31% còn 283,19, UPCoM-Index tăng 0,18% lên 127,75; tổng giá trị giao dịch ba sàn khoảng 20.500 tỷ đồng.
+Số liệu xác minh: VIC tăng 4,63% và VHM tăng 2,37%; hai mã đóng góp khoảng 18 điểm cho VN-Index. Khối ngoại mua ròng hơn 167 tỷ đồng.
+Vì sao quan trọng: Chỉ số tích cực nhưng độ phụ thuộc vào trụ cao; tín hiệu sức khỏe thị trường yếu hơn mức tăng headline.
+Tác động: Nhu cầu và tâm lý tài sản cải thiện, song quyết định tồn kho không nên dựa riêng vào đà tăng chỉ số.
+Nguồn: Dân trí — Tier 2, newsroom
+https://dantri.com.vn/kinh-doanh/chung-khoan-len-21-diem-vic-pnj-tang-manh-20260824153908182.htm
+Tin cậy: cao. Đối chiếu mức đóng cửa với StockBiz và TTXVN.
+
+2. GIẢM 30% THUẾ CHO NHÓM DOANH THU KHÔNG QUÁ 10 TỶ ĐỒNG
+Phân loại: fact | Chính sách – chính trị – xã hội
+Thời gian: 24/08/2026 14:54 GMT+7
+Địa lý: Việt Nam
+Tóm tắt: Quốc hội thông qua nghị quyết giảm 30% thuế phải nộp trong kỳ tính thuế 2026–2027 cho cá nhân kinh doanh và doanh nghiệp có doanh thu mỗi năm không quá 10 tỷ đồng; nghị quyết có hiệu lực từ 24/8.
+Số liệu xác minh: 96% đại biểu tán thành. Bộ Tài chính cho biết 99,86% cá nhân/hộ kinh doanh và 81,1% doanh nghiệp sẽ thuộc phạm vi hưởng chính sách; dự kiến giảm thu ngân sách 3.191 tỷ đồng năm 2026 và 3.510 tỷ đồng năm 2027.
+Vì sao quan trọng: Hỗ trợ thanh khoản và sức chống chịu của mạng lưới đại lý, nhà cung cấp và doanh nghiệp siêu nhỏ.
+Tác động: Có thể giảm áp lực vốn lưu động ở nhóm đối tác nhỏ, nhưng cần kiểm tra điều kiện doanh thu và chống chia tách pháp nhân.
+Nguồn: VnExpress — Tier 2, newsroom; thông tin từ nghị quyết Quốc hội và giải trình Bộ Tài chính
+https://vnexpress.net/giam-30-thue-cho-ca-nhan-doanh-nghiep-co-doanh-thu-khong-qua-10-ty-dong-5112642.html
+Tin cậy: cao.
+
+3. VIETTEL POST NÂNG PHỤ PHÍ XĂNG DẦU DỊCH VỤ THƯỜNG LÊN 10%
+Phân loại: fact | Kinh tế – logistics
+Thời gian: 25/08/2026 06:00 GMT+7
+Địa lý: Việt Nam
+Tóm tắt: Viettel Post tăng phụ phí xăng dầu dịch vụ chuyển phát thông thường từ 8% lên 10% cước vận chuyển, áp dụng từ 24/8; dịch vụ hàng nặng giữ mức 12%.
+Số liệu xác minh: Đơn hàng cước 100.000 đồng tăng phụ phí thêm 2.000 đồng. Giá dầu diesel sau kỳ điều hành 20/8 tăng 1.310 đồng/lít lên 28.540 đồng/lít.
+Vì sao quan trọng: Phụ phí vận chuyển tác động trực tiếp chi phí giao hàng, đặc biệt với đơn nhỏ, vùng xa và mô hình giao nhiều lần.
+Tác động: Landed cost và chi phí last-mile có thể tăng; mức ảnh hưởng khác nhau giữa nhà vận chuyển vì GHTK và Vietnam Post chưa công bố điều chỉnh mới cùng thời điểm.
+Nguồn: Dân trí — Tier 2, newsroom; dẫn thông báo doanh nghiệp
+https://dantri.com.vn/kinh-doanh/viettel-post-tang-phu-phi-xang-dau-len-10-phi-giao-hang-them-dat-20260824200152021.htm
+Tin cậy: cao.
+
+4. BA CẶP BĂNG TẦN 900 MHZ SẮP ĐẤU GIÁ
+Phân loại: fact | Công nghệ và hạ tầng viễn thông trong nước
+Thời gian: 24/08/2026 15:00 GMT+7
+Địa lý: Việt Nam
+Tóm tắt: Bộ Khoa học và Công nghệ dự kiến đấu giá ba cặp khối băng tần 900 MHz ngày 9/9, mỗi cặp có giá khởi điểm hơn 1.056,9 tỷ đồng.
+Số liệu xác minh: Giấy phép có thời hạn 15 năm; doanh nghiệp được đăng ký tối đa hai cặp và đặt trước 55 tỷ đồng/cặp. Một số trường hợp phải duy trì tối thiểu 2.000 trạm phát sóng trong hai năm.
+Vì sao quan trọng: Băng tần thấp tăng độ phủ và khả năng xuyên vật cản, hỗ trợ 4G/5G trong nhà và khu vực rộng.
+Tác động: Chất lượng mạng tốt hơn có thể mở rộng nhu cầu thiết bị 5G; chi phí phổ tần và rollout cũng tạo áp lực capex cho nhà mạng.
+Nguồn: VnExpress — Tier 2, newsroom; dẫn thông báo Bộ Khoa học và Công nghệ
+https://vnexpress.net/ba-cap-bang-tan-vien-thong-nghin-ty-dong-sap-duoc-dau-gia-5112738.html
+Tin cậy: cao.
+
+5. IPHONE 17 PRO MAX GIẢM GIÁ CUỐI VÒNG ĐỜI
+Phân loại: attributed statement | Công nghệ và thị trường thiết bị trong nước
+Thời gian: 24/08/2026 07:14 GMT+7
+Địa lý: Việt Nam
+Tóm tắt: Giá iPhone 17 Pro Max 256GB tại một số hệ thống giảm 500.000 đồng còn khoảng 34,5 triệu đồng trước chu kỳ sản phẩm mới.
+Số liệu xác minh: Sau gần một năm, giá thấp hơn khoảng 9% so với thời điểm mở bán; đại diện CellphoneS cho biết model này chiếm hơn 50% doanh số iPhone tại hệ thống tính đến tháng 8 và tăng 40–50% so với iPhone 16 Pro Max cùng kỳ.
+Vì sao quan trọng: Đây là tín hiệu trực tiếp về clearance, price ladder và sức mua phân khúc premium.
+Tác động: Android flagship cần theo dõi khoảng cách giá sau khuyến mại; số liệu thị phần toàn thị trường chưa có dữ liệu công khai trong bài và không được suy rộng từ một hệ thống.
+Nguồn: Dân trí — Tier 2, newsroom; số bán hàng là phát biểu của đại lý
+https://dantri.com.vn/cong-nghe/gia-iphone-17-pro-max-tiep-tuc-giam-nhung-ngay-cuoi-vong-doi-20260823010540489.htm
+Tin cậy: trung bình-khá; giá và tỷ trọng bán hàng mang tính hệ thống, không phải market share Việt Nam.
+
+TIN QUỐC TẾ
+
+6. MỸ ĐE DỌA NÂNG THUẾ Ô TÔ VÀ LINH KIỆN CANADA LÊN 50%
+Phân loại: attributed statement | Kinh tế – thương mại quốc tế
+Thời gian: 25/08/2026 04:20 GMT+7
+Địa lý: Mỹ – Canada
+Tóm tắt: Tổng thống Mỹ Donald Trump nói sẽ tăng thuế ô tô, xe tải và linh kiện từ Canada từ 25% lên 50% kể từ 01/01, sau khi đàm phán thương mại hai nước đổ vỡ.
+Số liệu xác minh: Canada tuyên bố sẽ đáp trả tương ứng; một gói thuế 50% khác có thể áp lên gần 20 tỷ USD hàng nhập từ Canada sau khi đàm phán sụp đổ.
+Vì sao quan trọng: Xung đột thương mại lan sang chuỗi cung ứng ô tô và linh kiện Bắc Mỹ, làm tăng biến động chi phí và nhu cầu công nghiệp.
+Tác động: Rủi ro thuế quan rộng hơn cần được phản ánh vào điều khoản giá, xuất xứ và kế hoạch vận chuyển xuyên biên giới.
+Nguồn: BBC Business — Tier 2, newsroom
+https://www.bbc.co.uk/news/articles/c93vpd60654o
+Tin cậy: cao với phát biểu và mức thuế được công bố; hiệu lực tương lai còn phụ thuộc quyết định chính sách.
+
+7. MỸ MỞ RỘNG TRỪNG PHẠT IRAN, RỦI RO EO HORMUZ TĂNG
+Phân loại: attributed statement / risk | Địa chính trị – năng lượng
+Thời gian: 25/08/2026 06:48 GMT+7
+Địa lý: Mỹ – Iran – Trung Đông
+Tóm tắt: Bộ trưởng Tài chính Mỹ công bố chiến dịch trừng phạt mới, nhắm vào tài sản số, công nghệ, vàng, hàng không và vận tải; gần 60 thực thể, cá nhân và tàu bị áp biện pháp.
+Số liệu xác minh: Khoảng một phần năm dầu và khí toàn cầu thường đi qua eo Hormuz. Iran cảnh báo hoạt động hàng hải và xuất khẩu dầu trong khu vực nếu xung đột kéo dài.
+Vì sao quan trọng: Đây là rủi ro trực tiếp với giá năng lượng, cước vận tải, bảo hiểm và tỷ giá nhập khẩu.
+Tác động: Biến động landed cost có thể tăng nhanh; mức ảnh hưởng thực tế của gói trừng phạt còn chưa chắc chắn và được một số chuyên gia đánh giá là hạn chế trong ngắn hạn.
+Nguồn: BBC Business — Tier 2, newsroom; bài dẫn cảnh báo của Iran và Reuters
+https://www.bbc.co.uk/news/articles/c0qxew81y83o
+Tin cậy: cao với biện pháp đã công bố; trung bình với tác động dự báo.
+
+8. ALIBABA HUY ĐỘNG 10,2 TỶ USD ĐỂ TĂNG ĐẦU TƯ AI
+Phân loại: fact | Kinh tế – công nghệ quốc tế
+Thời gian: 24/08/2026 09:55 GMT+7; cập nhật 15:21 GMT+7
+Địa lý: Trung Quốc/Hồng Kông
+Tóm tắt: Alibaba phát hành 710 triệu cổ phiếu mới với giá 112,70 HKD/cổ phiếu, huy động khoảng 80 tỷ HKD (10,2 tỷ USD) cho năng lực AI full-stack và hạ tầng.
+Số liệu xác minh: Cổ phiếu giảm tới 10%; giá phát hành thấp hơn mức đóng cửa 123 HKD của phiên trước. Capex quý tháng 6 tăng 75% lên 67,7 tỷ nhân dân tệ trong khi lợi nhuận giảm 75%.
+Vì sao quan trọng: Quy mô đầu tư cho AI tại Trung Quốc tiếp tục tăng, nhưng chi phí vốn và pha loãng tạo áp lực định giá.
+Tác động: Nhu cầu máy chủ, bộ nhớ và kết nối có thể được hỗ trợ; doanh nghiệp tiêu dùng phải cân đối đầu tư AI với lợi nhuận ngắn hạn.
+Nguồn: CNBC Technology — Tier 2, newsroom; dẫn công bố của Alibaba
+https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html
+Tin cậy: cao.
+
+9. GẦN 3 TRIỆU XE TESLA SẢN XUẤT TẠI TRUNG QUỐC BỊ THU HỒI
+Phân loại: fact | Công nghệ, sản phẩm và an toàn
+Thời gian: 25/08/2026 06:53 GMT+7
+Địa lý: Trung Quốc
+Tóm tắt: Trung Quốc yêu cầu thu hồi 2,98 triệu xe Tesla sản xuất trong nước vì tay nắm cửa ẩn có thể khó nhận biết và vận hành khi khẩn cấp; XPeng, Xiaomi và Geely cũng nằm trong phạm vi xử lý.
+Số liệu xác minh: Tesla sẽ bổ sung nhãn cảnh báo và cập nhật phần mềm để tự hạ cửa kính khi va chạm. Quy định mới của Trung Quốc yêu cầu cơ cấu mở cửa cơ học trong và ngoài xe từ 01/01/2027.
+Vì sao quan trọng: Thiết kế công nghiệp và phần mềm không thể thay thế hoàn toàn cơ chế an toàn vật lý.
+Tác động: Chi phí thu hồi, dịch vụ sau bán và kiểm định thiết kế có thể tăng; bài học áp dụng trực tiếp cho thiết bị kết nối và smart hardware.
+Nguồn: BBC Business — Tier 2, newsroom; dẫn cơ quan quản lý và thông báo Tesla
+https://www.bbc.co.uk/news/articles/c4g6ggdg030o
+Tin cậy: cao.
+
+10. NVIDIA ĐƯA RACK GROQ 3 LPX VÀO SẢN XUẤT
+Phân loại: company statement / fact | Công nghệ quốc tế
+Thời gian: 24/08/2026 22:00 GMT+7; cập nhật 25/08/2026 00:19 GMT+7
+Địa lý: Toàn cầu
+Tóm tắt: Nvidia cho biết rack Groq 3 LPX đã vào sản xuất và sẽ vận hành tại Nebius trong năm 2026, sau thương vụ mua tài sản Groq trị giá 20 tỷ USD.
+Số liệu xác minh: Một rack chứa 256 chip Groq 3; Nvidia dẫn benchmark của Artificial Analysis ở mức 3.400 token/giây. Chip Groq dùng 500 MB SRAM trên die và được Samsung sản xuất.
+Vì sao quan trọng: AI inference độ trễ thấp trở thành phân khúc hạ tầng riêng, bổ sung cho GPU huấn luyện và suy luận tổng quát.
+Tác động: Nhu cầu SRAM, hệ thống rack và dịch vụ inference premium tăng; benchmark do nhà cung cấp công bố cần được kiểm tra độc lập trước quyết định mua.
+Nguồn: CNBC Technology — Tier 2, newsroom; số kỹ thuật từ Nvidia
+https://www.cnbc.com/2026/08/24/nvidia-says-groq-racks-will-be-online-this-year-after-20-billion-deal.html
+Tin cậy: cao với thông số công bố; trung bình-khá với hiệu năng thực tế.
+
+11. TWITCH VÀ AMAZON BỊ KIỆN VỀ DỮ LIỆU HUẤN LUYỆN AI
+Phân loại: fact / allegation | Công nghệ và pháp lý dữ liệu
+Thời gian: 24/08/2026 20:09 GMT+7
+Địa lý: Mỹ/Toàn cầu
+Tóm tắt: Một đơn kiện tập thể cáo buộc Twitch và Amazon dùng video của streamer để huấn luyện AI mà không có đồng ý hoặc bồi thường phù hợp; đây là cáo buộc chưa được tòa phán quyết.
+Số liệu xác minh: Streamer tạo hơn 215 triệu giờ nội dung trong vài tháng đầu năm 2026; cơ chế opt-out chỉ áp dụng theo từng stream.
+Vì sao quan trọng: Dữ liệu huấn luyện AI có thể phát sinh nghĩa vụ hợp đồng, quyền nội dung và cơ chế đồng ý chi tiết.
+Tác động: Khi mua hoặc triển khai AI, cần truy vết nguồn dữ liệu, quyền sử dụng và phạm vi opt-out; rủi ro pháp lý chưa phải nghĩa vụ đã được xác lập.
+Nguồn: BBC Technology — Tier 2, newsroom
+https://www.bbc.co.uk/news/articles/c70ljqk5kjqo
+Tin cậy: cao về việc khởi kiện; chưa xác nhận đúng/sai của cáo buộc.
+
+12. LENOVO XÁC NHẬN BIOS V42 CÓ THỂ LÀM LEGION GO KHÔNG KHỞI ĐỘNG
+Phân loại: company statement / risk | Công nghệ thiết bị
+Thời gian: 25/08/2026 06:38 GMT+7
+Địa lý: Toàn cầu
+Tóm tắt: Lenovo xác nhận một số Legion Go 8APU1 có thể bị màn hình đen khi cài BIOS V42; bản cập nhật đã bị gỡ khỏi website hỗ trợ trong khi hãng tiếp tục xác minh.
+Số liệu xác minh: Sự cố không áp dụng cho Legion Go S hoặc Legion Go 2. Lenovo hướng dẫn thử giữ nút nguồn khoảng 10 giây và liên hệ hỗ trợ nếu máy không trở lại bình thường.
+Vì sao quan trọng: Cập nhật firmware lỗi chuyển thành chi phí bảo hành, thời gian ngừng sử dụng và tổn hại niềm tin.
+Tác động: Điều khoản mua thiết bị nên làm rõ rollback, bảo hành ngoài lỗi người dùng, phạm vi sửa miễn phí và SLA hỗ trợ sau cập nhật.
+Nguồn: The Verge — Tier 2, newsroom; dẫn tuyên bố Lenovo
+https://www.theverge.com/games/983457/lenovo-bad-legion-go-bios-update-bricked
+Tin cậy: cao về xác nhận sự cố; phạm vi lô máy bị ảnh hưởng chưa xác định hoàn chỉnh.
+
+HÀM Ý TỔNG HỢP
+
+Purchasing / thị trường Android
+- Giữ PO linh hoạt ở flagship trong giai đoạn clearance iPhone và NPI tháng 9; so sánh net price sau rebate thay vì MSRP.
+- Yêu cầu hãng cập nhật tác động DRAM/NAND theo RAM/ROM, thời điểm hiệu lực và price protection cho tồn kho cũ; TrendForce vẫn dự báo giá hợp đồng quý III tăng hai chữ số.
+- Không suy rộng số bán của một đại lý thành market share. NIQ/GfK công khai cho kỳ này: chưa có dữ liệu công khai.
+
+Business / vận hành
+- Cập nhật landed-cost model với phụ phí Viettel Post 10%, đồng thời benchmark các nhà vận chuyển chưa điều chỉnh để tránh mặc định toàn thị trường cùng tăng.
+- Rà soát điều kiện hưởng giảm 30% thuế cho đối tác doanh thu không quá 10 tỷ đồng và không tự tính lợi ích nếu chưa có hồ sơ đủ điều kiện.
+- Đưa quyền rollback firmware, trách nhiệm sửa lỗi cập nhật, nguồn dữ liệu AI và SLA hỗ trợ vào hợp đồng mua sắm công nghệ.
+
+Góc nhìn đầu tư tham khảo
+- Kịch bản tích cực: thanh khoản và độ rộng thị trường cải thiện, dòng ngoại tiếp tục mua ròng và VN-Index vượt 1.800 mà không phụ thuộc quá lớn vào VIC/VHM.
+- Kịch bản rủi ro: thuế quan Mỹ–Canada, trừng phạt Iran và eo Hormuz đẩy năng lượng, vận tải và USD/VND cùng tăng; theo dõi khối ngoại, dầu, tỷ giá và cước vận tải.
+- Đây là thông tin tham khảo, không phải khuyến nghị đầu tư cá nhân hay chỉ dẫn mua/bán.
+
+MINH BẠCH NGUỒN — COVERAGE RECORD
+
+Nguồn bắt buộc Việt Nam:
+- VnExpress Kinh doanh: scanned_with_items.
+- VnExpress Khoa học công nghệ: scanned_with_items.
+- VnExpress Tin mới nhất: scanned_with_items.
+- Dân trí Kinh doanh: scanned_with_items.
+- Dân trí Công nghệ: scanned_with_items.
+- Dân trí Trang chủ: scanned_with_items.
+
+Nguồn bắt buộc quốc tế:
+- Reuters Business RSS: failed_with_reason — HTTP 401 sau tối đa hai lần retry và một lần kiểm tra fallback; không dùng snippet làm nguồn.
+- Reuters Technology RSS: failed_with_reason — HTTP 401 sau tối đa hai lần retry và một lần kiểm tra fallback; không dùng snippet làm nguồn.
+- BBC Business: scanned_with_items.
+- BBC Technology: scanned_with_items.
+- CNBC Markets: scanned_with_items.
+- CNBC Technology: scanned_with_items.
+- Nikkei Asia Business: scanned_no_qualifying_item — feed truy cập được nhưng không có mục timestamp nằm trong cửa sổ.
+- The Verge: scanned_with_items.
+- Bloomberg Markets: failed_with_reason — HTTP 403, không xác minh được bài miễn phí.
+- Financial Times Markets: failed_with_reason — HTTP 403, không xác minh được bài miễn phí.
+
+Nguồn thị trường và dữ liệu bổ sung:
+- HOSE, HNX, VSDC, SSC: đã kiểm tra trang chính/công bố; HOSE và SSC cần JavaScript nên dữ liệu phiên được đối chiếu với HNX, Dân trí, StockBiz và TTXVN.
+- Vietstock và CafeF: trang chuyên mục truy cập được, đã kiểm tra diễn biến thị trường/công bố.
+- SBV: trang trả “Request Rejected”; không đưa tỷ giá trung tâm chưa xác minh.
+- Vietcombank: tỷ giá USD/VND truy cập trực tiếp, cập nhật 23:00 ngày 24/8.
+- TrendForce: dùng dự báo công khai quý III/2026 làm bối cảnh; không coi là dữ liệu spot trong cửa sổ.
+- Freightos/Baltic, PMI Việt Nam, DXY, Brent/WTI và các chỉ số khu vực: không có giá trị đúng kỳ được xác minh đủ tin cậy tại thời điểm chốt; không ước tính và không hiển thị KPI.
+
+DELIVERY
+
+- Email/Gmail: không gửi, không tạo draft, không thực hiện thao tác Gmail theo yêu cầu.
+- HTML theo ngày: briefings/2026-08-25/index.html
+- Plain text: briefings/2026-08-25/briefing.txt
+- GitHub Pages latest: index.html
+
+Bản tin phục vụ thông tin và quyết định Purchasing. Không phải khuyến nghị đầu tư cá nhân.

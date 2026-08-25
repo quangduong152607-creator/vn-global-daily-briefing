@@ -1,0 +1,82 @@
+NHỊP ĐẬP THỊ TRƯỜNG — THỨ HAI, 24/08/2026
+
+Cửa sổ tuần: 17/08/2026 07:00 → 24/08/2026 07:00 (Asia/Ho_Chi_Minh)
+Cửa sổ 24 giờ: 23/08/2026 07:00 → 24/08/2026 07:00
+Chế độ: chạy bù thủ công lúc 13:44, giữ nguyên cutoff 07:00.
+
+EXECUTIVE SUMMARY
+
+VN-Index phục hồi 39,04 điểm lên 1.768,12, nhưng 87% mức tăng đến từ riêng phiên 21/8. Thanh khoản bình quân 12.414 tỷ đồng/phiên, thấp nhất 6 tuần; khối ngoại bán ròng khoảng 2.660 tỷ đồng. Toàn cầu, lợi suất trái phiếu dài hạn và dầu cao gây áp lực lên định giá và chi phí nhập khẩu. Với ngành hàng công nghệ, đà tăng giá từ iPhone 15, thiết bị Amazon và hệ thống AI của Nvidia cho thấy chi phí bộ nhớ đã truyền sang giá bán.
+
+Khuyến nghị Purchasing: ưu tiên bảo vệ biên lợi nhuận và vòng quay tồn kho; khóa sớm giá/nguồn cho SKU chủ lực có price protection, giữ PO linh hoạt ở phân khúc dưới 200 USD.
+
+MARKET PULSE
+
+- VN-Index: 1.768,12 điểm; +39,04 điểm (+2,26%) trong tuần.
+- Thanh khoản: 62.070 tỷ đồng/tuần; bình quân 12.414 tỷ đồng/phiên; giảm 21,3%.
+- Khối ngoại: bán ròng khoảng 2.660 tỷ đồng trên hai sàn.
+- US 10Y: khoảng 4,71%.
+- Dầu Brent: khoảng 93,64 USD/thùng; tăng hơn 5% trong tuần.
+- DXY: khoảng 98,74 điểm; giảm gần 0,9% trong tuần.
+- Vàng: khoảng 4.560 USD/oz; LPL ghi nhận +5,56% trong tuần.
+
+TIN CHỌN LỌC
+
+1. VN-Index về 1.768 điểm, thanh khoản bình quân thấp nhất 6 tuần.
+Hàm ý: cần thêm các phiên duy trì 15.000–16.000 tỷ đồng và dòng ngoại cân bằng để xác nhận xu hướng.
+Nguồn: https://investify.vn/en/blog/2026-08-22-vn-index-ve-lai-1768-diem
+
+2. Trái phiếu và dầu kéo khẩu vị rủi ro toàn cầu đi xuống.
+Reuters ghi nhận MSCI World hướng tới tuần giảm mạnh nhất từ giữa tháng 7; lợi suất 10 năm Mỹ khoảng 4,71%.
+Nguồn: https://in.marketscreener.com/news/asia-shares-downbeat-on-the-week-as-bond-yields-oil-stay-high-ce7859d3d18bf326
+
+3. MWG có hơn 41.000 tỷ đồng tiền và tiền gửi tại cuối tháng 6.
+Nửa đầu năm, MWG ghi nhận gần 1.700 tỷ đồng lãi tiền gửi và cho vay.
+Nguồn: https://vnexpress.net/nhung-doanh-nghiep-co-ty-usd-tien-mat-5111429.html
+
+4. TikTok dàn xếp 400 triệu USD trong vụ quyền riêng tư trẻ em.
+Nguồn: https://www.justice.gov/opa/pr/justice-department-secures-400m-settlement-tiktok-and-bytedance-resolve-childrens-privacy
+
+5. Nhà máy điện nhỏ tại Anh dừng hoạt động sau tấn công mạng được cho là liên hệ Iran.
+Hàm ý: đưa bảo mật nhà cung cấp, phân tách IT/OT và phương án dự phòng vào tiêu chí mua sắm.
+Nguồn: https://www.bbc.co.uk/news/articles/ce9793g34yvo
+
+6. iPhone 15 128GB tại Việt Nam tăng 1 triệu đồng lên 18,5 triệu đồng.
+Nguồn: https://dantri.com.vn/cong-nghe/gia-iphone-15-tiep-tuc-tang-tai-viet-nam-20260822000808538.htm
+
+7. Google được cho là chuyển sản xuất Pixel khỏi Trung Quốc từ 2027, với Ấn Độ và Việt Nam là hai điểm đến chính.
+Nguồn: https://www.tomshardware.com/phones/google-to-stop-making-pixel-devices-in-china-report-claims-india-and-vietnam-prime-candidates-for-manufacturing-shift-owing-to-beijing-washington-tensions
+
+8. OpenAI giảm tốc huấn luyện khi năng lực tấn công mạng của mô hình vượt ngưỡng cảnh báo.
+Nguồn: https://openai.com/index/pacing-model-development-cyber-capabilities/
+
+9. Nvidia báo khách hàng mức tăng giá trên 15% cho một số hệ thống AI giao đầu năm sau.
+Nguồn: https://www.semafor.com/article/08/23/2026/nvidia-says-its-raising-some-prices-15
+
+10. Unitree sau IPO: huy động 6,1 tỷ nhân dân tệ, nhưng bài toán thương mại hóa còn lớn.
+Nguồn: https://vnexpress.net/thach-thuc-cho-unitree-sau-khi-len-san-5111187.html
+
+11. Doanh nghiệp Mỹ điều chỉnh cách triển khai AI để giữ niềm tin người lao động.
+Nguồn: https://www.cnbc.com/2026/08/23/ai-backlash-workers-job-losses.html
+
+12. Amazon tăng giá Echo, Kindle, Fire TV và eero tới 60% khi chi phí bộ nhớ/lưu trữ tăng.
+Nguồn: https://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv
+
+ANDROID PURCHASING WATCHLIST
+
+- Kiểm tra mức tăng BOM theo RAM/ROM và thời điểm hiệu lực.
+- Xác nhận allocation cho phân khúc entry-level, không tăng PO đại trà.
+- Chốt price protection cho old stock trước bảng giá mới.
+- Kiểm tra lifecycle/NPI tháng 9 để tránh overlap model.
+- Theo dõi cơ hội chuỗi cung ứng Pixel tại Việt Nam nhưng chưa dùng để nâng forecast bán lẻ.
+
+MINH BẠCH NGUỒN
+
+- VnExpress và Dân trí: quét đủ nhóm Kinh doanh, Công nghệ, trang mới/trang chủ.
+- BBC Business/Technology, CNBC Markets/Technology và The Verge: quét thành công.
+- Reuters RSS/category trả 401; dùng bài Reuters được phân phối lại có timestamp.
+- Nikkei feed thiếu timestamp chuẩn ở mục nổi bật; chỉ dùng tin được nguồn thứ hai xác nhận.
+- Bloomberg và Financial Times chặn bằng trang xác minh; không tự điền dữ liệu.
+- Baseline ITPC/Omdia Q1/2026: Việt Nam −12%, phân khúc dưới 200 USD giảm hơn 30%, ASP Đông Nam Á 349 USD (+19%). Trang ITPC không hiển thị timestamp rõ nên chỉ dùng làm bối cảnh.
+
+Bản tin phục vụ thông tin và quyết định Purchasing, không phải khuyến nghị đầu tư.
