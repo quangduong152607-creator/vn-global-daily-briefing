@@ -1,0 +1,237 @@
+BẢN TIN 24H | KINH TẾ – THỊ TRƯỜNG – CÔNG NGHỆ | 26/08/2026
+
+Run key: vn-global-daily-news-briefing:2026-08-26:daily
+Chế độ: Daily mode — chạy bù lúc 08:22, hoàn tất 08:47, Asia/Ho_Chi_Minh.
+Cửa sổ dữ liệu cố định: [25/08/2026 07:00, 26/08/2026 07:00), Asia/Ho_Chi_Minh.
+
+EXECUTIVE SUMMARY
+
+1. VN-Index tăng phiên thứ tư nhưng chỉ chốt 1.791,41 điểm, dưới mốc 1.800; 222 mã HOSE giảm so với 77 mã tăng. Thanh khoản ba sàn hơn 22.000 tỷ đồng và khối ngoại mua ròng 322 tỷ đồng, nhưng đà tăng vẫn phụ thuộc lớn vào VIC/VHM.
+2. Sức khỏe kênh SME còn yếu: chỉ 8,8% trong khoảng 914.000 doanh nghiệp nhỏ và vừa tiếp cận được vốn vay. Điều này đáng lưu ý khi đánh giá hạn mức công nợ, sức mua và khả năng tài trợ tồn kho của đại lý nhỏ.
+3. Hướng đi công nghệ/sản xuất có hai tín hiệu tích cực: ba thiết bị đầu cuối Amazon Leo sản xuất tại Bắc Ninh được cấp phép đo kiểm, và Việt Nam–Singapore chọn bán dẫn, sản xuất tiên tiến, AI và luân chuyển dữ liệu làm trọng tâm kết nối.
+4. Rủi ro chi phí quốc tế phân hóa: Canada áp thuế đáp trả 15–50% lên 27,6 tỷ CAD hàng Mỹ từ 8/9, bao gồm điện tử và thiết bị. Ngược lại, Brent giảm 3,6% còn 87,27 USD/thùng, tạm hạ nhiệt áp lực lạm phát và vận tải dù rủi ro Iran/Hormuz chưa kết thúc.
+5. Chuỗi cung ứng công nghệ tiếp tục bị siết: Đài Loan truy tố 9 người trong vụ máy chủ AI B300 sang Trung Quốc; đồng thời Nothing OS 5.0 cho thấy chi phí vòng đời Android ngày càng phụ thuộc chính sách cập nhật theo từng model.
+
+MARKET PULSE — CHỐT TRONG CỬA SỔ
+
+- VN-Index: 1.791,41 điểm; +2,63 điểm (+0,15%) ngày 25/8. HOSE có 222 mã giảm và 77 mã tăng.
+- HNX-Index: 282,65 điểm, giảm trong phiên 25/8.
+- UPCoM-Index: 126,78 điểm, giảm trong phiên 25/8.
+- Thanh khoản: hơn 22.000 tỷ đồng trên ba sàn; riêng khớp lệnh HOSE gần 21.400 tỷ đồng, cao nhất một tháng.
+- Khối ngoại: mua ròng 322 tỷ đồng; riêng VIC được mua ròng gần 362 tỷ đồng.
+- USD/VND Vietcombank lúc 23:00 ngày 25/8: mua tiền mặt 25.900; mua chuyển khoản 25.930; bán 26.310 đồng/USD. Tỷ giá trung tâm NHNN ngày 25/8: 25.615 đồng/USD, tăng 15 đồng.
+- Mỹ: S&P 500 7.677,28 điểm (+0,3%); Dow 53.577,40 (+0,3%); Nasdaq 26.151,30 (+0,7%) ngày 25/8.
+- Năng lượng: Brent 87,27 USD/thùng, giảm 3,6%; lợi suất Treasury Mỹ 10 năm giảm về 4,63% từ 4,70%.
+- Châu Á ngày 25/8: Nikkei 225 +0,50% lên 65.856,43; KOSPI +0,68% lên 6.742,74; Shanghai Composite +0,19% lên 3.889,45; Hang Seng -0,02% còn 25.511,10.
+- Mobile DRAM, bối cảnh Q3/2026: TrendForce dự báo giá hợp đồng tăng 8–13% QoQ; đây là dự báo quý, không phải giá spot trong ngày.
+
+Nguồn Market Pulse:
+- Chứng khoán Việt Nam: https://dantri.com.vn/kinh-doanh/vn-index-vuot-moc-1800-diem-roi-ha-nhiet-co-phieu-vingroup-dan-dat-thi-truong-20260825160816410.htm
+- USD/VND Vietcombank: https://www.vietcombank.com.vn/api/exchangerates?date=2026-08-25
+- Tỷ giá trung tâm: https://infographics.vn/interactive-ty-gia-trung-tam-ngay-25-8-2026-1-usd-25615-vnd/241997.vna
+- Mỹ và Brent: https://apnews.com/article/stocks-markets-futures-nvidia-bonds-oil-f17fc8cfc61f40114eb7246701b4695d
+- Châu Á: https://edgeconsultancykw.com/asia-market-wrap-25-august-2026/
+- Mobile DRAM Q3/2026: https://www.trendforce.com/research/download/RP260803NC
+
+TIN TRONG NƯỚC
+
+1. VN-INDEX TĂNG NHƯNG “XANH VỎ, ĐỎ LÒNG”
+Phân loại: fact | Kinh tế – tài chính – chứng khoán Việt Nam
+Thời gian: 25/08/2026 15:51 GMT+7
+Địa lý: Việt Nam
+Tóm tắt: VN-Index có lúc tăng gần 25 điểm và vượt 1.800, nhưng chốt tại 1.791,41 điểm, chỉ tăng 2,63 điểm. Đà tăng phụ thuộc chủ yếu vào VIC và VHM.
+Số liệu xác minh: HOSE có 222 mã giảm, gần gấp ba lần 77 mã tăng; VIC tăng 2,8%, VHM tăng 0,75%, đóng góp gần 11 điểm. Thanh khoản ba sàn hơn 22.000 tỷ đồng; khối ngoại mua ròng 322 tỷ đồng.
+Vì sao quan trọng: Chỉ số headline mạnh hơn độ rộng thực tế, nên chưa phải tín hiệu đồng pha về sức cầu.
+Tác động: Tâm lý tài sản cải thiện, nhưng kế hoạch tồn kho không nên dựa riêng vào việc VN-Index tăng.
+Nguồn: Dân trí — Tier 2, newsroom
+https://dantri.com.vn/kinh-doanh/vn-index-vuot-moc-1800-diem-roi-ha-nhiet-co-phieu-vingroup-dan-dat-thi-truong-20260825160816410.htm
+Tin cậy: cao. Đối chiếu với VnExpress; số liệu chốt phiên trùng khớp.
+
+2. CHỈ 8,8% DOANH NGHIỆP NHỎ VÀ VỪA TIẾP CẬN ĐƯỢC VỐN VAY
+Phân loại: specialist-data / attributed analysis | Kinh tế – doanh nghiệp
+Thời gian: 26/08/2026 00:01 GMT+7
+Địa lý: Việt Nam
+Tóm tắt: Fiin Group ghi nhận Việt Nam có khoảng 914.000 SME vào cuối tháng 7, nhưng chỉ khoảng 80.000 doanh nghiệp có vốn vay.
+Số liệu xác minh: SME chiếm 94% pháp nhân, nhưng tỷ lệ tiếp cận vốn vay chỉ 8,8%, giảm 0,5 điểm phần trăm so với 2025; doanh nghiệp lớn đạt 47,1%. Khoảng 67.000 SME hoạt động trên 5 năm chưa vay nhưng có dòng tiền hoạt động và tăng trưởng doanh thu dương.
+Vì sao quan trọng: Hạn chế vốn là nút thắt trực tiếp với khả năng duy trì hoạt động và mở rộng của đại lý/nhà cung cấp nhỏ.
+Tác động: Cần tách nhu cầu tín dụng thực, khả năng vay và rủi ro công nợ khi xếp hạng đối tác; không coi “chưa vay” là đồng nghĩa với “thiếu vốn”.
+Nguồn: VnExpress — Tier 2, newsroom; số liệu Fiin Group
+https://vnexpress.net/chua-den-10-doanh-nghiep-nho-va-vua-co-the-vay-von-5113325.html
+Tin cậy: trung bình-khá; bài không công bố đầy đủ phương pháp/mẫu dữ liệu của Fiin Group.
+
+3. THIẾT BỊ AMAZON LEO SẢN XUẤT TẠI VIỆT NAM ĐƯỢC CẤP PHÉP ĐO KIỂM
+Phân loại: fact | Công nghệ và sản xuất trong nước
+Thời gian: 25/08/2026 11:12 GMT+7
+Địa lý: Việt Nam
+Tóm tắt: Cục Tần số vô tuyến điện cấp phép sử dụng tần số để thử nghiệm, kiểm tra sau sản xuất cho ba mẫu thiết bị đầu cuối Amazon Leo tại Bắc Ninh.
+Số liệu xác minh: Amazon Leo lên kế hoạch hơn 3.200 vệ tinh; đến hết Q2/2026 đã phóng gần 400 vệ tinh qua hơn 10 lần phóng. Hãng công bố tốc độ thiết kế tới 400 Mb/s cho cá nhân và 1 Gb/s cho doanh nghiệp; chưa thương mại hóa đại trà.
+Vì sao quan trọng: Đây là dấu hiệu cụ thể về vai trò sản xuất thiết bị kết nối vệ tinh của Việt Nam.
+Tác động: Mở cơ hội cho nhà cung cấp linh kiện, EMS và logistics; không đồng nghĩa Amazon Leo đã được phép bán dịch vụ tại Việt Nam.
+Nguồn: VnExpress — Tier 2, newsroom; dẫn Cục Tần số vô tuyến điện
+https://vnexpress.net/amazon-duoc-thu-nghiem-thiet-bi-internet-ve-tinh-san-xuat-tai-viet-nam-5113092.html
+Tin cậy: cao với giấy phép/ba mẫu; tốc độ là công bố của hãng.
+
+4. VIỆT NAM–SINGAPORE CHỌN BÁN DẪN, AI VÀ DỮ LIỆU LÀM TRỌNG TÂM KẾT NỐI
+Phân loại: fact / policy statement | Chính sách – công nghệ
+Thời gian: 25/08/2026 22:40 GMT+7; tuyên bố chính thức công bố trong ngày 25/8
+Địa lý: Việt Nam – Singapore
+Tóm tắt: Hai nước nhất trí tầm nhìn trở thành đối tác công nghệ chiến lược hàng đầu Đông Nam Á.
+Số liệu xác minh: Lĩnh vực ưu tiên gồm kinh tế dữ liệu, sản xuất tiên tiến, bán dẫn, công nghệ sinh học, lượng tử và AI; hai bên nêu cơ chế trao đổi dữ liệu tin cậy và điều khoản hợp đồng mẫu ASEAN.
+Vì sao quan trọng: Khuôn khổ này có thể giảm ma sát hợp tác R&D, sản xuất và luân chuyển dữ liệu xuyên biên giới.
+Tác động: Cơ hội trung hạn cho vendor/nhà cung cấp bán dẫn và sản xuất thông minh; hiện là khung định hướng, chưa phải cam kết đơn hàng hay ưu đãi cụ thể.
+Nguồn: Bộ Ngoại giao Việt Nam — Tier 1, primary
+https://vnembassy-vienna.mofa.gov.vn/web/guest/tin-chi-tiet/chi-tiet/tuyen-bo-chung-viet-nam-singapore-ve-chien-luoc-ket-noi-cong-nghe-61753-138.html
+Tin cậy: cao.
+
+5. DOANH NGHIỆP CÓ THỂ BỊ PHẠT TỚI 100 TRIỆU ĐỒNG NẾU GỌI QUẢNG CÁO SAI GIỜ
+Phân loại: fact | Chính sách – bảo vệ dữ liệu/khách hàng
+Thời gian: 25/08/2026 19:02 GMT+7
+Địa lý: Việt Nam
+Tóm tắt: Nị định 330/2026/NĐ-CP quy định cuộc gọi quảng cáo chỉ trong 08:00–17:00 và tin nhắn quảng cáo trong 07:00–22:00, trừ khi có thỏa thuận khác.
+Số liệu xác minh: Tối đa một cuộc gọi và ba tin nhắn trong 24 giờ nếu không có thỏa thuận; cá nhân vi phạm khung giờ/tần suất có thể bị phạt 30–50 triệu đồng, tổ chức bị phạt gấp đôi. Gọi vào Danh sách không quảng cáo có thể khiến tổ chức bị phạt 160–180 triệu đồng.
+Vì sao quan trọng: Tele-sales, CRM và nhà thầu call-center phải chứng minh được sự đồng ý và giới hạn tần suất.
+Tác động: Chi phí tuân thủ tăng, nhưng giảm rủi ro khiếu nại và tổn hại thương hiệu; hợp đồng vendor cần nêu rõ log consent và trách nhiệm vi phạm.
+Nguồn: Dân trí — Tier 2, newsroom; đối chiếu Nị định 330/2026/NĐ-CP
+https://dantri.com.vn/cong-nghe/goi-dien-quang-cao-ngoai-8h-17h-co-the-bi-phat-den-100-trieu-dong-20260825120034362.htm
+Tin cậy: cao. Văn bản gốc: https://vanban.chinhphu.vn/?classid=1&docid=219266&pageid=27160&typegroupid=4
+
+6. 131 TRẠM BTS MẤT LIÊN LẠC DO MƯA LŨ SAU BÃO NARRA
+Phân loại: fact / operational risk | Công nghệ – hạ tầng
+Thời gian: 25/08/2026 15:50 GMT+7
+Địa lý: Việt Nam
+Tóm tắt: Mưa lũ làm mất liên lạc 131 trạm BTS tại Lạng Sơn, Quảng Ninh và Hải Phòng; các nhà mạng triển khai roaming để duy trì dịch vụ.
+Số liệu xác minh: Lạng Sơn mất 73/1.983 vị trí (4%), Quảng Ninh 24/4.047 (0,5%), Hải Phòng 34/4.818 (0,7%). Bốn trong 65 xã ở Lạng Sơn mất kết nối mạng truyền số liệu cấp 2 do cắt điện.
+Vì sao quan trọng: Sự cố đồng thời điện–viễn thông có thể làm gián đoạn POS, thanh toán, giao nhận và liên lạc cửa hàng.
+Tác động: Roaming giảm mất kết nối, nhưng cần chuẩn bị multi-SIM, offline mode và nguồn điện dự phòng cho điểm bán tại vùng rủi ro.
+Nguồn: VnExpress — Tier 2, newsroom; dẫn Bộ Khoa học và Công nghệ
+https://vnexpress.net/hon-100-tram-bts-mat-lien-lac-do-mua-lu-sau-bao-narra-5113247.html
+Tin cậy: cao.
+
+TIN QUỐC TẾ
+
+7. CANADA ÁP THUẾ ĐÁP TRẢ 15–50% LÊN 27,6 TỶ CAD HÀNG MỸ
+Phân loại: fact | Kinh tế – thương mại quốc tế
+Thời gian: 25/08/2026; cập nhật 26/08/2026 05:52 GMT+7
+Địa lý: Canada – Mỹ
+Tóm tắt: Canada công bố các mức thuế đáp trả có hiệu lực từ 8/9, đối ứng theo giá trị và thuế suất với gói thuế Mỹ.
+Số liệu xác minh: Thuế 15%, 25% và 50% áp lên 27,6 tỷ CAD hàng Mỹ; nhóm ảnh hưởng gồm thép, sữa, đồ gia dụng, máy nông nghiệp, bột/giấy và điện tử. Canada đồng thời công bố gói hỗ trợ 7,5 tỷ CAD.
+Vì sao quan trọng: Hàng điện tử và thiết bị bị đưa trực tiếp vào phạm vi thuế, làm phức tạp hóa pricing và phân bổ hàng tại Bắc Mỹ.
+Tác động: Vendor toàn cầu có thể điều chỉnh SKU, xuất xứ và chính sách giá theo thị trường; Việt Nam cần theo dõi cơ hội chuyển dịch nguồn cung lẫn rủi ro thuế lan rộng.
+Nguồn: Bộ Tài chính Canada — Tier 1, primary
+https://www.canada.ca/en/department-finance/news/2026/08/canada-announces-targeted-countermeasures-and-substantive-support-for-workers-and-businesses-in-response-to-us-tariffs.html
+Tin cậy: cao. AP và Dân trí đối chiếu cùng quy mô khoảng 20 tỷ USD.
+
+8. DẦU HẠ NHIỆT, CHỨNG KHOÁN MỸ VÀ TRÁI PHIẾU ỔN ĐỊNH HƠN
+Phân loại: fact | Kinh tế – tài chính quốc tế
+Thời gian: 25/08/2026; cập nhật 26/08/2026 04:13 GMT+7
+Địa lý: Mỹ / toàn cầu
+Tóm tắt: Dầu Brent giảm phiên thứ hai, giúp hạ nhiệt lo ngại lạm phát và lợi suất, trong khi ba chỉ số chính của Mỹ cùng tăng.
+Số liệu xác minh: Brent giảm 3,6% còn 87,27 USD/thùng; Treasury 10 năm giảm từ 4,70% về 4,63%. S&P 500 +0,3% lên 7.677,28; Dow +0,3% lên 53.577,40; Nasdaq +0,7% lên 26.151,30.
+Vì sao quan trọng: Dầu và lợi suất là hai biến số chính cho landed cost, USD và khẩu vị rủi ro.
+Tác động: Chi phí năng lượng/vận tải được giải tỏa ngắn hạn; không nên suy rộng thành xu hướng bền vững do Brent vẫn biến động trong vùng 72–102 USD tháng qua.
+Nguồn: Associated Press — Tier 2, newsroom
+https://apnews.com/article/stocks-markets-futures-nvidia-bonds-oil-f17fc8cfc61f40114eb7246701b4695d
+Tin cậy: cao.
+
+9. TRỪNG PHẠT IRAN CÓ THỂ TÁC ĐỘNG HẠN CHẾ NẾU KHÔNG SIẾT THỰC THI
+Phân loại: analysis / attributed statements | Địa chính trị – năng lượng
+Thời gian: 25/08/2026 22:04 GMT+7
+Địa lý: Iran – Mỹ – châu Á
+Tóm tắt: Mỹ mở rộng trừng phạt đối tác thương mại của Iran, nhưng nhiều chuyên gia cho rằng tác động trực tiếp có thể hạn chế nếu thực thi không thay đổi.
+Số liệu xác minh: Trung Quốc chiếm 26,9% xuất khẩu Iran năm 2025 theo ITC, dù dữ liệu có nguy cơ thiếu báo cáo dầu. Thổ Nhĩ Kỳ có lạm phát 31,8% và phụ thuộc thương mại láng giềng; thị trường phản ứng ban đầu khá trầm lắng.
+Vì sao quan trọng: Tác động thực tế nằm ở khả năng cưỡng chế đối với Trung Quốc, Thổ Nhĩ Kỳ và các tuyến trung gian, không chỉ ở phạm vi tuyên bố.
+Tác động: Rủi ro dầu, bảo hiểm và logistics vẫn cao; kịch bản cơ sở nên bám dòng chảy hàng hóa/Hormuz thay vì chỉ đếm số lệnh trừng phạt.
+Nguồn: BBC Business — Tier 2, newsroom; tóm lược từ nguồn tiếng Anh
+https://www.bbc.co.uk/news/articles/cqxvj1zd4qjo
+Tin cậy: cao với dữ liệu/quan hệ thương mại; trung bình với tác động dự báo. BBC nêu rõ giới hạn dữ liệu ITC.
+
+10. ĐÀI LOAN TRUY TỐ 9 NGƯỜI TRONG VỤ MÁY CHỦ AI B300 SANG TRUNG QUỐC
+Phân loại: fact / allegation | Công nghệ – chip và kiểm soát xuất khẩu
+Thời gian: 25/08/2026 12:00 GMT+7
+Địa lý: Đài Loan – Trung Quốc – Mỹ
+Tóm tắt: Công tố viên Đài Loan truy tố 9 người, trong đó có nhân sự Nvidia và cựu nhân viên Super Micro, liên quan xuất máy chủ AI cao cấp sang Trung Quốc.
+Số liệu xác minh: Vụ việc liên quan 130 máy chủ dùng GPU B300; 74 máy đã tới Trung Quốc qua Indonesia, trực tiếp hoặc qua Nhật/Hong Kong, 56 máy còn lại bị chặn. B300 thuộc diện cấm bán sang Trung Quốc.
+Vì sao quan trọng: Enforcement đang mở rộng từ nhà sản xuất chip sang server, nhà phân phối, nhân viên và tuyến trung chuyển.
+Tác động: Lead time, kiểm tra end-user/end-use và chi phí tuân thủ của thiết bị AI có thể tăng; cáo buộc chưa phải phán quyết cuối cùng.
+Nguồn: VnExpress — Tier 2, newsroom; đối chiếu Associated Press và công tố viên Đài Loan
+https://vnexpress.net/dao-dai-loan-truy-to-9-nguoi-buon-lau-chip-ai-sang-trung-quoc-5113056.html
+Tin cậy: cao về việc truy tố và số máy chủ; chưa kết luận tội danh.
+
+11. NOTHING OS 5.0 DỰA TRÊN ANDROID 17, NHƯNG LOẠI MỘT SỐ MODEL CŨ
+Phân loại: company statement / fact | Công nghệ – Android
+Thời gian: 25/08/2026 12:58 EDT (23:58 GMT+7)
+Địa lý: Toàn cầu
+Tóm tắt: Nothing công bố OS 5.0 dựa trên Android 17, mở beta từ 26/8 trước tiên cho Phone 3.
+Số liệu xác minh: Bản mới thêm adaptive color, tùy biến home/lock screen, ứng dụng Glyph riêng và các tính năng Android 17 như Quick Share cải tiến. Phone 1, Phone 2 và CMF Phone 1 không nằm trong nhóm nhận bản này.
+Vì sao quan trọng: Chính sách update tạo khác biệt về TCO, giá trị thu cũ và niềm tin dài hạn, không chỉ thông số phần cứng.
+Tác động: Khi so sánh Android, cần chấm điểm vòng đời OS/security theo model và xác nhận bằng cam kết văn bản.
+Nguồn: The Verge — Tier 2, newsroom; dẫn công bố Nothing
+https://www.theverge.com/gadgets/984430/nothing-os-5-launch-android-17
+Tin cậy: cao với lịch beta/phạm vi model; hiệu năng thực tế chưa được kiểm chứng độc lập.
+
+12. HẠ TẦNG ĐÀO BITCOIN CHUYỂN SANG AI/HPC
+Phân loại: analysis / attributed statements | Công nghệ – hạ tầng AI
+Thời gian: 26/08/2026 06:11 GMT+7
+Địa lý: Toàn cầu
+Tóm tắt: Nhiều công ty đào Bitcoin chuyển điện, data center và vốn sang AI/HPC do phần thưởng đào giảm và hợp đồng AI cho dòng tiền dài hạn hơn.
+Số liệu xác minh: Riot Platforms ký hợp đồng compute 9 tỷ USD trong 20 năm với Anthropic; Bitdeer công bố hợp đồng 16 năm. Bitcoin đã phục hồi quanh 80.000 USD, tăng gần 30% trong tháng 8, nhưng chi phí chuyển đổi hạ tầng khiến khó quay lại.
+Vì sao quan trọng: AI đang tranh giành không chỉ GPU/bộ nhớ mà cả công suất điện, đất, làm mát và kết nối.
+Tác động: Cầu hạ tầng AI tiếp tục hỗ trợ server memory và điện năng; hợp đồng dài hạn có thể làm giảm tính linh hoạt nguồn cung compute.
+Nguồn: BBC Technology — Tier 2, newsroom; tóm lược từ nguồn tiếng Anh
+https://www.bbc.co.uk/news/articles/c07ler8x9kpo
+Tin cậy: trung bình-khá; hợp đồng và phát biểu doanh nghiệp được nêu rõ, xu hướng ngành là phân tích.
+
+HÀM Ý TỔNG HỢP
+
+Purchasing / thị trường Android
+- Khóa riêng rủi ro Mobile DRAM theo RAM/ROM: yêu cầu vendor cung cấp giá net, thời điểm hiệu lực, price protection và kế hoạch xử lý model cũ; TrendForce vẫn dự báo Q3/2026 tăng 8–13% QoQ.
+- Đưa số năm cập nhật OS/security và danh sách model loại trừ vào scorecard Android; Nothing OS 5.0 cho thấy khác biệt support có thể xuất hiện ngay trong cùng hệ sinh thái.
+- Theo dõi cơ hội supply-base từ Amazon Leo và hợp tác Việt Nam–Singapore, nhưng chỉ ghi nhận thành pipeline khi có vendor, sản lượng, tiêu chuẩn và timeline cụ thể.
+- NIQ/GfK công khai cho kỳ này: chưa có dữ liệu công khai; không dùng web-usage hay số bán một hệ thống thay cho market share.
+
+Business / vận hành
+- Dùng 8,8% tiếp cận vốn như tín hiệu cảnh báo, không làm điểm rủi ro tự động; xếp hạng đại lý theo CFO, tuổi doanh nghiệp, nợ hiện hữu và vòng quay tồn kho.
+- Rà soát call-center/CRM theo Nghị định 330: consent log, khung giờ, tần suất, Do-Not-Advertise và điều khoản bồi hoàn của vendor.
+- Cập nhật kịch bản continuity cho cửa hàng vùng bão/lũ: multi-SIM, POS offline, UPS và ngưỡng chuyển hàng. Theo dõi Canada–Mỹ ở cấp SKU/xuất xứ nếu vendor có phân bổ hàng Bắc Mỹ.
+
+Góc nhìn đầu tư tham khảo
+- Kịch bản tích cực: Brent và lợi suất duy trì hạ, khối ngoại tiếp tục mua ròng và độ rộng HOSE cải thiện khi VN-Index vượt 1.800.
+- Kịch bản rủi ro: Canada–Mỹ mở rộng thuế sang chuỗi điện tử; Iran/Hormuz làm dầu, bảo hiểm và DXY quay đầu; enforcement chip siết lead time server/bộ nhớ.
+- Chỉ báo cần theo dõi: độ rộng HOSE, mua ròng khối ngoại, Brent, USD/VND, Hormuz, thuế điện tử Bắc Mỹ và giá Mobile DRAM Q3/Q4.
+- Đây là thông tin tham khảo, không phải khuyến nghị đầu tư cá nhân hay chỉ dẫn mua/bán.
+
+MINH BẠCH NGUỒN — COVERAGE RECORD
+
+Nguồn bắt buộc Việt Nam:
+- VnExpress Kinh doanh: scanned_with_items.
+- VnExpress Khoa học công nghệ: scanned_with_items.
+- VnExpress Tin mới nhất: scanned_with_items.
+- Dân trí Kinh doanh: scanned_with_items.
+- Dân trí Công nghệ: scanned_with_items.
+- Dân trí Trang chủ: scanned_with_items.
+
+Nguồn bắt buộc quốc tế:
+- Reuters Business RSS: failed_with_reason — HTTP 401 sau ba lần thử; fallback Business cũng 401.
+- Reuters Technology RSS: failed_with_reason — HTTP 401 sau ba lần thử; fallback Technology cũng 401.
+- BBC Business: scanned_with_items.
+- BBC Technology: scanned_with_items.
+- CNBC Markets: failed_with_reason — RSS và trang Markets đều HTTP 403; không dùng snippet làm nguồn.
+- CNBC Technology: failed_with_reason — RSS và trang Technology đều HTTP 403; không dùng snippet làm nguồn.
+- Nikkei Asia Business: scanned_no_qualifying_item — feed truy cập được nhưng không có timestamp trong cửa sổ.
+- The Verge: scanned_with_items.
+- Bloomberg Markets: failed_with_reason — homepage HTTP 403; không xác minh nội dung paywall.
+- Financial Times Markets: failed_with_reason — homepage HTTP 403; không xác minh nội dung paywall.
+
+Nguồn thị trường/chính thức bổ sung:
+- HOSE và HNX: đã kiểm tra trang chính; số chốt phiên được đối chiếu Dân trí/VnExpress.
+- VSDC: trang mới vsdc.vn truy cập thành công; không có công bố được chọn trong kỳ.
+- SSC: failed_with_reason — TLS handshake thất bại.
+- Vietstock: quét trang chứng khoán thành công; CafeF: HTTP 503.
+- SBV: trang tỷ giá truy cập được; tỷ giá trung tâm 25.615 đồng/USD được đối chiếu TTXVN/VOV/Thời báo Ngân hàng. Vietcombank API trả dữ liệu 23:00 ngày 25/8.
+- PMI Việt Nam: không có kỳ công bố mới trong cửa sổ; không hiển thị.
+- Freightos/Baltic: không có giá cước mới đúng cửa sổ được xác minh; không ước tính.
+- NIQ/GfK, IDC, Counterpoint, Omdia: không có dữ liệu thị trường thiết bị Việt Nam công khai mới trong cửa sổ.
+
+DELIVERY
+
+Chạy bù sau 07:00; giữ nguyên cutoff 07:00; hoàn tất artifact lúc 08:47 ICT. Không gửi email, không tạo Gmail draft và không thực hiện thao tác Gmail. Artifact local là trạng thái hoàn tất của run key này.
