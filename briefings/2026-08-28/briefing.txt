@@ -1,0 +1,303 @@
+BẢN TIN 24H | KINH TẾ – THỊ TRƯỜNG – CÔNG NGHỆ | 28/08/2026
+
+Run key: vn-global-daily-news-briefing:2026-08-28:daily
+Chế độ: Daily mode; chạy đúng lịch (scheduler kích hoạt 07:06 ICT)
+Cửa sổ cố định: [2026-08-27 07:00, 2026-08-28 07:00) Asia/Ho_Chi_Minh
+Số tin chọn: 12
+Email: not_sent — theo chỉ thị người dùng; không gửi, không tạo draft, không thao tác Gmail.
+
+EXECUTIVE SUMMARY
+
+1. VN-Index tăng phiên thứ sáu lên 1.831,56 điểm, nhưng HOSE có 117 mã tăng/187 mã giảm và thanh khoản giảm gần 20%: đà chỉ số chưa đồng nghĩa sức mạnh toàn thị trường.
+2. USD bán ra Vietcombank ở 26.290 đồng; Brent tăng 2,12% lên 89,70 USD. Hai biến số chi phí nhập khẩu cùng cần được đặt ngưỡng cảnh báo.
+3. Samsung đạt 500 tỷ USD xuất khẩu điện thoại lũy kế từ Việt Nam; Qualcomm muốn Việt Nam thành trung tâm R&D AI lớn thứ ba; Apple mở trung tâm đào tạo chuỗi cung ứng đầu tiên tại Đông Nam Á.
+4. Tắt 2G ngày 15/9 có thể làm gián đoạn thoại cả trên một số máy 4G chưa sẵn sàng VoLTE; đây là rủi ro SKU–nhà mạng, không chỉ là câu chuyện điện thoại 2G.
+5. Nvidia tăng doanh thu 106% YoY; Google Play siết ngưỡng memory từ 2/2027. Áp lực bộ nhớ đang tác động đồng thời lên BOM phần cứng và chuẩn chất lượng phần mềm Android.
+
+MARKET PULSE
+
+- VN-Index 27/8: 1.831,56 điểm, +10,24 điểm/+0,56%. HNX-Index 282,64 (+0,24%); UPCoM-Index 127,16 (+0,21%).
+- Thanh khoản ba sàn: hơn 657 triệu cổ phiếu, 16.806 tỷ đồng; khối ngoại mua ròng hơn 235 tỷ đồng; TCB được mua ròng 444,33 tỷ.
+- USD/VND: tỷ giá trung tâm NHNN 25.611; Vietcombank bán 26.290 lúc 07:59 ngày 27/8, tăng 20 đồng so ngày trước.
+- Dầu: Brent 89,70 USD/thùng (+2,12%); WTI 83,53 USD (+1,58%) khi chốt phiên Mỹ 27/8.
+- DXY: 99,14, tăng 0,02% cuối phiên Mỹ; vàng spot 4.602,81 USD/oz, tăng 0,23%.
+- Drewry World Container Index: 4.473 USD/container 40 ft, giảm 1% trong tuần công bố 27/8. Shanghai–New York giảm 2% còn 9.333 USD; Shanghai–Los Angeles không đổi ở 6.818 USD.
+- Khu vực/quốc tế: KOSPI +1,53%; chứng khoán Trung Quốc khoảng +1%; S&P 500 +0,72%; Nasdaq +1,57%; Dow +0,20%.
+- Xăng trong nước: E10 RON95-III 22.600 đồng/lít (-60); diesel 28.080 đồng/lít (-460) từ 15:00 ngày 27/8.
+- DRAM/NAND: TrendForce không có cập nhật public mới trong cửa sổ. Không đưa số giá cũ vào KPI. Google và Nvidia cùng nêu hạn chế/thiếu hụt phần cứng memory ở dạng thông báo/phát biểu được quy nguồn, không coi là spot-price series.
+- Vietnam PMI: không có kỳ công bố mới trong cửa sổ; không hiển thị lại số cũ.
+
+Market-pulse source URLs:
+- https://www.vietcombank.com.vn/To-chuc/Doanh-Nghi%E1%BB%87p/KHTC---Ty-gia
+- https://tapchinganhang.gov.vn/hoat-dong-ngan-hang/hoat-dong-ngan-hang%26by-date%3D2026-04-15T18-03
+- https://www.freightwaves.com/news/drewry-index-edges-lower-on-decline-in-trans-pacific-rates
+
+TIN TRONG NƯỚC — KINH TẾ, TÀI CHÍNH, CHÍNH SÁCH
+
+[1] VN-INDEX TĂNG PHIÊN THỨ SÁU, NHƯNG “XANH VỎ ĐỎ LÒNG”
+id: vn-stocks-2026-08-27
+section: domestic_economy
+published_at: 2026-08-27T16:20:00+07:00
+updated_at: null
+geography: Vietnam
+classification: fact
+source: Nhân Dân | Tier 2 | newsroom
+url: https://nhandan.vn/post-984850.html
+summary: VN-Index đóng cửa 1.831,56 điểm, tăng 10,24 điểm; lực kéo chủ yếu đến từ một số mã vốn hóa lớn trong khi số mã giảm áp đảo trên HOSE. Đây là phiên tăng thứ sáu liên tiếp.
+facts: Ba sàn giao dịch hơn 657 triệu cổ phiếu, trị giá 16.806 tỷ đồng. HOSE có 117 mã tăng/187 mã giảm. Khối ngoại mua ròng hơn 235 tỷ đồng, riêng TCB 444,33 tỷ. HNX-Index 282,64 (+0,24%); UPCoM-Index 127,16 (+0,21%).
+why_it_matters: Tâm lý tài sản có thể hỗ trợ nhóm tiêu dùng cao cấp, nhưng độ rộng và thanh khoản chưa xác nhận sức mạnh đồng đều.
+implication: Không nâng forecast sell-out chỉ theo chỉ số; theo dõi breadth, turnover và dòng tiền ngoại.
+confidence: high
+notes: Đối chiếu số liệu HNX/HOSE và các bản tin độc lập; số liệu khối ngoại có sai khác làm tròn nhỏ giữa nguồn.
+
+[2] XĂNG E10 GIẢM NHẸ; DIESEL HẠ 460 ĐỒNG/LÍT
+id: vietnam-fuel-price-2026-08-27
+section: domestic_economy
+published_at: 2026-08-27T14:33:24+07:00
+updated_at: null
+geography: Vietnam
+classification: fact
+source: VnExpress | Tier 2 | newsroom
+url: https://vnexpress.net/gia-xang-dau-moi-nhat-hom-nay-27-8-5114100.html
+summary: Liên Bộ Công Thương – Tài chính điều chỉnh giá từ 15:00 ngày 27/8; xăng và phần lớn mặt hàng dầu giảm, riêng mazut tăng.
+facts: E10 RON95-III 22.600 đồng/lít (-60); E5 RON92 21.760 (-70); diesel 28.080 (-460); mazut 18.140 đồng/kg (+460).
+why_it_matters: Diesel là biến số trực tiếp của giao hàng và phân phối nội địa.
+implication: Tác động giảm chi phí nhỏ; chưa đủ hạ định mức landed cost nếu dầu thế giới tăng lại.
+confidence: high
+notes: Đối chiếu VOV và văn bản điều hành được nguồn trích dẫn.
+
+[3] NGHỊ QUYẾT MỚI ĐẶT MỤC TIÊU MỞ RỘNG KINH TẾ ĐÊM VÀ DU LỊCH MUA SẮM
+id: vietnam-night-economy-tourism-2026
+section: domestic_society
+published_at: 2026-08-28T05:47:00+07:00
+updated_at: null
+geography: Vietnam
+classification: attributed statement / policy target
+source: Dân trí | Tier 2 | newsroom
+url: https://dantri.com.vn/thoi-su/bo-chinh-tri-phat-trien-to-hop-du-lich-mua-sam-hoat-dong-ca-ngay-lan-dem-20260827213508955.htm
+summary: Nghị quyết 26-NQ/TW định hướng các tổ hợp du lịch–mua sắm–ẩm thực–giải trí hoạt động cả ngày lẫn đêm và hoàn thiện cơ chế hoàn VAT tại điểm mua sắm đủ điều kiện.
+facts: Mục tiêu 2030 là du lịch đóng góp trực tiếp 10–12% GDP, đón 45–50 triệu khách quốc tế và đạt tổng thu 80–90 tỷ USD.
+why_it_matters: Có thể mở thêm use case bán lẻ tại điểm du lịch và khung giờ tối.
+implication: Kế hoạch cửa hàng cần pilot theo traffic, basket size, cơ chế hoàn VAT và chi phí ca tối; mục tiêu chính sách chưa phải kết quả.
+confidence: high
+notes: Bài dẫn Nghị quyết 26-NQ/TW ký ngày 22/8; phân loại mục tiêu/định hướng, không trình bày như số đã đạt.
+
+TIN TRONG NƯỚC — CÔNG NGHỆ VÀ THỊ TRƯỜNG THIẾT BỊ
+
+[4] SAMSUNG ĐẠT 500 TỶ USD XUẤT KHẨU ĐIỆN THOẠI LŨY KẾ TỪ VIỆT NAM
+id: samsung-vietnam-500b-exports
+section: domestic_technology
+published_at: 2026-08-27T22:58:59+07:00
+updated_at: null
+geography: Vietnam
+classification: company statement
+source: VnExpress | Tier 2 | newsroom
+url: https://vnexpress.net/samsung-xuat-khau-500-ty-usd-dien-thoai-tu-viet-nam-sau-17-nam-5114286.html
+summary: Hai pháp nhân sản xuất điện thoại tại Bắc Ninh và Thái Nguyên đạt mốc 500 tỷ USD vào cuối tháng 6, sau 17 năm hoạt động.
+facts: Samsung cho biết tổng đầu tư lũy kế tại Việt Nam đạt 24 tỷ USD cuối 2025. Tập đoàn dự kiến duy trì tăng trưởng hai con số đến cuối 2026; đây là kỳ vọng doanh nghiệp.
+why_it_matters: Củng cố vai trò Việt Nam trong chuỗi cung ứng Galaxy và vị thế sản xuất thiết bị xuất khẩu.
+implication: Cơ hội supplier localization đi cùng yêu cầu chất lượng, R&D và khả năng truy xuất.
+confidence: high
+notes: Phát biểu Samsung tại cuộc gặp Chính phủ; đối chiếu thông tin VGP được bài dẫn.
+
+[5] QUALCOMM MUỐN VIỆT NAM THÀNH TRUNG TÂM R&D AI LỚN THỨ BA
+id: qualcomm-vietnam-ai-rd-target
+section: domestic_technology
+published_at: 2026-08-27T23:11:28+07:00
+updated_at: null
+geography: Vietnam
+classification: company target
+source: VnExpress | Tier 2 | newsroom
+url: https://vnexpress.net/qualcomm-muon-dua-viet-nam-thanh-trung-tam-r-d-ai-lon-thu-ba-cua-tap-doan-tren-toan-cau-5114298.html
+summary: CEO Cristiano Amon nêu mục tiêu đưa Việt Nam thành trung tâm R&D AI lớn thứ ba toàn cầu của Qualcomm. Tập đoàn đã hoạt động hơn 20 năm và có trung tâm R&D tại Hà Nội.
+facts: Phạm vi quan tâm gồm AI, bán dẫn, 5G/6G, điện toán kết nối và hạ tầng thế hệ mới. Chưa có con số vốn, timeline hoặc số nhân sự mới công khai.
+why_it_matters: Tích cực cho hệ sinh thái Android, bán dẫn và nguồn nhân lực kỹ thuật.
+implication: Chỉ chuyển tín hiệu thành capacity plan khi có dự án, ngân sách và lịch triển khai cụ thể.
+confidence: medium-high
+notes: Đây là mục tiêu doanh nghiệp, không phải cam kết vốn đã phê duyệt.
+
+[6] APPLE MỞ TRUNG TÂM ĐÀO TẠO CHUỖI CUNG ỨNG ĐẦU TIÊN TẠI ĐÔNG NAM Á
+id: apple-vietnam-supplier-education-center
+section: domestic_technology
+published_at: 2026-08-27T17:09:33+07:00
+updated_at: null
+geography: Vietnam
+classification: company program
+source: VnExpress | Tier 2 | newsroom
+url: https://vnexpress.net/apple-mo-trung-tam-dao-tao-dau-tien-o-dong-nam-a-tai-ha-noi-5114166.html
+summary: Trung tâm hợp tác với Đại học Bách khoa Hà Nội, bắt đầu khóa học từ mùa thu 2026 cho nhân sự nhà cung cấp.
+facts: Nội dung gồm sản xuất thông minh, robotics, tự động hóa và đào tạo tổ trưởng dây chuyền. Chương trình thuộc quỹ phát triển nhân viên nhà cung cấp 50 triệu USD. Apple có 35 nhà cung cấp có nhà máy tại Việt Nam theo danh sách mới nhất được bài dẫn.
+why_it_matters: Tăng năng lực sản xuất và kỹ năng nhân sự của supply base tại Việt Nam.
+implication: Đây là tín hiệu năng lực dài hạn, không phải bằng chứng sản lượng iPhone ngắn hạn.
+confidence: high
+notes: Đối chiếu Dân trí và thông tin Apple/HUST.
+
+[7] TẮT 2G CÓ THỂ LÀM MẤT THOẠI TRÊN MỘT SỐ SMARTPHONE 4G
+id: vietnam-2g-shutdown-volte
+section: domestic_technology
+published_at: 2026-08-27T18:17:45+07:00
+updated_at: null
+geography: Vietnam
+classification: fact / operational risk
+source: Dân trí | Tier 2 | newsroom
+url: https://dantri.com.vn/cong-nghe/can-lam-gi-khi-mang-2g-dung-hoat-dong-20260827104210228.htm
+summary: Máy vẫn vào 4G data nhưng phụ thuộc 2G cho cuộc gọi sẽ bị ảnh hưởng nếu không hỗ trợ hoặc chưa bật VoLTE.
+facts: Mốc hoàn tất tắt 2G là 15/9/2026, trừ một số khu vực đặc thù. Rủi ro tập trung ở máy đời cũ, máy xách tay và model không phân phối chính thức.
+why_it_matters: Tác động trực tiếp tới trải nghiệm thoại, khiếu nại và tỷ lệ đổi trả.
+implication: Audit VoLTE theo model–firmware–SIM–nhà mạng; nhãn “4G” không đủ chứng minh tương thích thoại.
+confidence: high
+notes: Đối chiếu lộ trình chính thức của cơ quan viễn thông.
+
+[8] REDMI NOTE 17 ĐƯA PIN 10.000MAH VÀO PHÂN KHÚC 14 TRIỆU ĐỒNG
+id: xiaomi-redmi-note-17-vietnam
+section: domestic_technology
+published_at: 2026-08-27T18:16:45+07:00
+updated_at: null
+geography: Vietnam
+classification: company statement / product launch
+source: Dân trí | Tier 2 | newsroom
+url: https://dantri.com.vn/cong-nghe/dien-thoai-co-pin-10000mah-cua-xiaomi-ve-viet-nam-20260827122559821.htm
+summary: Redmi Note 17 Pro Max 5G dùng pin Silicon–Carbon 10.000mAh, sạc 100W và bán tại Việt Nam từ 14 triệu đồng.
+facts: Snapdragon 6 Gen 5; RAM 8/12GB; bộ nhớ 256/512GB; camera 50MP OIS. Xiaomi công bố pin giữ ít nhất 80% sau 1.600 chu kỳ. Đối thủ cùng phân khúc gồm realme 16 Pro 5G, vivo V60 5G và HONOR 600.
+why_it_matters: Pin lớn và độ bền trở thành trục cạnh tranh rõ hơn của mid-range Android.
+implication: So TCO, trọng lượng, nhiệt, sạc và sell-out thực thay vì phản ứng chỉ theo dung lượng pin.
+confidence: medium-high
+notes: Giá và hiện diện thị trường được newsroom ghi nhận; độ bền pin là claim nhà sản xuất, chưa có kiểm nghiệm độc lập trong kỳ.
+
+TIN QUỐC TẾ — KINH TẾ, TÀI CHÍNH, ĐỊA CHÍNH TRỊ
+
+[9] NASDAQ TĂNG 1,57%; DÒNG TIỀN TẬP TRUNG MẠNH VÀO CÔNG NGHỆ
+id: us-markets-tech-rally-2026-08-27
+section: international_economy
+published_at: 2026-08-27T17:04:00-04:00
+updated_at: 2026-08-27T17:07:00-04:00
+geography: United States / global
+classification: fact
+source: Reuters syndication | Tier 2 | newsroom
+url: https://www.investing.com/news/economy-news/trading-day-tech-on-a-tear-attention-fed-chair-4880239
+summary: Nvidia và phần mềm kéo chỉ số Mỹ tăng, nhưng 10/11 nhóm ngành S&P 500 giảm, cho thấy rally không rộng.
+facts: S&P 500 +0,72% lên 7.730,99; Nasdaq +1,57%; Dow +0,20%. Công nghệ S&P 500 +3,4%; Nvidia +8,7%; Salesforce +22,6%. Fed Chair Kevin Warsh phát biểu lúc 10:00 EDT ngày 28/8, sau cutoff.
+why_it_matters: Tâm lý AI tích cực cho bán dẫn nhưng thị trường và chi phí vốn vẫn nhạy với Fed.
+implication: Không quy đổi rally công nghệ thành cầu smartphone đại trà; theo dõi breadth và lợi suất.
+confidence: high
+notes: Reuters RSS/fallback trực tiếp bị HTTP 401; bài syndication được truy cập toàn văn và số chốt đối chiếu AP.
+
+[10] BRENT TRỞ LẠI 89,70 USD VÌ LO NGẠI NGUỒN CUNG
+id: oil-hormuz-supply-risk-2026-08-27
+section: international_society
+published_at: 2026-08-27T17:00:00-04:00
+updated_at: 2026-08-27T20:33:00+10:00
+geography: Middle East / global
+classification: fact / attributed statement
+source: Reuters syndication | Tier 2 | newsroom
+url: https://au.investing.com/news/economy-news/asian-stocks-rise-for-third-day-as-nvidia-beats-4618563
+summary: Giá dầu đảo chiều tăng khi thị trường đánh giá triển vọng đàm phán Mỹ–Iran và khả năng vận chuyển qua eo biển Hormuz.
+facts: Brent +2,12% lên 89,70 USD/thùng; WTI +1,58% lên 83,53 USD. Reuters dẫn nguồn rằng Washington chưa quan tâm quay lại điều khoản bản ghi nhớ tháng 6; đây chưa phải tuyên bố chính thức mới.
+why_it_matters: Dầu tác động trực tiếp đến cước, nhiên liệu và lạm phát nhập khẩu.
+implication: Chỉ giảm buffer khi traffic tàu, phí bảo hiểm và lịch carrier cùng bình thường hóa.
+confidence: high for prices; medium for negotiation attribution
+notes: Phân tách giá xác nhận và thông tin được Reuters dẫn nguồn.
+
+TIN QUỐC TẾ — CÔNG NGHỆ
+
+[11] NVIDIA TĂNG 106% DOANH THU; AI TIẾP TỤC HÚT VỐN VÀ BỘ NHỚ
+id: nvidia-q2-fy2027-ai-memory
+section: international_technology
+published_at: 2026-08-27T20:47:36+00:00
+updated_at: null
+geography: global
+classification: fact / company forecast
+source: CNBC | Tier 2 | newsroom
+url: https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html
+summary: Kết quả Q2 FY2027 và guidance cao hơn kỳ vọng củng cố chu kỳ đầu tư AI; vốn hóa Nvidia tăng hơn 400 tỷ USD trong phiên.
+facts: Doanh thu 96,2 tỷ USD (+106% YoY); Data Center 89 tỷ (+117%); guidance Q3 là 108 tỷ ±2%. Công ty không giả định doanh thu compute Trung Quốc trong guidance. Reuters ghi nhận Nvidia cảnh báo thiếu linh kiện memory có thể giới hạn tốc độ tăng ngành.
+why_it_matters: HBM/DRAM cao cấp tiếp tục hút năng lực sản xuất và capex.
+implication: Duy trì kịch bản căng giá RAM/ROM smartphone cho đến khi allocation và báo giá contract thực hạ nhiệt.
+confidence: high
+notes: Số tài chính đối chiếu NVIDIA Investor Relations; guidance là dự báo doanh nghiệp.
+
+[12] GOOGLE PLAY CHUẨN BỊ SIẾT MEMORY VÀ TỐI ƯU CODE TỪ THÁNG 2/2027
+id: google-play-android-17-memory-rules
+section: international_technology
+published_at: 2026-08-27T14:33:11-04:00
+updated_at: null
+geography: global
+classification: fact / platform rule
+source: The Verge | Tier 2 | newsroom
+url: https://www.theverge.com/tech/985679/google-play-android-17-memory-limit
+summary: Google thiết lập ngưỡng dynamic memory, bitmap và DEX optimization trong bối cảnh hạn chế nguồn cung phần cứng và Android 17 áp giới hạn RAM theo ứng dụng.
+facts: Từ 2/2027, app vượt ngưỡng có thể giảm hiển thị và bị hạn chế xuất bản. App bundle cần tối thiểu 25% coverage tối ưu/shrinking/obfuscation bằng R8 hoặc công cụ tương đương. Android 17 có thể throttle hoặc kết thúc app vượt giới hạn memory.
+why_it_matters: Thiết bị RAM thấp không biến mất ngay; chất lượng app quyết định trải nghiệm và vòng đời thiết bị.
+implication: Theo dõi app compatibility theo RAM tier, Android 17 và policy Google Play; đưa trải nghiệm thực vào đánh giá danh mục.
+confidence: high
+notes: Đối chiếu nguồn chính thức Google Developers: https://developer.android.com/blog/posts/elevating-app-quality-reducing-memory-usage-and-improving-device-migration
+
+HÀM Ý TỔNG HỢP
+
+Purchasing / thị trường Android
+- Lập ma trận VoLTE theo SKU–firmware–nhà mạng trước 15/9 và gắn luồng trade-in cho máy không đạt.
+- Giữ price-protection/allocation cho RAM–ROM; theo dõi công bố giá contract và báo giá vendor, không dùng headline “thiếu memory” thay dữ liệu mua hàng.
+- Benchmark Redmi Note 17 theo TCO, trọng lượng, sạc, nhiệt và sell-out; không phản ứng chỉ theo 10.000mAh.
+- NIQ/GfK Việt Nam kỳ này: chưa có dữ liệu công khai mới.
+
+Business / operations
+- Đặt cảnh báo kép cho USD/VND và Brent; WCI giảm 1% chưa đủ kết luận cước vào xu hướng giảm bền.
+- Samsung, Qualcomm, Apple đều tăng tín hiệu hiện diện; chỉ chuyển thành capacity plan khi có dự án, sản lượng và timeline.
+- Kinh tế đêm tạo cơ hội bán lẻ, nhưng cần pilot theo traffic, basket size và chi phí ca tối.
+- Chuẩn bị app/ERP Android nội bộ cho ngưỡng memory và device migration của Google Play.
+
+Góc nhìn đầu tư tham khảo
+- Kịch bản tích cực nếu VN-Index giữ trên 1.800 cùng thanh khoản/độ rộng cải thiện và USD/VND ổn định.
+- Rủi ro nếu Brent tiếp tục tăng, DXY/lợi suất phản ứng hawkish sau Jackson Hole hoặc rally AI thu hẹp hơn.
+- Theo dõi khối ngoại, HOSE breadth, Brent, DXY, lợi suất Mỹ và giá memory contract.
+- Đây không phải khuyến nghị đầu tư cá nhân hay chỉ dẫn mua/bán.
+
+SOURCE COVERAGE RECORD
+
+Vietnam mandatory feeds
+- VnExpress Kinh doanh: scanned_with_items — HTTP 200, 19 item trong cửa sổ.
+- VnExpress Khoa học công nghệ: scanned_with_items — HTTP 200, 11 item trong cửa sổ.
+- VnExpress Tin mới nhất: scanned_with_items — HTTP 200, 28 item trong cửa sổ.
+- Dân trí Kinh doanh: scanned_with_items — HTTP 200, 29 item trong cửa sổ.
+- Dân trí Công nghệ: scanned_with_items — HTTP 200, 9 item trong cửa sổ.
+- Dân trí Trang chủ: scanned_with_items — HTTP 200, 62 item trong cửa sổ.
+
+International mandatory feeds/homepages
+- Reuters Business: failed_with_reason — RSS và fallback HTTP 401 sau 3 lần. Bài Reuters syndication truy cập được dùng để kiểm chứng market close.
+- Reuters Technology: failed_with_reason — RSS và fallback HTTP 401 sau 3 lần. Không suy diễn từ headline.
+- BBC Business: scanned_with_items — HTTP 200, 17 item feed trong cửa sổ sau loại bản ghi trùng.
+- BBC Technology: scanned_with_items — HTTP 200, 4 item trong cửa sổ.
+- CNBC Markets: scanned_with_items — HTTP 200, 5 item trong cửa sổ.
+- CNBC Technology: scanned_with_items — HTTP 200, 21 item trong cửa sổ.
+- Nikkei Asia Business: scanned_no_qualifying_item — feed HTTP 200 nhưng không có entry; category Business kiểm tra trực tiếp, không có item free đủ điều kiện được chọn.
+- The Verge: scanned_with_items — HTTP 200, 9 item trong cửa sổ.
+- Bloomberg Markets: failed_with_reason — HTTP 403/restricted sau 3 lần.
+- Financial Times Markets: scanned_with_items — homepage kiểm tra trực tiếp bằng browser; phần chi tiết paywall chỉ dùng discovery/đối chiếu, không dùng để tự suy diễn số liệu.
+
+Vietnam market/source checks
+- HOSE: HTTP 200; checked.
+- HNX: HTTP 200; checked. Kết quả HNX/UPCoM đối chiếu với nguồn thị trường.
+- VSDC: HTTP 200; checked.
+- SSC: HTTP 200; checked.
+- Vietstock: HTTP 200; checked.
+- CafeF: HTTP 200; checked.
+- SBV/Vietcombank: checked; tỷ giá 27/8 xác minh.
+- VnExpress Chứng khoán/Dân trí Kinh doanh: scanned_with_items.
+
+Indicator checks
+- USD/VND: verified, included.
+- DRAM/NAND: TrendForce checked; no new public price update inside window, omitted as numeric KPI.
+- Vietnam PMI: no new release inside window, omitted.
+- Regional indexes: KOSPI/China verified via Reuters; included in comparison.
+- Ocean freight: Drewry WCI release 27/8 verified; included. Freightos FBX checked but public page did not provide a date-specific 27/8 value, so no FBX number used.
+- DXY: Reuters close 99,14 verified; included.
+
+Coverage note: Đã quét đầy đủ VnExpress, Dân trí, BBC, CNBC, The Verge; kiểm tra FT/Nikkei. Reuters RSS/fallback và Bloomberg bị chặn; số liệu trọng yếu được đối chiếu bằng bản syndication truy cập được, AP hoặc nguồn chính thức. Không có dữ liệu NIQ/GfK Việt Nam công khai mới trong kỳ.
+
+DELIVERY
+
+- Artifact HTML: briefings/2026-08-28/index.html
+- Artifact plain text: briefings/2026-08-28/briefing.txt
+- GitHub Pages root: index.html
+- Email: not_sent; không tạo Gmail draft; không thao tác Gmail.
+- Hoàn tất artifact và QA: 08:58 ICT ngày 28/08/2026.
