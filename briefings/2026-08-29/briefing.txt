@@ -1,0 +1,175 @@
+BẢN TIN 24H | KINH TẾ – THỊ TRƯỜNG – CÔNG NGHỆ | 29/08/2026
+Daily mode · Asia/Ho_Chi_Minh
+Cửa sổ cố định: [07:00 28/08/2026, 07:00 29/08/2026)
+Run key: vn-global-daily-news-briefing:2026-08-29:daily
+
+EXECUTIVE SUMMARY
+
+1. VN-Index tăng phiên thứ 7 nhưng chỉ +0,03%; số mã giảm vẫn nhiều hơn số mã tăng. Dòng tiền chưa rút khỏi thị trường, song sức mạnh chỉ số không đại diện đồng đều cho danh mục.
+2. Lãi suất liên ngân hàng qua đêm giảm về 1,2%/năm sau bốn phiên. Đây là tín hiệu thanh khoản ngắn hạn dịu hơn, chưa phải bằng chứng lãi vay doanh nghiệp sẽ giảm ngay.
+3. Samsung đạt 500 tỷ USD xuất khẩu điện thoại lũy kế từ Việt Nam; ngược lại, rủi ro điện trung hạn và sự cố 4/8 tuyến cáp biển cho thấy hạ tầng vẫn là điểm cần quản trị.
+4. Fed phát tín hiệu có thể tăng lãi suất nếu lạm phát không hạ. DXY, lợi suất ngắn hạn và chi phí vốn USD có thể gây thêm áp lực lên tỷ giá và nhập khẩu.
+5. Counterpoint ghi nhận thị trường smartphone Q2/2026 giảm 11% YoY do thiếu RAM; Apple và Samsung tập trung model chủ lực/premium, chiếm toàn bộ top 10 bán chạy.
+
+MARKET PULSE
+
+- VN-Index (28/8): 1.832,12 điểm, +0,03%.
+- HNX-Index (28/8): 284,77 điểm, +0,75%.
+- UPCoM-Index (28/8): 127,50 điểm, +0,27%.
+- Thanh khoản HoSE: khoảng 17.400 tỷ đồng, tăng gần 9% so phiên trước.
+- Khối ngoại HoSE: mua ròng khoảng 335 tỷ đồng; tập trung FPT, TCB, VPB.
+- Tỷ giá trung tâm SBV (28/8): 25.610 VND/USD, giảm 1 đồng.
+- Vietcombank lúc 9h 28/8: 25.860–26.270 VND/USD (mua–bán), giảm 20 đồng hai chiều.
+- Lãi suất liên ngân hàng qua đêm phiên 27/8: 1,2%/năm, giảm 0,8 điểm phần trăm.
+- Brent chốt 28/8: 89,31 USD/thùng, giảm 0,43%; giảm hơn 5% trong tuần.
+- DXY sau phát biểu Fed: 99,46 điểm, tăng 0,35%.
+- Vàng miếng SJC sáng 28/8: 146,7–149,7 triệu đồng/lượng, giảm 0,3 triệu đồng.
+- Vàng thế giới lúc 08:29 28/8: quanh 4.590 USD/ounce, giảm nhẹ.
+
+A. TIN TRONG NƯỚC
+
+1) KINH TẾ – TÀI CHÍNH – CHỨNG KHOÁN
+
+VN-INDEX TĂNG PHIÊN THỨ 7, NHƯNG ĐỘ RỘNG VẪN NGHIÊNG VỀ GIẢM
+Thời gian: 15:53 28/08/2026 (ICT)
+Phân loại: Sự kiện | Tin cậy: cao
+Chuyện gì xảy ra: VN-Index đóng cửa 1.832,12 điểm, tăng 0,56 điểm, là chuỗi tăng dài nhất năm 2026 và tích lũy hơn 105 điểm trong 7 phiên.
+Số liệu xác minh: HoSE có 137 mã tăng và 159 mã giảm; thanh khoản khoảng 17.400 tỷ đồng; khối ngoại mua ròng khoảng 335 tỷ đồng.
+Tác động: Dòng tiền chưa rút khỏi thị trường, nhưng mức tăng hẹp và độ rộng yếu cho thấy cần phân biệt sức mạnh chỉ số với sức mạnh danh mục.
+Nguồn: VnExpress Kinh doanh | Tier 2 | newsroom
+https://vnexpress.net/chung-khoan-co-chuoi-tang-dai-nhat-nam-5114608.html
+
+LÃI SUẤT LIÊN NGÂN HÀNG QUA ĐÊM GIẢM VỀ 1,2%/NĂM
+Thời gian: 20:53 28/08/2026 (ICT)
+Phân loại: Chỉ báo | Tin cậy: trung bình
+Chuyện gì xảy ra: Theo Vira được Dân trí dẫn lại, lãi suất qua đêm phiên 27/8 giảm 0,8 điểm phần trăm, là phiên giảm thứ tư liên tiếp.
+Số liệu xác minh: Từ 4% ngày 24/8 xuống 1,2% ngày 27/8; kỳ hạn 1 tuần giữ 6,3%, kỳ hạn 2 tuần tăng lên 6,6%.
+Tác động: Thanh khoản ngắn hạn hệ thống dịu hơn, nhưng chưa đủ cơ sở kết luận lãi suất huy động hoặc lãi vay doanh nghiệp giảm ngay.
+Nguồn: Dân trí Kinh doanh | Tier 2 | newsroom
+https://dantri.com.vn/kinh-doanh/lai-suat-lien-ngan-hang-giam-4-phien-lien-tiep-ve-con-12nam-20260828203721646.htm
+
+2) CHÍNH SÁCH – CHÍNH TRỊ – XÃ HỘI
+
+NHIỀU DỰ ÁN ĐIỆN TRỌNG ĐIỂM CÓ NGUY CƠ TRỄ GIAI ĐOẠN 2028–2030
+Thời gian: 16:30 28/08/2026 (ICT)
+Phân loại: Rủi ro | Tin cậy: cao
+Chuyện gì xảy ra: Bộ Công Thương cho biết phần lớn dự án LNG còn ở khâu chuẩn bị; lưới truyền tải và thủy điện cũng chậm hơn yêu cầu Quy hoạch điện VIII điều chỉnh.
+Số liệu xác minh: 18 dự án LNG và 1 dự án điện than trọng điểm; 16 dự án đã có chủ đầu tư. Trong 43 dự án lưới điện trọng điểm đến 2030, mới 10 dự án đang thi công.
+Tác động: Rủi ro điện năng và tiến độ hạ tầng có thể ảnh hưởng công suất, sản xuất công nghiệp và chi phí vận hành trung hạn.
+Nguồn: VnExpress / Bộ Công Thương | Tier 1+2 | official/newsroom
+https://vnexpress.net/nhieu-du-an-dien-trong-diem-nguy-co-cham-tien-do-5114616.html
+
+VIỆT NAM VÀ ĐỨC HƯỚNG TỚI THƯƠNG MẠI SONG PHƯƠNG 20 TỶ USD
+Thời gian: 00:15 29/08/2026 (ICT)
+Phân loại: Tuyên bố chính sách | Tin cậy: cao
+Chuyện gì xảy ra: Lãnh đạo hai nước thống nhất tìm động lực mới cho thương mại, đầu tư; Việt Nam mời gọi cơ khí, ôtô, y tế và chuyển đổi năng lượng.
+Số liệu xác minh: 20 tỷ USD là mục tiêu chính sách, chưa phải kết quả đã đạt. Đức đã hoàn tất phê chuẩn EVIPA.
+Tác động: Có thể mở thêm cơ hội nguồn cung công nghệ, thiết bị và vốn châu Âu; kết quả phụ thuộc dự án cụ thể và tiến độ EVIPA.
+Nguồn: VnExpress / Bộ Ngoại giao | Tier 1+2 | official/newsroom
+https://vnexpress.net/viet-nam-duc-huong-toi-dat-kim-ngach-thuong-mai-20-ty-usd-5114769.html
+
+3) CÔNG NGHỆ VÀ THỊ TRƯỜNG THIẾT BỊ TRONG NƯỚC
+
+SAMSUNG ĐẠT 500 TỶ USD XUẤT KHẨU ĐIỆN THOẠI LŨY KẾ TỪ VIỆT NAM
+Thời gian báo chí trong kỳ: 10:17 28/08/2026 (ICT)
+Phân loại: Tuyên bố công ty | Tin cậy: cao
+Chuyện gì xảy ra: Hai pháp nhân tại Bắc Ninh và Thái Nguyên đạt cột mốc cuối tháng 6, sau 17 năm sản xuất điện thoại tại Việt Nam.
+Số liệu xác minh: 500 tỷ USD là kim ngạch xuất khẩu lũy kế, không phải doanh thu một năm; vốn đầu tư Samsung tại Việt Nam đến cuối 2025 là 24 tỷ USD.
+Tác động: Việt Nam tiếp tục là mắt xích sản xuất trọng yếu; cơ hội nội địa hóa cần theo dõi bằng PO linh kiện, R&D và tỷ lệ supplier Việt thực tế.
+Nguồn bài trong kỳ: Dân trí; số liệu đối chiếu Cổng TTĐT Chính phủ | Tier 1+2
+https://dantri.com.vn/kinh-doanh/samsung-xuat-khau-500-ty-usd-dien-thoai-tu-viet-nam-20260828092810297.htm
+
+4 TRONG 8 TUYẾN CÁP BIỂN KẾT NỐI VIỆT NAM GẶP SỰ CỐ
+Thời gian: 07:26 28/08/2026 (ICT)
+Phân loại: Rủi ro hạ tầng | Tin cậy: trung bình-cao
+Chuyện gì xảy ra: SJC2, AAE-1, AAG và IA cùng gặp vấn đề, ảnh hưởng truy cập dịch vụ có máy chủ ở nước ngoài. Nhà mạng đang chuyển tải sang tuyến khác và cáp đất liền.
+Số liệu xác minh: IA dự kiến bắt đầu sửa đầu tháng 9; ba tuyến còn lại chưa có lịch khắc phục. Dịch vụ đặt máy chủ trong nước không chịu ảnh hưởng trực tiếp tương tự.
+Tác động: Workflow cloud, API và dashboard quốc tế cần giám sát latency, retry có kiểm soát và đường dự phòng trong kỳ nghỉ lễ.
+Nguồn: Dân trí Công nghệ | Tier 2 | newsroom
+https://dantri.com.vn/cong-nghe/48-tuyen-cap-quang-gap-su-co-internet-viet-nam-di-quoc-te-bi-anh-huong-20260828004736880.htm
+
+GALAXY S26 FE MỞ BÁN TẠI VIỆT NAM TỪ 18,99 TRIỆU ĐỒNG
+Thời gian: 06:25 29/08/2026 (ICT)
+Phân loại: Ra mắt sản phẩm | Tin cậy: cao
+Chuyện gì xảy ra: Samsung đưa One UI 9/Android 17, pin 4.900 mAh, sạc 45W và Galaxy AI xuống dòng FE, kèm cam kết 7 lần nâng cấp hệ điều hành và 7 năm bảo mật.
+Số liệu xác minh: 8/128 GB giá 18,99 triệu đồng; 8/256 GB giá 21,99 triệu đồng. Màn hình 6,7 inch AMOLED 120 Hz, độ sáng công bố 1.900 nit.
+Tác động: Hiệu quả sell-out cần tách giá niêm yết khỏi trợ giá trade-in, voucher và trả góp.
+Nguồn bài trong kỳ: Dân trí; thông số đối chiếu Samsung Việt Nam | Tier 1+2
+https://dantri.com.vn/cong-nghe/galaxy-s26-fe-ra-mat-voi-vien-pin-4900mah-va-loat-tinh-nang-ai-20260829011319927.htm
+
+B. TIN QUỐC TẾ
+
+1) KINH TẾ – TÀI CHÍNH – CHỨNG KHOÁN
+
+KÊNH ĐÀO PANAMA GIẢM CÔNG SUẤT; SUẤT ƯU TIÊN LẬP KỶ LỤC 5,3 TRIỆU USD
+Thời gian: 10:36 28/08/2026 (ICT)
+Phân loại: Rủi ro logistics | Tin cậy: trung bình-cao
+Chuyện gì xảy ra: ACP giảm số lượt tàu vì lượng mưa và dòng nước về hồ thấp hơn lịch sử; hàng châu Á đi bờ Đông Mỹ đối mặt thời gian chờ và chi phí cao hơn.
+Số liệu xác minh: Từ 36 xuống 34 tàu/ngày ngày 4/9, rồi 32 tàu/ngày ngày 15/9, giảm 11,1%. Thời gian chờ có thể tới 17 ngày nếu không đặt chỗ.
+Tác động: PO qua Panama cần kiểm tra route, lịch tàu, cut-off và buffer lead time; không nên cộng buffer đồng loạt cho mọi tuyến châu Á–Mỹ.
+Nguồn: Dân trí / ACP | Tier 1+2 | primary/newsroom
+https://dantri.com.vn/kinh-doanh/kenh-dao-panama-giam-luot-tau-qua-lai-doanh-nghiep-viet-lo-tang-chi-phi-20260828011327328.htm
+
+FED PHÁT TÍN HIỆU CÓ THỂ TĂNG LÃI SUẤT NẾU LẠM PHÁT KHÔNG HẠ
+Thời gian: 20:22 28/08/2026 (ICT)
+Phân loại: Chính sách | Tin cậy: cao
+Chuyện gì xảy ra: Chủ tịch Fed Kevin Warsh nói xu hướng lạm phát cơ bản chưa cải thiện đủ và Fed còn việc phải làm nếu giá cả không quay về mục tiêu 2%.
+Số liệu xác minh: DXY tăng 0,35% lên 99,46; lợi suất Treasury 2 năm tăng 12 điểm cơ bản lên 4,35%; chứng khoán Mỹ giảm nhẹ.
+Tác động: USD mạnh và chi phí vốn cao lâu hơn có thể gây áp lực lên tỷ giá, linh kiện nhập khẩu và dòng vốn thị trường mới nổi.
+Nguồn: Associated Press | Tier 2 | newsroom
+https://apnews.com/article/ab896df808df3a5a3fa8b943ac5f3867
+
+2) ĐỊA CHÍNH TRỊ – XÃ HỘI
+
+HORMUZ TIẾP TỤC LÀ ĐIỂM NGHẼN NĂNG LƯỢNG SAU SÁU THÁNG XUNG ĐỘT
+Thời gian: 17:52 28/08/2026 (ICT)
+Phân loại: Rủi ro địa chính trị | Tin cậy: cao
+Chuyện gì xảy ra: Lưu lượng dầu và LNG qua eo biển vẫn thấp hơn trước chiến sự; IMO ghi nhận ít nhất 70 vụ tấn công nhằm vào vận tải quốc tế tại Vịnh Ba Tư.
+Số liệu xác minh: Trước chiến sự, khoảng 20% dầu và khí giao dịch toàn cầu đi qua tuyến này. Brent chốt 89,31 USD/thùng ngày 28/8, giảm 0,43% trong phiên và hơn 5% trong tuần.
+Tác động: Dầu giảm trong tuần không đồng nghĩa rủi ro vận tải đã hết; phí bảo hiểm, tuyến vòng và cước năng lượng vẫn là biến số PO/logistics.
+Nguồn: Associated Press | Tier 2 | newsroom
+https://apnews.com/article/6c8334dbec806f41666ff75e728768b8
+
+3) CÔNG NGHỆ QUỐC TẾ
+
+APPLE VÀ SAMSUNG CHIẾM TRỌN TOP 10 SMARTPHONE BÁN CHẠY Q2/2026
+Thời gian báo chí trong kỳ: 10:10 28/08/2026 (ICT)
+Phân loại: Dữ liệu thị trường | Tin cậy: cao
+Chuyện gì xảy ra: Theo Global Handset Model Sales Tracker của Counterpoint, mỗi hãng có 5 model trong top 10; không có đại diện thương hiệu Trung Quốc trong danh sách toàn cầu quý II.
+Số liệu xác minh: iPhone 17 đứng đầu với 6% unit sales; top 10 chiếm 26% toàn thị trường. Tổng thị trường giảm 11% YoY trong bối cảnh thiếu RAM. Đây là sell-through/unit sales, không phải StatCounter web usage.
+Tác động: Thiếu bộ nhớ làm entry/mid chịu áp lực mạnh hơn, trong khi model premium và model volume chủ lực được ưu tiên nguồn lực, khuyến mại và tồn kho.
+Nguồn bài trong kỳ: VnExpress; dữ liệu gốc Counterpoint Global Handset Model Sales Tracker | Tier 1+2
+https://vnexpress.net/smartphone-trung-quoc-vang-bong-trong-top-dien-thoai-ban-chay-toan-cau-5113890.html
+
+MARVELL TĂNG DOANH THU 37%, NHƯNG KỲ VỌNG AI CAO HƠN CẢ KẾT QUẢ
+Thời gian báo chí trong kỳ: 17:19 28/08/2026 (ICT)
+Phân loại: Kết quả kinh doanh | Tin cậy: cao
+Chuyện gì xảy ra: Marvell ghi nhận doanh thu quý II tài khóa 2027 kỷ lục, nhưng cổ phiếu giảm khoảng 6% do triển vọng 2028 chưa đáp ứng kỳ vọng cao.
+Số liệu xác minh: Doanh thu 2,739 tỷ USD, +37% YoY; data center +46%. Công ty nâng dự báo doanh thu tài khóa 2028 lên khoảng 18 tỷ USD từ 16,5 tỷ USD.
+Tác động: Nhu cầu chip kết nối/data-center còn mạnh, nhưng không nên suy rộng trực tiếp sang chip smartphone.
+Nguồn bài trong kỳ: CNBC; số liệu đối chiếu Marvell Investor Relations | Tier 1+2
+https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html
+
+HÀM Ý TỔNG HỢP
+
+1. Purchasing / thị trường Android
+- Đối chiếu forecast sell-out theo phân khúc: RAM shortage có thể làm model entry/mid tăng giá hoặc giảm cấu hình trước model premium.
+- Theo dõi sell-out S26 FE bằng giá thực trả sau trade-in/voucher, không dùng MSRP 18,99 triệu đồng làm proxy duy nhất.
+- Kiểm tra allocation bộ nhớ, lead time và hỗ trợ giá của Samsung, Xiaomi, OPPO, vivo, realme trong kỳ kế hoạch kế tiếp.
+
+2. Business / vận hành
+- Giữ buffer cho kết nối cloud quốc tế khi 4 tuyến cáp biển lỗi; ưu tiên mirror dữ liệu, retry và cảnh báo latency.
+- Với tuyến hàng qua Panama, xác nhận route và lịch tàu theo từng PO thay vì cộng buffer đồng loạt.
+- Đưa rủi ro điện giai đoạn 2028–2030 vào supplier risk review cho nhà máy và trung tâm dữ liệu tại Việt Nam.
+
+3. Góc nhìn đầu tư tham khảo
+Kịch bản cơ sở: VN-Index giữ hỗ trợ nhờ dòng tiền nội, nhưng độ rộng yếu; USD và lợi suất có thể tăng nếu Fed cứng rắn. Theo dõi DXY, USD/VND, lãi suất liên ngân hàng, dầu Brent và độ rộng thị trường. Đây không phải tư vấn mua/bán cá nhân.
+
+GHI CHÚ ĐỘ PHỦ
+
+- scanned_with_items: VnExpress Kinh doanh, VnExpress Khoa học Công nghệ, VnExpress Tin mới nhất, Dân trí Kinh doanh, Dân trí Công nghệ, Dân trí Trang chủ, BBC Business, BBC Technology, CNBC Markets, CNBC Technology, The Verge.
+- scanned_no_qualifying_item: Nikkei Asia Business; FT Markets (homepage truy cập được nhưng không có bài free đủ điều kiện được chọn).
+- failed_with_reason: Reuters Business RSS/fallback và Reuters Technology RSS/fallback trả HTTP 401 sau hai lần retry; Bloomberg Markets trả HTTP 403/robot check sau retry.
+- Đã kiểm tra HOSE, SSC, Vietstock, CafeF, SBV, Vietcombank, TrendForce, Freightos và nguồn PMI. HNX/VSDC lỗi TLS khi truy cập trực tiếp; số liệu chỉ số được đối chiếu qua nhiều bản tổng kết thị trường.
+- Không có dữ liệu NIQ/GfK công khai mới trong kỳ. Các chỉ báo DRAM/NAND, PMI và cước biển không được đưa vào KPI nếu không có giá trị mới, đúng kỳ và kiểm chứng được.
+- Không gửi email, không tạo Gmail draft, không thực hiện thao tác Gmail.
