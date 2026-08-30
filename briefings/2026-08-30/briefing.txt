@@ -1,0 +1,170 @@
+BẢN TIN 24H | KINH TẾ – THỊ TRƯỜNG – CÔNG NGHỆ | 30/08/2026
+Daily mode · Asia/Ho_Chi_Minh
+Cửa sổ cố định: [07:00 29/08/2026, 07:00 30/08/2026)
+Run key: vn-global-daily-news-briefing:2026-08-30:daily
+
+EXECUTIVE SUMMARY
+
+1. Fed làm giảm khẩu vị rủi ro: vàng thế giới mất hơn 146 USD/ounce; Bitcoin giảm 2,4% trong 24 giờ.
+2. Thỏa thuận Mỹ–Venezuela có thể bổ sung nguồn cung dầu dài hạn, nhưng thiếu chi tiết pháp lý, vận hành và vốn hạ tầng; chưa nên suy ra giá năng lượng sẽ giảm ngay.
+3. Đà Nẵng khởi công các hạng mục KCN hơn 1.098 tỷ đồng, mở thêm không gian cho công nghệ cao, supplier và logistics.
+4. Redmi Note 17 chuyển trọng tâm sang pin/dộ bền, pin tối đa 10.000 mAh, trong khi hạ cấu hình do áp lực chip nhớ.
+5. DRAM và hạ tầng AI tiếp tục chịu rủi ro chính sách và năng lực: CXMT kiện Bộ Quốc phòng Mỹ; đề xuất “nhà máy AI” tại Việt Nam nhấn mạnh nút thắt điện và GPU.
+
+MARKET PULSE
+
+- VN-Index (mốc gần nhất 28/8): 1.832,12 điểm, +0,03%.
+- HNX-Index (28/8): 284,77 điểm, +0,75%.
+- UPCoM-Index (28/8): 127,50 điểm, +0,27%.
+- Khối ngoại HoSE (28/8): mua ròng khoảng 335 tỷ đồng.
+- Tỷ giá trung tâm SBV (28/8): 25.610 VND/USD, giảm 1 đồng.
+- Lãi suất liên ngân hàng qua đêm (phiên 27/8): 1,20%/năm, giảm 0,8 điểm phần trăm.
+- Brent (chốt 28/8): 89,31 USD/thùng, giảm 0,43%.
+- Vàng miếng SJC sáng 29/8: 145,7–148,7 triệu đồng/lượng, giảm 1,5 triệu đồng.
+- Vàng thế giới chốt 28/8: 4.454 USD/ounce, giảm hơn 146 USD.
+- Bitcoin tối 29/8: khoảng 77.600 USD, giảm 2,4% trong 24 giờ.
+Lưu ý: Cuối tuần không có phiên chứng khoán mới; các chỉ số, FX và lãi suất ghi rõ mốc gần nhất 27–28/8, không giả định dữ liệu 29/8.
+
+A. TIN TRONG NƯỚC
+
+1) KINH TẾ – TÀI CHÍNH – CHÍNH SÁCH
+
+GIÁ VÀNG TRONG NƯỚC GIẢM 1,5 TRIỆU ĐỒNG/LƯỢNG
+Thời gian: 10:01 29/08/2026 (ICT)
+Phân loại: Sự kiện thị trường | Tin cậy: cao
+Chuyện gì xảy ra: SJC hạ giá vàng miếng và nhẫn theo đà giảm quốc tế sau thông điệp lãi suất của Fed.
+Số liệu xác minh: Vàng miếng 145,7–148,7 triệu đồng/lượng; vàng thế giới chốt 28/8 ở 4.454 USD/ounce, giảm hơn 146 USD.
+Tác động: USD và lợi suất cao hơn có thể gia tăng biến động tỷ giá và chi phí nhập khẩu; chênh lệch giá vàng trong nước–thế giới vẫn gần 7 triệu đồng.
+Nguồn: VnExpress Kinh doanh | Tier 2 | newsroom
+https://vnexpress.net/gia-vang-giam-hon-mot-trieu-dong-5114834.html
+
+ĐỀ XUẤT SANDBOX CHO TỐI ĐA 1.000 NHÀ ĐẦU TƯ DÙNG AI ĐẶT LỆNH
+Thời gian: 08:05 29/08/2026 (ICT)
+Phân loại: Dự thảo chính sách | Tin cậy: cao
+Chuyện gì xảy ra: Bộ Tài chính đề xuất thử nghiệm AI đầu tư, tạo lập thị trường, tư vấn, Open API và RegTech.
+Số liệu xác minh: Tối đa 1.000 nhà đầu tư chuyên nghiệp; thời gian thử nghiệm tối đa 5 năm; cổ phiếu nằm ngoài VNX AllShare.
+Tác động: Cơ hội fintech đi kèm yêu cầu dữ liệu chuẩn, an ninh mạng và kiểm soát rủi ro thuật toán.
+Nguồn: VnExpress / dự thảo Bộ Tài chính | Tier 1+2 | official/newsroom
+https://vnexpress.net/de-xuat-cho-nha-dau-tu-thu-dung-ai-dat-lenh-chung-khoan-5114575.html
+
+ĐÀ NẴNG KHỞI CÔNG CÁC HẠNG MỤC KCN HƠN 1.098 TỶ ĐỒNG
+Thời gian: 16:44 29/08/2026 (ICT)
+Phân loại: Sự kiện hạ tầng | Tin cậy: cao
+Chuyện gì xảy ra: Ba hạng mục tại KCN Nam Thăng Bình khởi công, hướng tới quỹ đất cho công nghệ cao và công nghệ sạch từ 2027.
+Số liệu xác minh: Nhà xưởng 18 ha, hạ tầng 29,5 ha, xử lý nước thải 4.200 m³/ngày; toàn KCN 346 ha, vốn hơn 4.043 tỷ đồng.
+Tác động: Tăng lựa chọn địa điểm cho supplier, lắp ráp và logistics; tiến độ phụ thuộc giải phóng mặt bằng và hạ tầng điện–nước.
+Nguồn: VnExpress Kinh doanh | Tier 2 | newsroom
+https://vnexpress.net/da-nang-khoi-cong-loat-du-an-khu-cong-nghiep-nghin-ty-dong-5114985.html
+
+FPT RETAIL BỊ PHẠT 400 TRIỆU ĐỒNG VỀ QUYỀN LỢI NGƯỜI TIÊU DÙNG
+Thời gian: 09:57 29/08/2026 (ICT)
+Phân loại: Sự kiện tuân thủ | Tin cậy: cao
+Chuyện gì xảy ra: Ủy ban Cạnh tranh Quốc gia xử phạt doanh nghiệp về hợp đồng theo mẫu và thông tin sản phẩm/dịch vụ.
+Số liệu xác minh: Phạt 400 triệu đồng cho 2 hành vi; doanh nghiệp đã phối hợp và triển khai khắc phục.
+Tác động: Retailer thiết bị cần rà soát claim, giá/khuyến mãi, bảo hành và điều kiện giao dịch trên mọi kênh.
+Nguồn: Dân trí / Ủy ban Cạnh tranh Quốc gia | Tier 1+2 | official/newsroom
+https://dantri.com.vn/kinh-doanh/mot-chuoi-ban-le-bi-phat-400-trieu-dong-vi-vi-pham-quyen-loi-nguoi-tieu-dung-20260829082215670.htm
+
+2) CÔNG NGHỆ VÀ THỊ TRƯỜNG THIẾT BỊ TRONG NƯỚC
+
+DOANH NGHIỆP TRUNG QUỐC ĐỀ XUẤT XÂY “NHÀ MÁY AI” TẠI VIỆT NAM
+Thời gian: 07:00 29/08/2026 (ICT)
+Phân loại: Tuyên bố doanh nghiệp | Tin cậy: trung bình
+Chuyện gì xảy ra: Nhóm doanh nghiệp đề xuất hợp tác trung tâm dữ liệu, tính toán và AI cho sản xuất/logistics; chưa phải dự án được phê duyệt.
+Số liệu được bên phát biểu nêu: 148 MW data center đang vận hành, quy hoạch có thể vượt 870 MW; 10.000–15.000 GPU; chi phí trung vị 7,2 triệu USD/MW. Chưa có nguồn công khai độc lập đối chiếu toàn bộ.
+Tác động: Cơ hội hạ tầng số đi cùng rủi ro điện, đất, GPU và pháp lý.
+Nguồn: VnExpress Công nghệ | Tier 2 | company-statement/newsroom
+https://vnexpress.net/trung-quoc-muon-xay-nha-may-ai-tai-viet-nam-5114619.html
+
+NỀN TẢNG CHIA SẺ DỮ LIỆU QUỐC GIA GHI NHẬN 4,7 TỶ GIAO DỊCH
+Thời gian: 10:06 29/08/2026 (ICT)
+Phân loại: Sự kiện hạ tầng số | Tin cậy: cao
+Chuyện gì xảy ra: Bộ Khoa học và Công nghệ cho biết 100% địa phương đã kết nối nền tảng.
+Số liệu xác minh: 4,7 tỷ giao dịch tính đến 15/8; doanh thu công nghệ số tháng 8 ước 680.586 tỷ đồng, +36% YoY; xuất khẩu khoảng 22,4 tỷ USD, +41%.
+Tác động: Hạ tầng liên thông có thể giảm ma sát thủ tục và automation; không đồng nhất doanh thu ngành với sell-out thiết bị.
+Nguồn: Dân trí / Bộ Khoa học và Công nghệ | Tier 1+2 | official/newsroom
+https://dantri.com.vn/khoa-hoc/hon-47-ty-giao-dich-qua-nen-tang-chia-se-du-lieu-quoc-gia-20260828181053613.htm
+
+REDMI NOTE 17 ĐẨY PIN LÊN TỚI 10.000 MAH, GIÁ TỪ 6,5 TRIỆU ĐỒNG
+Thời gian: 07:40 29/08/2026 (ICT)
+Phân loại: Ra mắt sản phẩm | Tin cậy: cao
+Chuyện gì xảy ra: Xiaomi tập trung pin và độ bền cho dòng Note 17 thay vì đua cấu hình; bản Pro Max dùng pin silicon–carbon và sạc 100 W.
+Số liệu xác minh: Bốn phiên bản giá 6,5–16 triệu đồng; pin 7.700–10.000 mAh; bản Pro/Pro Max hỗ trợ IP66/68/69/69K; cấu hình thấp hơn thế hệ trước trong bối cảnh thiếu chip nhớ.
+Tác động: Battery-first/durability là đòn bẩy tầm trung khi BOM bộ nhớ bị siết; cần so sell-out theo RAM/storage và giá thực trả.
+Nguồn: VnExpress Công nghệ | Tier 2 | newsroom/company facts
+https://vnexpress.net/redmi-note-17-series-smartphone-sieu-ben-pin-toi-da-10-000-mah-5114290.html
+
+B. TIN QUỐC TẾ
+
+1) KINH TẾ – TÀI CHÍNH – ĐỊA CHÍNH TRỊ
+
+MỸ CÔNG BỐ THỎA THUẬN KIỂM SOÁT HƠN 65 TỶ THÙNG DẦU VENEZUELA
+Thời gian: 22:40 29/08/2026 UTC (05:40 30/8 ICT)
+Phân loại: Tuyên bố/thỏa thuận | Tin cậy: trung bình-cao
+Chuyện gì xảy ra: Mỹ nói sẽ nắm 55% liên doanh với nhà vận hành tư nhân; Venezuela coi đây là cơ hội phục hồi kinh tế.
+Số liệu xác minh: Hơn 65 tỷ thùng dầu và gần 100 tỷ USD đầu tư tư nhân là số liệu chính quyền Mỹ công bố; điều khoản và tính pháp lý chưa rõ.
+Tác động: Có thể bổ sung nguồn cung trung–dài hạn, nhưng chưa là cơ sở giảm giá năng lượng ngay.
+Nguồn: BBC Business | Tier 2 | newsroom | tóm lược từ tiếng Anh
+https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o
+
+NGA VÀ MỸ CẠNH TRANH NGUỒN CUNG NĂNG LƯỢNG CHO ẤN ĐỘ
+Thời gian: 00:04 30/08/2026 (ICT)
+Phân loại: Phân tích dòng chảy năng lượng | Tin cậy: trung bình-cao
+Chuyện gì xảy ra: Ấn Độ tăng mua dầu Venezuela trong khi Nga vẫn là nhà cung cấp dầu thô lớn nhất; Mỹ dẫn đầu LPG và LNG nhập khẩu.
+Số liệu xác minh: Kpler ước tính dầu Nga chiếm gần 43% nhập khẩu dầu thô Ấn Độ tháng 8; Venezuela đạt 383.000 thùng/ngày; Mỹ chiếm hơn 70% LPG và gần 30% LNG nhập khẩu tháng 7.
+Tác động: Dòng dầu dịch chuyển có thể làm thay đổi chênh lệch giá, tuyến tàu và chi phí năng lượng châu Á.
+Nguồn: VnExpress; dữ liệu Kpler/CNBC | Tier 1+2 | specialist/newsroom
+https://vnexpress.net/nga-my-tranh-gianh-thi-truong-nang-luong-an-do-5114941.html
+
+2) CÔNG NGHỆ QUỐC TẾ
+
+CXMT KIỆN BỘ QUỐC PHÒNG MỸ VỀ ĐỊNH DANH LIÊN QUAN QUÂN ĐỘI
+Thời gian: 19:00 29/08/2026 (ICT)
+Phân loại: Rủi ro chuỗi cung ứng | Tin cậy: cao
+Chuyện gì xảy ra: Nhà sản xuất DRAM Trung Quốc yêu cầu tòa liên bang đảo ngược việc bị đưa vào danh sách doanh nghiệp hỗ trợ quân đội Trung Quốc.
+Số liệu xác minh: Đơn kiện nộp 28/8 tại Tòa liên bang Quận Columbia; CXMT bác bỏ liên hệ quân sự; Bộ Quốc phòng Mỹ không bình luận vụ kiện.
+Tác động: Hạn chế và kiểm soát xuất khẩu có thể ảnh hưởng năng lực mở rộng DRAM; purchasing cần giữ kịch bản nguồn cung thay thế.
+Nguồn: VnExpress Công nghệ | Tier 2 | newsroom
+https://vnexpress.net/ngoi-sao-ban-dan-trung-quoc-cxmt-kien-bo-quoc-phong-my-5114812.html
+
+OPENAI DỰ KIẾN NGỪNG CUNG CẤP MODEL CHO CURSOR TỪ 12/11
+Thời gian: 19:06 29/08/2026 UTC (02:06 30/8 ICT)
+Phân loại: Rủi ro nền tảng AI | Tin cậy: cao
+Chuyện gì xảy ra: OpenAI thông báo kế hoạch dừng quyền truy cập sau khi SpaceX mua Cursor; Cursor cho biết model OpenAI phục vụ khoảng 5% traffic.
+Số liệu xác minh: Ngày dự kiến ngừng là 12/11/2026; SpaceX hoàn tất thương vụ 60 tỷ USD ngày 14/8 theo hồ sơ tài chính; hai bên còn trao đổi.
+Tác động: Doanh nghiệp dùng AI coding nên kiểm kê dependency, khả năng chuyển provider và điều khoản continuity.
+Nguồn: CNBC Technology | Tier 2 | newsroom | tóm lược từ tiếng Anh
+https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html
+
+THỎA THUẬN META TỐI ĐA 18 TỶ USD GIA TĂNG ÁP LỰC LÊN MẠNG XÃ HỘI
+Thời gian: 05:00 29/08/2026 UTC (12:00 29/8 ICT)
+Phân loại: Sự kiện pháp lý công nghệ | Tin cậy: cao
+Chuyện gì xảy ra: Meta dàn xếp vụ kiện về an toàn người dùng trẻ, cam kết giới hạn thời gian dùng, siết xác minh tuổi và chế độ ban đêm.
+Số liệu xác minh: Khoảng 12,7 tỷ USD trả trong 10 năm; 5,3 tỷ USD còn lại gắn với thay đổi tương tự của TikTok và YouTube.
+Tác động: Chi phí tuân thủ, thiết kế sản phẩm và hiệu quả quảng cáo có thể thay đổi, ảnh hưởng kênh marketing thiết bị tới người dùng trẻ.
+Nguồn: CNBC Technology | Tier 2 | newsroom | tóm lược từ tiếng Anh
+https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html
+
+HÀM Ý TỔNG HỢP
+
+1. Purchasing / thị trường Android
+- So sell-out Redmi Note 17 theo RAM/storage và giá thực trả; pin/dộ bền có thể che việc hạ cấu hình.
+- Yêu cầu supplier cập nhật allocation DRAM/NAND, lead time và cơ chế price protection cho model entry/mid.
+- Không dùng số liệu đặt trước/tuyên bố hãng làm proxy sell-out nếu chưa có dữ liệu NIQ/GfK công khai.
+
+2. Business / vận hành
+- Rà soát claim sản phẩm, giá/khuyến mãi và hợp đồng theo mẫu sau vụ xử phạt FPT Retail.
+- Với dự án data center/AI, đưa điện, GPU, đất và pháp lý vào due diligence; không coi đề xuất là công suất đã cam kết.
+- Kiểm kê dependency API/model AI và phương án chuyển nhà cung cấp cho workflow nội bộ.
+
+3. Góc nhìn đầu tư tham khảo
+Kịch bản cơ sở là biến động còn cao khi thị trường định giá lại lãi suất Fed. Theo dõi DXY, lợi suất Mỹ, USD/VND, vàng, Brent và dòng vốn ETF; thỏa thuận Venezuela chưa đủ để suy ra nguồn cung tăng ngay. Đây không phải tư vấn mua/bán cá nhân.
+
+GHI CHÚ ĐỘ PHỦ
+
+- scanned_with_items: VnExpress Kinh doanh, VnExpress Khoa học Công nghệ, VnExpress Tin mới nhất, Dân trí Kinh doanh, Dân trí Công nghệ, Dân trí Trang chủ, BBC Business, BBC Technology, CNBC Markets, CNBC Technology, The Verge.
+- scanned_no_qualifying_item: Nikkei Asia Business. BBC Technology có bài trong cửa sổ nhưng không đủ tác động để chọn.
+- failed_with_reason: Reuters Business/Technology RSS và fallback HTTP 401 sau hai lần retry; Bloomberg Markets và FT Markets HTTP 403 sau retry.
+- Đã kiểm tra HOSE, HNX, VSDC, SSC, Vietstock, CafeF, SBV, Vietcombank, TrendForce, Freightos và nguồn PMI. SSC timeout; Freightos URL public cũ HTTP 404; S&P PMI HTTP 403.
+- Chưa có dữ liệu NIQ/GfK, PMI, DRAM/NAND hay cước biển công khai mới, đúng kỳ và đủ kiểm chứng.
+- Không gửi email, không tạo Gmail draft, không thực hiện thao tác Gmail.
