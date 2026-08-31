@@ -1,0 +1,205 @@
+BẢN TIN SÁNG THỨ HAI | 7 NGÀY QUA + 24H MỚI NHẤT | 31/08/2026
+Monday combined mode · Asia/Ho_Chi_Minh
+Cửa sổ tuần cố định: [07:00 24/08/2026, 07:00 31/08/2026)
+Cửa sổ 24 giờ cố định: [07:00 30/08/2026, 07:00 31/08/2026)
+Run key: vn-global-daily-news-briefing:2026-08-31:monday-combined
+
+EXECUTIVE SUMMARY — 7 NGÀY
+
+1. VN-Index kết tuần tại 1.832,12 điểm, tăng 64 điểm (+3,62%) so với cuối tuần trước. Thanh khoản bình quân khoảng 19.541 tỷ đồng/phiên, tăng khoảng 57% so với 12.414 tỷ đồng/phiên của tuần trước, nhưng nhiều phiên vẫn phụ thuộc nhóm vốn hóa lớn.
+2. Chi phí đầu vào phân hóa: Brent giảm từ khoảng 93,64 xuống 89,31 USD/thùng, trong khi DXY tăng lên 99,46; TrendForce vẫn dự báo hợp đồng DRAM phổ thông quý III tăng 13–18% và NAND tăng 10–15% so với quý trước.
+3. Chuỗi cung ứng công nghệ tại Việt Nam có thêm tín hiệu dài hạn: Samsung đạt 500 tỷ USD xuất khẩu điện thoại lũy kế; Apple mở rộng đào tạo nhà cung ứng; thiết bị Amazon Leo sản xuất tại Bắc Ninh được cấp phép đo kiểm.
+4. Android bước vào giai đoạn thay đổi danh mục: tắt 2G từ 15/9 làm tăng rủi ro thoại trên máy 4G chưa sẵn sàng VoLTE; Redmi Note 17 đưa pin lên 10.000 mAh trong khi áp lực bộ nhớ làm cấu hình bị siết.
+5. AI và bán dẫn vừa tăng tốc vừa tăng rủi ro: Nvidia ghi nhận doanh thu quý tăng 106% nhưng nguồn cung chỉ đáp ứng khoảng 70% nhu cầu; YMTC, CXMT và các quy định xuất xứ/kiểm soát công nghệ làm bài toán allocation khó dự báo hơn.
+
+MARKET PULSE — TUẦN 24–30/08
+
+- VN-Index 28/8: 1.832,12 điểm; +64,00 điểm (+3,62%) so với 21/8.
+- HNX-Index 28/8: 284,77 điểm; UPCoM-Index: 127,50 điểm.
+- Thanh khoản ba sàn: khoảng 97.706 tỷ đồng trong 5 phiên; bình quân 19.541 tỷ đồng/phiên, tăng khoảng 57% so tuần trước.
+- Dòng ngoại: dữ liệu từng ngày cho thấy mua ròng trong cả 5 phiên; không cộng gộp thành KPI vì phạm vi HoSE/ba sàn và thời điểm chốt giữa nguồn không đồng nhất.
+- Tỷ giá trung tâm SBV 28/8: 25.610 VND/USD. Vietcombank 9h 28/8: 25.860–26.270 VND/USD (mua–bán).
+- Brent 28/8: 89,31 USD/thùng, giảm khoảng 4,6% so mốc 93,64 USD cuối tuần trước; WTI 27/8: 83,53 USD/thùng.
+- DXY 28/8: 99,46, tăng khoảng 0,7% so mốc 98,74 cuối tuần trước.
+- Drewry World Container Index công bố 27/8: 4.473 USD/container 40 ft, giảm 1% trong tuần.
+- Bộ nhớ quý III/2026: TrendForce dự báo hợp đồng DRAM phổ thông +13–18% QoQ; NAND Flash +10–15% QoQ. Đây là dự báo theo quý, không phải giá spot.
+
+TOP WEEKLY EVENTS & TRENDS
+
+1. Chứng khoán phục hồi nhưng chất lượng tăng chưa đồng đều. VN-Index đi từ 1.768,12 lên 1.832,12; thanh khoản cải thiện rõ, song nhiều phiên có độ rộng yếu hoặc phụ thuộc VIC/VHM/TCB.
+2. Nguồn vốn và vận hành SME còn lệch pha. Gói tín dụng 408.000 tỷ đồng được 12 ngân hàng đăng ký, nhưng tỷ lệ SME tiếp cận vốn công bố gần nhất chỉ 8,8%; logistics vẫn được nêu ở mức 16% GDP.
+3. Năng lượng hạ nhiệt, USD quay lại gây áp lực. Brent giảm hơn 4% theo tuần nhưng DXY tăng sau thông điệp Fed; landed cost chưa được giải tỏa vì FX và memory vẫn bất lợi.
+4. Sản xuất công nghệ Việt Nam nâng vị thế. Samsung đạt 500 tỷ USD xuất khẩu điện thoại lũy kế; Apple mở trung tâm đào tạo chuỗi cung ứng đầu tiên ở Đông Nam Á; Qualcomm muốn mở rộng R&D AI.
+5. Smartphone chuyển trọng tâm sang pin, độ bền và lifecycle. Redmi Note 17 tối đa 10.000 mAh; iPhone 17 Pro Max giảm cuối vòng đời; tắt 2G/VoLTE và lịch iPhone 18 tạo áp lực điều phối tồn kho tháng 9.
+6. AI/chip tăng trưởng nhanh nhưng rủi ro tập trung lớn. Nvidia tăng trưởng mạnh; DRAM/NAND tăng giá; YMTC và CXMT gia tăng cạnh tranh trong bối cảnh hạn chế thương mại và thiếu nguồn cung.
+
+THAY ĐỔI SO VỚI 7 NGÀY TRƯỚC
+
+- Tâm lý thị trường: từ phục hồi mỏng và thanh khoản thấp sang tăng 7 phiên liên tiếp với thanh khoản bình quân cao hơn; vẫn cần theo dõi độ rộng và vai trò nhóm trụ.
+- Chi phí: áp lực dầu giảm, nhưng DXY và bộ nhớ thay thế vai trò rủi ro chính; không nên hạ giả định landed cost chỉ vì Brent giảm.
+- Thiết bị: từ câu chuyện tăng giá iPhone/laptop chuyển sang lịch NPI tháng 9, pin lớn, VoLTE và allocation RAM/ROM.
+- Chuỗi cung ứng: từ kỳ vọng dịch chuyển Pixel sang Việt Nam sang các tín hiệu cụ thể hơn về đào tạo nhà cung ứng, xuất khẩu Samsung và sản xuất thiết bị vệ tinh Amazon.
+
+RỦI RO / SỰ KIỆN CẦN THEO DÕI TUẦN TỚI
+
+- 01/09: quy định xử phạt giao dịch, cung cấp và quảng cáo dịch vụ tài sản mã hóa không phép bắt đầu có hiệu lực.
+- 02/09: cao điểm nghỉ lễ; theo dõi traffic cửa hàng, giao nhận, hoàn đơn và tồn kho điểm bán.
+- Đầu tháng 9: kỳ công bố PMI sản xuất Việt Nam; chỉ dùng số liệu khi S&P Global hoặc nguồn chính thức phát hành.
+- 09/09: sự kiện Apple; tách rõ thông tin hãng xác nhận với tin đồn cấu hình/giá.
+- 15/09: tắt 2G; cần hoàn tất mapping SKU–nhà mạng–VoLTE trước hạn.
+
+WEEKLY PURCHASING / ANDROID WATCHLIST
+
+- Chốt forecast theo RAM/storage và giá thực trả; tránh tăng PO đại trà chỉ dựa trên câu chuyện pin hoặc AI.
+- Yêu cầu supplier cập nhật allocation DRAM/NAND, lead time, price protection và mốc hiệu lực bảng giá.
+- Kiểm tra VoLTE theo IMEI/SKU và nhà mạng; tách máy 4G chỉ-data hoặc chưa được whitelist.
+- Chuẩn bị tồn kho, POSM và staffing cho iPhone event, đồng thời tránh đè hàng Android cùng phân khúc.
+- Theo dõi sell-out sau lễ 2/9, tỷ lệ hoàn đơn online và tác động quy định bảo vệ người mua.
+
+======================================================================
+24 GIỜ MỚI NHẤT | [07:00 30/08/2026, 07:00 31/08/2026)
+======================================================================
+
+EXECUTIVE SUMMARY — 24 GIỜ
+
+1. Việt Nam bổ sung khung chính sách mới cho AI, thương mại điện tử và tài sản mã hóa; doanh nghiệp cần chuyển từ theo dõi dự thảo sang checklist tuân thủ.
+2. Lịch iPhone 18 Pro có thể mở bán 18/9, còn WiFi 7 bắt đầu được nhà mạng phổ cập ở mức 1–2 Gbps; nhu cầu thiết bị đầu cuối tháng 9 sẽ cạnh tranh mạnh hơn.
+3. Retail Mỹ dùng hoàn thuế quan theo nhiều cách khác nhau, làm lợi nhuận và sức cầu khó đọc; khi benchmark hãng/retailer phải tách lợi nhuận một lần khỏi vận hành cốt lõi.
+4. Lũ Nepal–Tây Tạng gây thiệt hại nặng và tiếp tục cảnh báo lũ; đây là rủi ro logistics khu vực, điện và du lịch hơn là câu chuyện nhu cầu tiêu dùng trực tiếp tại Việt Nam.
+5. Robot hình người Trung Quốc tiến nhanh nhưng độ ổn định vẫn chưa theo kịp trình diễn; chưa nên dùng demo làm proxy cho năng suất thương mại.
+
+MARKET PULSE — 24 GIỜ
+
+- Cuối tuần không có phiên chứng khoán mới: dùng mốc 28/8, không giả định dữ liệu 30/8.
+- VN-Index: 1.832,12 (+0,03%); HNX-Index: 284,77 (+0,75%); UPCoM-Index: 127,50 (+0,27%).
+- Thanh khoản HoSE 28/8: khoảng 17.400 tỷ đồng; khối ngoại mua ròng khoảng 335 tỷ đồng.
+- Tỷ giá trung tâm 28/8: 25.610 VND/USD; Vietcombank bán 26.270 VND/USD lúc 9h.
+- Brent chốt 28/8: 89,31 USD/thùng; DXY: 99,46.
+- Không có PMI, DRAM/NAND spot hay cước biển mới công khai trong cửa sổ cuối tuần.
+
+A. TIN TRONG NƯỚC
+
+1. VINGROUP GHI NHẬN LÃI 12.542 TỶ ĐỒNG TỪ THOÁI VỐN MẢNG SẢN XUẤT VINFAST
+Thời gian: 14:05 30/08/2026 (ICT)
+Phân loại: fact | Tin cậy: cao
+Chuyện gì xảy ra: Báo cáo soát xét bán niên cho thấy Vingroup ghi nhận khoản lãi lớn từ chuyển nhượng VinFast Trading & Production cho công ty Tương Lai do ông Phạm Nhật Vượng góp vốn.
+Số liệu xác minh: Lãi thoái vốn 12.542 tỷ đồng; Vingroup có doanh thu tài chính 25.285 tỷ đồng và lợi nhuận trước thuế 34.400 tỷ đồng trong nửa đầu năm. Bên nhận chuyển nhượng chịu trách nhiệm khoảng 182.000 tỷ đồng nợ tài chính của VinFast tại 31/3.
+Tác động: Lợi nhuận kỳ này chứa khoản tài chính lớn, nên khi đánh giá sức khỏe vận hành và nhu cầu thiết bị/xe cần tách lãi một lần khỏi dòng tiền cốt lõi.
+Nguồn: VnExpress Kinh doanh | Tier 2 | newsroom
+https://vnexpress.net/vingroup-lai-hon-12-500-ty-dong-tu-ban-mang-san-xuat-cua-vinfast-o-viet-nam-5115157.html
+
+2. VIỆT NAM ĐẶT MỤC TIÊU 10 THƯƠNG HIỆU AI QUỐC TẾ VÀ 8 MÔ HÌNH TIẾNG VIỆT
+Thời gian: 17:50 30/08/2026 (ICT)
+Phân loại: fact / chính sách | Tin cậy: cao
+Chuyện gì xảy ra: Chiến lược AI quốc gia đến 2030, tầm nhìn 2045 được Thủ tướng phê duyệt ngày 28/8, chuyển trọng tâm từ “đưa AI vào” sang coi AI là năng lực cốt lõi của thiết kế và vận hành.
+Số liệu xác minh: Mục tiêu đến 2030 có 10 thương hiệu AI cạnh tranh khu vực/quốc tế và 8 mô hình AI tiếng Việt.
+Tác động: Cơ hội cho data center, cloud, tích hợp AI và đào tạo; nhưng kế hoạch mua sắm phải kiểm chứng điện, GPU, dữ liệu và năng lực triển khai thay vì dựa trên mục tiêu chính sách.
+Nguồn: VnExpress / Chiến lược quốc gia về AI | Tier 1+2 | official/newsroom
+https://vnexpress.net/viet-nam-dat-muc-tieu-co-10-thuong-hieu-ai-quoc-te-nam-2030-5115221.html
+
+3. IPHONE 18 PRO CÓ THỂ MỞ BÁN TẠI VIỆT NAM NGÀY 18/9
+Thời gian: 16:20 30/08/2026 (ICT)
+Phân loại: forecast / channel check | Tin cậy: trung bình
+Chuyện gì xảy ra: Đại diện hệ thống bán lẻ và nhà cung cấp phụ kiện cho rằng Việt Nam tiếp tục thuộc nhóm thị trường mở bán sớm; đây chưa phải ngày bán do Apple công bố.
+Số liệu xác minh: Mốc dự kiến mở bán 18/9; đặt trước có thể từ 12/9. Đợt đầu được dự báo tập trung iPhone 18 Pro/Pro Max.
+Tác động: Cần khóa lịch nhân sự, POSM và tồn kho tháng 9, đồng thời tránh dùng tin kênh làm cam kết supply trước khi Apple xác nhận.
+Nguồn: VnExpress Công nghệ | Tier 2 | newsroom/attributed statement
+https://vnexpress.net/iphone-18-pro-co-the-ban-tai-viet-nam-ngay-18-9-5115198.html
+
+4. BỘ CÔNG THƯƠNG ĐỀ XUẤT SIẾT KHUNG BẢO VỆ NGƯỜI MUA ONLINE
+Thời gian: 07:36 30/08/2026 (ICT)
+Phân loại: draft policy | Tin cậy: cao
+Chuyện gì xảy ra: Dự thảo nghị định phân cấp cho Bộ trưởng quy định chi tiết về hợp đồng mẫu, thu hồi hàng lỗi, giao dịch từ xa và giao dịch trên không gian mạng.
+Số liệu xác minh: Đây là dự thảo sửa Nghị định 55/2024/NĐ-CP; chưa phải quy định cuối cùng có hiệu lực.
+Tác động: Retailer cần rà claim, điều kiện đổi trả/bảo hành, thu hồi và luồng đồng ý của khách hàng trên web/app.
+Nguồn: Dân trí / Bộ Công Thương | Tier 1+2 | official/newsroom
+https://dantri.com.vn/kinh-doanh/bo-cong-thuong-de-xuat-them-quy-dinh-bao-ve-nguoi-mua-hang-online-20260829235310401.htm
+
+5. NHÀ MẠNG ĐẨY WIFI 7 XUỐNG GÓI 1–2 GBPS
+Thời gian: 11:53 30/08/2026 (ICT)
+Phân loại: fact / market launch | Tin cậy: cao
+Chuyện gì xảy ra: Viettel và FPT mở rộng gói cước XGS-PON kèm WiFi 7, đưa công nghệ từ phân khúc thử nghiệm sang bán đại trà.
+Số liệu xác minh: Viettel GIGA6 2 Gbps từ 485.000 đồng/tháng; tùy chọn 1 Gbps từ 279.000 đồng. FPT SpeedX2 2 Gbps hai chiều từ 999.000 đồng/tháng.
+Tác động: Router, laptop và smartphone hỗ trợ WiFi 7 có thêm use case bán hàng; cần đo attach rate và trải nghiệm thực tế thay vì chỉ dùng tốc độ lý thuyết 46 Gbps.
+Nguồn: Dân trí Công nghệ | Tier 2 | newsroom/company facts
+https://dantri.com.vn/cong-nghe/cuoc-dua-pho-cap-wifi-7-tai-viet-nam-20260830114257538.htm
+
+6. TỪ 1/9, CUNG CẤP HOẶC QUẢNG CÁO DỊCH VỤ TÀI SẢN MÃ HÓA KHÔNG PHÉP BỊ PHẠT
+Thời gian: 09:46 30/08/2026 (ICT)
+Phân loại: fact / regulation | Tin cậy: cao
+Chuyện gì xảy ra: Nghị định 284/2026/NĐ-CP đặt chế tài cho hoạt động cung cấp và quảng cáo dịch vụ tài sản mã hóa chưa được cấp phép.
+Số liệu xác minh: Tổ chức có thể bị phạt 180–200 triệu đồng; cá nhân vi phạm tương ứng chịu mức bằng một nửa, tối đa 100 triệu đồng.
+Tác động: Marketing, affiliate, thanh toán và nội dung tài chính số cần kiểm tra giấy phép và thông điệp trước ngày hiệu lực.
+Nguồn: Dân trí / Nghị định 284/2026/NĐ-CP | Tier 1+2 | official/newsroom
+https://dantri.com.vn/kinh-doanh/tu-19-ca-nhan-giao-dich-tien-so-sai-quy-dinh-bi-phat-100-trieu-dong-20260830093134201.htm
+
+B. TIN QUỐC TẾ
+
+7. HOÀN THUẾ QUAN LÀM LỢI NHUẬN RETAIL MỸ KHÓ SO SÁNH
+Thời gian: 12:00 30/08/2026 UTC (19:00 ICT)
+Phân loại: analysis | Tin cậy: cao
+Chuyện gì xảy ra: Sau phán quyết của Tòa Tối cao Mỹ, các retailer nhận hoàn thuế nhưng phân bổ khác nhau: giảm giá, bù lạm phát chi phí hoặc tăng biên lợi nhuận.
+Số liệu xác minh: Khoản hoàn bắt đầu chảy vào trong quý II; quyền nhận phụ thuộc bên đứng tên nhập khẩu. Bài không đưa một tổng số chung có thể áp cho toàn ngành.
+Tác động: Khi benchmark hãng/retailer, phải tách lợi ích thuế một lần khỏi biên gộp cốt lõi và xác định importer of record.
+Nguồn: CNBC Markets | Tier 2 | newsroom
+https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html
+
+8. NEPAL–TÂY TẠNG TIẾP TỤC CẢNH BÁO LŨ SAU THẢM HỌA
+Thời gian: 04:37 30/08/2026 UTC (11:37 ICT)
+Phân loại: risk / fact | Tin cậy: cao
+Chuyện gì xảy ra: Nepal phát cảnh báo lũ mới khi cứu hộ và khôi phục tuyến đường, điện vẫn tiếp diễn sau lũ quét biên giới Nepal–Trung Quốc.
+Số liệu xác minh: Nepal ghi nhận 788 người chết, 2.502 mất tích; phía Trung Quốc ghi nhận 16 người chết, 546 mất tích. Một nhà máy điện phục vụ hơn 20.000 người bị hư hại.
+Tác động: Rủi ro ngắn hạn tập trung ở vận tải, điện, du lịch và bảo hiểm trong khu vực Himalaya; chưa có bằng chứng tác động trực tiếp đến supply smartphone Việt Nam.
+Nguồn: Associated Press | Tier 2 | newsroom
+https://apnews.com/article/nepal-china-flood-galchhi-warning-afec20e612514ca3598c65b29f485303
+
+9. CUỘC ĐUA ROBOT HÌNH NGƯỜI TRUNG QUỐC LỘ RÕ KHOẢNG CÁCH GIỮA DEMO VÀ VẬN HÀNH
+Thời gian: 12:00 30/08/2026 UTC (19:00 ICT)
+Phân loại: analysis | Tin cậy: trung bình-cao
+Chuyện gì xảy ra: The Verge ghi nhận robot tại World Humanoid Robot Games lập thành tích nhưng cũng hỏng và ngã trong thi đấu, cho thấy tiến bộ nhanh đi cùng độ ổn định chưa đồng đều.
+Số liệu xác minh: Bài là quan sát hiện trường, không cung cấp shipment hay productivity chuẩn hóa để suy ra quy mô thương mại.
+Tác động: Purchasing automation nên yêu cầu SLA, uptime, MTBF và pilot tại hiện trường; không dùng video demo làm proxy cho ROI.
+Nguồn: The Verge | Tier 2 | newsroom/analysis
+https://www.theverge.com/tech/986167/china-humanoid-robot-games-race
+
+10. THỎA THUẬN META MỞ ĐƯỜNG CHO KHUNG TUÂN THỦ MẠNG XÃ HỘI RỘNG HƠN
+Thời gian: 12:00 30/08/2026 UTC; cập nhật 15:48 UTC (19:00–22:48 ICT)
+Phân loại: analysis / regulation | Tin cậy: cao
+Chuyện gì xảy ra: Nhóm xây dựng thỏa thuận muốn mở rộng cách tiếp cận từ Meta sang TikTok, YouTube và các nền tảng khác, tương tự khuôn khổ giải quyết tranh chấp ngành thuốc lá.
+Số liệu xác minh: Meta đồng ý gần 17 tỷ USD cùng giới hạn thời gian dùng, chặn ban đêm, tăng xác minh tuổi và kiểm toán độc lập trong 5 năm.
+Tác động: Chi phí tuân thủ và hiệu quả quảng cáo tới nhóm trẻ có thể thay đổi; kế hoạch media cho thiết bị cần chuẩn bị kịch bản giảm targeting và tăng kiểm chứng độ tuổi.
+Nguồn: CNBC Technology | Tier 2 | newsroom
+https://www.cnbc.com/2026/08/30/mike-moore-ag-social-media-settlement-big-tobacco.html
+
+HÀM Ý TỔNG HỢP
+
+1. Purchasing / thị trường Android
+- Giữ PO linh hoạt theo RAM/storage; chốt price protection và allocation trước khi hiệu lực bảng giá memory mới.
+- Hoàn tất mapping VoLTE trước 15/9; không đồng nhất “4G” với khả năng thoại sau tắt 2G.
+- Lập kịch bản iPhone 18 theo hai mốc: channel forecast và ngày Apple xác nhận; bảo vệ sell-out Android cùng tầm giá.
+- Theo dõi attach rate WiFi 7, pin lớn và độ bền bằng dữ liệu sell-out/return rate, không chỉ thông số truyền thông.
+
+2. Business / vận hành
+- Rà soát hợp đồng mẫu, đổi trả, thu hồi, quảng cáo online và nội dung tài sản mã hóa.
+- Tách lợi nhuận một lần/hoàn thuế khỏi vận hành khi so đối tác, retailer hoặc doanh nghiệp niêm yết.
+- Với AI/robot, yêu cầu pilot, SLA, điện/GPU và dữ liệu thật trước capex; không dùng mục tiêu chính sách hay demo làm công suất cam kết.
+
+3. Góc nhìn đầu tư tham khảo
+Kịch bản cơ sở: thanh khoản chứng khoán Việt Nam cải thiện nhưng định giá toàn cầu còn nhạy với Fed, DXY và lợi suất; Brent giảm giúp chi phí nhưng chưa bù rủi ro FX và memory. Theo dõi độ rộng VN-Index, USD/VND, DXY, giá hợp đồng DRAM/NAND, PMI và dòng vốn ngoại. Đây không phải tư vấn mua/bán cá nhân.
+
+GHI CHÚ ĐỘ PHỦ
+
+- scanned_with_items: VnExpress Kinh doanh, VnExpress Khoa học Công nghệ, VnExpress Tin mới nhất, Dân trí Kinh doanh, Dân trí Công nghệ, Dân trí Trang chủ, BBC Business, CNBC Markets, CNBC Technology, The Verge.
+- scanned_no_qualifying_item: BBC Technology, Nikkei Asia Business, Bloomberg Markets, Financial Times Markets. Nikkei có bài Unimicron lúc 07:00:35 ICT ngày 31/8, sau cutoff nên loại.
+- failed_with_reason: Reuters Business và Reuters Technology trả HTTP 401 ở feed/category sau hai retry; SSC timeout; S&P PMI HTTP 403. SBV trả trang “Request Rejected” dù HTTP 200.
+- Đã kiểm tra HOSE, HNX, VSDC, Vietstock, CafeF, Vietcombank, TrendForce và Freightos. Không có phiên chứng khoán cuối tuần; không bịa KPI mới.
+- Không có NIQ/GfK công khai mới đúng kỳ. Không gửi email, không tạo Gmail draft, không thực hiện thao tác Gmail.
+
+Nguồn Market Pulse tuần:
+https://dantri.com.vn/kinh-doanh/chung-khoan-tang-30-diem-co-phieu-techcombank-gay-chu-y-20260826153648006.htm
+https://dantri.com.vn/kinh-doanh/chung-khoan-len-21-diem-vic-pnj-tang-manh-20260824153908182.htm
+https://www.vietcombank.com.vn/vi-VN/KHCN/Cong-cu-Tien-ich/Ty-gia
+https://www.trendforce.com/presscenter/news/20260703-13134.html
+https://www.freightwaves.com/news/drewry-index-edges-lower-on-decline-in-trans-pacific-rates
+
+Bản tin phục vụ thông tin và quyết định Purchasing; không phải khuyến nghị đầu tư cá nhân.
