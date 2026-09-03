@@ -1,0 +1,171 @@
+BẢN TIN 24H | KINH TẾ – THỊ TRƯỜNG – CÔNG NGHỆ | 03/09/2026
+Daily mode · Asia/Ho_Chi_Minh
+Cửa sổ cố định: [07:00 02/09/2026, 07:00 03/09/2026)
+Run key: vn-global-daily-news-briefing:2026-09-03:daily
+
+EXECUTIVE SUMMARY
+
+1. USD và lợi suất là rủi ro chi phí nổi bật: DXY lên 99,72; tỷ giá trung tâm 25.610 VND/USD; lợi suất Mỹ 10 năm chạm 4,8182% trong phiên rồi chốt quanh 4,78%.
+2. Căng thẳng Mỹ–Iran giữ Brent ở 95,63 USD/thùng khi chốt phiên; thị trường châu Á chịu áp lực lớn, với Nikkei giảm khoảng 2,9% và KOSPI gần 4%.
+3. Việt Nam sẽ tắt hoàn toàn 2G từ 15/9. Thiết bị 4G không hỗ trợ VoLTE có thể vẫn vào Internet nhưng không gọi thoại, tạo nhu cầu kiểm tra tương thích và đổi máy/SIM tại điểm bán.
+4. Internet Việt Nam lần đầu vào top 10 toàn cầu ở cả di động và cố định theo Speedtest; đây là chỉ báo hạ tầng, không phải số đo chất lượng đồng đều cho mọi thuê bao.
+5. Apple chuyển giao CEO cho John Ternus; OpenAI và Google cùng đẩy mạnh AI agent/cyber. Rủi ro vận hành tăng cùng năng lực mới, nên doanh nghiệp cần kiểm soát quyền công cụ, chi phí token và dependency nền tảng.
+
+MARKET PULSE
+
+- VN-Index (mốc gần nhất 28/8): 1.832,12 điểm, +0,03%; thị trường nghỉ lễ trong kỳ báo cáo.
+- HNX-Index (mốc gần nhất 28/8): 284,77 điểm, +0,75%.
+- UPCoM-Index (mốc gần nhất 28/8): 127,50 điểm, +0,27%.
+- Tỷ giá trung tâm: 25.610 VND/USD; Vietcombank và một số ngân hàng phổ biến 25.880 mua vào, 26.260 bán ra.
+- DXY tối 2/9: 99,72 điểm; có lúc 99,8, cao nhất từ giữa tháng 8.
+- Vàng miếng tại Mi Hồng cuối 2/9: 144–145,5 triệu đồng/lượng, giảm tới 3,2 triệu so với trước lễ.
+- Vàng thế giới sáng 3/9: khoảng 4.386 USD/ounce; thấp hơn giá bán SJC trong nước gần 10 triệu đồng/lượng sau quy đổi, chưa gồm thuế/phí.
+- Brent chốt 2/9: 95,63 USD/thùng, tăng 1%.
+- S&P 500 chốt 2/9: 7.666,60 điểm, tăng 0,5%; Nasdaq 26.217,83 điểm, tăng 0,5%; Dow 53.061,95 điểm, tăng 0,6%.
+- Lợi suất trái phiếu Mỹ 10 năm: chạm 4,8182% trong phiên, sau đó chốt quanh 4,78%.
+- DRAM spot 2/9: TrendForce mô tả giao dịch trầm lắng, giá nhìn chung đi ngang; DDR4 8G (1Gx8) 3200 bình quân 44,571 USD.
+Lưu ý: HOSE/HNX/UPCoM nghỉ lễ trong cửa sổ; không suy diễn thanh khoản hay dòng vốn ngoại cho ngày 2/9.
+
+A. TIN TRONG NƯỚC
+
+1) KINH TẾ – TÀI CHÍNH
+
+LÃI SUẤT TIỀN GỬI CAO LÀM DÒNG TIỀN CHỨNG KHOÁN THẬN TRỌNG
+Thời gian: 06:05 03/09/2026 (ICT)
+Phân loại: Phân tích thị trường | Tin cậy: trung bình-cao
+Chuyện gì xảy ra: PYN Elite Fund nhận định lãi suất tăng, kỳ vọng lạm phát và thanh khoản yếu đang thúc đẩy nhà đầu tư giảm tỷ trọng cổ phiếu.
+Số liệu xác minh: Lãi suất tiền gửi 12 tháng phổ biến 7–8%/năm; một số ngân hàng vừa và nhỏ có mức thỏa thuận trên 9%. VN-Index giảm 6,68% trong tháng 7 rồi tăng hơn 96 điểm trong tháng 8; thanh khoản HoSE chưa chạm 30.000 tỷ đồng từ cuối tháng 6.
+Tác động: Chi phí vốn và mức sinh lời tiền gửi cao hơn có thể gây áp lực định giá, đặc biệt ở doanh nghiệp dùng nhiều đòn bẩy; đây là nhận định của quỹ, không phải kết luận chắc chắn.
+Nguồn: VnExpress Kinh doanh / PYN Elite Fund | Tier 2 | newsroom/attributed-analysis
+https://vnexpress.net/pyn-elite-fund-lai-suat-tang-thuc-day-nha-dau-tu-ban-co-phieu-5115764.html
+
+USD QUỐC TẾ LÊN CAO NHẤT HAI TUẦN, ÁP LỰC TỶ GIÁ CHƯA HẾT
+Thời gian: 06:24 03/09/2026 (ICT)
+Phân loại: Sự kiện thị trường | Tin cậy: cao
+Chuyện gì xảy ra: DXY tăng khi thị trường đánh giá lại khả năng Fed tăng lãi suất và tìm nơi trú ẩn trước căng thẳng Mỹ–Iran.
+Số liệu xác minh: DXY 99,72, có lúc 99,8; tỷ giá trung tâm 25.610 VND/USD. Ngân hàng thương mại phổ biến 25.880–26.260; thị trường tự do khoảng 25.870–25.970 đồng/USD.
+Tác động: PO nhập khẩu, BOM và giá vốn thiết bị vẫn cần buffer tỷ giá; chênh lệch ngân hàng–tự do hẹp cho thấy áp lực đầu cơ hạ nhiệt nhưng không loại bỏ rủi ro USD mạnh.
+Nguồn: Dân trí / SBV / Vietcombank | Tier 1+2 | official/newsroom
+https://dantri.com.vn/kinh-doanh/dong-usd-cao-nhat-2-tuan-ty-gia-sau-le-29-bien-dong-ra-sao-20260902203304569.htm
+
+VÀNG SJC MẤT TỚI 3,2 TRIỆU ĐỒNG TRONG KỲ NGHỈ
+Thời gian: 06:32 03/09/2026 (ICT)
+Phân loại: Sự kiện thị trường | Tin cậy: cao
+Chuyện gì xảy ra: Vàng trong nước giảm theo đợt bán tháo quốc tế nhưng chênh lệch với giá thế giới vẫn rộng.
+Số liệu xác minh: Cuối 2/9, Mi Hồng niêm yết 144–145,5 triệu đồng/lượng, giảm tới 3,2 triệu so với trước lễ. Vàng thế giới sáng 3/9 hồi lên khoảng 4.386 USD/ounce; sau quy đổi thấp hơn giá bán trong nước gần 10 triệu đồng/lượng, chưa gồm thuế/phí.
+Tác động: USD, dầu và kỳ vọng lãi suất đang chi phối tài sản phòng thủ; biến động vàng có thể ảnh hưởng tâm lý tiêu dùng nhưng không nên dùng trực tiếp làm proxy sức mua thiết bị.
+Nguồn: Dân trí | Tier 2 | newsroom
+https://dantri.com.vn/kinh-doanh/gia-vang-sjc-giam-lien-tiep-noi-rong-chenh-voi-gia-the-gioi-10-trieu-dong-20260903062051788.htm
+
+2) CÔNG NGHỆ VÀ THỊ TRƯỜNG THIẾT BỊ TRONG NƯỚC
+
+VIỆT NAM TẮT HOÀN TOÀN MẠNG 2G TỪ 15/9
+Thời gian: 10:00 02/09/2026 (ICT)
+Phân loại: Chính sách hạ tầng | Tin cậy: cao
+Chuyện gì xảy ra: Các nhà mạng sẽ dừng phát sóng GSM trên toàn quốc sau gần hai năm duy trì giai đoạn chuyển tiếp.
+Số liệu xác minh: Mốc dừng là 15/9/2026; băng tần 900 MHz và 1.800 MHz sẽ được tái phân bổ cho mạng mới. Điện thoại 4G không hỗ trợ VoLTE có thể mất khả năng gọi thoại khi không còn fallback 2G.
+Tác động: Retail cần rà soát whitelist VoLTE, tồn kho feature phone/4G đời cũ, thông điệp đổi SIM–đổi máy và năng lực hỗ trợ tại điểm bán; không mặc định mọi máy 4G đều tương thích thoại.
+Nguồn: VnExpress Khoa học Công nghệ | Tier 2 | newsroom/official-policy
+https://vnexpress.net/mang-2g-se-duoc-tat-hoan-toan-trong-thang-9-5115657.html
+
+INTERNET VIỆT NAM LẦN ĐẦU CÙNG VÀO TOP 10 Ở DI ĐỘNG VÀ CỐ ĐỊNH
+Thời gian: 07:00 02/09/2026 (ICT)
+Phân loại: Dữ liệu hạ tầng | Tin cậy: cao
+Chuyện gì xảy ra: Việt Nam tăng 10 bậc ở Internet di động và một bậc ở băng rộng cố định trong bảng Speedtest Global Index tháng 7.
+Số liệu xác minh: Tốc độ tải xuống trung vị di động 205,58 Mbps, xếp thứ 10; cố định 307,11 Mbps, xếp thứ 7. i-Speed của Bộ Khoa học và Công nghệ ghi nhận 5G hơn 462 Mbps trong tháng 7.
+Tác động: Hạ tầng tốt hơn hỗ trợ trải nghiệm cloud/AI và bán thiết bị 5G; đây là dữ liệu đo chủ động, cập nhật theo ba tháng và không đại diện đồng đều cho mọi thuê bao hay khu vực.
+Nguồn: VnExpress / Ookla / i-Speed | Tier 1+2 | specialist-data/newsroom
+https://vnexpress.net/internet-viet-nam-lan-dau-vao-top-10-the-gioi-ca-di-dong-va-co-dinh-5115655.html
+
+B. TIN QUỐC TẾ
+
+1) KINH TẾ – TÀI CHÍNH – ĐỊA CHÍNH TRỊ
+
+DẦU VÀ LỢI SUẤT KÉO CHÂU Á GIẢM MẠNH TRONG PHIÊN 2/9
+Thời gian: 18:20 02/09/2026 (ICT)
+Phân loại: Rủi ro thị trường | Tin cậy: cao
+Chuyện gì xảy ra: Đợt không kích mới của Mỹ vào Iran và phản ứng của Tehran làm tăng lo ngại gián đoạn năng lượng, kéo dài đợt bán tháo trái phiếu toàn cầu.
+Số liệu xác minh: Brent trong phiên 95,18 USD/thùng, +0,6%; lợi suất Mỹ 10 năm 4,8182%; Nikkei giảm khoảng 2,9%, KOSPI gần 4%; DXY 99,734. Cuối phiên Mỹ, Brent chốt 95,63 USD và S&P 500 hồi 0,5%.
+Tác động: Landed cost và lạm phát có thể chịu áp lực kép từ dầu và USD; purchasing nên theo dõi diễn biến Hormuz và phụ phí vận tải thay vì chỉ nhìn một phiên giá dầu.
+Nguồn: Reuters qua MarketScreener; AP đối chiếu cuối phiên | Tier 2 | newsroom
+https://www.marketscreener.com/news/stocks-slide-bond-rout-deepens-as-us-and-iran-trade-attacks-ce7858d2d188f226
+
+CHEVRON CAM KẾT 7 TỶ USD, NHẮM GẤP ĐÔI SẢN LƯỢNG TẠI VENEZUELA
+Thời gian: 02:00 03/09/2026 (ICT)
+Phân loại: Kế hoạch đầu tư | Tin cậy: cao
+Chuyện gì xảy ra: Chevron được giao thêm hai mỏ tại vành đai Orinoco và công bố kế hoạch mở rộng trong 5 năm.
+Số liệu xác minh: Đầu tư dự kiến 7 tỷ USD; sản lượng mục tiêu 600.000 thùng/ngày vào 2031, so với khoảng 280.000 thùng/ngày hiện tại.
+Tác động: Có thể bổ sung nguồn cung trung hạn, nhưng không phải tín hiệu giá dầu giảm ngay vì còn rủi ro hạ tầng, pháp lý và tiến độ vận hành.
+Nguồn: VnExpress / CNBC / Chevron | Tier 1+2 | company-statement/newsroom
+https://vnexpress.net/chevron-se-chi-7-ty-usd-de-tang-gap-doi-san-luong-dau-tai-venezuela-5115871.html
+
+UBER CẮT KHOẢNG 10% NHÂN SỰ ĐỂ GIẢM TẦNG QUẢN LÝ
+Thời gian: 03:00 03/09/2026 (ICT)
+Phân loại: Tái cấu trúc doanh nghiệp | Tin cậy: cao
+Chuyện gì xảy ra: Uber thông báo tái cấu trúc nhằm đơn giản hóa đội nhóm và giải phóng nguồn lực cho các ưu tiên tăng trưởng.
+Số liệu xác minh: Khoảng 10% lực lượng lao động, tương đương hơn 3.000 vị trí; các nhóm quản lý rất nhỏ bị thu hẹp gần một nửa và chỉ khoảng 1% nhân sự tiếp tục làm việc hoàn toàn từ xa. CEO không coi AI là nguyên nhân trực tiếp.
+Tác động: Đây là tín hiệu doanh nghiệp nền tảng đang siết overhead để tái phân bổ vốn; đối tác nên theo dõi chất lượng dịch vụ và thay đổi đầu mối vận hành sau tái cấu trúc.
+Nguồn: CNBC Technology / BBC Business | Tier 2 | newsroom
+https://www.cnbc.com/2026/09/02/uber-to-cut-10percent-of-workforce-in-bid-to-move-simpler-and-faster.html
+
+2) CÔNG NGHỆ QUỐC TẾ
+
+APPLE CHUYỂN GIAO CEO CHO JOHN TERNUS
+Thời gian: 15:19 02/09/2026 (ICT)
+Phân loại: Quản trị doanh nghiệp | Tin cậy: cao
+Chuyện gì xảy ra: John Ternus chính thức làm CEO Apple từ 1/9, còn Tim Cook chuyển sang Chủ tịch điều hành.
+Số liệu xác minh: Lương cơ bản Ternus 3 triệu USD/năm; gói cổ phiếu mục tiêu từ năm tài chính 2027 là 55 triệu USD và phụ thuộc kết quả. Tim Cook nhận lương 2 triệu USD cùng cổ phiếu mục tiêu 45 triệu USD.
+Tác động: Người kế nhiệm có nền tảng kỹ thuật phần cứng, nên roadmap, cadence ra mắt và kỷ luật chuỗi cung ứng của Apple là chỉ báo cần theo dõi cho cạnh tranh smartphone cao cấp.
+Nguồn: VnExpress / hồ sơ Apple gửi cơ quan quản lý Mỹ | Tier 1+2 | filing/newsroom
+https://vnexpress.net/ceo-moi-cua-apple-nhan-luong-3-trieu-usd-moi-nam-5115791.html
+
+OPENAI XẾP ASTRA Ở NGƯỠNG NĂNG LỰC AN NINH MẠNG “CRITICAL”
+Thời gian: 21:58 02/09/2026 (ICT)
+Phân loại: Rủi ro AI | Tin cậy: trung bình-cao
+Chuyện gì xảy ra: OpenAI công bố Astra có thể tự tìm và chuỗi hóa khai thác lỗ hổng, đồng thời giới hạn phát hành cho nhóm đối tác được chọn.
+Số liệu do công ty công bố: Astra đạt 100% ExploitBench, tự tìm hai zero-day và từ chối 91,5% yêu cầu tấn công trái phép, so với 59% ở GPT-5.6 Sol.
+Tác động: AI agent có quyền công cụ cần sandbox, allowlist, logging và human approval; các benchmark do nhà cung cấp công bố chưa thay thế kiểm thử độc lập.
+Nguồn: VnExpress / OpenAI | Tier 1+2 | company-statement/newsroom
+https://vnexpress.net/ai-moi-cua-openai-co-the-tu-tim-va-khai-thac-lo-hong-bao-mat-5115861.html
+
+GEMINI 3.8 FLASH GIỮ ĐƠN GIÁ TOKEN NHƯNG CÓ THỂ TĂNG TỔNG CHI PHÍ
+Thời gian: 03:11 03/09/2026 (ICT)
+Phân loại: Ra mắt AI | Tin cậy: trung bình-cao
+Chuyện gì xảy ra: Google phát hành Gemini 3.8 Flash với nhiều bước reasoning và tool call hơn cho tác vụ phức tạp.
+Số liệu xác minh: Giá giới thiệu 0,75 USD/triệu token đầu vào và 3,75 USD/triệu token đầu ra; một đo lường sớm ghi nhận output mỗi tác vụ tăng khoảng 30%, làm chi phí thực tế cao hơn khoảng 40% dù đơn giá không đổi.
+Tác động: Khi so model, cần đo cost-per-completed-task, latency và tỷ lệ thành công; đơn giá token thấp chưa đồng nghĩa TCO thấp.
+Nguồn: The Verge / Google | Tier 1+2 | company-statement/newsroom
+https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash
+
+IFA 2026 MỞ ĐẦU BẰNG LÀN SÓNG LAPTOP VÀ THIẾT BỊ GIÁ DỄ TIẾP CẬN
+Thời gian: 23:43 02/09/2026 (ICT)
+Phân loại: Ra mắt sản phẩm | Tin cậy: trung bình-cao
+Chuyện gì xảy ra: Các hãng bắt đầu công bố sản phẩm trước khi IFA Berlin mở cửa ngày 4/9, với trọng tâm laptop, smart home, robot và thiết bị AI.
+Số liệu xác minh: Samsung Galaxy Book6 bản cơ sở có màn hình 14 inch, Intel Wildcat Lake, RAM 8 GB, SSD 256 GB, giá từ 799 USD. Acer hồi sinh Packard Bell tại châu Âu, gồm DotBook giá 499 euro, bán từ quý IV.
+Tác động: Phân khúc PC phổ thông đang tái định vị quanh AI-ready và giá vào cửa; purchasing nên đối chiếu cấu hình RAM/SSD tối thiểu, giá thực trả và kế hoạch phân phối theo khu vực.
+Nguồn: The Verge | Tier 2 | newsroom/company facts
+https://www.theverge.com/tech/986867/ifa-2026-smart-home-lights-laptop-robot-vacuum-ai-headphones
+
+HÀM Ý TỔNG HỢP
+
+1. Purchasing / thị trường Android
+- Lập danh sách SKU 4G không có VoLTE hoặc chưa nằm trong whitelist nhà mạng; khóa mua bổ sung và chuẩn hóa kịch bản đổi máy/SIM trước 15/9.
+- Yêu cầu supplier cập nhật allocation và price protection cho DRAM/NAND; TrendForce ghi nhận giá spot đi ngang ở mức cao chứ chưa cho thấy áp lực BOM đã hạ.
+- Dùng tốc độ Internet/5G như chỉ báo khả năng sử dụng dịch vụ, không thay cho sell-out, activation hay dữ liệu NIQ/GfK.
+
+2. Business / vận hành
+- Đưa buffer tỷ giá và dầu vào forecast landed cost; theo dõi DXY, USD/VND, Brent và phụ phí vận tải theo cùng một kịch bản.
+- Với AI agent, áp dụng least privilege, sandbox, logging, giới hạn chi phí và human approval cho hành động nhạy cảm.
+- Theo dõi thay đổi đầu mối và SLA ở đối tác nền tảng đang tái cấu trúc; không suy diễn cắt giảm nhân sự đồng nghĩa chất lượng dịch vụ chắc chắn giảm.
+
+3. Góc nhìn đầu tư tham khảo
+Kịch bản cơ sở là biến động cao khi thị trường đồng thời định giá rủi ro năng lượng và khả năng các ngân hàng trung ương tăng lãi suất. Theo dõi lợi suất Mỹ 10 năm, DXY, Brent, USD/VND và độ rộng thị trường Việt Nam khi giao dịch trở lại. Kế hoạch tăng sản lượng Venezuela là câu chuyện trung hạn, không phải tín hiệu giảm giá dầu tức thì. Đây không phải tư vấn mua/bán cá nhân.
+
+GHI CHÚ ĐỘ PHỦ
+
+- scanned_with_items: VnExpress Kinh doanh, VnExpress Khoa học Công nghệ, VnExpress Tin mới nhất, Dân trí Kinh doanh, Dân trí Công nghệ, Dân trí Trang chủ, BBC Business, BBC Technology, CNBC Markets, CNBC Technology, The Verge.
+- scanned_no_qualifying_item: Nikkei Asia Business (feed và trang Business truy cập thành công, không có mục đúng kỳ đủ tác động để chọn).
+- failed_with_reason: Reuters Business/Technology RSS và fallback HTTP 401 sau hai lần retry; Bloomberg Markets và Financial Times Markets HTTP 403 sau retry.
+- Đã kiểm tra HOSE, HNX, VSDC, SSC, Vietstock, CafeF, SBV, Vietcombank, TrendForce và Freightos: các trang truy cập được. S&P Global PMI trả HTTP 403; không có chỉ số PMI Việt Nam mới nằm trong kỳ cố định.
+- Thị trường chứng khoán Việt Nam nghỉ lễ trong kỳ; dùng mốc gần nhất 28/8 và không ước tính thanh khoản/dòng vốn. Chưa có dữ liệu NIQ/GfK công khai mới; chưa xác minh được giá cước biển công khai với cả mức và kỳ đủ rõ để đưa vào KPI.
+- Không gửi email, không tạo Gmail draft và không thực hiện thao tác Gmail.
