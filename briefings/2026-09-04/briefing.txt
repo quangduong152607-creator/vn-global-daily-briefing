@@ -1,0 +1,162 @@
+BẢN TIN 24H | KINH TẾ – THỊ TRƯỜNG – CÔNG NGHỆ | 04/09/2026
+Daily mode · Asia/Ho_Chi_Minh
+Cửa sổ cố định: [07:00 03/09/2026, 07:00 04/09/2026)
+Run key: vn-global-daily-news-briefing:2026-09-04:daily
+
+EXECUTIVE SUMMARY
+
+1. VN-Index giảm 0,24% xuống 1.827,72 điểm; 236 mã HoSE giảm và khối ngoại bán ròng hơn 1.562 tỷ đồng. VIC tăng 3,6% đã che bớt độ rộng tiêu cực.
+2. IIP điện tử, máy tính và quang học tăng 13,9% trong 8 tháng; laptop tăng 25,7%. Tuy nhiên, nhập khẩu hàng hóa tăng 35,3%, nhanh hơn xuất khẩu 22,4%.
+3. E10RON95-III tăng 672 đồng lên tối đa 23.274 đồng/lít, trong khi diesel giảm 341 đồng còn 27.743 đồng/lít. Tác động logistics sẽ phân hóa theo loại nhiên liệu.
+4. Brent chốt 95,52 USD/thùng; xung đột Mỹ–Iran tiếp tục đe dọa tuyến Hormuz/Suez và kỳ vọng lạm phát, dù lợi suất trái phiếu Mỹ hạ nhiệt trong phiên.
+5. Nvidia mua Hugging Face 12,93 tỷ USD; OpenAI phát hành Astra có kiểm soát, trong lúc ChatGPT, Claude và Grok cùng gián đoạn. Cần quản trị dependency và failover AI.
+
+MARKET PULSE
+
+- VN-Index: 1.827,72 điểm, giảm 4,40 điểm (-0,24%) ngày 3/9.
+- HNX-Index: 282,24 điểm, giảm 2,53 điểm (-0,89%).
+- UPCoM-Index: 127,78 điểm, tăng 0,28 điểm (+0,22%).
+- Thanh khoản ba sàn: hơn 696 triệu cổ phiếu, giá trị hơn 18.519 tỷ đồng.
+- Khối ngoại ba sàn: bán ròng hơn 1.562 tỷ đồng.
+- USD/VND Vietcombank lúc 09:30 ngày 3/9: 25.860 mua vào, 26.270 bán ra; cùng tăng 10 đồng so với 28/8.
+- DXY lúc 09:30 ngày 3/9: 99,46 điểm, giảm 0,14 điểm.
+- Vàng miếng SJC bán ra: 147,4 triệu đồng/lượng, giảm 1,3 triệu đồng theo bảng cập nhật 08:41 ngày 3/9.
+- Brent chốt 3/9: 95,52 USD/thùng, giảm 0,1%; WTI 91,30 USD, tăng 0,3%.
+- S&P 500 tăng 1,1%; Dow tăng 1,2%; Nasdaq tăng 1,4%; lợi suất Mỹ 10 năm giảm về 4,77%.
+- DRAM/NAND và cước biển đã kiểm tra nhưng không có mức công khai mới với kỳ, phương pháp đủ rõ để đưa vào KPI.
+
+A. KINH TẾ – XÃ HỘI
+
+1) VN-INDEX GIẢM NHẸ NHƯNG ĐỘ RỘNG NGHIÊNG MẠNH VỀ PHÍA BÁN
+Thời gian: 16:00 03/09/2026 (ICT)
+Phân loại: Dữ liệu thị trường | Tin cậy: cao
+Chuyện gì xảy ra: Thị trường đứt chuỗi tăng trước kỳ nghỉ; VIC tăng 3,6% và bù gần 14 điểm, che bớt áp lực giảm ở ngân hàng, bán lẻ và công nghệ.
+Số liệu xác minh: VN-Index 1.827,72 điểm, -0,24%; HoSE có 236 mã giảm. Giá trị giao dịch ba sàn 18.519 tỷ đồng; khối ngoại bán ròng hơn 1.562 tỷ đồng.
+Tác động: Độ rộng và dòng ngoại cho tín hiệu thận trọng hơn mức giảm chỉ số; nhóm bán lẻ giảm 2,41%.
+Nguồn: Nhân Dân / dữ liệu HOSE-HNX | Tier 1+2 | official/newsroom
+https://nhandan.vn/post-986121.html
+
+2) IIP ĐIỆN TỬ VÀ MÁY TÍNH TĂNG 13,9% TRONG 8 THÁNG
+Thời gian: 11:47 03/09/2026 (ICT)
+Phân loại: Dữ liệu sản xuất | Tin cậy: cao
+Chuyện gì xảy ra: Sản xuất công nghiệp duy trì đà hai chữ số, với chế biến chế tạo là động lực chính và toàn bộ 34 địa phương tăng so với cùng kỳ.
+Số liệu xác minh: IIP chung +11,9%; chế biến chế tạo +12,5%; điện tử, máy tính và quang học +13,9%; máy tính xách tay +25,7%.
+Tác động: Tích cực cho nhu cầu linh kiện và logistics B2B; không dùng tăng trưởng sản xuất để thay thế sell-out thiết bị nội địa.
+Nguồn: Báo Chính phủ / Cục Thống kê | Tier 1 | official statistics
+https://baochinhphu.vn/san-xuat-cong-nghiep-8-thang-dat-muc-cao-nhat-cung-ky-nhieu-nam-10226090311051908.htm
+
+3) XUẤT NHẬP KHẨU 8 THÁNG ĐẠT 770,14 TỶ USD
+Thời gian: 12:16 03/09/2026 (ICT)
+Phân loại: Dữ liệu thương mại | Tin cậy: cao
+Chuyện gì xảy ra: Kim ngạch hàng hóa lập mức cao nhất cho cùng kỳ, song nhập khẩu tăng nhanh hơn xuất khẩu khi doanh nghiệp bước vào mùa cao điểm sản xuất.
+Số liệu xác minh: Xuất khẩu 374,84 tỷ USD, +22,4%; nhập khẩu 395,3 tỷ USD, +35,3%. Trung Quốc là nguồn nhập lớn nhất với 161,9 tỷ USD; tư liệu sản xuất chiếm 94,1% nhập khẩu.
+Tác động: Cầu đầu vào mạnh nhưng làm tăng độ nhạy với USD/VND và nguồn cung Trung Quốc. Từ số liệu công bố, cán cân hàng hóa 8 tháng âm khoảng 20,46 tỷ USD.
+Nguồn: Báo Chính phủ / Cục Thống kê | Tier 1 | official statistics
+https://baochinhphu.vn/kim-ngach-xuat-nhap-khau-lap-ky-luc-moi-10226090311303306.htm
+
+4) XĂNG TĂNG HƠN 670 ĐỒNG/LÍT, DIESEL GIẢM 341 ĐỒNG
+Thời gian: 15:28 03/09/2026 (ICT)
+Phân loại: Giá năng lượng | Tin cậy: cao
+Chuyện gì xảy ra: Liên Bộ điều chỉnh trái chiều theo giá thành phẩm thế giới và cơ chế bình ổn, hiệu lực từ 15:00 ngày 3/9.
+Số liệu xác minh: E5RON92 tối đa 22.486 đồng/lít (+723); E10RON95-III 23.274 (+672); diesel 27.743 (-341). Giá xăng thành phẩm tham chiếu tăng hơn 4%.
+Tác động: Giao hàng chặng cuối có thể tăng chi phí theo xăng, trong khi vận tải diesel được giảm áp lực ngắn hạn.
+Nguồn: Bộ Công Thương | Tier 1 | official release
+https://moit.gov.vn/tin-tuc/thong-bao/mot-so-thong-tin-ve-viec-dieu-hanh-gia-xang-dau-ngay-3-9.html
+
+5) HUY ĐỘNG VND TĂNG NHANH HƠN TÍN DỤNG ĐẾN 22/8
+Thời gian: 19:09 03/09/2026 (ICT)
+Phân loại: Thanh khoản ngân hàng | Tin cậy: cao
+Chuyện gì xảy ra: Thanh khoản ngắn hạn cải thiện sau giai đoạn tín dụng chạy nhanh hơn huy động ở cuối quý II.
+Số liệu xác minh: Huy động VND tăng 8,77% từ đầu năm, cao hơn tăng trưởng tín dụng 8,38%. Cuối tháng 6, huy động mới hơn 5% so với tín dụng 7,4%.
+Tác động: Khoảng cách đảo chiều giúp giảm áp lực hệ thống, nhưng lãi suất tiền gửi cao vẫn có thể nâng chi phí vốn và hút dòng tiền khỏi tiêu dùng/đầu tư.
+Nguồn: VnExpress / Bộ Tài chính | Tier 1+2 | attributed data
+https://vnexpress.net/huy-dong-von-cua-ngan-hang-tang-nhanh-hon-tin-dung-5116224.html
+
+6) TECH KÉO PHỐ WALL TĂNG, LỢI SUẤT HẠ NHIỆT NHƯNG DẦU VẪN CAO
+Thời gian: 03/09/2026 (nguồn cập nhật trong kỳ, không ghi giờ hiển thị thống nhất)
+Phân loại: Thị trường toàn cầu | Tin cậy: cao
+Chuyện gì xảy ra: Chứng khoán Mỹ hồi phục khi lợi suất trái phiếu bớt căng; nhóm công nghệ và truyền thông đóng góp lớn nhất.
+Số liệu xác minh: S&P 500 +1,1%, Dow +1,2%, Nasdaq +1,4%; US 10Y giảm về 4,77%. Brent chốt 95,52 USD/thùng (-0,1%), WTI 91,30 USD (+0,3%).
+Tác động: Tâm lý risk-on trở lại nhưng chưa xóa rủi ro lãi suất và năng lượng; không suy diễn một phiên tăng là xu hướng chi phí đã đảo chiều.
+Nguồn: Associated Press | Tier 2 | newsroom
+https://apnews.com/article/stocks-markets-oil-trump-iran-war-7e1bffd68c53b54806be950f01181994
+
+7) MỸ SIẾT KINH TẾ SONG SONG NỐI LẠI KHÔNG KÍCH IRAN
+Thời gian: 00:17 04/09/2026 (ICT; bản AP 17:17 UTC ngày 3/9)
+Phân loại: Địa chính trị | Tin cậy: cao
+Chuyện gì xảy ra: Washington thúc đẩy cô lập các đối tác thương mại còn lại của Iran và nối lại tấn công quân sự; Tehran đáp trả, nâng nguy cơ xung đột khu vực.
+Số liệu xác minh: AP ghi nhận chiến dịch “Economic Outcast” công bố tuần trước; xung đột kéo dài hơn sáu tháng và tiếp tục gây nhiễu luồng năng lượng khu vực.
+Tác động: Rủi ro lớn nhất với purchasing là dầu, bảo hiểm và lead time qua Hormuz/Suez; cần kịch bản thay tuyến, không chỉ buffer nhiên liệu.
+Nguồn: Associated Press | Tier 2 | newsroom
+https://apnews.com/article/trump-iran-war-rubio-bessent-strikes-sanctions-73779f36e4b09480c5430d72f4385e23
+
+B. CÔNG NGHỆ – PURCHASING
+
+8) 13 TRIỆU SIM BỊ KHÓA HOẶC THU HỒI VÌ CHƯA XÁC NHẬN CHÍNH CHỦ
+Thời gian: 16:54 03/09/2026 (ICT)
+Phân loại: Chính sách viễn thông | Tin cậy: cao
+Chuyện gì xảy ra: Thông tư 08 yêu cầu xác nhận người sử dụng qua VNeID; 10/10 nhà mạng đã chuyển hơn 115 triệu thuê bao để đối soát dữ liệu dân cư.
+Số liệu xác minh: 102 triệu số đã chuẩn hóa; khoảng 13 triệu số còn lại bị khóa hai chiều hoặc thu hồi. Thuê bao chưa xác nhận bị khóa từ 15/8 và thu hồi sau 5 ngày.
+Tác động: Retail cần hướng dẫn kích hoạt/eKYC tại quầy, theo dõi lỗi OTP và nhu cầu khôi phục số khi bán máy mới.
+Nguồn: VnExpress / Cục Viễn thông | Tier 1+2 | official/newsroom
+https://vnexpress.net/khoa-thu-hoi-13-trieu-sim-di-dong-khong-xac-nhan-chinh-chu-5116179.html
+
+9) AMEC MỞ RỘNG TỪ MÁY KHẮC SANG SÁU THIẾT BỊ BÁN DẪN MỚI
+Thời gian: 19:00 03/09/2026 (ICT)
+Phân loại: Chuỗi cung ứng chip | Tin cậy: trung bình-cao
+Chuyện gì xảy ra: Doanh nghiệp Trung Quốc giới thiệu công cụ khắc, lắng đọng và thiết bị cho chip silicon carbide, phản ánh tốc độ nội địa hóa thiết bị fab.
+Số liệu xác minh: Bốn trong sáu máy thuộc nhóm lắng đọng; AMEC cho biết sản phẩm phủ hơn 30% thiết bị front-end tại Trung Quốc và đặt mục tiêu hơn 60% thị trường cao cấp trong 5 năm.
+Tác động: Có thể giảm điểm nghẽn trung hạn của chuỗi chip Trung Quốc; tỷ lệ công bố chưa đồng nghĩa thay thế EUV trong ngắn hạn.
+Nguồn: VnExpress / AMEC / SCMP | Tier 2 | attributed reporting
+https://vnexpress.net/cong-ty-ban-dan-trung-quoc-cong-bo-6-thiet-bi-chip-mot-ngay-5116155.html
+
+10) NVIDIA MUA HUGGING FACE VỚI GIÁ 12,93 TỶ USD
+Thời gian: 19:29 03/09/2026 (ICT; bản AP 12:29 UTC)
+Phân loại: M&A AI | Tin cậy: cao
+Chuyện gì xảy ra: Nvidia mở rộng từ chip sang nền tảng phân phối mô hình nguồn mở; hãng cam kết Hugging Face tiếp tục mở và không bắt buộc dùng phần cứng Nvidia.
+Số liệu xác minh: Hơn 18 triệu người dùng, 3 triệu mô hình, 500.000 bộ dữ liệu và 1 triệu ứng dụng; thương vụ dự kiến hoàn tất nửa đầu 2027 sau phê duyệt.
+Tác động: Nvidia có thêm điểm chạm developer và nhu cầu compute; cần theo dõi mức trung lập phần cứng, giá inference và lựa chọn chip đối thủ.
+Nguồn: NVIDIA / hồ sơ 8-K / AP | Tier 1+2 | primary/newsroom
+https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/
+
+11) OPENAI PHÁT HÀNH GPT-6 ASTRA VỚI NĂNG LỰC CYBER “CRITICAL”
+Thời gian: 01:01 04/09/2026 (ICT; TechCrunch 11:01 PDT ngày 3/9)
+Phân loại: Ra mắt AI / rủi ro cyber | Tin cậy: cao
+Chuyện gì xảy ra: Astra được mở trước cho khách hàng Daybreak rồi triển khai dần tới các gói trả phí và API; năng lực cyber mạnh nhất vẫn bị giới hạn.
+Số liệu do OpenAI công bố: Astra đạt 100% ExploitBench, tự tìm hai zero-day trong đánh giá và có thể chuỗi hóa khai thác; đây là model đầu tiên của hãng chạm ngưỡng Critical.
+Tác động: Chỉ cấp quyền công cụ theo least privilege, sandbox, logging và human approval; benchmark hãng không thay thế red-team độc lập.
+Nguồn: OpenAI Deployment Safety Hub | Tier 1 | company safety card
+https://deploymentsafety.openai.com/gpt-6-astra/vision
+
+12) CHATGPT, CLAUDE VÀ GROK ĐỒNG THỜI GẶP SỰ CỐ
+Thời gian: 22:56 03/09/2026 (ICT; WIRED 08:56 PDT)
+Phân loại: Độ tin cậy dịch vụ | Tin cậy: cao
+Chuyện gì xảy ra: Ba nền tảng AI lớn gián đoạn gần cùng thời điểm; các công ty xác nhận sự cố riêng nhưng chưa có bằng chứng cho thấy cùng một nguyên nhân.
+Số liệu xác minh: OpenAI cho biết lỗi định tuyến bắt đầu 07:43 PT và ảnh hưởng ChatGPT/Codex; Anthropic ghi nhận lỗi hạ tầng; xAI nói trung tâm dữ liệu Memphis gặp sự cố.
+Tác động: Workflow vận hành không nên phụ thuộc một model; cần fallback provider, queue/retry có giới hạn và quy trình thủ công cho tác vụ sát SLA.
+Nguồn: WIRED / status pages các hãng | Tier 1+2 | primary/newsroom
+https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/
+
+HÀM Ý TỔNG HỢP
+
+1. Purchasing / thị trường Android
+- Khóa checklist SIM/VNeID ngay tại điểm bán; theo dõi tỷ lệ kích hoạt thất bại và nhu cầu khôi phục số vì tác động trực tiếp tới trải nghiệm máy mới.
+- Dùng ba lớp buffer cho PO nhập khẩu: USD/VND, xăng–diesel nội địa và phụ phí tuyến Hormuz/Suez; không gộp thành một giả định chi phí.
+- IIP điện tử +13,9% là chỉ báo supply/production, không thay cho sell-out. Chưa có NIQ/GfK công khai mới trong kỳ.
+
+2. Business / vận hành
+- Thêm fallback provider và chế độ thủ công cho workflow AI quan trọng; kiểm thử failover định kỳ.
+- Với Astra hoặc agent có quyền thao tác, áp dụng least privilege, sandbox, allowlist, logging và phê duyệt người dùng cho bước nhạy cảm.
+- Theo dõi thanh khoản ngân hàng và lãi suất huy động: số liệu cải thiện nhưng chi phí vốn cao vẫn có thể tác động sức mua và financing.
+
+3. Góc nhìn đầu tư tham khảo
+Kịch bản cơ sở là phân hóa: sản xuất và thương mại tăng mạnh, nhưng VN-Index có độ rộng yếu và khối ngoại bán ròng. Theo dõi VN-Index quanh 1.800 điểm, DXY, USD/VND, Brent và US 10Y. AI tiếp tục hút vốn M&A, song rủi ro tập trung nền tảng và sự cố vận hành tăng. Đây không phải tư vấn mua/bán cá nhân.
+
+GHI CHÚ ĐỘ PHỦ
+
+- scanned_with_items: VnExpress Kinh doanh, VnExpress Khoa học Công nghệ, VnExpress Tin mới nhất, Dân trí Kinh doanh, Dân trí Công nghệ, Dân trí Trang chủ, BBC Business, BBC Technology, CNBC Markets, CNBC Technology, The Verge.
+- scanned_no_qualifying_item: Nikkei Asia Business (feed HTTP 200, không có mục đủ điều kiện); Financial Times Markets (đã quét trang, bài chi tiết paywall nên chỉ dùng discovery).
+- failed_with_reason: Reuters Business/Technology RSS và fallback HTTP 401 sau hai retry; Bloomberg Markets bị chặn truy cập.
+- Đã kiểm tra HOSE, HNX, SSC, Vietstock, CafeF, SBV, Vietcombank, TrendForce và Freightos. VSDC lỗi chứng chỉ TLS; S&P Global PMI trả HTTP 403.
+- Không có PMI Việt Nam, DRAM/NAND, cước biển hay NIQ/GfK công khai mới với kỳ và phương pháp đủ rõ để đưa vào KPI. Không có tin smartphone/Android mới đủ tác động trong cửa sổ.
+- Không gửi email, không tạo Gmail draft và không thực hiện thao tác Gmail.
