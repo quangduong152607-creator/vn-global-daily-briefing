@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "gdrive": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-gdrive"
+      ],
+      "env": {
+        "NOTEBOOKLM_DRIVE_FOLDER_ID": "YOUR_GOOGLE_DRIVE_FOLDER_ID"
+      }
+    },
+    "fetch": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-fetch"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/ryan/Documents/Github_AI/Nhịp Đập Thị Trường/Gemini"
+      ]
+    }
+  }
+}

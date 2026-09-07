@@ -1,0 +1,31 @@
+[2026-09-08 05:58:06] Bắt đầu chạy bản tin tự động...
+=====================================================
+🚀 BẮT ĐẦU PIPELINE BẢN TIN 24H (ANTIGRAVITY × NOTEBOOKLM)
+=====================================================
+
+[A] Thu thập dữ liệu:
+  -> Đang lấy chỉ số tài chính, vàng, tỷ giá, xăng dầu...
+  -> Đang quét các kênh RSS báo chí chính thống...
+  -> Đang quét Google Trends (VN & Global)...
+  -> Đang nạp số liệu thị phần Smartphone (Counterpoint / Canalys)...
+
+[B] Xử lý, Xác minh & Dịch thuật:
+  -> Nhóm domestic: Từ 24 tin thô -> 24 cụm sự kiện sau khi dịch & xếp hạng.
+  -> Nhóm international: Từ 5 tin thô -> 5 cụm sự kiện sau khi dịch & xếp hạng.
+  -> Nhóm technology: Từ 18 tin thô -> 18 cụm sự kiện sau khi dịch & xếp hạng.
+
+[B5] Đã xuất file nguồn chuẩn hóa cho NotebookLM: /Users/ryan/Documents/Github_AI/Nhịp Đập Thị Trường/Gemini/output/2026/09/08/source/daily_source.md
+
+[C] Khởi tạo phiên NotebookLM (NotebookLMClient): nb_bản_tin_08/09/2026
+
+[D] Đã sinh trang xuất bản bản tin (Giao diện sạch, đã dịch & có song ngữ): /Users/ryan/Documents/Github_AI/Nhịp Đập Thị Trường/Gemini/docs/index.html
+
+[D1] Báo Cáo Kiểm Tra Chất Lượng (Pre-Publish QC):
+  -> Kết quả: ✓ ĐẠT CHUẨN
+
+=====================================================
+✓ HOÀN TẤT CẬP NHẬT: GIAO DIỆN SẠCH & DỊCH TIẾNG VIỆT TOÀN DIỆN!
+- File nguồn NotebookLM: /Users/ryan/Documents/Github_AI/Nhịp Đập Thị Trường/Gemini/output/2026/09/08/source/daily_source.md
+- Cổng bản tin di động: /Users/ryan/Documents/Github_AI/Nhịp Đập Thị Trường/Gemini/docs/index.html
+=====================================================
+[2026-09-08 05:58:37] Hoàn tất bản tin tự động.

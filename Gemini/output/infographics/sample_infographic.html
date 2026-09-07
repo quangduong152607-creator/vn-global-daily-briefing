@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infographic Thị Trường Xe Điện Việt Nam 2025 - 2030</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0a0f1d;
+      --bg-card: rgba(18, 26, 47, 0.75);
+      --bg-card-hover: rgba(28, 40, 70, 0.85);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --accent-cyan: #00f2fe;
+      --accent-blue: #4facfe;
+      --accent-emerald: #10b981;
+      --accent-amber: #f59e0b;
+      --accent-rose: #f43f5e;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-primary);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(0, 242, 254, 0.12) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(79, 172, 254, 0.12) 0px, transparent 50%);
+      color: var(--text-main);
+      padding: 40px 20px;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+    }
+
+    .infographic-container {
+      max-width: 1080px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    /* Header */
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      border-radius: 9999px;
+      background: rgba(0, 242, 254, 0.1);
+      border: 1px solid rgba(0, 242, 254, 0.25);
+      color: var(--accent-cyan);
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      width: fit-content;
+    }
+
+    .hero-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 24px;
+      padding: 40px;
+      backdrop-filter: blur(16px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-section::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -10%;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(0, 242, 254, 0.18), transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-title {
+      font-size: 2.6rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin: 16px 0;
+      background: linear-gradient(135deg, #ffffff 30%, var(--accent-cyan) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-stat-highlight {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      margin-top: 18px;
+      flex-wrap: wrap;
+    }
+
+    .hero-number {
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: var(--accent-cyan);
+      text-shadow: 0 0 30px rgba(0, 242, 254, 0.35);
+    }
+
+    .hero-desc {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 580px;
+    }
+
+    /* Key Pulse Grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .metric-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 24px;
+      backdrop-filter: blur(12px);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+    }
+
+    .metric-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(0, 242, 254, 0.3);
+      background: var(--bg-card-hover);
+      box-shadow: 0 12px 24px -10px rgba(0, 242, 254, 0.15);
+    }
+
+    .metric-tag {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+
+    .metric-value {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 6px;
+    }
+
+    .metric-sub {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    /* Split Section */
+    .split-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 24px;
+    }
+
+    @media (max-width: 860px) {
+      .split-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 22px;
+      padding: 30px;
+      backdrop-filter: blur(12px);
+    }
+
+    .panel-header {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Market Share Bars */
+    .share-row {
+      margin-bottom: 18px;
+    }
+
+    .share-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .progress-track {
+      background: rgba(255, 255, 255, 0.06);
+      height: 10px;
+      border-radius: 9999px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 9999px;
+      transition: width 1s ease-in-out;
+    }
+
+    .fill-vinfast { width: 72.5%; background: linear-gradient(90deg, #00f2fe, #4facfe); }
+    .fill-byd { width: 11.2%; background: linear-gradient(90deg, #10b981, #34d399); }
+    .fill-hyundai { width: 8.0%; background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+    .fill-others { width: 8.3%; background: linear-gradient(90deg, #94a3b8, #cbd5e1); }
+
+    /* Forces Comparison */
+    .forces-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .force-box {
+      padding: 18px;
+      border-radius: 14px;
+      border: 1px solid var(--border-color);
+    }
+
+    .force-box.drivers {
+      background: rgba(16, 185, 129, 0.06);
+      border-color: rgba(16, 185, 129, 0.2);
+    }
+
+    .force-box.challenges {
+      background: rgba(244, 63, 94, 0.06);
+      border-color: rgba(244, 63, 94, 0.2);
+    }
+
+    .force-box h4 {
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .force-box.drivers h4 { color: var(--accent-emerald); }
+    .force-box.challenges h4 { color: var(--accent-rose); }
+
+    .force-box ul {
+      list-style: none;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .force-box li {
+      position: relative;
+      padding-left: 14px;
+    }
+
+    .force-box.drivers li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--accent-emerald);
+      font-weight: 700;
+    }
+
+    .force-box.challenges li::before {
+      content: '✕';
+      position: absolute;
+      left: 0;
+      color: var(--accent-rose);
+      font-weight: 700;
+    }
+
+    /* Footer */
+    .footer-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-color);
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="infographic-container">
+    <!-- Hero Banner -->
+    <div class="hero-section">
+      <div class="header-badge">✦ Báo Cáo Phân Tích Độc Quyền • NotebookLM x Antigravity</div>
+      <h1 class="hero-title">KỶ NGUYÊN BÙNG NỔ XE ĐIỆN VIỆT NAM</h1>
+      <div class="hero-stat-highlight">
+        <span class="hero-number">+24.8% CAGR</span>
+        <span class="hero-desc">Quy mô thị trường dự kiến cán mốc <strong>8.5 tỷ USD</strong> vào năm 2030, mở ra chu kỳ chuyển dịch xanh lớn nhất lịch sử ngành giao thông.</span>
+      </div>
+    </div>
+
+    <!-- Key Metrics Pulse -->
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-tag">Quy Mô Hiện Tại (2025)</div>
+        <div class="metric-value">2.8 Tỷ $</div>
+        <div class="metric-sub">Tăng trưởng vượt bậc qua hệ sinh thái vận tải công nghệ</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-tag">Hạ Tầng Trạm Sạc</div>
+        <div class="metric-value">150.000+</div>
+        <div class="metric-sub">Cổng sạc bao phủ toàn diện 63 tỉnh thành phố</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-tag">Tỷ Lệ Thâm Nhập (EV Rate)</div>
+        <div class="metric-value">14.2%</div>
+        <div class="metric-sub">Tăng gấp 3 lần so với giai đoạn thăm dò thị trường</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-tag">Mục Tiêu Năm 2030</div>
+        <div class="metric-value">8.5 Tỷ $</div>
+        <div class="metric-sub">Dự báo chiếm trên 30% doanh số xe mới toàn quốc</div>
+      </div>
+    </div>
+
+    <!-- Split Grid: Market Share vs Forces -->
+    <div class="split-grid">
+      <!-- Market Share Panel -->
+      <div class="panel">
+        <div class="panel-header">
+          <span>⚡</span> Cục Diện Thị Phần Xe Điện Việt Nam (2025)
+        </div>
+        
+        <div class="share-row">
+          <div class="share-info">
+            <span>VinFast (Nội địa)</span>
+            <span style="color: var(--accent-cyan);">72.5%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill fill-vinfast"></div>
+          </div>
+        </div>
+
+        <div class="share-row">
+          <div class="share-info">
+            <span>BYD (Quốc tế)</span>
+            <span style="color: var(--accent-emerald);">11.2%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill fill-byd"></div>
+          </div>
+        </div>
+
+        <div class="share-row">
+          <div class="share-info">
+            <span>Hyundai / Kia</span>
+            <span style="color: var(--accent-amber);">8.0%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill fill-hyundai"></div>
+          </div>
+        </div>
+
+        <div class="share-row">
+          <div class="share-info">
+            <span>Khác (Wuling, Geely, MG...)</span>
+            <span style="color: #cbd5e1;">8.3%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill fill-others"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Market Forces Comparison -->
+      <div class="panel">
+        <div class="panel-header">
+          <span>⚖️</span> Động Lực Thúc Đẩy vs Rào Cản
+        </div>
+        <div class="forces-grid">
+          <div class="force-box drivers">
+            <h4>Động Lực Tăng Trưởng</h4>
+            <ul>
+              <li>Miễn 100% lệ phí trước bạ và giảm thuế tiêu thụ đặc biệt.</li>
+              <li>Mạng lưới trạm sạc tiên phong phủ sóng đồng bộ cả nước.</li>
+              <li>Làn sóng taxi và logistics chuyển sang xe điện toàn diện.</li>
+            </ul>
+          </div>
+          <div class="force-box challenges">
+            <h4>Thách Thức Đối Mặt</h4>
+            <ul>
+              <li>Áp lực lưới điện phụ tải cao điểm tại chung cư đô thị.</li>
+              <li>Tâm lý lo ngại chi phí khấu hao pin sau 7-8 năm.</li>
+              <li>Cạnh tranh khốc liệt về giá từ các thương hiệu ngoại.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Notes -->
+    <div class="footer-bar">
+      <span>Được tổng hợp từ báo cáo thị trường qua <strong>NotebookLM</strong> & định dạng bởi <strong>Antigravity</strong></span>
+      <span>Quy chuẩn thiết kế: Modern Tech Editorial • 2026</span>
+    </div>
+  </div>
+
+</body>
+</html>

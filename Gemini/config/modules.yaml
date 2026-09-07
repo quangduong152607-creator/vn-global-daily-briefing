@@ -1,0 +1,65 @@
+# Cấu hình bật/tắt và định cấu trúc 8 module của Bản tin 24h
+
+modules:
+  - id: "module_1_indices"
+    title: "Bảng Chỉ Số Thị Trường & Tỷ Giá 24h"
+    enabled: true
+    order: 1
+    page_name: "01_chi_so_thi_truong"
+    type: "dashboard"
+    required_metrics:
+      - "sjc_gold"
+      - "usd_vnd"
+      - "cny_vnd"
+      - "krw_vnd"
+      - "vnindex"
+      - "ron95_gasoline"
+
+  - id: "module_2_news_domestic"
+    title: "Thời Sự Tổng Hợp Trong Nước & Quốc Tế"
+    enabled: true
+    order: 2
+    page_name: "02_thoi_su_tong_hop"
+    max_domestic_items: 12
+    max_international_items: 10
+    translate_international: true
+
+  - id: "module_3_finance"
+    title: "Chuyên Mục Tài Chính & Chính Sách Đầu Tư"
+    enabled: true
+    order: 3
+    page_name: "03_tai_chinh_dau_tu"
+    disclaimer: "Toàn bộ nội dung mang tính chất thông tin và nhận định, không phải khuyến nghị đầu tư."
+
+  - id: "module_4_tech_trends"
+    title: "Top Xu Hướng Tìm Kiếm Google Trends"
+    enabled: true
+    order: 4
+    page_name: "04_trends_cong_nghe"
+    geo: ["VN", "GLOBAL"]
+    filter_ict_keywords: true
+
+  - id: "module_5_tech_community"
+    title: "Tâm Lý Người Dùng & Thảo Luận Cộng Đồng Công Nghệ"
+    enabled: true
+    order: 5
+    page_name: "05_tam_ly_cong_dong"
+
+  - id: "module_6_new_products"
+    title: "Sản Phẩm ICT Mới Ra Mắt & Thông Số Kỹ Thuật"
+    enabled: true
+    order: 6
+    page_name: "06_san_pham_moi"
+    priority_brands: ["Vivo", "Realme", "Samsung", "Xiaomi", "OPPO", "Honor", "TECNO", "Infinix"]
+
+  - id: "module_7_marketshare"
+    title: "Cục Diện Thị Phần Smartphone (Counterpoint / IDC)"
+    enabled: true
+    order: 7
+    page_name: "07_thi_phan_smartphone"
+
+  - id: "module_8_purchasing_corner"
+    title: "Góc Mua Hàng & Lịch Sự Kiện Ngành ĐTDĐ"
+    enabled: true
+    order: 8
+    page_name: "08_goc_mua_hang"

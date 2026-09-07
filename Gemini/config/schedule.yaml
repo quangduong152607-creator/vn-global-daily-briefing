@@ -1,0 +1,19 @@
+# Cấu hình lịch chạy tự động & thông báo hệ thống
+
+schedule:
+  daily_run_time: "05:30"
+  timezone: "Asia/Ho_Chi_Minh"
+  data_lookback_hours: 24
+  max_runtime_minutes: 35
+
+retry_policy:
+  max_attempts: 3
+  backoff_seconds: [2, 8, 32]
+  continue_on_source_failure: true
+  error_threshold_pct: 30
+
+notification:
+  channel: "telegram"  # options: telegram, email, console
+  notify_on_success: true
+  notify_on_fallback: true
+  notify_on_failure: true

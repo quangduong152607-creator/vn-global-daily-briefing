@@ -1,0 +1,135 @@
+# Danh mục nguồn tin tức & dữ liệu hệ thống Bản tin 24h
+# Có thể thêm/bớt/bật/tắt nguồn mà không cần sửa mã nguồn
+
+indices:
+  gold:
+    - name: "SJC Gold"
+      url: "https://sjc.com.vn"
+      enabled: true
+      weight: 30
+    - name: "Kitco World Gold"
+      url: "https://www.kitco.com"
+      enabled: true
+      weight: 25
+  forex:
+    - name: "Vietcombank Exchange Rates"
+      url: "https://portal.vietcombank.com.vn"
+      enabled: true
+      weight: 30
+      currencies: ["USD", "CNY", "KRW", "EUR"]
+    - name: "State Bank of Vietnam (SBV)"
+      url: "https://www.sbv.gov.vn"
+      enabled: true
+      weight: 30
+  stocks:
+    - name: "HOSE / VN-Index"
+      url: "https://www.hsx.vn"
+      enabled: true
+      weight: 30
+    - name: "CafeF Market Data"
+      url: "https://cafef.vn"
+      enabled: true
+      weight: 25
+  fuel:
+    - name: "Petrolimex Giá Xăng Dầu"
+      url: "https://www.petrolimex.com.vn"
+      enabled: true
+      weight: 30
+
+news_domestic:
+  - name: "VnExpress"
+    url: "https://vnexpress.net/rss/tin-moi-nhat.rss"
+    type: "rss"
+    enabled: true
+    weight: 28
+    category: "general"
+  - name: "Tuổi Trẻ"
+    url: "https://tuoitre.vn/rss/tin-moi-nhat.rss"
+    type: "rss"
+    enabled: true
+    weight: 26
+    category: "general"
+  - name: "Thanh Niên"
+    url: "https://thanhnien.vn/rss/home.rss"
+    type: "rss"
+    enabled: true
+    weight: 24
+    category: "general"
+  - name: "Báo Chính Phủ"
+    url: "https://baochinhphu.vn/rss/home.rss"
+    type: "rss"
+    enabled: true
+    weight: 30
+    category: "policy"
+  - name: "CafeF Tài Chính"
+    url: "https://cafef.vn/tai-chinh-ngan-hang.rss"
+    type: "rss"
+    enabled: true
+    weight: 28
+    category: "finance"
+  - name: "Vietstock"
+    url: "https://vietstock.vn/rss/tai-chinh.rss"
+    type: "rss"
+    enabled: true
+    weight: 25
+    category: "finance"
+
+news_international:
+  - name: "Reuters World"
+    url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+    type: "rss"
+    enabled: true
+    weight: 28
+    category: "world"
+  - name: "CNBC Top News"
+    url: "https://search.cnbc.com/rs/search/view.html?partnerId=2000&keywords=vietnam+trade+asia&sort=date"
+    type: "rss"
+    enabled: true
+    weight: 25
+    category: "finance_intl"
+
+technology:
+  - name: "GSMArena"
+    url: "https://www.gsmarena.com/rss-news-reviews.php3"
+    type: "rss"
+    enabled: true
+    weight: 30
+    category: "mobile_hardware"
+  - name: "The Verge Tech"
+    url: "https://www.theverge.com/rss/index.xml"
+    type: "rss"
+    enabled: true
+    weight: 26
+    category: "tech_general"
+  - name: "Android Authority"
+    url: "https://www.androidauthority.com/feed/"
+    type: "rss"
+    enabled: true
+    weight: 30
+    category: "android_specialized"
+  - name: "Tinhte.vn"
+    url: "https://tinhte.vn/rss"
+    type: "rss"
+    enabled: true
+    weight: 27
+    category: "local_tech_community"
+  - name: "GenK"
+    url: "https://genk.vn/dien-thoai.rss"
+    type: "rss"
+    enabled: true
+    weight: 24
+    category: "mobile_local"
+
+marketshare:
+  - name: "Counterpoint Research"
+    url: "https://www.counterpointresearch.com"
+    enabled: true
+    weight: 30
+  - name: "Canalys"
+    url: "https://www.canalys.com"
+    enabled: true
+    weight: 30
+  - name: "IDC"
+    url: "https://www.idc.com"
+    enabled: true
+    weight: 30

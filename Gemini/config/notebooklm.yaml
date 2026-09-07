@@ -1,0 +1,18 @@
+# Cấu hình tích hợp NotebookLM và chế độ dự phòng (Fallback)
+
+notebooklm:
+  mode: "hybrid" # options: "hybrid" (Antigravity prepares source + Drive sync / local reader fallback), "cloud_enterprise", "playwright"
+  drive_sync_enabled: true
+  auto_generate_infographics: true
+  orientation: "portrait"
+  language: "vi"
+  poll_interval_seconds: 15
+  timeout_per_page_seconds: 900
+  max_parallel_jobs: 3
+
+fallback_engine:
+  enabled: true
+  auto_trigger_on_error: true
+  render_format: "html_png" # html-based visual infographics + web reader
+  theme: "dark_editorial"
+  typography: "Plus Jakarta Sans, Inter, sans-serif"
