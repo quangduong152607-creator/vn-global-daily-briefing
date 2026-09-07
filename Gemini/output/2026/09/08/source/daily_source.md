@@ -1,5 +1,5 @@
 # BẢN TIN 24H — Thứ 3, 08/09/2026
-Kỳ dữ liệu: từ 07/09/2026 05:58 đến 08/09/2026 05:58 (giờ Việt Nam)
+Kỳ dữ liệu: từ 07/09/2026 06:09 đến 08/09/2026 06:09 (giờ Việt Nam)
 Số nguồn đã quét: 15 | Số nguồn lỗi: 0
 Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
@@ -16,19 +16,19 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 ### Giá Vàng
 - **SJC Miền Bắc/TP.HCM**: Mua vào 144.60 tr.đ/lượng | Bán ra 147.60 tr.đ/lượng | Thay đổi: -1.00 tr.đ (Giảm sau phiên trước)
 - **Vàng Thế Giới (Kitco)**: 4,429 USD/oz | Chênh lệch trong nước: ~3.0 tr.đ/lượng
-- *Nguồn: SJC / Kitco | Cập nhật: 05:58 08/09/2026*
+- *Nguồn: SJC / Kitco | Cập nhật: 06:09 08/09/2026*
 
 ### Tỷ Giá Ngoại Tệ
 - **USD/VND**: Mua 25.869 đ | Bán 26.129 đ | Tỷ giá trung tâm NHNN: 24.280 đ
 - **CNY/VND (Nhập khẩu ICT)**: Mua 3.869.31 đ | Bán 3.869.31 đ
 - **KRW/VND (Chuỗi cung ứng)**: Mua 19.31 đ | Bán 19.31 đ
 - **Chỉ số DXY**: 104.25
-- *Nguồn: Vietcombank / SBV | Cập nhật: 05:58 08/09/2026*
+- *Nguồn: Vietcombank / SBV | Cập nhật: 06:09 08/09/2026*
 
 ### Thị Trường Chứng Khoán
 - **VN-Index**: 1.821,64 điểm | Biến động: +6.85 (+0.54%) | Khối lượng: 680.5M | Nước ngoài: +120.5 tỷ VNĐ (Mua ròng)
 - **HNX-Index**: 242.15 điểm | Biến động: +1.20 (+0.50%)
-- *Nguồn: HOSE / CafeF | Cập nhật: 05:58 08/09/2026*
+- *Nguồn: HOSE / CafeF | Cập nhật: 06:09 08/09/2026*
 
 ### Giá Xăng Dầu
 - **RON 95-III**: 20.850 đ/lít đ/lít | Kỳ điều hành: Kỳ điều hành ngày 05/09/2026
@@ -43,29 +43,29 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 - **Tóm tắt**: Giá bán vàng nhẫn, vàng miếng hiện phổ biến 146 - 149 triệu đồng/lượng.
 - **Nguồn**: [CafeF Tài Chính](https://cafef.vn/gia-vang-mieng-vang-nhan-chieu-toi-7-9-tai-sjc-pnj-doji-bao-tin-minh-chau-va-phu-quy-188260907065955247.chn)
 
-### Hái 'lộc trời' dưới rừng tràm
-- **Tóm tắt**: Sau những cơn mưa đầu mùa, nấm tràm mọc dưới tán rừng keo ở xã Trung Thuần, Hòa Trạch, người dân tranh thủ đi hái "lộc trời", thu vài trăm nghìn đồng mỗi ngày.
-- **Nguồn**: [VnExpress](https://vnexpress.net/hai-loc-troi-duoi-rung-tram-5117551.html)
+### Hiệu trưởng xoay xở với 'siêu trường' sau sáp nhập
+- **Tóm tắt**: Xóa bỏ tâm lý "trường này, trường kia" hay sắp xếp giáo viên, cơ sở vật chất ... là những áp lực đặt ra với các hiệu trưởng sau đợt sắp xếp mạng lưới giáo dục lớn nhất gần 50 năm qua.
+- **Nguồn**: [VnExpress](https://vnexpress.net/hieu-truong-xoay-xo-voi-sieu-truong-sau-sap-nhap-5113771.html)
 
-### TP HCM đề xuất thêm hai tuyến vành đai dài gần 700 km
-- **Tóm tắt**: Vành đai 4,5 và 5 với tổng chiều dài tối đa gần 680 km được TP HCM đề xuất quy hoạch, mở rộng kết nối Đông Nam Bộ với Tây Nguyên, duyên hải Nam Trung Bộ.
-- **Nguồn**: [VnExpress](https://vnexpress.net/tp-hcm-de-xuat-them-hai-tuyen-vanh-dai-dai-gan-700-km-5117602.html)
+### Arsenal là ứng viên vô địch số một tại Champions League
+- **Tóm tắt**: Theo siêu máy tính Opta, Bayern có xác suất đứng đầu vòng phân hạng cao nhất, còn Arsenal là ứng viên số một cho chức vô địch Champions League mùa 2026-2027.
+- **Nguồn**: [VnExpress](https://vnexpress.net/arsenal-la-ung-vien-vo-dich-so-mot-tai-champions-league-5116800.html)
 
-### Thói quen ngủ sớm giúp Trương Bá Chi duy trì phong độ nhan sắc tuổi 46
-- **Tóm tắt**: Ở tuổi 46, mỹ nhân Trương Bá Chi giữ vững nhan sắc rạng rỡ nhờ lối sống kỷ luật cùng thói quen lên giường đi ngủ vào lúc 20h40.
-- **Nguồn**: [VnExpress](https://vnexpress.net/thoi-quen-ngu-som-giup-truong-ba-chi-duy-tri-phong-do-nhan-sac-tuoi-46-5117213.html)
+### Cú trái một tay biến mất ở bán kết Grand Slam sau 149 năm
+- **Tóm tắt**: Thất bại của Stefanos Tsitsipas tại Mỹ Mở rộng 2026 khiến chuỗi 149 năm luôn có tay vợt đánh trái một tay góp mặt ở bán kết Grand Slam chấm dứt.
+- **Nguồn**: [VnExpress](https://vnexpress.net/cu-trai-mot-tay-bien-mat-o-ban-ket-grand-slam-sau-149-nam-5117648.html)
 
-### Andreeva thắng trận đấu đẫm nước mắt ở Mỹ Mở rộng
-- **Tóm tắt**: Mirra Andreeva thắng ngược Anastasia Potapova 5-7, 6-4, 6-3 để lần đầu vào tứ kết Mỹ Mở rộng, trong trận đấu khép lại bằng nước mắt và cái ôm kéo dài giữa hai tay vợt.
-- **Nguồn**: [VnExpress](https://vnexpress.net/andreeva-thang-tran-dau-dam-nuoc-mat-o-my-mo-rong-5117646.html)
+### Flick xô đổ kỷ lục của Johan Cruyff tại Barca
+- **Tóm tắt**: Sau trận thắng Valencia 5-0, Hansi Flick phá kỷ lục của huyền thoại Johan Cruyff để trở thành HLV giúp Barca giữ đỉnh bảng La Liga nhiều nhất lịch sử.
+- **Nguồn**: [VnExpress](https://vnexpress.net/flick-xo-do-ky-luc-cua-johan-cruyff-tai-barca-5117605.html)
 
-### Tay vợt Trung Quốc lại thắng ngược từ 0-5 ở Mỹ Mở rộng
-- **Tóm tắt**: Zheng Qinwen lần thứ hai liên tiếp thắng một set dù bị dẫn 0-5, khi ngược dòng hạ Iga Swiatek 7-5, 6-3 ở vòng bốn Mỹ Mở rộng hôm 7/9.
-- **Nguồn**: [VnExpress](https://vnexpress.net/tay-vot-trung-quoc-lai-thang-nguoc-tu-0-5-o-my-mo-rong-5117645.html)
+### Nợ vay của doanh nghiệp bất động sản phình to
+- **Tóm tắt**: Tỷ lệ nợ vay trên vốn chủ sở hữu toàn ngành bất động sản đã tăng lên 0,72 lần vào cuối tháng 6, mức cao nhất trong vòng 15 quý.
+- **Nguồn**: [VnExpress](https://vnexpress.net/no-vay-cua-doanh-nghiep-bat-dong-san-phinh-to-5117582.html)
 
-### 'Hội chứng ghế xoay' ở nhiều nam giới văn phòng
-- **Tóm tắt**: Quanh quẩn với 'hội chứng ghế xoay', từ ghế ôtô, ghế văn phòng đến bàn nhậu, nhiều nam giới ngày càng ít vận động, bụng to hơn, ngủ kém và bắt đầu xuống phong độ.
-- **Nguồn**: [VnExpress](https://vnexpress.net/hoi-chung-ghe-xoay-o-nhieu-nam-gioi-van-phong-5117122.html)
+### Thiết kế cầu Thủ Thiêm 4 với mái vòm hình sóng nước
+- **Tóm tắt**: Cầu Thủ Thiêm 4 được thiết kế ba nhịp vòm thép như sóng nước, có cầu đi bộ, xe đạp riêng phía dưới và hệ thống chiếu sáng mỹ thuật.
+- **Nguồn**: [VnExpress](https://vnexpress.net/thiet-ke-cau-thu-thiem-4-voi-mai-vom-hinh-song-nuoc-5117553.html)
 
 ### Chất lượng tài sản ngân hàng nhìn từ NPL: Riêng lẻ hay hợp nhất mới phản ánh đúng?
 - **Tóm tắt**: Tỷ lệ nợ xấu (NPL) là một trong những chỉ tiêu được quan tâm đầu tiên khi đánh giá chất lượng tài sản của ngân hàng. Tuy nhiên, nếu chỉ đặt các con số NPL cạnh nhau mà không xem xét phạm vi báo cáo và phương pháp tính, người đọc có thể đưa ra những k...
@@ -118,16 +118,16 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 ---
 
 ## PHẦN 5 — TOP TỪ KHÓA TÌM KIẾM GOOGLE TRENDS
+- **cristiano ronaldo** (100+) [🔥 Hot General]
+- **kỷ luật** (100+) [🔥 Hot General]
 - **ikeuchi yutaka** (500+) [🔥 Hot General]
-- **vinfast** (200+) [🔥 Hot General]
+- **vinfast** (1000+) [🔥 Hot General]
+- **tàu cá** (10000+) [🔥 Hot General]
 - **cơ quan an ninh điều tra bộ công an** (1000+) [🔥 Hot General]
-- **bóng đá vô địch các câu lạc bộ châu âu** (100+) [🔥 Hot General]
-- **udinese đấu với lazio** (500+) [🔥 Hot General]
+- **bóng đá vô địch các câu lạc bộ châu âu** (200+) [🔥 Hot General]
+- **udinese đấu với lazio** (1000+) [🔥 Hot General]
 - **getafe – celta** (100+) [🔥 Hot General]
 - **elche đấu với real sociedad** (2000+) [🔥 Hot General]
-- **lazio** (500+) [🔥 Hot General]
-- **al hilal** (100+) [🔥 Hot General]
-- **al hilal đấu với neom sc** (500+) [🔥 Hot General]
 
 ---
 
@@ -137,6 +137,21 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 ---
 
 ## PHẦN 7 — SẢN PHẨM ICT MỚI RA MẮT
+### vivo X500 gets certified, its charging support is revealed (Độ ưu tiên: 70.0)
+- **Cấu hình/Điểm nhấn**: vivo is going to launch the X500 series this month, and ahead of that the vanilla X500 has been spotted in a bunch of certification databases. It was certified by IMDA in Singapore, SIRIM in Malaysia, as well as TÜV, with the model number V2619. The ...
+- *Nguyên bản tiếng Anh: vivo X500 gets certified, its charging support is revealed*
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/vivo_x500_gets_certified_its_charging_support_is_revealed-news-74497.php)
+
+### Xiaomi 18 Fold is here with the Xring O3 SoC, a wide format, and a cherry red colorway (Độ ưu tiên: 65.0)
+- **Cấu hình/Điểm nhấn**: Xiaomi today announced its own very first wide-style foldable smartphone, one-upping Apple by exactly two days. Not only does the Xiaomi 18 Fold have the same form factor as the much-anticipated iPhone Ultra, but it's also available in a cherry red c...
+- *Nguyên bản tiếng Anh: Xiaomi 18 Fold is here with the Xring O3 SoC, a wide format, and a cherry red colorway*
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/xiaomi_18_fold_is_here_with_the_xring_o3_soc_a_wide_format_and_a_cherry_red_colorway-news-74500.php)
+
+### Samsung Galaxy A07s debuts with a 6.7-inch screen, 5,000mAh battery (Độ ưu tiên: 65.0)
+- **Cấu hình/Điểm nhấn**: Back in August, the Samsung Galaxy A07s appeared on the Google Play Console alongside the Galaxy A08. Now, the budget smartphone seems to have been quietly launched in the Levant region and is already available to purchase. The Galaxy A07s comes equi...
+- *Nguyên bản tiếng Anh: Samsung Galaxy A07s debuts with a 6.7-inch screen, 5,000mAh battery*
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/samsung_galaxy_a07s_debuts_with_a_67inch_screen_5000mah_battery-news-74494.php)
+
 ### Flash Samsung Galaxy S26 Ultra deal knocks the flagship phone down to $953 (Độ ưu tiên: 63.0)
 - **Cấu hình/Điểm nhấn**: Save $347 on the Samsung Galaxy S26 Ultra at Amazon and get a 4.6-star flagship with Snapdragon 8 Elite Gen 5.
 - *Nguyên bản tiếng Anh: Flash Samsung Galaxy S26 Ultra deal knocks the flagship phone down to $953*
@@ -147,6 +162,21 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 - *Nguyên bản tiếng Anh: Huawei copies Samsung’s privacy display in its latest trifold*
 - **Nguồn**: [The Verge Tech](https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display)
 
+### Huawei reveals the Pura X View's full specs, pricing, and launch date (Độ ưu tiên: 45.0)
+- **Cấu hình/Điểm nhấn**: Last month, Huawei semi-announced the Pura X View, revealing some but not all of its specs. Today, the company has finally rectified that, by fully unveiling the device with its unique form factor. The Pura X View comes with a 6.39-inch OLED screen w...
+- *Nguyên bản tiếng Anh: Huawei reveals the Pura X View's full specs, pricing, and launch date*
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/huawei_reveals_the_pura_x_views_full_specs_pricing_and_launch_date-news-74502.php)
+
+### iQOO Z11xa launches and it's a confusing one (Độ ưu tiên: 45.0)
+- **Cấu hình/Điểm nhấn**: After launching the Z11x in India in March, now iQOO has quietly unveiled the Z11xa. Its listing is up on the company's website for India, and if you want to have some fun, you can try and find out what's different from the Z11x. [#InlinePriceWidget,...
+- *Nguyên bản tiếng Anh: iQOO Z11xa launches and it's a confusing one*
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/iqoo_z11xa_launches_and_its_a_confusing_one-news-74498.php)
+
+### [❓ TIN ĐỒN / CHƯA XÁC MINH] Poco C95 Pro specs and renders leak (Độ ưu tiên: 45.0)
+- **Cấu hình/Điểm nhấn**: Back in early September of last year, Poco launched the C85 4G. Now, the brand is apparently gearing up to release a successor of sorts. It's called Poco C95 Pro 4G and today a new leak brings us purported renders of the device as well as its most im...
+- *Nguyên bản tiếng Anh: Poco C95 Pro specs and renders leak*
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/poco_c95_pro_specs_and_renders_leak-news-74496.php)
+
 ### Retroid takes on Nintendo nostalgia with new dual-screen Android handheld (Độ ưu tiên: 45.0)
 - **Cấu hình/Điểm nhấn**: Retroid is working on its first real dual-screen Android gaming handheld.
 - *Nguyên bản tiếng Anh: Retroid takes on Nintendo nostalgia with new dual-screen Android handheld*
@@ -156,33 +186,6 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 - **Cấu hình/Điểm nhấn**: GrapheneOS is pushing back its overhauled Messages app release.
 - *Nguyên bản tiếng Anh: GrapheneOS is ‘slightly delaying’ its overhauled Messages app*
 - **Nguồn**: [Android Authority](https://www.androidauthority.com/graphene-os-messages-app-delay-3708582/)
-
-### Now’s your chance to try out Nothing’s next products early (Độ ưu tiên: 45.0)
-- **Cấu hình/Điểm nhấn**: Nothing is inviting its community to test next-gen devices ahead of launch.
-- *Nguyên bản tiếng Anh: Now’s your chance to try out Nothing’s next products early*
-- **Nguồn**: [Android Authority](https://www.androidauthority.com/nothing-community-review-program-opens-3708566/)
-
-### Garmin could be preparing to enter the smart ring market (Độ ưu tiên: 45.0)
-- **Cấu hình/Điểm nhấn**: Garmin could launch a smart ring with 10 different sizes.
-- *Nguyên bản tiếng Anh: Garmin could be preparing to enter the smart ring market*
-- **Nguồn**: [Android Authority](https://www.androidauthority.com/garmin-smart-ring-database-filing-3708523/)
-
-### Google Photos just halved the time you have to rescue trashed pictures (Độ ưu tiên: 45.0)
-- **Cấu hình/Điểm nhấn**: Google Photos is starting to clear your trash after 30 days, not 60.
-- *Nguyên bản tiếng Anh: Google Photos just halved the time you have to rescue trashed pictures*
-- **Nguồn**: [Android Authority](https://www.androidauthority.com/google-photos-30-days-trash-3708519/)
-
-### Mời nhận vé sự kiện AVSHOW lần thứ 26 diễn ra từ 11-13/09 tại TPHCM (Độ ưu tiên: 42.0)
-- **Cấu hình/Điểm nhấn**: AVSHOW lần thứ 26 với sự tham gia của 27 nhà sản xuất, kinh doanh phân phối thiết bị âm thanh hifi, home theater, các thương hiệu điện tử hi-tech trong 36 phòng triển lãm và vị trí trưng bày trải...
-- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/moi-nhan-ve-su-kien-avshow-lan-thu-26-dien-ra-tu-11-13-09-tai-tphcm.4175318/)
-
-### IFA26: Ghé gian hàng Rapoo: Chuột phím hoàn thiện ngon hơn, có nút AI (Độ ưu tiên: 42.0)
-- **Cấu hình/Điểm nhấn**: Ở khu vực linh kiện máy tính tại sảnh 5 tầng 2 của IFA 2026, mình tạt vào gian hàng của Rapoo vì thấy lượng khách qua lại khá đông. Trước giờ ở Việt Nam, nhắc đến Rapoo thì anh em thường nghĩ ngay...
-- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/ifa26-ghe-gian-hang-rapoo-chuot-phim-hoan-thien-ngon-hon-co-nut-ai.4175059/)
-
-### IFA26: Ghé vào gian hàng CUKTECH: Vẫn mê đồ sạc, thêm màn hình tháo rời và sạc laptop 360W (Độ ưu tiên: 42.0)
-- **Cấu hình/Điểm nhấn**: Dạo quanh triển lãm IFA 2026 ở Berlin, một trong những gian hàng phụ kiện làm mình tò mò ghé vào nhất chính là CUKTECH. Bản thân mình là người gắn bó với cục sạc CUKTECH Slim 65W từ tận năm 2023...
-- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/ifa26-ghe-vao-gian-hang-cuktech-van-me-do-sac-them-man-hinh-thao-roi-va-sac-laptop-360w.4175065/)
 
 
 ---
