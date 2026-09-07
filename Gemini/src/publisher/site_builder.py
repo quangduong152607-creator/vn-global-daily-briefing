@@ -636,6 +636,12 @@ def build_daily_portal(daily_data: Dict[str, Any], output_dir: Path) -> Path:
     with open(index_path, "w", encoding="utf-8") as f:
         f.write(html)
         
+    # Tự động đồng bộ index.html ra gốc repo cho GitHub Pages
+    repo_root = output_dir.resolve().parent.parent
+    if (repo_root / ".git").exists():
+        import shutil
+        shutil.copy2(index_path, repo_root / "index.html")
+        
     archive_path = output_dir / "archive.html"
     archive_html = f"""<!DOCTYPE html>
 <html lang="vi">
