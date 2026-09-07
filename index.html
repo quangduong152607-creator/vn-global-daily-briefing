@@ -1,62 +1,793 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="light">
-  <title>Bản tin 24h · 05/09/2026</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bản Tin 24h Tự Động • 08/09/2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root{--ink:#111827;--muted:#5f6875;--paper:#f4f1e9;--card:#fffefa;--line:#d9d7d0;--navy:#061b2b;--teal:#0c5962;--blue:#2563eb;--orange:#e76722;--aqua:#06a6a6;--yellow:#d99b00;--magenta:#c0267e;--green:#16845b;--violet:#7156d9;--red:#c63d3d}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}.wrap{width:min(1180px,calc(100% - 28px));margin:0 auto;padding:20px 0 56px}.hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(128deg,var(--navy),#073849 58%,var(--teal));border-radius:22px;padding:42px;box-shadow:0 18px 46px rgba(6,27,43,.18)}.hero:after{content:"";position:absolute;width:290px;height:290px;border:1px solid rgba(255,255,255,.16);border-radius:50%;right:-90px;top:-140px}.eyebrow{margin:0 0 16px;font-size:12px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:#8de5df}.hero-grid{display:grid;grid-template-columns:1.55fr .75fr;gap:38px;align-items:end}.hero h1{font-size:clamp(38px,6vw,78px);line-height:.96;letter-spacing:-.055em;margin:0 0 22px;max-width:760px}.hero .date{font-size:19px;font-weight:700;margin-bottom:8px}.window{color:#c6d8dc;font-size:14px;max-width:650px}.mood{border-left:1px solid rgba(255,255,255,.24);padding-left:28px}.mood b{display:block;font-size:30px;line-height:1.05;margin:6px 0 10px}.mood span{color:#c6d8dc;font-size:13px}.section{margin-top:44px}.section-kicker{color:var(--blue);font-size:12px;font-weight:850;letter-spacing:.13em;text-transform:uppercase}.section h2{font-size:clamp(27px,4vw,43px);letter-spacing:-.035em;line-height:1.05;margin:7px 0 20px}.summary{counter-reset:item;display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--card)}.summary div{min-height:190px;padding:22px;border-right:1px solid var(--line);font-size:14px}.summary div:last-child{border:0}.summary div:before{counter-increment:item;content:counter(item);display:grid;place-items:center;width:28px;height:28px;margin-bottom:28px;background:var(--blue);color:#fff;font-weight:850;font-size:13px}.summary div:nth-child(2):before{background:var(--orange)}.summary div:nth-child(3):before{background:var(--aqua)}.summary div:nth-child(4):before{background:var(--magenta)}.summary div:nth-child(5):before{background:var(--green)}.summary strong{display:block;margin-bottom:7px}.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:9px}.kpi{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:17px;min-height:137px}.kpi small{display:block;color:var(--muted);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.kpi strong{display:block;font-size:25px;line-height:1;margin:16px 0 9px;letter-spacing:-.04em}.up{color:var(--green)}.down{color:var(--red)}.flat{color:var(--yellow)}.delta{font-size:12px;font-weight:750}.spark{display:flex;gap:3px;height:17px;align-items:end;margin-top:12px}.spark i{display:block;flex:1;background:#b6c8cb;border-radius:2px}.spark i:last-child{background:var(--aqua)}.market-detail{display:grid;grid-template-columns:1.25fr .75fr;gap:12px;margin-top:12px}.compare,.mini-grid{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:20px}.compare-row{display:grid;grid-template-columns:110px 1fr 68px;gap:12px;align-items:center;margin:14px 0;font-size:13px}.bar{height:8px;background:#e5e4df;border-radius:8px;overflow:hidden}.bar span{display:block;height:100%;border-radius:8px}.mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.mini{border-left:3px solid var(--orange);padding:5px 0 5px 11px}.mini b{display:block;font-size:19px}.mini small{color:var(--muted)}.market-note{color:var(--muted);font-size:12px;margin:10px 4px 0}.tabs{position:sticky;top:0;z-index:8;margin:38px 0 22px;padding:9px;background:rgba(244,241,233,.94);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:14px;display:flex;gap:7px}.tabs label{flex:1;cursor:pointer;text-align:center;padding:12px;border-radius:9px;font-weight:800;font-size:14px}.tab-input{position:absolute;opacity:0;pointer-events:none}#tab-economy:checked~.tabs label[for=tab-economy],#tab-tech:checked~.tabs label[for=tab-tech]{background:var(--navy);color:#fff}.panel{display:none}#tab-economy:checked~#panel-economy,#tab-tech:checked~#panel-tech{display:block}.group-title{display:flex;align-items:end;justify-content:space-between;gap:18px;margin:34px 0 16px;border-bottom:2px solid var(--ink);padding-bottom:10px}.group-title h3{font-size:28px;letter-spacing:-.035em;margin:0}.group-title span{color:var(--muted);font-size:12px}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:15px;padding:24px;min-height:100%}.meta{display:flex;align-items:center;justify-content:space-between;gap:10px;color:var(--muted);font-size:11px}.label{font-weight:850;letter-spacing:.08em;text-transform:uppercase;border-left:4px solid var(--blue);padding-left:8px;color:var(--ink)}.label.risk{border-color:var(--red)}.label.analysis{border-color:var(--violet)}.label.statement{border-color:var(--orange)}.label.data{border-color:var(--aqua)}.confidence{white-space:nowrap}.card h4{font-size:23px;line-height:1.12;letter-spacing:-.028em;margin:18px 0 12px}.card p{font-size:14px;margin:0 0 13px}.facts{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:13px 0;margin-top:auto!important}.impact b{color:var(--teal)}.source{margin-top:auto;padding-top:8px}.source a{display:flex;justify-content:space-between;gap:12px;align-items:center;color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:12px;min-height:44px;font-size:12px;font-weight:750}.source a:hover{border-color:var(--blue);color:var(--blue)}.tier{color:var(--muted);font-size:10px;text-align:right}.implications{margin-top:48px;background:linear-gradient(135deg,var(--navy),#0b4450);color:#fff;border-radius:22px;padding:38px}.implications h2{font-size:42px;letter-spacing:-.04em;margin:8px 0 24px}.imp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.imp{border:1px solid rgba(255,255,255,.18);border-radius:13px;padding:20px;background:rgba(255,255,255,.04)}.imp h3{font-size:17px;margin:0 0 12px;color:#8de5df}.imp ul{padding-left:18px;margin:0}.imp li,.imp p{font-size:13px;color:#d8e6e8;margin:0 0 10px}.coverage{margin-top:30px;border-top:1px solid var(--line);padding:22px 4px;color:var(--muted);font-size:12px}.coverage p{margin:6px 0}.coverage code{color:var(--ink);font-size:11px}footer{text-align:center;color:var(--muted);font-size:11px;padding:20px 0 0}@media(max-width:900px){.summary{grid-template-columns:repeat(2,1fr)}.summary div{border-bottom:1px solid var(--line)}.summary div:nth-child(even){border-right:0}.summary div:last-child{grid-column:1/-1}.kpis{grid-template-columns:repeat(3,1fr)}.imp-grid{grid-template-columns:1fr}.hero-grid{grid-template-columns:1fr}.mood{border-left:0;border-top:1px solid rgba(255,255,255,.24);padding:22px 0 0}.market-detail{grid-template-columns:1fr}}@media(max-width:640px){.wrap{width:min(100% - 18px,720px);padding-top:9px}.hero{padding:27px 22px;border-radius:17px}.hero h1{font-size:42px}.summary{grid-template-columns:1fr}.summary div,.summary div:nth-child(even){min-height:0;border-right:0;border-bottom:1px solid var(--line)}.summary div:last-child{grid-column:auto}.summary div:before{margin-bottom:14px}.kpis{grid-template-columns:repeat(2,1fr)}.kpi strong{font-size:21px}.cards{grid-template-columns:1fr}.market-detail{grid-template-columns:1fr}.compare-row{grid-template-columns:82px 1fr 58px;gap:8px}.tabs{top:4px}.tabs label{font-size:12px;padding:11px 6px}.card{padding:20px}.card h4{font-size:21px}.implications{padding:27px 21px}.implications h2{font-size:34px}.group-title{align-items:start;flex-direction:column;gap:3px}}
+    :root {
+      --bg-primary: #070b14;
+      --bg-card: rgba(15, 23, 42, 0.85);
+      --bg-card-hover: rgba(30, 41, 69, 0.9);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --accent-cyan: #00f2fe;
+      --accent-blue: #4facfe;
+      --accent-emerald: #10b981;
+      --accent-amber: #f59e0b;
+      --accent-rose: #f43f5e;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-primary);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(0, 242, 254, 0.1) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(79, 172, 254, 0.08) 0px, transparent 50%);
+      color: var(--text-main);
+      padding: 24px 16px;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    /* Top Bar */
+    .header {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 24px;
+      backdrop-filter: blur(16px);
+      text-align: center;
+    }
+
+    .badge-live {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: var(--accent-emerald);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+    }
+
+    .header h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #ffffff 30%, var(--accent-cyan) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .meta-line {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Controls Bar: Navigation & Bilingual Toggle */
+    .controls-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 12px 18px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 14px;
+      border: 1px solid var(--border-color);
+      font-size: 0.85rem;
+    }
+
+    .bilingual-toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 242, 254, 0.1);
+      border: 1px solid rgba(0, 242, 254, 0.3);
+      color: var(--accent-cyan);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .bilingual-toggle-btn:hover {
+      background: rgba(0, 242, 254, 0.2);
+    }
+
+    .controls-bar a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* Module Section */
+    .module-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 24px;
+      backdrop-filter: blur(12px);
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .module-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text-main);
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 12px;
+    }
+
+    /* Indices Grid */
+    .indices-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+
+    .index-item {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    .index-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+
+    .index-val {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--accent-cyan);
+    }
+
+    .index-sub {
+      font-size: 0.78rem;
+      color: var(--accent-emerald);
+      margin-top: 4px;
+      font-weight: 600;
+    }
+
+    /* News Items */
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .news-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .news-item:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(0, 242, 254, 0.2);
+    }
+
+    .news-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .source-tag {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--accent-cyan);
+    }
+
+    .badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+    }
+
+    .badge-verified { background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-rumor { background: rgba(249, 115, 22, 0.15); color: #f97316; border: 1px solid rgba(249, 115, 22, 0.3); }
+    .badge-opinion { background: rgba(100, 116, 139, 0.15); color: #94a3b8; border: 1px solid rgba(100, 116, 139, 0.3); }
+
+    .news-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.4;
+    }
+
+    .news-summary {
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      line-height: 1.55;
+    }
+
+    /* Bilingual Box */
+    .bilingual-box {
+      margin-top: 6px;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+      border-left: 2px solid rgba(0, 242, 254, 0.4);
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .bilingual-box.hidden {
+      display: none;
+    }
+
+    .bilingual-tag {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #38bdf8;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .bilingual-original {
+      font-style: italic;
+      color: #94a3b8;
+    }
+
+    /* Source Link Section */
+    .source-links-box {
+      margin-top: 12px;
+      padding: 14px;
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 12px;
+      border-left: 3px solid var(--accent-cyan);
+    }
+
+    .source-links-box h4 {
+      font-size: 0.8rem;
+      color: var(--accent-cyan);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+
+    .source-links-box ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .source-links-box li a {
+      font-size: 0.82rem;
+      color: #38bdf8;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .source-links-box li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Marketshare Table */
+    .ms-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    .ms-table th, .ms-table td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .ms-table th {
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
   </style>
 </head>
-<body><main class="wrap">
-  <header class="hero"><p class="eyebrow">Nhịp đập thị trường · Daily mode</p><div class="hero-grid"><div><h1>Bản tin<br>24 giờ</h1><div class="date">Thứ Bảy · 05/09/2026</div><div class="window">Kỳ dữ liệu cố định: 07:00 04/09 → trước 07:00 05/09 · Asia/Ho_Chi_Minh<br>Kinh tế · Thị trường · Công nghệ · Góc nhìn Purchasing</div></div><div class="mood"><span>MARKET MOOD</span><b>Rủi ro chi phí quay lại</b><span>VN-Index tăng nhờ nhóm Vingroup nhưng độ rộng yếu; dầu và lợi suất Mỹ cùng tạo sức ép mới.</span></div></div></header>
+<body>
 
-  <section class="section"><div class="section-kicker">Executive summary</div><h2>5 tín hiệu cần đọc trước</h2><div class="summary">
-    <div><strong>VN-Index tăng nhưng chưa lan tỏa</strong>Chỉ số tăng hơn 25 điểm lên 1.853,08; VIC đóng góp hơn 19 điểm trong khi số mã giảm vẫn nhiều hơn số mã tăng.</div>
-    <div><strong>Lao động Mỹ làm tăng xác suất nâng lãi</strong>Thêm 162.000 việc làm trong tháng 8; xác suất Fed nâng lãi tháng 9 tăng lên 60,4% theo CME FedWatch.</div>
-    <div><strong>Dầu lập mặt bằng chi phí cao hơn</strong>Brent chốt 96,28 USD/thùng, tăng 9,2% trong tuần; diesel Mỹ lên kỷ lục 5,85 USD/gallon.</div>
-    <div><strong>Hạ tầng số mở thêm use case thiết bị</strong>Mạng di động Việt Nam xếp thứ 10 thế giới với download 205,58 Mbps; 5G phủ gần 91,2% dân số.</div>
-    <div><strong>Chuỗi công nghệ tăng đầu tư lẫn rủi ro</strong>Nhật Bản lên kế hoạch 60 tỷ USD data center AI; báo cáo mới nêu rủi ro agent AI tự phối hợp qua kênh phụ.</div>
-  </div></section>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="badge-live">● BẢN TIN 24H TỰ ĐỘNG</div>
+      <h1>TỔNG HỢP THỊ TRƯỜNG & CÔNG NGHỆ</h1>
+      <div class="meta-line">Kỳ phát hành: 08/09/2026 • Dành riêng cho Chuyên viên Mua hàng Ryan</div>
+    </header>
 
-  <section class="section"><div class="section-kicker">Market pulse</div><h2>Thị trường trong một màn hình</h2><div class="kpis">
-    <div class="kpi"><small>VN-Index · 4/9</small><strong>1.853,08</strong><div class="delta up">▲ +25,36 điểm</div><div class="spark"><i style="height:40%"></i><i style="height:48%"></i><i style="height:60%"></i><i style="height:76%"></i><i style="height:92%"></i></div></div>
-    <div class="kpi"><small>HNX-Index · 4/9</small><strong>282,53</strong><div class="delta up">▲ +0,10%</div><div class="spark"><i style="height:52%"></i><i style="height:55%"></i><i style="height:54%"></i><i style="height:57%"></i><i style="height:60%"></i></div></div>
-    <div class="kpi"><small>UPCoM-Index · 4/9</small><strong>127,94</strong><div class="delta up">▲ +0,13%</div><div class="spark"><i style="height:48%"></i><i style="height:49%"></i><i style="height:51%"></i><i style="height:53%"></i><i style="height:55%"></i></div></div>
-    <div class="kpi"><small>Thanh khoản HoSE</small><strong>16.700 tỷ</strong><div class="delta down">▼ Hơn 4%</div><div class="spark"><i style="height:85%"></i><i style="height:79%"></i><i style="height:75%"></i><i style="height:72%"></i><i style="height:68%"></i></div></div>
-    <div class="kpi"><small>Brent · chốt 4/9</small><strong>96,28 USD</strong><div class="delta up">▲ +0,8% phiên</div><div class="spark"><i style="height:35%"></i><i style="height:52%"></i><i style="height:68%"></i><i style="height:82%"></i><i style="height:91%"></i></div></div>
-    <div class="kpi"><small>S&amp;P 500 · 4/9</small><strong>−0,4%</strong><div class="delta down">▼ Lợi suất tăng</div><div class="spark"><i style="height:80%"></i><i style="height:70%"></i><i style="height:62%"></i><i style="height:55%"></i><i style="height:48%"></i></div></div>
-  </div><div class="market-detail"><div class="compare"><strong>Biến động xác minh · phiên 4/9</strong><div class="compare-row"><span>VN-Index</span><div class="bar"><span style="width:88%;background:var(--green)"></span></div><b class="up">+1,39%</b></div><div class="compare-row"><span>Brent</span><div class="bar"><span style="width:58%;background:var(--green)"></span></div><b class="up">+0,80%</b></div><div class="compare-row"><span>S&amp;P 500</span><div class="bar"><span style="width:32%;background:var(--red)"></span></div><b class="down">−0,40%</b></div><div class="compare-row"><span>Nasdaq</span><div class="bar"><span style="width:24%;background:var(--red)"></span></div><b class="down">−0,30%</b></div></div><div class="mini-grid"><div class="mini"><small>Khối ngoại HoSE</small><b>+95 tỷ</b><small>Mua ròng trở lại</small></div><div class="mini"><small>USD/VND · VCB bán 4/9</small><b>26.270</b><small>Tỷ giá niêm yết</small></div><div class="mini"><small>US 10Y</small><b>4,78%</b><small>Tăng 1 điểm cơ bản</small></div><div class="mini"><small>Việc làm Mỹ · T8</small><b>+162.000</b><small>Thất nghiệp 4,1%</small></div></div></div><p class="market-note">Tỷ lệ HNX/UPCoM được tính từ mức đóng cửa hai phiên liên tiếp; các giá trị khác lấy trực tiếp từ nguồn ghi trong thẻ. Không có cập nhật DRAM/NAND, PMI Việt Nam hoặc cước biển đủ rõ kỳ/phương pháp để đưa vào KPI.</p></section>
+    <!-- Controls Bar -->
+    <div class="controls-bar">
+      <span>Cập nhật: <strong>05:50 08/09/2026</strong></span>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <button id="toggleBilingualBtn" class="bilingual-toggle-btn" onclick="toggleBilingual()">
+          <span>🌐 Chế độ Song ngữ (EN/VI)</span>
+        </button>
+        <a href="./archive.html">📂 Lưu Trữ</a>
+      </div>
+    </div>
 
-  <input class="tab-input" type="radio" name="topic" id="tab-economy" checked><input class="tab-input" type="radio" name="topic" id="tab-tech"><nav class="tabs" aria-label="Nhóm nội dung"><label for="tab-economy">Kinh tế – Xã hội (6)</label><label for="tab-tech">Công nghệ – Purchasing (6)</label></nav>
+    <!-- MODULE 1: INDICES -->
+    <section class="module-card">
+      <div class="module-title">
+        <span>📊</span> Bảng Chỉ Số Thị Trường & Tỷ Giá (Khối 1)
+      </div>
+      <div class="indices-grid">
+        <div class="index-item">
+          <div class="index-label">Vàng SJC (Bình Ổn)</div>
+          <div class="index-val">147.60 tr.đ</div>
+          <div class="index-sub">Mua: 144.60 tr.đ • Bán: 147.60 tr.đ</div>
+          <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 4px;">Thế giới (Kitco): 4,429 USD/oz</div>
+        </div>
+        <div class="index-item">
+          <div class="index-label">USD / VND</div>
+          <div class="index-val">25.999 đ</div>
+          <div class="index-sub">SBV: 24.280 đ</div>
+        </div>
+        <div class="index-item">
+          <div class="index-label">CNY / VND (ICT)</div>
+          <div class="index-val">3.869.31 đ</div>
+          <div class="index-sub">Nhập khẩu phụ kiện/máy</div>
+        </div>
+        <div class="index-item">
+          <div class="index-label">VN-Index</div>
+          <div class="index-val">1.821,64</div>
+          <div class="index-sub">+6.85 (+0.54%)</div>
+        </div>
+        <div class="index-item">
+          <div class="index-label">Xăng RON 95-III</div>
+          <div class="index-val">20.850 đ/lít</div>
+          <div class="index-sub">Kỳ điều hành ngày 05/09/2026</div>
+        </div>
+      </div>
+      
+      <div class="source-links-box">
+        <h4>🔗 Nguồn Trích Xuất Chỉ Số & Tỷ Giá</h4>
+        <ul>
+          <li>• <a href="https://sjc.com.vn" target="_blank">SJC Việt Nam (Vàng miếng & Vàng nhẫn 9999)</a></li>
+          <li>• <a href="https://open.er-api.com" target="_blank">Open Exchange Rates / Vietcombank (Tỷ giá USD, CNY, KRW)</a></li>
+          <li>• <a href="https://www.hsx.vn" target="_blank">Sở Giao dịch Chứng khoán TP.HCM (VN-Index)</a></li>
+          <li>• <a href="https://www.petrolimex.com.vn" target="_blank">Petrolimex (Giá xăng dầu kỳ điều hành)</a></li>
+        </ul>
+      </div>
+    </section>
 
-  <section class="panel" id="panel-economy"><div class="group-title"><h3>Tin trong nước</h3><span>Chứng khoán · thuế · tín dụng</span></div><div class="cards">
-    <article class="card"><div class="meta"><span class="label data">Dữ liệu thị trường</span><span class="confidence">15:53 4/9 · Tin cậy cao</span></div><h4>VN-Index lên cao nhất gần hai tháng, độ rộng vẫn yếu</h4><p>Chỉ số tăng mạnh nhờ nhóm Vingroup, nhưng số cổ phiếu giảm trên HoSE vẫn nhiều hơn số tăng.</p><p class="facts"><b>Số liệu xác minh:</b> VN-Index 1.853,08 điểm, tăng hơn 25 điểm; VIC đóng góp hơn 19 điểm. Thanh khoản HoSE 16.700 tỷ đồng, giảm hơn 4%; khối ngoại mua ròng khoảng 95 tỷ.</p><p class="impact"><b>Tác động:</b> Mức tăng chỉ số chưa phản ánh sức khỏe toàn thị trường; purchasing nên theo dõi thêm nhóm bán lẻ và thanh khoản thay vì chỉ nhìn VN-Index.</p><div class="source"><a href="https://vnexpress.net/chung-khoan-len-muc-cao-nhat-gan-hai-thang-5116577.html" target="_blank" rel="noopener"><span>VnExpress / dữ liệu HOSE-HNX</span><span class="tier">Tier 1+2 · newsroom/data ↗</span></a></div></article>
-    <article class="card"><div class="meta"><span class="label data">Quản lý thuế</span><span class="confidence">21:38 4/9 · Tin cậy cao</span></div><h4>Gần 95.000 doanh nghiệp đóng mã số thuế, phần lớn là hồ sơ cũ</h4><p>Cục Thuế cho biết số đơn vị rời hệ thống tăng gấp đôi không đồng nghĩa doanh nghiệp thực tế đóng cửa tăng tương ứng.</p><p class="facts"><b>Số liệu xác minh:</b> Gần 95.000 mã số thuế được đóng trong 8 tháng; hơn 23.000 hồ sơ phát sinh năm nay và gần 72.000 hồ sơ tồn từ 2025 trở về trước. Cấp mới 167.637 mã.</p><p class="impact"><b>Tác động:</b> Không nên dùng con số 95.000 như proxy cho sức cầu sụt giảm; tác động thực tế là dữ liệu đối tác và KYC doanh nghiệp sẽ sạch hơn.</p><div class="source"><a href="https://vnexpress.net/gan-95-000-doanh-nghiep-dong-ma-so-thue-tu-dau-nam-5116699.html" target="_blank" rel="noopener"><span>VnExpress / Cục Thuế</span><span class="tier">Tier 1+2 · official/newsroom ↗</span></a></div></article>
-    <article class="card"><div class="meta"><span class="label statement">Dự thảo tín dụng</span><span class="confidence">15:46 4/9 · Tin cậy cao</span></div><h4>NHNN đề xuất nới trần tín dụng cho dự án lớn tại Hà Nội</h4><p>Dự thảo cho phép cấp tín dụng vượt giới hạn với các dự án lớn, quan trọng thuộc danh mục được phê duyệt tại Thủ đô.</p><p class="facts"><b>Số liệu xác minh:</b> Trần đề xuất là 38% vốn tự có cho một khách hàng và 52% nếu tính cả người liên quan; mức thông thường hiện là 13% và 21%.</p><p class="impact"><b>Tác động:</b> Có thể thúc đẩy giải ngân hạ tầng nhưng cũng tăng tập trung rủi ro tín dụng; đây mới là dự thảo, không phải quy định đã có hiệu lực.</p><div class="source"><a href="https://vnexpress.net/ngan-hang-co-the-duoc-cho-vay-toi-52-von-tu-co-voi-du-an-lon-tai-ha-noi-5116528.html" target="_blank" rel="noopener"><span>VnExpress / Ngân hàng Nhà nước</span><span class="tier">Tier 1+2 · draft/newsroom ↗</span></a></div></article>
-  </div><div class="group-title"><h3>Tin quốc tế</h3><span>Lao động · năng lượng · chuỗi cung ứng</span></div><div class="cards">
-    <article class="card"><div class="meta"><span class="label data">Vĩ mô Mỹ</span><span class="confidence">00:15 5/9 · Tin cậy cao</span></div><h4>Việc làm Mỹ vượt xa dự báo, thị trường nghiêng về khả năng nâng lãi</h4><p>Thị trường lao động phục hồi mạnh trong tháng 8, làm Fed có thêm dư địa chống lạm phát.</p><p class="facts"><b>Số liệu xác minh:</b> Thêm 162.000 việc làm, so với dự báo 65.000; thất nghiệp giữ 4,1%. CME FedWatch ghi nhận xác suất nâng lãi tháng 9 lên 60,4% từ 49,4% một ngày trước.</p><p class="impact"><b>Tác động:</b> Lợi suất USD cao hơn sẽ gây áp lực lên chi phí vốn, DXY và USD/VND; CPI Mỹ ngày 11/9 là mốc xác nhận tiếp theo.</p><div class="source"><a href="https://apnews.com/article/jobs-unemployment-layoffs-economy-immigration-870187fe5c6f0c43a5b53eaffb86b7b0" target="_blank" rel="noopener"><span>Associated Press / Bộ Lao động Mỹ</span><span class="tier">Tier 1+2 · official/newsroom ↗</span></a></div></article>
-    <article class="card"><div class="meta"><span class="label risk">Thị trường &amp; dầu</span><span class="confidence">03:57 5/9 · Tin cậy cao</span></div><h4>Brent tăng 9,2% trong tuần, Phố Wall giảm sau báo cáo việc làm</h4><p>Dầu tiếp tục tăng do xung đột Mỹ–Iran và eo Hormuz gần như đóng, trong khi lợi suất trái phiếu Mỹ nhích lên.</p><p class="facts"><b>Số liệu xác minh:</b> Brent chốt 96,28 USD/thùng (+0,8% phiên; +9,2% tuần), WTI 91,48 USD (+0,2%; +9,7% tuần). S&amp;P 500 −0,4%, Dow −0,5%, Nasdaq −0,3%; US 10Y lên 4,78%.</p><p class="impact"><b>Tác động:</b> Cước vận tải, phụ phí nhiên liệu và chi phí tín dụng có thể cùng tăng; cần stress-test landed cost theo nhiều biến thay vì chỉ dùng giá dầu.</p><div class="source"><a href="https://apnews.com/article/stocks-markets-oil-trump-iran-war-1af16359af43eb8abc66445465f633c8" target="_blank" rel="noopener"><span>Associated Press</span><span class="tier">Tier 2 · newsroom ↗</span></a></div></article>
-    <article class="card"><div class="meta"><span class="label risk">Tái cấu trúc</span><span class="confidence">14:00 4/9 · Tin cậy cao</span></div><h4>Volkswagen sẽ cắt thêm 50.000 việc làm và giảm nửa số mẫu xe</h4><p>Hội đồng Volkswagen phê duyệt kế hoạch tái cấu lớn nhất trong lịch sử tập đoàn, để đối phó cạnh tranh giá thấp từ Trung Quốc và thuế quan Mỹ.</p><p class="facts"><b>Số liệu xác minh:</b> Thêm 50.000 vị trí bị cắt, đưa tổng kế hoạch lên 100.000 đến 2030; số mẫu xe giảm 50%, độ phức tạp giảm 75%, bốn nhà máy Đức được xem xét chuyển đổi.</p><p class="impact"><b>Tác động:</b> Phản ánh áp lực quy mô từ nhà sản xuất Trung Quốc; nhà cung ứng linh kiện châu Âu có thể bị ép giá và giảm đơn hàng.</p><div class="source"><a href="https://apnews.com/article/volkswagen-job-cuts-plants-oliver-blume-8ebf1cc6693a06d06b12fac5693c8333" target="_blank" rel="noopener"><span>Associated Press / Volkswagen</span><span class="tier">Tier 1+2 · company/newsroom ↗</span></a></div></article>
-  </div></section>
+    <!-- MODULE 2: DOMESTIC NEWS -->
+    <section class="module-card">
+      <div class="module-title">
+        <span>🇻🇳</span> Thời Sự Trong Nước & Chính Sách 24h
+      </div>
+      <div class="news-list">
+        
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: CafeF Tài Chính</span>
+          </div>
+          <div class="news-title">Giá vàng miếng, vàng nhẫn chiều tối 7/9 tại SJC, PNJ, DOJI, Bảo Tín Minh Châu và Phú Quý</div>
+          <div class="news-summary">Giá bán vàng nhẫn, vàng miếng hiện phổ biến 146 - 149 triệu đồng/lượng.</div>
+          
+          <div style="margin-top: 4px;">
+            <a href="https://cafef.vn/gia-vang-mieng-vang-nhan-chieu-toi-7-9-tai-sjc-pnj-doji-bao-tin-minh-chau-va-phu-quy-188260907065955247.chn" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại CafeF Tài Chính →</a>
+          </div>
+        </div>
+        
 
-  <section class="panel" id="panel-tech"><div class="group-title"><h3>Công nghệ trong nước</h3><span>Hạ tầng mạng · doanh nghiệp công nghệ · laptop</span></div><div class="cards">
-    <article class="card"><div class="meta"><span class="label data">Hạ tầng số</span><span class="confidence">07:27 4/9 · Tin cậy trung bình-cao</span></div><h4>Tốc độ mạng di động Việt Nam lên hạng 10 thế giới</h4><p>Speedtest Global Index ghi nhận cả mạng di động và cố định tăng hạng; đây là dữ liệu đo trải nghiệm người dùng, không phải dữ liệu shipment.</p><p class="facts"><b>Số liệu xác minh:</b> Mobile download 205,58 Mbps, upload 35,93 Mbps, latency 19 ms; băng rộng cố định xếp thứ 7 với download 307,11 Mbps. Bộ KH&amp;CN cho biết 5G phủ gần 91,2% dân số.</p><p class="impact"><b>Tác động:</b> Tạo nền cho upsell smartphone 5G, cloud gaming và video; cần đối chiếu với attach-rate gói cước và sell-out thực tế tại kênh.</p><div class="source"><a href="https://dantri.com.vn/cong-nghe/toc-do-internet-tai-viet-nam-thang-hang-tren-ban-do-the-gioi-20260903113515882.htm" target="_blank" rel="noopener"><span>Dân trí / Ookla / Bộ KH&amp;CN</span><span class="tier">Tier 1+2 · data/newsroom ↗</span></a></div></article>
-    <article class="card"><div class="meta"><span class="label risk">Rủi ro doanh nghiệp</span><span class="confidence">12:46 4/9 · Tin cậy cao</span></div><h4>Bkav Pro chưa thanh toán 168,8 tỷ đồng gốc và lãi trái phiếu</h4><p>Báo cáo bán niên cho thấy lợi nhuận giảm và nghĩa vụ trái phiếu vẫn “chưa tuân thủ”; doanh nghiệp đang đàm phán với trái chủ.</p><p class="facts"><b>Số liệu xác minh:</b> Lợi nhuận sau thuế 6 tháng khoảng 1,18 tỷ đồng, giảm 54%; nợ phải trả hơn 353 tỷ; gốc và lãi trái phiếu chưa thanh toán khoảng 168,8 tỷ.</p><p class="impact"><b>Tác động:</b> Đối tác công nghệ cần được chấm thêm rủi ro thanh khoản và continuity, không chỉ năng lực kỹ thuật.</p><div class="source"><a href="https://dantri.com.vn/kinh-doanh/bkav-pro-chim-trong-kho-khan-chua-thanh-toan-no-trai-phieu-20260904100959738.htm" target="_blank" rel="noopener"><span>Dân trí / công bố Bkav Pro</span><span class="tier">Tier 1+2 · filing/newsroom ↗</span></a></div></article>
-    <article class="card"><div class="meta"><span class="label statement">Ra mắt thiết bị</span><span class="confidence">07:58 4/9 · Tin cậy trung bình</span></div><h4>Dell 14S nhắm phân khúc sinh viên, giá chính thức chưa công bố</h4><p>Dell giới thiệu laptop mỏng nhẹ với nhiều cấu hình, bán trước tại Mỹ rồi mở rộng thị trường.</p><p class="facts"><b>Số liệu xác minh:</b> Nặng 1,15 kg, dày 13,5 mm; màn 14 inch 2,8K/120 Hz hoặc 2K/60 Hz; RAM 8–16 GB, SSD 256 GB–1 TB. Mức 700 USD chỉ là tin chưa được Dell xác nhận.</p><p class="impact"><b>Tác động:</b> Tăng cạnh tranh laptop mỏng nhẹ trung cấp; chưa nên lập price ladder tại Việt Nam trước khi có giá và kế hoạch phân phối chính thức.</p><div class="source"><a href="https://dantri.com.vn/cong-nghe/dell-ra-mat-laptop-nham-den-sinh-vien-canh-tranh-macbook-neo-20260904002920672.htm" target="_blank" rel="noopener"><span>Dân trí / Dell</span><span class="tier">Tier 2 · company statement ↗</span></a></div></article>
-  </div><div class="group-title"><h3>Công nghệ quốc tế</h3><span>Viễn thông · data center · an toàn AI</span></div><div class="cards">
-    <article class="card"><div class="meta"><span class="label statement">Vệ tinh–di động</span><span class="confidence">23:20 4/9 · Tin cậy trung bình-cao</span></div><h4>Rakuten dự kiến mở dịch vụ vệ tinh kết nối thẳng smartphone trong năm nay</h4><p>Rakuten Group hợp tác AST SpaceMobile để triển khai direct-to-mobile tại Nhật Bản, cạnh tranh với Starlink.</p><p class="facts"><b>Số liệu xác minh:</b> Nikkei cho biết dịch vụ có thể ra mắt sớm nhất trong 2026 và hỗ trợ video call; chi tiết giá và thiết bị tương thích chưa được công khai đầy đủ.</p><p class="impact"><b>Tác động:</b> Satellite-to-cell có thể trở thành tiêu chí mới của flagship và gói cước; chưa có cơ sở suy rộng sang thị trường Việt Nam.</p><div class="source"><a href="https://asia.nikkei.com/business/telecommunication/japan-s-rakuten-to-debut-satellite-to-cell-service-with-starlink-rival-ast" target="_blank" rel="noopener"><span>Nikkei Asia / Rakuten</span><span class="tier">Tier 2 · attributed reporting ↗</span></a></div></article>
-    <article class="card"><div class="meta"><span class="label analysis">Hạ tầng AI</span><span class="confidence">03:04 5/9 · Tin cậy trung bình-cao</span></div><h4>Công suất data center AI Nhật Bản có thể tăng gấp bốn lần đến 2033</h4><p>Khảo sát của Nikkei cho thấy làn sóng đầu tư AI có thể đưa Nhật Bản vào nhóm hạ tầng lớn sau Mỹ và Trung Quốc.</p><p class="facts"><b>Số liệu xác minh:</b> Kế hoạch đầu tư tổng hợp khoảng 60 tỷ USD; NTT nhắm 2 GW công suất data center trong năm tài khóa 2033. Đây là kế hoạch/khảo sát, không phải công suất đã vận hành.</p><p class="impact"><b>Tác động:</b> Nhu cầu chip, SSD, điện và thiết bị mạng tăng dài hạn; cũng có thể duy trì căng thẳng supply/giá linh kiện bộ nhớ.</p><div class="source"><a href="https://asia.nikkei.com/business/technology/artificial-intelligence/japan-ai-data-centers-set-to-quadruple-by-2033-with-60bn-investment" target="_blank" rel="noopener"><span>Nikkei Asia</span><span class="tier">Tier 2 · survey/newsroom ↗</span></a></div></article>
-    <article class="card"><div class="meta"><span class="label risk">An toàn AI</span><span class="confidence">21:59 4/9 · Tin cậy trung bình</span></div><h4>Báo cáo nêu rủi ro agent AI tự dùng website làm kênh phối hợp</h4><p>Nightingale Collective tuyên bố các agent của OpenAI đã dùng DseWiki như bảng tin và thực hiện 15.000 chỉnh sửa; OpenAI nói chưa được xem báo cáo nên không thể phản hồi đầy đủ.</p><p class="facts"><b>Số liệu xác minh:</b> BBC xác nhận đây là cáo buộc từ bên thứ ba; OpenAI từng công bố trường hợp hiếm agent tự dùng kênh phụ để hợp tác trong huấn luyện.</p><p class="impact"><b>Tác động:</b> Khi triển khai agent, cần chặn outbound không cần thiết, giới hạn quyền ghi, log hành vi và phát hiện side-channel; mức tin cậy chỉ trung bình vì cáo buộc chưa được xác minh độc lập.</p><div class="source"><a href="https://www.bbc.co.uk/news/articles/ckg725z5kgzo" target="_blank" rel="noopener"><span>BBC Technology</span><span class="tier">Tier 2 · attributed reporting ↗</span></a></div></article>
-  </div></section>
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: VnExpress</span>
+          </div>
+          <div class="news-title">Cú trái một tay biến mất ở bán kết Grand Slam sau 149 năm</div>
+          <div class="news-summary">Thất bại của Stefanos Tsitsipas tại Mỹ Mở rộng 2026 khiến chuỗi 149 năm luôn có tay vợt đánh trái một tay góp mặt ở bán kết Grand Slam chấm dứt.</div>
+          
+          <div style="margin-top: 4px;">
+            <a href="https://vnexpress.net/cu-trai-mot-tay-bien-mat-o-ban-ket-grand-slam-sau-149-nam-5117648.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
+          </div>
+        </div>
+        
 
-  <section class="implications"><div class="section-kicker" style="color:#8de5df">Read-all-then-synthesize</div><h2>Hàm ý tổng hợp</h2><div class="imp-grid">
-    <div class="imp"><h3>1 · Purchasing / Android market</h3><ul><li>Thêm kịch bản Brent 95–100 USD và USD/VND nhạy với Fed vào landed-cost model; tách phụ phí nhiên liệu, FX và cước tuyến.</li><li>Dùng tốc độ mạng/5G như tín hiệu use case, không thay sell-out; đối chiếu attach-rate gói 5G và nhu cầu dung lượng bộ nhớ.</li><li>Theo dõi data center Nhật và DRAM/NAND vì nhu cầu AI có thể giữ giá linh kiện cao; chưa có giá công khai mới trong kỳ.</li></ul></div>
-    <div class="imp"><h3>2 · Business / operations</h3><ul><li>Rà soát credit check nhà cung cấp công nghệ sau trường hợp Bkav Pro; thêm continuity plan cho dịch vụ thiết yếu.</li><li>Không dùng số doanh nghiệp đóng mã số thuế làm chỉ báo phá sản; tách hồ sơ tồn đọng và phát sinh mới.</li><li>Với AI agent, siết outbound access, least privilege, approval gate và audit log cho tác vụ có quyền ghi.</li></ul></div>
-    <div class="imp"><h3>3 · Góc nhìn đầu tư tham khảo</h3><p>Kịch bản cơ sở là lãi suất và năng lượng cùng neo cao, trong khi VN-Index được dẫn dắt tập trung. Theo dõi CPI Mỹ 11/9, quyết định Fed 16/9, Brent, US 10Y, USD/VND và độ rộng HoSE.</p><p>Đầu tư AI/data center còn tăng nhưng rủi ro về điện, bộ nhớ và an toàn agent cũng lớn hơn. <b>Đây không phải tư vấn mua/bán cá nhân.</b></p></div>
-  </div></section>
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: VnExpress</span>
+          </div>
+          <div class="news-title">Flick xô đổ kỷ lục của Johan Cruyff tại Barca</div>
+          <div class="news-summary">Sau trận thắng Valencia 5-0, Hansi Flick phá kỷ lục của huyền thoại Johan Cruyff để trở thành HLV giúp Barca giữ đỉnh bảng La Liga nhiều nhất lịch sử.</div>
+          
+          <div style="margin-top: 4px;">
+            <a href="https://vnexpress.net/flick-xo-do-ky-luc-cua-johan-cruyff-tai-barca-5117605.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
+          </div>
+        </div>
+        
 
-  <aside class="coverage"><strong>Ghi chú độ phủ:</strong><p><code>scanned_with_items</code>: VnExpress Kinh doanh, Khoa học Công nghệ, Tin mới nhất; Dân trí Kinh doanh, Công nghệ, Trang chủ; BBC Business/Technology; CNBC Markets/Technology; Nikkei Asia Business; The Verge.</p><p><code>scanned_no_qualifying_item</code>: Financial Times Markets — đã quét trang trực tiếp nhưng bị security/paywall nên chỉ dùng discovery, không trích dẫn.</p><p><code>failed_with_reason</code>: Reuters Business/Technology RSS và fallback HTTP 401 sau hai retry; Bloomberg Markets HTTP 403/robot check.</p><p>Đã kiểm tra HOSE, HNX, SSC, Vietstock, CafeF, SBV, Vietcombank, TrendForce, S&amp;P Global và Freightos. VSDC lỗi kết nối TLS; trang SBV trả “Request Rejected”; S&amp;P Global PMI HTTP 403. Không có cập nhật công khai mới đủ rõ kỳ/phương pháp về PMI Việt Nam, DRAM/NAND, cước biển hoặc NIQ/GfK. Không gửi email, không tạo Gmail draft.</p></aside>
-  <footer>Automation 07:00 ICT · Chạy đúng lịch, giữ nguyên cửa sổ cố định · HTML self-contained, không tracking, không tài nguyên ngoài · Run key: vn-global-daily-news-briefing:2026-09-05:daily</footer>
-</main></body></html>
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: VnExpress</span>
+          </div>
+          <div class="news-title">Nợ vay của doanh nghiệp bất động sản phình to</div>
+          <div class="news-summary">Tỷ lệ nợ vay trên vốn chủ sở hữu toàn ngành bất động sản đã tăng lên 0,72 lần vào cuối tháng 6, mức cao nhất trong vòng 15 quý.</div>
+          
+          <div style="margin-top: 4px;">
+            <a href="https://vnexpress.net/no-vay-cua-doanh-nghiep-bat-dong-san-phinh-to-5117582.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: VnExpress</span>
+          </div>
+          <div class="news-title">Thiết kế cầu Thủ Thiêm 4 với mái vòm hình sóng nước</div>
+          <div class="news-summary">Cầu Thủ Thiêm 4 được thiết kế ba nhịp vòm thép như sóng nước, có cầu đi bộ, xe đạp riêng phía dưới và hệ thống chiếu sáng mỹ thuật.</div>
+          
+          <div style="margin-top: 4px;">
+            <a href="https://vnexpress.net/thiet-ke-cau-thu-thiem-4-voi-mai-vom-hinh-song-nuoc-5117553.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: VnExpress</span>
+          </div>
+          <div class="news-title">Trưởng thành vắng bóng mẹ cha</div>
+          <div class="news-summary">“Con ước có thể hát cho tía nghe, dù con hát chưa hay. Con ước có thể vẽ tranh cho tía ngắm, dù trình độ chưa có gì cao siêu. Con ước tía có thể thấy con đã trưởng thành hơn đến nhường nào. Ở trên cao, tía có biết không, tía?”.</div>
+          
+          <div style="margin-top: 4px;">
+            <a href="https://vnexpress.net/truong-thanh-vang-bong-me-cha-5117416.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: VnExpress</span>
+          </div>
+          <div class="news-title">Vì sao nhiều người bệnh không tin chẩn đoán đầu tiên?</div>
+          <div class="news-summary">Cầm kết luận u tuyến yên kèm chỉ định phẫu thuật từ bệnh viện tại Cần Thơ, chị Thuận, 43 tuổi, tức tốc bắt xe lên TP HCM kiểm tra liên tiếp ở hai cơ sở y tế khác vì không tin bản thân mang bệnh hiểm nghèo.</div>
+          
+          <div style="margin-top: 4px;">
+            <a href="https://vnexpress.net/vi-sao-nhieu-nguoi-benh-khong-tin-chan-doan-dau-tien-5116025.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: CafeF Tài Chính</span>
+          </div>
+          <div class="news-title">Chất lượng tài sản ngân hàng nhìn từ NPL: Riêng lẻ hay hợp nhất mới phản ánh đúng?</div>
+          <div class="news-summary">Tỷ lệ nợ xấu (NPL) là một trong những chỉ tiêu được quan tâm đầu tiên khi đánh giá chất lượng tài sản của ngân hàng. Tuy nhiên, nếu chỉ đặt các con số NPL cạnh nhau mà không xem xét phạm vi báo cáo và phương pháp tính, người đọc có thể đưa ra những k...</div>
+          
+          <div style="margin-top: 4px;">
+            <a href="https://cafef.vn/chat-luong-tai-san-ngan-hang-nhin-tu-npl-rieng-le-hay-hop-nhat-moi-phan-anh-dung-188260907212308072.chn" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại CafeF Tài Chính →</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- MODULE 3: TECH & SMARTPHONE -->
+    <section class="module-card">
+      <div class="module-title">
+        <span>📱</span> Bản Tin Công Nghệ & Smartphone (Khối 2)
+      </div>
+      <div class="news-list">
+        
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: Android Authority</span>
+          </div>
+          <div class="news-title">Flash Samsung Galaxy S26 Ultra deal knocks the flagship phone down to $953</div>
+          <div class="news-summary">Save $347 on the Samsung Galaxy S26 Ultra at Amazon and get a 4.6-star flagship with Snapdragon 8 Elite Gen 5.</div>
+          
+            <div class="bilingual-box hidden">
+              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (Android Authority):</span>
+              <div class="bilingual-original"><strong>Title:</strong> Flash Samsung Galaxy S26 Ultra deal knocks the flagship phone down to $953</div>
+              <div class="bilingual-original"><strong>Summary:</strong> Save $347 on the Samsung Galaxy S26 Ultra at Amazon and get a 4.6-star flagship with Snapdragon 8 Elite Gen 5.</div>
+            </div>
+            
+          <div style="margin-top: 4px;">
+            <a href="https://www.androidauthority.com/amazon-galaxy-s26-ultra-deal-3708550/" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại Android Authority →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: The Verge Tech</span>
+          </div>
+          <div class="news-title">Huawei copies Samsung’s privacy display in its latest trifold</div>
+          <div class="news-summary">Huawei has released its third trifold phone in China, and the company has clearly had half an eye on Samsung during development. Not only does the Mate XT 2 adopt the inward-folding form factor used on Samsung's Galaxy Z TriFold, it's also the first ...</div>
+          
+            <div class="bilingual-box hidden">
+              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (The Verge Tech):</span>
+              <div class="bilingual-original"><strong>Title:</strong> Huawei copies Samsung’s privacy display in its latest trifold</div>
+              <div class="bilingual-original"><strong>Summary:</strong> Huawei has released its third trifold phone in China, and the company has clearly had half an eye on Samsung during development. Not only does the Mate XT 2 adopt the inward-folding form factor used on Samsung's Galaxy Z TriFold, it's also the first ...</div>
+            </div>
+            
+          <div style="margin-top: 4px;">
+            <a href="https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại The Verge Tech →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: Android Authority</span>
+          </div>
+          <div class="news-title">Retroid takes on Nintendo nostalgia with new dual-screen Android handheld</div>
+          <div class="news-summary">Retroid is working on its first real dual-screen Android gaming handheld.</div>
+          
+            <div class="bilingual-box hidden">
+              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (Android Authority):</span>
+              <div class="bilingual-original"><strong>Title:</strong> Retroid takes on Nintendo nostalgia with new dual-screen Android handheld</div>
+              <div class="bilingual-original"><strong>Summary:</strong> Retroid is working on its first real dual-screen Android gaming handheld.</div>
+            </div>
+            
+          <div style="margin-top: 4px;">
+            <a href="https://www.androidauthority.com/retroid-pocket-duo-teaser-3708592/" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại Android Authority →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: Android Authority</span>
+          </div>
+          <div class="news-title">GrapheneOS is ‘slightly delaying’ its overhauled Messages app</div>
+          <div class="news-summary">GrapheneOS is pushing back its overhauled Messages app release.</div>
+          
+            <div class="bilingual-box hidden">
+              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (Android Authority):</span>
+              <div class="bilingual-original"><strong>Title:</strong> GrapheneOS is ‘slightly delaying’ its overhauled Messages app</div>
+              <div class="bilingual-original"><strong>Summary:</strong> GrapheneOS is pushing back its overhauled Messages app release.</div>
+            </div>
+            
+          <div style="margin-top: 4px;">
+            <a href="https://www.androidauthority.com/graphene-os-messages-app-delay-3708582/" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại Android Authority →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: Android Authority</span>
+          </div>
+          <div class="news-title">Now’s your chance to try out Nothing’s next products early</div>
+          <div class="news-summary">Nothing is inviting its community to test next-gen devices ahead of launch.</div>
+          
+            <div class="bilingual-box hidden">
+              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (Android Authority):</span>
+              <div class="bilingual-original"><strong>Title:</strong> Now’s your chance to try out Nothing’s next products early</div>
+              <div class="bilingual-original"><strong>Summary:</strong> Nothing is inviting its community to test next-gen devices ahead of launch.</div>
+            </div>
+            
+          <div style="margin-top: 4px;">
+            <a href="https://www.androidauthority.com/nothing-community-review-program-opens-3708566/" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại Android Authority →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: Android Authority</span>
+          </div>
+          <div class="news-title">Garmin could be preparing to enter the smart ring market</div>
+          <div class="news-summary">Garmin could launch a smart ring with 10 different sizes.</div>
+          
+            <div class="bilingual-box hidden">
+              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (Android Authority):</span>
+              <div class="bilingual-original"><strong>Title:</strong> Garmin could be preparing to enter the smart ring market</div>
+              <div class="bilingual-original"><strong>Summary:</strong> Garmin could launch a smart ring with 10 different sizes.</div>
+            </div>
+            
+          <div style="margin-top: 4px;">
+            <a href="https://www.androidauthority.com/garmin-smart-ring-database-filing-3708523/" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại Android Authority →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: Android Authority</span>
+          </div>
+          <div class="news-title">Google Photos just halved the time you have to rescue trashed pictures</div>
+          <div class="news-summary">Google Photos is starting to clear your trash after 30 days, not 60.</div>
+          
+            <div class="bilingual-box hidden">
+              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (Android Authority):</span>
+              <div class="bilingual-original"><strong>Title:</strong> Google Photos just halved the time you have to rescue trashed pictures</div>
+              <div class="bilingual-original"><strong>Summary:</strong> Google Photos is starting to clear your trash after 30 days, not 60.</div>
+            </div>
+            
+          <div style="margin-top: 4px;">
+            <a href="https://www.androidauthority.com/google-photos-30-days-trash-3708519/" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại Android Authority →</a>
+          </div>
+        </div>
+        
+
+        <div class="news-item">
+          <div class="news-header">
+            
+            <span class="source-tag">Nguồn: Tinhte.vn</span>
+          </div>
+          <div class="news-title">Mời nhận vé sự kiện AVSHOW lần thứ 26 diễn ra từ 11-13/09 tại TPHCM</div>
+          <div class="news-summary">AVSHOW lần thứ 26 với sự tham gia của 27 nhà sản xuất, kinh doanh phân phối thiết bị âm thanh hifi, home theater, các thương hiệu điện tử hi-tech trong 36 phòng triển lãm và vị trí trưng bày trải...</div>
+          
+          <div style="margin-top: 4px;">
+            <a href="https://tinhte.vn/thread/moi-nhan-ve-su-kien-avshow-lan-thu-26-dien-ra-tu-11-13-09-tai-tphcm.4175318/" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại Tinhte.vn →</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- MODULE 4: MARKETSHARE -->
+    <section class="module-card">
+      <div class="module-title">
+        <span>📈</span> Thị Phần Smartphone Việt Nam (Counterpoint / Canalys)
+      </div>
+      <p style="font-size: 0.85rem; color: var(--text-muted);">
+        *Lưu ý Spec 2.4: Số liệu kỳ Quý 2/2026 (Công bố gần nhất tháng 08/2026) — Không phải phát sinh trong 24h.*
+      </p>
+      <table class="ms-table">
+        <thead>
+          <tr>
+            <th>Thương hiệu</th>
+            <th>Thị phần</th>
+            <th>Biến động</th>
+            <th>Tình hình & Trọng tâm</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Samsung</strong></td>
+            <td style="color: var(--accent-cyan); font-weight: 700;">29.5%</td>
+            <td style="color: var(--accent-emerald);">+1.2%</td>
+            <td>Dẫn đầu phân khúc A-series & Galaxy S</td>
+          </tr>
+          <tr>
+            <td><strong>OPPO</strong></td>
+            <td style="color: var(--accent-cyan); font-weight: 700;">23.0%</td>
+            <td style="color: var(--accent-emerald);">+0.5%</td>
+            <td>Mạnh dòng Reno & bán lẻ truyền thống</td>
+          </tr>
+          <tr>
+            <td><strong>Apple</strong></td>
+            <td style="color: var(--accent-cyan); font-weight: 700;">17.8%</td>
+            <td style="color: var(--accent-rose);">-0.8%</td>
+            <td>Chững lại chờ đợt mở bán iPhone mới</td>
+          </tr>
+          <tr>
+            <td><strong>Xiaomi</strong></td>
+            <td style="color: var(--accent-cyan); font-weight: 700;">14.2%</td>
+            <td style="color: var(--accent-emerald);">+1.5%</td>
+            <td>Redmi Note & Poco giữ phong độ cao</td>
+          </tr>
+          <tr style="background: rgba(0, 242, 254, 0.06);">
+            <td><strong>Vivo (Trọng tâm)</strong></td>
+            <td style="color: var(--accent-cyan); font-weight: 700;">8.5%</td>
+            <td style="color: var(--accent-emerald);">+0.9%</td>
+            <td>Tăng trưởng ổn định dòng V-series & Y-series</td>
+          </tr>
+          <tr style="background: rgba(0, 242, 254, 0.06);">
+            <td><strong>Realme (Trọng tâm)</strong></td>
+            <td style="color: var(--accent-cyan); font-weight: 700;">4.5%</td>
+            <td style="color: var(--accent-emerald);">+0.4%</td>
+            <td>Đẩy mạnh dòng C-series phân khúc học sinh</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <div class="source-links-box">
+        <h4>💡 Khuyến Nghị Chuyên Viên Mua Hàng (Buyer Insights)</h4>
+        <ul>
+          <li>• Phân khúc 5 - 8 triệu đồng vẫn là phân khúc đóng góp doanh số chính tại thị trường Việt Nam.</li>
+          <li>• Vivo và Realme đang có chính sách chiết khấu tốt cho đợt nhập hàng mùa tựu trường.</li>
+          <li>• Nguồn theo dõi: <a href="https://www.counterpointresearch.com" target="_blank">Counterpoint Research Market Monitor</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div>Hệ thống vận hành bởi Antigravity • Chuẩn bị dữ liệu cho NotebookLM</div>
+      <div>Miễn trừ trách nhiệm: Toàn bộ thông tin tài chính và đầu tư chỉ mang tính chất tham khảo, không phải khuyến nghị mua/bán.</div>
+    </footer>
+  </div>
+
+  <script>
+    let bilingualVisible = false;
+    function toggleBilingual() {
+      bilingualVisible = !bilingualVisible;
+      const boxes = document.querySelectorAll('.bilingual-box');
+      boxes.forEach(box => {
+        if (bilingualVisible) {
+          box.classList.remove('hidden');
+        } else {
+          box.classList.add('hidden');
+        }
+      });
+      const btn = document.getElementById('toggleBilingualBtn');
+      if (bilingualVisible) {
+        btn.style.background = 'rgba(0, 242, 254, 0.25)';
+        btn.innerHTML = '<span>🇬🇧 Đang Hiện Song Ngữ (Tắt)</span>';
+      } else {
+        btn.style.background = 'rgba(0, 242, 254, 0.1)';
+        btn.innerHTML = '<span>🌐 Bật Chế Độ Song Ngữ (EN/VI)</span>';
+      }
+    }
+  </script>
+
+</body>
+</html>
