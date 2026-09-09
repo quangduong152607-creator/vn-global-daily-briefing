@@ -1,5 +1,5 @@
 # BẢN TIN 24H — Thứ 4, 09/09/2026
-Kỳ dữ liệu: từ 08/09/2026 11:39 đến 09/09/2026 11:39 (giờ Việt Nam)
+Kỳ dữ liệu: từ 08/09/2026 11:49 đến 09/09/2026 11:49 (giờ Việt Nam)
 Số nguồn đã quét: 8 | Số nguồn lỗi: 0
 Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
@@ -16,19 +16,19 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 ### Giá Vàng
 - **SJC Miền Bắc/TP.HCM**: Mua vào 144.60 tr.đ/lượng | Bán ra 147.60 tr.đ/lượng | Thay đổi: -1.00 tr.đ (Giảm sau phiên trước)
 - **Vàng Thế Giới (Kitco)**: 4,429 USD/oz | Chênh lệch trong nước: ~3.0 tr.đ/lượng
-- *Nguồn: SJC / Kitco | Cập nhật: 11:39 09/09/2026*
+- *Nguồn: SJC / Kitco | Cập nhật: 11:49 09/09/2026*
 
 ### Tỷ Giá Ngoại Tệ
 - **USD/VND**: Mua 25.803 đ | Bán 26.062 đ | Tỷ giá trung tâm NHNN: 24.280 đ
 - **CNY/VND (Nhập khẩu ICT)**: Mua 3.854.31 đ | Bán 3.854.31 đ
 - **KRW/VND (Chuỗi cung ứng)**: Mua 19.34 đ | Bán 19.34 đ
 - **Chỉ số DXY**: 104.25
-- *Nguồn: Vietcombank / SBV | Cập nhật: 11:39 09/09/2026*
+- *Nguồn: Vietcombank / SBV | Cập nhật: 11:49 09/09/2026*
 
 ### Thị Trường Chứng Khoán
-- **VN-Index**: 1.835,28 điểm | Biến động: +6.85 (+0.54%) | Khối lượng: 680.5M | Nước ngoài: +120.5 tỷ VNĐ (Mua ròng)
+- **VN-Index**: 1.835,59 điểm | Biến động: +6.85 (+0.54%) | Khối lượng: 680.5M | Nước ngoài: +120.5 tỷ VNĐ (Mua ròng)
 - **HNX-Index**: 242.15 điểm | Biến động: +1.20 (+0.50%)
-- *Nguồn: HOSE / CafeF | Cập nhật: 11:39 09/09/2026*
+- *Nguồn: HOSE / CafeF | Cập nhật: 11:49 09/09/2026*
 
 ### Giá Xăng Dầu
 - **RON 95-III**: 20.850 đ/lít đ/lít | Kỳ điều hành: Kỳ điều hành ngày 05/09/2026
@@ -38,7 +38,7 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
 ### 🏛️ Tổng Hợp Diễn Biến Thị Trường Cổ Phiếu & Vàng 24h
 #### 1. Thị trường Cổ phiếu (VN-Index): Tăng điểm tích cực
-- **Tóm tắt diễn biến**: Chỉ số VN-Index ghi nhận mức giao dịch quanh ngưỡng 1.835,28 điểm (+6.85 điểm, tương ứng +0.54%), thanh khoản toàn thị trường duy trì ở mức khá với khối lượng khớp lệnh đạt xấp xỉ 680.5M cổ phiếu. Đáng chú ý, dòng tiền khối ngoại duy trì vị thế +120.5 tỷ VNĐ (Mua ròng), tạo bệ đỡ tâm lý vững chắc cho thị trường chung.
+- **Tóm tắt diễn biến**: Chỉ số VN-Index ghi nhận mức giao dịch quanh ngưỡng 1.835,59 điểm (+6.85 điểm, tương ứng +0.54%), thanh khoản toàn thị trường duy trì ở mức khá với khối lượng khớp lệnh đạt xấp xỉ 680.5M cổ phiếu. Đáng chú ý, dòng tiền khối ngoại duy trì vị thế +120.5 tỷ VNĐ (Mua ròng), tạo bệ đỡ tâm lý vững chắc cho thị trường chung.
 - **Phân tích dòng tiền & kỹ thuật**:
 • Dòng tiền dẫn dắt: Nhóm Ngân hàng, Bán lẻ ICT và Cổ phiếu Công nghệ ghi nhận lực cầu bắt đáy chủ động; các mã đầu ngành duy trì đà phân hóa tích cực.
 • Xu hướng & Kỹ thuật: VN-Index tiếp tục vận động trên đường trung bình MA20, vùng hỗ trợ ngắn hạn được xác lập quanh mốc tâm lý quan trọng, trong khi áp lực chốt lời ngắn hạn xuất hiện tại các vùng kháng cự đỉnh cũ.
@@ -103,9 +103,9 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
 
 ### ⚔️ C. Chiến Dịch Quảng Cáo & Khuyến Mãi Đối Thủ (CellphoneS vs FPT Shop — 30 Ngày)
-### 1. [CellphoneS] 2 mẫu iPhone giảm giá sâu, có mẫu rẻ hơn gần 9 triệu đồng - Kenh14.vn
+### 1. [CellphoneS] 2 mẫu iPhone giảm giá sâu, có mẫu rẻ hơn gần 9 triệu đồng - kenh14.vn
 - **Điểm nhấn**: Ưu đãi hấp dẫn
-- **Nội dung ưu đãi**: 2 mẫu iPhone giảm giá sâu, có mẫu rẻ hơn gần 9 triệu đồng&nbsp;&nbsp;Kenh14.vn
+- **Nội dung ưu đãi**: 2 mẫu iPhone giảm giá sâu, có mẫu rẻ hơn gần 9 triệu đồng&nbsp;&nbsp;kenh14.vn
 - **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Mon, 07 Sep 2026 19:00:00 GMT
 - **Nguồn**: [CellphoneS](https://news.google.com/rss/articles/CBMingFBVV95cUxNRnEzWlpFc2h6dHZFTHo2LTdyX2E3RzBmbFVvVUtvQ0hSYklqV2ZoQTlKM2lKX29vVHpBTGxUdkZTTmhkUWp1ai1QdDMxQlBCeTNzQnM3cHJ2bVhpN0pfanJzUUpRRjN0UHc0Y2l4aUtSUlAtVVcxS0l2ZERZc2dxQV9KQUNHTWttMWRyVVBIcTlHckVEdFdKNXpPZHVGQQ?oc=5)
 
@@ -166,30 +166,30 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
 
 ### 📱 B. Công Nghệ & Thiết Bị Di Động Quốc Tế (GSMArena, The Verge)
-### 1. Sony không loại bỏ đĩa khá nhanh như chúng ta nghĩ
-- **Diễn biến**: Sony không lùi bước trước quyết định loại bỏ đĩa trò chơi điện tử vào tháng 1 năm 2028. Nhưng Sony cũng không ngừng sản xuất nhanh như chúng tôi nghĩ. Hai tháng sau khi có báo cáo rằng nhà máy sản xuất đĩa cuối cùng của Sony đã được tái sử dụng, bộ phận sản xuất đĩa của công ty...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent)
+### 1. Báo cáo mới cho biết Apple muốn iPhone Ultra có giá 1.999 $
+- **Diễn biến**: Apple sẽ tổ chức sự kiện ra mắt iPhone lớn hàng năm vào ngày 9 tháng 9 và dự kiến sẽ ra mắt iPhone Ultra vào ngày đó.
+- **Ý nghĩa**: Đây sẽ là điện thoại thông minh có thể gập lại đầu tiên của nó, và nó đã được một thời gian rất dài sắp tới Theo một báo cáo mới từ Mark Gurman của Bloomberg,.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/apple_wanted_the_iphone_ultra_to_cost_1999_new_report_says-news-74523.php)
 
-### 2. Drama swirls around OpenAI’s legendary mathematical milestone
-- **Diễn biến**: OpenAI cho biết họ đã tìm ra giải pháp cho một vấn đề toán học lớn vẫn chưa được giải quyết trong khoảng 90 năm, theo báo cáo trước đó của The New York Times và Wired. Trong một bài đăng trên blog vào thứ ba, OpenAI thông báo rằng họ đã phát hiện ra một giải pháp cho vấn đề Navier-Stokes - liên quan đến...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution)
+### 2. Oppo A7 Pro hiện đã chính thức ra mắt với pin 8.000 mAh
+- **Diễn biến**: A7 Pro của Oppo cuối cùng đã gia nhập A7 Pro Max, được ra mắt vào tháng 8.
+- **Ý nghĩa**: A7 Pro sẽ có mặt tại Trung Quốc vào ngày 11 tháng 9 và trước đó công ty đã bắt đầu nhận đơn đặt hàng trước cho thiết bị ngay hôm nay, cũng tiết lộ thông số kỹ thuật và giá cả của nó trong quá trình này.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/oppo_a7_pro_is_now_official_with_an_8000_mah_battery-news-74520.php)
 
-### 3. Rivian spinout Cũng xin lỗi vì sự chậm trễ trong việc vận chuyển xe đạp điện tương lai
-- **Diễn biến**: Xe đạp điện tương lai của Rivian bị trì hoãn và khách hàng không hài lòng. Năm ngoái, Rivian cũng đã tiết lộ một chiếc xe đạp điện mới, được điều khiển bằng phần mềm có tên TM-B, ngay lập tức khiến thế giới xe đạp điện bùng cháy. Với pin sạc USB-C, giá đỡ ghế có thể tháo rời,...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology)
+### 3. SoC Dimensity 9600 Pro của MediaTek hiện đã có ngày ra mắt chính thức
+- **Diễn biến**: Hôm nay trên X, MediaTek đã tiết lộ khi nào họ có kế hoạch công bố SoC kích thước hàng đầu tiếp theo của mình: vào ngày 15 tháng 9 lúc 2:30 chiều tại Trung Quốc.
+- **Ý nghĩa**: Đó là 2:30 sáng ở New York, 7:30 sáng ở London, 8:30 sáng ở Trung Âu, 9:30 sáng ở Đông Âu và 12 giờ trưa ở Ấn Độ Theo bài đăng trên X,.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/mediateks_dimensity_9600_pro_soc_now_has_an_official_launch_date-news-74521.php)
 
-### 4. Tai nghe chơi game được trang bị ANC của Razer cho PS5 và Xbox giảm gần 100 $
-- **Diễn biến**: Rất hiếm khi tìm thấy các tính năng cao cấp như khử tiếng ồn chủ động trong tai nghe chơi game dưới 200 $, vì vậy chúng tôi rất vui mừng khi Razer BlackShark V3 Pro được bán tại Woot với giá $ 164,99. Có những mô hình cụ thể được bán trên thị trường cho Xbox và PlayStation, nhưng phiên bản Xbox là lựa chọn tốt nhất b...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale)
+### 4. Honor will finally unveil MagicOS 11 next week
+- **Diễn biến**: Chúng tôi nghĩ Honor sẽ hoàn toàn ra mắt MagicOS 11 dựa trên Android 17 vào tháng 8, nhưng điều đó đã không xảy ra.
+- **Ý nghĩa**: Bây giờ, công ty đã thông báo rằng cuối cùng họ sẽ làm như vậy vào tuần tới, vào ngày 15 tháng 9, trong Hội nghị Nhà phát triển Toàn cầu Trên thực tế, MagicOS 11 sẽ là ngôi sao của.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/honor_will_finally_unveil_magicos_11_next_week-news-74522.php)
 
-### 5. ChatGPT Sketch turns your bad drawings into detailed AI images
-- **Diễn biến**: OpenAI đã công bố ChatGPT Images 2.5 vào thứ ba và đang thêm một cách mới để nói với ChatGPT những gì bạn muốn nó tạo ra một hình ảnh: bằng cách vẽ một hình tượng trưng. Với một tính năng mới được gọi là Phác thảo, bạn chỉ có thể vẽ một cái gì đó ngay bên trong ChatGPT và sau đó nói với ChatGPT cách bạn muốn nó tạo ra một...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch)
+### 5. Chúng tôi thực hành với màn hình NxtPaper dựa trên OLED của TCL P80 Pro, TCL P80 cũng được xử lý
+- **Diễn biến**: TCL đã thực hiện một bước nhảy lớn với dòng điện thoại P80 – đây là những chiếc điện thoại đầu tiên có màn hình NxtPaper dựa trên tấm nền OLED thay vì LCD.
+- **Ý nghĩa**: Những lợi ích chính là thông thường – độ sáng cao hơn, độ tương phản cao hơn, màu sắc đục lỗ hơn – nhưng công ty đảm bảo rằng những lợi thế này không.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/we_go_handson_with_tcl_p80_pros_oledbased_nxtpaper_display_tcl_p80_also_handled-news-74515.php)
 
 
 ### ⚡ C. Tin Vắn Nhanh Quốc Tế
@@ -203,7 +203,7 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
 ## PHẦN 4 — TIN SOCIAL, SHOWBIZ GIẢI TRÍ & TOP TỪ KHÓA TRENDING
 ### Top Từ Khóa Thịnh Hành Google Trends (Việt Nam)
-- **#01**: **đâu xuân tươi sáng** (200+) [🔥 Thịnh hành]
+- **#01**: **đâu xuân tươi sáng** (500+) [🔥 Thịnh hành]
 - **#02**: **độ cồn** (200+) [🔥 Thịnh hành]
 - **#03**: **thành phố hồ chí minh** (500+) [🔥 Thịnh hành]
 - **#04**: **carlos alcaraz** (1000+) [🔥 Thịnh hành]
