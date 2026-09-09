@@ -506,9 +506,255 @@
       font-weight: 600;
     }
 
-    .trend-traffic-val {
-      color: var(--delta-up);
+    .trend-editorial-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .trend-rank-badge {
+      font-size: 0.68rem;
       font-weight: 800;
+      color: #78716c;
+      background: #e7e5e4;
+      padding: 1px 5px;
+      border-radius: 4px;
+      letter-spacing: 0.02em;
+    }
+
+    /* Financial Editorial Card */
+    .financial-editorial-card {
+      background: #ffffff;
+      border: 1px solid var(--border-sand);
+      border-radius: 12px;
+      margin-bottom: 16px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    }
+
+    .fin-card-header {
+      background: #1c1917;
+      color: #ffffff;
+      padding: 10px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .fin-header-title {
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .fin-header-tag {
+      font-size: 0.65rem;
+      font-weight: 700;
+      background: #292524;
+      color: #d6d3d1;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.05em;
+    }
+
+    .fin-card-body {
+      padding: 12px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    @media (max-width: 600px) {
+      .fin-card-body {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .fin-col {
+      background: #faf8f5;
+      border: 1px solid var(--border-sand);
+      border-radius: 8px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .fin-col-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: var(--text-black);
+      border-bottom: 1px solid #eee7db;
+      padding-bottom: 6px;
+    }
+
+    .fin-badge-trend {
+      font-size: 0.68rem;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .fin-badge-trend.up {
+      background: #dcfce7;
+      color: #15803d;
+    }
+
+    .fin-badge-trend.down {
+      background: #fee2e2;
+      color: #b91c1c;
+    }
+
+    .fin-badge-trend.gold {
+      background: #fef3c7;
+      color: #b45309;
+    }
+
+    .fin-summary {
+      font-size: 0.82rem;
+      line-height: 1.5;
+      color: #44403c;
+      font-family: 'Newsreader', Georgia, serif;
+    }
+
+    .fin-details {
+      display: flex;
+      gap: 12px;
+      background: #ffffff;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1px solid #eedecb;
+      font-size: 0.74rem;
+    }
+
+    .fin-stat-item {
+      display: flex;
+      gap: 4px;
+    }
+
+    .fin-stat-k {
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .fin-stat-v {
+      font-weight: 800;
+      color: var(--text-black);
+    }
+
+    .fin-narrative {
+      font-size: 0.77rem;
+      color: #57534e;
+      line-height: 1.45;
+    }
+
+    /* Competitor Campaigns Cards */
+    .competitor-editorial-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .competitor-card {
+      background: #ffffff;
+      border: 1px solid var(--border-sand);
+      border-radius: 10px;
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .competitor-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+
+    .comp-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .comp-brand-badge {
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.02em;
+    }
+
+    .comp-brand-badge.cellphones {
+      background: #fee2e2;
+      color: #dc2626;
+      border: 1px solid #fca5a5;
+    }
+
+    .comp-brand-badge.fpt {
+      background: #e0e7ff;
+      color: #4338ca;
+      border: 1px solid #c7d2fe;
+    }
+
+    .comp-new-badge {
+      background: #10b981;
+      color: #ffffff;
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 9999px;
+    }
+
+    .comp-highlight {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #b45309;
+      background: #fef3c7;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .comp-title {
+      font-size: 0.88rem;
+      font-weight: 800;
+      color: var(--text-black);
+      line-height: 1.35;
+    }
+
+    .comp-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .comp-title a:hover {
+      text-decoration: underline;
+    }
+
+    .comp-summary {
+      font-size: 0.8rem;
+      color: #57534e;
+      line-height: 1.45;
+      font-family: 'Newsreader', Georgia, serif;
+    }
+
+    .comp-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      border-top: 1px dashed #eedecb;
+      padding-top: 6px;
+      margin-top: 2px;
     }
 
     /* Flash News List */
@@ -619,7 +865,7 @@
     <div class="top-nav-bar">
       <div class="top-left">
         <span class="live-pill">LIVE 24H</span>
-        <span class="top-date-str">HÔM NAY // 10:15 ICT</span>
+        <span class="top-date-str">HÔM NAY // 11:39 ICT</span>
       </div>
       <div class="top-right">
         <button class="top-icon-btn" onclick="copyNewsletterText()" title="Sao chép bản tin nhanh">
@@ -636,7 +882,7 @@
       <h1 class="main-title">BẢN TIN THỊ TRƯỜNG & KINH DOANH 24H</h1>
       <div class="meta-subline">
         <span class="edition-tag">ẤN BẢN ĐIỆN TỬ SỐ 418</span>
-        <span class="vnindex-meta">VN-INDEX 1.844,77 ▲ 0.54%</span>
+        <span class="vnindex-meta">VN-INDEX 1.835,28 ▲ 0.54%</span>
       </div>
     </header>
 
@@ -664,7 +910,7 @@
           <span class="coral-dot"></span>
           <span class="subhead-title">CHỈ SỐ TỨC THỜI</span>
         </div>
-        <div class="subhead-right">CẬP NHẬT 10:15 ICT</div>
+        <div class="subhead-right">CẬP NHẬT 11:39 ICT</div>
       </div>
 
       <div class="indices-2x2-grid">
@@ -696,7 +942,7 @@
             <span class="idx-change up">▲ 0.54%</span>
           </div>
           <div class="idx-bottom">
-            <span class="idx-val">1.844,77</span>
+            <span class="idx-val">1.835,28</span>
             <span class="idx-unit">+6.85</span>
           </div>
         </div>
@@ -713,6 +959,59 @@
         </div>
       </div>
 
+      <!-- Section: Tổng hợp Diễn biến Thị trường Tài chính & Vàng -->
+      
+    <div class="financial-editorial-card">
+      <div class="fin-card-header">
+        <div class="fin-header-title">
+          <span>🏛️</span> TỔNG HỢP DIỄN BIẾN THỊ TRƯỜNG TÀI CHÍNH & VÀNG
+        </div>
+        <div class="fin-header-tag">PHÂN TÍCH CHUYÊN SÂU</div>
+      </div>
+      <div class="fin-card-body">
+        <!-- Cột 1: Cổ phiếu & Dòng tiền -->
+        <div class="fin-col">
+          <div class="fin-col-title">
+            <span style="display: flex; align-items: center; gap: 4px;">📈 <strong>Thị Trường Cổ Phiếu (VN-Index)</strong></span>
+            <span class="fin-badge-trend up">Tăng điểm tích cực</span>
+          </div>
+          <div class="fin-summary">Chỉ số VN-Index ghi nhận mức giao dịch quanh ngưỡng 1.835,28 điểm (+6.85 điểm, tương ứng +0.54%), thanh khoản toàn thị trường duy trì ở mức khá với khối lượng khớp lệnh đạt xấp xỉ 680.5M cổ phiếu. Đáng chú ý, dòng tiền khối ngoại duy trì vị thế +120.5 tỷ VNĐ (Mua ròng), tạo bệ đỡ tâm lý vững chắc cho thị trường chung.</div>
+          <div class="fin-details">
+            <div class="fin-stat-item">
+              <span class="fin-stat-k">Thanh khoản:</span>
+              <span class="fin-stat-v">680.5M</span>
+            </div>
+            <div class="fin-stat-item">
+              <span class="fin-stat-k">Khối ngoại:</span>
+              <span class="fin-stat-v">+120.5 tỷ VNĐ (Mua ròng)</span>
+            </div>
+          </div>
+          <div class="fin-narrative">• Dòng tiền dẫn dắt: Nhóm Ngân hàng, Bán lẻ ICT và Cổ phiếu Công nghệ ghi nhận lực cầu bắt đáy chủ động; các mã đầu ngành duy trì đà phân hóa tích cực.<br>• Xu hướng & Kỹ thuật: VN-Index tiếp tục vận động trên đường trung bình MA20, vùng hỗ trợ ngắn hạn được xác lập quanh mốc tâm lý quan trọng, trong khi áp lực chốt lời ngắn hạn xuất hiện tại các vùng kháng cự đỉnh cũ.</div>
+        </div>
+        
+        <!-- Cột 2: Thị trường Vàng -->
+        <div class="fin-col">
+          <div class="fin-col-title">
+            <span style="display: flex; align-items: center; gap: 4px;">🪙 <strong>Thị Trường Vàng (SJC & Kitco)</strong></span>
+            <span class="fin-badge-trend gold">Biên độ ~3.0 tr.đ/lượng</span>
+          </div>
+          <div class="fin-summary">Giá vàng miếng SJC trong nước sáng nay niêm yết tại mức 144.60 triệu đồng/lượng (mua vào) và 147.60 triệu đồng/lượng (bán ra). Giá vàng nhẫn tròn trơn 999.9 giao dịch quanh mức 144.10 - 147.60 triệu đồng/lượng. Trên thị trường quốc tế, giá vàng giao ngay (Kitco Spot Gold) neo tại mức 4,429 USD/oz.</div>
+          <div class="fin-details">
+            <div class="fin-stat-item">
+              <span class="fin-stat-k">Vàng nhẫn 9999:</span>
+              <span class="fin-stat-v">144.10 - 147.60 tr</span>
+            </div>
+            <div class="fin-stat-item">
+              <span class="fin-stat-k">Kitco Spot:</span>
+              <span class="fin-stat-v">4,429 USD/oz</span>
+            </div>
+          </div>
+          <div class="fin-narrative">• Chênh lệch & Biến động: Biên độ chênh lệch giữa giá vàng miếng SJC trong nước và giá vàng thế giới quy đổi duy trì ở mức ~3.0 tr.đ/lượng. Thị trường ghi nhận xu hướng điều chỉnh (-1.00 tr.đ (Giảm sau phiên trước)) sau chuỗi phiên biến động mạnh.<br>• Động lực vĩ mô: Diễn biến giá vàng chịu tác động kép từ chỉ số đồng USD (DXY dao động quanh 104.25, tỷ giá USD/VND ở mức 25.933 đ), kỳ vọng điều chỉnh lãi suất chính sách của Cục Dự trữ Liên bang Mỹ (Fed), cùng nhu cầu tích trữ tài sản an toàn trước các bất định địa chính trị toàn cầu.</div>
+        </div>
+      </div>
+    </div>
+    
+
       <!-- Section: 3 Điểm tin vĩ mô nóng nhất (Black Banner) -->
       <div class="editorial-banner-card">
         <div class="banner-black-top">
@@ -726,18 +1025,6 @@
         <div class="editorial-news-item">
           <div class="editorial-badge-box">01</div>
           <div class="editorial-text-col">
-            <h3 class="editorial-headline">Điện thoại trong tay, linh hoạt nhận thanh toán cùng SACOMBANK PAY</h3>
-            <p class="editorial-summary-serif">Thanh toán không chỉ là khâu cuối cùng của một giao dịch mà còn là điểm chạm trong hành trình trải nghiệm mua sắm. Việc chủ động mở rộng phương thức nhận thanh toán có thể giúp các cá nhân kinh doanh và hộ kinh doanh linh hoạt hơn trong quá trình bán hàng, hỗ trợ theo dõi doanh t... Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.</p>
-            <div class="editorial-source-mini">
-              Nguồn: <a href="https://cafef.vn/dien-thoai-trong-tay-linh-hoat-nhan-thanh-toan-cung-sacombank-pay-188260908172704935.chn" target="_blank">CafeF Tài Chính ↗</a>
-            </div>
-          </div>
-        </div>
-        
-
-        <div class="editorial-news-item">
-          <div class="editorial-badge-box">02</div>
-          <div class="editorial-text-col">
             <h3 class="editorial-headline">Thịt gà, phụ phẩm nhập khẩu rẻ hơn nhiều loại rau</h3>
             <p class="editorial-summary-serif">Trong 7 tháng, Việt Nam nhập gần 217.400 tấn thịt và phụ phẩm gia cầm với giá bình quân khoảng 26.500 đồng một kg, thấp hơn giá bán lẻ nhiều loại rau. Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.</p>
             <div class="editorial-source-mini">
@@ -748,12 +1035,24 @@
         
 
         <div class="editorial-news-item">
-          <div class="editorial-badge-box">03</div>
+          <div class="editorial-badge-box">02</div>
           <div class="editorial-text-col">
             <h3 class="editorial-headline">Hàng nhập khẩu trên 100.000 đồng có thể không còn được miễn thuế</h3>
             <p class="editorial-summary-serif">Bộ Tài chính đề xuất hạ ngưỡng miễn thuế cho hàng xuất nhập khẩu xuống 100.000 đồng, thay vì mức 500.000 đến một triệu đồng như hiện nay. Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.</p>
             <div class="editorial-source-mini">
               Nguồn: <a href="https://vnexpress.net/hang-nhap-khau-tren-100-000-dong-co-the-khong-con-duoc-mien-thue-5118124.html" target="_blank">VnExpress Kinh Doanh ↗</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">03</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Giá vàng miếng, vàng nhẫn sáng 9/9 tại SJC, DOJI, PNJ, Bảo Tín Mạnh Hải và Bảo Tín Minh Châu đồng loạt giảm 1,2 - 1,5 triệu đồng/lượng</h3>
+            <p class="editorial-summary-serif">Giá vàng thế giới tối 8/9 lại quay đầu giảm mạnh. Giá bán vàng miếng, vàng nhẫn trong nước đầu giờ sáng phổ biến 146 - <strong class="stat-highlight">149 triệu</strong> đồng/lượng. Dòng tiền nhàn rỗi trong dân tiếp tục dịch chuyển vào kênh trú ẩn; tạo áp lực tỷ giá ngoại tệ khi nhu cầu nhập khẩu nguyên liệu tăng.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://cafef.vn/gia-vang-mieng-vang-nhan-sang-9-9-tai-sjc-doji-pnj-bao-tin-manh-hai-va-bao-tin-minh-chau-dong-loat-giam-12-15-trieu-dong-luong-18826090907475576.chn" target="_blank">CafeF Tài Chính ↗</a>
             </div>
           </div>
         </div>
@@ -773,6 +1072,18 @@
         <div class="editorial-news-item">
           <div class="editorial-badge-box">01</div>
           <div class="editorial-text-col">
+            <h3 class="editorial-headline">Hình dung về iPhone gập trước lễ ra mắt</h3>
+            <p class="editorial-summary-serif">Smartphone gập của Apple có thể mang tên iPhone Ultra với thiết kế dạng sách siêu mỏng nhưng giá trên 2.000 USD. Định hình xu hướng tiêu dùng và danh mục sản phẩm chủ lực trong các đợt mua sắm sắp tới.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://vnexpress.net/hinh-dung-ve-iphone-gap-truoc-le-ra-mat-5117833.html" target="_blank">VnExpress Số Hóa ↗</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">02</div>
+          <div class="editorial-text-col">
             <h3 class="editorial-headline">#Tinhtetest: Thử nghiệm Samsung SSD 9100 PRO: PCIe Gen 5 dành cho ai?</h3>
             <p class="editorial-summary-serif">Nếu như những ổ cứng thể rắn Gen 4 đã xóa bỏ hoàn toàn nút thắt cổ chai của giao tiếp SATA cũ kỹ, đưa tốc độ truyền tải lên ngưỡng 7.5 GB/s, thì Gen5 hứa hẹn nhân đôi con số đó, mở ra kỷ nguyên... Tạo đòn bẩy thúc đẩy người dùng nâng cấp thiết bị 5G; gia tăng sức mua cho dòng smartphone tầm trung từ <strong class="stat-highlight">6-10 triệu</strong> đồng.</p>
             <div class="editorial-source-mini">
@@ -783,7 +1094,7 @@
         
 
         <div class="editorial-news-item">
-          <div class="editorial-badge-box">02</div>
+          <div class="editorial-badge-box">03</div>
           <div class="editorial-text-col">
             <h3 class="editorial-headline">Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức...</h3>
             <p class="editorial-summary-serif">Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức khỏe Đây là tin mình để ý nhất hôm nay vì thời điểm ra mắt khá nhạy cảm: chưa đầy hai tuần sau khi... Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.</p>
@@ -793,15 +1104,127 @@
           </div>
         </div>
         
+      </div>
 
-        <div class="editorial-news-item">
-          <div class="editorial-badge-box">03</div>
-          <div class="editorial-text-col">
-            <h3 class="editorial-headline">Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt</h3>
-            <p class="editorial-summary-serif">Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt Nintendo vừa tổ chức riêng một Direct mừng 40 năm Zelda, và thứ thích nhất không phải là bản làm lại... Định hình xu hướng tiêu dùng và danh mục sản phẩm chủ lực trong các đợt mua sắm sắp tới.</p>
-            <div class="editorial-source-mini">
-              Nguồn: <a href="https://tinhte.vn/thread/nintendo-tung-switch-2-phien-ban-40-nam-zelda-an-dinh-ngay-ocarina-of-time-ban-lam-lai-ra-mat.4175642/" target="_blank">Tinhte.vn ↗</a>
+      <!-- Section: Chiến dịch Quảng cáo & Khuyến mãi Đối thủ (CellphoneS vs FPT Shop) -->
+      <div class="section-headline-line">
+        <div class="headline-left">
+          <span>⚔️</span> CHIẾN DỊCH KHUYẾN MÃI ĐỐI THỦ (30 NGÀY)
+        </div>
+        <div class="headline-right">CELLPHONES vs FPT SHOP</div>
+      </div>
+      <div class="competitor-editorial-container">
+        
+        <div class="competitor-card">
+          <div class="comp-header">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <span class="comp-brand-badge cellphones">CellphoneS</span>
+              
             </div>
+            <span class="comp-highlight">Ưu đãi hấp dẫn</span>
+          </div>
+          <div class="comp-title">
+            <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNRnEzWlpFc2h6dHZFTHo2LTdyX2E3RzBmbFVvVUtvQ0hSYklqV2ZoQTlKM2lKX29vVHpBTGxUdkZTTmhkUWp1ai1QdDMxQlBCeTNzQnM3cHJ2bVhpN0pfanJzUUpRRjN0UHc0Y2l4aUtSUlAtVVcxS0l2ZERZc2dxQV9KQUNHTWttMWRyVVBIcTlHckVEdFdKNXpPZHVGQQ?oc=5" target="_blank">2 mẫu iPhone giảm giá sâu, có mẫu rẻ hơn gần 9 triệu đồng - Kenh14.vn ↗</a>
+          </div>
+          <div class="comp-summary">2 mẫu iPhone giảm giá sâu, có mẫu rẻ hơn gần 9 triệu đồng&nbsp;&nbsp;Kenh14.vn</div>
+          <div class="comp-meta">
+            <span>⏳ Thời gian: Đang diễn ra trong tháng</span>
+            <span>📅 Cập nhật: Mon, 07 Sep 2026 19:00:00 GMT</span>
+          </div>
+        </div>
+        
+
+        <div class="competitor-card">
+          <div class="comp-header">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <span class="comp-brand-badge cellphones">CellphoneS</span>
+              
+            </div>
+            <span class="comp-highlight">Ưu đãi hấp dẫn</span>
+          </div>
+          <div class="comp-title">
+            <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE5Ta3lIajA1emJKMWs1V0RkOGJLSzFieURwcTJodEJuaG90Rm5FWUsxUzBhWWNZZGZqak5mV3lFM2dFUktLckwxNmpHbFJkWXEydldOZHgwZWZCVWFzd1FEWjBremdGWmFwMTVKcVVocmdWSnQwQ2F4ZHoybw?oc=5" target="_blank">CellphoneS mở bán Huawei Watch Kids X1: Giảm ngay 1 triệu kèm nhiều ưu đãi hấp dẫn khác - CellphoneS ↗</a>
+          </div>
+          <div class="comp-summary">CellphoneS mở bán Huawei Watch Kids X1: Giảm ngay 1 triệu kèm nhiều ưu đãi hấp dẫn khác&nbsp;&nbsp;CellphoneS</div>
+          <div class="comp-meta">
+            <span>⏳ Thời gian: Đang diễn ra trong tháng</span>
+            <span>📅 Cập nhật: Mon, 07 Sep 2026 07:18:31 GMT</span>
+          </div>
+        </div>
+        
+
+        <div class="competitor-card">
+          <div class="comp-header">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <span class="comp-brand-badge cellphones">CellphoneS</span>
+              
+            </div>
+            <span class="comp-highlight">Ưu đãi hấp dẫn</span>
+          </div>
+          <div class="comp-title">
+            <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxPS0pWa1FFOV8wSkVlckd2QUd5aTNIS2hiYUg4azB4VTFVZGhNcmJhOEU0dnhwRlQ0bkNEV3pFZmNmYTRpbEhCM2dsVlBjN2FHMTk0allLdTMyY2UzYWR3RjdXc0VaNWpOa3Y1MUg2b0FRbXVkWm9fZ2dOWGpQUkVodVRZVC05Z1N1SXEtT1lGQWY1cXhXYkU2N0w1TS1DTkh0R3hVZDVGa25rN0xOU0ZnUUVOOHZBbjFMbktTUUN1TGdldWxDakE?oc=5" target="_blank">Săn sale 2/9 tại CellphoneS với nhiều sản phẩm công nghệ có mức giá ưu đãi hấp dẫn lên đến 70% - Báo Thanh Hóa ↗</a>
+          </div>
+          <div class="comp-summary">Săn sale 2/9 tại CellphoneS với nhiều sản phẩm công nghệ có mức giá ưu đãi hấp dẫn lên đến 70%&nbsp;&nbsp;Báo Thanh Hóa</div>
+          <div class="comp-meta">
+            <span>⏳ Thời gian: Đang diễn ra trong tháng</span>
+            <span>📅 Cập nhật: Mon, 31 Aug 2026 08:56:00 GMT</span>
+          </div>
+        </div>
+        
+
+        <div class="competitor-card">
+          <div class="comp-header">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <span class="comp-brand-badge cellphones">CellphoneS</span>
+              
+            </div>
+            <span class="comp-highlight">Ưu đãi hấp dẫn</span>
+          </div>
+          <div class="comp-title">
+            <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxONVNsWDJaOXprdHJZQjItVDNMaDl5X1pwMmpMaVptbWUza2hpOTNBenMzUThjMW1Hb3E2SWQwakhmaG01Tlp5TXRxSnk1TzF3RnJYU0ZuVnBPM0drNzBuY0hCZWgtTkRqVk9JajJqd1o1SnZXcjVZcXc3eVpkZzI0WWljc3JVY1J3QnNpV0JvdlhIMlllVV83RWgwemVDZmtMSC1peHh3Y1k4VXFXZlo0?oc=5" target="_blank">Sale Quốc khánh CellphoneS khuyến mãi mừng đại lễ kỷ niệm 81 năm - Vietstock ↗</a>
+          </div>
+          <div class="comp-summary">Sale Quốc khánh CellphoneS khuyến mãi mừng đại lễ kỷ niệm 81 năm&nbsp;&nbsp;Vietstock</div>
+          <div class="comp-meta">
+            <span>⏳ Thời gian: Đang diễn ra trong tháng</span>
+            <span>📅 Cập nhật: Thu, 27 Aug 2026 07:00:00 GMT</span>
+          </div>
+        </div>
+        
+
+        <div class="competitor-card">
+          <div class="comp-header">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <span class="comp-brand-badge fpt">FPT Shop</span>
+              
+            </div>
+            <span class="comp-highlight">Giảm Đến 50%</span>
+          </div>
+          <div class="comp-title">
+            <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBVTnVYa0JUcGdDWUZFRmFmcFhoQnF4eWhjZUVsQkNyQ1o3ZjIzR0x1cnEzeERrSDROQVZITGo1dEp3bjJuUFViUFhWMnRLVTVVX0pnZkRxUTRzM2NKU211OVFfU1JWNUIzd2tzS2NEUmZzc09IOVpJeEdPMVJtTnM?oc=5" target="_blank">SIÊU SALE NGÀY ĐÔI 9.9: Giảm đến 50%, voucher lên đến 5 triệu đồng trên Shopee Live FPT Shop - FPT Shop ↗</a>
+          </div>
+          <div class="comp-summary">SIÊU SALE NGÀY ĐÔI 9.9: Giảm đến 50%, voucher lên đến 5 triệu đồng trên Shopee Live FPT Shop&nbsp;&nbsp;FPT Shop</div>
+          <div class="comp-meta">
+            <span>⏳ Thời gian: Đang diễn ra trong tháng</span>
+            <span>📅 Cập nhật: Mon, 07 Sep 2026 10:43:25 GMT</span>
+          </div>
+        </div>
+        
+
+        <div class="competitor-card">
+          <div class="comp-header">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <span class="comp-brand-badge fpt">FPT Shop</span>
+              
+            </div>
+            <span class="comp-highlight">Ưu đãi hấp dẫn</span>
+          </div>
+          <div class="comp-title">
+            <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQbVprU21qR3FFQnhTekRiS3VnQ05Zd2MyUVB4V19HTzZsV0FyRVRzMmVOaG93Z2NIOUVNSzNZQU9aMnc3V3RSbkpkZFRjXzREQUtseDcyOW93X2RXc3U4LUJGOEhaN3VrcGVQcVhfZmx6d09MX0Jtam5SUjJ0Z3dnOUJXUDZPT2dLZUxJWU92UVpUdw?oc=5" target="_blank">Chào mùa tựu trường, nhận ưu đãi đến 10% tại FPT Shop - FPT Shop ↗</a>
+          </div>
+          <div class="comp-summary">Chào mùa tựu trường, nhận ưu đãi đến 10% tại FPT Shop&nbsp;&nbsp;FPT Shop</div>
+          <div class="comp-meta">
+            <span>⏳ Thời gian: Đang diễn ra trong tháng</span>
+            <span>📅 Cập nhật: Fri, 10 Jul 2026 04:49:11 GMT</span>
           </div>
         </div>
         
@@ -935,10 +1358,10 @@
         <div class="editorial-news-item">
           <div class="editorial-badge-box">01</div>
           <div class="editorial-text-col">
-            <h3 class="editorial-headline">Báo cáo mới cho biết Apple muốn iPhone Ultra có giá 1.999 $</h3>
-            <p class="editorial-summary-serif">Apple sẽ tổ chức sự kiện ra mắt iPhone lớn hàng năm vào ngày 9 tháng 9 và dự kiến sẽ ra mắt iPhone Ultra vào ngày đó. Đây sẽ là điện thoại thông minh có thể gập lại đầu tiên của nó, và nó đã được một thời gian rất dài sắp tới Theo một báo cáo mới từ Mark Gurman của Bloomberg,.</p>
+            <h3 class="editorial-headline">Sony không loại bỏ đĩa khá nhanh như chúng ta nghĩ</h3>
+            <p class="editorial-summary-serif">Sony không lùi bước trước quyết định loại bỏ đĩa trò chơi điện tử vào tháng 1 năm 2028. Nhưng Sony cũng không ngừng sản xuất nhanh như chúng tôi nghĩ. Hai tháng sau khi có báo cáo rằng nhà máy sản xuất đĩa cuối cùng của Sony đã được tái sử dụng, bộ phận sản xuất đĩa của công ty... Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.</p>
             <div class="editorial-source-mini">
-              Nguồn: <a href="https://www.gsmarena.com/apple_wanted_the_iphone_ultra_to_cost_1999_new_report_says-news-74523.php" target="_blank">GSMArena ↗</a>
+              Nguồn: <a href="https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent" target="_blank">The Verge Tech ↗</a>
             </div>
           </div>
         </div>
@@ -947,10 +1370,10 @@
         <div class="editorial-news-item">
           <div class="editorial-badge-box">02</div>
           <div class="editorial-text-col">
-            <h3 class="editorial-headline">Oppo A7 Pro hiện đã chính thức ra mắt với pin 8.000 mAh</h3>
-            <p class="editorial-summary-serif">A7 Pro của Oppo cuối cùng đã gia nhập A7 Pro Max, được ra mắt vào tháng 8. A7 Pro sẽ có mặt tại Trung Quốc vào ngày 11 tháng 9 và trước đó công ty đã bắt đầu nhận đơn đặt hàng trước cho thiết bị ngay hôm nay, cũng tiết lộ thông số kỹ thuật và giá cả của nó trong quá trình này.</p>
+            <h3 class="editorial-headline">Drama swirls around OpenAI’s legendary mathematical milestone</h3>
+            <p class="editorial-summary-serif">OpenAI cho biết họ đã tìm ra giải pháp cho một vấn đề toán học lớn vẫn chưa được giải quyết trong khoảng 90 năm, theo báo cáo trước đó của The New York Times và Wired. Trong một bài đăng trên blog vào thứ ba, OpenAI thông báo rằng họ đã phát hiện ra một giải pháp cho vấn đề Navier-Stokes - liên quan đến... Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.</p>
             <div class="editorial-source-mini">
-              Nguồn: <a href="https://www.gsmarena.com/oppo_a7_pro_is_now_official_with_an_8000_mah_battery-news-74520.php" target="_blank">GSMArena ↗</a>
+              Nguồn: <a href="https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution" target="_blank">The Verge Tech ↗</a>
             </div>
           </div>
         </div>
@@ -959,10 +1382,10 @@
         <div class="editorial-news-item">
           <div class="editorial-badge-box">03</div>
           <div class="editorial-text-col">
-            <h3 class="editorial-headline">Samsung Galaxy S26 FE review</h3>
-            <p class="editorial-summary-serif">Samsung mở rộng danh mục dòng máy phổ thông với pin 5.<strong class="stat-highlight">000mAh</strong> và màn hình tần số quét 90Hz. Bảo vệ vững chắc vị thế dẫn đầu 31.2% thị phần bán lẻ GfK trước sự bám đuổi của Xiaomi và Realme.</p>
+            <h3 class="editorial-headline">Rivian spinout Cũng xin lỗi vì sự chậm trễ trong việc vận chuyển xe đạp điện tương lai</h3>
+            <p class="editorial-summary-serif">Xe đạp điện tương lai của Rivian bị trì hoãn và khách hàng không hài lòng. Năm ngoái, Rivian cũng đã tiết lộ một chiếc xe đạp điện mới, được điều khiển bằng phần mềm có tên TM-B, ngay lập tức khiến thế giới xe đạp điện bùng cháy. Với pin sạc USB-C, giá đỡ ghế có thể tháo rời,... Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.</p>
             <div class="editorial-source-mini">
-              Nguồn: <a href="https://www.gsmarena.com/samsung_galaxy_s26_fe-review-2999.php" target="_blank">GSMArena ↗</a>
+              Nguồn: <a href="https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology" target="_blank">The Verge Tech ↗</a>
             </div>
           </div>
         </div>
@@ -971,10 +1394,10 @@
         <div class="editorial-news-item">
           <div class="editorial-badge-box">04</div>
           <div class="editorial-text-col">
-            <h3 class="editorial-headline">SoC Dimensity 9600 Pro của MediaTek hiện đã có ngày ra mắt chính thức</h3>
-            <p class="editorial-summary-serif">Hôm nay trên X, MediaTek đã tiết lộ khi nào họ có kế hoạch công bố SoC kích thước hàng đầu tiếp theo của mình: vào ngày 15 tháng 9 lúc 2:30 chiều tại Trung Quốc. Đó là 2:30 sáng ở New York, 7:30 sáng ở London, 8:30 sáng ở Trung Âu, 9:30 sáng ở Đông Âu và 12 giờ trưa ở Ấn Độ Theo bài đăng trên X,.</p>
+            <h3 class="editorial-headline">Tai nghe chơi game được trang bị ANC của Razer cho PS5 và Xbox giảm gần 100 $</h3>
+            <p class="editorial-summary-serif">Rất hiếm khi tìm thấy các tính năng cao cấp như khử tiếng ồn chủ động trong tai nghe chơi game dưới 200 $, vì vậy chúng tôi rất vui mừng khi Razer BlackShark V3 Pro được bán tại Woot với giá $ 164,99. Có những mô hình cụ thể được bán trên thị trường cho Xbox và PlayStation, nhưng phiên bản Xbox là lựa chọn tốt nhất b... Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.</p>
             <div class="editorial-source-mini">
-              Nguồn: <a href="https://www.gsmarena.com/mediateks_dimensity_9600_pro_soc_now_has_an_official_launch_date-news-74521.php" target="_blank">GSMArena ↗</a>
+              Nguồn: <a href="https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale" target="_blank">The Verge Tech ↗</a>
             </div>
           </div>
         </div>
@@ -1005,23 +1428,23 @@
         
 
         <div class="flash-editorial-item">
-          <span class="flash-editorial-event">[Mỹ cấm sữa, xe máy và hầu hết đồ uống...]:</span>
-          <span class="flash-editorial-text">Chính quyền Trump tuyên bố hành động một ngày sau khi Ottawa áp đặt mức thuế trả đũa 20 tỷ$ đối với hàng hóa của Mỹ.</span>
-          <span class="flash-editorial-source">(Nguồn: <a href="https://www.ft.com/content/639d8eac-fd8c-4557-a852-f826501681ad?syn-25a6b1a6=1" target="_blank">Bloomberg / Financial Times ↗</a>)</span>
+          <span class="flash-editorial-event">[Anthropic đã giữ lại mô hình AI mới n...]:</span>
+          <span class="flash-editorial-text">Quyết định loại trừ AISI lần đầu tiên đã khiến chính phủ Anh lo ngại về sự thay đổi chủ nghĩa bảo hộ rộng lớn hơn giữa các nhóm công nghệ.</span>
+          <span class="flash-editorial-source">(Nguồn: <a href="https://www.ft.com/content/560e1c8b-f163-4fd6-b604-e905550ac870?syn-25a6b1a6=1" target="_blank">Bloomberg / Financial Times ↗</a>)</span>
         </div>
         
 
         <div class="flash-editorial-item">
-          <span class="flash-editorial-event">[Meta tiết lộ trợ lý cá nhân AI được l...]:</span>
-          <span class="flash-editorial-text">‘tác nhân‘ mới được gọi là Muse được thiết kế để đưa ra các đề xuất tùy chỉnh dựa trên các cuộc trò chuyện và hoạt động truyền thông xã hội.</span>
-          <span class="flash-editorial-source">(Nguồn: <a href="https://www.ft.com/content/5816292b-c36b-4c22-aa50-2680b9970382?syn-25a6b1a6=1" target="_blank">Bloomberg / Financial Times ↗</a>)</span>
+          <span class="flash-editorial-event">[Các lỗ hổng trên Mái Vòm Vàng của Trump]:</span>
+          <span class="flash-editorial-text">Tổng thống cho biết một lá chắn tên lửa kéo dài từ Trái đất vào không gian có thể được xây dựng với giá 185 tỷ $.</span>
+          <span class="flash-editorial-source">(Nguồn: <a href="https://ig.ft.com/golden-dome/?syn-25a6b1a6=1" target="_blank">Bloomberg / Financial Times ↗</a>)</span>
         </div>
         
 
         <div class="flash-editorial-item">
-          <span class="flash-editorial-event">[Giới trẻ Mỹ chưa bao giờ chứng kiến m...]:</span>
-          <span class="flash-editorial-text">Hai mươi lăm năm sau ngày 11/9, nợ và chi tiêu quốc phòng đang phình to trong khi ngoại giao bị bỏ đói và các đồng minh bị xa lánh.</span>
-          <span class="flash-editorial-source">(Nguồn: <a href="https://www.ft.com/content/2e97fb28-24cf-4ab0-89b1-454b4f97cdbc" target="_blank">Bloomberg / Financial Times ↗</a>)</span>
+          <span class="flash-editorial-event">[Warsh có thể vẫn là một chủ tịch Fed tốt]:</span>
+          <span class="flash-editorial-text">Ông phải rõ ràng về các mục tiêu của chính sách và hợp lý về cách ngân hàng trung ương nên tự quản lý.</span>
+          <span class="flash-editorial-source">(Nguồn: <a href="https://www.ft.com/content/e58008a5-d757-4570-af08-d2396f46f03f?syn-25a6b1a6=1" target="_blank">Bloomberg / Financial Times ↗</a>)</span>
         </div>
         
       </div>
@@ -1033,66 +1456,132 @@
     <!-- ============================================== -->
     <div id="tabContent3" class="tab-pane">
 
-      <!-- Section: Top Trends Google -->
+      <!-- Section: Top Trends Google (Top 10) -->
       <div class="section-headline-line">
         <div class="headline-left">
-          <span>🔥</span> TOP TỪ KHÓA THỊNH HÀNH GOOGLE
+          <span>🔥</span> TOP TỪ KHÓA THỊNH HÀNH GOOGLE (TOP 10)
         </div>
-        <div class="headline-right">VIỆT NAM 24H</div>
+        <div class="headline-right">HOT NHẤT HÔM NAY</div>
       </div>
       <div class="standalone-card-body">
         <div class="trends-editorial-grid">
           
         <div class="trend-editorial-chip">
-          <div class="trend-editorial-kw">park hang-seo</div>
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">#01</span>
+            <span class="trend-editorial-kw">đâu xuân tươi sáng</span>
+          </div>
           <div class="trend-editorial-meta">
-            <span>🔥 Hot General</span>
-            <span class="trend-traffic-val">500+</span>
+            <span>🔥 Thịnh hành</span>
+            <span class="trend-traffic-val">200+ tìm kiếm</span>
           </div>
         </div>
         
 
         <div class="trend-editorial-chip">
-          <div class="trend-editorial-kw">sức khỏe và đời sống</div>
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">#02</span>
+            <span class="trend-editorial-kw">độ cồn</span>
+          </div>
           <div class="trend-editorial-meta">
-            <span>🔥 Hot General</span>
-            <span class="trend-traffic-val">100+</span>
+            <span>🔥 Thịnh hành</span>
+            <span class="trend-traffic-val">200+ tìm kiếm</span>
           </div>
         </div>
         
 
         <div class="trend-editorial-chip">
-          <div class="trend-editorial-kw">hồng vân</div>
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">#03</span>
+            <span class="trend-editorial-kw">thành phố hồ chí minh</span>
+          </div>
           <div class="trend-editorial-meta">
-            <span>🔥 Hot General</span>
-            <span class="trend-traffic-val">2000+</span>
+            <span>🔥 Thịnh hành</span>
+            <span class="trend-traffic-val">500+ tìm kiếm</span>
           </div>
         </div>
         
 
         <div class="trend-editorial-chip">
-          <div class="trend-editorial-kw">vietinbank</div>
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">#04</span>
+            <span class="trend-editorial-kw">carlos alcaraz</span>
+          </div>
           <div class="trend-editorial-meta">
-            <span>🔥 Hot General</span>
-            <span class="trend-traffic-val">2000+</span>
+            <span>🔥 Thịnh hành</span>
+            <span class="trend-traffic-val">1000+ tìm kiếm</span>
           </div>
         </div>
         
 
         <div class="trend-editorial-chip">
-          <div class="trend-editorial-kw">погода</div>
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">#05</span>
+            <span class="trend-editorial-kw">lại văn sâm</span>
+          </div>
           <div class="trend-editorial-meta">
-            <span>🔥 Hot General</span>
-            <span class="trend-traffic-val">200+</span>
+            <span>🔥 Thịnh hành</span>
+            <span class="trend-traffic-val">1000+ tìm kiếm</span>
           </div>
         </div>
         
 
         <div class="trend-editorial-chip">
-          <div class="trend-editorial-kw">tài sản</div>
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">#06</span>
+            <span class="trend-editorial-kw">park hang seo</span>
+          </div>
           <div class="trend-editorial-meta">
-            <span>🔥 Hot General</span>
-            <span class="trend-traffic-val">2000+</span>
+            <span>🔥 Thịnh hành</span>
+            <span class="trend-traffic-val">1000+ tìm kiếm</span>
+          </div>
+        </div>
+        
+
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">#07</span>
+            <span class="trend-editorial-kw">sức khỏe và đời sống</span>
+          </div>
+          <div class="trend-editorial-meta">
+            <span>🔥 Thịnh hành</span>
+            <span class="trend-traffic-val">100+ tìm kiếm</span>
+          </div>
+        </div>
+        
+
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">#08</span>
+            <span class="trend-editorial-kw">hồng vân</span>
+          </div>
+          <div class="trend-editorial-meta">
+            <span>🔥 Thịnh hành</span>
+            <span class="trend-traffic-val">2000+ tìm kiếm</span>
+          </div>
+        </div>
+        
+
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">#09</span>
+            <span class="trend-editorial-kw">vietinbank</span>
+          </div>
+          <div class="trend-editorial-meta">
+            <span>🔥 Thịnh hành</span>
+            <span class="trend-traffic-val">5000+ tìm kiếm</span>
+          </div>
+        </div>
+        
+
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">#10</span>
+            <span class="trend-editorial-kw">погода</span>
+          </div>
+          <div class="trend-editorial-meta">
+            <span>🔥 Thịnh hành</span>
+            <span class="trend-traffic-val">200+ tìm kiếm</span>
           </div>
         </div>
         
@@ -1112,6 +1601,18 @@
         <div class="editorial-news-item">
           <div class="editorial-badge-box">01</div>
           <div class="editorial-text-col">
+            <h3 class="editorial-headline">Hoàng tử George gây sốt với đồng phục nhập học</h3>
+            <p class="editorial-summary-serif">Hoàng tử George, 13 tuổi, thu hút khi diện áo đuôi tôm trong ngày nhập học ngôi trường đắt đỏ bậc nhất Anh. Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://vnexpress.net/hoang-tu-george-gay-sot-voi-dong-phuc-nhap-hoc-5118147.html" target="_blank">VnExpress Giải Trí ↗</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">02</div>
+          <div class="editorial-text-col">
             <h3 class="editorial-headline">Sắc vóc nữ chính phim 'Đầu xuân tươi sáng'</h3>
             <p class="editorial-summary-serif">Diễn viên Tôn Thiên - nữ chính phim gây sốt "Đầu xuân tươi sáng" - gây chú ý khán giả với nét đẹp trong trẻo. Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.</p>
             <div class="editorial-source-mini">
@@ -1122,24 +1623,12 @@
         
 
         <div class="editorial-news-item">
-          <div class="editorial-badge-box">02</div>
+          <div class="editorial-badge-box">03</div>
           <div class="editorial-text-col">
             <h3 class="editorial-headline">Joheirry Mola: Không bỏ nghề giáo khi đăng quang Miss World</h3>
             <p class="editorial-summary-serif">Hoa hậu Joheirry Mola Dominguez nói "xem học sinh là cả thế giới" và sẽ tìm người hỗ trợ các em trong thời gian cô bận đảm nhận vai trò Miss World 2026. Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.</p>
             <div class="editorial-source-mini">
               Nguồn: <a href="https://vnexpress.net/joheirry-mola-khong-bo-nghe-giao-khi-dang-quang-miss-world-5118084.html" target="_blank">VnExpress Giải Trí ↗</a>
-            </div>
-          </div>
-        </div>
-        
-
-        <div class="editorial-news-item">
-          <div class="editorial-badge-box">03</div>
-          <div class="editorial-text-col">
-            <h3 class="editorial-headline">Lần đầu công diễn kiệt tác opera 'Tosca' ở Việt Nam</h3>
-            <p class="editorial-summary-serif">Nhà hát Nhạc Vũ kịch Việt Nam (VNOB) lần đầu công diễn trọn vở ''Tosca'' tại Nhà hát Hồ Gươm, Hà Nội, ngày 26 và 27/9. Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.</p>
-            <div class="editorial-source-mini">
-              Nguồn: <a href="https://vnexpress.net/lan-dau-cong-dien-kiet-tac-opera-tosca-o-viet-nam-5117473.html" target="_blank">VnExpress Giải Trí ↗</a>
             </div>
           </div>
         </div>
@@ -1171,53 +1660,76 @@
   <textarea id="rawNewsletterText" style="display: none;">📊 BẢN TIN THỊ TRƯỜNG, CÔNG NGHỆ &amp; SOCIAL 24H (09/09/2026)
 =======================================================
 
+🏛️ TỔNG HỢP DIỄN BIẾN THỊ TRƯỜNG TÀI CHÍNH &amp; VÀNG:
+• Cổ phiếu (VN-Index): Chỉ số VN-Index ghi nhận mức giao dịch quanh ngưỡng 1.835,28 điểm (+6.85 điểm, tương ứng +0.54%), thanh khoản toàn thị trường duy trì ở mức khá với khối lượng khớp lệnh đạt xấp xỉ 680.5M cổ phiếu. Đáng chú ý, dòng tiền khối ngoại duy trì vị thế +120.5 tỷ VNĐ (Mua ròng), tạo bệ đỡ tâm lý vững chắc cho thị trường chung.
+• Vàng (SJC &amp; Kitco): Giá vàng miếng SJC trong nước sáng nay niêm yết tại mức 144.60 triệu đồng/lượng (mua vào) và 147.60 triệu đồng/lượng (bán ra). Giá vàng nhẫn tròn trơn 999.9 giao dịch quanh mức 144.10 - 147.60 triệu đồng/lượng. Trên thị trường quốc tế, giá vàng giao ngay (Kitco Spot Gold) neo tại mức 4,429 USD/oz.
+
+-------------------------------------------------------
+
 🇻🇳 1. TIN TRONG NƯỚC
 📈 A. Kinh Tế &amp; Thị Trường Trong Nước:
-1. Điện thoại trong tay, linh hoạt nhận thanh toán cùng SACOMBANK PAY
-   - Bối cảnh: Thanh toán không chỉ là khâu cuối cùng của một giao dịch mà còn là điểm chạm trong hành trình trải nghiệm mua sắm. Việc chủ động mở rộng phương thức nhận thanh toán có thể giúp các cá nhân kinh doanh và hộ kinh doanh linh hoạt hơn trong quá trình bán hàng, hỗ trợ theo dõi doanh t...
-   - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-   - Nguồn: CafeF Tài Chính (https://cafef.vn/dien-thoai-trong-tay-linh-hoat-nhan-thanh-toan-cung-sacombank-pay-188260908172704935.chn)
-
-2. Thịt gà, phụ phẩm nhập khẩu rẻ hơn nhiều loại rau
+1. Thịt gà, phụ phẩm nhập khẩu rẻ hơn nhiều loại rau
    - Bối cảnh: Trong 7 tháng, Việt Nam nhập gần 217.400 tấn thịt và phụ phẩm gia cầm với giá bình quân khoảng 26.500 đồng một kg, thấp hơn giá bán lẻ nhiều loại rau.
    - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
    - Nguồn: VnExpress Kinh Doanh (https://vnexpress.net/thit-ga-phu-pham-nhap-khau-re-hon-nhieu-loai-rau-5117946.html)
 
-3. Hàng nhập khẩu trên 100.000 đồng có thể không còn được miễn thuế
+2. Hàng nhập khẩu trên 100.000 đồng có thể không còn được miễn thuế
    - Bối cảnh: Bộ Tài chính đề xuất hạ ngưỡng miễn thuế cho hàng xuất nhập khẩu xuống 100.000 đồng, thay vì mức 500.000 đến một triệu đồng như hiện nay.
    - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
    - Nguồn: VnExpress Kinh Doanh (https://vnexpress.net/hang-nhap-khau-tren-100-000-dong-co-the-khong-con-duoc-mien-thue-5118124.html)
 
-4. Giá vàng miếng, vàng nhẫn sáng 9/9 tại SJC, DOJI, PNJ, Bảo Tín Mạnh Hải và Bảo Tín Minh Châu đồng loạt giảm 1,2 - 1,5 triệu đồng/lượng
+3. Giá vàng miếng, vàng nhẫn sáng 9/9 tại SJC, DOJI, PNJ, Bảo Tín Mạnh Hải và Bảo Tín Minh Châu đồng loạt giảm 1,2 - 1,5 triệu đồng/lượng
    - Bối cảnh: Giá vàng thế giới tối 8/9 lại quay đầu giảm mạnh. Giá bán vàng miếng, vàng nhẫn trong nước đầu giờ sáng phổ biến 146 - 149 triệu đồng/lượng.
    - Tác động: Dòng tiền nhàn rỗi trong dân tiếp tục dịch chuyển vào kênh trú ẩn; tạo áp lực tỷ giá ngoại tệ khi nhu cầu nhập khẩu nguyên liệu tăng.
    - Nguồn: CafeF Tài Chính (https://cafef.vn/gia-vang-mieng-vang-nhan-sang-9-9-tai-sjc-doji-pnj-bao-tin-manh-hai-va-bao-tin-minh-chau-dong-loat-giam-12-15-trieu-dong-luong-18826090907475576.chn)
 
-5. Điểm nhấn sự kiện ra mắt Lynk &amp; Co 02 tại Việt Nam
+4. Điểm nhấn sự kiện ra mắt Lynk &amp; Co 02 tại Việt Nam
    - Bối cảnh: Sự kiện ra mắt mẫu xe thuần điện đầu tiên của Lynk &amp; Co ghi dấu ấn nhờ cá tính độc đáo, nhiều hoạt động trải nghiệm, show thời trang và loạt chính sách bán hàng linh hoạt từ hãng.
    - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
    - Nguồn: CafeF Doanh Nghiệp (https://cafef.vn/diem-nhan-su-kien-ra-mat-lynk-co-02-tai-viet-nam-18826090909385143.chn)
 
+5. Người Mỹ tốn thêm hơn 100 tỷ USD mua xăng, dầu vì chiến sự
+   - Bối cảnh: Cuộc chiến tại Trung Đông khiến người Mỹ phải gánh hóa đơn năng lượng gia tăng và có thể còn tốn hơn nữa khi xung đột vẫn chưa chấm dứt.
+   - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+   - Nguồn: VnExpress Kinh Doanh (https://vnexpress.net/nguoi-my-ton-them-hon-100-ty-usd-mua-xang-dau-vi-chien-su-5118220.html)
+
 💻 B. Công Nghệ &amp; Số Hóa Trong Nước (Tinhte, GenK, Số Hóa):
-1. #Tinhtetest: Thử nghiệm Samsung SSD 9100 PRO: PCIe Gen 5 dành cho ai?
+1. Hình dung về iPhone gập trước lễ ra mắt
+   - Diễn biến: Smartphone gập của Apple có thể mang tên iPhone Ultra với thiết kế dạng sách siêu mỏng nhưng giá trên 2.000 USD.
+   - Ý nghĩa: Định hình xu hướng tiêu dùng và danh mục sản phẩm chủ lực trong các đợt mua sắm sắp tới.
+   - Nguồn: VnExpress Số Hóa (https://vnexpress.net/hinh-dung-ve-iphone-gap-truoc-le-ra-mat-5117833.html)
+
+2. #Tinhtetest: Thử nghiệm Samsung SSD 9100 PRO: PCIe Gen 5 dành cho ai?
    - Diễn biến: Nếu như những ổ cứng thể rắn Gen 4 đã xóa bỏ hoàn toàn nút thắt cổ chai của giao tiếp SATA cũ kỹ, đưa tốc độ truyền tải lên ngưỡng 7.5 GB/s, thì Gen5 hứa hẹn nhân đôi con số đó, mở ra kỷ nguyên...
    - Ý nghĩa: Tạo đòn bẩy thúc đẩy người dùng nâng cấp thiết bị 5G; gia tăng sức mua cho dòng smartphone tầm trung từ 6-10 triệu đồng.
    - Nguồn: Tinhte.vn (https://tinhte.vn/thread/tinhtetest-thu-nghiem-samsung-ssd-9100-pro-pcie-gen-5-danh-cho-ai.4083714/)
 
-2. Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức...
+3. Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức...
    - Diễn biến: Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức khỏe Đây là tin mình để ý nhất hôm nay vì thời điểm ra mắt khá nhạy cảm: chưa đầy hai tuần sau khi...
    - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
    - Nguồn: Tinhte.vn (https://tinhte.vn/thread/meta-ra-mat-tro-ly-ai-ca-nhan-muse-doi-quyen-truy-cap-email-lich-thanh-toan-va-ca-du-lieu-suc.4175645/)
 
-3. Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt
+4. Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt
    - Diễn biến: Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt Nintendo vừa tổ chức riêng một Direct mừng 40 năm Zelda, và thứ thích nhất không phải là bản làm lại...
    - Ý nghĩa: Định hình xu hướng tiêu dùng và danh mục sản phẩm chủ lực trong các đợt mua sắm sắp tới.
    - Nguồn: Tinhte.vn (https://tinhte.vn/thread/nintendo-tung-switch-2-phien-ban-40-nam-zelda-an-dinh-ngay-ocarina-of-time-ban-lam-lai-ra-mat.4175642/)
 
-4. IFA26: LG lần đầu làm máy sấy tóc AirDew Hair: Đẹp và thông minh
-   - Diễn biến: Hôm nay lượn gian hàng LG ở IFA 2026, mình thấy một món đồ chơi khá lạ mà trước giờ chưa từng thấy hãng làm: máy sấy tóc. Thiết bị này có tên là LG AirDew Hair, và đây là lần đầu tiên LG bước chân...
-   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-   - Nguồn: Tinhte.vn (https://tinhte.vn/thread/ifa26-lg-lan-dau-lam-may-say-toc-airdew-hair-dep-va-thong-minh.4175304/)
+⚔️ C. Chiến Dịch Khuyến Mãi Đối Thủ (CellphoneS vs FPT Shop — 30 Ngày):
+1. [CellphoneS] 2 mẫu iPhone giảm giá sâu, có mẫu rẻ hơn gần 9 triệu đồng - Kenh14.vn (Ưu đãi hấp dẫn)
+   - Diễn biến: 2 mẫu iPhone giảm giá sâu, có mẫu rẻ hơn gần 9 triệu đồng&amp;nbsp;&amp;nbsp;Kenh14.vn
+   - Thời gian: Đang diễn ra trong tháng | Nguồn: https://news.google.com/rss/articles/CBMingFBVV95cUxNRnEzWlpFc2h6dHZFTHo2LTdyX2E3RzBmbFVvVUtvQ0hSYklqV2ZoQTlKM2lKX29vVHpBTGxUdkZTTmhkUWp1ai1QdDMxQlBCeTNzQnM3cHJ2bVhpN0pfanJzUUpRRjN0UHc0Y2l4aUtSUlAtVVcxS0l2ZERZc2dxQV9KQUNHTWttMWRyVVBIcTlHckVEdFdKNXpPZHVGQQ?oc=5
+
+2. [CellphoneS] CellphoneS mở bán Huawei Watch Kids X1: Giảm ngay 1 triệu kèm nhiều ưu đãi hấp dẫn khác - CellphoneS (Ưu đãi hấp dẫn)
+   - Diễn biến: CellphoneS mở bán Huawei Watch Kids X1: Giảm ngay 1 triệu kèm nhiều ưu đãi hấp dẫn khác&amp;nbsp;&amp;nbsp;CellphoneS
+   - Thời gian: Đang diễn ra trong tháng | Nguồn: https://news.google.com/rss/articles/CBMie0FVX3lxTE5Ta3lIajA1emJKMWs1V0RkOGJLSzFieURwcTJodEJuaG90Rm5FWUsxUzBhWWNZZGZqak5mV3lFM2dFUktLckwxNmpHbFJkWXEydldOZHgwZWZCVWFzd1FEWjBremdGWmFwMTVKcVVocmdWSnQwQ2F4ZHoybw?oc=5
+
+3. [CellphoneS] Săn sale 2/9 tại CellphoneS với nhiều sản phẩm công nghệ có mức giá ưu đãi hấp dẫn lên đến 70% - Báo Thanh Hóa (Ưu đãi hấp dẫn)
+   - Diễn biến: Săn sale 2/9 tại CellphoneS với nhiều sản phẩm công nghệ có mức giá ưu đãi hấp dẫn lên đến 70%&amp;nbsp;&amp;nbsp;Báo Thanh Hóa
+   - Thời gian: Đang diễn ra trong tháng | Nguồn: https://news.google.com/rss/articles/CBMixgFBVV95cUxPS0pWa1FFOV8wSkVlckd2QUd5aTNIS2hiYUg4azB4VTFVZGhNcmJhOEU0dnhwRlQ0bkNEV3pFZmNmYTRpbEhCM2dsVlBjN2FHMTk0allLdTMyY2UzYWR3RjdXc0VaNWpOa3Y1MUg2b0FRbXVkWm9fZ2dOWGpQUkVodVRZVC05Z1N1SXEtT1lGQWY1cXhXYkU2N0w1TS1DTkh0R3hVZDVGa25rN0xOU0ZnUUVOOHZBbjFMbktTUUN1TGdldWxDakE?oc=5
+
+4. [CellphoneS] Sale Quốc khánh CellphoneS khuyến mãi mừng đại lễ kỷ niệm 81 năm - Vietstock (Ưu đãi hấp dẫn)
+   - Diễn biến: Sale Quốc khánh CellphoneS khuyến mãi mừng đại lễ kỷ niệm 81 năm&amp;nbsp;&amp;nbsp;Vietstock
+   - Thời gian: Đang diễn ra trong tháng | Nguồn: https://news.google.com/rss/articles/CBMirwFBVV95cUxONVNsWDJaOXprdHJZQjItVDNMaDl5X1pwMmpMaVptbWUza2hpOTNBenMzUThjMW1Hb3E2SWQwakhmaG01Tlp5TXRxSnk1TzF3RnJYU0ZuVnBPM0drNzBuY0hCZWgtTkRqVk9JajJqd1o1SnZXcjVZcXc3eVpkZzI0WWljc3JVY1J3QnNpV0JvdlhIMlllVV83RWgwemVDZmtMSC1peHh3Y1k4VXFXZlo0?oc=5
 
 -------------------------------------------------------
 
@@ -1244,68 +1756,72 @@
    - Nguồn: Reuters / BBC World (https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&amp;at_campaign=rss)
 
 📱 B. Công Nghệ &amp; Thiết Bị Di Động Quốc Tế (GSMArena, The Verge):
-1. Báo cáo mới cho biết Apple muốn iPhone Ultra có giá 1.999 $
-   - Diễn biến: Apple sẽ tổ chức sự kiện ra mắt iPhone lớn hàng năm vào ngày 9 tháng 9 và dự kiến sẽ ra mắt iPhone Ultra vào ngày đó.
-   - Ý nghĩa: Đây sẽ là điện thoại thông minh có thể gập lại đầu tiên của nó, và nó đã được một thời gian rất dài sắp tới Theo một báo cáo mới từ Mark Gurman của Bloomberg,.
-   - Nguồn: GSMArena (https://www.gsmarena.com/apple_wanted_the_iphone_ultra_to_cost_1999_new_report_says-news-74523.php)
+1. Sony không loại bỏ đĩa khá nhanh như chúng ta nghĩ
+   - Diễn biến: Sony không lùi bước trước quyết định loại bỏ đĩa trò chơi điện tử vào tháng 1 năm 2028. Nhưng Sony cũng không ngừng sản xuất nhanh như chúng tôi nghĩ. Hai tháng sau khi có báo cáo rằng nhà máy sản xuất đĩa cuối cùng của Sony đã được tái sử dụng, bộ phận sản xuất đĩa của công ty...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: The Verge Tech (https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent)
 
-2. Oppo A7 Pro hiện đã chính thức ra mắt với pin 8.000 mAh
-   - Diễn biến: A7 Pro của Oppo cuối cùng đã gia nhập A7 Pro Max, được ra mắt vào tháng 8.
-   - Ý nghĩa: A7 Pro sẽ có mặt tại Trung Quốc vào ngày 11 tháng 9 và trước đó công ty đã bắt đầu nhận đơn đặt hàng trước cho thiết bị ngay hôm nay, cũng tiết lộ thông số kỹ thuật và giá cả của nó trong quá trình này.
-   - Nguồn: GSMArena (https://www.gsmarena.com/oppo_a7_pro_is_now_official_with_an_8000_mah_battery-news-74520.php)
+2. Drama swirls around OpenAI’s legendary mathematical milestone
+   - Diễn biến: OpenAI cho biết họ đã tìm ra giải pháp cho một vấn đề toán học lớn vẫn chưa được giải quyết trong khoảng 90 năm, theo báo cáo trước đó của The New York Times và Wired. Trong một bài đăng trên blog vào thứ ba, OpenAI thông báo rằng họ đã phát hiện ra một giải pháp cho vấn đề Navier-Stokes - liên quan đến...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: The Verge Tech (https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution)
 
-3. Samsung Galaxy S26 FE review
-   - Diễn biến: Samsung mở rộng danh mục dòng máy phổ thông với pin 5.000mAh và màn hình tần số quét 90Hz.
-   - Ý nghĩa: Bảo vệ vững chắc vị thế dẫn đầu 31.2% thị phần bán lẻ GfK trước sự bám đuổi của Xiaomi và Realme.
-   - Nguồn: GSMArena (https://www.gsmarena.com/samsung_galaxy_s26_fe-review-2999.php)
+3. Rivian spinout Cũng xin lỗi vì sự chậm trễ trong việc vận chuyển xe đạp điện tương lai
+   - Diễn biến: Xe đạp điện tương lai của Rivian bị trì hoãn và khách hàng không hài lòng. Năm ngoái, Rivian cũng đã tiết lộ một chiếc xe đạp điện mới, được điều khiển bằng phần mềm có tên TM-B, ngay lập tức khiến thế giới xe đạp điện bùng cháy. Với pin sạc USB-C, giá đỡ ghế có thể tháo rời,...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: The Verge Tech (https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology)
 
-4. SoC Dimensity 9600 Pro của MediaTek hiện đã có ngày ra mắt chính thức
-   - Diễn biến: Hôm nay trên X, MediaTek đã tiết lộ khi nào họ có kế hoạch công bố SoC kích thước hàng đầu tiếp theo của mình: vào ngày 15 tháng 9 lúc 2:30 chiều tại Trung Quốc.
-   - Ý nghĩa: Đó là 2:30 sáng ở New York, 7:30 sáng ở London, 8:30 sáng ở Trung Âu, 9:30 sáng ở Đông Âu và 12 giờ trưa ở Ấn Độ Theo bài đăng trên X,.
-   - Nguồn: GSMArena (https://www.gsmarena.com/mediateks_dimensity_9600_pro_soc_now_has_an_official_launch_date-news-74521.php)
+4. Tai nghe chơi game được trang bị ANC của Razer cho PS5 và Xbox giảm gần 100 $
+   - Diễn biến: Rất hiếm khi tìm thấy các tính năng cao cấp như khử tiếng ồn chủ động trong tai nghe chơi game dưới 200 $, vì vậy chúng tôi rất vui mừng khi Razer BlackShark V3 Pro được bán tại Woot với giá $ 164,99. Có những mô hình cụ thể được bán trên thị trường cho Xbox và PlayStation, nhưng phiên bản Xbox là lựa chọn tốt nhất b...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: The Verge Tech (https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale)
 
-5. Chúng tôi thực hành với màn hình NxtPaper dựa trên OLED của TCL P80 Pro, TCL P80 cũng được xử lý
-   - Diễn biến: TCL đã thực hiện một bước nhảy lớn với dòng điện thoại P80 – đây là những chiếc điện thoại đầu tiên có màn hình NxtPaper dựa trên tấm nền OLED thay vì LCD.
-   - Ý nghĩa: Những lợi ích chính là thông thường – độ sáng cao hơn, độ tương phản cao hơn, màu sắc đục lỗ hơn – nhưng công ty đảm bảo rằng những lợi thế này không.
-   - Nguồn: GSMArena (https://www.gsmarena.com/we_go_handson_with_tcl_p80_pros_oledbased_nxtpaper_display_tcl_p80_also_handled-news-74515.php)
+5. ChatGPT Sketch turns your bad drawings into detailed AI images
+   - Diễn biến: OpenAI đã công bố ChatGPT Images 2.5 vào thứ ba và đang thêm một cách mới để nói với ChatGPT những gì bạn muốn nó tạo ra một hình ảnh: bằng cách vẽ một hình tượng trưng. Với một tính năng mới được gọi là Phác thảo, bạn chỉ có thể vẽ một cái gì đó ngay bên trong ChatGPT và sau đó nói với ChatGPT cách bạn muốn nó tạo ra một...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: The Verge Tech (https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch)
 
 ⚡ C. Tin Vắn Nhanh Quốc Tế:
 • [Những bức tranh Renoir trị giá hàng t...]: Đây là vụ mới nhất trong một loạt các vụ trộm cắp nghệ thuật cao cấp ở châu Âu đã một lần nữa đưa an ninh của các bảo tàng và phòng trưng bày trở thành tâm điểm chú ý. (Nguồn: Reuters / BBC World)
 • [Meta tiếp tục chạy quảng cáo quảng bá...]: Báo cáo này theo sau một cuộc điều tra của BBC Eye cho thấy Instagram chạy quảng cáo trả tiền quảng bá tài liệu như vậy ở Ấn Độ. (Nguồn: Reuters / BBC World)
-• [Mỹ cấm sữa, xe máy và hầu hết đồ uống...]: Chính quyền Trump tuyên bố hành động một ngày sau khi Ottawa áp đặt mức thuế trả đũa 20 tỷ$ đối với hàng hóa của Mỹ. (Nguồn: Bloomberg / Financial Times)
-• [Meta tiết lộ trợ lý cá nhân AI được l...]: ‘tác nhân‘ mới được gọi là Muse được thiết kế để đưa ra các đề xuất tùy chỉnh dựa trên các cuộc trò chuyện và hoạt động truyền thông xã hội. (Nguồn: Bloomberg / Financial Times)
-• [Giới trẻ Mỹ chưa bao giờ chứng kiến m...]: Hai mươi lăm năm sau ngày 11/9, nợ và chi tiêu quốc phòng đang phình to trong khi ngoại giao bị bỏ đói và các đồng minh bị xa lánh. (Nguồn: Bloomberg / Financial Times)
+• [Anthropic đã giữ lại mô hình AI mới n...]: Quyết định loại trừ AISI lần đầu tiên đã khiến chính phủ Anh lo ngại về sự thay đổi chủ nghĩa bảo hộ rộng lớn hơn giữa các nhóm công nghệ. (Nguồn: Bloomberg / Financial Times)
+• [Các lỗ hổng trên Mái Vòm Vàng của Trump]: Tổng thống cho biết một lá chắn tên lửa kéo dài từ Trái đất vào không gian có thể được xây dựng với giá 185 tỷ $. (Nguồn: Bloomberg / Financial Times)
+• [Warsh có thể vẫn là một chủ tịch Fed tốt]: Ông phải rõ ràng về các mục tiêu của chính sách và hợp lý về cách ngân hàng trung ương nên tự quản lý. (Nguồn: Bloomberg / Financial Times)
 
 -------------------------------------------------------
 
 📱 3. TIN SOCIAL &amp; XU HƯỚNG MẠNG XÃ HỘI
-1. Sắc vóc nữ chính phim 'Đầu xuân tươi sáng'
+1. Hoàng tử George gây sốt với đồng phục nhập học
+   - Tiêu điểm: Hoàng tử George, 13 tuổi, thu hút khi diện áo đuôi tôm trong ngày nhập học ngôi trường đắt đỏ bậc nhất Anh.
+   - Độ lan tỏa: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
+   - Nguồn: VnExpress Giải Trí (https://vnexpress.net/hoang-tu-george-gay-sot-voi-dong-phuc-nhap-hoc-5118147.html)
+
+2. Sắc vóc nữ chính phim 'Đầu xuân tươi sáng'
    - Tiêu điểm: Diễn viên Tôn Thiên - nữ chính phim gây sốt &quot;Đầu xuân tươi sáng&quot; - gây chú ý khán giả với nét đẹp trong trẻo.
    - Độ lan tỏa: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
    - Nguồn: VnExpress Giải Trí (https://vnexpress.net/sac-voc-nu-chinh-phim-dau-xuan-tuoi-sang-5117669.html)
 
-2. Joheirry Mola: Không bỏ nghề giáo khi đăng quang Miss World
+3. Joheirry Mola: Không bỏ nghề giáo khi đăng quang Miss World
    - Tiêu điểm: Hoa hậu Joheirry Mola Dominguez nói &quot;xem học sinh là cả thế giới&quot; và sẽ tìm người hỗ trợ các em trong thời gian cô bận đảm nhận vai trò Miss World 2026.
    - Độ lan tỏa: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
    - Nguồn: VnExpress Giải Trí (https://vnexpress.net/joheirry-mola-khong-bo-nghe-giao-khi-dang-quang-miss-world-5118084.html)
 
-3. Lần đầu công diễn kiệt tác opera 'Tosca' ở Việt Nam
-   - Tiêu điểm: Nhà hát Nhạc Vũ kịch Việt Nam (VNOB) lần đầu công diễn trọn vở ''Tosca'' tại Nhà hát Hồ Gươm, Hà Nội, ngày 26 và 27/9.
+4. Son Ye Jin diễn mối tình tay ba trong phim 19+
+   - Tiêu điểm: Phu nhân Cho (Son Ye Jin đóng) thách thức người đàn ông chinh phục một phụ nữ khác, ở phim 19+ &quot;The Scandal&quot;.
    - Độ lan tỏa: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
-   - Nguồn: VnExpress Giải Trí (https://vnexpress.net/lan-dau-cong-dien-kiet-tac-opera-tosca-o-viet-nam-5117473.html)
+   - Nguồn: VnExpress Giải Trí (https://vnexpress.net/son-ye-jin-dien-moi-tinh-tay-ba-trong-phim-19-5118190.html)
 
-4. Hoa hậu Thế giới và 2 á hậu khoe sắc ở TP HCM
-   - Tiêu điểm: Tân hoa hậu Joheirry Mola và hai á hậu rạng rỡ trong buổi giao lưu ở TP HCM, sau ba ngày kết thúc cuộc thi Miss World 2026.
-   - Độ lan tỏa: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
-   - Nguồn: VnExpress Giải Trí (https://vnexpress.net/hoa-hau-the-gioi-va-2-a-hau-khoe-sac-o-tp-hcm-5118080.html)
-
-🔥 Top từ khóa thịnh hành Google Trends (Việt Nam):
-   • park hang-seo (500+)
-   • sức khỏe và đời sống (100+)
-   • hồng vân (2000+)
-   • vietinbank (2000+)
-   • погода (200+)
-   • tài sản (2000+)
+🔥 Top từ khóa thịnh hành Google Trends (Việt Nam — Top 10):
+   #01. đâu xuân tươi sáng (200+) [🔥 Thịnh hành]
+   #02. độ cồn (200+) [🔥 Thịnh hành]
+   #03. thành phố hồ chí minh (500+) [🔥 Thịnh hành]
+   #04. carlos alcaraz (1000+) [🔥 Thịnh hành]
+   #05. lại văn sâm (1000+) [🔥 Thịnh hành]
+   #06. park hang seo (1000+) [🔥 Thịnh hành]
+   #07. sức khỏe và đời sống (100+) [🔥 Thịnh hành]
+   #08. hồng vân (2000+) [🔥 Thịnh hành]
+   #09. vietinbank (5000+) [🔥 Thịnh hành]
+   #10. погода (200+) [🔥 Thịnh hành]
 </textarea>
 
   <script>

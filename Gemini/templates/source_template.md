@@ -36,6 +36,9 @@ Trạng thái hệ thống: {system_status}
 - **Dầu DO 0.05S**: {fuel_do} đ/lít
 - *Nguồn: Petrolimex / Bộ Công Thương*
 
+### 🏛️ Tổng Hợp Diễn Biến Thị Trường Cổ Phiếu & Vàng 24h
+{financial_overview_content}
+
 ---
 
 ## PHẦN 2 — TIN TRONG NƯỚC
@@ -44,6 +47,9 @@ Trạng thái hệ thống: {system_status}
 
 ### 💻 B. Công Nghệ & Số Hóa Trong Nước (Tinhte, GenK, Số Hóa)
 {domestic_tech_news_content}
+
+### ⚔️ C. Chiến Dịch Quảng Cáo & Khuyến Mãi Đối Thủ (CellphoneS vs FPT Shop — 30 Ngày)
+{competitor_campaigns_content}
 
 ---
 

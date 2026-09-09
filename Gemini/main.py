@@ -17,6 +17,7 @@ from src.collectors.indices import collect_all_indices
 from src.collectors.news_rss import collect_news
 from src.collectors.trends import collect_all_trends
 from src.collectors.marketshare import get_latest_marketshare_data
+from src.collectors.competitors import collect_competitor_campaigns
 
 # Import các module xử lý
 from src.processors.dedup import deduplicate_items
@@ -24,6 +25,7 @@ from src.processors.verify import verify_and_tag_items
 from src.processors.ranker import rank_items
 from src.processors.translator import translate_news_batch
 from src.processors.news_analyzer import process_and_structure_all_news
+from src.processors.financial_overview import generate_financial_overview
 
 # Import bộ sinh xuất bản và QC
 from src.publisher.site_builder import build_daily_portal
@@ -90,16 +92,42 @@ def format_daily_source_md(data: dict) -> str:
         soc_lines.append(f"### {idx}. {it.get('title')}\n- **Tiêu điểm**: {it.get('highlight')}\n- **Độ lan tỏa**: {it.get('virality')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
     social_news_content = "\n".join(soc_lines) if soc_lines else "*Đang cập nhật tiêu điểm social.*"
 
+    # 0. TỔNG HỢP TÀI CHÍNH & VÀNG
+    fin = data.get("financial_overview", {})
+    fin_lines = []
+    if fin:
+        stk = fin.get("stock_market", {})
+        gld = fin.get("gold_market", {})
+        fin_lines.append(f"#### 1. Thị trường Cổ phiếu (VN-Index): {stk.get('trend_label', 'Tích cực')}")
+        fin_lines.append(f"- **Tóm tắt diễn biến**: {stk.get('summary')}")
+        fin_lines.append(f"- **Phân tích dòng tiền & kỹ thuật**:\n{stk.get('analysis')}\n")
+        fin_lines.append(f"#### 2. Thị trường Vàng (SJC & Kitco): Biên độ {gld.get('spread')}")
+        fin_lines.append(f"- **Tóm tắt diễn biến**: {gld.get('summary')}")
+        fin_lines.append(f"- **Tác động vĩ mô & chênh lệch**:\n{gld.get('analysis')}\n")
+    financial_overview_content = "\n".join(fin_lines) if fin_lines else "*Đang tổng hợp diễn biến thị trường tài chính.*"
+
+    # CHIẾN DỊCH QUẢNG CÁO & KHUYẾN MÃI ĐỐI THỦ (30 NGÀY)
+    comp = data.get("competitors", {})
+    comp_lines = []
+    for idx, c in enumerate(comp.get("all_campaigns", [])[:6], 1):
+        new_tag = "[MỚI CẬP NHẬT] " if c.get("is_new") else ""
+        comp_lines.append(f"### {idx}. {new_tag}[{c.get('brand')}] {c.get('title')}")
+        comp_lines.append(f"- **Điểm nhấn**: {c.get('discount_highlight')}")
+        comp_lines.append(f"- **Nội dung ưu đãi**: {c.get('summary')}")
+        comp_lines.append(f"- **Thời gian áp dụng**: {c.get('duration')} | **Cập nhật**: {c.get('pub_date')}")
+        comp_lines.append(f"- **Nguồn**: [{c.get('brand')}]({c.get('url')})\n")
+    competitor_campaigns_content = "\n".join(comp_lines) if comp_lines else "*Chưa ghi nhận chiến dịch mới trong 30 ngày.*"
+
     # 6. TIN VẮN NHANH
     flash_lines = []
     for it in structured.get("flash_news", []):
         flash_lines.append(f"• **[{it.get('event')}]**: {it.get('summary')} (Nguồn: [{it.get('source')}]({it.get('link')}))")
     flash_news_content = "\n".join(flash_lines) if flash_lines else "*Đang cập nhật tin vắn nhanh.*"
     
-    # Trends
+    # Trends (Top 10 Google Trends)
     trends = data.get("trends", {})
     vn_t = trends.get("vn_trends", [])
-    trend_lines = [f"- **{t['keyword']}** ({t['traffic']}) [{t['tag']}]" for t in vn_t]
+    trend_lines = [f"- **#{t.get('rank', idx+1):02d}**: **{t['keyword']}** ({t['traffic']}) [{t['tag']}]" for idx, t in enumerate(vn_t[:10])]
     trends_content = "\n".join(trend_lines) if trend_lines else "*Chưa có số liệu trends mới.*"
     
     # Thị phần (GfK Vietnam Retail Audit & Counterpoint Research - BỎ KHUYẾN NGHỊ)
@@ -152,8 +180,10 @@ def format_daily_source_md(data: dict) -> str:
         fuel_e5=fuel.get("e5_ron92", "19.740 đ/lít"),
         fuel_do=fuel.get("diesel_do", "18.320 đ/lít"),
         fuel_update_date=fuel.get("update_date", "Kỳ điều hành gần nhất"),
+        financial_overview_content=financial_overview_content,
         economy_news_content=economy_news_content,
         domestic_tech_news_content=domestic_tech_news_content,
+        competitor_campaigns_content=competitor_campaigns_content,
         intl_macro_news_content=intl_macro_news_content,
         intl_tech_news_content=intl_tech_news_content,
         social_news_content=social_news_content,
@@ -173,15 +203,22 @@ def run_pipeline(dry_run: bool = False):
     modules_cfg = load_yaml_config(PROJECT_ROOT / "config" / "modules.yaml")
     notebook_cfg = load_yaml_config(PROJECT_ROOT / "config" / "notebooklm.yaml")
     
-    # 2. GIAI ĐOẠN A: THU THẬP DỮ LIỆU
+    # 2. GIAI ĐOẠN A: THU THẬP DỮ LIỆU ĐA NGUỒN
     print("\n[A] Thu thập dữ liệu:")
     print("  -> Đang lấy chỉ số tài chính, vàng, tỷ giá, xăng dầu...")
     indices_data = collect_all_indices()
     
+    print("  -> Đang tổng hợp phân tích tài chính cổ phiếu & thị trường vàng...")
+    financial_overview_data = generate_financial_overview(indices_data)
+    
+    print("  -> Đang quét chiến dịch quảng cáo & khuyến mãi đối thủ (CellphoneS & FPT Shop)...")
+    competitors_data = collect_competitor_campaigns()
+    print(f"     => Thu thập {competitors_data['total_campaigns']} chiến dịch ({competitors_data['new_campaigns_count']} bài mới).")
+    
     print("  -> Đang quét các kênh RSS báo chí chính thống...")
     raw_news = collect_news(sources_cfg)
     
-    print("  -> Đang quét Google Trends (VN & Global)...")
+    print("  -> Đang quét Google Trends (VN Top 10 & Global)...")
     trends_data = collect_all_trends()
     
     print("  -> Đang nạp số liệu thị phần Smartphone (Counterpoint / Canalys)...")
@@ -208,11 +245,13 @@ def run_pipeline(dry_run: bool = False):
 
     master_data = {
         "indices": indices_data,
+        "financial_overview": financial_overview_data,
+        "competitors": competitors_data,
         "news": processed_news,
         "structured_news": structured_news,
         "trends": trends_data,
         "marketshare": marketshare_data,
-        "sources_scanned": len(sources_cfg.get("news_domestic", [])) + len(sources_cfg.get("technology", [])) + 4,
+        "sources_scanned": len(sources_cfg.get("news_domestic", [])) + len(sources_cfg.get("technology", [])) + 6,
         "sources_failed": 0
     }
     

@@ -524,9 +524,255 @@ EDITORIAL_HTML_TEMPLATE = """<!DOCTYPE html>
       font-weight: 600;
     }}
 
-    .trend-traffic-val {{
-      color: var(--delta-up);
+    .trend-editorial-header {{
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }}
+
+    .trend-rank-badge {{
+      font-size: 0.68rem;
       font-weight: 800;
+      color: #78716c;
+      background: #e7e5e4;
+      padding: 1px 5px;
+      border-radius: 4px;
+      letter-spacing: 0.02em;
+    }}
+
+    /* Financial Editorial Card */
+    .financial-editorial-card {{
+      background: #ffffff;
+      border: 1px solid var(--border-sand);
+      border-radius: 12px;
+      margin-bottom: 16px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    }}
+
+    .fin-card-header {{
+      background: #1c1917;
+      color: #ffffff;
+      padding: 10px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }}
+
+    .fin-header-title {{
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }}
+
+    .fin-header-tag {{
+      font-size: 0.65rem;
+      font-weight: 700;
+      background: #292524;
+      color: #d6d3d1;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.05em;
+    }}
+
+    .fin-card-body {{
+      padding: 12px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }}
+
+    @media (max-width: 600px) {{
+      .fin-card-body {{
+        grid-template-columns: 1fr;
+      }}
+    }}
+
+    .fin-col {{
+      background: #faf8f5;
+      border: 1px solid var(--border-sand);
+      border-radius: 8px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }}
+
+    .fin-col-title {{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: var(--text-black);
+      border-bottom: 1px solid #eee7db;
+      padding-bottom: 6px;
+    }}
+
+    .fin-badge-trend {{
+      font-size: 0.68rem;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }}
+
+    .fin-badge-trend.up {{
+      background: #dcfce7;
+      color: #15803d;
+    }}
+
+    .fin-badge-trend.down {{
+      background: #fee2e2;
+      color: #b91c1c;
+    }}
+
+    .fin-badge-trend.gold {{
+      background: #fef3c7;
+      color: #b45309;
+    }}
+
+    .fin-summary {{
+      font-size: 0.82rem;
+      line-height: 1.5;
+      color: #44403c;
+      font-family: 'Newsreader', Georgia, serif;
+    }}
+
+    .fin-details {{
+      display: flex;
+      gap: 12px;
+      background: #ffffff;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1px solid #eedecb;
+      font-size: 0.74rem;
+    }}
+
+    .fin-stat-item {{
+      display: flex;
+      gap: 4px;
+    }}
+
+    .fin-stat-k {{
+      color: var(--text-muted);
+      font-weight: 600;
+    }}
+
+    .fin-stat-v {{
+      font-weight: 800;
+      color: var(--text-black);
+    }}
+
+    .fin-narrative {{
+      font-size: 0.77rem;
+      color: #57534e;
+      line-height: 1.45;
+    }}
+
+    /* Competitor Campaigns Cards */
+    .competitor-editorial-container {{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 18px;
+    }}
+
+    .competitor-card {{
+      background: #ffffff;
+      border: 1px solid var(--border-sand);
+      border-radius: 10px;
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }}
+
+    .competitor-card:hover {{
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }}
+
+    .comp-header {{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 6px;
+    }}
+
+    .comp-brand-badge {{
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.02em;
+    }}
+
+    .comp-brand-badge.cellphones {{
+      background: #fee2e2;
+      color: #dc2626;
+      border: 1px solid #fca5a5;
+    }}
+
+    .comp-brand-badge.fpt {{
+      background: #e0e7ff;
+      color: #4338ca;
+      border: 1px solid #c7d2fe;
+    }}
+
+    .comp-new-badge {{
+      background: #10b981;
+      color: #ffffff;
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 9999px;
+    }}
+
+    .comp-highlight {{
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #b45309;
+      background: #fef3c7;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }}
+
+    .comp-title {{
+      font-size: 0.88rem;
+      font-weight: 800;
+      color: var(--text-black);
+      line-height: 1.35;
+    }}
+
+    .comp-title a {{
+      color: inherit;
+      text-decoration: none;
+    }}
+
+    .comp-title a:hover {{
+      text-decoration: underline;
+    }}
+
+    .comp-summary {{
+      font-size: 0.8rem;
+      color: #57534e;
+      line-height: 1.45;
+      font-family: 'Newsreader', Georgia, serif;
+    }}
+
+    .comp-meta {{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      border-top: 1px dashed #eedecb;
+      padding-top: 6px;
+      margin-top: 2px;
     }}
 
     /* Flash News List */
@@ -731,6 +977,9 @@ EDITORIAL_HTML_TEMPLATE = """<!DOCTYPE html>
         </div>
       </div>
 
+      <!-- Section: Tổng hợp Diễn biến Thị trường Tài chính & Vàng -->
+      {financial_overview_html}
+
       <!-- Section: 3 Điểm tin vĩ mô nóng nhất (Black Banner) -->
       <div class="editorial-banner-card">
         <div class="banner-black-top">
@@ -753,6 +1002,17 @@ EDITORIAL_HTML_TEMPLATE = """<!DOCTYPE html>
       </div>
       <div class="standalone-card-body">
         {domestic_tech_news_html}
+      </div>
+
+      <!-- Section: Chiến dịch Quảng cáo & Khuyến mãi Đối thủ (CellphoneS vs FPT Shop) -->
+      <div class="section-headline-line">
+        <div class="headline-left">
+          <span>⚔️</span> CHIẾN DỊCH KHUYẾN MÃI ĐỐI THỦ (30 NGÀY)
+        </div>
+        <div class="headline-right">CELLPHONES vs FPT SHOP</div>
+      </div>
+      <div class="competitor-editorial-container">
+        {competitor_campaigns_html}
       </div>
 
       <!-- Section: Khảo sát thị phần Smartphone Việt Nam -->
@@ -865,12 +1125,12 @@ EDITORIAL_HTML_TEMPLATE = """<!DOCTYPE html>
     <!-- ============================================== -->
     <div id="tabContent3" class="tab-pane">
 
-      <!-- Section: Top Trends Google -->
+      <!-- Section: Top Trends Google (Top 10) -->
       <div class="section-headline-line">
         <div class="headline-left">
-          <span>🔥</span> TOP TỪ KHÓA THỊNH HÀNH GOOGLE
+          <span>🔥</span> TOP TỪ KHÓA THỊNH HÀNH GOOGLE (TOP 10)
         </div>
-        <div class="headline-right">VIỆT NAM 24H</div>
+        <div class="headline-right">HOT NHẤT HÔM NAY</div>
       </div>
       <div class="standalone-card-body">
         <div class="trends-editorial-grid">
@@ -1017,32 +1277,168 @@ def render_flash_news_html(items: List[Dict[str, Any]]) -> str:
         """)
     return "\n".join(html_parts)
 
-def render_trends_chips_html(vn_trends: List[Dict[str, Any]]) -> str:
-    if not vn_trends:
-        return "<p style='color: var(--text-muted); font-size: 0.85rem;'>Chưa có dữ liệu xu hướng mới.</p>"
+def render_financial_overview_html(fin_data: Dict[str, Any]) -> str:
+    """Render component Tổng hợp Diễn biến Thị trường Tài chính & Vàng (2 cột)"""
+    if not fin_data:
+        return ""
+        
+    stock = fin_data.get("stock_market", {})
+    gold = fin_data.get("gold_market", {})
+    
+    stock_trend_label = stock.get("trend_label", "Tích cực")
+    stock_is_up = not str(stock.get("change", "")).strip().startswith("-")
+    stock_trend_cls = "up" if stock_is_up else "down"
+    
+    stock_summary = stock.get("summary", "")
+    stock_vol = stock.get("volume", "680.5M")
+    stock_foreign = stock.get("foreign_position", "Mua ròng")
+    stock_analysis = stock.get("analysis", "").replace("\n", "<br>")
+    
+    gold_summary = gold.get("summary", "")
+    gold_ring_buy = gold.get("ring_buy", "144.10")
+    gold_ring_sell = gold.get("ring_sell", "147.60")
+    gold_world = gold.get("world_price", "4,429 USD/oz")
+    gold_spread = gold.get("spread", "~3.0 tr.đ/lượng")
+    gold_analysis = gold.get("analysis", "").replace("\n", "<br>")
+    
+    return f"""
+    <div class="financial-editorial-card">
+      <div class="fin-card-header">
+        <div class="fin-header-title">
+          <span>🏛️</span> TỔNG HỢP DIỄN BIẾN THỊ TRƯỜNG TÀI CHÍNH & VÀNG
+        </div>
+        <div class="fin-header-tag">PHÂN TÍCH CHUYÊN SÂU</div>
+      </div>
+      <div class="fin-card-body">
+        <!-- Cột 1: Cổ phiếu & Dòng tiền -->
+        <div class="fin-col">
+          <div class="fin-col-title">
+            <span style="display: flex; align-items: center; gap: 4px;">📈 <strong>Thị Trường Cổ Phiếu (VN-Index)</strong></span>
+            <span class="fin-badge-trend {stock_trend_cls}">{stock_trend_label}</span>
+          </div>
+          <div class="fin-summary">{stock_summary}</div>
+          <div class="fin-details">
+            <div class="fin-stat-item">
+              <span class="fin-stat-k">Thanh khoản:</span>
+              <span class="fin-stat-v">{stock_vol}</span>
+            </div>
+            <div class="fin-stat-item">
+              <span class="fin-stat-k">Khối ngoại:</span>
+              <span class="fin-stat-v">{stock_foreign}</span>
+            </div>
+          </div>
+          <div class="fin-narrative">{stock_analysis}</div>
+        </div>
+        
+        <!-- Cột 2: Thị trường Vàng -->
+        <div class="fin-col">
+          <div class="fin-col-title">
+            <span style="display: flex; align-items: center; gap: 4px;">🪙 <strong>Thị Trường Vàng (SJC & Kitco)</strong></span>
+            <span class="fin-badge-trend gold">Biên độ {gold_spread}</span>
+          </div>
+          <div class="fin-summary">{gold_summary}</div>
+          <div class="fin-details">
+            <div class="fin-stat-item">
+              <span class="fin-stat-k">Vàng nhẫn 9999:</span>
+              <span class="fin-stat-v">{gold_ring_buy} - {gold_ring_sell} tr</span>
+            </div>
+            <div class="fin-stat-item">
+              <span class="fin-stat-k">Kitco Spot:</span>
+              <span class="fin-stat-v">{gold_world}</span>
+            </div>
+          </div>
+          <div class="fin-narrative">{gold_analysis}</div>
+        </div>
+      </div>
+    </div>
+    """
+
+def render_competitor_campaigns_html(competitors_data: Dict[str, Any]) -> str:
+    """Render component Chiến dịch Khuyến mãi Đối thủ (CellphoneS & FPT Shop)"""
+    if not competitors_data:
+        return "<p style='color: var(--text-muted); font-size: 0.85rem;'>Chưa ghi nhận chiến dịch mới từ đối thủ.</p>"
+        
+    campaigns = competitors_data.get("all_campaigns", [])
+    if not campaigns:
+        return "<p style='color: var(--text-muted); font-size: 0.85rem;'>Chưa ghi nhận chiến dịch mới từ đối thủ.</p>"
         
     parts = []
-    for t in vn_trends[:6]:
-        kw = t.get("keyword", "")
-        traffic = t.get("traffic", "10K+")
-        tag = t.get("tag", "🔥 Hot")
+    for c in campaigns[:6]:
+        brand = c.get("brand", "Đối thủ")
+        brand_cls = "cellphones" if "cellphone" in brand.lower() else "fpt"
+        is_new = c.get("is_new", False)
+        new_badge = '<span class="comp-new-badge">⚡ MỚI CẬP NHẬT</span>' if is_new else ''
+        highlight = c.get("discount_highlight", "Ưu đãi hấp dẫn")
+        title = c.get("title", "")
+        summary = c.get("summary", "")
+        url = c.get("url", "#")
+        duration = c.get("duration", "Đang diễn ra trong tháng")
+        pub_date = c.get("pub_date", "")
+        
         parts.append(f"""
-        <div class="trend-editorial-chip">
-          <div class="trend-editorial-kw">{kw}</div>
-          <div class="trend-editorial-meta">
-            <span>{tag}</span>
-            <span class="trend-traffic-val">{traffic}</span>
+        <div class="competitor-card">
+          <div class="comp-header">
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <span class="comp-brand-badge {brand_cls}">{brand}</span>
+              {new_badge}
+            </div>
+            <span class="comp-highlight">{highlight}</span>
+          </div>
+          <div class="comp-title">
+            <a href="{url}" target="_blank">{title} ↗</a>
+          </div>
+          <div class="comp-summary">{summary}</div>
+          <div class="comp-meta">
+            <span>⏳ Thời gian: {duration}</span>
+            <span>📅 Cập nhật: {pub_date}</span>
           </div>
         </div>
         """)
     return "\n".join(parts)
 
-def build_raw_newsletter_text(structured_news: Dict[str, Any], date_str: str, vn_trends: List[Dict[str, Any]]) -> str:
+def render_trends_chips_html(vn_trends: List[Dict[str, Any]]) -> str:
+    """Render top 5-10 từ khóa thịnh hành Google Trends kèm badge xếp hạng và traffic"""
+    if not vn_trends:
+        return "<p style='color: var(--text-muted); font-size: 0.85rem;'>Chưa có dữ liệu xu hướng mới.</p>"
+        
+    parts = []
+    for i, t in enumerate(vn_trends[:10]):
+        rank_num = t.get("rank", i + 1)
+        rank_str = f"#{rank_num:02d}"
+        kw = t.get("keyword", "")
+        traffic = t.get("traffic", "10K+")
+        tag = t.get("tag", "🔥 Thịnh hành")
+        parts.append(f"""
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-header">
+            <span class="trend-rank-badge">{rank_str}</span>
+            <span class="trend-editorial-kw">{kw}</span>
+          </div>
+          <div class="trend-editorial-meta">
+            <span>{tag}</span>
+            <span class="trend-traffic-val">{traffic} tìm kiếm</span>
+          </div>
+        </div>
+        """)
+    return "\n".join(parts)
+
+def build_raw_newsletter_text(structured_news: Dict[str, Any], date_str: str, vn_trends: List[Dict[str, Any]], fin_data: Dict[str, Any] = None, comp_data: Dict[str, Any] = None) -> str:
     lines = []
     lines.append(f"📊 BẢN TIN THỊ TRƯỜNG, CÔNG NGHỆ & SOCIAL 24H ({date_str})")
     lines.append("=" * 55)
     lines.append("")
     
+    # 0. TỔNG HỢP TÀI CHÍNH & VÀNG
+    if fin_data:
+        stock = fin_data.get("stock_market", {})
+        gold = fin_data.get("gold_market", {})
+        lines.append("🏛️ TỔNG HỢP DIỄN BIẾN THỊ TRƯỜNG TÀI CHÍNH & VÀNG:")
+        lines.append(f"• Cổ phiếu (VN-Index): {stock.get('summary', '')}")
+        lines.append(f"• Vàng (SJC & Kitco): {gold.get('summary', '')}")
+        lines.append("")
+        lines.append("-" * 55)
+        lines.append("")
+        
     # 1. TIN TRONG NƯỚC
     lines.append("🇻🇳 1. TIN TRONG NƯỚC")
     lines.append("📈 A. Kinh Tế & Thị Trường Trong Nước:")
@@ -1062,6 +1458,16 @@ def build_raw_newsletter_text(structured_news: Dict[str, Any], date_str: str, vn
             lines.append(f"   - Diễn biến: {it.get('development')}")
             lines.append(f"   - Ý nghĩa: {it.get('significance')}")
             lines.append(f"   - Nguồn: {it.get('source')} ({it.get('link')})")
+            lines.append("")
+
+    # Chiến dịch khuyến mãi đối thủ
+    if comp_data and comp_data.get("all_campaigns"):
+        lines.append("⚔️ C. Chiến Dịch Khuyến Mãi Đối Thủ (CellphoneS vs FPT Shop — 30 Ngày):")
+        for idx, c in enumerate(comp_data.get("all_campaigns", [])[:4], 1):
+            tag = "[MỚI CẬP NHẬT] " if c.get("is_new") else ""
+            lines.append(f"{idx}. {tag}[{c.get('brand')}] {c.get('title')} ({c.get('discount_highlight')})")
+            lines.append(f"   - Diễn biến: {c.get('summary')}")
+            lines.append(f"   - Thời gian: {c.get('duration')} | Nguồn: {c.get('url')}")
             lines.append("")
 
     lines.append("-" * 55)
@@ -1108,9 +1514,9 @@ def build_raw_newsletter_text(structured_news: Dict[str, Any], date_str: str, vn
         lines.append("")
 
     if vn_trends:
-        lines.append("🔥 Top từ khóa thịnh hành Google Trends (Việt Nam):")
-        for t in vn_trends[:6]:
-            lines.append(f"   • {t.get('keyword')} ({t.get('traffic')})")
+        lines.append("🔥 Top từ khóa thịnh hành Google Trends (Việt Nam — Top 10):")
+        for i, t in enumerate(vn_trends[:10], 1):
+            lines.append(f"   #{i:02d}. {t.get('keyword')} ({t.get('traffic')}) [{t.get('tag')}]")
         lines.append("")
 
     return "\n".join(lines)
@@ -1124,6 +1530,9 @@ def build_daily_portal(daily_data: Dict[str, Any], output_dir: Path) -> Path:
     gold = indices.get("gold", {})
     stocks = indices.get("stocks", {})
     fuel = indices.get("fuel", {})
+    
+    financial_overview = daily_data.get("financial_overview", {})
+    competitors = daily_data.get("competitors", {})
     
     structured_news = daily_data.get("structured_news", {})
     domestic_economy_items = structured_news.get("domestic_economy_news") or structured_news.get("economy_news", [])
@@ -1143,7 +1552,7 @@ def build_daily_portal(daily_data: Dict[str, Any], output_dir: Path) -> Path:
     # Tính số ấn bản điện tử chuẩn xác (khoảng 418)
     base_issue = 418
     
-    raw_newsletter_text = build_raw_newsletter_text(structured_news, date_str, vn_trends)
+    raw_newsletter_text = build_raw_newsletter_text(structured_news, date_str, vn_trends, financial_overview, competitors)
     
     # Render các khối tin tức theo phong cách huy hiệu đen 01, 02, 03...
     domestic_economy_news_html = render_editorial_news_html(domestic_economy_items[:3], mode="macro")
@@ -1153,6 +1562,9 @@ def build_daily_portal(daily_data: Dict[str, Any], output_dir: Path) -> Path:
     social_news_html = render_editorial_news_html(social_items[:3], mode="social")
     flash_news_html = render_flash_news_html(flash_items)
     trends_chips_html = render_trends_chips_html(vn_trends)
+    
+    financial_overview_html = render_financial_overview_html(financial_overview)
+    competitor_campaigns_html = render_competitor_campaigns_html(competitors)
 
     html = EDITORIAL_HTML_TEMPLATE.format(
         date_str=date_str,
@@ -1167,8 +1579,10 @@ def build_daily_portal(daily_data: Dict[str, Any], output_dir: Path) -> Path:
         vnindex_change=stocks.get("vnindex_change", "+6.88"),
         vnindex_pct=stocks.get("vnindex_pct", "0.54").replace("+", "").replace("%", ""),
         fuel_ron95=fuel.get("ron95", "20.850").replace(" đ/lít", "").replace(" đ", "").replace("/lít", ""),
+        financial_overview_html=financial_overview_html,
         domestic_economy_news_html=domestic_economy_news_html,
         domestic_tech_news_html=domestic_tech_news_html,
+        competitor_campaigns_html=competitor_campaigns_html,
         intl_macro_news_html=intl_macro_news_html,
         intl_tech_news_html=intl_tech_news_html,
         social_news_html=social_news_html,

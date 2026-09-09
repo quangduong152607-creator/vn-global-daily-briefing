@@ -43,11 +43,12 @@ def fetch_google_trends(geo: str = "VN") -> List[Dict[str, Any]]:
                         is_ict = any(k in keyword_lower for k in ICT_KEYWORDS)
                         
                         trends.append({
+                            "rank": len(trends) + 1,
                             "keyword": keyword,
                             "traffic": traffic,
                             "geo": geo,
                             "is_ict": is_ict,
-                            "tag": "📱 ICT/Tech" if is_ict else "🔥 Hot General"
+                            "tag": "📱 ICT / Công nghệ" if is_ict else "🔥 Thịnh hành"
                         })
     except Exception:
         pass
@@ -55,27 +56,35 @@ def fetch_google_trends(geo: str = "VN") -> List[Dict[str, Any]]:
     return trends
 
 def collect_all_trends() -> Dict[str, List[Dict[str, Any]]]:
-    """Lấy cả xu hướng VN và Global kèm fallback offline"""
+    """Lấy cả xu hướng VN và Global kèm fallback offline chuẩn 10 từ khóa hot nhất"""
     vn_trends = fetch_google_trends("VN")
     global_trends = fetch_google_trends("US")
     
-    if not vn_trends:
+    if not vn_trends or len(vn_trends) < 5:
         vn_trends = [
-            {"keyword": "iphone", "traffic": "20K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT/Tech"},
-            {"keyword": "vinfast", "traffic": "15K+", "geo": "VN", "is_ict": False, "tag": "🔥 Hot General"},
-            {"keyword": "samsung galaxy", "traffic": "10K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT/Tech"},
-            {"keyword": "giá vàng sjc", "traffic": "50K+", "geo": "VN", "is_ict": False, "tag": "🔥 Hot General"},
-            {"keyword": "vivo v-series", "traffic": "8K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT/Tech"},
-            {"keyword": "lãi suất ngân hàng", "traffic": "12K+", "geo": "VN", "is_ict": False, "tag": "🔥 Hot General"}
+            {"rank": 1, "keyword": "giá vàng sjc hôm nay", "traffic": "100K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
+            {"rank": 2, "keyword": "iphone 16 pro max giá", "traffic": "50K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT / Công nghệ"},
+            {"rank": 3, "keyword": "vn-index hôm nay", "traffic": "50K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
+            {"rank": 4, "keyword": "samsung galaxy z fold 6", "traffic": "20K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT / Công nghệ"},
+            {"rank": 5, "keyword": "lãi suất ngân hàng vietcombank", "traffic": "20K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
+            {"rank": 6, "keyword": "vinfast vf3 giao xe", "traffic": "20K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
+            {"rank": 7, "keyword": "xiaomi 15 series", "traffic": "10K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT / Công nghệ"},
+            {"rank": 8, "keyword": "giá xăng dầu petrolimex", "traffic": "10K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
+            {"rank": 9, "keyword": "oppo reno 12 5g", "traffic": "10K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT / Công nghệ"},
+            {"rank": 10, "keyword": "điện thoại gập giá rẻ", "traffic": "10K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT / Công nghệ"}
         ]
+    else:
+        # Cập nhật lại rank từ 1 đến N
+        for i, item in enumerate(vn_trends):
+            item["rank"] = i + 1
         
     return {
-        "vn_trends": vn_trends[:12],
+        "vn_trends": vn_trends[:10],
         "global_trends": global_trends[:10]
     }
 
 if __name__ == "__main__":
     t = collect_all_trends()
     print(f"Lấy được {len(t['vn_trends'])} trends VN và {len(t['global_trends'])} trends Global.")
-    for item in t["vn_trends"][:5]:
-        print(f"- {item['keyword']} ({item['traffic']}) [{item['tag']}]")
+    for item in t["vn_trends"][:10]:
+        print(f"#{item['rank']} - {item['keyword']} ({item['traffic']}) [{item['tag']}]")
