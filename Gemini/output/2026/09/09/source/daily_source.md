@@ -1,6 +1,6 @@
 # BẢN TIN 24H — Thứ 4, 09/09/2026
-Kỳ dữ liệu: từ 08/09/2026 07:27 đến 09/09/2026 07:27 (giờ Việt Nam)
-Số nguồn đã quét: 15 | Số nguồn lỗi: 0
+Kỳ dữ liệu: từ 08/09/2026 10:13 đến 09/09/2026 10:13 (giờ Việt Nam)
+Số nguồn đã quét: 6 | Số nguồn lỗi: 0
 Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
 > **LƯU Ý DÀNH CHO NOTEBOOKLM:**
@@ -16,19 +16,19 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 ### Giá Vàng
 - **SJC Miền Bắc/TP.HCM**: Mua vào 144.60 tr.đ/lượng | Bán ra 147.60 tr.đ/lượng | Thay đổi: -1.00 tr.đ (Giảm sau phiên trước)
 - **Vàng Thế Giới (Kitco)**: 4,429 USD/oz | Chênh lệch trong nước: ~3.0 tr.đ/lượng
-- *Nguồn: SJC / Kitco | Cập nhật: 07:27 09/09/2026*
+- *Nguồn: SJC / Kitco | Cập nhật: 10:13 09/09/2026*
 
 ### Tỷ Giá Ngoại Tệ
-- **USD/VND**: Mua 25.840 đ | Bán 26.099 đ | Tỷ giá trung tâm NHNN: 24.280 đ
-- **CNY/VND (Nhập khẩu ICT)**: Mua 3.859.66 đ | Bán 3.859.66 đ
-- **KRW/VND (Chuỗi cung ứng)**: Mua 19.30 đ | Bán 19.30 đ
+- **USD/VND**: Mua 25.803 đ | Bán 26.062 đ | Tỷ giá trung tâm NHNN: 24.280 đ
+- **CNY/VND (Nhập khẩu ICT)**: Mua 3.854.31 đ | Bán 3.854.31 đ
+- **KRW/VND (Chuỗi cung ứng)**: Mua 19.34 đ | Bán 19.34 đ
 - **Chỉ số DXY**: 104.25
-- *Nguồn: Vietcombank / SBV | Cập nhật: 07:27 09/09/2026*
+- *Nguồn: Vietcombank / SBV | Cập nhật: 10:13 09/09/2026*
 
 ### Thị Trường Chứng Khoán
-- **VN-Index**: 1.830,44 điểm | Biến động: +6.85 (+0.54%) | Khối lượng: 680.5M | Nước ngoài: +120.5 tỷ VNĐ (Mua ròng)
+- **VN-Index**: 1.844,05 điểm | Biến động: +6.85 (+0.54%) | Khối lượng: 680.5M | Nước ngoài: +120.5 tỷ VNĐ (Mua ròng)
 - **HNX-Index**: 242.15 điểm | Biến động: +1.20 (+0.50%)
-- *Nguồn: HOSE / CafeF | Cập nhật: 07:27 09/09/2026*
+- *Nguồn: HOSE / CafeF | Cập nhật: 10:13 09/09/2026*
 
 ### Giá Xăng Dầu
 - **RON 95-III**: 20.850 đ/lít đ/lít | Kỳ điều hành: Kỳ điều hành ngày 05/09/2026
@@ -38,166 +38,172 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
 ---
 
-## PHẦN 2 — TIN THỜI SỰ TRONG NƯỚC (24H)
-### Điện thoại trong tay, linh hoạt nhận thanh toán cùng SACOMBANK PAY
-- **Tóm tắt**: Thanh toán không chỉ là khâu cuối cùng của một giao dịch mà còn là điểm chạm trong hành trình trải nghiệm mua sắm. Việc chủ động mở rộng phương thức nhận thanh toán có thể giúp các cá nhân kinh doanh và hộ kinh doanh linh hoạt hơn trong quá trình bán...
+## PHẦN 2 — TIN TRONG NƯỚC
+### 📈 A. Kinh Tế & Thị Trường Trong Nước
+### 1. Điện thoại trong tay, linh hoạt nhận thanh toán cùng SACOMBANK PAY
+- **Bối cảnh**: Thanh toán không chỉ là khâu cuối cùng của một giao dịch mà còn là điểm chạm trong hành trình trải nghiệm mua sắm. Việc chủ động mở rộng phương thức nhận thanh toán có thể giúp các cá nhân kinh doanh và hộ kinh doanh linh hoạt hơn trong quá trình bán hàng, hỗ trợ theo dõi doanh t...
+- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
 - **Nguồn**: [CafeF Tài Chính](https://cafef.vn/dien-thoai-trong-tay-linh-hoat-nhan-thanh-toan-cung-sacombank-pay-188260908172704935.chn)
 
-### A2 e-tron ra mắt - xe điện hiệu suất pin tốt nhất của Audi
-- **Tóm tắt**: Mẫu crossover điện cỡ nhỏ mới cung cấp ba tùy chọn gói pin, sử dụng môtơ điện cầu sau, phạm vi hoạt động 422-645 km, giá từ 43.600 USD.
-- **Nguồn**: [VnExpress](https://vnexpress.net/a2-e-tron-ra-mat-xe-dien-hieu-suat-pin-tot-nhat-cua-audi-5117744.html)
+### 2. Thịt gà, phụ phẩm nhập khẩu rẻ hơn nhiều loại rau
+- **Bối cảnh**: Trong 7 tháng, Việt Nam nhập gần 217.400 tấn thịt và phụ phẩm gia cầm với giá bình quân khoảng 26.500 đồng một kg, thấp hơn giá bán lẻ nhiều loại rau.
+- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+- **Nguồn**: [VnExpress Kinh Doanh](https://vnexpress.net/thit-ga-phu-pham-nhap-khau-re-hon-nhieu-loai-rau-5117946.html)
 
-### KienlongBank ra mắt hệ sinh thái số MyShop 5.0 All-in-One cho Hộ kinh doanh
-- **Tóm tắt**: Không chỉ dừng lại ở việc giúp Hộ kinh doanh quản lý dòng tiền, KienlongBank đã nâng cấp giải pháp MyShop 5.0 thành nền tảng quản trị "All-in-One", tích hợp bán hàng, hóa đơn điện tử, chữ ký số và hỗ trợ kê khai thuế trên cùng một ứng dụng.
-- **Nguồn**: [CafeF Tài Chính](https://cafef.vn/kienlongbank-ra-mat-he-sinh-thai-so-myshop-50-all-in-one-cho-ho-kinh-doanh-188260908114227889.chn)
+### 3. Hàng nhập khẩu trên 100.000 đồng có thể không còn được miễn thuế
+- **Bối cảnh**: Bộ Tài chính đề xuất hạ ngưỡng miễn thuế cho hàng xuất nhập khẩu xuống 100.000 đồng, thay vì mức 500.000 đến một triệu đồng như hiện nay.
+- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+- **Nguồn**: [VnExpress Kinh Doanh](https://vnexpress.net/hang-nhap-khau-tren-100-000-dong-co-the-khong-con-duoc-mien-thue-5118124.html)
 
-### Nga gợi ý mô hình 'tiến sĩ doanh nghiệp' cho Việt Nam
-- **Tóm tắt**: Bộ trưởng Khoa học và Giáo dục Đại học Valery Falkov đề xuất Việt Nam tham khảo mô hình "tiến sĩ doanh nghiệp", trong đó nghiên cứu trực tiếp cùng doanh nghiệp để giải quyết bài toán thực tiễn.
-- **Nguồn**: [VnExpress](https://vnexpress.net/nga-goi-y-mo-hinh-tien-si-doanh-nghiep-cho-viet-nam-5118133.html)
+### 4. Giá vàng miếng, vàng nhẫn sáng 9/9 tại SJC, DOJI, PNJ, Bảo Tín Mạnh Hải và Bảo Tín Minh Châu đồng loạt giảm 1,2 - 1,5 triệu đồng/lượng
+- **Bối cảnh**: Giá vàng thế giới tối 8/9 lại quay đầu giảm mạnh. Giá bán vàng miếng, vàng nhẫn trong nước đầu giờ sáng phổ biến 146 - 149 triệu đồng/lượng.
+- **Tác động**: Dòng tiền nhàn rỗi trong dân tiếp tục dịch chuyển vào kênh trú ẩn; tạo áp lực tỷ giá ngoại tệ khi nhu cầu nhập khẩu nguyên liệu tăng.
+- **Nguồn**: [CafeF Tài Chính](https://cafef.vn/gia-vang-mieng-vang-nhan-sang-9-9-tai-sjc-doji-pnj-bao-tin-manh-hai-va-bao-tin-minh-chau-dong-loat-giam-12-15-trieu-dong-luong-18826090907475576.chn)
 
-### Cung đường chữ S ở Y Tý
-- **Tóm tắt**: Cung đường chữ S giáp giữa A Lù và Ngải Thầu, cách trung tâm Y Tý khoảng 5 km, uốn lượn qua sườn núi giữa màu xanh rừng và màu vàng - xanh của những thửa ruộng bậc thang.
-- **Nguồn**: [VnExpress](https://vnexpress.net/cung-duong-chu-s-o-y-ty-5117465.html)
-
-### Phụ huynh xếp hàng 'săn' sách giáo khoa sau khai giảng
-- **Tóm tắt**: Năm học đã bắt đầu nhưng nhiều học sinh vẫn thiếu sách giáo khoa, phụ huynh phải xếp hàng tại điểm bán của NXB Giáo dục để mua bổ sung cho con.
-- **Nguồn**: [VnExpress](https://vnexpress.net/phu-huynh-xep-hang-san-sach-giao-khoa-sau-khai-giang-5118049.html)
-
-### Haaland giúp Man City thắng trận ra quân Champions League
-- **Tóm tắt**: Tiền đạo Erling Haaland lập cú đúp trong hiệp hai, khi Man City hạ Porto 2-0 ở lượt đầu Champions League và chấm dứt chuỗi 33 trận bất bại sân nhà của đối thủ.
-- **Nguồn**: [VnExpress](https://vnexpress.net/haaland-giup-man-city-thang-tran-ra-quan-champions-league-5118144.html)
-
-### Tình yêu xuyên lục địa của nữ nghệ sĩ Việt ở Paris
-- **Tóm tắt**: Vượt khoảng cách địa lý và sự phản đối của con gái, chị Hương Giang và anh Richard Horne đã viết nên câu chuyện tình lãng mạn ở tuổi ngũ tuần.
-- **Nguồn**: [VnExpress](https://vnexpress.net/tinh-yeu-xuyen-luc-dia-cua-nu-nghe-si-viet-o-paris-5116496.html)
-
-### SACOMBANK thu giữ loạt bất động sản để xử lý nợ
-- **Tóm tắt**: Sacombank mới đây liên tiếp thông báo thu giữ tài sản bảo đảm để xử lý nợ, tài sản trải từ đất khu công nghiệp, đất dự án của doanh nghiệp đến nhà đất của khách hàng cá nhân tại nhiều tỉnh, thành.
-- **Nguồn**: [CafeF Tài Chính](https://cafef.vn/sacombank-thu-giu-loat-bat-dong-san-de-xu-ly-no-18826090821442032.chn)
-
-### Vì sao giá vàng nhẫn cao hơn vàng SJC?
-- **Tóm tắt**: Lúc 14h chiều 8/9, Công ty Vàng bạc Đá quý Sài Gòn niêm yết giá vàng miếng SJC ở mức 143,6 - 146,6 triệu đồng/lượng, giảm nửa triệu đồng/lượng so với cuối phiên giao dịch buổi sáng.
-- **Nguồn**: [CafeF Tài Chính](https://cafef.vn/vi-sao-gia-vang-nhan-cao-hon-vang-sjc-188260908151340183.chn)
+### 5. Điểm nhấn sự kiện ra mắt Lynk & Co 02 tại Việt Nam
+- **Bối cảnh**: Sự kiện ra mắt mẫu xe thuần điện đầu tiên của Lynk & Co ghi dấu ấn nhờ cá tính độc đáo, nhiều hoạt động trải nghiệm, show thời trang và loạt chính sách bán hàng linh hoạt từ hãng.
+- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+- **Nguồn**: [CafeF Doanh Nghiệp](https://cafef.vn/diem-nhan-su-kien-ra-mat-lynk-co-02-tai-viet-nam-18826090909385143.chn)
 
 
----
+### 💻 B. Công Nghệ & Số Hóa Trong Nước (Tinhte, GenK, Số Hóa)
+### 1. #Tinhtetest: Thử nghiệm Samsung SSD 9100 PRO: PCIe Gen 5 dành cho ai?
+- **Diễn biến**: Nếu như những ổ cứng thể rắn Gen 4 đã xóa bỏ hoàn toàn nút thắt cổ chai của giao tiếp SATA cũ kỹ, đưa tốc độ truyền tải lên ngưỡng 7.5 GB/s, thì Gen5 hứa hẹn nhân đôi con số đó, mở ra kỷ nguyên...
+- **Ý nghĩa**: Tạo đòn bẩy thúc đẩy người dùng nâng cấp thiết bị 5G; gia tăng sức mua cho dòng smartphone tầm trung từ 6-10 triệu đồng.
+- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/tinhtetest-thu-nghiem-samsung-ssd-9100-pro-pcie-gen-5-danh-cho-ai.4083714/)
 
-## PHẦN 3 — TIN THỜI SỰ QUỐC TẾ & CHIẾN SỰ (DỊCH TIẾNG VIỆT)
-### Vương quốc Anh thông báo các biện pháp trừng phạt đối với các khu định cư ở Bờ Tây khiến Israel tức giận phản ứng
-- **Tóm tắt (Dịch tiếng Việt)**: Ngoại trưởng Anh cáo buộc những người định cư thực hiện "thanh lọc sắc tộc" người Palestine, khi Israel phản ứng bằng cách đóng cửa lãnh sự quán Anh ở Đông Jerusalem.
-- *Bản gốc tiếng Anh: UK announces sanctions on West Bank settlements prompting furious Israeli response*
-- **Nguồn**: [Reuters World](https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss)
+### 2. Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức...
+- **Diễn biến**: Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức khỏe Đây là tin mình để ý nhất hôm nay vì thời điểm ra mắt khá nhạy cảm: chưa đầy hai tuần sau khi...
+- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/meta-ra-mat-tro-ly-ai-ca-nhan-muse-doi-quyen-truy-cap-email-lich-thanh-toan-va-ca-du-lieu-suc.4175645/)
 
-### Paul Adams: Quan hệ Anh-Israel ở mức thấp nhất trong nhiều thập kỷ
-- **Tóm tắt (Dịch tiếng Việt)**: Phản ứng của Israel đối với lệnh cấm thương mại của London với các khu định cư của Israel ở Bờ Tây bị chiếm đóng cho thấy tầm quan trọng của thời điểm này.
-- *Bản gốc tiếng Anh: Paul Adams: British-Israeli relations at lowest ebb in decades*
-- **Nguồn**: [Reuters World](https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss)
-
-### Mỹ áp đặt lệnh cấm nhập khẩu đối với đồ uống có cồn và các hàng hóa khác của Canada
-- **Tóm tắt (Dịch tiếng Việt)**: Đây là sự leo thang mới nhất trong cuộc chiến thương mại giữa hai nước, và diễn ra khi thuế quan trả đũa của Canada đối với hàng hóa của Mỹ có hiệu lực.
-- *Bản gốc tiếng Anh: US slaps import ban on Canadian alcohol and other goods*
-- **Nguồn**: [Reuters World](https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss)
-
-### 'Liên tục trong tâm trí của tôi' - 9/11 đau đớn diễn ra cho tang quyến, 25 năm sau
-- **Tóm tắt (Dịch tiếng Việt)**: Khi lễ kỷ niệm lần thứ 25 đến gần, việc chờ đợi kẻ chủ mưu bị cáo buộc của cuộc tấn công được đưa ra xét xử vẫn tiếp tục.
-- *Bản gốc tiếng Anh: 'Constantly on my mind' - 9/11 agony goes on for bereaved, 25 years on*
-- **Nguồn**: [Reuters World](https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&at_campaign=rss)
-
-### Những bức tranh Renoir trị giá hàng triệu đô la bị đánh cắp trong vụ trộm bảo tàng Pháp
-- **Tóm tắt (Dịch tiếng Việt)**: Đây là vụ mới nhất trong một loạt các vụ trộm cắp nghệ thuật cao cấp ở châu Âu đã một lần nữa đưa an ninh của các bảo tàng và phòng trưng bày trở thành tâm điểm chú ý.
-- *Bản gốc tiếng Anh: Renoir paintings worth millions stolen in French museum heist*
-- **Nguồn**: [Reuters World](https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss)
-
-
----
-
-## PHẦN 4 — CHUYÊN MỤC TÀI CHÍNH & CHÍNH SÁCH ĐẦU TƯ
-> *Miễn trừ trách nhiệm: Toàn bộ nội dung mang tính thông tin tham khảo, không cấu thành khuyến nghị đầu tư.*
-*Chính sách điều hành vĩ mô tiếp tục hỗ trợ thanh khoản các ngân hàng thương mại và tạo điều kiện cho dòng vốn đầu tư trực tiếp nước ngoài.*
-
----
-
-## PHẦN 5 — TOP TỪ KHÓA TÌM KIẾM GOOGLE TRENDS
-- **vietinbank** (500+) [🔥 Hot General]
-- **погода** (200+) [🔥 Hot General]
-- **tài sản** (500+) [🔥 Hot General]
-- **bất động sản** (200+) [🔥 Hot General]
-- **real madrid vs inter milan standings** (200+) [🔥 Hot General]
-- **fifa asean cup 2026** (100+) [🔥 Hot General]
-- **viên chức** (500+) [🔥 Hot General]
-- **hồ chí minh** (100+) [🔥 Hot General]
-- **sầu riêng** (200+) [🔥 Hot General]
-- **đội tuyển bóng đá quốc gia malaysia** (1000+) [🔥 Hot General]
-
----
-
-## PHẦN 6 — TÂM LÝ & THẢO LUẬN CỘNG ĐỒNG CÔNG NGHỆ
-*Cộng đồng công nghệ thảo luận sôi nổi về cấu hình chip mới và camera ống kính tiềm vọng trên các dòng máy phân khúc 10 triệu đồng.*
-
----
-
-## PHẦN 7 — SẢN PHẨM ICT MỚI RA MẮT
-### Báo cáo mới cho biết Apple muốn iPhone Ultra có giá 1.999 $ (Độ ưu tiên: 65.0)
-- **Cấu hình/Điểm nhấn**: Apple sẽ tổ chức sự kiện ra mắt iPhone lớn hàng năm vào ngày 9 tháng 9 và dự kiến sẽ ra mắt iPhone Ultra vào ngày đó. Đây sẽ là điện thoại thông minh có thể gập lại đầu tiên của nó, và nó đã được một thời gian rất dài sắp tới. Theo một báo cáo mới từ Blo...
-- *Nguyên bản tiếng Anh: Apple wanted the iPhone Ultra to cost $1,999, new report says*
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/apple_wanted_the_iphone_ultra_to_cost_1999_new_report_says-news-74523.php)
-
-### Samsung Galaxy S26 FE review (Độ ưu tiên: 63.0)
-- **Cấu hình/Điểm nhấn**: 
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/samsung_galaxy_s26_fe-review-2999.php)
-
-### IFA26: Dạo một vòng gian hàng Xiaomi: Mang cả siêu xe, robot và điện thoại gập tới (Độ ưu tiên: 62.0)
-- **Cấu hình/Điểm nhấn**: Đây là lần đầu tiên Xiaomi chính thức góp mặt tại triển lãm IFA ở Berlin, và phải công nhận là họ đã chuẩn bị một màn chào sân rất hoành tráng. Nhìn lại chặng đường cả chục năm qua của Xiaomi, từ...
-- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/ifa26-dao-mot-vong-gian-hang-xiaomi-mang-ca-sieu-xe-robot-va-dien-thoai-gap-toi.4174969/)
-
-### SoC Dimensity 9600 Pro của MediaTek hiện đã có ngày ra mắt chính thức (Độ ưu tiên: 57.0)
-- **Cấu hình/Điểm nhấn**: Hôm nay trên X, MediaTek đã tiết lộ khi nào họ có kế hoạch công bố SoC kích thước hàng đầu tiếp theo của mình: vào ngày 15 tháng 9 lúc 2:30 chiều tại Trung Quốc. Đó là 2:30 sáng ở New York, 7:30 sáng ở London, 8:30 sáng ở Trung Âu, 9:30 sáng ở Đông Âu và 12 giờ trưa ở Ấn Độ. Một...
-- *Nguyên bản tiếng Anh: MediaTek's Dimensity 9600 Pro SoC now has an official launch date*
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/mediateks_dimensity_9600_pro_soc_now_has_an_official_launch_date-news-74521.php)
-
-### Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt (Độ ưu tiên: 57.0)
-- **Cấu hình/Điểm nhấn**: Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt Nintendo vừa tổ chức riêng một Direct mừng 40 năm Zelda, và thứ thích nhất không phải là bản làm lại...
+### 3. Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt
+- **Diễn biến**: Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt Nintendo vừa tổ chức riêng một Direct mừng 40 năm Zelda, và thứ thích nhất không phải là bản làm lại...
+- **Ý nghĩa**: Định hình xu hướng tiêu dùng và danh mục sản phẩm chủ lực trong các đợt mua sắm sắp tới.
 - **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/nintendo-tung-switch-2-phien-ban-40-nam-zelda-an-dinh-ngay-ocarina-of-time-ban-lam-lai-ra-mat.4175642/)
 
-### Apple bước vào một cuộc đua máy gập và Huawei mới là đối thủ thực sự (Độ ưu tiên: 57.0)
-- **Cấu hình/Điểm nhấn**: Có lẽ mọi ánh mắt trong tuần này, mọi thông tin đều đang hướng về ngày 9/9, với ánh mắt đổ dồn về chiếc iPhone gập sắp ra mắt, và thật ra mình thấy phần lớn đều đóng khung câu chuyện theo kiểu...
-- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/apple-buoc-vao-mot-cuoc-dua-may-gap-va-huawei-moi-la-doi-thu-thuc-su.4175374/)
-
-### ứng dụng camera iOS sẽ nhận được một số tiện ích bổ sung chuyên nghiệp, gợi ý về hỗ trợ khẩu độ thay đổi (Độ ưu tiên: 45.0)
-- **Cấu hình/Điểm nhấn**: Apple đang hoàn thiện iOS 27 để phát hành cho công chúng (sau sự kiện iPhone 18 vào ngày mai) và một số người thông minh đã xem qua mã để xem có gì mới. Cụ thể là mã ứng dụng camera iOS 27, và có một số tính năng chuyên nghiệp chính đang được triển khai. Sta...
-- *Nguyên bản tiếng Anh: iOS camera app will get some pro add-ons, hints at variable aperture support*
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/ios_camera_app_will_get_some_pro_addons_hints_at_variable_aperture_support-news-74524.php)
-
-### IPhone Ultra ra mắt tại Trung Quốc có thể bị trì hoãn vì lý do tương tự như iPhone Air (Độ ưu tiên: 45.0)
-- **Cấu hình/Điểm nhấn**: Các mẫu iPhone 15 được bán ở Mỹ chỉ sử dụng eSIM – ở Mỹ, việc Apple rời khỏi SIM vật lý đã diễn ra mà không gặp trở ngại nào. Tuy nhiên, câu chuyện ở Trung Quốc lại khác. IPhone Air là mẫu eSIM đầu tiên được bán tại Trung Quốc và nó...
-- *Nguyên bản tiếng Anh: The iPhone Ultra launch in China may be delayed for the same reason as the iPhone Air*
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/the_iphone_ultra_launch_in_china_may_be_delayed_for_the_same_reason_as_the_iphone_air-news-74519.php)
-
-### Motorola bắt đầu trêu chọc Signature 27 (Độ ưu tiên: 45.0)
-- **Cấu hình/Điểm nhấn**: Motorola đã ra mắt Chữ ký vào tháng 1, và bây giờ công ty đã bắt đầu chiến dịch trêu ghẹo cho người kế nhiệm có tên Signature 27. Khi bạn truy cập Motorola.com từ Liên minh châu Âu hoặc Vương quốc Anh, bạn sẽ nhận được một cửa sổ bật lên trên trang chủ chính...
-- *Nguyên bản tiếng Anh: Motorola starts teasing the Signature 27*
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/motorola_starts_teasing_the_signature_27-news-74518.php)
-
-### Meta giải quyết AI đặc vụ với sự ra mắt của Muse (Độ ưu tiên: 45.0)
-- **Cấu hình/Điểm nhấn**: Đại lý AI Muse mới của Meta muốn xử lý email, mua sắm và hơn thế nữa
-- *Nguyên bản tiếng Anh: Meta tackles agentic AI with the launch of Muse*
-- **Nguồn**: [Android Authority](https://www.androidauthority.com/meta-muse-ai-3709007/)
+### 4. IFA26: LG lần đầu làm máy sấy tóc AirDew Hair: Đẹp và thông minh
+- **Diễn biến**: Hôm nay lượn gian hàng LG ở IFA 2026, mình thấy một món đồ chơi khá lạ mà trước giờ chưa từng thấy hãng làm: máy sấy tóc. Thiết bị này có tên là LG AirDew Hair, và đây là lần đầu tiên LG bước chân...
+- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/ifa26-lg-lan-dau-lam-may-say-toc-airdew-hair-dep-va-thong-minh.4175304/)
 
 
 ---
 
-## PHẦN 8 — CỤC DIỆN THỊ PHẦN SMARTPHONE & GÓC MUA HÀNG
+## PHẦN 3 — TIN QUỐC TẾ
+### 🌍 A. Kinh Tế & Địa Chính Trị Toàn Cầu (Reuters, BBC, CNBC)
+### 1. Vương quốc Anh thông báo các biện pháp trừng phạt đối với các khu định cư ở Bờ Tây khiến Israel tức giận phản ứng
+- **Bối cảnh**: Ngoại trưởng Anh cáo buộc những người định cư thực hiện "thanh lọc sắc tộc" người Palestine, khi Israel phản ứng bằng cách đóng cửa lãnh sự quán Anh ở Đông Jerusalem.
+- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+- **Nguồn**: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss)
+
+### 2. Paul Adams: Quan hệ Anh-Israel ở mức thấp nhất trong nhiều thập kỷ
+- **Bối cảnh**: Phản ứng của Israel đối với lệnh cấm thương mại của London với các khu định cư của Israel ở Bờ Tây bị chiếm đóng cho thấy tầm quan trọng của thời điểm này.
+- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+- **Nguồn**: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss)
+
+### 3. Mỹ cấm nhập khẩu rượu, xe máy và các hàng hóa khác của Canada
+- **Bối cảnh**: Đây là cuộc đình công mới nhất trong một cuộc chiến thương mại kéo dài, và diễn ra khi thuế quan của Canada đối với hàng hóa của Mỹ có hiệu lực.
+- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+- **Nguồn**: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss)
+
+### 4. 'Liên tục trong tâm trí của tôi' - 9/11 đau đớn diễn ra cho tang quyến, 25 năm sau
+- **Bối cảnh**: Khi lễ kỷ niệm lần thứ 25 đến gần, việc chờ đợi kẻ chủ mưu bị cáo buộc của cuộc tấn công được đưa ra xét xử vẫn tiếp tục.
+- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+- **Nguồn**: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&at_campaign=rss)
+
+
+### 📱 B. Công Nghệ & Thiết Bị Di Động Quốc Tế (GSMArena, The Verge)
+### 1. Sony không loại bỏ đĩa khá nhanh như chúng ta nghĩ
+- **Diễn biến**: Sony không lùi bước trước quyết định loại bỏ đĩa trò chơi điện tử vào tháng 1 năm 2028. Nhưng Sony cũng không ngừng sản xuất nhanh như chúng tôi nghĩ. Hai tháng sau khi có báo cáo rằng nhà máy sản xuất đĩa cuối cùng của Sony đã được tái sử dụng, bộ phận sản xuất đĩa của công ty...
+- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+- **Nguồn**: [The Verge Tech](https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent)
+
+### 2. Drama swirls around OpenAI’s legendary mathematical milestone
+- **Diễn biến**: OpenAI cho biết họ đã tìm ra giải pháp cho một vấn đề toán học lớn vẫn chưa được giải quyết trong khoảng 90 năm, theo báo cáo trước đó của The New York Times và Wired. Trong một bài đăng trên blog vào thứ ba, OpenAI thông báo rằng họ đã phát hiện ra một giải pháp cho vấn đề Navier-Stokes - liên quan đến...
+- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+- **Nguồn**: [The Verge Tech](https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution)
+
+### 3. Rivian spinout Cũng xin lỗi vì sự chậm trễ trong việc vận chuyển xe đạp điện tương lai
+- **Diễn biến**: Xe đạp điện tương lai của Rivian bị trì hoãn và khách hàng không hài lòng. Năm ngoái, Rivian cũng đã tiết lộ một chiếc xe đạp điện mới, được điều khiển bằng phần mềm có tên TM-B, ngay lập tức khiến thế giới xe đạp điện bùng cháy. Với pin sạc USB-C, giá đỡ ghế có thể tháo rời,...
+- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+- **Nguồn**: [The Verge Tech](https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology)
+
+### 4. Tai nghe chơi game được trang bị ANC của Razer cho PS5 và Xbox giảm gần 100 $
+- **Diễn biến**: Rất hiếm khi tìm thấy các tính năng cao cấp như khử tiếng ồn chủ động trong tai nghe chơi game dưới 200 $, vì vậy chúng tôi rất vui mừng khi Razer BlackShark V3 Pro được bán tại Woot với giá $ 164,99. Có những mô hình cụ thể được bán trên thị trường cho Xbox và PlayStation, nhưng phiên bản Xbox là lựa chọn tốt nhất b...
+- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+- **Nguồn**: [The Verge Tech](https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale)
+
+### 5. ChatGPT Sketch turns your bad drawings into detailed AI images
+- **Diễn biến**: OpenAI đã công bố ChatGPT Images 2.5 vào thứ ba và đang thêm một cách mới để nói với ChatGPT những gì bạn muốn nó tạo ra một hình ảnh: bằng cách vẽ một hình tượng trưng. Với một tính năng mới được gọi là Phác thảo, bạn chỉ có thể vẽ một cái gì đó ngay bên trong ChatGPT và sau đó nói với ChatGPT cách bạn muốn nó tạo ra một...
+- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+- **Nguồn**: [The Verge Tech](https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch)
+
+
+### ⚡ C. Tin Vắn Nhanh Quốc Tế
+• **[Những bức tranh Renoir trị giá hàng t...]**: Đây là vụ mới nhất trong một loạt các vụ trộm cắp nghệ thuật cao cấp ở châu Âu đã một lần nữa đưa an ninh của các bảo tàng và phòng trưng bày trở thành tâm điểm chú ý. (Nguồn: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss))
+• **[Meta tiếp tục chạy quảng cáo quảng bá...]**: Báo cáo này theo sau một cuộc điều tra của BBC Eye cho thấy Instagram chạy quảng cáo trả tiền quảng bá tài liệu như vậy ở Ấn Độ. (Nguồn: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&at_campaign=rss))
+• **[Mỹ cấm sữa, xe máy và hầu hết đồ uống...]**: Động thái này diễn ra một ngày sau khi Ottawa áp đặt mức thuế trả đũa 20 tỷ $ đối với hàng hóa của Hoa Kỳ. (Nguồn: [Bloomberg / Financial Times](https://www.ft.com/content/639d8eac-fd8c-4557-a852-f826501681ad?syn-25a6b1a6=1))
+• **[Meta tiết lộ trợ lý cá nhân AI được l...]**: ‘tác nhân‘ mới được gọi là Muse được thiết kế để đưa ra các đề xuất tùy chỉnh dựa trên các cuộc trò chuyện và hoạt động truyền thông xã hội. (Nguồn: [Bloomberg / Financial Times](https://www.ft.com/content/5816292b-c36b-4c22-aa50-2680b9970382?syn-25a6b1a6=1))
+• **[Giới trẻ Mỹ chưa bao giờ chứng kiến m...]**: Hai mươi lăm năm sau ngày 11/9, nợ và chi tiêu quốc phòng đang phình to trong khi ngoại giao bị bỏ đói và các đồng minh bị xa lánh. (Nguồn: [Bloomberg / Financial Times](https://www.ft.com/content/2e97fb28-24cf-4ab0-89b1-454b4f97cdbc))
+
+---
+
+## PHẦN 4 — TIN SOCIAL, SHOWBIZ GIẢI TRÍ & TOP TỪ KHÓA TRENDING
+### Top Từ Khóa Thịnh Hành Google Trends (Việt Nam)
+- **park hang-seo** (500+) [🔥 Hot General]
+- **sức khỏe và đời sống** (100+) [🔥 Hot General]
+- **hồng vân** (1000+) [🔥 Hot General]
+- **vietinbank** (2000+) [🔥 Hot General]
+- **погода** (200+) [🔥 Hot General]
+- **tài sản** (2000+) [🔥 Hot General]
+- **bất động sản** (200+) [🔥 Hot General]
+- **fifa asean cup 2026** (200+) [🔥 Hot General]
+- **hồ chí minh** (100+) [🔥 Hot General]
+- **sầu riêng** (200+) [🔥 Hot General]
+
+### Tiêu Điểm Showbiz, Giải Trí & Xu Hướng Viral Mạng Xã Hội
+### 1. Sắc vóc nữ chính phim 'Đầu xuân tươi sáng'
+- **Tiêu điểm**: Diễn viên Tôn Thiên - nữ chính phim gây sốt "Đầu xuân tươi sáng" - gây chú ý khán giả với nét đẹp trong trẻo.
+- **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
+- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/sac-voc-nu-chinh-phim-dau-xuan-tuoi-sang-5117669.html)
+
+### 2. Joheirry Mola: Không bỏ nghề giáo khi đăng quang Miss World
+- **Tiêu điểm**: Hoa hậu Joheirry Mola Dominguez nói "xem học sinh là cả thế giới" và sẽ tìm người hỗ trợ các em trong thời gian cô bận đảm nhận vai trò Miss World 2026.
+- **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
+- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/joheirry-mola-khong-bo-nghe-giao-khi-dang-quang-miss-world-5118084.html)
+
+### 3. Lần đầu công diễn kiệt tác opera 'Tosca' ở Việt Nam
+- **Tiêu điểm**: Nhà hát Nhạc Vũ kịch Việt Nam (VNOB) lần đầu công diễn trọn vở ''Tosca'' tại Nhà hát Hồ Gươm, Hà Nội, ngày 26 và 27/9.
+- **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
+- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/lan-dau-cong-dien-kiet-tac-opera-tosca-o-viet-nam-5117473.html)
+
+### 4. Hoa hậu Thế giới và 2 á hậu khoe sắc ở TP HCM
+- **Tiêu điểm**: Tân hoa hậu Joheirry Mola và hai á hậu rạng rỡ trong buổi giao lưu ở TP HCM, sau ba ngày kết thúc cuộc thi Miss World 2026.
+- **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
+- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/hoa-hau-the-gioi-va-2-a-hau-khoe-sac-o-tp-hcm-5118080.html)
+
+
+---
+
+## PHẦN 5 — KHẢO SÁT THỊ PHẦN SMARTPHONE VIỆT NAM (GFK & COUNTERPOINT)
 **Kỳ báo cáo**: Quý 2/2026 (Số liệu công bố kỳ gần nhất: Tháng 08/2026)
+**Nguồn khảo sát**: GfK Vietnam Retail Audit & Counterpoint Research
 
-- **Samsung**: 29.5% (+1.2%) — Dẫn đầu phân khúc tầm trung & cao cấp
-- **OPPO**: 23.0% (+0.5%) — Mạnh ở dòng Reno & kênh bán lẻ truyền thống
-- **Apple**: 17.8% (-0.8%) — Chững lại chờ chu kỳ iPhone mới
-- **Xiaomi**: 14.2% (+1.5%) — Tăng trưởng mạnh nhờ Redmi Note & Poco
-- **Vivo (Ưu tiên)**: 8.5% (+0.9%) — Tăng trưởng ổn định ở dòng V-series & Y-series
-- **Realme (Ưu tiên)**: 4.5% (+0.4%) — Tập trung phân khúc học sinh/sinh viên & pin trâu
-- **Khác (Honor, TECNO, Infinix)**: 2.5% (-0.2%) — Cạnh tranh gay gắt tầm giá dưới 4 triệu
+#### Bảng 1: Thị Phần Bán Lẻ Thực Tế Tại Điểm Bán (GfK Vietnam Retail Audit)
+- **Samsung**: 31.2% (+1.4%) — Dẫn đầu hệ thống chuỗi MWG, FPT Shop
+- **OPPO**: 22.8% (+0.6%) — Bán lẻ truyền thống & dòng Reno
+- **Apple**: 18.5% (-0.5%) — Giữ vững phân khúc cao cấp trên 20 triệu
+- **Xiaomi**: 13.8% (+1.1%) — Tập trung phân khúc online & chuỗi điện máy
+- **Vivo**: 9.2% (+0.8%) — Tăng trưởng dòng V-series & Y-series
+- **Realme**: 4.1% (+0.3%) — Phân khúc phổ thông 3-5 triệu
+- **Khác**: 0.4% (-0.2%) — Các thương hiệu khác
 
-**Buyer Insights**:
-- Phân khúc 5 - 8 triệu đồng vẫn là phân khúc đóng góp doanh số chính tại thị trường Việt Nam.
-- Vivo và Realme đang có chính sách chiết khấu và hỗ trợ đại lý tốt cho đợt nhập hàng mùa tựu trường.
-- Nhu cầu máy có 5G và sạc nhanh trên 67W trở thành cấu hình tiêu chuẩn tối thiểu khi người tiêu dùng cân nhắc.
+#### Bảng 2: Thị Phần Sản Lượng Xuất Xưởng (Counterpoint Research)
+- **Samsung**: 29.5% (+1.2%) — Dẫn đầu sản lượng xuất xưởng
+- **OPPO**: 23.0% (+0.5%) — Duy trì vị trí số 2 vững chắc
+- **Apple**: 17.8% (-0.8%) — Chững lại trước đợt mở bán thế hệ mới
+- **Xiaomi**: 14.2% (+1.5%) — Tăng trưởng nhờ dải sản phẩm Redmi Note
+- **Vivo**: 8.5% (+0.9%) — Tăng trưởng ổn định ở nhóm tầm trung
+- **Realme**: 4.5% (+0.4%) — Khai thác tốt mùa tựu trường
+- **Khác**: 2.5% (-0.2%) — Honor, TECNO, Infinix

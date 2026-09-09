@@ -1,0 +1,2 @@
+# Các thư viện phụ thuộc cho hệ thống Bản Tin Thị Trường 24h
+pyyaml>=6.0

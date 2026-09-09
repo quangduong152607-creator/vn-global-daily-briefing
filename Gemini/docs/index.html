@@ -3,771 +3,1337 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bản Tin 24h Tự Động • 09/09/2026</title>
+  <title>Bản Tin Thị Trường & Kinh Doanh 24h • 09/09/2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-primary: #070b14;
-      --bg-card: rgba(15, 23, 42, 0.85);
-      --bg-card-hover: rgba(30, 41, 69, 0.9);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --accent-cyan: #00f2fe;
-      --accent-blue: #4facfe;
-      --accent-emerald: #10b981;
-      --accent-amber: #f59e0b;
-      --accent-rose: #f43f5e;
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
+      --bg-page: #fbf9f4;
+      --bg-card: #ffffff;
+      --border-sand: #ebe5d8;
+      --border-sand-dark: #d8d0c2;
+      --text-black: #111827;
+      --text-body: #4b5563;
+      --text-muted: #78716c;
+      --accent-bronze: #9a6a2f;
+      --accent-bronze-light: #fef3c7;
+      --accent-coral: #ea580c;
+      --delta-up: #15803d;
+      --delta-down: #b91c1c;
+      --delta-neutral: #71717a;
+      --badge-black: #121212;
+      --stat-highlight: #9a3412;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      background-color: var(--bg-primary);
-      background-image: 
-        radial-gradient(at 0% 0%, rgba(0, 242, 254, 0.1) 0px, transparent 50%),
-        radial-gradient(at 100% 100%, rgba(79, 172, 254, 0.08) 0px, transparent 50%);
-      color: var(--text-main);
-      padding: 24px 16px;
+      background-color: var(--bg-page);
+      color: var(--text-black);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.5;
+      padding: 14px 10px 60px;
       min-height: 100vh;
       display: flex;
       justify-content: center;
+      -webkit-font-smoothing: antialiased;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 520px;
       width: 100%;
       display: flex;
       flex-direction: column;
-      gap: 32px;
+      gap: 16px;
     }
 
-    /* Top Bar */
-    .header {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 20px;
-      padding: 24px;
-      backdrop-filter: blur(16px);
-      text-align: center;
-    }
-
-    .badge-live {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 4px 12px;
-      border-radius: 9999px;
-      background: rgba(16, 185, 129, 0.12);
-      border: 1px solid rgba(16, 185, 129, 0.3);
-      color: var(--accent-emerald);
-      font-size: 0.8rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      margin-bottom: 12px;
-    }
-
-    .header h1 {
-      font-size: 1.8rem;
-      font-weight: 800;
-      background: linear-gradient(135deg, #ffffff 30%, var(--accent-cyan) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 8px;
-    }
-
-    .meta-line {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-
-    /* Controls Bar: Navigation & Bilingual Toggle */
-    .controls-bar {
+    /* Top Navigation Bar */
+    .top-nav-bar {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-      padding: 12px 18px;
-      background: rgba(255, 255, 255, 0.03);
-      border-radius: 14px;
-      border: 1px solid var(--border-color);
-      font-size: 0.85rem;
+      padding: 2px 2px 4px;
     }
 
-    .bilingual-toggle-btn {
-      display: inline-flex;
+    .top-left {
+      display: flex;
       align-items: center;
-      gap: 8px;
-      background: rgba(0, 242, 254, 0.1);
-      border: 1px solid rgba(0, 242, 254, 0.3);
-      color: var(--accent-cyan);
-      padding: 6px 14px;
-      border-radius: 8px;
-      font-size: 0.8rem;
-      font-weight: 600;
+      gap: 10px;
+    }
+
+    .live-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      background: #f1ebd9;
+      border: 1px solid #e2dac9;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      color: #262626;
+    }
+
+    .top-date-str {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    .top-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .top-icon-btn {
+      background: none;
+      border: none;
       cursor: pointer;
-      transition: all 0.2s ease;
+      color: #262626;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4px;
+      transition: opacity 0.2s ease;
+      text-decoration: none;
     }
 
-    .bilingual-toggle-btn:hover {
-      background: rgba(0, 242, 254, 0.2);
+    .top-icon-btn:hover {
+      opacity: 0.7;
     }
 
-    .controls-bar a {
-      color: var(--accent-cyan);
+    /* Masthead Header */
+    .main-masthead {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding: 2px 2px 4px;
+    }
+
+    .main-title {
+      font-size: 1.35rem;
+      font-weight: 900;
+      color: var(--text-black);
+      letter-spacing: -0.015em;
+      line-height: 1.25;
+      text-transform: uppercase;
+    }
+
+    .meta-subline {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.76rem;
+      font-weight: 800;
+      margin-top: 2px;
+    }
+
+    .edition-tag {
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .vnindex-meta {
+      color: var(--accent-bronze);
+      letter-spacing: 0.02em;
+    }
+
+    /* 3 Tabs Row */
+    .editorial-tabs-row {
+      display: flex;
+      gap: 6px;
+      margin: 2px 0 2px;
+    }
+
+    .tab-chip {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 9px 6px;
+      border: 1px solid #e7dfcf;
+      background: #f1ece1;
+      border-radius: 6px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 800;
+      color: #4b5563;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      letter-spacing: 0.02em;
+    }
+
+    .tab-chip:hover {
+      color: var(--text-black);
+      background: #eae3d6;
+    }
+
+    .tab-chip.active {
+      background: #ffffff;
+      color: var(--text-black);
+      border-color: #d1c8b8;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    }
+
+    /* Tab Panes */
+    .tab-pane {
+      display: none;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .tab-pane.active {
+      display: flex;
+    }
+
+    /* Subhead Bar */
+    .subhead-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2px;
+      margin-top: 2px;
+    }
+
+    .subhead-left {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .coral-dot {
+      width: 7px;
+      height: 7px;
+      background-color: var(--accent-coral);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .subhead-title {
+      font-size: 0.82rem;
+      font-weight: 800;
+      color: var(--text-black);
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .subhead-right {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    /* 2x2 Indices Grid */
+    .indices-2x2-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .idx-box {
+      background: #ffffff;
+      border: 1px solid var(--border-sand);
+      border-radius: 12px;
+      padding: 10px 14px 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 74px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.01);
+    }
+
+    .idx-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .idx-name {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #716c65;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .idx-change {
+      font-size: 0.78rem;
+      font-weight: 800;
+    }
+
+    .idx-change.up { color: var(--delta-up); }
+    .idx-change.down { color: var(--delta-down); }
+    .idx-change.neutral { color: var(--delta-neutral); }
+
+    .idx-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-top: 4px;
+    }
+
+    .idx-val {
+      font-size: 1.32rem;
+      font-weight: 900;
+      color: var(--text-black);
+      letter-spacing: -0.02em;
+      line-height: 1;
+    }
+
+    .idx-unit {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+
+    /* Black Banner Card Container */
+    .editorial-banner-card {
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    }
+
+    .banner-black-top {
+      background: var(--badge-black);
+      color: #ffffff;
+      border-radius: 10px 10px 0 0;
+      padding: 10px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .banner-title {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    .banner-timer {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #d4d4d8;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .banner-card-body {
+      background: #ffffff;
+      border: 1px solid var(--border-sand);
+      border-top: none;
+      border-radius: 0 0 12px 12px;
+      padding: 14px 16px 16px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Standalone Section Title Line */
+    .section-headline-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 2px 2px;
+    }
+
+    .headline-left {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--text-black);
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+    }
+
+    .headline-right {
+      font-size: 0.76rem;
+      font-weight: 800;
+      color: var(--accent-bronze);
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .standalone-card-body {
+      background: #ffffff;
+      border: 1px solid var(--border-sand);
+      border-radius: 12px;
+      padding: 14px 16px 16px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+    }
+
+    /* News Row Layout (Exact to screenshot) */
+    .editorial-news-item {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 12px 0;
+      border-bottom: 1px solid #f2ede4;
+    }
+
+    .editorial-news-item:first-child {
+      padding-top: 2px;
+    }
+
+    .editorial-news-item:last-child {
+      border-bottom: none;
+      padding-bottom: 2px;
+    }
+
+    .editorial-badge-box {
+      width: 32px;
+      height: 32px;
+      background: var(--badge-black);
+      color: #ffffff;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.92rem;
+      font-weight: 800;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .editorial-text-col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .editorial-headline {
+      font-size: 1.04rem;
+      font-weight: 800;
+      color: var(--text-black);
+      line-height: 1.34;
+      letter-spacing: -0.015em;
+    }
+
+    .editorial-summary-serif {
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: 0.94rem;
+      color: #4b5563;
+      line-height: 1.54;
+      margin-top: 1px;
+    }
+
+    .stat-highlight {
+      color: var(--stat-highlight);
+      font-weight: 700;
+    }
+
+    .editorial-source-mini {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+
+    .editorial-source-mini a {
+      color: #2563eb;
       text-decoration: none;
       font-weight: 600;
     }
 
-    /* Module Section */
-    .module-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 20px;
-      padding: 24px;
-      backdrop-filter: blur(12px);
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
+    .editorial-source-mini a:hover {
+      text-decoration: underline;
     }
 
-    .module-title {
-      font-size: 1.25rem;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: var(--text-main);
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 12px;
-    }
-
-    /* Indices Grid */
-    .indices-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 14px;
-    }
-
-    .index-item {
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid var(--border-color);
-      border-radius: 14px;
-      padding: 14px;
-    }
-
-    .index-label {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      margin-bottom: 4px;
-      font-weight: 600;
-    }
-
-    .index-val {
-      font-size: 1.35rem;
-      font-weight: 800;
-      color: var(--accent-cyan);
-    }
-
-    .index-sub {
-      font-size: 0.78rem;
-      color: var(--accent-emerald);
+    /* Editorial Table */
+    .editorial-clean-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
       margin-top: 4px;
+    }
+
+    .editorial-clean-table th, .editorial-clean-table td {
+      padding: 8px 10px;
+      text-align: left;
+      border-bottom: 1px solid #f2ede4;
+    }
+
+    .editorial-clean-table th {
+      font-size: 0.68rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: #faf7f0;
+      letter-spacing: 0.03em;
+    }
+
+    /* Trending Grid */
+    .trends-editorial-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .trend-editorial-chip {
+      background: #faf7f0;
+      border: 1px solid var(--border-sand);
+      border-radius: 8px;
+      padding: 8px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .trend-editorial-kw {
+      font-size: 0.84rem;
+      font-weight: 800;
+      color: var(--text-black);
+    }
+
+    .trend-editorial-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.7rem;
+      color: var(--text-muted);
       font-weight: 600;
     }
 
-    /* News Items */
-    .news-list {
+    .trend-traffic-val {
+      color: var(--delta-up);
+      font-weight: 800;
+    }
+
+    /* Flash News List */
+    .flash-editorial-item {
+      padding: 8px 0;
+      border-bottom: 1px solid #f2ede4;
+      font-size: 0.84rem;
+      line-height: 1.45;
+    }
+
+    .flash-editorial-item:last-child {
+      border-bottom: none;
+    }
+
+    .flash-editorial-event {
+      font-weight: 800;
+      color: var(--text-black);
+    }
+
+    .flash-editorial-text {
+      color: #4b5563;
+      font-family: 'Newsreader', Georgia, serif;
+    }
+
+    .flash-editorial-source {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    .flash-editorial-source a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    /* Floating Copy Button */
+    .bottom-action-dock {
+      position: sticky;
+      bottom: 12px;
+      background: rgba(251, 249, 244, 0.95);
+      backdrop-filter: blur(8px);
+      padding: 8px 0;
       display: flex;
-      flex-direction: column;
-      gap: 14px;
+      justify-content: center;
+      z-index: 99;
     }
 
-    .news-item {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid var(--border-color);
-      border-radius: 14px;
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      transition: all 0.2s ease;
-    }
-
-    .news-item:hover {
-      background: rgba(255, 255, 255, 0.05);
-      border-color: rgba(0, 242, 254, 0.2);
-    }
-
-    .news-header {
+    .copy-btn-chic {
+      background: var(--badge-black);
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 9999px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      cursor: pointer;
       display: flex;
       align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
+      gap: 7px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+      transition: transform 0.15s ease, background 0.15s ease;
     }
 
-    .source-tag {
+    .copy-btn-chic:hover {
+      transform: translateY(-1px);
+      background: #27272a;
+    }
+
+    /* Toast Notification */
+    #copyToast {
+      position: fixed;
+      bottom: 60px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--badge-black);
+      color: #ffffff;
+      padding: 8px 18px;
+      border-radius: 9999px;
       font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--accent-cyan);
-    }
-
-    .badge {
-      font-size: 0.72rem;
       font-weight: 700;
-      padding: 3px 8px;
-      border-radius: 6px;
-      text-transform: uppercase;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+      transition: transform 0.25s ease;
+      z-index: 1000;
     }
 
-    .badge-verified { background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
-    .badge-rumor { background: rgba(249, 115, 22, 0.15); color: #f97316; border: 1px solid rgba(249, 115, 22, 0.3); }
-    .badge-opinion { background: rgba(100, 116, 139, 0.15); color: #94a3b8; border: 1px solid rgba(100, 116, 139, 0.3); }
-
-    .news-title {
-      font-size: 1.05rem;
-      font-weight: 700;
-      color: var(--text-main);
-      line-height: 1.4;
+    #copyToast.show {
+      transform: translateX(-50%) translateY(0);
     }
 
-    .news-summary {
-      font-size: 0.9rem;
-      color: #cbd5e1;
-      line-height: 1.55;
-    }
-
-    /* Bilingual Box */
-    .bilingual-box {
-      margin-top: 6px;
-      padding: 8px 12px;
-      background: rgba(0, 0, 0, 0.3);
-      border-radius: 8px;
-      border-left: 2px solid rgba(0, 242, 254, 0.4);
-      font-size: 0.82rem;
+    /* Footer */
+    .editorial-footer {
+      text-align: center;
+      padding: 16px 4px;
+      font-size: 0.75rem;
       color: var(--text-muted);
       display: flex;
       flex-direction: column;
       gap: 4px;
-    }
-
-    .bilingual-box.hidden {
-      display: none;
-    }
-
-    .bilingual-tag {
-      font-size: 0.7rem;
-      font-weight: 700;
-      color: #38bdf8;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .bilingual-original {
-      font-style: italic;
-      color: #94a3b8;
-    }
-
-    /* Source Link Section */
-    .source-links-box {
-      margin-top: 12px;
-      padding: 14px;
-      background: rgba(0, 0, 0, 0.25);
-      border-radius: 12px;
-      border-left: 3px solid var(--accent-cyan);
-    }
-
-    .source-links-box h4 {
-      font-size: 0.8rem;
-      color: var(--accent-cyan);
-      text-transform: uppercase;
-      margin-bottom: 8px;
-      font-weight: 700;
-    }
-
-    .source-links-box ul {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-
-    .source-links-box li a {
-      font-size: 0.82rem;
-      color: #38bdf8;
-      text-decoration: none;
-      word-break: break-all;
-    }
-
-    .source-links-box li a:hover {
-      text-decoration: underline;
-    }
-
-    /* Marketshare Table */
-    .ms-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.88rem;
-    }
-
-    .ms-table th, .ms-table td {
-      padding: 10px 12px;
-      text-align: left;
-      border-bottom: 1px solid var(--border-color);
-    }
-
-    .ms-table th {
-      color: var(--text-muted);
-      font-weight: 600;
-      text-transform: uppercase;
-      font-size: 0.75rem;
-    }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      padding: 24px;
-      font-size: 0.8rem;
-      color: var(--text-muted);
-      border-top: 1px solid var(--border-color);
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <!-- Header -->
-    <header class="header">
-      <div class="badge-live">● BẢN TIN 24H TỰ ĐỘNG</div>
-      <h1>TỔNG HỢP THỊ TRƯỜNG & CÔNG NGHỆ</h1>
-      <div class="meta-line">Kỳ phát hành: 09/09/2026 • Dành riêng cho Chuyên viên Mua hàng Ryan</div>
-    </header>
 
-    <!-- Controls Bar -->
-    <div class="controls-bar">
-      <span>Cập nhật: <strong>07:27 09/09/2026</strong></span>
-      <div style="display: flex; align-items: center; gap: 12px;">
-        <button id="toggleBilingualBtn" class="bilingual-toggle-btn" onclick="toggleBilingual()">
-          <span>🌐 Chế độ Song ngữ (EN/VI)</span>
+    <!-- Top Navigation Bar -->
+    <div class="top-nav-bar">
+      <div class="top-left">
+        <span class="live-pill">LIVE 24H</span>
+        <span class="top-date-str">HÔM NAY // 10:13 ICT</span>
+      </div>
+      <div class="top-right">
+        <button class="top-icon-btn" onclick="copyNewsletterText()" title="Sao chép bản tin nhanh">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
         </button>
-        <a href="./archive.html">📂 Lưu Trữ</a>
+        <a href="./archive.html" class="top-icon-btn" title="Kho lưu trữ">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        </a>
       </div>
     </div>
 
-    <!-- MODULE 1: INDICES -->
-    <section class="module-card">
-      <div class="module-title">
-        <span>📊</span> Bảng Chỉ Số Thị Trường & Tỷ Giá (Khối 1)
+    <!-- Main Title & Edition Subhead -->
+    <header class="main-masthead">
+      <h1 class="main-title">BẢN TIN THỊ TRƯỜNG & KINH DOANH 24H</h1>
+      <div class="meta-subline">
+        <span class="edition-tag">ẤN BẢN ĐIỆN TỬ SỐ 418</span>
+        <span class="vnindex-meta">VN-INDEX 1.844,05 ▲ 0.54%</span>
       </div>
-      <div class="indices-grid">
-        <div class="index-item">
-          <div class="index-label">Vàng SJC (Bình Ổn)</div>
-          <div class="index-val">147.60 tr.đ</div>
-          <div class="index-sub">Mua: 144.60 tr.đ • Bán: 147.60 tr.đ</div>
-          <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 4px;">Thế giới (Kitco): 4,429 USD/oz</div>
+    </header>
+
+    <!-- 3 Tabs Navigation -->
+    <nav class="editorial-tabs-row">
+      <button id="tabBtn1" class="tab-chip active" onclick="switchTab(1)">
+        <span>🇻🇳</span> TRONG NƯỚC
+      </button>
+      <button id="tabBtn2" class="tab-chip" onclick="switchTab(2)">
+        <span>🌐</span> QUỐC TẾ
+      </button>
+      <button id="tabBtn3" class="tab-chip" onclick="switchTab(3)">
+        <span>📱</span> SOCIAL & XU HƯỚNG
+      </button>
+    </nav>
+
+    <!-- ============================================== -->
+    <!-- TAB 1: TRONG NƯỚC -->
+    <!-- ============================================== -->
+    <div id="tabContent1" class="tab-pane active">
+
+      <!-- Section: Chỉ số tức thời -->
+      <div class="subhead-bar">
+        <div class="subhead-left">
+          <span class="coral-dot"></span>
+          <span class="subhead-title">CHỈ SỐ TỨC THỜI</span>
         </div>
-        <div class="index-item">
-          <div class="index-label">USD / VND</div>
-          <div class="index-val">25.969 đ</div>
-          <div class="index-sub">SBV: 24.280 đ</div>
+        <div class="subhead-right">CẬP NHẬT 10:13 ICT</div>
+      </div>
+
+      <div class="indices-2x2-grid">
+        <div class="idx-box">
+          <div class="idx-top">
+            <span class="idx-name">VÀNG SJC</span>
+            <span class="idx-change up">▲ 0.4%</span>
+          </div>
+          <div class="idx-bottom">
+            <span class="idx-val">147.60</span>
+            <span class="idx-unit">tr/lượng</span>
+          </div>
         </div>
-        <div class="index-item">
-          <div class="index-label">CNY / VND (ICT)</div>
-          <div class="index-val">3.859.66 đ</div>
-          <div class="index-sub">Nhập khẩu phụ kiện/máy</div>
+
+        <div class="idx-box">
+          <div class="idx-top">
+            <span class="idx-name">USD / VND</span>
+            <span class="idx-change down">▼ 10đ</span>
+          </div>
+          <div class="idx-bottom">
+            <span class="idx-val">25.933</span>
+            <span class="idx-unit">VND</span>
+          </div>
         </div>
-        <div class="index-item">
-          <div class="index-label">VN-Index</div>
-          <div class="index-val">1.830,44</div>
-          <div class="index-sub">+6.85 (+0.54%)</div>
+
+        <div class="idx-box">
+          <div class="idx-top">
+            <span class="idx-name">VN-INDEX</span>
+            <span class="idx-change up">▲ 0.54%</span>
+          </div>
+          <div class="idx-bottom">
+            <span class="idx-val">1.844,05</span>
+            <span class="idx-unit">+6.85</span>
+          </div>
         </div>
-        <div class="index-item">
-          <div class="index-label">Xăng RON 95-III</div>
-          <div class="index-val">20.850 đ/lít</div>
-          <div class="index-sub">Kỳ điều hành ngày 05/09/2026</div>
+
+        <div class="idx-box">
+          <div class="idx-top">
+            <span class="idx-name">XĂNG RON 95</span>
+            <span class="idx-change neutral">▪ 0.0%</span>
+          </div>
+          <div class="idx-bottom">
+            <span class="idx-val">20.850</span>
+            <span class="idx-unit">đ/lít</span>
+          </div>
         </div>
       </div>
-      
-      <div class="source-links-box">
-        <h4>🔗 Nguồn Trích Xuất Chỉ Số & Tỷ Giá</h4>
-        <ul>
-          <li>• <a href="https://sjc.com.vn" target="_blank">SJC Việt Nam (Vàng miếng & Vàng nhẫn 9999)</a></li>
-          <li>• <a href="https://open.er-api.com" target="_blank">Open Exchange Rates / Vietcombank (Tỷ giá USD, CNY, KRW)</a></li>
-          <li>• <a href="https://www.hsx.vn" target="_blank">Sở Giao dịch Chứng khoán TP.HCM (VN-Index)</a></li>
-          <li>• <a href="https://www.petrolimex.com.vn" target="_blank">Petrolimex (Giá xăng dầu kỳ điều hành)</a></li>
-        </ul>
-      </div>
-    </section>
 
-    <!-- MODULE 2: DOMESTIC NEWS -->
-    <section class="module-card">
-      <div class="module-title">
-        <span>🇻🇳</span> Thời Sự Trong Nước & Chính Sách 24h
-      </div>
-      <div class="news-list">
-        
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: CafeF Tài Chính</span>
+      <!-- Section: 3 Điểm tin vĩ mô nóng nhất (Black Banner) -->
+      <div class="editorial-banner-card">
+        <div class="banner-black-top">
+          <div class="banner-title">
+            <span>⚡</span> 3 ĐIỂM TIN VĨ MÔ NÓNG NHẤT
           </div>
-          <div class="news-title">Điện thoại trong tay, linh hoạt nhận thanh toán cùng SACOMBANK PAY</div>
-          <div class="news-summary">Thanh toán không chỉ là khâu cuối cùng của một giao dịch mà còn là điểm chạm trong hành trình trải nghiệm mua sắm. Việc chủ động mở rộng phương thức nhận thanh toán có thể giúp các cá nhân kinh doanh và hộ kinh doanh linh hoạt hơn trong quá trình bán...</div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://cafef.vn/dien-thoai-trong-tay-linh-hoat-nhan-thanh-toan-cung-sacombank-pay-188260908172704935.chn" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại CafeF Tài Chính →</a>
-          </div>
+          <div class="banner-timer">60 GIÂY ĐỌC</div>
         </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: VnExpress</span>
-          </div>
-          <div class="news-title">A2 e-tron ra mắt - xe điện hiệu suất pin tốt nhất của Audi</div>
-          <div class="news-summary">Mẫu crossover điện cỡ nhỏ mới cung cấp ba tùy chọn gói pin, sử dụng môtơ điện cầu sau, phạm vi hoạt động 422-645 km, giá từ 43.600 USD.</div>
+        <div class="banner-card-body">
           
-          <div style="margin-top: 4px;">
-            <a href="https://vnexpress.net/a2-e-tron-ra-mat-xe-dien-hieu-suat-pin-tot-nhat-cua-audi-5117744.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
-          </div>
-        </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: CafeF Tài Chính</span>
-          </div>
-          <div class="news-title">KienlongBank ra mắt hệ sinh thái số MyShop 5.0 All-in-One cho Hộ kinh doanh</div>
-          <div class="news-summary">Không chỉ dừng lại ở việc giúp Hộ kinh doanh quản lý dòng tiền, KienlongBank đã nâng cấp giải pháp MyShop 5.0 thành nền tảng quản trị "All-in-One", tích hợp bán hàng, hóa đơn điện tử, chữ ký số và hỗ trợ kê khai thuế trên cùng một ứng dụng.</div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://cafef.vn/kienlongbank-ra-mat-he-sinh-thai-so-myshop-50-all-in-one-cho-ho-kinh-doanh-188260908114227889.chn" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại CafeF Tài Chính →</a>
-          </div>
-        </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: VnExpress</span>
-          </div>
-          <div class="news-title">Nga gợi ý mô hình 'tiến sĩ doanh nghiệp' cho Việt Nam</div>
-          <div class="news-summary">Bộ trưởng Khoa học và Giáo dục Đại học Valery Falkov đề xuất Việt Nam tham khảo mô hình "tiến sĩ doanh nghiệp", trong đó nghiên cứu trực tiếp cùng doanh nghiệp để giải quyết bài toán thực tiễn.</div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://vnexpress.net/nga-goi-y-mo-hinh-tien-si-doanh-nghiep-cho-viet-nam-5118133.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
-          </div>
-        </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: VnExpress</span>
-          </div>
-          <div class="news-title">Cung đường chữ S ở Y Tý</div>
-          <div class="news-summary">Cung đường chữ S giáp giữa A Lù và Ngải Thầu, cách trung tâm Y Tý khoảng 5 km, uốn lượn qua sườn núi giữa màu xanh rừng và màu vàng - xanh của những thửa ruộng bậc thang.</div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://vnexpress.net/cung-duong-chu-s-o-y-ty-5117465.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
-          </div>
-        </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: VnExpress</span>
-          </div>
-          <div class="news-title">Phụ huynh xếp hàng 'săn' sách giáo khoa sau khai giảng</div>
-          <div class="news-summary">Năm học đã bắt đầu nhưng nhiều học sinh vẫn thiếu sách giáo khoa, phụ huynh phải xếp hàng tại điểm bán của NXB Giáo dục để mua bổ sung cho con.</div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://vnexpress.net/phu-huynh-xep-hang-san-sach-giao-khoa-sau-khai-giang-5118049.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
-          </div>
-        </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: VnExpress</span>
-          </div>
-          <div class="news-title">Haaland giúp Man City thắng trận ra quân Champions League</div>
-          <div class="news-summary">Tiền đạo Erling Haaland lập cú đúp trong hiệp hai, khi Man City hạ Porto 2-0 ở lượt đầu Champions League và chấm dứt chuỗi 33 trận bất bại sân nhà của đối thủ.</div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://vnexpress.net/haaland-giup-man-city-thang-tran-ra-quan-champions-league-5118144.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
-          </div>
-        </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: VnExpress</span>
-          </div>
-          <div class="news-title">Tình yêu xuyên lục địa của nữ nghệ sĩ Việt ở Paris</div>
-          <div class="news-summary">Vượt khoảng cách địa lý và sự phản đối của con gái, chị Hương Giang và anh Richard Horne đã viết nên câu chuyện tình lãng mạn ở tuổi ngũ tuần.</div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://vnexpress.net/tinh-yeu-xuyen-luc-dia-cua-nu-nghe-si-viet-o-paris-5116496.html" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại VnExpress →</a>
-          </div>
-        </div>
-        
-      </div>
-    </section>
-
-    <!-- MODULE 3: TECH & SMARTPHONE -->
-    <section class="module-card">
-      <div class="module-title">
-        <span>📱</span> Bản Tin Công Nghệ & Smartphone (Khối 2)
-      </div>
-      <div class="news-list">
-        
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: GSMArena</span>
-          </div>
-          <div class="news-title">Báo cáo mới cho biết Apple muốn iPhone Ultra có giá 1.999 $</div>
-          <div class="news-summary">Apple sẽ tổ chức sự kiện ra mắt iPhone lớn hàng năm vào ngày 9 tháng 9 và dự kiến sẽ ra mắt iPhone Ultra vào ngày đó. Đây sẽ là điện thoại thông minh có thể gập lại đầu tiên của nó, và nó đã được một thời gian rất dài sắp tới. Theo một báo cáo mới từ Blo...</div>
-          
-            <div class="bilingual-box hidden">
-              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (GSMArena):</span>
-              <div class="bilingual-original"><strong>Title:</strong> Apple wanted the iPhone Ultra to cost $1,999, new report says</div>
-              <div class="bilingual-original"><strong>Summary:</strong> Apple is holding its big annual iPhone launch event on September 9, and it's widely expected to unveil the iPhone Ultra on that day. This will be its first foldable smartphone, and it's been a very long time coming. According to a new report from Blo...</div>
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">01</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Điện thoại trong tay, linh hoạt nhận thanh toán cùng SACOMBANK PAY</h3>
+            <p class="editorial-summary-serif">Thanh toán không chỉ là khâu cuối cùng của một giao dịch mà còn là điểm chạm trong hành trình trải nghiệm mua sắm. Việc chủ động mở rộng phương thức nhận thanh toán có thể giúp các cá nhân kinh doanh và hộ kinh doanh linh hoạt hơn trong quá trình bán hàng, hỗ trợ theo dõi doanh t... Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://cafef.vn/dien-thoai-trong-tay-linh-hoat-nhan-thanh-toan-cung-sacombank-pay-188260908172704935.chn" target="_blank">CafeF Tài Chính ↗</a>
             </div>
-            
-          <div style="margin-top: 4px;">
-            <a href="https://www.gsmarena.com/apple_wanted_the_iphone_ultra_to_cost_1999_new_report_says-news-74523.php" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại GSMArena →</a>
           </div>
         </div>
         
 
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: GSMArena</span>
-          </div>
-          <div class="news-title">Samsung Galaxy S26 FE review</div>
-          <div class="news-summary"></div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://www.gsmarena.com/samsung_galaxy_s26_fe-review-2999.php" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại GSMArena →</a>
-          </div>
-        </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: Tinhte.vn</span>
-          </div>
-          <div class="news-title">IFA26: Dạo một vòng gian hàng Xiaomi: Mang cả siêu xe, robot và điện thoại gập tới</div>
-          <div class="news-summary">Đây là lần đầu tiên Xiaomi chính thức góp mặt tại triển lãm IFA ở Berlin, và phải công nhận là họ đã chuẩn bị một màn chào sân rất hoành tráng. Nhìn lại chặng đường cả chục năm qua của Xiaomi, từ...</div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://tinhte.vn/thread/ifa26-dao-mot-vong-gian-hang-xiaomi-mang-ca-sieu-xe-robot-va-dien-thoai-gap-toi.4174969/" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại Tinhte.vn →</a>
-          </div>
-        </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: GSMArena</span>
-          </div>
-          <div class="news-title">SoC Dimensity 9600 Pro của MediaTek hiện đã có ngày ra mắt chính thức</div>
-          <div class="news-summary">Hôm nay trên X, MediaTek đã tiết lộ khi nào họ có kế hoạch công bố SoC kích thước hàng đầu tiếp theo của mình: vào ngày 15 tháng 9 lúc 2:30 chiều tại Trung Quốc. Đó là 2:30 sáng ở New York, 7:30 sáng ở London, 8:30 sáng ở Trung Âu, 9:30 sáng ở Đông Âu và 12 giờ trưa ở Ấn Độ. Một...</div>
-          
-            <div class="bilingual-box hidden">
-              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (GSMArena):</span>
-              <div class="bilingual-original"><strong>Title:</strong> MediaTek's Dimensity 9600 Pro SoC now has an official launch date</div>
-              <div class="bilingual-original"><strong>Summary:</strong> Today on X, MediaTek has revealed when it plans to unveil its next flagship Dimensity SoC: on September 15 at 2:30 PM in China. That's 2:30 AM in New York, 7:30 AM in London, 8:30 AM in Central Europe, 9:30 AM in Eastern Europe, and 12 PM in India. A...</div>
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">02</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Thịt gà, phụ phẩm nhập khẩu rẻ hơn nhiều loại rau</h3>
+            <p class="editorial-summary-serif">Trong 7 tháng, Việt Nam nhập gần 217.400 tấn thịt và phụ phẩm gia cầm với giá bình quân khoảng 26.500 đồng một kg, thấp hơn giá bán lẻ nhiều loại rau. Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://vnexpress.net/thit-ga-phu-pham-nhap-khau-re-hon-nhieu-loai-rau-5117946.html" target="_blank">VnExpress Kinh Doanh ↗</a>
             </div>
-            
-          <div style="margin-top: 4px;">
-            <a href="https://www.gsmarena.com/mediateks_dimensity_9600_pro_soc_now_has_an_official_launch_date-news-74521.php" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại GSMArena →</a>
           </div>
         </div>
         
 
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: Tinhte.vn</span>
-          </div>
-          <div class="news-title">Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt</div>
-          <div class="news-summary">Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt Nintendo vừa tổ chức riêng một Direct mừng 40 năm Zelda, và thứ thích nhất không phải là bản làm lại...</div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://tinhte.vn/thread/nintendo-tung-switch-2-phien-ban-40-nam-zelda-an-dinh-ngay-ocarina-of-time-ban-lam-lai-ra-mat.4175642/" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại Tinhte.vn →</a>
-          </div>
-        </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: Tinhte.vn</span>
-          </div>
-          <div class="news-title">Apple bước vào một cuộc đua máy gập và Huawei mới là đối thủ thực sự</div>
-          <div class="news-summary">Có lẽ mọi ánh mắt trong tuần này, mọi thông tin đều đang hướng về ngày 9/9, với ánh mắt đổ dồn về chiếc iPhone gập sắp ra mắt, và thật ra mình thấy phần lớn đều đóng khung câu chuyện theo kiểu...</div>
-          
-          <div style="margin-top: 4px;">
-            <a href="https://tinhte.vn/thread/apple-buoc-vao-mot-cuoc-dua-may-gap-va-huawei-moi-la-doi-thu-thuc-su.4175374/" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại Tinhte.vn →</a>
-          </div>
-        </div>
-        
-
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: GSMArena</span>
-          </div>
-          <div class="news-title">ứng dụng camera iOS sẽ nhận được một số tiện ích bổ sung chuyên nghiệp, gợi ý về hỗ trợ khẩu độ thay đổi</div>
-          <div class="news-summary">Apple đang hoàn thiện iOS 27 để phát hành cho công chúng (sau sự kiện iPhone 18 vào ngày mai) và một số người thông minh đã xem qua mã để xem có gì mới. Cụ thể là mã ứng dụng camera iOS 27, và có một số tính năng chuyên nghiệp chính đang được triển khai. Sta...</div>
-          
-            <div class="bilingual-box hidden">
-              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (GSMArena):</span>
-              <div class="bilingual-original"><strong>Title:</strong> iOS camera app will get some pro add-ons, hints at variable aperture support</div>
-              <div class="bilingual-original"><strong>Summary:</strong> Apple is finalizing iOS 27 for release to the masses (after tomorrow's iPhone 18 event), and some clever people have peeked into the code to see what's new. Specifically, the iOS 27 camera app code, and there are some major pro features en route. Sta...</div>
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">03</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Hàng nhập khẩu trên 100.000 đồng có thể không còn được miễn thuế</h3>
+            <p class="editorial-summary-serif">Bộ Tài chính đề xuất hạ ngưỡng miễn thuế cho hàng xuất nhập khẩu xuống 100.000 đồng, thay vì mức 500.000 đến một triệu đồng như hiện nay. Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://vnexpress.net/hang-nhap-khau-tren-100-000-dong-co-the-khong-con-duoc-mien-thue-5118124.html" target="_blank">VnExpress Kinh Doanh ↗</a>
             </div>
-            
-          <div style="margin-top: 4px;">
-            <a href="https://www.gsmarena.com/ios_camera_app_will_get_some_pro_addons_hints_at_variable_aperture_support-news-74524.php" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại GSMArena →</a>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+
+      <!-- Section: Công nghệ & Bán lẻ (ICT) trong nước -->
+      <div class="section-headline-line">
+        <div class="headline-left">
+          <span>🗂</span> CÔNG NGHỆ & BÁN LẺ (ICT)
+        </div>
+        <div class="headline-right">THỊ TRƯỜNG TUẦN</div>
+      </div>
+      <div class="standalone-card-body">
+        
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">01</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">#Tinhtetest: Thử nghiệm Samsung SSD 9100 PRO: PCIe Gen 5 dành cho ai?</h3>
+            <p class="editorial-summary-serif">Nếu như những ổ cứng thể rắn Gen 4 đã xóa bỏ hoàn toàn nút thắt cổ chai của giao tiếp SATA cũ kỹ, đưa tốc độ truyền tải lên ngưỡng 7.5 GB/s, thì Gen5 hứa hẹn nhân đôi con số đó, mở ra kỷ nguyên... Tạo đòn bẩy thúc đẩy người dùng nâng cấp thiết bị 5G; gia tăng sức mua cho dòng smartphone tầm trung từ <strong class="stat-highlight">6-10 triệu</strong> đồng.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://tinhte.vn/thread/tinhtetest-thu-nghiem-samsung-ssd-9100-pro-pcie-gen-5-danh-cho-ai.4083714/" target="_blank">Tinhte.vn ↗</a>
+            </div>
           </div>
         </div>
         
 
-        <div class="news-item">
-          <div class="news-header">
-            
-            <span class="source-tag">Nguồn: GSMArena</span>
-          </div>
-          <div class="news-title">IPhone Ultra ra mắt tại Trung Quốc có thể bị trì hoãn vì lý do tương tự như iPhone Air</div>
-          <div class="news-summary">Các mẫu iPhone 15 được bán ở Mỹ chỉ sử dụng eSIM – ở Mỹ, việc Apple rời khỏi SIM vật lý đã diễn ra mà không gặp trở ngại nào. Tuy nhiên, câu chuyện ở Trung Quốc lại khác. IPhone Air là mẫu eSIM đầu tiên được bán tại Trung Quốc và nó...</div>
-          
-            <div class="bilingual-box hidden">
-              <span class="bilingual-tag">🇬🇧 Nguyên bản tiếng Anh (GSMArena):</span>
-              <div class="bilingual-original"><strong>Title:</strong> The iPhone Ultra launch in China may be delayed for the same reason as the iPhone Air</div>
-              <div class="bilingual-original"><strong>Summary:</strong> The iPhone 15 models sold in the US exclusively used eSIM – in the US, Apple’s move away from physical SIMs went off without a hitch. The story in China was different, though. The iPhone Air was the first eSIM-only model to be sold in China and it fa...</div>
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">02</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức...</h3>
+            <p class="editorial-summary-serif">Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức khỏe Đây là tin mình để ý nhất hôm nay vì thời điểm ra mắt khá nhạy cảm: chưa đầy hai tuần sau khi... Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://tinhte.vn/thread/meta-ra-mat-tro-ly-ai-ca-nhan-muse-doi-quyen-truy-cap-email-lich-thanh-toan-va-ca-du-lieu-suc.4175645/" target="_blank">Tinhte.vn ↗</a>
             </div>
-            
-          <div style="margin-top: 4px;">
-            <a href="https://www.gsmarena.com/the_iphone_ultra_launch_in_china_may_be_delayed_for_the_same_reason_as_the_iphone_air-news-74519.php" target="_blank" style="font-size: 0.8rem; color: #38bdf8; text-decoration: none;">🔗 Đọc bài gốc tại GSMArena →</a>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">03</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt</h3>
+            <p class="editorial-summary-serif">Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt Nintendo vừa tổ chức riêng một Direct mừng 40 năm Zelda, và thứ thích nhất không phải là bản làm lại... Định hình xu hướng tiêu dùng và danh mục sản phẩm chủ lực trong các đợt mua sắm sắp tới.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://tinhte.vn/thread/nintendo-tung-switch-2-phien-ban-40-nam-zelda-an-dinh-ngay-ocarina-of-time-ban-lam-lai-ra-mat.4175642/" target="_blank">Tinhte.vn ↗</a>
+            </div>
           </div>
         </div>
         
       </div>
-    </section>
 
-    <!-- MODULE 4: MARKETSHARE -->
-    <section class="module-card">
-      <div class="module-title">
-        <span>📈</span> Thị Phần Smartphone Việt Nam (Counterpoint / Canalys)
+      <!-- Section: Khảo sát thị phần Smartphone Việt Nam -->
+      <div class="section-headline-line">
+        <div class="headline-left">
+          <span>📱</span> THỊ PHẦN SMARTPHONE VIỆT NAM
+        </div>
+        <div class="headline-right">GFK & COUNTERPOINT</div>
       </div>
-      <p style="font-size: 0.85rem; color: var(--text-muted);">
-        *Lưu ý Spec 2.4: Số liệu kỳ Quý 2/2026 (Công bố gần nhất tháng 08/2026) — Không phải phát sinh trong 24h.*
-      </p>
-      <table class="ms-table">
-        <thead>
-          <tr>
-            <th>Thương hiệu</th>
-            <th>Thị phần</th>
-            <th>Biến động</th>
-            <th>Tình hình & Trọng tâm</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Samsung</strong></td>
-            <td style="color: var(--accent-cyan); font-weight: 700;">29.5%</td>
-            <td style="color: var(--accent-emerald);">+1.2%</td>
-            <td>Dẫn đầu phân khúc A-series & Galaxy S</td>
-          </tr>
-          <tr>
-            <td><strong>OPPO</strong></td>
-            <td style="color: var(--accent-cyan); font-weight: 700;">23.0%</td>
-            <td style="color: var(--accent-emerald);">+0.5%</td>
-            <td>Mạnh dòng Reno & bán lẻ truyền thống</td>
-          </tr>
-          <tr>
-            <td><strong>Apple</strong></td>
-            <td style="color: var(--accent-cyan); font-weight: 700;">17.8%</td>
-            <td style="color: var(--accent-rose);">-0.8%</td>
-            <td>Chững lại chờ đợt mở bán iPhone mới</td>
-          </tr>
-          <tr>
-            <td><strong>Xiaomi</strong></td>
-            <td style="color: var(--accent-cyan); font-weight: 700;">14.2%</td>
-            <td style="color: var(--accent-emerald);">+1.5%</td>
-            <td>Redmi Note & Poco giữ phong độ cao</td>
-          </tr>
-          <tr style="background: rgba(0, 242, 254, 0.06);">
-            <td><strong>Vivo (Trọng tâm)</strong></td>
-            <td style="color: var(--accent-cyan); font-weight: 700;">8.5%</td>
-            <td style="color: var(--accent-emerald);">+0.9%</td>
-            <td>Tăng trưởng ổn định dòng V-series & Y-series</td>
-          </tr>
-          <tr style="background: rgba(0, 242, 254, 0.06);">
-            <td><strong>Realme (Trọng tâm)</strong></td>
-            <td style="color: var(--accent-cyan); font-weight: 700;">4.5%</td>
-            <td style="color: var(--accent-emerald);">+0.4%</td>
-            <td>Đẩy mạnh dòng C-series phân khúc học sinh</td>
-          </tr>
-        </tbody>
-      </table>
-      
-      <div class="source-links-box">
-        <h4>💡 Khuyến Nghị Chuyên Viên Mua Hàng (Buyer Insights)</h4>
-        <ul>
-          <li>• Phân khúc 5 - 8 triệu đồng vẫn là phân khúc đóng góp doanh số chính tại thị trường Việt Nam.</li>
-          <li>• Vivo và Realme đang có chính sách chiết khấu tốt cho đợt nhập hàng mùa tựu trường.</li>
-          <li>• Nguồn theo dõi: <a href="https://www.counterpointresearch.com" target="_blank">Counterpoint Research Market Monitor</a></li>
-        </ul>
+      <div class="standalone-card-body" style="padding: 10px 14px;">
+        <p style="font-size: 0.72rem; color: var(--text-muted); margin-bottom: 6px;">
+          Số liệu kỳ Quý 2/2026 — Khảo sát bán lẻ GfK & xuất xưởng Counterpoint:
+        </p>
+        <table class="editorial-clean-table">
+          <thead>
+            <tr>
+              <th>Thương hiệu</th>
+              <th>Bán lẻ (GfK)</th>
+              <th>Xuất xưởng</th>
+              <th>Kênh chủ lực</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Samsung</strong></td>
+              <td style="color: var(--accent-bronze); font-weight: 800;">31.2%</td>
+              <td>29.5%</td>
+              <td>Chuỗi bán lẻ MWG, FPT Shop</td>
+            </tr>
+            <tr>
+              <td><strong>OPPO</strong></td>
+              <td style="color: var(--accent-bronze); font-weight: 800;">22.8%</td>
+              <td>23.0%</td>
+              <td>Offline truyền thống & Reno</td>
+            </tr>
+            <tr>
+              <td><strong>Apple</strong></td>
+              <td style="color: var(--accent-bronze); font-weight: 800;">18.5%</td>
+              <td>17.8%</td>
+              <td>Phân khúc cao cấp >20tr</td>
+            </tr>
+            <tr>
+              <td><strong>Xiaomi</strong></td>
+              <td style="color: var(--accent-bronze); font-weight: 800;">13.8%</td>
+              <td>14.2%</td>
+              <td>Dòng Redmi Note</td>
+            </tr>
+            <tr style="background: #faf7f0;">
+              <td><strong>Vivo</strong></td>
+              <td style="color: var(--accent-bronze); font-weight: 800;">9.2%</td>
+              <td>8.5%</td>
+              <td>Dòng V-series & Y-series</td>
+            </tr>
+            <tr style="background: #faf7f0;">
+              <td><strong>Realme</strong></td>
+              <td style="color: var(--accent-bronze); font-weight: 800;">4.1%</td>
+              <td>4.5%</td>
+              <td>Phổ thông 3-5 triệu</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-    </section>
+
+    </div>
+
+    <!-- ============================================== -->
+    <!-- TAB 2: QUỐC TẾ -->
+    <!-- ============================================== -->
+    <div id="tabContent2" class="tab-pane">
+
+      <!-- Section: Kinh tế & Địa chính trị quốc tế (Black Banner) -->
+      <div class="editorial-banner-card">
+        <div class="banner-black-top">
+          <div class="banner-title">
+            <span>🌍</span> KINH TẾ & ĐỊA CHÍNH TRỊ TOÀN CẦU
+          </div>
+          <div class="banner-timer">REUTERS • BBC • CNBC</div>
+        </div>
+        <div class="banner-card-body">
+          
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">01</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Vương quốc Anh thông báo các biện pháp trừng phạt đối với các khu định cư ở Bờ Tây khiến Israel tức giận phản ứng</h3>
+            <p class="editorial-summary-serif">Ngoại trưởng Anh cáo buộc những người định cư thực hiện "thanh lọc sắc tộc" người Palestine, khi Israel phản ứng bằng cách đóng cửa lãnh sự quán Anh ở Đông Jerusalem. Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss" target="_blank">Reuters / BBC World ↗</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">02</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Paul Adams: Quan hệ Anh-Israel ở mức thấp nhất trong nhiều thập kỷ</h3>
+            <p class="editorial-summary-serif">Phản ứng của Israel đối với lệnh cấm thương mại của London với các khu định cư của Israel ở Bờ Tây bị chiếm đóng cho thấy tầm quan trọng của thời điểm này. Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss" target="_blank">Reuters / BBC World ↗</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">03</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Mỹ cấm nhập khẩu rượu, xe máy và các hàng hóa khác của Canada</h3>
+            <p class="editorial-summary-serif">Đây là cuộc đình công mới nhất trong một cuộc chiến thương mại kéo dài, và diễn ra khi thuế quan của Canada đối với hàng hóa của Mỹ có hiệu lực. Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss" target="_blank">Reuters / BBC World ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+
+      <!-- Section: Công nghệ & Thiết bị di động quốc tế (GSMArena, The Verge) -->
+      <div class="section-headline-line">
+        <div class="headline-left">
+          <span>💻</span> CÔNG NGHỆ QUỐC TẾ (GSMARENA)
+        </div>
+        <div class="headline-right">THIẾT BỊ MỚI</div>
+      </div>
+      <div class="standalone-card-body">
+        
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">01</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Sony không loại bỏ đĩa khá nhanh như chúng ta nghĩ</h3>
+            <p class="editorial-summary-serif">Sony không lùi bước trước quyết định loại bỏ đĩa trò chơi điện tử vào tháng 1 năm 2028. Nhưng Sony cũng không ngừng sản xuất nhanh như chúng tôi nghĩ. Hai tháng sau khi có báo cáo rằng nhà máy sản xuất đĩa cuối cùng của Sony đã được tái sử dụng, bộ phận sản xuất đĩa của công ty... Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent" target="_blank">The Verge Tech ↗</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">02</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Drama swirls around OpenAI’s legendary mathematical milestone</h3>
+            <p class="editorial-summary-serif">OpenAI cho biết họ đã tìm ra giải pháp cho một vấn đề toán học lớn vẫn chưa được giải quyết trong khoảng 90 năm, theo báo cáo trước đó của The New York Times và Wired. Trong một bài đăng trên blog vào thứ ba, OpenAI thông báo rằng họ đã phát hiện ra một giải pháp cho vấn đề Navier-Stokes - liên quan đến... Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution" target="_blank">The Verge Tech ↗</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">03</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Rivian spinout Cũng xin lỗi vì sự chậm trễ trong việc vận chuyển xe đạp điện tương lai</h3>
+            <p class="editorial-summary-serif">Xe đạp điện tương lai của Rivian bị trì hoãn và khách hàng không hài lòng. Năm ngoái, Rivian cũng đã tiết lộ một chiếc xe đạp điện mới, được điều khiển bằng phần mềm có tên TM-B, ngay lập tức khiến thế giới xe đạp điện bùng cháy. Với pin sạc USB-C, giá đỡ ghế có thể tháo rời,... Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology" target="_blank">The Verge Tech ↗</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">04</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Tai nghe chơi game được trang bị ANC của Razer cho PS5 và Xbox giảm gần 100 $</h3>
+            <p class="editorial-summary-serif">Rất hiếm khi tìm thấy các tính năng cao cấp như khử tiếng ồn chủ động trong tai nghe chơi game dưới 200 $, vì vậy chúng tôi rất vui mừng khi Razer BlackShark V3 Pro được bán tại Woot với giá $ 164,99. Có những mô hình cụ thể được bán trên thị trường cho Xbox và PlayStation, nhưng phiên bản Xbox là lựa chọn tốt nhất b... Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale" target="_blank">The Verge Tech ↗</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Section: Tin vắn nhanh quốc tế -->
+      <div class="section-headline-line">
+        <div class="headline-left">
+          <span>⚡</span> TIN VẮN NHANH TOÀN CẦU
+        </div>
+        <div class="headline-right">VẮN TẮT 60s</div>
+      </div>
+      <div class="standalone-card-body">
+        
+        <div class="flash-editorial-item">
+          <span class="flash-editorial-event">[Những bức tranh Renoir trị giá hàng t...]:</span>
+          <span class="flash-editorial-text">Đây là vụ mới nhất trong một loạt các vụ trộm cắp nghệ thuật cao cấp ở châu Âu đã một lần nữa đưa an ninh của các bảo tàng và phòng trưng bày trở thành tâm điểm chú ý.</span>
+          <span class="flash-editorial-source">(Nguồn: <a href="https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss" target="_blank">Reuters / BBC World ↗</a>)</span>
+        </div>
+        
+
+        <div class="flash-editorial-item">
+          <span class="flash-editorial-event">[Meta tiếp tục chạy quảng cáo quảng bá...]:</span>
+          <span class="flash-editorial-text">Báo cáo này theo sau một cuộc điều tra của BBC Eye cho thấy Instagram chạy quảng cáo trả tiền quảng bá tài liệu như vậy ở Ấn Độ.</span>
+          <span class="flash-editorial-source">(Nguồn: <a href="https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&at_campaign=rss" target="_blank">Reuters / BBC World ↗</a>)</span>
+        </div>
+        
+
+        <div class="flash-editorial-item">
+          <span class="flash-editorial-event">[Mỹ cấm sữa, xe máy và hầu hết đồ uống...]:</span>
+          <span class="flash-editorial-text">Động thái này diễn ra một ngày sau khi Ottawa áp đặt mức thuế trả đũa 20 tỷ $ đối với hàng hóa của Hoa Kỳ.</span>
+          <span class="flash-editorial-source">(Nguồn: <a href="https://www.ft.com/content/639d8eac-fd8c-4557-a852-f826501681ad?syn-25a6b1a6=1" target="_blank">Bloomberg / Financial Times ↗</a>)</span>
+        </div>
+        
+
+        <div class="flash-editorial-item">
+          <span class="flash-editorial-event">[Meta tiết lộ trợ lý cá nhân AI được l...]:</span>
+          <span class="flash-editorial-text">‘tác nhân‘ mới được gọi là Muse được thiết kế để đưa ra các đề xuất tùy chỉnh dựa trên các cuộc trò chuyện và hoạt động truyền thông xã hội.</span>
+          <span class="flash-editorial-source">(Nguồn: <a href="https://www.ft.com/content/5816292b-c36b-4c22-aa50-2680b9970382?syn-25a6b1a6=1" target="_blank">Bloomberg / Financial Times ↗</a>)</span>
+        </div>
+        
+
+        <div class="flash-editorial-item">
+          <span class="flash-editorial-event">[Giới trẻ Mỹ chưa bao giờ chứng kiến m...]:</span>
+          <span class="flash-editorial-text">Hai mươi lăm năm sau ngày 11/9, nợ và chi tiêu quốc phòng đang phình to trong khi ngoại giao bị bỏ đói và các đồng minh bị xa lánh.</span>
+          <span class="flash-editorial-source">(Nguồn: <a href="https://www.ft.com/content/2e97fb28-24cf-4ab0-89b1-454b4f97cdbc" target="_blank">Bloomberg / Financial Times ↗</a>)</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- ============================================== -->
+    <!-- TAB 3: SOCIAL & XU HƯỚNG -->
+    <!-- ============================================== -->
+    <div id="tabContent3" class="tab-pane">
+
+      <!-- Section: Top Trends Google -->
+      <div class="section-headline-line">
+        <div class="headline-left">
+          <span>🔥</span> TOP TỪ KHÓA THỊNH HÀNH GOOGLE
+        </div>
+        <div class="headline-right">VIỆT NAM 24H</div>
+      </div>
+      <div class="standalone-card-body">
+        <div class="trends-editorial-grid">
+          
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-kw">park hang-seo</div>
+          <div class="trend-editorial-meta">
+            <span>🔥 Hot General</span>
+            <span class="trend-traffic-val">500+</span>
+          </div>
+        </div>
+        
+
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-kw">sức khỏe và đời sống</div>
+          <div class="trend-editorial-meta">
+            <span>🔥 Hot General</span>
+            <span class="trend-traffic-val">100+</span>
+          </div>
+        </div>
+        
+
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-kw">hồng vân</div>
+          <div class="trend-editorial-meta">
+            <span>🔥 Hot General</span>
+            <span class="trend-traffic-val">1000+</span>
+          </div>
+        </div>
+        
+
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-kw">vietinbank</div>
+          <div class="trend-editorial-meta">
+            <span>🔥 Hot General</span>
+            <span class="trend-traffic-val">2000+</span>
+          </div>
+        </div>
+        
+
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-kw">погода</div>
+          <div class="trend-editorial-meta">
+            <span>🔥 Hot General</span>
+            <span class="trend-traffic-val">200+</span>
+          </div>
+        </div>
+        
+
+        <div class="trend-editorial-chip">
+          <div class="trend-editorial-kw">tài sản</div>
+          <div class="trend-editorial-meta">
+            <span>🔥 Hot General</span>
+            <span class="trend-traffic-val">2000+</span>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+
+      <!-- Section: Showbiz & Giải trí Mạng xã hội -->
+      <div class="editorial-banner-card">
+        <div class="banner-black-top">
+          <div class="banner-title">
+            <span>🌟</span> TIÊU ĐIỂM SHOWBIZ & MẠNG XÃ HỘI
+          </div>
+          <div class="banner-timer">VIRAL TRENDS</div>
+        </div>
+        <div class="banner-card-body">
+          
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">01</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Sắc vóc nữ chính phim 'Đầu xuân tươi sáng'</h3>
+            <p class="editorial-summary-serif">Diễn viên Tôn Thiên - nữ chính phim gây sốt "Đầu xuân tươi sáng" - gây chú ý khán giả với nét đẹp trong trẻo. Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://vnexpress.net/sac-voc-nu-chinh-phim-dau-xuan-tuoi-sang-5117669.html" target="_blank">VnExpress Giải Trí ↗</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">02</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Joheirry Mola: Không bỏ nghề giáo khi đăng quang Miss World</h3>
+            <p class="editorial-summary-serif">Hoa hậu Joheirry Mola Dominguez nói "xem học sinh là cả thế giới" và sẽ tìm người hỗ trợ các em trong thời gian cô bận đảm nhận vai trò Miss World 2026. Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://vnexpress.net/joheirry-mola-khong-bo-nghe-giao-khi-dang-quang-miss-world-5118084.html" target="_blank">VnExpress Giải Trí ↗</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="editorial-news-item">
+          <div class="editorial-badge-box">03</div>
+          <div class="editorial-text-col">
+            <h3 class="editorial-headline">Lần đầu công diễn kiệt tác opera 'Tosca' ở Việt Nam</h3>
+            <p class="editorial-summary-serif">Nhà hát Nhạc Vũ kịch Việt Nam (VNOB) lần đầu công diễn trọn vở ''Tosca'' tại Nhà hát Hồ Gươm, Hà Nội, ngày 26 và 27/9. Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.</p>
+            <div class="editorial-source-mini">
+              Nguồn: <a href="https://vnexpress.net/lan-dau-cong-dien-kiet-tac-opera-tosca-o-viet-nam-5117473.html" target="_blank">VnExpress Giải Trí ↗</a>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Floating Copy Button Dock -->
+    <div class="bottom-action-dock">
+      <button class="copy-btn-chic" onclick="copyNewsletterText()">
+        <span>📋</span> SAO CHÉP BẢN TIN (ZALO / TELEGRAM)
+      </button>
+    </div>
 
     <!-- Footer -->
-    <footer class="footer">
-      <div>Hệ thống vận hành bởi Antigravity • Chuẩn bị dữ liệu cho NotebookLM</div>
-      <div>Miễn trừ trách nhiệm: Toàn bộ thông tin tài chính và đầu tư chỉ mang tính chất tham khảo, không phải khuyến nghị mua/bán.</div>
+    <footer class="editorial-footer">
+      <div>Bản Tin Thị Trường 24h • Xuất bản tự động bởi Antigravity</div>
+      <div>Dữ liệu được kiểm định đa nguồn chính thống • Cập nhật mỗi ngày lúc 07:00 ICT.</div>
     </footer>
+
   </div>
 
+  <!-- Toast Notification -->
+  <div id="copyToast">✓ Đã sao chép toàn bộ bản tin dạng text vào bộ nhớ tạm!</div>
+
+  <!-- Hidden Raw Text for Copying -->
+  <textarea id="rawNewsletterText" style="display: none;">📊 BẢN TIN THỊ TRƯỜNG, CÔNG NGHỆ &amp; SOCIAL 24H (09/09/2026)
+=======================================================
+
+🇻🇳 1. TIN TRONG NƯỚC
+📈 A. Kinh Tế &amp; Thị Trường Trong Nước:
+1. Điện thoại trong tay, linh hoạt nhận thanh toán cùng SACOMBANK PAY
+   - Bối cảnh: Thanh toán không chỉ là khâu cuối cùng của một giao dịch mà còn là điểm chạm trong hành trình trải nghiệm mua sắm. Việc chủ động mở rộng phương thức nhận thanh toán có thể giúp các cá nhân kinh doanh và hộ kinh doanh linh hoạt hơn trong quá trình bán hàng, hỗ trợ theo dõi doanh t...
+   - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+   - Nguồn: CafeF Tài Chính (https://cafef.vn/dien-thoai-trong-tay-linh-hoat-nhan-thanh-toan-cung-sacombank-pay-188260908172704935.chn)
+
+2. Thịt gà, phụ phẩm nhập khẩu rẻ hơn nhiều loại rau
+   - Bối cảnh: Trong 7 tháng, Việt Nam nhập gần 217.400 tấn thịt và phụ phẩm gia cầm với giá bình quân khoảng 26.500 đồng một kg, thấp hơn giá bán lẻ nhiều loại rau.
+   - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+   - Nguồn: VnExpress Kinh Doanh (https://vnexpress.net/thit-ga-phu-pham-nhap-khau-re-hon-nhieu-loai-rau-5117946.html)
+
+3. Hàng nhập khẩu trên 100.000 đồng có thể không còn được miễn thuế
+   - Bối cảnh: Bộ Tài chính đề xuất hạ ngưỡng miễn thuế cho hàng xuất nhập khẩu xuống 100.000 đồng, thay vì mức 500.000 đến một triệu đồng như hiện nay.
+   - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+   - Nguồn: VnExpress Kinh Doanh (https://vnexpress.net/hang-nhap-khau-tren-100-000-dong-co-the-khong-con-duoc-mien-thue-5118124.html)
+
+4. Giá vàng miếng, vàng nhẫn sáng 9/9 tại SJC, DOJI, PNJ, Bảo Tín Mạnh Hải và Bảo Tín Minh Châu đồng loạt giảm 1,2 - 1,5 triệu đồng/lượng
+   - Bối cảnh: Giá vàng thế giới tối 8/9 lại quay đầu giảm mạnh. Giá bán vàng miếng, vàng nhẫn trong nước đầu giờ sáng phổ biến 146 - 149 triệu đồng/lượng.
+   - Tác động: Dòng tiền nhàn rỗi trong dân tiếp tục dịch chuyển vào kênh trú ẩn; tạo áp lực tỷ giá ngoại tệ khi nhu cầu nhập khẩu nguyên liệu tăng.
+   - Nguồn: CafeF Tài Chính (https://cafef.vn/gia-vang-mieng-vang-nhan-sang-9-9-tai-sjc-doji-pnj-bao-tin-manh-hai-va-bao-tin-minh-chau-dong-loat-giam-12-15-trieu-dong-luong-18826090907475576.chn)
+
+5. Điểm nhấn sự kiện ra mắt Lynk &amp; Co 02 tại Việt Nam
+   - Bối cảnh: Sự kiện ra mắt mẫu xe thuần điện đầu tiên của Lynk &amp; Co ghi dấu ấn nhờ cá tính độc đáo, nhiều hoạt động trải nghiệm, show thời trang và loạt chính sách bán hàng linh hoạt từ hãng.
+   - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+   - Nguồn: CafeF Doanh Nghiệp (https://cafef.vn/diem-nhan-su-kien-ra-mat-lynk-co-02-tai-viet-nam-18826090909385143.chn)
+
+💻 B. Công Nghệ &amp; Số Hóa Trong Nước (Tinhte, GenK, Số Hóa):
+1. #Tinhtetest: Thử nghiệm Samsung SSD 9100 PRO: PCIe Gen 5 dành cho ai?
+   - Diễn biến: Nếu như những ổ cứng thể rắn Gen 4 đã xóa bỏ hoàn toàn nút thắt cổ chai của giao tiếp SATA cũ kỹ, đưa tốc độ truyền tải lên ngưỡng 7.5 GB/s, thì Gen5 hứa hẹn nhân đôi con số đó, mở ra kỷ nguyên...
+   - Ý nghĩa: Tạo đòn bẩy thúc đẩy người dùng nâng cấp thiết bị 5G; gia tăng sức mua cho dòng smartphone tầm trung từ 6-10 triệu đồng.
+   - Nguồn: Tinhte.vn (https://tinhte.vn/thread/tinhtetest-thu-nghiem-samsung-ssd-9100-pro-pcie-gen-5-danh-cho-ai.4083714/)
+
+2. Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức...
+   - Diễn biến: Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức khỏe Đây là tin mình để ý nhất hôm nay vì thời điểm ra mắt khá nhạy cảm: chưa đầy hai tuần sau khi...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: Tinhte.vn (https://tinhte.vn/thread/meta-ra-mat-tro-ly-ai-ca-nhan-muse-doi-quyen-truy-cap-email-lich-thanh-toan-va-ca-du-lieu-suc.4175645/)
+
+3. Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt
+   - Diễn biến: Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt Nintendo vừa tổ chức riêng một Direct mừng 40 năm Zelda, và thứ thích nhất không phải là bản làm lại...
+   - Ý nghĩa: Định hình xu hướng tiêu dùng và danh mục sản phẩm chủ lực trong các đợt mua sắm sắp tới.
+   - Nguồn: Tinhte.vn (https://tinhte.vn/thread/nintendo-tung-switch-2-phien-ban-40-nam-zelda-an-dinh-ngay-ocarina-of-time-ban-lam-lai-ra-mat.4175642/)
+
+4. IFA26: LG lần đầu làm máy sấy tóc AirDew Hair: Đẹp và thông minh
+   - Diễn biến: Hôm nay lượn gian hàng LG ở IFA 2026, mình thấy một món đồ chơi khá lạ mà trước giờ chưa từng thấy hãng làm: máy sấy tóc. Thiết bị này có tên là LG AirDew Hair, và đây là lần đầu tiên LG bước chân...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: Tinhte.vn (https://tinhte.vn/thread/ifa26-lg-lan-dau-lam-may-say-toc-airdew-hair-dep-va-thong-minh.4175304/)
+
+-------------------------------------------------------
+
+🌐 2. TIN QUỐC TẾ
+🌍 A. Kinh Tế &amp; Địa Chính Trị Toàn Cầu (Reuters, BBC, CNBC):
+1. Vương quốc Anh thông báo các biện pháp trừng phạt đối với các khu định cư ở Bờ Tây khiến Israel tức giận phản ứng
+   - Bối cảnh: Ngoại trưởng Anh cáo buộc những người định cư thực hiện &quot;thanh lọc sắc tộc&quot; người Palestine, khi Israel phản ứng bằng cách đóng cửa lãnh sự quán Anh ở Đông Jerusalem.
+   - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+   - Nguồn: Reuters / BBC World (https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&amp;at_campaign=rss)
+
+2. Paul Adams: Quan hệ Anh-Israel ở mức thấp nhất trong nhiều thập kỷ
+   - Bối cảnh: Phản ứng của Israel đối với lệnh cấm thương mại của London với các khu định cư của Israel ở Bờ Tây bị chiếm đóng cho thấy tầm quan trọng của thời điểm này.
+   - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+   - Nguồn: Reuters / BBC World (https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&amp;at_campaign=rss)
+
+3. Mỹ cấm nhập khẩu rượu, xe máy và các hàng hóa khác của Canada
+   - Bối cảnh: Đây là cuộc đình công mới nhất trong một cuộc chiến thương mại kéo dài, và diễn ra khi thuế quan của Canada đối với hàng hóa của Mỹ có hiệu lực.
+   - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+   - Nguồn: Reuters / BBC World (https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&amp;at_campaign=rss)
+
+4. 'Liên tục trong tâm trí của tôi' - 9/11 đau đớn diễn ra cho tang quyến, 25 năm sau
+   - Bối cảnh: Khi lễ kỷ niệm lần thứ 25 đến gần, việc chờ đợi kẻ chủ mưu bị cáo buộc của cuộc tấn công được đưa ra xét xử vẫn tiếp tục.
+   - Tác động: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+   - Nguồn: Reuters / BBC World (https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&amp;at_campaign=rss)
+
+📱 B. Công Nghệ &amp; Thiết Bị Di Động Quốc Tế (GSMArena, The Verge):
+1. Sony không loại bỏ đĩa khá nhanh như chúng ta nghĩ
+   - Diễn biến: Sony không lùi bước trước quyết định loại bỏ đĩa trò chơi điện tử vào tháng 1 năm 2028. Nhưng Sony cũng không ngừng sản xuất nhanh như chúng tôi nghĩ. Hai tháng sau khi có báo cáo rằng nhà máy sản xuất đĩa cuối cùng của Sony đã được tái sử dụng, bộ phận sản xuất đĩa của công ty...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: The Verge Tech (https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent)
+
+2. Drama swirls around OpenAI’s legendary mathematical milestone
+   - Diễn biến: OpenAI cho biết họ đã tìm ra giải pháp cho một vấn đề toán học lớn vẫn chưa được giải quyết trong khoảng 90 năm, theo báo cáo trước đó của The New York Times và Wired. Trong một bài đăng trên blog vào thứ ba, OpenAI thông báo rằng họ đã phát hiện ra một giải pháp cho vấn đề Navier-Stokes - liên quan đến...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: The Verge Tech (https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution)
+
+3. Rivian spinout Cũng xin lỗi vì sự chậm trễ trong việc vận chuyển xe đạp điện tương lai
+   - Diễn biến: Xe đạp điện tương lai của Rivian bị trì hoãn và khách hàng không hài lòng. Năm ngoái, Rivian cũng đã tiết lộ một chiếc xe đạp điện mới, được điều khiển bằng phần mềm có tên TM-B, ngay lập tức khiến thế giới xe đạp điện bùng cháy. Với pin sạc USB-C, giá đỡ ghế có thể tháo rời,...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: The Verge Tech (https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology)
+
+4. Tai nghe chơi game được trang bị ANC của Razer cho PS5 và Xbox giảm gần 100 $
+   - Diễn biến: Rất hiếm khi tìm thấy các tính năng cao cấp như khử tiếng ồn chủ động trong tai nghe chơi game dưới 200 $, vì vậy chúng tôi rất vui mừng khi Razer BlackShark V3 Pro được bán tại Woot với giá $ 164,99. Có những mô hình cụ thể được bán trên thị trường cho Xbox và PlayStation, nhưng phiên bản Xbox là lựa chọn tốt nhất b...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: The Verge Tech (https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale)
+
+5. ChatGPT Sketch turns your bad drawings into detailed AI images
+   - Diễn biến: OpenAI đã công bố ChatGPT Images 2.5 vào thứ ba và đang thêm một cách mới để nói với ChatGPT những gì bạn muốn nó tạo ra một hình ảnh: bằng cách vẽ một hình tượng trưng. Với một tính năng mới được gọi là Phác thảo, bạn chỉ có thể vẽ một cái gì đó ngay bên trong ChatGPT và sau đó nói với ChatGPT cách bạn muốn nó tạo ra một...
+   - Ý nghĩa: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+   - Nguồn: The Verge Tech (https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch)
+
+⚡ C. Tin Vắn Nhanh Quốc Tế:
+• [Những bức tranh Renoir trị giá hàng t...]: Đây là vụ mới nhất trong một loạt các vụ trộm cắp nghệ thuật cao cấp ở châu Âu đã một lần nữa đưa an ninh của các bảo tàng và phòng trưng bày trở thành tâm điểm chú ý. (Nguồn: Reuters / BBC World)
+• [Meta tiếp tục chạy quảng cáo quảng bá...]: Báo cáo này theo sau một cuộc điều tra của BBC Eye cho thấy Instagram chạy quảng cáo trả tiền quảng bá tài liệu như vậy ở Ấn Độ. (Nguồn: Reuters / BBC World)
+• [Mỹ cấm sữa, xe máy và hầu hết đồ uống...]: Động thái này diễn ra một ngày sau khi Ottawa áp đặt mức thuế trả đũa 20 tỷ $ đối với hàng hóa của Hoa Kỳ. (Nguồn: Bloomberg / Financial Times)
+• [Meta tiết lộ trợ lý cá nhân AI được l...]: ‘tác nhân‘ mới được gọi là Muse được thiết kế để đưa ra các đề xuất tùy chỉnh dựa trên các cuộc trò chuyện và hoạt động truyền thông xã hội. (Nguồn: Bloomberg / Financial Times)
+• [Giới trẻ Mỹ chưa bao giờ chứng kiến m...]: Hai mươi lăm năm sau ngày 11/9, nợ và chi tiêu quốc phòng đang phình to trong khi ngoại giao bị bỏ đói và các đồng minh bị xa lánh. (Nguồn: Bloomberg / Financial Times)
+
+-------------------------------------------------------
+
+📱 3. TIN SOCIAL &amp; XU HƯỚNG MẠNG XÃ HỘI
+1. Sắc vóc nữ chính phim 'Đầu xuân tươi sáng'
+   - Tiêu điểm: Diễn viên Tôn Thiên - nữ chính phim gây sốt &quot;Đầu xuân tươi sáng&quot; - gây chú ý khán giả với nét đẹp trong trẻo.
+   - Độ lan tỏa: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
+   - Nguồn: VnExpress Giải Trí (https://vnexpress.net/sac-voc-nu-chinh-phim-dau-xuan-tuoi-sang-5117669.html)
+
+2. Joheirry Mola: Không bỏ nghề giáo khi đăng quang Miss World
+   - Tiêu điểm: Hoa hậu Joheirry Mola Dominguez nói &quot;xem học sinh là cả thế giới&quot; và sẽ tìm người hỗ trợ các em trong thời gian cô bận đảm nhận vai trò Miss World 2026.
+   - Độ lan tỏa: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
+   - Nguồn: VnExpress Giải Trí (https://vnexpress.net/joheirry-mola-khong-bo-nghe-giao-khi-dang-quang-miss-world-5118084.html)
+
+3. Lần đầu công diễn kiệt tác opera 'Tosca' ở Việt Nam
+   - Tiêu điểm: Nhà hát Nhạc Vũ kịch Việt Nam (VNOB) lần đầu công diễn trọn vở ''Tosca'' tại Nhà hát Hồ Gươm, Hà Nội, ngày 26 và 27/9.
+   - Độ lan tỏa: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
+   - Nguồn: VnExpress Giải Trí (https://vnexpress.net/lan-dau-cong-dien-kiet-tac-opera-tosca-o-viet-nam-5117473.html)
+
+4. Hoa hậu Thế giới và 2 á hậu khoe sắc ở TP HCM
+   - Tiêu điểm: Tân hoa hậu Joheirry Mola và hai á hậu rạng rỡ trong buổi giao lưu ở TP HCM, sau ba ngày kết thúc cuộc thi Miss World 2026.
+   - Độ lan tỏa: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
+   - Nguồn: VnExpress Giải Trí (https://vnexpress.net/hoa-hau-the-gioi-va-2-a-hau-khoe-sac-o-tp-hcm-5118080.html)
+
+🔥 Top từ khóa thịnh hành Google Trends (Việt Nam):
+   • park hang-seo (500+)
+   • sức khỏe và đời sống (100+)
+   • hồng vân (1000+)
+   • vietinbank (2000+)
+   • погода (200+)
+   • tài sản (2000+)
+</textarea>
+
   <script>
-    let bilingualVisible = false;
-    function toggleBilingual() {
-      bilingualVisible = !bilingualVisible;
-      const boxes = document.querySelectorAll('.bilingual-box');
-      boxes.forEach(box => {
-        if (bilingualVisible) {
-          box.classList.remove('hidden');
+    function switchTab(tabIndex) {
+      for (let i = 1; i <= 3; i++) {
+        const btn = document.getElementById('tabBtn' + i);
+        const pane = document.getElementById('tabContent' + i);
+        if (i === tabIndex) {
+          btn.classList.add('active');
+          pane.classList.add('active');
         } else {
-          box.classList.add('hidden');
+          btn.classList.remove('active');
+          pane.classList.remove('active');
         }
-      });
-      const btn = document.getElementById('toggleBilingualBtn');
-      if (bilingualVisible) {
-        btn.style.background = 'rgba(0, 242, 254, 0.25)';
-        btn.innerHTML = '<span>🇬🇧 Đang Hiện Song Ngữ (Tắt)</span>';
-      } else {
-        btn.style.background = 'rgba(0, 242, 254, 0.1)';
-        btn.innerHTML = '<span>🌐 Bật Chế Độ Song Ngữ (EN/VI)</span>';
       }
+    }
+
+    function copyNewsletterText() {
+      const text = document.getElementById('rawNewsletterText').value;
+      navigator.clipboard.writeText(text).then(() => {
+        const toast = document.getElementById('copyToast');
+        toast.classList.add('show');
+        setTimeout(() => {
+          toast.classList.remove('show');
+        }, 2500);
+      }).catch(err => {
+        alert('Không thể sao chép tự động. Vui lòng thử lại.');
+      });
     }
   </script>
 

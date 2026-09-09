@@ -23,6 +23,7 @@ from src.processors.dedup import deduplicate_items
 from src.processors.verify import verify_and_tag_items
 from src.processors.ranker import rank_items
 from src.processors.translator import translate_news_batch
+from src.processors.news_analyzer import process_and_structure_all_news
 
 # Import bộ sinh xuất bản và QC
 from src.publisher.site_builder import build_daily_portal
@@ -38,7 +39,7 @@ def load_yaml_config(file_path: Path) -> dict:
         return yaml.safe_load(f) or {}
 
 def format_daily_source_md(data: dict) -> str:
-    """Tạo nội dung cho daily_source.md theo template chuẩn Spec 5.5"""
+    """Tạo nội dung cho daily_source.md theo template chuẩn Spec 5.5 với 3 khối phân tích sâu"""
     template_path = PROJECT_ROOT / "templates" / "source_template.md"
     with open(template_path, "r", encoding="utf-8") as f:
         template = f.read()
@@ -53,49 +54,47 @@ def format_daily_source_md(data: dict) -> str:
     stocks = indices.get("stocks", {})
     fuel = indices.get("fuel", {})
     
-    def get_badge_prefix(item):
-        code = item.get("reliability", {}).get("code")
-        label = item.get("reliability", {}).get("label")
-        # Không in nhãn MỘT NGUỒN để giữ tài liệu sạch sẽ
-        if code in ["VERIFIED", "RUMOR", "OPINION"] and label:
-            return f"[{label}] "
-        return ""
+    structured = data.get("structured_news", {})
     
-    # Xử lý tin tức trong nước
-    dom_lines = []
-    for it in data.get("news", {}).get("domestic", [])[:10]:
-        prefix = get_badge_prefix(it)
-        title = it.get("title", "")
-        summary = it.get("summary", "")
-        source = it.get("source_name", "Báo chí")
-        link = it.get("link", "")
-        dom_lines.append(f"### {prefix}{title}\n- **Tóm tắt**: {summary}\n- **Nguồn**: [{source}]({link})\n")
-    domestic_news_content = "\n".join(dom_lines) if dom_lines else "*Đang cập nhật thêm tin tức trong nước.*"
+    # 1. KINH TẾ & THỊ TRƯỜNG TRONG NƯỚC
+    dom_econ_items = structured.get("domestic_economy_news") or structured.get("economy_news", [])
+    eco_lines = []
+    for idx, it in enumerate(dom_econ_items, 1):
+        eco_lines.append(f"### {idx}. {it.get('title')}\n- **Bối cảnh**: {it.get('context')}\n- **Tác động**: {it.get('impact')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
+    economy_news_content = "\n".join(eco_lines) if eco_lines else "*Đang cập nhật các diễn biến kinh tế mới nhất.*"
+
+    # 2. CÔNG NGHỆ & SỐ HÓA TRONG NƯỚC (Tinhte, GenK, Số Hóa)
+    dom_tech_items = structured.get("domestic_tech_news", [])
+    dom_tech_lines = []
+    for idx, it in enumerate(dom_tech_items, 1):
+        dom_tech_lines.append(f"### {idx}. {it.get('title')}\n- **Diễn biến**: {it.get('development')}\n- **Ý nghĩa**: {it.get('significance')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
+    domestic_tech_news_content = "\n".join(dom_tech_lines) if dom_tech_lines else "*Đang cập nhật công nghệ trong nước.*"
+
+    # 3. KINH TẾ & ĐỊA CHÍNH TRỊ QUỐC TẾ (Reuters, BBC, CNBC)
+    intl_macro_items = structured.get("intl_macro_news", [])
+    intl_macro_lines = []
+    for idx, it in enumerate(intl_macro_items, 1):
+        intl_macro_lines.append(f"### {idx}. {it.get('title')}\n- **Bối cảnh**: {it.get('context')}\n- **Tác động**: {it.get('impact')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
+    intl_macro_news_content = "\n".join(intl_macro_lines) if intl_macro_lines else "*Đang cập nhật kinh tế và địa chính trị quốc tế.*"
     
-    # Tin quốc tế (Đã dịch Tiếng Việt)
-    intl_lines = []
-    for it in data.get("news", {}).get("international", [])[:8]:
-        prefix = get_badge_prefix(it)
-        title = it.get("title", "")
-        summary = it.get("summary", "")
-        source = it.get("source_name", "Reuters / BBC")
-        link = it.get("link", "")
-        en_note = f"\n- *Bản gốc tiếng Anh: {it.get('title_en')}*" if it.get("is_bilingual") else ""
-        intl_lines.append(f"### {prefix}{title}\n- **Tóm tắt (Dịch tiếng Việt)**: {summary}{en_note}\n- **Nguồn**: [{source}]({link})\n")
-    international_news_content = "\n".join(intl_lines) if intl_lines else "*Đang cập nhật tin quốc tế.*"
+    # 4. CÔNG NGHỆ & THIẾT BỊ DI ĐỘNG QUỐC TẾ (GSMArena, The Verge)
+    intl_tech_items = structured.get("intl_tech_news") or structured.get("tech_news", [])
+    intl_tech_lines = []
+    for idx, it in enumerate(intl_tech_items, 1):
+        intl_tech_lines.append(f"### {idx}. {it.get('title')}\n- **Diễn biến**: {it.get('development')}\n- **Ý nghĩa**: {it.get('significance')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
+    intl_tech_news_content = "\n".join(intl_tech_lines) if intl_tech_lines else "*Đang cập nhật diễn biến sản phẩm công nghệ quốc tế.*"
     
-    # Tin công nghệ (Đã dịch Tiếng Việt & ưu tiên thiết bị di động)
-    tech_lines = []
-    for it in data.get("news", {}).get("technology", [])[:10]:
-        prefix = get_badge_prefix(it)
-        title = it.get("title", "")
-        summary = it.get("summary", "")
-        source = it.get("source_name", "Tech Source")
-        link = it.get("link", "")
-        score = it.get("importance_score", 0)
-        en_note = f"\n- *Nguyên bản tiếng Anh: {it.get('title_en')}*" if it.get("is_bilingual") else ""
-        tech_lines.append(f"### {prefix}{title} (Độ ưu tiên: {score})\n- **Cấu hình/Điểm nhấn**: {summary}{en_note}\n- **Nguồn**: [{source}]({link})\n")
-    products_content = "\n".join(tech_lines) if tech_lines else "*Đang cập nhật sản phẩm mới.*"
+    # 5. TIN SOCIAL & SHOWBIZ BẮT TREND
+    soc_lines = []
+    for idx, it in enumerate(structured.get("social_news", []), 1):
+        soc_lines.append(f"### {idx}. {it.get('title')}\n- **Tiêu điểm**: {it.get('highlight')}\n- **Độ lan tỏa**: {it.get('virality')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
+    social_news_content = "\n".join(soc_lines) if soc_lines else "*Đang cập nhật tiêu điểm social.*"
+
+    # 6. TIN VẮN NHANH
+    flash_lines = []
+    for it in structured.get("flash_news", []):
+        flash_lines.append(f"• **[{it.get('event')}]**: {it.get('summary')} (Nguồn: [{it.get('source')}]({it.get('link')}))")
+    flash_news_content = "\n".join(flash_lines) if flash_lines else "*Đang cập nhật tin vắn nhanh.*"
     
     # Trends
     trends = data.get("trends", {})
@@ -103,14 +102,20 @@ def format_daily_source_md(data: dict) -> str:
     trend_lines = [f"- **{t['keyword']}** ({t['traffic']}) [{t['tag']}]" for t in vn_t]
     trends_content = "\n".join(trend_lines) if trend_lines else "*Chưa có số liệu trends mới.*"
     
-    # Thị phần
+    # Thị phần (GfK Vietnam Retail Audit & Counterpoint Research - BỎ KHUYẾN NGHỊ)
     ms = data.get("marketshare", {})
-    ms_lines = [f"**Kỳ báo cáo**: {ms.get('report_period')}\n"]
+    ms_lines = [
+        f"**Kỳ báo cáo**: {ms.get('report_period')}",
+        f"**Nguồn khảo sát**: {ms.get('source', 'GfK & Counterpoint')}\n",
+        "#### Bảng 1: Thị Phần Bán Lẻ Thực Tế Tại Điểm Bán (GfK Vietnam Retail Audit)"
+    ]
+    for brand in ms.get("market_gfk_vietnam", []):
+        ms_lines.append(f"- **{brand['brand']}**: {brand['share']}% ({brand['delta']}) — {brand.get('segment', '')}")
+        
+    ms_lines.append("\n#### Bảng 2: Thị Phần Sản Lượng Xuất Xưởng (Counterpoint Research)")
     for brand in ms.get("market_vietnam", []):
         ms_lines.append(f"- **{brand['brand']}**: {brand['share']}% ({brand['delta']}) — {brand.get('status', '')}")
-    ms_lines.append("\n**Buyer Insights**:")
-    for bi in ms.get("buyer_insights", []):
-        ms_lines.append(f"- {bi}")
+        
     marketshare_content = "\n".join(ms_lines)
     
     content = template.format(
@@ -147,12 +152,13 @@ def format_daily_source_md(data: dict) -> str:
         fuel_e5=fuel.get("e5_ron92", "19.740 đ/lít"),
         fuel_do=fuel.get("diesel_do", "18.320 đ/lít"),
         fuel_update_date=fuel.get("update_date", "Kỳ điều hành gần nhất"),
-        domestic_news_content=domestic_news_content,
-        international_news_content=international_news_content,
-        finance_news_content="*Chính sách điều hành vĩ mô tiếp tục hỗ trợ thanh khoản các ngân hàng thương mại và tạo điều kiện cho dòng vốn đầu tư trực tiếp nước ngoài.*",
+        economy_news_content=economy_news_content,
+        domestic_tech_news_content=domestic_tech_news_content,
+        intl_macro_news_content=intl_macro_news_content,
+        intl_tech_news_content=intl_tech_news_content,
+        social_news_content=social_news_content,
+        flash_news_content=flash_news_content,
         trends_content=trends_content,
-        community_content="*Cộng đồng công nghệ thảo luận sôi nổi về cấu hình chip mới và camera ống kính tiềm vọng trên các dòng máy phân khúc 10 triệu đồng.*",
-        products_content=products_content,
         marketshare_content=marketshare_content
     )
     return content
@@ -181,8 +187,8 @@ def run_pipeline(dry_run: bool = False):
     print("  -> Đang nạp số liệu thị phần Smartphone (Counterpoint / Canalys)...")
     marketshare_data = get_latest_marketshare_data()
     
-    # 3. GIAI ĐOẠN B: XỬ LÝ & XÁC MINH & DỊCH THUẬT
-    print("\n[B] Xử lý, Xác minh & Dịch thuật:")
+    # 3. GIAI ĐOẠN B: XỬ LÝ & XÁC MINH & DỊCH THUẬT & CẤU TRÚC HÓA
+    print("\n[B] Xử lý, Xác minh, Dịch thuật & Cấu trúc hóa 3 Khối:")
     processed_news = {}
     for cat, items in raw_news.items():
         # Khử trùng lặp
@@ -196,9 +202,14 @@ def run_pipeline(dry_run: bool = False):
         processed_news[cat] = translated_top + ranked[10:]
         print(f"  -> Nhóm {cat}: Từ {len(items)} tin thô -> {len(ranked)} cụm sự kiện sau khi dịch & xếp hạng.")
         
+    # Bóc tách và cấu trúc hóa sâu 3 phần: Kinh tế, Công nghệ, Tin vắn nhanh
+    structured_news = process_and_structure_all_news(processed_news)
+    print(f"  -> Đã cấu trúc hóa: {len(structured_news['economy_news'])} tin Kinh tế, {len(structured_news['tech_news'])} tin Công nghệ, {len(structured_news['flash_news'])} tin Vắn nhanh.")
+
     master_data = {
         "indices": indices_data,
         "news": processed_news,
+        "structured_news": structured_news,
         "trends": trends_data,
         "marketshare": marketshare_data,
         "sources_scanned": len(sources_cfg.get("news_domestic", [])) + len(sources_cfg.get("technology", [])) + 4,

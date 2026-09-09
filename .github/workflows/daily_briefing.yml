@@ -2,9 +2,18 @@ name: Auto Daily Briefing 24h
 
 on:
   schedule:
-    # 22:30 UTC = 05:30 AM Giờ Việt Nam (GMT+7) hàng ngày
-    - cron: '30 22 * * *'
+    # 23:00 UTC = 06:00 AM Giờ Việt Nam (GMT+7) hàng ngày
+    - cron: '0 23 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'index.html'
+      - 'Gemini/docs/**'
+      - 'Gemini/output/**'
+      - 'Gemini/data/**'
+      - '*.md'
 
 jobs:
   build-and-publish:
@@ -16,25 +25,43 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install Dependencies
         run: |
-          pip install pyyaml
+          python -m pip install --upgrade pip
+          if [ -f Gemini/requirements.txt ]; then
+            pip install -r Gemini/requirements.txt
+          else
+            pip install pyyaml
+          fi
 
       - name: Run Daily Briefing Pipeline
+        env:
+          TZ: 'Asia/Ho_Chi_Minh'
         run: |
           cd Gemini
           python3 main.py
 
       - name: Commit & Push to GitHub Pages
+        env:
+          TZ: 'Asia/Ho_Chi_Minh'
         run: |
           cp Gemini/docs/index.html index.html
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add index.html Gemini/docs/ Gemini/output/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Bản tin 24h tự động (GitHub Actions) — $(date +'%d/%m/%Y')" && git push origin main)
+          git add index.html Gemini/docs/ Gemini/output/ Gemini/data/
+          if git diff --staged --quiet; then
+            echo "Không có thay đổi mới để commit."
+          else
+            TIMESTAMP=$(date '+%d/%m/%Y %H:%M')
+            git commit -m "Bản tin 24h tự động (GitHub Actions) — ${TIMESTAMP} ICT [skip ci]"
+            git push origin main
+          fi

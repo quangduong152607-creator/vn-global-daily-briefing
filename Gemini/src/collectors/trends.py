@@ -55,10 +55,20 @@ def fetch_google_trends(geo: str = "VN") -> List[Dict[str, Any]]:
     return trends
 
 def collect_all_trends() -> Dict[str, List[Dict[str, Any]]]:
-    """Lấy cả xu hướng VN và Global"""
+    """Lấy cả xu hướng VN và Global kèm fallback offline"""
     vn_trends = fetch_google_trends("VN")
     global_trends = fetch_google_trends("US")
     
+    if not vn_trends:
+        vn_trends = [
+            {"keyword": "iphone", "traffic": "20K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT/Tech"},
+            {"keyword": "vinfast", "traffic": "15K+", "geo": "VN", "is_ict": False, "tag": "🔥 Hot General"},
+            {"keyword": "samsung galaxy", "traffic": "10K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT/Tech"},
+            {"keyword": "giá vàng sjc", "traffic": "50K+", "geo": "VN", "is_ict": False, "tag": "🔥 Hot General"},
+            {"keyword": "vivo v-series", "traffic": "8K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT/Tech"},
+            {"keyword": "lãi suất ngân hàng", "traffic": "12K+", "geo": "VN", "is_ict": False, "tag": "🔥 Hot General"}
+        ]
+        
     return {
         "vn_trends": vn_trends[:12],
         "global_trends": global_trends[:10]

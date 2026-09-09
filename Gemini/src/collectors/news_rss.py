@@ -10,6 +10,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 import re
 from datetime import datetime
+from pathlib import Path
 from typing import List, Dict, Any
 
 def get_ssl_context():
@@ -63,11 +64,28 @@ def fetch_single_feed(source_info: Dict[str, Any], timeout: int = 8, max_items: 
                         desc = clean_html(desc_el.text) if (desc_el is not None and desc_el.text) else ""
                         pubdate = pubdate_el.text if (pubdate_el is not None and pubdate_el.text) else datetime.now().strftime("%Y-%m-%d %H:%M")
                         
+                        # Bộ lọc tin thể thao, bóng đá, án mạng rác
+                        low_text = (title + " " + desc).lower()
+                        base_junk = [
+                            "champions league", "premier league", "la liga", "serie a", "v-league",
+                            "arsenal", "chelsea", "manchester", "barca", "real madrid", "hansi flick",
+                            "grand slam", "tennis", "tsitsipas", "djokovic", "alcaraz", "bóng đá",
+                            "tử vong do đuối nước", "vụ án mạng", "bắt giữ đối tượng cướp"
+                        ]
+                        if any(k in low_text for k in base_junk):
+                            continue
+                            
+                        # Với tin kinh tế/công nghệ thì lọc thêm showbiz
+                        if category not in ["showbiz", "entertainment", "viral_social"]:
+                            showbiz_junk = ["showbiz", "người mẫu", "hoa hậu", "diễn viên", "ca sĩ", "ly hôn", "hẹn hò"]
+                            if any(k in low_text for k in showbiz_junk):
+                                continue
+
                         if title and link:
                             items.append({
                                 "title": title,
                                 "link": link.strip(),
-                                "summary": desc[:250] + "..." if len(desc) > 250 else desc,
+                                "summary": desc[:280] + "..." if len(desc) > 280 else desc,
                                 "pub_date": pubdate.strip(),
                                 "source_name": name,
                                 "category": category,
@@ -81,30 +99,94 @@ def fetch_single_feed(source_info: Dict[str, Any], timeout: int = 8, max_items: 
     return items
 
 def collect_news(sources_config: Dict[str, Any]) -> Dict[str, List[Dict[str, Any]]]:
-    """Thu thập toàn bộ các nhóm tin thời sự, tài chính, công nghệ"""
+    """Thu thập toàn bộ các nhóm tin theo 3 Tab: Trong nước (Kinh tế & Tech), Quốc tế (Địa chính trị & Tech), Social"""
     results = {
+        "domestic_economy": [],
+        "domestic_tech": [],
+        "international_macro": [],
+        "international_tech": [],
+        "social": [],
+        # Backward compatibility aliases
         "domestic": [],
         "international": [],
         "technology": []
     }
     
-    # Tin trong nước
-    for src in sources_config.get("news_domestic", []):
+    # 1. Tin kinh tế & thị trường trong nước
+    dom_econ_srcs = sources_config.get("news_domestic_economy", []) or sources_config.get("news_domestic", [])
+    for src in dom_econ_srcs:
         if src.get("enabled", True):
             feed_items = fetch_single_feed(src, max_items=6)
-            results["domestic"].extend(feed_items)
-            
-    # Tin quốc tế
-    for src in sources_config.get("news_international", []):
-        if src.get("enabled", True):
-            feed_items = fetch_single_feed(src, max_items=5)
-            results["international"].extend(feed_items)
-            
-    # Tin công nghệ
-    for src in sources_config.get("technology", []):
+            results["domestic_economy"].extend(feed_items)
+
+    # 2. Tin công nghệ trong nước (Tinhte.vn, GenK, VnExpress Số Hóa)
+    dom_tech_srcs = sources_config.get("news_domestic_tech", [])
+    for src in dom_tech_srcs:
         if src.get("enabled", True):
             feed_items = fetch_single_feed(src, max_items=6)
-            results["technology"].extend(feed_items)
+            results["domestic_tech"].extend(feed_items)
+
+    # 3. Tin kinh tế & địa chính trị quốc tế (Reuters, BBC, CNBC)
+    intl_macro_srcs = sources_config.get("news_international_macro", []) or sources_config.get("news_international", [])
+    for src in intl_macro_srcs:
+        if src.get("enabled", True):
+            feed_items = fetch_single_feed(src, max_items=6)
+            results["international_macro"].extend(feed_items)
+
+    # 4. Tin công nghệ & thiết bị di động quốc tế (GSMArena, The Verge)
+    intl_tech_srcs = sources_config.get("news_international_tech", []) or sources_config.get("technology", [])
+    for src in intl_tech_srcs:
+        if src.get("enabled", True):
+            feed_items = fetch_single_feed(src, max_items=6)
+            results["international_tech"].extend(feed_items)
+
+    # 5. Tin Social & Showbiz giải trí (bắt trend văn hóa/mạng xã hội)
+    for src in sources_config.get("social_entertainment", []):
+        if src.get("enabled", True):
+            feed_items = fetch_single_feed(src, max_items=6)
+            results["social"].extend(feed_items)
+
+    # Điền backward compatibility
+    results["domestic"] = results["domestic_economy"] + results["domestic_tech"]
+    results["international"] = results["international_macro"]
+    results["technology"] = results["international_tech"]
+
+    cache_path = Path(__file__).parent.parent.parent / "data" / "raw" / "news_cache.json"
+    
+    total_fetched = (len(results["domestic_economy"]) + len(results["domestic_tech"]) + 
+                     len(results["international_macro"]) + len(results["international_tech"]) + 
+                     len(results["social"]))
+    
+    # Nếu cào thành công thì cập nhật cache
+    if total_fetched > 0:
+        try:
+            cache_path.parent.mkdir(parents=True, exist_ok=True)
+            import json
+            with open(cache_path, "w", encoding="utf-8") as f:
+                json.dump(results, f, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
+    # Nếu không lấy được do offline hoặc lỗi mạng, tự động nạp từ cache
+    elif cache_path.exists():
+        try:
+            import json
+            with open(cache_path, "r", encoding="utf-8") as f:
+                cached = json.load(f)
+                if isinstance(cached, dict):
+                    for k in ["domestic_economy", "domestic_tech", "international_macro", "international_tech", "social", "domestic", "international", "technology"]:
+                        if k in cached and cached[k]:
+                            results[k] = cached[k]
+                    # Nếu cache cũ chưa phân rã, hỗ trợ migrate
+                    if not results["domestic_economy"] and results.get("domestic"):
+                        results["domestic_economy"] = results["domestic"]
+                    if not results["international_macro"] and results.get("international"):
+                        results["international_macro"] = results["international"]
+                    if not results["international_tech"] and results.get("technology"):
+                        results["international_tech"] = results["technology"]
+                    if not results["domestic"] and (results["domestic_economy"] or results["domestic_tech"]):
+                        results["domestic"] = results["domestic_economy"] + results["domestic_tech"]
+        except Exception:
+            pass
             
     return results
 

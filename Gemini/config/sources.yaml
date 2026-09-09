@@ -1,5 +1,8 @@
 # Danh mục nguồn tin tức & dữ liệu hệ thống Bản tin 24h
-# Có thể thêm/bớt/bật/tắt nguồn mà không cần sửa mã nguồn
+# Phân chia khoa học theo 3 Tab chính:
+# - Tab 1 (Trong nước): Kinh tế & Thị trường; Công nghệ trong nước (Tinhte, GenK, Số Hóa); Thị phần GfK & Counterpoint
+# - Tab 2 (Quốc tế): Kinh tế & Địa chính trị thế giới (Reuters, BBC, CNBC); Công nghệ & Di động quốc tế (GSMArena, The Verge)
+# - Tab 3 (Social): Google Trends VN; Showbiz & Tiêu điểm giải trí viral MXH
 
 indices:
   gold:
@@ -36,59 +39,99 @@ indices:
       enabled: true
       weight: 30
 
-news_domestic:
-  - name: "VnExpress"
-    url: "https://vnexpress.net/rss/tin-moi-nhat.rss"
-    type: "rss"
-    enabled: true
-    weight: 28
-    category: "general"
-  - name: "Tuổi Trẻ"
-    url: "https://tuoitre.vn/rss/tin-moi-nhat.rss"
-    type: "rss"
-    enabled: true
-    weight: 26
-    category: "general"
-  - name: "Thanh Niên"
-    url: "https://thanhnien.vn/rss/home.rss"
-    type: "rss"
-    enabled: true
-    weight: 24
-    category: "general"
-  - name: "Báo Chính Phủ"
-    url: "https://baochinhphu.vn/rss/home.rss"
+# --- TAB 1: TIN TRONG NƯỚC ---
+news_domestic_economy:
+  - name: "VnExpress Kinh Doanh"
+    url: "https://vnexpress.net/rss/kinh-doanh.rss"
     type: "rss"
     enabled: true
     weight: 30
-    category: "policy"
+    category: "finance_economy"
   - name: "CafeF Tài Chính"
     url: "https://cafef.vn/tai-chinh-ngan-hang.rss"
     type: "rss"
     enabled: true
-    weight: 28
+    weight: 29
     category: "finance"
+  - name: "CafeF Doanh Nghiệp"
+    url: "https://cafef.vn/doanh-nghiep.rss"
+    type: "rss"
+    enabled: true
+    weight: 28
+    category: "business"
   - name: "Vietstock"
     url: "https://vietstock.vn/rss/tai-chinh.rss"
     type: "rss"
     enabled: true
-    weight: 25
+    weight: 27
     category: "finance"
+  - name: "Báo Chính Phủ"
+    url: "https://baochinhphu.vn/rss/kinh-te.rss"
+    type: "rss"
+    enabled: true
+    weight: 30
+    category: "policy"
 
-news_international:
-  - name: "Reuters World"
-    url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+news_domestic_tech:
+  - name: "Tinhte.vn"
+    url: "https://tinhte.vn/rss"
+    type: "rss"
+    enabled: true
+    weight: 30
+    category: "local_tech_community"
+  - name: "GenK"
+    url: "https://genk.vn/dien-thoai.rss"
     type: "rss"
     enabled: true
     weight: 28
-    category: "world"
-  - name: "CNBC Top News"
-    url: "https://search.cnbc.com/rs/search/view.html?partnerId=2000&keywords=vietnam+trade+asia&sort=date"
+    category: "mobile_local"
+  - name: "VnExpress Số Hóa"
+    url: "https://vnexpress.net/rss/so-hoa.rss"
     type: "rss"
     enabled: true
-    weight: 25
-    category: "finance_intl"
+    weight: 29
+    category: "tech_digital"
 
-technology:
+marketshare:
+  - name: "GfK Vietnam Retail Audit"
+    url: "https://www.gfk.com"
+    enabled: true
+    weight: 30
+  - name: "Counterpoint Research"
+    url: "https://www.counterpointresearch.com"
+    enabled: true
+    weight: 30
+  - name: "Canalys"
+    url: "https://www.canalys.com"
+    enabled: true
+    weight: 28
+  - name: "IDC"
+    url: "https://www.idc.com"
+    enabled: true
+    weight: 28
+
+# --- TAB 2: TIN QUỐC TẾ ---
+news_international_macro:
+  - name: "Reuters / BBC World"
+    url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+    type: "rss"
+    enabled: true
+    weight: 30
+    category: "world_geopolitics"
+  - name: "CNBC Top News"
+    url: "https://search.cnbc.com/rs/search/view.html?partnerId=2000&keywords=trade+economy&sort=date"
+    type: "rss"
+    enabled: true
+    weight: 28
+    category: "global_economy"
+  - name: "Bloomberg / Financial Times"
+    url: "https://www.ft.com/rss/home"
+    type: "rss"
+    enabled: true
+    weight: 28
+    category: "global_finance"
+
+news_international_tech:
   - name: "GSMArena"
     url: "https://www.gsmarena.com/rss-news-reviews.php3"
     type: "rss"
@@ -99,37 +142,52 @@ technology:
     url: "https://www.theverge.com/rss/index.xml"
     type: "rss"
     enabled: true
-    weight: 26
+    weight: 28
     category: "tech_general"
   - name: "Android Authority"
     url: "https://www.androidauthority.com/feed/"
     type: "rss"
     enabled: true
-    weight: 30
+    weight: 27
     category: "android_specialized"
-  - name: "Tinhte.vn"
-    url: "https://tinhte.vn/rss"
+
+# --- TAB 3: SOCIAL & XU HƯỚNG ---
+social_entertainment:
+  - name: "VnExpress Giải Trí"
+    url: "https://vnexpress.net/rss/giai-tri.rss"
+    type: "rss"
+    enabled: true
+    weight: 30
+    category: "showbiz"
+  - name: "Znews Showbiz"
+    url: "https://znews.vn/giai-tri.rss"
+    type: "rss"
+    enabled: true
+    weight: 28
+    category: "entertainment"
+  - name: "Kenh14 Star"
+    url: "https://kenh14.vn/star.rss"
     type: "rss"
     enabled: true
     weight: 27
-    category: "local_tech_community"
-  - name: "GenK"
-    url: "https://genk.vn/dien-thoai.rss"
+    category: "viral_social"
+
+# Backward compatibility aliases
+news_domestic:
+  - name: "VnExpress Kinh Doanh"
+    url: "https://vnexpress.net/rss/kinh-doanh.rss"
     type: "rss"
     enabled: true
-    weight: 24
-    category: "mobile_local"
-
-marketshare:
-  - name: "Counterpoint Research"
-    url: "https://www.counterpointresearch.com"
-    enabled: true
     weight: 30
-  - name: "Canalys"
-    url: "https://www.canalys.com"
+news_international:
+  - name: "Reuters / BBC World"
+    url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+    type: "rss"
     enabled: true
-    weight: 30
-  - name: "IDC"
-    url: "https://www.idc.com"
+    weight: 28
+technology:
+  - name: "GSMArena"
+    url: "https://www.gsmarena.com/rss-news-reviews.php3"
+    type: "rss"
     enabled: true
     weight: 30

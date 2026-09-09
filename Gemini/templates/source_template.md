@@ -38,36 +38,35 @@ Trạng thái hệ thống: {system_status}
 
 ---
 
-## PHẦN 2 — TIN THỜI SỰ TRONG NƯỚC (24H)
-{domestic_news_content}
+## PHẦN 2 — TIN TRONG NƯỚC
+### 📈 A. Kinh Tế & Thị Trường Trong Nước
+{economy_news_content}
+
+### 💻 B. Công Nghệ & Số Hóa Trong Nước (Tinhte, GenK, Số Hóa)
+{domestic_tech_news_content}
 
 ---
 
-## PHẦN 3 — TIN THỜI SỰ QUỐC TẾ & CHIẾN SỰ (DỊCH TIẾNG VIỆT)
-{international_news_content}
+## PHẦN 3 — TIN QUỐC TẾ
+### 🌍 A. Kinh Tế & Địa Chính Trị Toàn Cầu (Reuters, BBC, CNBC)
+{intl_macro_news_content}
+
+### 📱 B. Công Nghệ & Thiết Bị Di Động Quốc Tế (GSMArena, The Verge)
+{intl_tech_news_content}
+
+### ⚡ C. Tin Vắn Nhanh Quốc Tế
+{flash_news_content}
 
 ---
 
-## PHẦN 4 — CHUYÊN MỤC TÀI CHÍNH & CHÍNH SÁCH ĐẦU TƯ
-> *Miễn trừ trách nhiệm: Toàn bộ nội dung mang tính thông tin tham khảo, không cấu thành khuyến nghị đầu tư.*
-{finance_news_content}
-
----
-
-## PHẦN 5 — TOP TỪ KHÓA TÌM KIẾM GOOGLE TRENDS
+## PHẦN 4 — TIN SOCIAL, SHOWBIZ GIẢI TRÍ & TOP TỪ KHÓA TRENDING
+### Top Từ Khóa Thịnh Hành Google Trends (Việt Nam)
 {trends_content}
 
----
-
-## PHẦN 6 — TÂM LÝ & THẢO LUẬN CỘNG ĐỒNG CÔNG NGHỆ
-{community_content}
+### Tiêu Điểm Showbiz, Giải Trí & Xu Hướng Viral Mạng Xã Hội
+{social_news_content}
 
 ---
 
-## PHẦN 7 — SẢN PHẨM ICT MỚI RA MẮT
-{products_content}
-
----
-
-## PHẦN 8 — CỤC DIỆN THỊ PHẦN SMARTPHONE & GÓC MUA HÀNG
+## PHẦN 5 — KHẢO SÁT THỊ PHẦN SMARTPHONE VIỆT NAM (GFK & COUNTERPOINT)
 {marketshare_content}
