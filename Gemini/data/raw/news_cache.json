@@ -1,6 +1,16 @@
 {
   "domestic_economy": [
     {
+      "title": "Lãi suất tiết kiệm có thể vẫn neo cao",
+      "link": "https://vnexpress.net/lai-suat-tiet-kiem-co-the-van-neo-cao-5118122.html",
+      "summary": "Thanh khoản hệ thống ngân hàng hạ nhiệt, nhưng lãi suất tiền gửi được dự báo duy trì quanh 8-9,5% trong ngắn hạn bởi áp lực cân đối nguồn vốn vẫn hiện hữu.",
+      "pub_date": "Wed, 09 Sep 2026 10:00:17 +0700",
+      "source_name": "VnExpress Kinh Doanh",
+      "category": "finance_economy",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
       "title": "Thịt gà, phụ phẩm nhập khẩu rẻ hơn nhiều loại rau",
       "link": "https://vnexpress.net/thit-ga-phu-pham-nhap-khau-re-hon-nhieu-loai-rau-5117946.html",
       "summary": "Trong 7 tháng, Việt Nam nhập gần 217.400 tấn thịt và phụ phẩm gia cầm với giá bình quân khoảng 26.500 đồng một kg, thấp hơn giá bán lẻ nhiều loại rau.",
@@ -8,7 +18,7 @@
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Hàng nhập khẩu trên 100.000 đồng có thể không còn được miễn thuế",
@@ -18,7 +28,7 @@
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Giải thể công ty không có doanh thu phải nộp bao nhiêu phí, phạt?",
@@ -28,7 +38,7 @@
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Người nghèo Mỹ chật vật tìm nhà thuê",
@@ -38,7 +48,7 @@
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Mexico áp lực 'trả nợ' một tỷ m3 nước cho Mỹ",
@@ -48,17 +58,7 @@
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
-    },
-    {
-      "title": "Trung Quốc mua hơn 20 tấn vàng dự trữ",
-      "link": "https://vnexpress.net/trung-quoc-mua-hon-20-tan-vang-du-tru-5118096.html",
-      "summary": "Ngân hàng Trung ương Trung Quốc (PBOC) tiếp tục mua vàng trong tháng 8, với lượng mua lớn nhất 3 năm qua.",
-      "pub_date": "Tue, 08 Sep 2026 21:56:29 +0700",
-      "source_name": "VnExpress Kinh Doanh",
-      "category": "finance_economy",
-      "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "VPBank và chiến lược kiến tạo động lực tăng trưởng từ hệ sinh thái",
@@ -68,7 +68,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Giá vàng miếng, vàng nhẫn sáng 9/9 tại SJC, DOJI, PNJ, Bảo Tín Mạnh Hải và Bảo Tín Minh Châu đồng loạt giảm 1,2 - 1,5 triệu đồng/lượng",
@@ -78,7 +78,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Thẻ VIB - Từ dẫn đầu xu thế đến chiếc thẻ phát triển cùng khách hàng",
@@ -88,7 +88,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Thị trường bảo hiểm: Thời điểm vàng cho những ai dám bứt phá!",
@@ -98,7 +98,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "SACOMBANK thu giữ loạt bất động sản để xử lý nợ",
@@ -108,7 +108,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Điện thoại trong tay, linh hoạt nhận thanh toán cùng SACOMBANK PAY",
@@ -118,7 +118,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Tập đoàn Nhật “tháo chạy” chỉ sau 3 tháng chi 1.000 tỷ thâu tóm nhà sản xuất stent duy nhất của Việt Nam",
@@ -128,7 +128,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Điểm nhấn sự kiện ra mắt Lynk & Co 02 tại Việt Nam",
@@ -138,7 +138,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Công ty ô tô lỗ lũy kế 360 tỷ muốn rót 200 tỷ vào doanh nghiệp BĐS, kỳ vọng lãi 90 tỷ trong 3 năm",
@@ -148,7 +148,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Tỷ phú Phạm Nhật Vượng bắt tay nữ tướng Nguyễn Bạch Điệp",
@@ -158,7 +158,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Điều lạ đang diễn ra tại 3 nhà máy điện than Việt Nam: Trộn gỗ vào than, có nơi tỷ lệ lên tới 30%",
@@ -168,7 +168,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Một “ông lớn” Hàn Quốc vừa mua hơn 93% nền tảng đứng sau 5.000 salon, spa, tiệm nail khắp Việt Nam",
@@ -178,7 +178,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     }
   ],
   "domestic_tech": [
@@ -190,7 +190,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "#Tinhtetest: Thử nghiệm Samsung SSD 9100 PRO: PCIe Gen 5 dành cho ai?",
@@ -200,7 +200,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Nokia 5310 & JBL: từn có các sản phẩm tuyệt vời nhu vầy",
@@ -210,7 +210,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức...",
@@ -220,7 +220,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt",
@@ -230,7 +230,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Sony bắt đầu phát hành Android 17 cho Xperia 1 VIII, bổ sung chế độ Desktop và công cụ camera mới",
@@ -240,7 +240,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Nhà nghiên cứu tại OpenAI tiêu tốn 7.000 USD cho token mỗi ngày",
@@ -250,7 +250,7 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Lý do máy in 3D trở nên hấp dẫn",
@@ -260,7 +260,7 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Huawei Watch Kids X1 - đồng hồ trẻ em có camera kép",
@@ -270,17 +270,7 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
-    },
-    {
-      "title": "Sếp OpenAI: 'Chưa ai sẵn sàng cho hệ quả của AI'",
-      "link": "https://vnexpress.net/sep-openai-chua-ai-san-sang-cho-he-qua-cua-ai-5117866.html",
-      "summary": "Jakub Pachocki, nhà khoa học trưởng của OpenAI, cho rằng các phòng thí nghiệm cần tự nguyện giảm tốc độ phát triển AI do thế giới chưa sẵn sàng ứng phó.",
-      "pub_date": "Wed, 09 Sep 2026 05:00:00 +0700",
-      "source_name": "VnExpress Số Hóa",
-      "category": "tech_digital",
-      "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Việt Nam đề nghị Nga hỗ trợ xây dựng chiến lược lượng tử",
@@ -290,7 +280,17 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "Sếp OpenAI: 'Chưa ai sẵn sàng cho hệ quả của AI'",
+      "link": "https://vnexpress.net/sep-openai-chua-ai-san-sang-cho-he-qua-cua-ai-5117866.html",
+      "summary": "Jakub Pachocki, nhà khoa học trưởng của OpenAI, cho rằng các phòng thí nghiệm cần tự nguyện giảm tốc độ phát triển AI do thế giới chưa sẵn sàng ứng phó.",
+      "pub_date": "Wed, 09 Sep 2026 05:00:00 +0700",
+      "source_name": "VnExpress Số Hóa",
+      "category": "tech_digital",
+      "weight": 29,
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "AI thách thức vai trò giám đốc điều hành",
@@ -300,7 +300,7 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     }
   ],
   "international_macro": [
@@ -312,7 +312,7 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Paul Adams: British-Israeli relations at lowest ebb in decades",
@@ -322,7 +322,7 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
@@ -332,7 +332,7 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "'Constantly on my mind' - 9/11 agony goes on for bereaved, 25 years on",
@@ -342,7 +342,7 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Renoir paintings worth millions stolen in French museum heist",
@@ -352,7 +352,7 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Meta continues to run ads promoting child sexual abuse material in India - report",
@@ -362,17 +362,17 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "US bans Canadian dairy, motorcycles and most alcoholic beverages",
       "link": "https://www.ft.com/content/639d8eac-fd8c-4557-a852-f826501681ad?syn-25a6b1a6=1",
-      "summary": "Move comes a day after Ottawa imposes $20bn in retaliatory tariffs on US goods",
-      "pub_date": "Wed, 09 Sep 2026 02:57:42 GMT",
+      "summary": "Trump administration announces move day after Ottawa imposed US$20bn in retaliatory tariffs on US goods",
+      "pub_date": "Wed, 09 Sep 2026 00:53:40 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Meta unveils AI personal assistant linked to WhatsApp and Instagram",
@@ -382,7 +382,7 @@
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Young Americans have never witnessed a functioning foreign policy",
@@ -392,7 +392,7 @@
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Tung Chee-hwa, Hong Kong’s first chief executive, 1937-2026",
@@ -402,7 +402,7 @@
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Oil nears $100 as US launches new strikes on Iranian tankers",
@@ -412,7 +412,7 @@
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Fundraising frenzy for China AI lab DeepSeek spawns costly shadow market",
@@ -422,10 +422,70 @@
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     }
   ],
   "international_tech": [
+    {
+      "title": "Oppo A7 Pro is now official with an 8,000 mAh battery",
+      "link": "https://www.gsmarena.com/oppo_a7_pro_is_now_official_with_an_8000_mah_battery-news-74520.php",
+      "summary": "Oppo's A7 Pro is finally joining the A7 Pro Max, which was launched back in August. The A7 Pro will become available in China on September 11, and ahead of that the company has started taking pre-orders for the device today, also revealing its specs and pricing in the process. Th...",
+      "pub_date": "Wed, 09 Sep 2026 05:01:02 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "We go hands-on with TCL P80 Pro's OLED-based NxtPaper display, TCL P80 also handled",
+      "link": "https://www.gsmarena.com/we_go_handson_with_tcl_p80_pros_oledbased_nxtpaper_display_tcl_p80_also_handled-news-74515.php",
+      "summary": "TCL made a big jump with the P80 series of phones – these are the first to have NxtPaper displays based on OLED panels instead of LCD. The key benefits are the usual – higher brightness, greater contrast, punchier colors – but the company made sure that these advantages didn’t co...",
+      "pub_date": "Wed, 09 Sep 2026 03:02:01 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "MediaTek's Dimensity 9600 Pro SoC now has an official launch date",
+      "link": "https://www.gsmarena.com/mediateks_dimensity_9600_pro_soc_now_has_an_official_launch_date-news-74521.php",
+      "summary": "Today on X, MediaTek has revealed when it plans to unveil its next flagship Dimensity SoC: on September 15 at 2:30 PM in China. That's 2:30 AM in New York, 7:30 AM in London, 8:30 AM in Central Europe, 9:30 AM in Eastern Europe, and 12 PM in India. According to the post on X, the...",
+      "pub_date": "Wed, 09 Sep 2026 01:57:02 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "Apple wanted the iPhone Ultra to cost $1,999, new report says",
+      "link": "https://www.gsmarena.com/apple_wanted_the_iphone_ultra_to_cost_1999_new_report_says-news-74523.php",
+      "summary": "Apple is holding its big annual iPhone launch event on September 9, and it's widely expected to unveil the iPhone Ultra on that day. This will be its first foldable smartphone, and it's been a very long time coming. According to a new report from Bloomberg's Mark Gurman, the comp...",
+      "pub_date": "Wed, 09 Sep 2026 01:02:01 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "iOS camera app will get some pro add-ons, hints at variable aperture support",
+      "link": "https://www.gsmarena.com/ios_camera_app_will_get_some_pro_addons_hints_at_variable_aperture_support-news-74524.php",
+      "summary": "Apple is finalizing iOS 27 for release to the masses (after tomorrow's iPhone 18 event), and some clever people have peeked into the code to see what's new. Specifically, the iOS 27 camera app code, and there are some major pro features en route. Starting with exposure scopes, br...",
+      "pub_date": "Tue, 08 Sep 2026 23:22:02 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "Samsung Galaxy S26 FE review",
+      "link": "https://www.gsmarena.com/samsung_galaxy_s26_fe-review-2999.php",
+      "summary": "",
+      "pub_date": "Tue, 08 Sep 2026 22:58:32 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
     {
       "title": "Sony isn’t phasing out discs quite as quickly as we thought",
       "link": "https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent",
@@ -434,7 +494,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
@@ -444,7 +504,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Rivian spinout Also apologizes for delays in shipping futuristic e-bikes",
@@ -454,7 +514,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Razer’s ANC-equipped gaming headset for PS5 and Xbox is almost $100 off",
@@ -464,7 +524,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
@@ -474,7 +534,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Meta bets on AI agent Muse to catch up in AI race",
@@ -484,7 +544,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Meta tackles agentic AI with the launch of Muse",
@@ -494,7 +554,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "The 5 coolest things we found at IFA 2026",
@@ -504,7 +564,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Google has deployed a fix for YouTube’s blank screen problems",
@@ -514,7 +574,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Fun or pointless? Google Messages chat themes divide readers in poll",
@@ -524,7 +584,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Forgot where you put it? Find Hub’s new ‘Remembered’ feature is here to save the day",
@@ -534,7 +594,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Missing Nest alerts on your iPhone? Google’s got a fix",
@@ -544,7 +604,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     }
   ],
   "social": [
@@ -556,7 +616,7 @@
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Joheirry Mola: Không bỏ nghề giáo khi đăng quang Miss World",
@@ -566,7 +626,7 @@
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Lần đầu công diễn kiệt tác opera 'Tosca' ở Việt Nam",
@@ -576,7 +636,7 @@
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Hoa hậu Thế giới và 2 á hậu khoe sắc ở TP HCM",
@@ -586,7 +646,7 @@
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Công chúa Tây Ban Nha mặc giản dị đi học",
@@ -596,7 +656,7 @@
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Tuấn Trần: Tôi đối diện thẳng thắn với lời chê",
@@ -606,7 +666,7 @@
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Tiểu Yến Tử từng nhận \"gạch đá\" vì diễn xuất, U50 viên mãn bên chồng tài tử",
@@ -616,7 +676,7 @@
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Hoa hậu Ngọc Hân đi xin việc ở tuổi U40",
@@ -626,7 +686,7 @@
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Vũ Thuý Quỳnh gặp vấn đề sức khoẻ đáng lo khi đang mang thai",
@@ -636,7 +696,7 @@
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Cơ ngơi ở TP.HCM của Mỹ Tâm",
@@ -646,7 +706,7 @@
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Chuyện tình chiếc xe máy điện đêm Bắc Kinh hay 6 năm âm thầm bên nhau của Tỉnh Bách Nhiên và Lưu Văn",
@@ -656,7 +716,7 @@
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Bắt khẩn cấp nữ nghệ sĩ say rượu lái xe vào rạng sáng ngày 8/9",
@@ -666,10 +726,20 @@
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     }
   ],
   "domestic": [
+    {
+      "title": "Lãi suất tiết kiệm có thể vẫn neo cao",
+      "link": "https://vnexpress.net/lai-suat-tiet-kiem-co-the-van-neo-cao-5118122.html",
+      "summary": "Thanh khoản hệ thống ngân hàng hạ nhiệt, nhưng lãi suất tiền gửi được dự báo duy trì quanh 8-9,5% trong ngắn hạn bởi áp lực cân đối nguồn vốn vẫn hiện hữu.",
+      "pub_date": "Wed, 09 Sep 2026 10:00:17 +0700",
+      "source_name": "VnExpress Kinh Doanh",
+      "category": "finance_economy",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
     {
       "title": "Thịt gà, phụ phẩm nhập khẩu rẻ hơn nhiều loại rau",
       "link": "https://vnexpress.net/thit-ga-phu-pham-nhap-khau-re-hon-nhieu-loai-rau-5117946.html",
@@ -678,7 +748,7 @@
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Hàng nhập khẩu trên 100.000 đồng có thể không còn được miễn thuế",
@@ -688,7 +758,7 @@
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Giải thể công ty không có doanh thu phải nộp bao nhiêu phí, phạt?",
@@ -698,7 +768,7 @@
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Người nghèo Mỹ chật vật tìm nhà thuê",
@@ -708,7 +778,7 @@
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Mexico áp lực 'trả nợ' một tỷ m3 nước cho Mỹ",
@@ -718,17 +788,7 @@
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
-    },
-    {
-      "title": "Trung Quốc mua hơn 20 tấn vàng dự trữ",
-      "link": "https://vnexpress.net/trung-quoc-mua-hon-20-tan-vang-du-tru-5118096.html",
-      "summary": "Ngân hàng Trung ương Trung Quốc (PBOC) tiếp tục mua vàng trong tháng 8, với lượng mua lớn nhất 3 năm qua.",
-      "pub_date": "Tue, 08 Sep 2026 21:56:29 +0700",
-      "source_name": "VnExpress Kinh Doanh",
-      "category": "finance_economy",
-      "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "VPBank và chiến lược kiến tạo động lực tăng trưởng từ hệ sinh thái",
@@ -738,7 +798,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Giá vàng miếng, vàng nhẫn sáng 9/9 tại SJC, DOJI, PNJ, Bảo Tín Mạnh Hải và Bảo Tín Minh Châu đồng loạt giảm 1,2 - 1,5 triệu đồng/lượng",
@@ -748,7 +808,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Thẻ VIB - Từ dẫn đầu xu thế đến chiếc thẻ phát triển cùng khách hàng",
@@ -758,7 +818,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Thị trường bảo hiểm: Thời điểm vàng cho những ai dám bứt phá!",
@@ -768,7 +828,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "SACOMBANK thu giữ loạt bất động sản để xử lý nợ",
@@ -778,7 +838,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Điện thoại trong tay, linh hoạt nhận thanh toán cùng SACOMBANK PAY",
@@ -788,7 +848,7 @@
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Tập đoàn Nhật “tháo chạy” chỉ sau 3 tháng chi 1.000 tỷ thâu tóm nhà sản xuất stent duy nhất của Việt Nam",
@@ -798,7 +858,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Điểm nhấn sự kiện ra mắt Lynk & Co 02 tại Việt Nam",
@@ -808,7 +868,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Công ty ô tô lỗ lũy kế 360 tỷ muốn rót 200 tỷ vào doanh nghiệp BĐS, kỳ vọng lãi 90 tỷ trong 3 năm",
@@ -818,7 +878,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Tỷ phú Phạm Nhật Vượng bắt tay nữ tướng Nguyễn Bạch Điệp",
@@ -828,7 +888,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Điều lạ đang diễn ra tại 3 nhà máy điện than Việt Nam: Trộn gỗ vào than, có nơi tỷ lệ lên tới 30%",
@@ -838,7 +898,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Một “ông lớn” Hàn Quốc vừa mua hơn 93% nền tảng đứng sau 5.000 salon, spa, tiệm nail khắp Việt Nam",
@@ -848,7 +908,7 @@
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "IFA26: LG lần đầu làm máy sấy tóc AirDew Hair: Đẹp và thông minh",
@@ -858,7 +918,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "#Tinhtetest: Thử nghiệm Samsung SSD 9100 PRO: PCIe Gen 5 dành cho ai?",
@@ -868,7 +928,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Nokia 5310 & JBL: từn có các sản phẩm tuyệt vời nhu vầy",
@@ -878,7 +938,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Meta ra mắt trợ lý AI cá nhân Muse, đòi quyền truy cập email, lịch, thanh toán và cả dữ liệu sức...",
@@ -888,7 +948,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Nintendo tung Switch 2 phiên bản 40 năm Zelda, ấn định ngày Ocarina of Time bản làm lại ra mắt",
@@ -898,7 +958,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Sony bắt đầu phát hành Android 17 cho Xperia 1 VIII, bổ sung chế độ Desktop và công cụ camera mới",
@@ -908,7 +968,7 @@
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Nhà nghiên cứu tại OpenAI tiêu tốn 7.000 USD cho token mỗi ngày",
@@ -918,7 +978,7 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Lý do máy in 3D trở nên hấp dẫn",
@@ -928,7 +988,7 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Huawei Watch Kids X1 - đồng hồ trẻ em có camera kép",
@@ -938,17 +998,7 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
-    },
-    {
-      "title": "Sếp OpenAI: 'Chưa ai sẵn sàng cho hệ quả của AI'",
-      "link": "https://vnexpress.net/sep-openai-chua-ai-san-sang-cho-he-qua-cua-ai-5117866.html",
-      "summary": "Jakub Pachocki, nhà khoa học trưởng của OpenAI, cho rằng các phòng thí nghiệm cần tự nguyện giảm tốc độ phát triển AI do thế giới chưa sẵn sàng ứng phó.",
-      "pub_date": "Wed, 09 Sep 2026 05:00:00 +0700",
-      "source_name": "VnExpress Số Hóa",
-      "category": "tech_digital",
-      "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Việt Nam đề nghị Nga hỗ trợ xây dựng chiến lược lượng tử",
@@ -958,7 +1008,17 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "Sếp OpenAI: 'Chưa ai sẵn sàng cho hệ quả của AI'",
+      "link": "https://vnexpress.net/sep-openai-chua-ai-san-sang-cho-he-qua-cua-ai-5117866.html",
+      "summary": "Jakub Pachocki, nhà khoa học trưởng của OpenAI, cho rằng các phòng thí nghiệm cần tự nguyện giảm tốc độ phát triển AI do thế giới chưa sẵn sàng ứng phó.",
+      "pub_date": "Wed, 09 Sep 2026 05:00:00 +0700",
+      "source_name": "VnExpress Số Hóa",
+      "category": "tech_digital",
+      "weight": 29,
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "AI thách thức vai trò giám đốc điều hành",
@@ -968,7 +1028,7 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     }
   ],
   "international": [
@@ -980,7 +1040,7 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Paul Adams: British-Israeli relations at lowest ebb in decades",
@@ -990,7 +1050,7 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
@@ -1000,7 +1060,7 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "'Constantly on my mind' - 9/11 agony goes on for bereaved, 25 years on",
@@ -1010,7 +1070,7 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Renoir paintings worth millions stolen in French museum heist",
@@ -1020,7 +1080,7 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Meta continues to run ads promoting child sexual abuse material in India - report",
@@ -1030,17 +1090,17 @@
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "US bans Canadian dairy, motorcycles and most alcoholic beverages",
       "link": "https://www.ft.com/content/639d8eac-fd8c-4557-a852-f826501681ad?syn-25a6b1a6=1",
-      "summary": "Move comes a day after Ottawa imposes $20bn in retaliatory tariffs on US goods",
-      "pub_date": "Wed, 09 Sep 2026 02:57:42 GMT",
+      "summary": "Trump administration announces move day after Ottawa imposed US$20bn in retaliatory tariffs on US goods",
+      "pub_date": "Wed, 09 Sep 2026 00:53:40 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Meta unveils AI personal assistant linked to WhatsApp and Instagram",
@@ -1050,7 +1110,7 @@
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Young Americans have never witnessed a functioning foreign policy",
@@ -1060,7 +1120,7 @@
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Tung Chee-hwa, Hong Kong’s first chief executive, 1937-2026",
@@ -1070,7 +1130,7 @@
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Oil nears $100 as US launches new strikes on Iranian tankers",
@@ -1080,7 +1140,7 @@
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Fundraising frenzy for China AI lab DeepSeek spawns costly shadow market",
@@ -1090,10 +1150,70 @@
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     }
   ],
   "technology": [
+    {
+      "title": "Oppo A7 Pro is now official with an 8,000 mAh battery",
+      "link": "https://www.gsmarena.com/oppo_a7_pro_is_now_official_with_an_8000_mah_battery-news-74520.php",
+      "summary": "Oppo's A7 Pro is finally joining the A7 Pro Max, which was launched back in August. The A7 Pro will become available in China on September 11, and ahead of that the company has started taking pre-orders for the device today, also revealing its specs and pricing in the process. Th...",
+      "pub_date": "Wed, 09 Sep 2026 05:01:02 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "We go hands-on with TCL P80 Pro's OLED-based NxtPaper display, TCL P80 also handled",
+      "link": "https://www.gsmarena.com/we_go_handson_with_tcl_p80_pros_oledbased_nxtpaper_display_tcl_p80_also_handled-news-74515.php",
+      "summary": "TCL made a big jump with the P80 series of phones – these are the first to have NxtPaper displays based on OLED panels instead of LCD. The key benefits are the usual – higher brightness, greater contrast, punchier colors – but the company made sure that these advantages didn’t co...",
+      "pub_date": "Wed, 09 Sep 2026 03:02:01 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "MediaTek's Dimensity 9600 Pro SoC now has an official launch date",
+      "link": "https://www.gsmarena.com/mediateks_dimensity_9600_pro_soc_now_has_an_official_launch_date-news-74521.php",
+      "summary": "Today on X, MediaTek has revealed when it plans to unveil its next flagship Dimensity SoC: on September 15 at 2:30 PM in China. That's 2:30 AM in New York, 7:30 AM in London, 8:30 AM in Central Europe, 9:30 AM in Eastern Europe, and 12 PM in India. According to the post on X, the...",
+      "pub_date": "Wed, 09 Sep 2026 01:57:02 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "Apple wanted the iPhone Ultra to cost $1,999, new report says",
+      "link": "https://www.gsmarena.com/apple_wanted_the_iphone_ultra_to_cost_1999_new_report_says-news-74523.php",
+      "summary": "Apple is holding its big annual iPhone launch event on September 9, and it's widely expected to unveil the iPhone Ultra on that day. This will be its first foldable smartphone, and it's been a very long time coming. According to a new report from Bloomberg's Mark Gurman, the comp...",
+      "pub_date": "Wed, 09 Sep 2026 01:02:01 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "iOS camera app will get some pro add-ons, hints at variable aperture support",
+      "link": "https://www.gsmarena.com/ios_camera_app_will_get_some_pro_addons_hints_at_variable_aperture_support-news-74524.php",
+      "summary": "Apple is finalizing iOS 27 for release to the masses (after tomorrow's iPhone 18 event), and some clever people have peeked into the code to see what's new. Specifically, the iOS 27 camera app code, and there are some major pro features en route. Starting with exposure scopes, br...",
+      "pub_date": "Tue, 08 Sep 2026 23:22:02 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
+    {
+      "title": "Samsung Galaxy S26 FE review",
+      "link": "https://www.gsmarena.com/samsung_galaxy_s26_fe-review-2999.php",
+      "summary": "",
+      "pub_date": "Tue, 08 Sep 2026 22:58:32 +0200",
+      "source_name": "GSMArena",
+      "category": "mobile_hardware",
+      "weight": 30,
+      "fetched_at": "2026-09-09 10:15"
+    },
     {
       "title": "Sony isn’t phasing out discs quite as quickly as we thought",
       "link": "https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent",
@@ -1102,7 +1222,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
@@ -1112,7 +1232,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Rivian spinout Also apologizes for delays in shipping futuristic e-bikes",
@@ -1122,7 +1242,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Razer’s ANC-equipped gaming headset for PS5 and Xbox is almost $100 off",
@@ -1132,7 +1252,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
@@ -1142,7 +1262,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Meta bets on AI agent Muse to catch up in AI race",
@@ -1152,7 +1272,7 @@
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Meta tackles agentic AI with the launch of Muse",
@@ -1162,7 +1282,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "The 5 coolest things we found at IFA 2026",
@@ -1172,7 +1292,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Google has deployed a fix for YouTube’s blank screen problems",
@@ -1182,7 +1302,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Fun or pointless? Google Messages chat themes divide readers in poll",
@@ -1192,7 +1312,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Forgot where you put it? Find Hub’s new ‘Remembered’ feature is here to save the day",
@@ -1202,7 +1322,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     },
     {
       "title": "Missing Nest alerts on your iPhone? Google’s got a fix",
@@ -1212,7 +1332,7 @@
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-09 10:13"
+      "fetched_at": "2026-09-09 10:15"
     }
   ]
 }

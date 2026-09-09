@@ -1,5 +1,5 @@
 # BẢN TIN 24H — Thứ 4, 09/09/2026
-Kỳ dữ liệu: từ 08/09/2026 10:13 đến 09/09/2026 10:13 (giờ Việt Nam)
+Kỳ dữ liệu: từ 08/09/2026 10:15 đến 09/09/2026 10:15 (giờ Việt Nam)
 Số nguồn đã quét: 6 | Số nguồn lỗi: 0
 Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
@@ -16,19 +16,19 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 ### Giá Vàng
 - **SJC Miền Bắc/TP.HCM**: Mua vào 144.60 tr.đ/lượng | Bán ra 147.60 tr.đ/lượng | Thay đổi: -1.00 tr.đ (Giảm sau phiên trước)
 - **Vàng Thế Giới (Kitco)**: 4,429 USD/oz | Chênh lệch trong nước: ~3.0 tr.đ/lượng
-- *Nguồn: SJC / Kitco | Cập nhật: 10:13 09/09/2026*
+- *Nguồn: SJC / Kitco | Cập nhật: 10:15 09/09/2026*
 
 ### Tỷ Giá Ngoại Tệ
 - **USD/VND**: Mua 25.803 đ | Bán 26.062 đ | Tỷ giá trung tâm NHNN: 24.280 đ
 - **CNY/VND (Nhập khẩu ICT)**: Mua 3.854.31 đ | Bán 3.854.31 đ
 - **KRW/VND (Chuỗi cung ứng)**: Mua 19.34 đ | Bán 19.34 đ
 - **Chỉ số DXY**: 104.25
-- *Nguồn: Vietcombank / SBV | Cập nhật: 10:13 09/09/2026*
+- *Nguồn: Vietcombank / SBV | Cập nhật: 10:15 09/09/2026*
 
 ### Thị Trường Chứng Khoán
-- **VN-Index**: 1.844,05 điểm | Biến động: +6.85 (+0.54%) | Khối lượng: 680.5M | Nước ngoài: +120.5 tỷ VNĐ (Mua ròng)
+- **VN-Index**: 1.844,77 điểm | Biến động: +6.85 (+0.54%) | Khối lượng: 680.5M | Nước ngoài: +120.5 tỷ VNĐ (Mua ròng)
 - **HNX-Index**: 242.15 điểm | Biến động: +1.20 (+0.50%)
-- *Nguồn: HOSE / CafeF | Cập nhật: 10:13 09/09/2026*
+- *Nguồn: HOSE / CafeF | Cập nhật: 10:15 09/09/2026*
 
 ### Giá Xăng Dầu
 - **RON 95-III**: 20.850 đ/lít đ/lít | Kỳ điều hành: Kỳ điều hành ngày 05/09/2026
@@ -114,36 +114,36 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
 
 ### 📱 B. Công Nghệ & Thiết Bị Di Động Quốc Tế (GSMArena, The Verge)
-### 1. Sony không loại bỏ đĩa khá nhanh như chúng ta nghĩ
-- **Diễn biến**: Sony không lùi bước trước quyết định loại bỏ đĩa trò chơi điện tử vào tháng 1 năm 2028. Nhưng Sony cũng không ngừng sản xuất nhanh như chúng tôi nghĩ. Hai tháng sau khi có báo cáo rằng nhà máy sản xuất đĩa cuối cùng của Sony đã được tái sử dụng, bộ phận sản xuất đĩa của công ty...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent)
+### 1. Báo cáo mới cho biết Apple muốn iPhone Ultra có giá 1.999 $
+- **Diễn biến**: Apple sẽ tổ chức sự kiện ra mắt iPhone lớn hàng năm vào ngày 9 tháng 9 và dự kiến sẽ ra mắt iPhone Ultra vào ngày đó.
+- **Ý nghĩa**: Đây sẽ là điện thoại thông minh có thể gập lại đầu tiên của nó, và nó đã được một thời gian rất dài sắp tới Theo một báo cáo mới từ Mark Gurman của Bloomberg,.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/apple_wanted_the_iphone_ultra_to_cost_1999_new_report_says-news-74523.php)
 
-### 2. Drama swirls around OpenAI’s legendary mathematical milestone
-- **Diễn biến**: OpenAI cho biết họ đã tìm ra giải pháp cho một vấn đề toán học lớn vẫn chưa được giải quyết trong khoảng 90 năm, theo báo cáo trước đó của The New York Times và Wired. Trong một bài đăng trên blog vào thứ ba, OpenAI thông báo rằng họ đã phát hiện ra một giải pháp cho vấn đề Navier-Stokes - liên quan đến...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution)
+### 2. Oppo A7 Pro hiện đã chính thức ra mắt với pin 8.000 mAh
+- **Diễn biến**: A7 Pro của Oppo cuối cùng đã gia nhập A7 Pro Max, được ra mắt vào tháng 8.
+- **Ý nghĩa**: A7 Pro sẽ có mặt tại Trung Quốc vào ngày 11 tháng 9 và trước đó công ty đã bắt đầu nhận đơn đặt hàng trước cho thiết bị ngay hôm nay, cũng tiết lộ thông số kỹ thuật và giá cả của nó trong quá trình này.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/oppo_a7_pro_is_now_official_with_an_8000_mah_battery-news-74520.php)
 
-### 3. Rivian spinout Cũng xin lỗi vì sự chậm trễ trong việc vận chuyển xe đạp điện tương lai
-- **Diễn biến**: Xe đạp điện tương lai của Rivian bị trì hoãn và khách hàng không hài lòng. Năm ngoái, Rivian cũng đã tiết lộ một chiếc xe đạp điện mới, được điều khiển bằng phần mềm có tên TM-B, ngay lập tức khiến thế giới xe đạp điện bùng cháy. Với pin sạc USB-C, giá đỡ ghế có thể tháo rời,...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology)
+### 3. Samsung Galaxy S26 FE review
+- **Diễn biến**: Samsung mở rộng danh mục dòng máy phổ thông với pin 5.000mAh và màn hình tần số quét 90Hz.
+- **Ý nghĩa**: Bảo vệ vững chắc vị thế dẫn đầu 31.2% thị phần bán lẻ GfK trước sự bám đuổi của Xiaomi và Realme.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/samsung_galaxy_s26_fe-review-2999.php)
 
-### 4. Tai nghe chơi game được trang bị ANC của Razer cho PS5 và Xbox giảm gần 100 $
-- **Diễn biến**: Rất hiếm khi tìm thấy các tính năng cao cấp như khử tiếng ồn chủ động trong tai nghe chơi game dưới 200 $, vì vậy chúng tôi rất vui mừng khi Razer BlackShark V3 Pro được bán tại Woot với giá $ 164,99. Có những mô hình cụ thể được bán trên thị trường cho Xbox và PlayStation, nhưng phiên bản Xbox là lựa chọn tốt nhất b...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale)
+### 4. SoC Dimensity 9600 Pro của MediaTek hiện đã có ngày ra mắt chính thức
+- **Diễn biến**: Hôm nay trên X, MediaTek đã tiết lộ khi nào họ có kế hoạch công bố SoC kích thước hàng đầu tiếp theo của mình: vào ngày 15 tháng 9 lúc 2:30 chiều tại Trung Quốc.
+- **Ý nghĩa**: Đó là 2:30 sáng ở New York, 7:30 sáng ở London, 8:30 sáng ở Trung Âu, 9:30 sáng ở Đông Âu và 12 giờ trưa ở Ấn Độ Theo bài đăng trên X,.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/mediateks_dimensity_9600_pro_soc_now_has_an_official_launch_date-news-74521.php)
 
-### 5. ChatGPT Sketch turns your bad drawings into detailed AI images
-- **Diễn biến**: OpenAI đã công bố ChatGPT Images 2.5 vào thứ ba và đang thêm một cách mới để nói với ChatGPT những gì bạn muốn nó tạo ra một hình ảnh: bằng cách vẽ một hình tượng trưng. Với một tính năng mới được gọi là Phác thảo, bạn chỉ có thể vẽ một cái gì đó ngay bên trong ChatGPT và sau đó nói với ChatGPT cách bạn muốn nó tạo ra một...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch)
+### 5. Chúng tôi thực hành với màn hình NxtPaper dựa trên OLED của TCL P80 Pro, TCL P80 cũng được xử lý
+- **Diễn biến**: TCL đã thực hiện một bước nhảy lớn với dòng điện thoại P80 – đây là những chiếc điện thoại đầu tiên có màn hình NxtPaper dựa trên tấm nền OLED thay vì LCD.
+- **Ý nghĩa**: Những lợi ích chính là thông thường – độ sáng cao hơn, độ tương phản cao hơn, màu sắc đục lỗ hơn – nhưng công ty đảm bảo rằng những lợi thế này không.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/we_go_handson_with_tcl_p80_pros_oledbased_nxtpaper_display_tcl_p80_also_handled-news-74515.php)
 
 
 ### ⚡ C. Tin Vắn Nhanh Quốc Tế
 • **[Những bức tranh Renoir trị giá hàng t...]**: Đây là vụ mới nhất trong một loạt các vụ trộm cắp nghệ thuật cao cấp ở châu Âu đã một lần nữa đưa an ninh của các bảo tàng và phòng trưng bày trở thành tâm điểm chú ý. (Nguồn: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&at_campaign=rss))
 • **[Meta tiếp tục chạy quảng cáo quảng bá...]**: Báo cáo này theo sau một cuộc điều tra của BBC Eye cho thấy Instagram chạy quảng cáo trả tiền quảng bá tài liệu như vậy ở Ấn Độ. (Nguồn: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&at_campaign=rss))
-• **[Mỹ cấm sữa, xe máy và hầu hết đồ uống...]**: Động thái này diễn ra một ngày sau khi Ottawa áp đặt mức thuế trả đũa 20 tỷ $ đối với hàng hóa của Hoa Kỳ. (Nguồn: [Bloomberg / Financial Times](https://www.ft.com/content/639d8eac-fd8c-4557-a852-f826501681ad?syn-25a6b1a6=1))
+• **[Mỹ cấm sữa, xe máy và hầu hết đồ uống...]**: Chính quyền Trump tuyên bố hành động một ngày sau khi Ottawa áp đặt mức thuế trả đũa 20 tỷ$ đối với hàng hóa của Mỹ. (Nguồn: [Bloomberg / Financial Times](https://www.ft.com/content/639d8eac-fd8c-4557-a852-f826501681ad?syn-25a6b1a6=1))
 • **[Meta tiết lộ trợ lý cá nhân AI được l...]**: ‘tác nhân‘ mới được gọi là Muse được thiết kế để đưa ra các đề xuất tùy chỉnh dựa trên các cuộc trò chuyện và hoạt động truyền thông xã hội. (Nguồn: [Bloomberg / Financial Times](https://www.ft.com/content/5816292b-c36b-4c22-aa50-2680b9970382?syn-25a6b1a6=1))
 • **[Giới trẻ Mỹ chưa bao giờ chứng kiến m...]**: Hai mươi lăm năm sau ngày 11/9, nợ và chi tiêu quốc phòng đang phình to trong khi ngoại giao bị bỏ đói và các đồng minh bị xa lánh. (Nguồn: [Bloomberg / Financial Times](https://www.ft.com/content/2e97fb28-24cf-4ab0-89b1-454b4f97cdbc))
 
@@ -153,14 +153,14 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 ### Top Từ Khóa Thịnh Hành Google Trends (Việt Nam)
 - **park hang-seo** (500+) [🔥 Hot General]
 - **sức khỏe và đời sống** (100+) [🔥 Hot General]
-- **hồng vân** (1000+) [🔥 Hot General]
+- **hồng vân** (2000+) [🔥 Hot General]
 - **vietinbank** (2000+) [🔥 Hot General]
 - **погода** (200+) [🔥 Hot General]
 - **tài sản** (2000+) [🔥 Hot General]
 - **bất động sản** (200+) [🔥 Hot General]
 - **fifa asean cup 2026** (200+) [🔥 Hot General]
+- **viên chức** (500+) [🔥 Hot General]
 - **hồ chí minh** (100+) [🔥 Hot General]
-- **sầu riêng** (200+) [🔥 Hot General]
 
 ### Tiêu Điểm Showbiz, Giải Trí & Xu Hướng Viral Mạng Xã Hội
 ### 1. Sắc vóc nữ chính phim 'Đầu xuân tươi sáng'
