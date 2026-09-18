@@ -1,236 +1,286 @@
 {
   "domestic_economy": [
     {
-      "title": "Giá vàng, chứng khoán Mỹ cùng giảm vì Fed tăng lãi",
-      "link": "https://vnexpress.net/gia-vang-chung-khoan-my-cung-giam-vi-fed-tang-lai-5121171.html",
-      "summary": "Mỗi ounce vàng giảm hơn 30 USD, trong khi chỉ số DJIA của Wall Street mất hơn 1% sau lần tăng lãi đầu tiên trong 3 năm của Fed.",
-      "pub_date": "Thu, 17 Sep 2026 07:46:01 +0700",
+      "title": "Ông lớn bán lẻ Thái Lan dự kiến rót thêm 1,5 tỷ USD vào Việt Nam",
+      "link": "https://vnexpress.net/ong-lon-ban-le-thai-lan-du-kien-rot-them-1-5-ty-usd-vao-viet-nam-5121378.html",
+      "summary": "Tăng trưởng GDP cao, sức mua lớn và trải rộng khắp tỉnh thành đang thúc đẩy Central Group xúc tiến kế hoạch rót thêm 1,5 tỷ USD vào Việt Nam.",
+      "pub_date": "Fri, 18 Sep 2026 03:00:00 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Các nền tảng gọi xe tại Việt Nam 'chia tiền' cho tài xế thế nào",
-      "link": "https://vnexpress.net/cac-nen-tang-goi-xe-tai-viet-nam-chia-tien-cho-tai-xe-the-nao-5120726.html",
-      "summary": "Trong khi Grab tính chiết khấu linh động từng chuyến, Be và GreenSM chọn cách chia doanh thu cố định để đảm bảo quyền lợi đối tác tài xế.",
-      "pub_date": "Thu, 17 Sep 2026 05:05:00 +0700",
+      "title": "Kiên định với xe điện, GM lỡ nhịp khi người Mỹ ồ ạt mua hybrid",
+      "link": "https://vnexpress.net/kien-dinh-voi-xe-dien-gm-lo-nhip-khi-nguoi-my-o-at-mua-hybrid-5121530.html",
+      "summary": "Trong khi người Mỹ tăng mua xe hybrid để giảm gánh nặng giá xăng, GM đang đứng bên lề thị trường, khi CEO hãng xe chỉ coi loại này là “giải pháp xanh tạm thời”.",
+      "pub_date": "Fri, 18 Sep 2026 02:42:28 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Fed tăng lãi suất lần đầu tiên sau 3 năm",
-      "link": "https://vnexpress.net/fed-tang-lai-suat-lan-dau-tien-sau-3-nam-5121142.html",
-      "summary": "Cục Dự trữ Liên bang Mỹ (Fed) tăng lãi suất lần đầu tiên kể từ năm 2023, đúng như dự báo của thị trường.",
-      "pub_date": "Thu, 17 Sep 2026 01:38:07 +0700",
+      "title": "Các nước buộc nền tảng gọi xe chi trả an sinh cho tài xế ra sao?",
+      "link": "https://vnexpress.net/cac-nuoc-buoc-nen-tang-goi-xe-chi-tra-an-sinh-cho-tai-xe-ra-sao-5120745.html",
+      "summary": "Nhiều quốc gia yêu cầu nền tảng gọi xe chia sẻ nhiều hơn chi phí an sinh cho tài xế, từ bảo hiểm đến hưu trí.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Mới có hai địa phương hỗ trợ người dân lắp điện mặt trời mái nhà",
-      "link": "https://vnexpress.net/moi-co-hai-dia-phuong-ho-tro-nguoi-dan-lap-dien-mat-troi-mai-nha-5121075.html",
-      "summary": "Bộ Công Thương đề nghị các địa phương sớm đưa ra chính sách hỗ trợ hộ gia đình lắp điện mặt trời mái nhà tự dùng, tương tự Bắc Ninh và Lai Châu.",
-      "pub_date": "Wed, 16 Sep 2026 20:20:57 +0700",
+      "title": "Hải Phòng gỡ vướng cho nhà máy đóng tàu 2.400 tỷ đồng",
+      "link": "https://vnexpress.net/hai-phong-go-vuong-cho-nha-may-dong-tau-2-400-ty-dong-5121559.html",
+      "summary": "Phó thủ tướng Hồ Quốc Dũng yêu cầu Hải Phòng chủ động tháo gỡ vướng mắc cho dự án đóng tàu Thái Bình Dương, giúp doanh nghiệp ổn định sản xuất nhưng không hợp thức hóa sai phạm.",
+      "pub_date": "Thu, 17 Sep 2026 23:00:06 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Tập đoàn Trung Quốc muốn đầu tư năng lượng, đường sắt tại Việt Nam",
-      "link": "https://vnexpress.net/tap-doan-trung-quoc-muon-dau-tu-nang-luong-duong-sat-tai-viet-nam-5121081.html",
-      "summary": "Huawei, CCCC và CEEC đề xuất tham gia các dự án năng lượng xanh, lưu trữ điện và đường sắt kết nối Việt Nam - Trung Quốc.",
-      "pub_date": "Wed, 16 Sep 2026 19:06:47 +0700",
+      "title": "FTSE Russell cam kết hỗ trợ toàn diện cho thị trường vốn của Việt Nam",
+      "link": "https://vnexpress.net/ftse-russell-cam-ket-ho-tro-toan-dien-cho-thi-truong-von-cua-viet-nam-5121535.html",
+      "summary": "FTSE Russell cam kết hỗ trợ Việt Nam phát triển thị trường vốn, trong bối cảnh các quỹ của Vanguard bắt đầu giải ngân và thêm cổ phiếu Việt Nam vào danh mục từ 21/9.",
+      "pub_date": "Thu, 17 Sep 2026 22:06:06 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Phó thủ tướng đề nghị Quảng Tây tạo thuận lợi cho hàng hóa Việt Nam",
-      "link": "https://vnexpress.net/pho-thu-tuong-de-nghi-quang-tay-tao-thuan-loi-cho-hang-hoa-viet-nam-5121018.html",
-      "summary": "Phó thủ tướng Thường trực Phạm Gia Túc đề nghị Quảng Tây tạo thuận lợi cho hàng Việt vào Trung Quốc và đi nước thứ ba, đồng thời đẩy nhanh các tuyến đường sắt kết nối hai bên.",
-      "pub_date": "Wed, 16 Sep 2026 16:18:32 +0700",
+      "title": "Chứng khoán tăng 13 điểm bất chấp Fed tăng lãi suất",
+      "link": "https://vnexpress.net/chung-khoan-tang-13-diem-bat-chap-fed-tang-lai-suat-5121440.html",
+      "summary": "Dù thị trường tài chính thế giới có phần tiêu cực khi Fed nâng lãi suất, chứng khoán Việt Nam vẫn phủ sắc xanh khi VN-Index đóng cửa trên 1.820 điểm.",
+      "pub_date": "Thu, 17 Sep 2026 15:52:43 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Triệt phá ổ nhóm lừa đảo xuyên quốc gia, chiếm đoạt 1.500 tỷ đồng",
-      "link": "https://cafef.vn/triet-pha-o-nhom-lua-dao-xuyen-quoc-gia-chiem-doat-1500-ty-dong-188260917065528365.chn",
-      "summary": "Công an tỉnh Lào Cai vừa chủ trì, phối hợp với Cục Cảnh sát hình sự, Cơ quan đại diện Bộ Công an Việt Nam tại Lào, Tổng cục Cảnh sát Bộ Công an Lào bắt giữ 91 đối tượng lừa đảo lên đến 1.500 tỷ đồng.",
-      "pub_date": "Thu, 17 Sep 26 07:54:00 +0700",
+      "title": "Giá vàng miếng SJC, vàng nhẫn trơn sáng ngày 18/9",
+      "link": "https://cafef.vn/gia-vang-mieng-sjc-vang-nhan-tron-sang-ngay-18-9-188260918074449277.chn",
+      "summary": "Giá vàng thế giới đã phục hồi mạnh trong phiên 17/9, liệu giá vàng trong nước có tăng theo?",
+      "pub_date": "Fri, 18 Sep 26 07:44:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Bổ sung nguồn lực cho nền kinh tế, Việt Nam tính chuyện trở lại thị trường trái phiếu quốc tế",
-      "link": "https://cafef.vn/bo-sung-nguon-luc-cho-nen-kinh-te-viet-nam-tinh-chuyen-tro-lai-thi-truong-trai-phieu-quoc-te-188260917074650983.chn",
-      "summary": "Sau hơn 10 năm không phát hành trái phiếu quốc tế, Việt Nam đang xem xét quay trở lại thị trường vốn quốc tế với phương án phát hành trái phiếu Chính phủ bằng USD kỳ hạn 10 năm, quy mô dự kiến lên tới 1 tỷ USD. Động thái này diễn ra trong bối cảnh nhu cầu vốn cho tăng trưởng gia ...",
-      "pub_date": "Thu, 17 Sep 26 07:46:00 +0700",
+      "title": "ACB được vinh danh trên bảng xếp hạng uy tín của Forbes toàn cầu và Forbes Việt Nam",
+      "link": "https://cafef.vn/acb-duoc-vinh-danh-tren-bang-xep-hang-uy-tin-cua-forbes-toan-cau-va-forbes-viet-nam-188260917214650359.chn",
+      "summary": "Những ghi nhận này là minh chứng cho những nền tảng mà ACB đã kiên định xây dựng trong nhiều năm qua: hiệu quả hoạt động, quản trị thận trọng, năng lực tạo giá trị dài hạn và cam kết phát triển bền vững.",
+      "pub_date": "Fri, 18 Sep 26 07:32:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "ACB: Tiền gửi lãi thông minh tái định nghĩa cách người dùng sử dụng lãi tiết kiệm",
-      "link": "https://cafef.vn/acb-tien-gui-lai-thong-minh-tai-dinh-nghia-cach-nguoi-dung-su-dung-lai-tiet-kiem-18826091707095183.chn",
-      "summary": "Nhận lãi ngay khi gửi tiết kiệm hay tiếp tục để khoản lãi ấy sinh lời? Với Tiền gửi lãi thông minh, ACB đưa quyền lựa chọn này đến khách hàng ngay từ khi mở khoản tiền gửi, giúp khách hàng vừa duy trì tích lũy, vừa chủ động hơn với dòng tiền theo nhu cầu.",
-      "pub_date": "Thu, 17 Sep 26 07:33:00 +0700",
+      "title": "Du lịch, nhà hàng, khách sạn được loại trừ khi tính hạn mức tín dụng bất động sản năm 2026",
+      "link": "https://cafef.vn/du-lich-nha-hang-khach-san-duoc-loai-tru-khi-tinh-han-muc-tin-dung-bat-dong-san-nam-2026-188260918070058098.chn",
+      "summary": "Sau các giải pháp mở rộng dư địa cung ứng vốn cho hệ thống ngân hàng, hỗ trợ các dự án đầu tư lớn và thúc đẩy mục tiêu tăng trưởng kinh tế, Ngân hàng Nhà nước (NHNN) vừa cho phép các tổ chức tín dụng loại phần cho vay tăng thêm với nhà hàng, khách sạn, khu du lịch, sinh thái, ngh...",
+      "pub_date": "Fri, 18 Sep 26 07:00:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "PNJ có động thái mới về thu mua vàng, kim cương",
-      "link": "https://cafef.vn/pnj-co-dong-thai-moi-ve-thu-mua-vang-kim-cuong-188260917072231827.chn",
-      "summary": "PNJ sẽ giảm thời gian thanh toán so với quy định hiện hành khi công ty thực hiện mua lại sản phẩm từ khách hàng. Hiện, PNJ đang hoàn thiện phương án triển khai, dự kiến áp dụng cho các dòng hàng trang sức thời trang và vàng miếng để sớm phục vụ khách hàng.",
-      "pub_date": "Thu, 17 Sep 26 07:22:00 +0700",
+      "title": "Tác động từ quyết định tăng lãi suất của FED: Dư địa nới lỏng tiền tệ thu hẹp hơn, áp lực tập trung vào chi phí vốn",
+      "link": "https://cafef.vn/tac-dong-tu-quyet-dinh-tang-lai-suat-cua-fed-du-dia-noi-long-tien-te-thu-hep-hon-ap-luc-tap-trung-vao-chi-phi-von-18826091806575287.chn",
+      "summary": "Quyết định tăng lãi suất thêm 25 điểm cơ bản của FED sau cuộc họp định kỳ tháng 9/2026, cùng thông điệp thắt chặt hơn dự kiến đang đặt ra những thách thức mới cho kinh tế toàn cầu. Đối với Việt Nam, các phân tích từ giới chuyên môn cho thấy, tác động chính không nằm ở yêu cầu thắ...",
+      "pub_date": "Fri, 18 Sep 26 06:57:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Giá vàng miếng, vàng nhẫn ngày 17/9 tại SJC, Bảo Tín Minh Châu, Bảo Tín Mạnh Hải, DOJI, Phú Quý,...",
-      "link": "https://cafef.vn/gia-vang-mieng-vang-nhan-ngay-17-9-tai-sjc-bao-tin-minh-chau-bao-tin-manh-hai-doji-phu-quy-188260917071953341.chn",
-      "summary": "Giá vàng miếng tại các thương hiệu lớn đang được niêm yết phổ biến ở 143 - 143,5 triệu đồng/lượng mua vào và 146,5 triệu đồng/lượng bán ra.",
-      "pub_date": "Thu, 17 Sep 26 07:19:00 +0700",
+      "title": "Một ngân hàng lớn sẽ tăng mạnh lãi suất từ 18/9, có kỳ hạn tăng tới 1,7%/năm",
+      "link": "https://cafef.vn/mot-ngan-hang-lon-se-tang-manh-lai-suat-tu-18-9-co-ky-han-tang-toi-17-nam-188260917220554516.chn",
+      "summary": "Theo biểu lãi suất huy động mới áp dụng từ ngày 18/9/2026, VPBank sẽ điều chỉnh tăng lãi suất tiền gửi tại nhiều kỳ hạn, với mức tăng cao nhất lên tới 1,7%/năm. Đáng chú ý, kỳ hạn 36 tháng trên kênh online tăng từ 4,2% lên 5,9%/năm đối với khoản tiền gửi từ 3 tỷ đồng đến dưới 10 ...",
+      "pub_date": "Fri, 18 Sep 26 00:03:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Fed có thể tiếp tục 'neo cao' lãi suất, đâu là dư địa giữ ổn định tỷ giá?",
-      "link": "https://cafef.vn/fed-co-the-tiep-tuc-neo-cao-lai-suat-dau-la-du-dia-giu-on-dinh-ty-gia-188260917071856429.chn",
-      "summary": "Những thay đổi trong định hướng chính sách của Fed có thể tạo thêm áp lực lên tỷ giá, dòng vốn và dư địa điều hành lãi suất tại các nền kinh tế mới nổi, trong đó có Việt Nam. Tuy nhiên, TS Lê Duy Bình, Giám đốc Economica Việt Nam cho rằng các yếu tố nền tảng như dòng vốn FDI, kiề...",
-      "pub_date": "Thu, 17 Sep 26 07:18:00 +0700",
+      "title": "Cổ phiếu ngân hàng đồng loạt tăng giá, HDB được khối ngoại gom nhiều nhất thị trường",
+      "link": "https://cafef.vn/co-phieu-ngan-hang-dong-loat-tang-gia-hdb-duoc-khoi-ngoai-gom-nhieu-nhat-thi-truong-188260917214916743.chn",
+      "summary": "Cổ phiếu ngân hàng đồng loạt tăng giá trong phiên 17/9, góp phần đưa VN-Index vượt mốc 1.820 điểm. Khối ngoại tập trung gom HDB và MBB, với giá trị mua ròng lần lượt khoảng 143 tỷ đồng và 119 tỷ đồng.",
+      "pub_date": "Thu, 17 Sep 26 21:48:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Thanh tra Chính phủ chỉ ra loạt sai phạm tại Tổng công ty Giấy Việt Nam",
-      "link": "https://cafef.vn/thanh-tra-chinh-phu-chi-ra-loat-sai-pham-tai-tong-cong-ty-giay-viet-nam-18826091706413015.chn",
-      "summary": "Thanh tra Chính phủ vừa thông báo Kết luận thanh tra số 474 về việc quản lý, sử dụng đất có nguồn gốc từ các công ty nông, lâm nghiệp thuộc Tổng công ty Giấy Việt Nam trên địa bàn các tỉnh Tây Nguyên. Hàng loạt vi phạm kéo dài về quản lý đất đai, giao khoán và tình trạng để đất t...",
-      "pub_date": "Thu, 17 Sep 26 07:10:00 +0700",
+      "title": "NHNN nới room tín dụng cho khách sạn, resort: Sun Group, Vinpearl, CEO Group đang đầu tư các dự án nào?",
+      "link": "https://cafef.vn/nhnn-noi-room-tin-dung-cho-khach-san-resort-sun-group-vinpearl-ceo-group-dang-dau-tu-cac-du-an-nao-188260917112836635.chn",
+      "summary": "Phần dư nợ tăng thêm của nhà hàng, khách sạn, khu du lịch, sinh thái và nghỉ dưỡng sẽ không phải tính vào mức tăng trưởng tín dụng bất động sản trong năm 2026. Đây cũng là thời điểm nhiều doanh nghiệp lớn đang tăng tốc đầu tư các dự án nghỉ dưỡng.",
+      "pub_date": "Fri, 18 Sep 26 07:08:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Người đàn ông U80 ứng 10 tỷ đồng từ 10 năm lương hưu để quyên góp cho trẻ em mồ côi vì đại dịch Covid-19",
-      "link": "https://cafef.vn/nguoi-dan-ong-u80-ung-10-ty-dong-tu-10-nam-luong-huu-de-quyen-gop-cho-tre-em-mo-coi-vi-dai-dich-covid-19-188260917064928737.chn",
-      "summary": "Ban đầu định đóng góp 2 tỷ nhưng được sự ủng hộ từ gia đình, ông Johnathan Hạnh Nguyễn quyết định ứng lương hưu 10 năm để đi làm từ thiện.",
-      "pub_date": "Thu, 17 Sep 26 06:49:00 +0700",
+      "title": "Ái nữ 9X của Chủ tịch Tân Á Đại Thành: 21 tuổi vào ban điều hành, 22 tuổi làm CEO nhà máy 70 triệu USD, nay phụ trách đế chế bất động sản",
+      "link": "https://cafef.vn/ai-nu-9x-cua-chu-tich-tan-a-dai-thanh-21-tuoi-vao-ban-dieu-hanh-22-tuoi-lam-ceo-nha-may-70-trieu-usd-nay-phu-trach-de-che-bat-dong-san-188260917103454726.chn",
+      "summary": "Hiện bà Nguyễn Phương Anh giữ chức Phó Tổng giám đốc phụ trách Truyền thông & Marketing Tập đoàn Tân Á Đại Thành, đồng thời là Phó Tổng giám đốc Thường trực MEYGROUP – doanh nghiệp bất động sản thuộc hệ sinh thái tập đoàn.",
+      "pub_date": "Fri, 18 Sep 26 07:07:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Hàng nghìn cửa hàng xăng dầu có thể trở thành điểm phục vụ xe điện: TC Group bắt tay liên doanh có Petrolimex, Xuân Cầu, Selex Motors",
-      "link": "https://cafef.vn/hang-nghin-cua-hang-xang-dau-co-the-tro-thanh-diem-phuc-vu-xe-dien-tc-group-bat-tay-lien-doanh-co-petrolimex-xuan-cau-selex-motors-188260917064509934.chn",
-      "summary": "Tập đoàn Thành Công (TC Group) và Công ty Cổ phần Hạ tầng Năng lượng Xanh Việt Nam (VGX) vừa ký biên bản ghi nhớ về hợp tác phát triển hạ tầng phục vụ giao thông điện tại Việt Nam.",
-      "pub_date": "Thu, 17 Sep 26 06:45:00 +0700",
+      "title": "Cú chi nghìn tỷ thâu tóm cổ phiếu hàng không của đại gia Nhật 160 năm tuổi: Mở rộng mạng lưới khổng lồ tại Việt Nam từ làm khu công nghiệp đến nuôi bò, bán giấy",
+      "link": "https://cafef.vn/cu-chi-nghin-ty-thau-tom-co-phieu-hang-khong-cua-dai-gia-nhat-160-nam-tuoi-mo-rong-mang-luoi-khong-lo-tai-viet-nam-tu-lam-khu-cong-nghiep-den-nuoi-bo-ban-giay-188260917232400816.chn",
+      "summary": "Sau thương vụ, Sojitz trở thành cổ đông lớn thứ 2 của AST, chỉ sau công ty mẹ là Công ty CP Tập đoàn Taseco (Taseco Group) với 51% vốn.",
+      "pub_date": "Fri, 18 Sep 26 07:00:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Chân dung người Việt SN 1988 lập quỹ tham vọng huy động tới 300 triệu USD: Từng làm việc ở Wall Street của Mỹ, giữ ghế CEO The Coffee House",
-      "link": "https://cafef.vn/chan-dung-nguoi-viet-sn-1988-lap-quy-tham-vong-huy-dong-toi-300-trieu-usd-tung-lam-viec-o-wall-street-cua-my-giu-ghe-ceo-the-coffee-house-18826091622562608.chn",
-      "summary": "Trước khi bước vào lĩnh vực đầu tư với kế hoạch huy động hàng trăm triệu USD, vị doanh nhân này đã có hành trình gần 20 năm đi qua Wall Street, tập đoàn đa quốc gia, startup và những doanh nghiệp lớn tại Việt Nam.",
-      "pub_date": "Thu, 17 Sep 26 00:10:00 +0700",
+      "title": "EVF huy động thành công 20 triệu USD từ Proparco",
+      "link": "https://cafef.vn/evf-huy-dong-thanh-cong-20-trieu-usd-tu-proparco-188260917200540001.chn",
+      "summary": "Công ty Tài chính tổng hợp Cổ phần Điện lực (EVF) vừa huy động thành công khoản vay cấp cao trị giá 20 triệu USD từ Proparco, qua đó tiếp tục khẳng định định hướng đồng hành cùng các dự án tài chính khí hậu và hỗ trợ doanh nghiệp do phụ nữ làm chủ.",
+      "pub_date": "Thu, 17 Sep 26 19:30:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Một doanh nghiệp chuẩn bị làm 4 bến cảng 45.000 tỷ đồng tại Hải Phòng, khởi công ngay trong năm nay",
-      "link": "https://cafef.vn/mot-doanh-nghiep-chuan-bi-lam-4-ben-cang-45000-ty-dong-tai-hai-phong-khoi-cong-ngay-trong-nam-nay-188260916141916813.chn",
-      "summary": "Dự án được chia làm hai giai đoạn. Trong giai đoạn đến năm 2030, CTCP Đầu tư Cảng Lạch Huyện dự kiến triển khai bến số 9 và 10. Hai bến số 11 và 12 được đầu tư trong giai đoạn 2031-2035. Doanh nghiệp cho biết đang hoàn thiện các thủ tục để có thể khởi công trong năm 2026.",
-      "pub_date": "Thu, 17 Sep 26 00:06:00 +0700",
+      "title": "Becamex Group tất toán lô trái phiếu 2.500 tỷ đồng",
+      "link": "https://cafef.vn/becamex-group-tat-toan-lo-trai-phieu-2500-ty-dong-188260917172451768.chn",
+      "summary": "Becamex Group đã thanh toán 2.500 tỷ đồng tiền gốc và gàn 69 tỷ đồng tiền lãi, qua đó tất toán xong lô trái phiếu BCMH2126005.",
+      "pub_date": "Thu, 17 Sep 26 19:24:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "1 nhân viên ở Bắc Ninh biển thủ hơn 240 tỷ đồng của nhà máy Hàn Quốc giữa lúc công ty lỗ hơn 1.570 tỷ, Apple cũng nói lời chia tay",
-      "link": "https://cafef.vn/1-nhan-vien-o-bac-ninh-bien-thu-hon-240-ty-dong-cua-nha-may-han-quoc-giua-luc-cong-ty-lo-hon-1570-ty-apple-cung-noi-loi-chia-tay-188260916224308266.chn",
-      "summary": "Một nhà máy sản xuất linh kiện pin của doanh nghiệp Hàn Quốc tại Bắc Ninh vừa trải qua năm đặc biệt khó khăn, khi đồng thời xảy ra vụ biển thủ hàng trăm tỷ đồng và biến động lớn từ khách hàng chủ chốt",
-      "pub_date": "Thu, 17 Sep 26 00:04:00 +0700",
+      "title": "Điều gì giúp EVN lãi hơn 20.800 tỷ đồng sau nửa năm?",
+      "link": "https://cafef.vn/dieu-gi-giup-evn-lai-hon-20800-ty-dong-sau-nua-nam-188260917171244247.chn",
+      "summary": "TPO - Lợi nhuận hợp nhất của Tập đoàn Điện lực Việt Nam (EVN) tăng hơn gấp đôi trong nửa đầu năm. Tuy nhiên, cú hích lớn không chỉ đến từ bán điện mà còn từ tỷ giá thuận lợi hơn, lãi tiền gửi tăng mạnh và chi phí tài chính giảm sâu.",
+      "pub_date": "Thu, 17 Sep 26 18:12:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     }
   ],
   "domestic_tech": [
     {
-      "title": "Valve mở bán kính thực tế ảo Steam Frame, đánh giá đầu tiên khen độ thoải mái nhưng chê giá và pin",
-      "link": "https://tinhte.vn/thread/valve-mo-ban-kinh-thuc-te-ao-steam-frame-danh-gia-dau-tien-khen-do-thoai-mai-nhung-che-gia-va-pin.4177471/",
-      "summary": "Valve mở bán kính thực tế ảo Steam Frame, đánh giá đầu tiên khen độ thoải mái nhưng chê giá và pin Valve vừa chính thức bán ra Steam Frame, kính thực tế ảo độc lập đầu tiên của hãng, được giới...",
-      "pub_date": "Wed, 16 Sep 2026 18:06:38 +0000",
+      "title": "Windows chỉ là giọt nước trong đại dương doanh thu của Microsoft",
+      "link": "https://tinhte.vn/thread/windows-chi-la-giot-nuoc-trong-dai-duong-doanh-thu-cua-microsoft.4177809/",
+      "summary": "Windows chỉ là giọt nước trong đại dương doanh thu của Microsoft Microsoft vừa công bố kết quả kinh doanh năm tài khóa 2026, kết thúc vào tháng 6, với các con số vượt xa dự báo của giới đầu tư....",
+      "pub_date": "Fri, 18 Sep 2026 00:37:53 +0000",
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Anthropic gộp Claude chat và Cowork làm một, thêm Claude Docs và Slides",
-      "link": "https://tinhte.vn/thread/anthropic-gop-claude-chat-va-cowork-lam-mot-them-claude-docs-va-slides.4177618/",
-      "summary": "Anthropic gộp Claude chat và Cowork làm một, thêm Claude Docs và Slides Anthropic vừa gộp giao diện Claude chat và Cowork làm một, công bố hôm 16/9. Trước đây mình cũng từng phân vân không biết...",
-      "pub_date": "Wed, 16 Sep 2026 21:51:11 +0000",
+      "title": "Nhìn cái màn trong của iPhone Duo đục đục mờ mờ nhìn khó chịu thiệt",
+      "link": "https://tinhte.vn/thread/nhin-cai-man-trong-cua-iphone-duo-duc-duc-mo-mo-nhin-kho-chiu-thiet.4177346/",
+      "summary": "Nhìn cái màn trong của iPhone Duo đục đục mờ mờ nhìn khó chịu thiệt",
+      "pub_date": "Fri, 18 Sep 2026 00:26:12 +0000",
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Mac Studio M5 Ultra của Apple bị đội thời gian giao hàng đến tháng 1/2027",
-      "link": "https://tinhte.vn/thread/mac-studio-m5-ultra-cua-apple-bi-doi-thoi-gian-giao-hang-den-thang-1-2027.4177450/",
-      "summary": "Mac Studio M5 Ultra của Apple bị đội thời gian giao hàng đến tháng 1/2027 Mac Studio trang bị chip M5 Ultra mới nhất của Apple đang rơi vào tình trạng chậm giao hàng nghiêm trọng, với thời gian...",
-      "pub_date": "Wed, 16 Sep 2026 06:21:02 +0000",
+      "title": "Sáng mai iPhone 18 Pro, Pro Max được giao, tặng anh em phụ kiện xịn xài chơi",
+      "link": "https://tinhte.vn/thread/sang-mai-iphone-18-pro-pro-max-duoc-giao-tang-anh-em-phu-kien-xin-xai-choi.4177845/",
+      "summary": "Sáng mai là ngày trả máy, những anh em đặt hàng thành công iPhone 18 Pro hay iPhone 18 Pro Max sẽ nhận được máy. Những người đặt cọc thành công đợi này là những người đã được xác nhận nhận máy...",
+      "pub_date": "Fri, 18 Sep 2026 00:55:53 +0000",
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Apple mới ra iOS 27.2 beta 1: Có app Sức khỏe mới, Siri thêm 5 ngôn ngữ",
-      "link": "https://tinhte.vn/thread/apple-moi-ra-ios-27-2-beta-1-co-app-suc-khoe-moi-siri-them-5-ngon-ngu.4177617/",
-      "summary": "Apple vừa phát hành bản iOS 27.2 beta 1 cho anh em lập trình viên thử nghiệm. Mình thấy bản cập nhật này tuy chỉ là bản nâng cấp nhỏ nhưng lại mang đến kha khá thay đổi thiết thực cho người dùng...",
-      "pub_date": "Thu, 17 Sep 2026 00:31:28 +0000",
+      "title": "Thử xoá vật thể iPhone (iOS 27) với Samsung: Apple vẫn đi sau một nhịp",
+      "link": "https://tinhte.vn/thread/thu-xoa-vat-the-iphone-ios-27-voi-samsung-apple-van-di-sau-mot-nhip.4177577/",
+      "summary": "Ngay khi vừa lên đời iOS 27 chính thức, nghe đồn tính năng xóa vật thể Clean Up được Apple cải thiện nhiều nên mình tò mò lôi ngay chiếc iPhone ra đọ trực tiếp với Galaxy Z Fold8. Để xem khi đụng...",
+      "pub_date": "Fri, 18 Sep 2026 00:37:37 +0000",
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Feliks Audio Envy Performance Zebrano: Headamp 300B cho dành cho headphone hi-end",
-      "link": "https://tinhte.vn/thread/feliks-audio-envy-performance-zebrano-headamp-300b-cho-danh-cho-headphone-hi-end.4177559/",
-      "summary": "Feliks Audio Envy Performance Zebrano là mẫu headphone amplifier đầu bảng của thương hiệu Ba Lan, sử dụng cặp bóng 300B trong mạch single-ended Class A và có công suất đủ lớn để làm việc với nhiều...",
-      "pub_date": "Wed, 16 Sep 2026 11:15:20 +0000",
+      "title": "Tổng hợp review iPhone 18 Pro: Máy mát hơn, pin trâu và camera chỉnh tay ngon lành",
+      "link": "https://tinhte.vn/thread/tong-hop-review-iphone-18-pro-may-mat-hon-pin-trau-va-camera-chinh-tay-ngon-lanh.4177614/",
+      "summary": "Apple vừa chính thức mở embargo cho các bài đánh giá iPhone 18 Pro và iPhone 18 Pro Max trên toàn cầu. Mình đã dành nguyên một ngày ngồi lướt và dịch lại các bài test chi tiết từ những trang công...",
+      "pub_date": "Fri, 18 Sep 2026 00:46:45 +0000",
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "Dán da hít MagSafe cho Galaxy Z Fold8: Vừa gọn nhẹ vừa dùng được nhiều phụ kiện",
+      "link": "https://tinhte.vn/thread/dan-da-hit-magsafe-cho-galaxy-z-fold8-vua-gon-nhe-vua-dung-duoc-nhieu-phu-kien.4177758/",
+      "summary": "Chiếc Samsung Galaxy Z Fold8 vốn dĩ đã có kích thước và trọng lượng tương đối lớn, nếu anh em gắn thêm mấy bộ ốp lưng bảo vệ thì máy sẽ cộm và dày lên rất nhiều. Bản thân mình thích cảm giác cầm...",
+      "pub_date": "Thu, 17 Sep 2026 08:45:07 +0000",
+      "source_name": "Tinhte.vn",
+      "category": "local_tech_community",
+      "weight": 30,
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "iPhone 18 Pro và 18 Pro Max mở bán toàn cầu",
+      "link": "https://vnexpress.net/iphone-18-pro-va-18-pro-max-mo-ban-toan-cau-5121605.html",
+      "summary": "iPhone 18 Pro và 18 Pro Max bắt đầu đến tay những người mua đầu tiên ngày 18/9, trong đó có Việt Nam.",
+      "pub_date": "Fri, 18 Sep 2026 07:43:03 +0700",
+      "source_name": "VnExpress Số Hóa",
+      "category": "tech_digital",
+      "weight": 29,
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "Việt Nam có thêm trung tâm nghiên cứu, phát triển công nghệ không gian",
+      "link": "https://vnexpress.net/viet-nam-co-them-trung-tam-nghien-cuu-phat-trien-cong-nghe-khong-gian-5121558.html",
+      "summary": "Temix và Học viện Công nghệ Bưu chính Viễn thông sáng lập Trung tâm Công nghệ không gian Việt - Ý, chuyên nghiên cứu công nghệ và đào tạo nhân lực hàng không vũ trụ.",
+      "pub_date": "Fri, 18 Sep 2026 07:00:00 +0700",
+      "source_name": "VnExpress Số Hóa",
+      "category": "tech_digital",
+      "weight": 29,
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "Nhà máy lưu trữ điện khí nén trong hang muối dưới lòng đất",
+      "link": "https://vnexpress.net/nha-may-luu-tru-dien-khi-nen-trong-hang-muoi-duoi-long-dat-5120920.html",
+      "summary": "Hệ thống \"siêu sạc dự phòng\" dưới lòng đất lưu trữ khí nén trong các hang muối với hiệu suất chuyển đổi năng lượng trên 70%.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 +0700",
+      "source_name": "VnExpress Số Hóa",
+      "category": "tech_digital",
+      "weight": 29,
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "iPhone 18 Pro Max được rao chênh 9 triệu đồng so với giá niêm yết",
+      "link": "https://vnexpress.net/iphone-18-pro-max-duoc-rao-chenh-9-trieu-dong-so-voi-gia-niem-yet-5121515.html",
+      "summary": "Nhiều cửa hàng đang rao suất mua iPhone 18 Pro Max màu mới trong ngày dầu mở bán 18/9 với giá cao hơn giá chính thức đến 9 triệu đồng.",
+      "pub_date": "Thu, 17 Sep 2026 19:30:00 +0700",
+      "source_name": "VnExpress Số Hóa",
+      "category": "tech_digital",
+      "weight": 29,
+      "fetched_at": "2026-09-18 07:56"
     },
     {
       "title": "Công ty Nhật Bản triển khai dịch vụ 'cấp cứu' robot hình người",
@@ -240,17 +290,7 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
-    },
-    {
-      "title": "Video ngắn từ YouTuber Việt tăng hơn 100% sau một năm",
-      "link": "https://vnexpress.net/video-ngan-tu-youtuber-viet-tang-hon-100-sau-mot-nam-5121093.html",
-      "summary": "YouTube cho biết số video Shorts từ người làm nội dung tại Việt Nam tăng 100% sau một năm, và hơn 50% thời gian xem các kênh Việt đến từ khán giả quốc tế.",
-      "pub_date": "Thu, 17 Sep 2026 07:31:35 +0700",
-      "source_name": "VnExpress Số Hóa",
-      "category": "tech_digital",
-      "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
       "title": "Tại sao tay robot không thể khéo léo như tay người",
@@ -260,685 +300,715 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
-    },
-    {
-      "title": "Canon EOS R8 Mark II - máy ảnh full-frame giá 45 triệu đồng",
-      "link": "https://vnexpress.net/canon-eos-r8-mark-ii-may-anh-full-frame-gia-45-trieu-dong-5121082.html",
-      "summary": "EOS R8 Mark II được Canon làm mới thiết kế, bổ sung joystick, hỗ trợ nhiều tính năng quay video nhưng thông số không quá mới.",
-      "pub_date": "Wed, 16 Sep 2026 20:50:08 +0700",
-      "source_name": "VnExpress Số Hóa",
-      "category": "tech_digital",
-      "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
-    },
-    {
-      "title": "Mở hộp iPhone 18 Pro Max và 18 Pro sắp bán ở Việt Nam",
-      "link": "https://vnexpress.net/mo-hop-iphone-18-pro-max-va-18-pro-sap-ban-o-viet-nam-5121043.html",
-      "summary": "iPhone 18 Pro Max màu đỏ burgundy có tông trầm hơn sắc cam trên 17 Pro, trong khi bản màu đen sẽ phù hợp với những người không thích sự nổi bật.",
-      "pub_date": "Wed, 16 Sep 2026 19:01:00 +0700",
-      "source_name": "VnExpress Số Hóa",
-      "category": "tech_digital",
-      "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
-    },
-    {
-      "title": "DeepSeek và truyền thông Trung Quốc hoài nghi động cơ 'giảm tốc AI'",
-      "link": "https://vnexpress.net/deepseek-va-truyen-thong-trung-quoc-hoai-nghi-dong-co-giam-toc-ai-5120774.html",
-      "summary": "Chuyên gia và truyền thông Trung Quốc đồng loạt đặt câu hỏi về động cơ của việc kêu gọi kìm hãm sự phát triển AI của Anthropic.",
-      "pub_date": "Wed, 16 Sep 2026 16:00:00 +0700",
-      "source_name": "VnExpress Số Hóa",
-      "category": "tech_digital",
-      "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     }
   ],
   "international_macro": [
     {
-      "title": "US interest rates raised for first time in three years",
-      "link": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
-      "summary": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
-      "pub_date": "Thu, 17 Sep 2026 00:40:17 GMT",
+      "title": "Canada welcomes EU proposal to become 'associate member'",
+      "link": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Canadian Prime Minister Mark Carney said a Canada-EU alliance would create a \"beacon for other democracies\".",
+      "pub_date": "Thu, 17 Sep 2026 12:27:18 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Snapchat 'willing to implement' daily time limits for teens, boss tells BBC",
-      "link": "https://www.bbc.co.uk/news/articles/cr3wjz3edd10o?at_medium=RSS&at_campaign=rss",
-      "summary": "Evan Speigel says it would be \"an important step forward for the industry\" in an interview with the BBC.",
-      "pub_date": "Wed, 16 Sep 2026 23:41:57 GMT",
+      "title": "Ninth woman's body found as South African police investigate string of deaths",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
+      "summary": "South Africa police have cautioned against assuming that all the killings are linked but many women are afraid.",
+      "pub_date": "Thu, 17 Sep 2026 13:44:07 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Photos show widespread damage at US sites from Iranian attacks",
-      "link": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
-      "summary": "A wrecked air force plane and destroyed buildings are among the images obtained by the BBC's partner CBS News.",
-      "pub_date": "Wed, 16 Sep 2026 18:36:16 GMT",
+      "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+      "link": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US has not acknowledged carrying out February's deadly strikes on a primary school in Minab and a sports complex in Lamerd.",
+      "pub_date": "Thu, 17 Sep 2026 20:34:30 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "EU chief backs plan for Canada to become 'associate member'",
-      "link": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump, who has frequently clashed with Canada's PM, threatens to cut trade with the European Union in response to the proposal.",
-      "pub_date": "Thu, 17 Sep 2026 00:32:05 GMT",
+      "title": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+      "link": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC understands Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi are among the delegates allowed to enter the US.",
+      "pub_date": "Thu, 17 Sep 2026 21:41:19 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "US House votes to hold billionaire Epstein associate Leon Black in contempt",
-      "link": "https://www.bbc.co.uk/news/articles/c62l8g8qlr0ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Black - who had business ties to Epstein - declined to appear and provide documents related to the convicted sex offender.",
-      "pub_date": "Wed, 16 Sep 2026 19:59:57 GMT",
+      "title": "Wife of US scholar jailed in China asks Trump to raise arrest at Xi meeting",
+      "link": "https://www.bbc.co.uk/news/articles/c9j3d2rr6g24o?at_medium=RSS&at_campaign=rss",
+      "summary": "Sylvia Zin is among the family members of people imprisoned in China who are seeking Trump's help when he hosts the country's leader next week.",
+      "pub_date": "Thu, 17 Sep 2026 17:08:00 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
-      "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Some 10 families had reportedly been living in the six-storey building in Gaza City that was hit by an Israeli strike last year.",
-      "pub_date": "Wed, 16 Sep 2026 17:16:47 GMT",
+      "title": "Hyrox athlete apologises for continuing race after soiling herself",
+      "link": "https://www.bbc.co.uk/news/articles/ck0e35qyqlx0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Joanna Wietrzyk has also forfeited her win in the fitness competition after competing last week.",
+      "pub_date": "Thu, 17 Sep 2026 15:05:13 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Fed defies Trump with first rate rise since 2023",
-      "link": "https://www.ft.com/content/f5ce5c38-76e3-4212-8c60-4c868f6dee70?syn-25a6b1a6=1",
-      "summary": "President calls for 1% borrowing costs after US central bank signals willingness for further action to cool inflation",
-      "pub_date": "Wed, 16 Sep 2026 23:18:26 GMT",
+      "title": "Turkish authorities rush to stem fallout from stock market scandal",
+      "link": "https://www.ft.com/content/ef54585a-4d2f-4538-b185-9bff75ef2f5e?syn-25a6b1a6=1",
+      "summary": "Funds frozen or liquidated and 38 people referred to prosecutors as regulators move to restore calm",
+      "pub_date": "Thu, 17 Sep 2026 11:59:41 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Iran’s hidden leader stirs unease at home",
-      "link": "https://www.ft.com/content/ffe402ca-564a-457f-a861-18083a361e50?syn-25a6b1a6=1",
-      "summary": "Mojtaba Khamenei’s absence from public view has been a source of bafflement and suspicion",
-      "pub_date": "Wed, 16 Sep 2026 04:00:04 GMT",
+      "title": "The era of AI warfare has arrived",
+      "link": "https://www.ft.com/content/686429c0-daf3-42a5-9b7c-7ff06eb291ef?syn-25a6b1a6=1",
+      "summary": "Autonomous systems are being rapidly integrated on the battlefield, as models advance in ways even their creators cannot fully predict",
+      "pub_date": "Thu, 17 Sep 2026 04:00:04 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Nuclear fusion’s moment of truth",
-      "link": "https://www.ft.com/content/ef511d46-a689-4868-9654-15b96a71586d?syn-25a6b1a6=1",
-      "summary": "Start-ups are attracting record investments. Some scientists think their timelines are far too optimistic",
-      "pub_date": "Wed, 16 Sep 2026 04:00:05 GMT",
+      "title": "Has AI broken the old VC model?",
+      "link": "https://www.ft.com/content/8c4143c7-f846-43a0-807a-b460fff7cd75?syn-25a6b1a6=1",
+      "summary": "A spate of mega-IPOs triggered by the AI boom is stretching the feast-or-famine industry dynamic to an extreme",
+      "pub_date": "Thu, 17 Sep 2026 16:46:53 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Bach choir is a rare symbol of unity in a swing state",
-      "link": "https://www.ft.com/content/fc08dba8-3e16-4262-9e2c-0d59d049efdc?syn-25a6b1a6=1",
-      "summary": "In small-city Pennsylvania, music brings people together from across the political divide",
-      "pub_date": "Wed, 16 Sep 2026 16:03:27 GMT",
+      "title": "Reform UK’s mega-donor backed a friend’s libel claim. Now he controls her home",
+      "link": "https://www.ft.com/content/21aa563b-2cd1-4f09-b505-fcf579248fe6?syn-25a6b1a6=1",
+      "summary": "Crypto billionaire Ben Delo loaned more than £300,000 to former academic Nina Power",
+      "pub_date": "Thu, 17 Sep 2026 17:24:59 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "AI bosses’ safety push sparks rift inside OpenAI and Anthropic",
-      "link": "https://www.ft.com/content/d085adc5-977b-4c7e-9641-9824d1d345d3?syn-25a6b1a6=1",
-      "summary": "Staff at the Silicon Valley companies are grappling with how to turn AI slowdown rhetoric into reality",
-      "pub_date": "Wed, 16 Sep 2026 12:00:05 GMT",
+      "title": "OpenAI discloses new ‘concerning’ model behaviour",
+      "link": "https://www.ft.com/content/2c34414a-5381-4083-ac34-00bbe67ef8db?syn-25a6b1a6=1",
+      "summary": "Developer launches system to track and report AI model misconduct",
+      "pub_date": "Thu, 17 Sep 2026 22:03:41 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "China’s AI labs must accelerate development, says Huawei chair",
+      "link": "https://www.ft.com/content/c1f4cacf-098a-4776-b76b-fb741ef36fa6?syn-25a6b1a6=1",
+      "summary": "Chinese tech executive’s comments contrast with Silicon Valley calls for slowdown amid rising concerns about technology’s existential risks",
+      "pub_date": "Thu, 17 Sep 2026 10:50:36 GMT",
+      "source_name": "Bloomberg / Financial Times",
+      "category": "global_finance",
+      "weight": 28,
+      "fetched_at": "2026-09-18 07:56"
     }
   ],
   "international_tech": [
     {
-      "title": "Honor MagicOS 11 debuts with liquid glass design and more capable AI",
-      "link": "https://www.gsmarena.com/honor_magicos_11_debuts_with_liquid_glass_design_and_more_capable_ai_-news-74648.php",
-      "summary": "Honor announced its take on Android 17 with MagicOS 11 today at its Global Developer Conference. It brings an iOS-inspired liquid glass design, which Honor developed using its custom Luminous and Hummingbird base architectures. They optimize the user interface dynamics, AI proces...",
-      "pub_date": "Thu, 17 Sep 2026 02:31:02 +0200",
+      "title": "It's now the Xiaomi 18 Pro Max's turn to surface in Geekbench",
+      "link": "https://www.gsmarena.com/its_now_the_xiaomi_18_pro_maxs_turn_to_surface_in_geekbench-news-74667.php",
+      "summary": "Yesterday, the upcoming Xiaomi 18 Pro was seemingly spotted in the Geekbench online database, and today it's the turn of its bigger sibling, the Xiaomi 18 Pro Max, to surface in the same place. This one allegedly has the model number M610BB. As you can see in the screenshot below...",
+      "pub_date": "Fri, 18 Sep 2026 01:31:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "The iPhone 18 Pro Max is the fastest-charging iPhone ever",
-      "link": "https://www.gsmarena.com/the_iphone_18_pro_max_is_the_fastestcharging_iphone_ever-news-74652.php",
-      "summary": "Apple's iPhone 18 Pro Max will charge faster than any other iPhone ever. According to a new post by Ice Universe on X, the device goes from 0 to 50% charge in just 15 minutes. That is in fact what Apple claimed during the announcement. [#InlinePriceWidget,14716,1#] The iPhone 18 ...",
-      "pub_date": "Thu, 17 Sep 2026 01:02:02 +0200",
+      "title": "Pixel 11 Pro vs. Pixel 10 Pro",
+      "link": "https://www.gsmarena.com/pixel_11_pro_vs_pixel_10_pro_battery_camera_price_compared-news-74596.php",
+      "summary": "The new Pixel 11 series is now out so new and returning customers have started making their comparisons. And we are doing our best to help with a more detailed look at the most popular ones. Pixel 11 Pro or Pixel 10 Pro? Let’s find out! The 256GB base version of the Google Pixel ...",
+      "pub_date": "Thu, 17 Sep 2026 23:31:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "SK Hynix reportedly wants Intel to make its memory chips in the US",
-      "link": "https://www.gsmarena.com/sk_hynix_reportedly_wants_intel_to_make_its_memory_chips_in_the_us-news-74645.php",
-      "summary": "According to a new report from Reuters, SK Hynix is now in talks with Intel about a potential deal that would see the Korean company manufacture memory chips in the US for the first time. There are apparently two ways this can go: either SK Hynix will lease part of Intel's chip f...",
-      "pub_date": "Wed, 16 Sep 2026 23:31:02 +0200",
+      "title": "Samsung to outsource all of its DRAM manufacturing and focus on HBM production",
+      "link": "https://www.gsmarena.com/samsung_to_outsource_all_of_its_dram_manufacturing_and_focus_on_hbm_production-news-74665.php",
+      "summary": "The AI race is heating up, and so is the demand for hardware required to support it. That's why companies that produce HBM memory chips like Samsung have benefited immensely in the last few years. So it's only logical for Samsung to shift its focus to HBM memory production, as th...",
+      "pub_date": "Thu, 17 Sep 2026 22:01:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Meta is working on a pair of smart glasses without a camera, new report claims",
-      "link": "https://www.gsmarena.com/meta_is_working_on_a_pair_of_smart_glasses_without_a_camera_new_report_claims-news-74643.php",
-      "summary": "Meta's smart glasses have been quite successful so far, but many people may not need or want a pair with a camera. Thankfully, the company seems intent on serving those people too, if a new report turns out to be accurate. Meta is allegedly developing a pair of smart glasses with...",
-      "pub_date": "Wed, 16 Sep 2026 22:01:03 +0200",
+      "title": "iPhone 18 Pro and iPhone 18 Pro Max pre-orders in China eclipse the 2025 Pros",
+      "link": "https://www.gsmarena.com/iphone_18_pro_and_iphone_18_pro_max_preorders_in_china_eclipse_the_2025_pros-news-74662.php",
+      "summary": "Pre-orders in the US may have been less than stellar, but the new iPhone 18 Pro models are a huge hit in China. Local publications report that a total of over 7 million units have been pre-ordered across all channels. Pre-orders for the iPhone 18 Pro and iPhone 18 Pro Max started...",
+      "pub_date": "Thu, 17 Sep 2026 20:33:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Microsoft announces October 7 Windows and Surface event",
-      "link": "https://www.gsmarena.com/microsoft_announces_october_7_windows_and_surface_event-news-74635.php",
-      "summary": "It has been more than two years since Microsoft held a major event, but that is about to change. The company has announced a Windows and Surface event for next month to share new details about AI, Windows, the Surface Laptop Ultra, and the Nvidia RTX Spark. According to Engadget,...",
-      "pub_date": "Wed, 16 Sep 2026 22:01:02 +0200",
+      "title": "Snap's Specs AR glasses are now on pre-order, Verizon is offering data plans for them",
+      "link": "https://www.gsmarena.com/snaps_specs_ar_glasses_are_now_on_preorder_verizon_is_offering_data_plans_for_them-news-74661.php",
+      "summary": "Snap, formerly known as Snapchat, spun off Specs, the division responsible for its augmented reality (AR) glasses, early this year, and now it's ready to take pre-orders for the upcoming product, which is also called Specs, just to be confusing. These are $2,195 standalone AR gla...",
+      "pub_date": "Thu, 17 Sep 2026 19:14:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "The September Pixel Drop improves the VIP contacts widget, adds Harry Potter themes",
-      "link": "https://www.gsmarena.com/the_september_pixel_drop_improves_the_vip_contacts_widget_adds_harry_potter_themes-news-74638.php",
-      "summary": "The September Pixel Drop is here – it brings key improvements to the VIP contacts widget, adds even more scam protections, expands Pause Point availability to older models and even celebrates the release of the new Harry Potter audiobooks. All Pixel devices going back to the Pixe...",
-      "pub_date": "Wed, 16 Sep 2026 20:47:02 +0200",
+      "title": "Here is when the Galaxy S25 and Galaxy Z7 series will receive the One UI 9 update",
+      "link": "https://www.gsmarena.com/here_is_when_the_galaxy_s25_and_galaxy_z7_series_will_receive_the_one_ui_9_update-news-74664.php",
+      "summary": "Samsung started rolling out the One UI 9 update for the Galaxy S26, S26+ and S26 Ultra yesterday (the S26 FE came with One UI 9 out of the box). However, the global press release doesn’t really mention older devices – there is a note about which models will get the Privacy Alerts...",
+      "pub_date": "Thu, 17 Sep 2026 18:01:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
-      "link": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
-      "summary": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Spe...",
-      "pub_date": "2026-09-16T16:10:47-04:00",
+      "title": "The AI Superintelligence Slowdown",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are pub...",
+      "pub_date": "2026-09-17T17:22:19-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "I wore Snap’s $2,200 smart glasses",
-      "link": "https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses",
-      "summary": "My favorite part of wearing the Specs, Snap's new augmented reality glasses, was playing dominoes. Sitting across the table from a Snap employee wearing the same pair of chunky glasses, I could select a virtual domino with a pinch and then move my hand to drop it in place, watchi...",
-      "pub_date": "2026-09-16T19:49:27-04:00",
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different...",
+      "pub_date": "2026-09-17T14:59:57-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
-      "link": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review",
-      "summary": "Christopher Nolan's engrossing take on The Odyssey dominated at the box office and spurred a newfound interest in classic literature among filmgoers. But a new retelling of the story made entirely with AI is so bad that it might just make viewers hate the original tale altogether...",
-      "pub_date": "2026-09-16T17:03:21-04:00",
+      "title": "Save $30 or more on a refurbished Apple TV 4K",
+      "link": "https://www.theverge.com/gadgets/997009/refurbished-apple-tv-4k-ring-doorbell-deal-sale",
+      "summary": "Most hardware prices have soared in 2026, and that includes a variety of Apple laptops, tablets, and smart devices. Thankfully, you can offset some of the increased costs on an Apple TV 4K by buying one refurbished through the company. The 64GB model is selling for $169, $30 lowe...",
+      "pub_date": "2026-09-17T13:14:07-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "The AI data center e-waste problem is huge — and getting bigger",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
-      "summary": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a significantly higher estimate o...",
-      "pub_date": "2026-09-16T16:40:46-04:00",
+      "title": "Xbox’s clever disc-to-digital feature was 15 years in the making",
+      "link": "https://www.theverge.com/tech/996826/microsoft-xbox-disc-to-digital-history-notepad",
+      "summary": "When Xbox announced a new feature last month that lets you digitize existing physical game collections, I immediately thought of the Xbox One. Disc-to-digital seems like a clever new feature for Xbox, perfectly timed as a response to Sony killing PlayStation discs. But the realit...",
+      "pub_date": "2026-09-17T08:12:42-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Resident Evil is a comedy first and a thrilling nightmare second",
-      "link": "https://www.theverge.com/entertainment/996416/resident-zach-cregger-review",
-      "summary": "When Paul W.S. Anderson's Resident Evil hit theaters in 2002, video game movies were largely seen as a niche. Films like Mortal Kombat and Tomb Raider had proven that big-screen game adaptations could be successful, but the commercial and critical failure of projects like the 199...",
-      "pub_date": "2026-09-16T14:45:35-04:00",
+      "title": "Camp Snap’s 110D gives slim retro film cameras a digital upgrade",
+      "link": "https://www.theverge.com/tech/996453/camp-snap-110d-digital-camera-retro-horizontal-kodak-100-film",
+      "summary": "Camp Snap is expanding its small collection of screenless digital point-and-shoot cameras with the new pocket-friendly 110D featuring a thin horizontal design first popularized by Kodak film cameras in the 1970s. The Camp Snap 110D is available for preorder starting today for $74...",
+      "pub_date": "2026-09-17T10:01:03-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Walmart takes a bite off the cost of Metroid Ravenous physical preorders",
-      "link": "https://www.theverge.com/gadgets/996379/metroid-ravenous-preorder-deal-sale",
-      "summary": "The Metroid series is going back to its 2D roots again with Metroid Ravenous for the Nintendo Switch 2, the first side-scrolling game in the series since 2021’s Metroid Dread for the Nintendo Switch. If you’re already excited enough to consider preordering, you can save $10 on th...",
-      "pub_date": "2026-09-16T14:20:38-04:00",
+      "title": "Your robotaxi might be a narc",
+      "link": "https://www.theverge.com/transportation/996863/robotaxi-waymo-police-privacy-surveillance",
+      "summary": "In early September, two teenagers got into a Waymo, but then ended up in the back of a police car. The robotaxi company said it detected \"a violation of our terms of service involving a firearm,\" pulled the car over, and alerted emergency services, according to the Los Angeles Ti...",
+      "pub_date": "2026-09-17T10:57:54-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Snap’s powerful Specs smart glasses make the case for AR going mainstream",
-      "link": "https://www.androidauthority.com/snap-specs-features-3711990/",
-      "summary": "Snap leans all the way into AR glasses as it shows just what Specs can do.",
-      "pub_date": "Wed, 16 Sep 2026 23:40:21 +0000",
+      "title": "Google could be working on an incognito upgrade for Gemini Live",
+      "link": "https://www.androidauthority.com/gemini-live-ephemeral-video-mode-3712620/",
+      "summary": "Because not everything you show to Gemini is something you want it to remember.",
+      "pub_date": "Thu, 17 Sep 2026 22:09:14 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Your Google Home widgets will now eat up less of your battery life",
-      "link": "https://www.androidauthority.com/google-home-widget-battery-efficiency-3712132/",
-      "summary": "Google Home's latest release offers fixes and improvements across the board.",
-      "pub_date": "Wed, 16 Sep 2026 20:58:14 +0000",
+      "title": "Survey reveals where most of you draw the line when it comes to AI",
+      "link": "https://www.androidauthority.com/llm-ai-agents-full-access-to-your-computer-poll-results-3712615/",
+      "summary": "Our reader poll put LLM trust to the test by asking whether you'd hand an agent full access to your computer.",
+      "pub_date": "Thu, 17 Sep 2026 21:19:23 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Google doubles down on today’s preview builds with Android 17 QPR2 Beta 5",
-      "link": "https://www.androidauthority.com/android-17-qpr2-beta-5-3712182/",
-      "summary": "Android 17 QPR2 Beta 5 offers Google's latest look at the platform's next big update.",
-      "pub_date": "Wed, 16 Sep 2026 20:56:36 +0000",
+      "title": "This Google AI experiment wants to become your family’s unpaid intern",
+      "link": "https://www.androidauthority.com/google-ai-cc-family-household-assistant-3712623/",
+      "summary": "Remember Google CC? It's now a shared AI assistant for families.",
+      "pub_date": "Thu, 17 Sep 2026 21:15:59 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Android Canary 2609 arrives with lockable Quick Settings",
-      "link": "https://www.androidauthority.com/android-canary-2609-3712140/",
-      "summary": "Keeping unauthorized users from messing with your phone.",
-      "pub_date": "Wed, 16 Sep 2026 19:43:26 +0000",
+      "title": "Motorola just shared a cryptic teaser for a new device",
+      "link": "https://www.androidauthority.com/motorola-september-event-teaser-3712582/",
+      "summary": "Techtember is starting to get crowded.",
+      "pub_date": "Thu, 17 Sep 2026 19:49:00 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Gemini was broken on the Pixel Watch 5, but Google’s got a fix",
-      "link": "https://www.androidauthority.com/pixel-watch-5-gemini-bug-3712101/",
-      "summary": "A Pixel Watch 5 bug is causing Gemini to fail, and no one knows why.",
-      "pub_date": "Wed, 16 Sep 2026 18:47:02 +0000",
+      "title": "Google reveals how its new 3D emoji were designed, and which Android brands are getting them",
+      "link": "https://www.androidauthority.com/noto-3d-emoji-rollout-3712554/",
+      "summary": "Plus an exhaustive preview, ready to search.",
+      "pub_date": "Thu, 17 Sep 2026 19:04:05 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Spotify bug is preventing users from following and blocking each other",
-      "link": "https://www.androidauthority.com/spotify-follow-block-bug-3712072/",
-      "summary": "Can't follow or block anyone on Spotify right now? You’re not alone.",
-      "pub_date": "Wed, 16 Sep 2026 17:40:49 +0000",
+      "title": "Google’s upcoming custom clocks could be easy to edit and move between Pixels",
+      "link": "https://www.androidauthority.com/google-ai-clocks-cloud-backup-device-transfer-3712559/",
+      "summary": "Your custom designs could follow you.",
+      "pub_date": "Thu, 17 Sep 2026 18:25:09 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     }
   ],
   "social": [
     {
-      "title": "Khán giả, nghệ sĩ tưởng niệm nạn nhân Covid-19",
-      "link": "https://vnexpress.net/khan-gia-nghe-si-tuong-niem-nan-nhan-covid-19-5121132.html",
-      "summary": "Hàng nghìn khán giả cùng ca sĩ Đàm Vĩnh Hưng, Quang Dũng, Uyên Linh thắp nến, hát bên tượng đài Giọt nước, tưởng niệm nạn nhân Covid-19 sau 5 năm đại dịch.",
-      "pub_date": "Thu, 17 Sep 2026 00:30:37 +0700",
+      "title": "Penthouse 280 m2 của ca sĩ Đoan Trang",
+      "link": "https://vnexpress.net/penthouse-280-m2-cua-ca-si-doan-trang-5121229.html",
+      "summary": "Ca sĩ Đoan Trang trồng nhiều loại cây lá kiểng tạo mảng xanh trong penthouse 280 m2, bốn phòng ngủ, tại TP HCM.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 +0700",
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Nhịp sống tươi vui của Á hậu Hoàng Oanh",
-      "link": "https://vnexpress.net/nhip-song-tuoi-vui-cua-a-hau-hoang-oanh-5120163.html",
-      "summary": "Hoàng Oanh, 36 tuổi, tìm thấy sự lạc quan trong cuộc sống sau biến cố ly hôn nhờ con trai, gia đình và người yêu bên cạnh.",
-      "pub_date": "Thu, 17 Sep 2026 00:00:00 +0700",
+      "title": "Hoàng tử George nhiều lần mặc giống bố",
+      "link": "https://vnexpress.net/hoang-tu-george-nhieu-lan-mac-giong-bo-5121177.html",
+      "summary": "Thái tử Anh William và con trai - Hoàng tử George - nhiều lần mặc quần áo, giày dép giống nhau trong đời thường và sự kiện.",
+      "pub_date": "Fri, 18 Sep 2026 06:00:00 +0700",
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Phim AI 'Hậu tây du ký' ăn khách",
-      "link": "https://vnexpress.net/phim-ai-hau-tay-du-ky-an-khach-5120980.html",
-      "summary": "\"Hậu tây du ký\", phim dài AI đầu tiên của Trung Quốc, thu hút gần 300 triệu lượt xem sau 5 tập.",
-      "pub_date": "Wed, 16 Sep 2026 16:18:57 +0700",
+      "title": "Tom Cruise: Đời là một chuyến phiêu lưu",
+      "link": "https://vnexpress.net/tom-cruise-doi-la-mot-chuyen-phieu-luu-5120981.html",
+      "summary": "Tài tử Tom Cruise cho biết chọn tinh thần sống không \"mắc kẹt trong quá khứ\" và luôn tiến về phía trước.",
+      "pub_date": "Thu, 17 Sep 2026 22:15:30 +0700",
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Trường Giang rút khỏi show '2 ngày 1 đêm'",
-      "link": "https://vnexpress.net/truong-giang-rut-khoi-show-2-ngay-1-dem-5120986.html",
-      "summary": "Diễn viên Trường Giang cho biết sẽ vắng mặt trong đợt ghi hình tiếp theo của show truyền hình thực tế \"2 ngày 1 đêm\" giữa ồn ào bủa vây.",
-      "pub_date": "Wed, 16 Sep 2026 15:19:10 +0700",
+      "title": "H'Hen Niê làm 81 mâm cỗ đãi tiệc thôi nôi con gái",
+      "link": "https://vnexpress.net/h-hen-nie-lam-81-mam-co-dai-tiec-thoi-noi-con-gai-5121472.html",
+      "summary": "Hoa hậu H'Hen Niê cùng gia đình chuẩn bị 81 mâm cơm, mời hàng trăm người thân, hàng xóm trong buôn dự tiệc con gái đầu lòng tròn một tuổi.",
+      "pub_date": "Thu, 17 Sep 2026 19:00:00 +0700",
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Ký ức hiệu kem 35 Tràng Tiền qua ống kính người khách Nhật",
-      "link": "https://vnexpress.net/ky-uc-hieu-kem-35-trang-tien-qua-ong-kinh-nguoi-khach-nhat-5120659.html",
-      "summary": "Nhiếp ảnh gia Nhật Yuichi Kobayashi lưu giữ hình ảnh người xếp hàng dài chờ thưởng thức que kem 35 Tràng Tiền, Hà Nội hàng thập niên trước.",
-      "pub_date": "Wed, 16 Sep 2026 13:24:00 +0700",
+      "title": "Thái Thiếu Phân: Biết ơn chồng bầu bạn",
+      "link": "https://vnexpress.net/thai-thieu-phan-biet-on-chong-bau-ban-5121201.html",
+      "summary": "Diễn viên Hong Kong Thái Thiếu Phân đón sinh nhật trên sa mạc, cảm ơn chồng - Trương Tấn - ở bên cô 23 năm qua.",
+      "pub_date": "Thu, 17 Sep 2026 09:35:11 +0700",
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Phong cách hiện đại pha truyền thống của Hoàng hậu Thái Lan",
-      "link": "https://vnexpress.net/phong-cach-hien-dai-pha-truyen-thong-cua-hoang-hau-thai-lan-5120262.html",
-      "summary": "Hoàng hậu Thái Lan Suthida thu hút nhờ nhan sắc, phong cách mặc hiện đại kết hợp nét văn hóa truyền thống của đất nước bà.",
-      "pub_date": "Wed, 16 Sep 2026 11:22:48 +0700",
+      "title": "Trang phục của Hoàng hậu Thái Lan khi thăm Việt Nam",
+      "link": "https://vnexpress.net/trang-phuc-cua-hoang-hau-thai-lan-khi-tham-viet-nam-5121399.html",
+      "summary": "Hoàng hậu Thái Lan Suthida diện 5 bộ váy với chất liệu, kiểu dáng tôn vinh văn hóa và bản sắc nghề thủ công, trong chuyến thăm Việt Nam.",
+      "pub_date": "Thu, 17 Sep 2026 16:36:21 +0700",
       "source_name": "VnExpress Giải Trí",
       "category": "showbiz",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "\"Hoa hậu xấu nhất lịch sử showbiz\" nay đã khác: Lột xác đẹp khó tin đến từng centimet, U40 làm chủ tịch nhưng chưa chồng",
-      "link": "https://kenh14.vn/hoa-hau-xau-nhat-lich-su-showbiz-nay-da-khac-lot-xac-dep-kho-tin-den-tung-centimet-u40-lam-chu-tich-nhung-chua-chong-215260916195835389.chn",
-      "summary": "Sự thay đổi ngoại hình Hoa hậu này khiến ai cũng phải kinh ngạc.",
-      "pub_date": "Thu, 17 Sep 2026 07:09:00 +07",
+      "title": "Nữ diễn viên dính scandal ngoại tình trùm kín mít ở công viên, 2 tháng trước vừa bại lộ chuyện có con 3 tuổi",
+      "link": "https://kenh14.vn/nu-dien-vien-dinh-scandal-ngoai-tinh-trum-kin-mit-o-cong-vien-2-thang-truoc-vua-bai-lo-chuyen-co-con-3-tuoi-215260917190530155.chn",
+      "summary": "Chàng trai bị \"tóm gọn\" xuất hiện bên mẹ con nữ diễn viên này là 1 rapper.",
+      "pub_date": "Fri, 18 Sep 2026 07:13:00 +07",
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Cặp sao \"phim giả tình thật\" xác nhận đường ai nấy đi vào tối 15/9",
-      "link": "https://kenh14.vn/cap-sao-phim-gia-tinh-that-xac-nhan-duong-ai-nay-di-vao-toi-15-9-215260916195542855.chn",
-      "summary": "Ngay trước khi công bố chuyện chia tay ít giờ, người đẹp này vẫn đăng ảnh chồng diễn viên lên trang Instagram cá nhân.",
-      "pub_date": "Thu, 17 Sep 2026 06:33:00 +07",
+      "title": "Chồng Taylor Swift là nạn nhân vụ lừa đảo 925 tỷ đồng",
+      "link": "https://kenh14.vn/chong-taylor-swift-la-nan-nhan-vu-lua-dao-925-ty-dong-215260917220632562.chn",
+      "summary": "Travis Kelce cùng một số vận động viên khác đã đầu tư tiền vào công ty này và bị lừa đảo.",
+      "pub_date": "Fri, 18 Sep 2026 06:30:00 +07",
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Mối tình đầu không thể quên của Dương Dương",
-      "link": "https://kenh14.vn/moi-tinh-dau-khong-the-quen-cua-duong-duong-215260915001537606.chn",
-      "summary": "Việc ôn lại chuyện cũ sau gần 2 thập kỷ không chỉ làm thỏa lòng mong đợi của các \"fan couple\" một thời, mà còn là sự hoài niệm đẹp về một thời thanh xuân rực rỡ, nơi Dương Dương và Lý Thấm đã từng đi qua đời nhau chân thành và trọn vẹn nhất.",
-      "pub_date": "Thu, 17 Sep 2026 06:08:00 +07",
+      "title": "\"Anh sếp showbiz\" khởi kiện, quyết đưa vợ cũ ra tòa vì 2 năm chỉ được gặp con 6 lần",
+      "link": "https://kenh14.vn/anh-sep-showbiz-khoi-kien-quyet-dua-vo-cu-ra-toa-vi-2-nam-chi-duoc-gap-con-6-lan-215260917220442622.chn",
+      "summary": "Trong những năm vừa qua, nam ca sĩ đình đám một thời vừa gặp vấn đề sức khỏe, lại lâm khủng hoảng vì biến cố hôn nhân.",
+      "pub_date": "Fri, 18 Sep 2026 06:00:00 +07",
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Nữ diễn viên đình đám đi bán bún bò Huế ở đường số 6, phường Tân Phong, TP.HCM",
-      "link": "https://kenh14.vn/nu-dien-vien-dinh-dam-di-ban-bun-bo-hue-o-duong-so-6-phuong-tan-phong-tphcm-215260916175410518.chn",
-      "summary": "Quán bún của nữ diễn viên này được nhiều nghệ sĩ trong showbiz ghé tới thưởng thức.",
-      "pub_date": "Thu, 17 Sep 2026 00:08:00 +07",
+      "title": "Nữ diễn viên 9x rẽ hướng đi bán đồ ăn ở khu nhà giàu Thảo Điền, nay là bà chủ 3 công ty",
+      "link": "https://kenh14.vn/nu-dien-vien-9x-re-huong-di-ban-do-an-o-khu-nha-giau-thao-dien-nay-la-ba-chu-3-cong-ty-215260917170243333.chn",
+      "summary": "Nữ diễn viên cũng cho biết phần lớn nguồn thu nhập của mình đến từ công việc kinh doanh, trong khi diễn xuất vẫn là niềm đam mê và lĩnh vực cô muốn duy trì.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 +07",
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Nữ diễn viên quê Tiền Giang tiêu chục tỷ đồng mở khu sinh thái 50.000m2 dù chồng đại gia can ngăn",
-      "link": "https://kenh14.vn/nu-dien-vien-que-tien-giang-tieu-chuc-ty-dong-mo-khu-sinh-thai-50000m2-du-chong-dai-gia-can-ngan-215260916161702602.chn",
-      "summary": "Với khối tài sản đáng ngưỡng mộ, nữ diễn viên này được mệnh danh là \"phú bà\" của showbiz Việt.",
-      "pub_date": "Thu, 17 Sep 2026 00:08:00 +07",
+      "title": "Nữ nghệ sĩ U40 tuyên bố không lấy chồng, sống an yên trong nhà 7 tầng, 40 phòng ở đường Điện Biên Phủ",
+      "link": "https://kenh14.vn/nu-nghe-si-u40-tuyen-bo-khong-lay-chong-song-an-yen-trong-nha-7-tang-40-phong-o-duong-dien-bien-phu-215260917143612782.chn",
+      "summary": "Dù xinh đẹp, giàu có và nhiều người theo đuổi nhưng nữ nghệ sĩ U40 này lại lựa chọn không lấy chồng, sinh con.",
+      "pub_date": "Thu, 17 Sep 2026 22:08:00 +07",
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Tom Cruise bị chỉ trích",
-      "link": "https://kenh14.vn/tom-cruise-bi-chi-trich-215260916200916975.chn",
-      "summary": "Daily Mail gây chú ý với bài báo chỉ trích Tom Cruise vì bức ảnh gợi cảm mà anh chụp cho tạp chí GQ Mỹ. Đáng nói hơn, cây viết Laura Craik còn lôi kéo vợ cũ nam diễn viên, Nicole Kidman, vào câu chuyện.",
-      "pub_date": "Wed, 16 Sep 2026 21:28:00 +07",
+      "title": "Nữ nghệ sĩ nổi tiếng miền Nam: 52 tuổi trẻ đẹp như 30, chưa muốn yêu dù không thiếu người theo đuổi",
+      "link": "https://kenh14.vn/nu-nghe-si-noi-tieng-mien-nam-52-tuoi-tre-dep-nhu-30-chua-muon-yeu-du-khong-thieu-nguoi-theo-duoi-215260917161904929.chn",
+      "summary": "Ở tuổi 52, nữ nghệ sĩ này khiến nhiều người ngưỡng mộ bởi nhan sắc lão hóa ngược và vóc dáng thon gọn như mới 30 nhờ chế độ ăn uống, thể thao khoa học.",
+      "pub_date": "Thu, 17 Sep 2026 20:42:00 +07",
       "source_name": "Kenh14 Star",
       "category": "viral_social",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     }
   ],
   "domestic": [
     {
-      "title": "Giá vàng, chứng khoán Mỹ cùng giảm vì Fed tăng lãi",
-      "link": "https://vnexpress.net/gia-vang-chung-khoan-my-cung-giam-vi-fed-tang-lai-5121171.html",
-      "summary": "Mỗi ounce vàng giảm hơn 30 USD, trong khi chỉ số DJIA của Wall Street mất hơn 1% sau lần tăng lãi đầu tiên trong 3 năm của Fed.",
-      "pub_date": "Thu, 17 Sep 2026 07:46:01 +0700",
+      "title": "Ông lớn bán lẻ Thái Lan dự kiến rót thêm 1,5 tỷ USD vào Việt Nam",
+      "link": "https://vnexpress.net/ong-lon-ban-le-thai-lan-du-kien-rot-them-1-5-ty-usd-vao-viet-nam-5121378.html",
+      "summary": "Tăng trưởng GDP cao, sức mua lớn và trải rộng khắp tỉnh thành đang thúc đẩy Central Group xúc tiến kế hoạch rót thêm 1,5 tỷ USD vào Việt Nam.",
+      "pub_date": "Fri, 18 Sep 2026 03:00:00 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Các nền tảng gọi xe tại Việt Nam 'chia tiền' cho tài xế thế nào",
-      "link": "https://vnexpress.net/cac-nen-tang-goi-xe-tai-viet-nam-chia-tien-cho-tai-xe-the-nao-5120726.html",
-      "summary": "Trong khi Grab tính chiết khấu linh động từng chuyến, Be và GreenSM chọn cách chia doanh thu cố định để đảm bảo quyền lợi đối tác tài xế.",
-      "pub_date": "Thu, 17 Sep 2026 05:05:00 +0700",
+      "title": "Kiên định với xe điện, GM lỡ nhịp khi người Mỹ ồ ạt mua hybrid",
+      "link": "https://vnexpress.net/kien-dinh-voi-xe-dien-gm-lo-nhip-khi-nguoi-my-o-at-mua-hybrid-5121530.html",
+      "summary": "Trong khi người Mỹ tăng mua xe hybrid để giảm gánh nặng giá xăng, GM đang đứng bên lề thị trường, khi CEO hãng xe chỉ coi loại này là “giải pháp xanh tạm thời”.",
+      "pub_date": "Fri, 18 Sep 2026 02:42:28 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Fed tăng lãi suất lần đầu tiên sau 3 năm",
-      "link": "https://vnexpress.net/fed-tang-lai-suat-lan-dau-tien-sau-3-nam-5121142.html",
-      "summary": "Cục Dự trữ Liên bang Mỹ (Fed) tăng lãi suất lần đầu tiên kể từ năm 2023, đúng như dự báo của thị trường.",
-      "pub_date": "Thu, 17 Sep 2026 01:38:07 +0700",
+      "title": "Các nước buộc nền tảng gọi xe chi trả an sinh cho tài xế ra sao?",
+      "link": "https://vnexpress.net/cac-nuoc-buoc-nen-tang-goi-xe-chi-tra-an-sinh-cho-tai-xe-ra-sao-5120745.html",
+      "summary": "Nhiều quốc gia yêu cầu nền tảng gọi xe chia sẻ nhiều hơn chi phí an sinh cho tài xế, từ bảo hiểm đến hưu trí.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Mới có hai địa phương hỗ trợ người dân lắp điện mặt trời mái nhà",
-      "link": "https://vnexpress.net/moi-co-hai-dia-phuong-ho-tro-nguoi-dan-lap-dien-mat-troi-mai-nha-5121075.html",
-      "summary": "Bộ Công Thương đề nghị các địa phương sớm đưa ra chính sách hỗ trợ hộ gia đình lắp điện mặt trời mái nhà tự dùng, tương tự Bắc Ninh và Lai Châu.",
-      "pub_date": "Wed, 16 Sep 2026 20:20:57 +0700",
+      "title": "Hải Phòng gỡ vướng cho nhà máy đóng tàu 2.400 tỷ đồng",
+      "link": "https://vnexpress.net/hai-phong-go-vuong-cho-nha-may-dong-tau-2-400-ty-dong-5121559.html",
+      "summary": "Phó thủ tướng Hồ Quốc Dũng yêu cầu Hải Phòng chủ động tháo gỡ vướng mắc cho dự án đóng tàu Thái Bình Dương, giúp doanh nghiệp ổn định sản xuất nhưng không hợp thức hóa sai phạm.",
+      "pub_date": "Thu, 17 Sep 2026 23:00:06 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Tập đoàn Trung Quốc muốn đầu tư năng lượng, đường sắt tại Việt Nam",
-      "link": "https://vnexpress.net/tap-doan-trung-quoc-muon-dau-tu-nang-luong-duong-sat-tai-viet-nam-5121081.html",
-      "summary": "Huawei, CCCC và CEEC đề xuất tham gia các dự án năng lượng xanh, lưu trữ điện và đường sắt kết nối Việt Nam - Trung Quốc.",
-      "pub_date": "Wed, 16 Sep 2026 19:06:47 +0700",
+      "title": "FTSE Russell cam kết hỗ trợ toàn diện cho thị trường vốn của Việt Nam",
+      "link": "https://vnexpress.net/ftse-russell-cam-ket-ho-tro-toan-dien-cho-thi-truong-von-cua-viet-nam-5121535.html",
+      "summary": "FTSE Russell cam kết hỗ trợ Việt Nam phát triển thị trường vốn, trong bối cảnh các quỹ của Vanguard bắt đầu giải ngân và thêm cổ phiếu Việt Nam vào danh mục từ 21/9.",
+      "pub_date": "Thu, 17 Sep 2026 22:06:06 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Phó thủ tướng đề nghị Quảng Tây tạo thuận lợi cho hàng hóa Việt Nam",
-      "link": "https://vnexpress.net/pho-thu-tuong-de-nghi-quang-tay-tao-thuan-loi-cho-hang-hoa-viet-nam-5121018.html",
-      "summary": "Phó thủ tướng Thường trực Phạm Gia Túc đề nghị Quảng Tây tạo thuận lợi cho hàng Việt vào Trung Quốc và đi nước thứ ba, đồng thời đẩy nhanh các tuyến đường sắt kết nối hai bên.",
-      "pub_date": "Wed, 16 Sep 2026 16:18:32 +0700",
+      "title": "Chứng khoán tăng 13 điểm bất chấp Fed tăng lãi suất",
+      "link": "https://vnexpress.net/chung-khoan-tang-13-diem-bat-chap-fed-tang-lai-suat-5121440.html",
+      "summary": "Dù thị trường tài chính thế giới có phần tiêu cực khi Fed nâng lãi suất, chứng khoán Việt Nam vẫn phủ sắc xanh khi VN-Index đóng cửa trên 1.820 điểm.",
+      "pub_date": "Thu, 17 Sep 2026 15:52:43 +0700",
       "source_name": "VnExpress Kinh Doanh",
       "category": "finance_economy",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Triệt phá ổ nhóm lừa đảo xuyên quốc gia, chiếm đoạt 1.500 tỷ đồng",
-      "link": "https://cafef.vn/triet-pha-o-nhom-lua-dao-xuyen-quoc-gia-chiem-doat-1500-ty-dong-188260917065528365.chn",
-      "summary": "Công an tỉnh Lào Cai vừa chủ trì, phối hợp với Cục Cảnh sát hình sự, Cơ quan đại diện Bộ Công an Việt Nam tại Lào, Tổng cục Cảnh sát Bộ Công an Lào bắt giữ 91 đối tượng lừa đảo lên đến 1.500 tỷ đồng.",
-      "pub_date": "Thu, 17 Sep 26 07:54:00 +0700",
+      "title": "Giá vàng miếng SJC, vàng nhẫn trơn sáng ngày 18/9",
+      "link": "https://cafef.vn/gia-vang-mieng-sjc-vang-nhan-tron-sang-ngay-18-9-188260918074449277.chn",
+      "summary": "Giá vàng thế giới đã phục hồi mạnh trong phiên 17/9, liệu giá vàng trong nước có tăng theo?",
+      "pub_date": "Fri, 18 Sep 26 07:44:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Bổ sung nguồn lực cho nền kinh tế, Việt Nam tính chuyện trở lại thị trường trái phiếu quốc tế",
-      "link": "https://cafef.vn/bo-sung-nguon-luc-cho-nen-kinh-te-viet-nam-tinh-chuyen-tro-lai-thi-truong-trai-phieu-quoc-te-188260917074650983.chn",
-      "summary": "Sau hơn 10 năm không phát hành trái phiếu quốc tế, Việt Nam đang xem xét quay trở lại thị trường vốn quốc tế với phương án phát hành trái phiếu Chính phủ bằng USD kỳ hạn 10 năm, quy mô dự kiến lên tới 1 tỷ USD. Động thái này diễn ra trong bối cảnh nhu cầu vốn cho tăng trưởng gia ...",
-      "pub_date": "Thu, 17 Sep 26 07:46:00 +0700",
+      "title": "ACB được vinh danh trên bảng xếp hạng uy tín của Forbes toàn cầu và Forbes Việt Nam",
+      "link": "https://cafef.vn/acb-duoc-vinh-danh-tren-bang-xep-hang-uy-tin-cua-forbes-toan-cau-va-forbes-viet-nam-188260917214650359.chn",
+      "summary": "Những ghi nhận này là minh chứng cho những nền tảng mà ACB đã kiên định xây dựng trong nhiều năm qua: hiệu quả hoạt động, quản trị thận trọng, năng lực tạo giá trị dài hạn và cam kết phát triển bền vững.",
+      "pub_date": "Fri, 18 Sep 26 07:32:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "ACB: Tiền gửi lãi thông minh tái định nghĩa cách người dùng sử dụng lãi tiết kiệm",
-      "link": "https://cafef.vn/acb-tien-gui-lai-thong-minh-tai-dinh-nghia-cach-nguoi-dung-su-dung-lai-tiet-kiem-18826091707095183.chn",
-      "summary": "Nhận lãi ngay khi gửi tiết kiệm hay tiếp tục để khoản lãi ấy sinh lời? Với Tiền gửi lãi thông minh, ACB đưa quyền lựa chọn này đến khách hàng ngay từ khi mở khoản tiền gửi, giúp khách hàng vừa duy trì tích lũy, vừa chủ động hơn với dòng tiền theo nhu cầu.",
-      "pub_date": "Thu, 17 Sep 26 07:33:00 +0700",
+      "title": "Du lịch, nhà hàng, khách sạn được loại trừ khi tính hạn mức tín dụng bất động sản năm 2026",
+      "link": "https://cafef.vn/du-lich-nha-hang-khach-san-duoc-loai-tru-khi-tinh-han-muc-tin-dung-bat-dong-san-nam-2026-188260918070058098.chn",
+      "summary": "Sau các giải pháp mở rộng dư địa cung ứng vốn cho hệ thống ngân hàng, hỗ trợ các dự án đầu tư lớn và thúc đẩy mục tiêu tăng trưởng kinh tế, Ngân hàng Nhà nước (NHNN) vừa cho phép các tổ chức tín dụng loại phần cho vay tăng thêm với nhà hàng, khách sạn, khu du lịch, sinh thái, ngh...",
+      "pub_date": "Fri, 18 Sep 26 07:00:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "PNJ có động thái mới về thu mua vàng, kim cương",
-      "link": "https://cafef.vn/pnj-co-dong-thai-moi-ve-thu-mua-vang-kim-cuong-188260917072231827.chn",
-      "summary": "PNJ sẽ giảm thời gian thanh toán so với quy định hiện hành khi công ty thực hiện mua lại sản phẩm từ khách hàng. Hiện, PNJ đang hoàn thiện phương án triển khai, dự kiến áp dụng cho các dòng hàng trang sức thời trang và vàng miếng để sớm phục vụ khách hàng.",
-      "pub_date": "Thu, 17 Sep 26 07:22:00 +0700",
+      "title": "Tác động từ quyết định tăng lãi suất của FED: Dư địa nới lỏng tiền tệ thu hẹp hơn, áp lực tập trung vào chi phí vốn",
+      "link": "https://cafef.vn/tac-dong-tu-quyet-dinh-tang-lai-suat-cua-fed-du-dia-noi-long-tien-te-thu-hep-hon-ap-luc-tap-trung-vao-chi-phi-von-18826091806575287.chn",
+      "summary": "Quyết định tăng lãi suất thêm 25 điểm cơ bản của FED sau cuộc họp định kỳ tháng 9/2026, cùng thông điệp thắt chặt hơn dự kiến đang đặt ra những thách thức mới cho kinh tế toàn cầu. Đối với Việt Nam, các phân tích từ giới chuyên môn cho thấy, tác động chính không nằm ở yêu cầu thắ...",
+      "pub_date": "Fri, 18 Sep 26 06:57:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Giá vàng miếng, vàng nhẫn ngày 17/9 tại SJC, Bảo Tín Minh Châu, Bảo Tín Mạnh Hải, DOJI, Phú Quý,...",
-      "link": "https://cafef.vn/gia-vang-mieng-vang-nhan-ngay-17-9-tai-sjc-bao-tin-minh-chau-bao-tin-manh-hai-doji-phu-quy-188260917071953341.chn",
-      "summary": "Giá vàng miếng tại các thương hiệu lớn đang được niêm yết phổ biến ở 143 - 143,5 triệu đồng/lượng mua vào và 146,5 triệu đồng/lượng bán ra.",
-      "pub_date": "Thu, 17 Sep 26 07:19:00 +0700",
+      "title": "Một ngân hàng lớn sẽ tăng mạnh lãi suất từ 18/9, có kỳ hạn tăng tới 1,7%/năm",
+      "link": "https://cafef.vn/mot-ngan-hang-lon-se-tang-manh-lai-suat-tu-18-9-co-ky-han-tang-toi-17-nam-188260917220554516.chn",
+      "summary": "Theo biểu lãi suất huy động mới áp dụng từ ngày 18/9/2026, VPBank sẽ điều chỉnh tăng lãi suất tiền gửi tại nhiều kỳ hạn, với mức tăng cao nhất lên tới 1,7%/năm. Đáng chú ý, kỳ hạn 36 tháng trên kênh online tăng từ 4,2% lên 5,9%/năm đối với khoản tiền gửi từ 3 tỷ đồng đến dưới 10 ...",
+      "pub_date": "Fri, 18 Sep 26 00:03:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Fed có thể tiếp tục 'neo cao' lãi suất, đâu là dư địa giữ ổn định tỷ giá?",
-      "link": "https://cafef.vn/fed-co-the-tiep-tuc-neo-cao-lai-suat-dau-la-du-dia-giu-on-dinh-ty-gia-188260917071856429.chn",
-      "summary": "Những thay đổi trong định hướng chính sách của Fed có thể tạo thêm áp lực lên tỷ giá, dòng vốn và dư địa điều hành lãi suất tại các nền kinh tế mới nổi, trong đó có Việt Nam. Tuy nhiên, TS Lê Duy Bình, Giám đốc Economica Việt Nam cho rằng các yếu tố nền tảng như dòng vốn FDI, kiề...",
-      "pub_date": "Thu, 17 Sep 26 07:18:00 +0700",
+      "title": "Cổ phiếu ngân hàng đồng loạt tăng giá, HDB được khối ngoại gom nhiều nhất thị trường",
+      "link": "https://cafef.vn/co-phieu-ngan-hang-dong-loat-tang-gia-hdb-duoc-khoi-ngoai-gom-nhieu-nhat-thi-truong-188260917214916743.chn",
+      "summary": "Cổ phiếu ngân hàng đồng loạt tăng giá trong phiên 17/9, góp phần đưa VN-Index vượt mốc 1.820 điểm. Khối ngoại tập trung gom HDB và MBB, với giá trị mua ròng lần lượt khoảng 143 tỷ đồng và 119 tỷ đồng.",
+      "pub_date": "Thu, 17 Sep 26 21:48:00 +0700",
       "source_name": "CafeF Tài Chính",
       "category": "finance",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Thanh tra Chính phủ chỉ ra loạt sai phạm tại Tổng công ty Giấy Việt Nam",
-      "link": "https://cafef.vn/thanh-tra-chinh-phu-chi-ra-loat-sai-pham-tai-tong-cong-ty-giay-viet-nam-18826091706413015.chn",
-      "summary": "Thanh tra Chính phủ vừa thông báo Kết luận thanh tra số 474 về việc quản lý, sử dụng đất có nguồn gốc từ các công ty nông, lâm nghiệp thuộc Tổng công ty Giấy Việt Nam trên địa bàn các tỉnh Tây Nguyên. Hàng loạt vi phạm kéo dài về quản lý đất đai, giao khoán và tình trạng để đất t...",
-      "pub_date": "Thu, 17 Sep 26 07:10:00 +0700",
+      "title": "NHNN nới room tín dụng cho khách sạn, resort: Sun Group, Vinpearl, CEO Group đang đầu tư các dự án nào?",
+      "link": "https://cafef.vn/nhnn-noi-room-tin-dung-cho-khach-san-resort-sun-group-vinpearl-ceo-group-dang-dau-tu-cac-du-an-nao-188260917112836635.chn",
+      "summary": "Phần dư nợ tăng thêm của nhà hàng, khách sạn, khu du lịch, sinh thái và nghỉ dưỡng sẽ không phải tính vào mức tăng trưởng tín dụng bất động sản trong năm 2026. Đây cũng là thời điểm nhiều doanh nghiệp lớn đang tăng tốc đầu tư các dự án nghỉ dưỡng.",
+      "pub_date": "Fri, 18 Sep 26 07:08:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Người đàn ông U80 ứng 10 tỷ đồng từ 10 năm lương hưu để quyên góp cho trẻ em mồ côi vì đại dịch Covid-19",
-      "link": "https://cafef.vn/nguoi-dan-ong-u80-ung-10-ty-dong-tu-10-nam-luong-huu-de-quyen-gop-cho-tre-em-mo-coi-vi-dai-dich-covid-19-188260917064928737.chn",
-      "summary": "Ban đầu định đóng góp 2 tỷ nhưng được sự ủng hộ từ gia đình, ông Johnathan Hạnh Nguyễn quyết định ứng lương hưu 10 năm để đi làm từ thiện.",
-      "pub_date": "Thu, 17 Sep 26 06:49:00 +0700",
+      "title": "Ái nữ 9X của Chủ tịch Tân Á Đại Thành: 21 tuổi vào ban điều hành, 22 tuổi làm CEO nhà máy 70 triệu USD, nay phụ trách đế chế bất động sản",
+      "link": "https://cafef.vn/ai-nu-9x-cua-chu-tich-tan-a-dai-thanh-21-tuoi-vao-ban-dieu-hanh-22-tuoi-lam-ceo-nha-may-70-trieu-usd-nay-phu-trach-de-che-bat-dong-san-188260917103454726.chn",
+      "summary": "Hiện bà Nguyễn Phương Anh giữ chức Phó Tổng giám đốc phụ trách Truyền thông & Marketing Tập đoàn Tân Á Đại Thành, đồng thời là Phó Tổng giám đốc Thường trực MEYGROUP – doanh nghiệp bất động sản thuộc hệ sinh thái tập đoàn.",
+      "pub_date": "Fri, 18 Sep 26 07:07:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Hàng nghìn cửa hàng xăng dầu có thể trở thành điểm phục vụ xe điện: TC Group bắt tay liên doanh có Petrolimex, Xuân Cầu, Selex Motors",
-      "link": "https://cafef.vn/hang-nghin-cua-hang-xang-dau-co-the-tro-thanh-diem-phuc-vu-xe-dien-tc-group-bat-tay-lien-doanh-co-petrolimex-xuan-cau-selex-motors-188260917064509934.chn",
-      "summary": "Tập đoàn Thành Công (TC Group) và Công ty Cổ phần Hạ tầng Năng lượng Xanh Việt Nam (VGX) vừa ký biên bản ghi nhớ về hợp tác phát triển hạ tầng phục vụ giao thông điện tại Việt Nam.",
-      "pub_date": "Thu, 17 Sep 26 06:45:00 +0700",
+      "title": "Cú chi nghìn tỷ thâu tóm cổ phiếu hàng không của đại gia Nhật 160 năm tuổi: Mở rộng mạng lưới khổng lồ tại Việt Nam từ làm khu công nghiệp đến nuôi bò, bán giấy",
+      "link": "https://cafef.vn/cu-chi-nghin-ty-thau-tom-co-phieu-hang-khong-cua-dai-gia-nhat-160-nam-tuoi-mo-rong-mang-luoi-khong-lo-tai-viet-nam-tu-lam-khu-cong-nghiep-den-nuoi-bo-ban-giay-188260917232400816.chn",
+      "summary": "Sau thương vụ, Sojitz trở thành cổ đông lớn thứ 2 của AST, chỉ sau công ty mẹ là Công ty CP Tập đoàn Taseco (Taseco Group) với 51% vốn.",
+      "pub_date": "Fri, 18 Sep 26 07:00:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Chân dung người Việt SN 1988 lập quỹ tham vọng huy động tới 300 triệu USD: Từng làm việc ở Wall Street của Mỹ, giữ ghế CEO The Coffee House",
-      "link": "https://cafef.vn/chan-dung-nguoi-viet-sn-1988-lap-quy-tham-vong-huy-dong-toi-300-trieu-usd-tung-lam-viec-o-wall-street-cua-my-giu-ghe-ceo-the-coffee-house-18826091622562608.chn",
-      "summary": "Trước khi bước vào lĩnh vực đầu tư với kế hoạch huy động hàng trăm triệu USD, vị doanh nhân này đã có hành trình gần 20 năm đi qua Wall Street, tập đoàn đa quốc gia, startup và những doanh nghiệp lớn tại Việt Nam.",
-      "pub_date": "Thu, 17 Sep 26 00:10:00 +0700",
+      "title": "EVF huy động thành công 20 triệu USD từ Proparco",
+      "link": "https://cafef.vn/evf-huy-dong-thanh-cong-20-trieu-usd-tu-proparco-188260917200540001.chn",
+      "summary": "Công ty Tài chính tổng hợp Cổ phần Điện lực (EVF) vừa huy động thành công khoản vay cấp cao trị giá 20 triệu USD từ Proparco, qua đó tiếp tục khẳng định định hướng đồng hành cùng các dự án tài chính khí hậu và hỗ trợ doanh nghiệp do phụ nữ làm chủ.",
+      "pub_date": "Thu, 17 Sep 26 19:30:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Một doanh nghiệp chuẩn bị làm 4 bến cảng 45.000 tỷ đồng tại Hải Phòng, khởi công ngay trong năm nay",
-      "link": "https://cafef.vn/mot-doanh-nghiep-chuan-bi-lam-4-ben-cang-45000-ty-dong-tai-hai-phong-khoi-cong-ngay-trong-nam-nay-188260916141916813.chn",
-      "summary": "Dự án được chia làm hai giai đoạn. Trong giai đoạn đến năm 2030, CTCP Đầu tư Cảng Lạch Huyện dự kiến triển khai bến số 9 và 10. Hai bến số 11 và 12 được đầu tư trong giai đoạn 2031-2035. Doanh nghiệp cho biết đang hoàn thiện các thủ tục để có thể khởi công trong năm 2026.",
-      "pub_date": "Thu, 17 Sep 26 00:06:00 +0700",
+      "title": "Becamex Group tất toán lô trái phiếu 2.500 tỷ đồng",
+      "link": "https://cafef.vn/becamex-group-tat-toan-lo-trai-phieu-2500-ty-dong-188260917172451768.chn",
+      "summary": "Becamex Group đã thanh toán 2.500 tỷ đồng tiền gốc và gàn 69 tỷ đồng tiền lãi, qua đó tất toán xong lô trái phiếu BCMH2126005.",
+      "pub_date": "Thu, 17 Sep 26 19:24:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "1 nhân viên ở Bắc Ninh biển thủ hơn 240 tỷ đồng của nhà máy Hàn Quốc giữa lúc công ty lỗ hơn 1.570 tỷ, Apple cũng nói lời chia tay",
-      "link": "https://cafef.vn/1-nhan-vien-o-bac-ninh-bien-thu-hon-240-ty-dong-cua-nha-may-han-quoc-giua-luc-cong-ty-lo-hon-1570-ty-apple-cung-noi-loi-chia-tay-188260916224308266.chn",
-      "summary": "Một nhà máy sản xuất linh kiện pin của doanh nghiệp Hàn Quốc tại Bắc Ninh vừa trải qua năm đặc biệt khó khăn, khi đồng thời xảy ra vụ biển thủ hàng trăm tỷ đồng và biến động lớn từ khách hàng chủ chốt",
-      "pub_date": "Thu, 17 Sep 26 00:04:00 +0700",
+      "title": "Điều gì giúp EVN lãi hơn 20.800 tỷ đồng sau nửa năm?",
+      "link": "https://cafef.vn/dieu-gi-giup-evn-lai-hon-20800-ty-dong-sau-nua-nam-188260917171244247.chn",
+      "summary": "TPO - Lợi nhuận hợp nhất của Tập đoàn Điện lực Việt Nam (EVN) tăng hơn gấp đôi trong nửa đầu năm. Tuy nhiên, cú hích lớn không chỉ đến từ bán điện mà còn từ tỷ giá thuận lợi hơn, lãi tiền gửi tăng mạnh và chi phí tài chính giảm sâu.",
+      "pub_date": "Thu, 17 Sep 26 18:12:00 +0700",
       "source_name": "CafeF Doanh Nghiệp",
       "category": "business",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Valve mở bán kính thực tế ảo Steam Frame, đánh giá đầu tiên khen độ thoải mái nhưng chê giá và pin",
-      "link": "https://tinhte.vn/thread/valve-mo-ban-kinh-thuc-te-ao-steam-frame-danh-gia-dau-tien-khen-do-thoai-mai-nhung-che-gia-va-pin.4177471/",
-      "summary": "Valve mở bán kính thực tế ảo Steam Frame, đánh giá đầu tiên khen độ thoải mái nhưng chê giá và pin Valve vừa chính thức bán ra Steam Frame, kính thực tế ảo độc lập đầu tiên của hãng, được giới...",
-      "pub_date": "Wed, 16 Sep 2026 18:06:38 +0000",
+      "title": "Windows chỉ là giọt nước trong đại dương doanh thu của Microsoft",
+      "link": "https://tinhte.vn/thread/windows-chi-la-giot-nuoc-trong-dai-duong-doanh-thu-cua-microsoft.4177809/",
+      "summary": "Windows chỉ là giọt nước trong đại dương doanh thu của Microsoft Microsoft vừa công bố kết quả kinh doanh năm tài khóa 2026, kết thúc vào tháng 6, với các con số vượt xa dự báo của giới đầu tư....",
+      "pub_date": "Fri, 18 Sep 2026 00:37:53 +0000",
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Anthropic gộp Claude chat và Cowork làm một, thêm Claude Docs và Slides",
-      "link": "https://tinhte.vn/thread/anthropic-gop-claude-chat-va-cowork-lam-mot-them-claude-docs-va-slides.4177618/",
-      "summary": "Anthropic gộp Claude chat và Cowork làm một, thêm Claude Docs và Slides Anthropic vừa gộp giao diện Claude chat và Cowork làm một, công bố hôm 16/9. Trước đây mình cũng từng phân vân không biết...",
-      "pub_date": "Wed, 16 Sep 2026 21:51:11 +0000",
+      "title": "Nhìn cái màn trong của iPhone Duo đục đục mờ mờ nhìn khó chịu thiệt",
+      "link": "https://tinhte.vn/thread/nhin-cai-man-trong-cua-iphone-duo-duc-duc-mo-mo-nhin-kho-chiu-thiet.4177346/",
+      "summary": "Nhìn cái màn trong của iPhone Duo đục đục mờ mờ nhìn khó chịu thiệt",
+      "pub_date": "Fri, 18 Sep 2026 00:26:12 +0000",
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Mac Studio M5 Ultra của Apple bị đội thời gian giao hàng đến tháng 1/2027",
-      "link": "https://tinhte.vn/thread/mac-studio-m5-ultra-cua-apple-bi-doi-thoi-gian-giao-hang-den-thang-1-2027.4177450/",
-      "summary": "Mac Studio M5 Ultra của Apple bị đội thời gian giao hàng đến tháng 1/2027 Mac Studio trang bị chip M5 Ultra mới nhất của Apple đang rơi vào tình trạng chậm giao hàng nghiêm trọng, với thời gian...",
-      "pub_date": "Wed, 16 Sep 2026 06:21:02 +0000",
+      "title": "Sáng mai iPhone 18 Pro, Pro Max được giao, tặng anh em phụ kiện xịn xài chơi",
+      "link": "https://tinhte.vn/thread/sang-mai-iphone-18-pro-pro-max-duoc-giao-tang-anh-em-phu-kien-xin-xai-choi.4177845/",
+      "summary": "Sáng mai là ngày trả máy, những anh em đặt hàng thành công iPhone 18 Pro hay iPhone 18 Pro Max sẽ nhận được máy. Những người đặt cọc thành công đợi này là những người đã được xác nhận nhận máy...",
+      "pub_date": "Fri, 18 Sep 2026 00:55:53 +0000",
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Apple mới ra iOS 27.2 beta 1: Có app Sức khỏe mới, Siri thêm 5 ngôn ngữ",
-      "link": "https://tinhte.vn/thread/apple-moi-ra-ios-27-2-beta-1-co-app-suc-khoe-moi-siri-them-5-ngon-ngu.4177617/",
-      "summary": "Apple vừa phát hành bản iOS 27.2 beta 1 cho anh em lập trình viên thử nghiệm. Mình thấy bản cập nhật này tuy chỉ là bản nâng cấp nhỏ nhưng lại mang đến kha khá thay đổi thiết thực cho người dùng...",
-      "pub_date": "Thu, 17 Sep 2026 00:31:28 +0000",
+      "title": "Thử xoá vật thể iPhone (iOS 27) với Samsung: Apple vẫn đi sau một nhịp",
+      "link": "https://tinhte.vn/thread/thu-xoa-vat-the-iphone-ios-27-voi-samsung-apple-van-di-sau-mot-nhip.4177577/",
+      "summary": "Ngay khi vừa lên đời iOS 27 chính thức, nghe đồn tính năng xóa vật thể Clean Up được Apple cải thiện nhiều nên mình tò mò lôi ngay chiếc iPhone ra đọ trực tiếp với Galaxy Z Fold8. Để xem khi đụng...",
+      "pub_date": "Fri, 18 Sep 2026 00:37:37 +0000",
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Feliks Audio Envy Performance Zebrano: Headamp 300B cho dành cho headphone hi-end",
-      "link": "https://tinhte.vn/thread/feliks-audio-envy-performance-zebrano-headamp-300b-cho-danh-cho-headphone-hi-end.4177559/",
-      "summary": "Feliks Audio Envy Performance Zebrano là mẫu headphone amplifier đầu bảng của thương hiệu Ba Lan, sử dụng cặp bóng 300B trong mạch single-ended Class A và có công suất đủ lớn để làm việc với nhiều...",
-      "pub_date": "Wed, 16 Sep 2026 11:15:20 +0000",
+      "title": "Tổng hợp review iPhone 18 Pro: Máy mát hơn, pin trâu và camera chỉnh tay ngon lành",
+      "link": "https://tinhte.vn/thread/tong-hop-review-iphone-18-pro-may-mat-hon-pin-trau-va-camera-chinh-tay-ngon-lanh.4177614/",
+      "summary": "Apple vừa chính thức mở embargo cho các bài đánh giá iPhone 18 Pro và iPhone 18 Pro Max trên toàn cầu. Mình đã dành nguyên một ngày ngồi lướt và dịch lại các bài test chi tiết từ những trang công...",
+      "pub_date": "Fri, 18 Sep 2026 00:46:45 +0000",
       "source_name": "Tinhte.vn",
       "category": "local_tech_community",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "Dán da hít MagSafe cho Galaxy Z Fold8: Vừa gọn nhẹ vừa dùng được nhiều phụ kiện",
+      "link": "https://tinhte.vn/thread/dan-da-hit-magsafe-cho-galaxy-z-fold8-vua-gon-nhe-vua-dung-duoc-nhieu-phu-kien.4177758/",
+      "summary": "Chiếc Samsung Galaxy Z Fold8 vốn dĩ đã có kích thước và trọng lượng tương đối lớn, nếu anh em gắn thêm mấy bộ ốp lưng bảo vệ thì máy sẽ cộm và dày lên rất nhiều. Bản thân mình thích cảm giác cầm...",
+      "pub_date": "Thu, 17 Sep 2026 08:45:07 +0000",
+      "source_name": "Tinhte.vn",
+      "category": "local_tech_community",
+      "weight": 30,
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "iPhone 18 Pro và 18 Pro Max mở bán toàn cầu",
+      "link": "https://vnexpress.net/iphone-18-pro-va-18-pro-max-mo-ban-toan-cau-5121605.html",
+      "summary": "iPhone 18 Pro và 18 Pro Max bắt đầu đến tay những người mua đầu tiên ngày 18/9, trong đó có Việt Nam.",
+      "pub_date": "Fri, 18 Sep 2026 07:43:03 +0700",
+      "source_name": "VnExpress Số Hóa",
+      "category": "tech_digital",
+      "weight": 29,
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "Việt Nam có thêm trung tâm nghiên cứu, phát triển công nghệ không gian",
+      "link": "https://vnexpress.net/viet-nam-co-them-trung-tam-nghien-cuu-phat-trien-cong-nghe-khong-gian-5121558.html",
+      "summary": "Temix và Học viện Công nghệ Bưu chính Viễn thông sáng lập Trung tâm Công nghệ không gian Việt - Ý, chuyên nghiên cứu công nghệ và đào tạo nhân lực hàng không vũ trụ.",
+      "pub_date": "Fri, 18 Sep 2026 07:00:00 +0700",
+      "source_name": "VnExpress Số Hóa",
+      "category": "tech_digital",
+      "weight": 29,
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "Nhà máy lưu trữ điện khí nén trong hang muối dưới lòng đất",
+      "link": "https://vnexpress.net/nha-may-luu-tru-dien-khi-nen-trong-hang-muoi-duoi-long-dat-5120920.html",
+      "summary": "Hệ thống \"siêu sạc dự phòng\" dưới lòng đất lưu trữ khí nén trong các hang muối với hiệu suất chuyển đổi năng lượng trên 70%.",
+      "pub_date": "Fri, 18 Sep 2026 00:00:00 +0700",
+      "source_name": "VnExpress Số Hóa",
+      "category": "tech_digital",
+      "weight": 29,
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "iPhone 18 Pro Max được rao chênh 9 triệu đồng so với giá niêm yết",
+      "link": "https://vnexpress.net/iphone-18-pro-max-duoc-rao-chenh-9-trieu-dong-so-voi-gia-niem-yet-5121515.html",
+      "summary": "Nhiều cửa hàng đang rao suất mua iPhone 18 Pro Max màu mới trong ngày dầu mở bán 18/9 với giá cao hơn giá chính thức đến 9 triệu đồng.",
+      "pub_date": "Thu, 17 Sep 2026 19:30:00 +0700",
+      "source_name": "VnExpress Số Hóa",
+      "category": "tech_digital",
+      "weight": 29,
+      "fetched_at": "2026-09-18 07:56"
     },
     {
       "title": "Công ty Nhật Bản triển khai dịch vụ 'cấp cứu' robot hình người",
@@ -948,17 +1018,7 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
-    },
-    {
-      "title": "Video ngắn từ YouTuber Việt tăng hơn 100% sau một năm",
-      "link": "https://vnexpress.net/video-ngan-tu-youtuber-viet-tang-hon-100-sau-mot-nam-5121093.html",
-      "summary": "YouTube cho biết số video Shorts từ người làm nội dung tại Việt Nam tăng 100% sau một năm, và hơn 50% thời gian xem các kênh Việt đến từ khán giả quốc tế.",
-      "pub_date": "Thu, 17 Sep 2026 07:31:35 +0700",
-      "source_name": "VnExpress Số Hóa",
-      "category": "tech_digital",
-      "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
       "title": "Tại sao tay robot không thể khéo léo như tay người",
@@ -968,331 +1028,311 @@
       "source_name": "VnExpress Số Hóa",
       "category": "tech_digital",
       "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
-    },
-    {
-      "title": "Canon EOS R8 Mark II - máy ảnh full-frame giá 45 triệu đồng",
-      "link": "https://vnexpress.net/canon-eos-r8-mark-ii-may-anh-full-frame-gia-45-trieu-dong-5121082.html",
-      "summary": "EOS R8 Mark II được Canon làm mới thiết kế, bổ sung joystick, hỗ trợ nhiều tính năng quay video nhưng thông số không quá mới.",
-      "pub_date": "Wed, 16 Sep 2026 20:50:08 +0700",
-      "source_name": "VnExpress Số Hóa",
-      "category": "tech_digital",
-      "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
-    },
-    {
-      "title": "Mở hộp iPhone 18 Pro Max và 18 Pro sắp bán ở Việt Nam",
-      "link": "https://vnexpress.net/mo-hop-iphone-18-pro-max-va-18-pro-sap-ban-o-viet-nam-5121043.html",
-      "summary": "iPhone 18 Pro Max màu đỏ burgundy có tông trầm hơn sắc cam trên 17 Pro, trong khi bản màu đen sẽ phù hợp với những người không thích sự nổi bật.",
-      "pub_date": "Wed, 16 Sep 2026 19:01:00 +0700",
-      "source_name": "VnExpress Số Hóa",
-      "category": "tech_digital",
-      "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
-    },
-    {
-      "title": "DeepSeek và truyền thông Trung Quốc hoài nghi động cơ 'giảm tốc AI'",
-      "link": "https://vnexpress.net/deepseek-va-truyen-thong-trung-quoc-hoai-nghi-dong-co-giam-toc-ai-5120774.html",
-      "summary": "Chuyên gia và truyền thông Trung Quốc đồng loạt đặt câu hỏi về động cơ của việc kêu gọi kìm hãm sự phát triển AI của Anthropic.",
-      "pub_date": "Wed, 16 Sep 2026 16:00:00 +0700",
-      "source_name": "VnExpress Số Hóa",
-      "category": "tech_digital",
-      "weight": 29,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     }
   ],
   "international": [
     {
-      "title": "US interest rates raised for first time in three years",
-      "link": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
-      "summary": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
-      "pub_date": "Thu, 17 Sep 2026 00:40:17 GMT",
+      "title": "Canada welcomes EU proposal to become 'associate member'",
+      "link": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Canadian Prime Minister Mark Carney said a Canada-EU alliance would create a \"beacon for other democracies\".",
+      "pub_date": "Thu, 17 Sep 2026 12:27:18 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Snapchat 'willing to implement' daily time limits for teens, boss tells BBC",
-      "link": "https://www.bbc.co.uk/news/articles/cr3wjz3edd10o?at_medium=RSS&at_campaign=rss",
-      "summary": "Evan Speigel says it would be \"an important step forward for the industry\" in an interview with the BBC.",
-      "pub_date": "Wed, 16 Sep 2026 23:41:57 GMT",
+      "title": "Ninth woman's body found as South African police investigate string of deaths",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
+      "summary": "South Africa police have cautioned against assuming that all the killings are linked but many women are afraid.",
+      "pub_date": "Thu, 17 Sep 2026 13:44:07 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Photos show widespread damage at US sites from Iranian attacks",
-      "link": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
-      "summary": "A wrecked air force plane and destroyed buildings are among the images obtained by the BBC's partner CBS News.",
-      "pub_date": "Wed, 16 Sep 2026 18:36:16 GMT",
+      "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+      "link": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US has not acknowledged carrying out February's deadly strikes on a primary school in Minab and a sports complex in Lamerd.",
+      "pub_date": "Thu, 17 Sep 2026 20:34:30 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "EU chief backs plan for Canada to become 'associate member'",
-      "link": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump, who has frequently clashed with Canada's PM, threatens to cut trade with the European Union in response to the proposal.",
-      "pub_date": "Thu, 17 Sep 2026 00:32:05 GMT",
+      "title": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+      "link": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC understands Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi are among the delegates allowed to enter the US.",
+      "pub_date": "Thu, 17 Sep 2026 21:41:19 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "US House votes to hold billionaire Epstein associate Leon Black in contempt",
-      "link": "https://www.bbc.co.uk/news/articles/c62l8g8qlr0ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Black - who had business ties to Epstein - declined to appear and provide documents related to the convicted sex offender.",
-      "pub_date": "Wed, 16 Sep 2026 19:59:57 GMT",
+      "title": "Wife of US scholar jailed in China asks Trump to raise arrest at Xi meeting",
+      "link": "https://www.bbc.co.uk/news/articles/c9j3d2rr6g24o?at_medium=RSS&at_campaign=rss",
+      "summary": "Sylvia Zin is among the family members of people imprisoned in China who are seeking Trump's help when he hosts the country's leader next week.",
+      "pub_date": "Thu, 17 Sep 2026 17:08:00 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
-      "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Some 10 families had reportedly been living in the six-storey building in Gaza City that was hit by an Israeli strike last year.",
-      "pub_date": "Wed, 16 Sep 2026 17:16:47 GMT",
+      "title": "Hyrox athlete apologises for continuing race after soiling herself",
+      "link": "https://www.bbc.co.uk/news/articles/ck0e35qyqlx0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Joanna Wietrzyk has also forfeited her win in the fitness competition after competing last week.",
+      "pub_date": "Thu, 17 Sep 2026 15:05:13 GMT",
       "source_name": "Reuters / BBC World",
       "category": "world_geopolitics",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Fed defies Trump with first rate rise since 2023",
-      "link": "https://www.ft.com/content/f5ce5c38-76e3-4212-8c60-4c868f6dee70?syn-25a6b1a6=1",
-      "summary": "President calls for 1% borrowing costs after US central bank signals willingness for further action to cool inflation",
-      "pub_date": "Wed, 16 Sep 2026 23:18:26 GMT",
+      "title": "Turkish authorities rush to stem fallout from stock market scandal",
+      "link": "https://www.ft.com/content/ef54585a-4d2f-4538-b185-9bff75ef2f5e?syn-25a6b1a6=1",
+      "summary": "Funds frozen or liquidated and 38 people referred to prosecutors as regulators move to restore calm",
+      "pub_date": "Thu, 17 Sep 2026 11:59:41 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Iran’s hidden leader stirs unease at home",
-      "link": "https://www.ft.com/content/ffe402ca-564a-457f-a861-18083a361e50?syn-25a6b1a6=1",
-      "summary": "Mojtaba Khamenei’s absence from public view has been a source of bafflement and suspicion",
-      "pub_date": "Wed, 16 Sep 2026 04:00:04 GMT",
+      "title": "The era of AI warfare has arrived",
+      "link": "https://www.ft.com/content/686429c0-daf3-42a5-9b7c-7ff06eb291ef?syn-25a6b1a6=1",
+      "summary": "Autonomous systems are being rapidly integrated on the battlefield, as models advance in ways even their creators cannot fully predict",
+      "pub_date": "Thu, 17 Sep 2026 04:00:04 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Nuclear fusion’s moment of truth",
-      "link": "https://www.ft.com/content/ef511d46-a689-4868-9654-15b96a71586d?syn-25a6b1a6=1",
-      "summary": "Start-ups are attracting record investments. Some scientists think their timelines are far too optimistic",
-      "pub_date": "Wed, 16 Sep 2026 04:00:05 GMT",
+      "title": "Has AI broken the old VC model?",
+      "link": "https://www.ft.com/content/8c4143c7-f846-43a0-807a-b460fff7cd75?syn-25a6b1a6=1",
+      "summary": "A spate of mega-IPOs triggered by the AI boom is stretching the feast-or-famine industry dynamic to an extreme",
+      "pub_date": "Thu, 17 Sep 2026 16:46:53 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Bach choir is a rare symbol of unity in a swing state",
-      "link": "https://www.ft.com/content/fc08dba8-3e16-4262-9e2c-0d59d049efdc?syn-25a6b1a6=1",
-      "summary": "In small-city Pennsylvania, music brings people together from across the political divide",
-      "pub_date": "Wed, 16 Sep 2026 16:03:27 GMT",
+      "title": "Reform UK’s mega-donor backed a friend’s libel claim. Now he controls her home",
+      "link": "https://www.ft.com/content/21aa563b-2cd1-4f09-b505-fcf579248fe6?syn-25a6b1a6=1",
+      "summary": "Crypto billionaire Ben Delo loaned more than £300,000 to former academic Nina Power",
+      "pub_date": "Thu, 17 Sep 2026 17:24:59 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "AI bosses’ safety push sparks rift inside OpenAI and Anthropic",
-      "link": "https://www.ft.com/content/d085adc5-977b-4c7e-9641-9824d1d345d3?syn-25a6b1a6=1",
-      "summary": "Staff at the Silicon Valley companies are grappling with how to turn AI slowdown rhetoric into reality",
-      "pub_date": "Wed, 16 Sep 2026 12:00:05 GMT",
+      "title": "OpenAI discloses new ‘concerning’ model behaviour",
+      "link": "https://www.ft.com/content/2c34414a-5381-4083-ac34-00bbe67ef8db?syn-25a6b1a6=1",
+      "summary": "Developer launches system to track and report AI model misconduct",
+      "pub_date": "Thu, 17 Sep 2026 22:03:41 GMT",
       "source_name": "Bloomberg / Financial Times",
       "category": "global_finance",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
+    },
+    {
+      "title": "China’s AI labs must accelerate development, says Huawei chair",
+      "link": "https://www.ft.com/content/c1f4cacf-098a-4776-b76b-fb741ef36fa6?syn-25a6b1a6=1",
+      "summary": "Chinese tech executive’s comments contrast with Silicon Valley calls for slowdown amid rising concerns about technology’s existential risks",
+      "pub_date": "Thu, 17 Sep 2026 10:50:36 GMT",
+      "source_name": "Bloomberg / Financial Times",
+      "category": "global_finance",
+      "weight": 28,
+      "fetched_at": "2026-09-18 07:56"
     }
   ],
   "technology": [
     {
-      "title": "Honor MagicOS 11 debuts with liquid glass design and more capable AI",
-      "link": "https://www.gsmarena.com/honor_magicos_11_debuts_with_liquid_glass_design_and_more_capable_ai_-news-74648.php",
-      "summary": "Honor announced its take on Android 17 with MagicOS 11 today at its Global Developer Conference. It brings an iOS-inspired liquid glass design, which Honor developed using its custom Luminous and Hummingbird base architectures. They optimize the user interface dynamics, AI proces...",
-      "pub_date": "Thu, 17 Sep 2026 02:31:02 +0200",
+      "title": "It's now the Xiaomi 18 Pro Max's turn to surface in Geekbench",
+      "link": "https://www.gsmarena.com/its_now_the_xiaomi_18_pro_maxs_turn_to_surface_in_geekbench-news-74667.php",
+      "summary": "Yesterday, the upcoming Xiaomi 18 Pro was seemingly spotted in the Geekbench online database, and today it's the turn of its bigger sibling, the Xiaomi 18 Pro Max, to surface in the same place. This one allegedly has the model number M610BB. As you can see in the screenshot below...",
+      "pub_date": "Fri, 18 Sep 2026 01:31:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "The iPhone 18 Pro Max is the fastest-charging iPhone ever",
-      "link": "https://www.gsmarena.com/the_iphone_18_pro_max_is_the_fastestcharging_iphone_ever-news-74652.php",
-      "summary": "Apple's iPhone 18 Pro Max will charge faster than any other iPhone ever. According to a new post by Ice Universe on X, the device goes from 0 to 50% charge in just 15 minutes. That is in fact what Apple claimed during the announcement. [#InlinePriceWidget,14716,1#] The iPhone 18 ...",
-      "pub_date": "Thu, 17 Sep 2026 01:02:02 +0200",
+      "title": "Pixel 11 Pro vs. Pixel 10 Pro",
+      "link": "https://www.gsmarena.com/pixel_11_pro_vs_pixel_10_pro_battery_camera_price_compared-news-74596.php",
+      "summary": "The new Pixel 11 series is now out so new and returning customers have started making their comparisons. And we are doing our best to help with a more detailed look at the most popular ones. Pixel 11 Pro or Pixel 10 Pro? Let’s find out! The 256GB base version of the Google Pixel ...",
+      "pub_date": "Thu, 17 Sep 2026 23:31:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "SK Hynix reportedly wants Intel to make its memory chips in the US",
-      "link": "https://www.gsmarena.com/sk_hynix_reportedly_wants_intel_to_make_its_memory_chips_in_the_us-news-74645.php",
-      "summary": "According to a new report from Reuters, SK Hynix is now in talks with Intel about a potential deal that would see the Korean company manufacture memory chips in the US for the first time. There are apparently two ways this can go: either SK Hynix will lease part of Intel's chip f...",
-      "pub_date": "Wed, 16 Sep 2026 23:31:02 +0200",
+      "title": "Samsung to outsource all of its DRAM manufacturing and focus on HBM production",
+      "link": "https://www.gsmarena.com/samsung_to_outsource_all_of_its_dram_manufacturing_and_focus_on_hbm_production-news-74665.php",
+      "summary": "The AI race is heating up, and so is the demand for hardware required to support it. That's why companies that produce HBM memory chips like Samsung have benefited immensely in the last few years. So it's only logical for Samsung to shift its focus to HBM memory production, as th...",
+      "pub_date": "Thu, 17 Sep 2026 22:01:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Meta is working on a pair of smart glasses without a camera, new report claims",
-      "link": "https://www.gsmarena.com/meta_is_working_on_a_pair_of_smart_glasses_without_a_camera_new_report_claims-news-74643.php",
-      "summary": "Meta's smart glasses have been quite successful so far, but many people may not need or want a pair with a camera. Thankfully, the company seems intent on serving those people too, if a new report turns out to be accurate. Meta is allegedly developing a pair of smart glasses with...",
-      "pub_date": "Wed, 16 Sep 2026 22:01:03 +0200",
+      "title": "iPhone 18 Pro and iPhone 18 Pro Max pre-orders in China eclipse the 2025 Pros",
+      "link": "https://www.gsmarena.com/iphone_18_pro_and_iphone_18_pro_max_preorders_in_china_eclipse_the_2025_pros-news-74662.php",
+      "summary": "Pre-orders in the US may have been less than stellar, but the new iPhone 18 Pro models are a huge hit in China. Local publications report that a total of over 7 million units have been pre-ordered across all channels. Pre-orders for the iPhone 18 Pro and iPhone 18 Pro Max started...",
+      "pub_date": "Thu, 17 Sep 2026 20:33:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Microsoft announces October 7 Windows and Surface event",
-      "link": "https://www.gsmarena.com/microsoft_announces_october_7_windows_and_surface_event-news-74635.php",
-      "summary": "It has been more than two years since Microsoft held a major event, but that is about to change. The company has announced a Windows and Surface event for next month to share new details about AI, Windows, the Surface Laptop Ultra, and the Nvidia RTX Spark. According to Engadget,...",
-      "pub_date": "Wed, 16 Sep 2026 22:01:02 +0200",
+      "title": "Snap's Specs AR glasses are now on pre-order, Verizon is offering data plans for them",
+      "link": "https://www.gsmarena.com/snaps_specs_ar_glasses_are_now_on_preorder_verizon_is_offering_data_plans_for_them-news-74661.php",
+      "summary": "Snap, formerly known as Snapchat, spun off Specs, the division responsible for its augmented reality (AR) glasses, early this year, and now it's ready to take pre-orders for the upcoming product, which is also called Specs, just to be confusing. These are $2,195 standalone AR gla...",
+      "pub_date": "Thu, 17 Sep 2026 19:14:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "The September Pixel Drop improves the VIP contacts widget, adds Harry Potter themes",
-      "link": "https://www.gsmarena.com/the_september_pixel_drop_improves_the_vip_contacts_widget_adds_harry_potter_themes-news-74638.php",
-      "summary": "The September Pixel Drop is here – it brings key improvements to the VIP contacts widget, adds even more scam protections, expands Pause Point availability to older models and even celebrates the release of the new Harry Potter audiobooks. All Pixel devices going back to the Pixe...",
-      "pub_date": "Wed, 16 Sep 2026 20:47:02 +0200",
+      "title": "Here is when the Galaxy S25 and Galaxy Z7 series will receive the One UI 9 update",
+      "link": "https://www.gsmarena.com/here_is_when_the_galaxy_s25_and_galaxy_z7_series_will_receive_the_one_ui_9_update-news-74664.php",
+      "summary": "Samsung started rolling out the One UI 9 update for the Galaxy S26, S26+ and S26 Ultra yesterday (the S26 FE came with One UI 9 out of the box). However, the global press release doesn’t really mention older devices – there is a note about which models will get the Privacy Alerts...",
+      "pub_date": "Thu, 17 Sep 2026 18:01:02 +0200",
       "source_name": "GSMArena",
       "category": "mobile_hardware",
       "weight": 30,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
-      "link": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
-      "summary": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Spe...",
-      "pub_date": "2026-09-16T16:10:47-04:00",
+      "title": "The AI Superintelligence Slowdown",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are pub...",
+      "pub_date": "2026-09-17T17:22:19-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "I wore Snap’s $2,200 smart glasses",
-      "link": "https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses",
-      "summary": "My favorite part of wearing the Specs, Snap's new augmented reality glasses, was playing dominoes. Sitting across the table from a Snap employee wearing the same pair of chunky glasses, I could select a virtual domino with a pinch and then move my hand to drop it in place, watchi...",
-      "pub_date": "2026-09-16T19:49:27-04:00",
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different...",
+      "pub_date": "2026-09-17T14:59:57-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
-      "link": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review",
-      "summary": "Christopher Nolan's engrossing take on The Odyssey dominated at the box office and spurred a newfound interest in classic literature among filmgoers. But a new retelling of the story made entirely with AI is so bad that it might just make viewers hate the original tale altogether...",
-      "pub_date": "2026-09-16T17:03:21-04:00",
+      "title": "Save $30 or more on a refurbished Apple TV 4K",
+      "link": "https://www.theverge.com/gadgets/997009/refurbished-apple-tv-4k-ring-doorbell-deal-sale",
+      "summary": "Most hardware prices have soared in 2026, and that includes a variety of Apple laptops, tablets, and smart devices. Thankfully, you can offset some of the increased costs on an Apple TV 4K by buying one refurbished through the company. The 64GB model is selling for $169, $30 lowe...",
+      "pub_date": "2026-09-17T13:14:07-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "The AI data center e-waste problem is huge — and getting bigger",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
-      "summary": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a significantly higher estimate o...",
-      "pub_date": "2026-09-16T16:40:46-04:00",
+      "title": "Xbox’s clever disc-to-digital feature was 15 years in the making",
+      "link": "https://www.theverge.com/tech/996826/microsoft-xbox-disc-to-digital-history-notepad",
+      "summary": "When Xbox announced a new feature last month that lets you digitize existing physical game collections, I immediately thought of the Xbox One. Disc-to-digital seems like a clever new feature for Xbox, perfectly timed as a response to Sony killing PlayStation discs. But the realit...",
+      "pub_date": "2026-09-17T08:12:42-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Resident Evil is a comedy first and a thrilling nightmare second",
-      "link": "https://www.theverge.com/entertainment/996416/resident-zach-cregger-review",
-      "summary": "When Paul W.S. Anderson's Resident Evil hit theaters in 2002, video game movies were largely seen as a niche. Films like Mortal Kombat and Tomb Raider had proven that big-screen game adaptations could be successful, but the commercial and critical failure of projects like the 199...",
-      "pub_date": "2026-09-16T14:45:35-04:00",
+      "title": "Camp Snap’s 110D gives slim retro film cameras a digital upgrade",
+      "link": "https://www.theverge.com/tech/996453/camp-snap-110d-digital-camera-retro-horizontal-kodak-100-film",
+      "summary": "Camp Snap is expanding its small collection of screenless digital point-and-shoot cameras with the new pocket-friendly 110D featuring a thin horizontal design first popularized by Kodak film cameras in the 1970s. The Camp Snap 110D is available for preorder starting today for $74...",
+      "pub_date": "2026-09-17T10:01:03-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Walmart takes a bite off the cost of Metroid Ravenous physical preorders",
-      "link": "https://www.theverge.com/gadgets/996379/metroid-ravenous-preorder-deal-sale",
-      "summary": "The Metroid series is going back to its 2D roots again with Metroid Ravenous for the Nintendo Switch 2, the first side-scrolling game in the series since 2021’s Metroid Dread for the Nintendo Switch. If you’re already excited enough to consider preordering, you can save $10 on th...",
-      "pub_date": "2026-09-16T14:20:38-04:00",
+      "title": "Your robotaxi might be a narc",
+      "link": "https://www.theverge.com/transportation/996863/robotaxi-waymo-police-privacy-surveillance",
+      "summary": "In early September, two teenagers got into a Waymo, but then ended up in the back of a police car. The robotaxi company said it detected \"a violation of our terms of service involving a firearm,\" pulled the car over, and alerted emergency services, according to the Los Angeles Ti...",
+      "pub_date": "2026-09-17T10:57:54-04:00",
       "source_name": "The Verge Tech",
       "category": "tech_general",
       "weight": 28,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Snap’s powerful Specs smart glasses make the case for AR going mainstream",
-      "link": "https://www.androidauthority.com/snap-specs-features-3711990/",
-      "summary": "Snap leans all the way into AR glasses as it shows just what Specs can do.",
-      "pub_date": "Wed, 16 Sep 2026 23:40:21 +0000",
+      "title": "Google could be working on an incognito upgrade for Gemini Live",
+      "link": "https://www.androidauthority.com/gemini-live-ephemeral-video-mode-3712620/",
+      "summary": "Because not everything you show to Gemini is something you want it to remember.",
+      "pub_date": "Thu, 17 Sep 2026 22:09:14 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Your Google Home widgets will now eat up less of your battery life",
-      "link": "https://www.androidauthority.com/google-home-widget-battery-efficiency-3712132/",
-      "summary": "Google Home's latest release offers fixes and improvements across the board.",
-      "pub_date": "Wed, 16 Sep 2026 20:58:14 +0000",
+      "title": "Survey reveals where most of you draw the line when it comes to AI",
+      "link": "https://www.androidauthority.com/llm-ai-agents-full-access-to-your-computer-poll-results-3712615/",
+      "summary": "Our reader poll put LLM trust to the test by asking whether you'd hand an agent full access to your computer.",
+      "pub_date": "Thu, 17 Sep 2026 21:19:23 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Google doubles down on today’s preview builds with Android 17 QPR2 Beta 5",
-      "link": "https://www.androidauthority.com/android-17-qpr2-beta-5-3712182/",
-      "summary": "Android 17 QPR2 Beta 5 offers Google's latest look at the platform's next big update.",
-      "pub_date": "Wed, 16 Sep 2026 20:56:36 +0000",
+      "title": "This Google AI experiment wants to become your family’s unpaid intern",
+      "link": "https://www.androidauthority.com/google-ai-cc-family-household-assistant-3712623/",
+      "summary": "Remember Google CC? It's now a shared AI assistant for families.",
+      "pub_date": "Thu, 17 Sep 2026 21:15:59 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Android Canary 2609 arrives with lockable Quick Settings",
-      "link": "https://www.androidauthority.com/android-canary-2609-3712140/",
-      "summary": "Keeping unauthorized users from messing with your phone.",
-      "pub_date": "Wed, 16 Sep 2026 19:43:26 +0000",
+      "title": "Motorola just shared a cryptic teaser for a new device",
+      "link": "https://www.androidauthority.com/motorola-september-event-teaser-3712582/",
+      "summary": "Techtember is starting to get crowded.",
+      "pub_date": "Thu, 17 Sep 2026 19:49:00 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Gemini was broken on the Pixel Watch 5, but Google’s got a fix",
-      "link": "https://www.androidauthority.com/pixel-watch-5-gemini-bug-3712101/",
-      "summary": "A Pixel Watch 5 bug is causing Gemini to fail, and no one knows why.",
-      "pub_date": "Wed, 16 Sep 2026 18:47:02 +0000",
+      "title": "Google reveals how its new 3D emoji were designed, and which Android brands are getting them",
+      "link": "https://www.androidauthority.com/noto-3d-emoji-rollout-3712554/",
+      "summary": "Plus an exhaustive preview, ready to search.",
+      "pub_date": "Thu, 17 Sep 2026 19:04:05 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     },
     {
-      "title": "Spotify bug is preventing users from following and blocking each other",
-      "link": "https://www.androidauthority.com/spotify-follow-block-bug-3712072/",
-      "summary": "Can't follow or block anyone on Spotify right now? You’re not alone.",
-      "pub_date": "Wed, 16 Sep 2026 17:40:49 +0000",
+      "title": "Google’s upcoming custom clocks could be easy to edit and move between Pixels",
+      "link": "https://www.androidauthority.com/google-ai-clocks-cloud-backup-device-transfer-3712559/",
+      "summary": "Your custom designs could follow you.",
+      "pub_date": "Thu, 17 Sep 2026 18:25:09 +0000",
       "source_name": "Android Authority",
       "category": "android_specialized",
       "weight": 27,
-      "fetched_at": "2026-09-17 08:00"
+      "fetched_at": "2026-09-18 07:56"
     }
   ]
 }
