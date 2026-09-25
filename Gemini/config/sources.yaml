@@ -39,38 +39,62 @@ indices:
       enabled: true
       weight: 30
 
-# --- TAB 1: TIN TRONG NƯỚC ---
+# --- TAB 1: TIN TRONG NƯỚC (THỜI SỰ CHÍNH TRỊ & KINH TẾ) ---
 news_domestic_economy:
+  - name: "Báo Chính Phủ Thời Sự"
+    url: "https://baochinhphu.vn/rss/thoi-su.rss"
+    type: "rss"
+    enabled: true
+    weight: 30
+    category: "government_policy"
+  - name: "VnExpress Thời Sự"
+    url: "https://vnexpress.net/rss/thoi-su.rss"
+    type: "rss"
+    enabled: true
+    weight: 30
+    category: "domestic_politics"
+  - name: "Báo Chính Phủ Kinh Tế"
+    url: "https://baochinhphu.vn/rss/kinh-te.rss"
+    type: "rss"
+    enabled: true
+    weight: 30
+    category: "policy"
   - name: "VnExpress Kinh Doanh"
     url: "https://vnexpress.net/rss/kinh-doanh.rss"
     type: "rss"
     enabled: true
     weight: 30
     category: "finance_economy"
+  - name: "Tuổi Trẻ Thời Sự"
+    url: "https://tuoitre.vn/rss/thoi-su.rss"
+    type: "rss"
+    enabled: true
+    weight: 29
+    category: "domestic_politics"
+  - name: "Tuổi Trẻ Kinh Doanh"
+    url: "https://tuoitre.vn/rss/kinh-doanh.rss"
+    type: "rss"
+    enabled: true
+    weight: 28
+    category: "finance_economy"
   - name: "CafeF Tài Chính"
     url: "https://cafef.vn/tai-chinh-ngan-hang.rss"
     type: "rss"
     enabled: true
-    weight: 29
+    weight: 27
     category: "finance"
   - name: "CafeF Doanh Nghiệp"
     url: "https://cafef.vn/doanh-nghiep.rss"
     type: "rss"
     enabled: true
-    weight: 28
+    weight: 26
     category: "business"
   - name: "Vietstock"
     url: "https://vietstock.vn/rss/tai-chinh.rss"
     type: "rss"
     enabled: true
-    weight: 27
+    weight: 26
     category: "finance"
-  - name: "Báo Chính Phủ"
-    url: "https://baochinhphu.vn/rss/kinh-te.rss"
-    type: "rss"
-    enabled: true
-    weight: 30
-    category: "policy"
 
 news_domestic_tech:
   - name: "Tinhte.vn"
@@ -110,26 +134,44 @@ marketshare:
     enabled: true
     weight: 28
 
-# --- TAB 2: TIN QUỐC TẾ ---
+# --- TAB 2: TIN QUỐC TẾ (KINH TẾ & ĐỊA CHÍNH TRỊ TOÀN CẦU) ---
 news_international_macro:
-  - name: "Reuters / BBC World"
-    url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+  - name: "VnExpress Thế Giới"
+    url: "https://vnexpress.net/rss/the-gioi.rss"
     type: "rss"
     enabled: true
     weight: 30
     category: "world_geopolitics"
-  - name: "CNBC Top News"
-    url: "https://search.cnbc.com/rs/search/view.html?partnerId=2000&keywords=trade+economy&sort=date"
+  - name: "Tuổi Trẻ Thế Giới"
+    url: "https://tuoitre.vn/rss/the-gioi.rss"
     type: "rss"
     enabled: true
-    weight: 28
+    weight: 29
+    category: "world_geopolitics"
+  - name: "Báo Tin Tức (TTXVN) Thế Giới"
+    url: "https://baotintuc.vn/the-gioi.rss"
+    type: "rss"
+    enabled: true
+    weight: 29
+    category: "world_geopolitics"
+  - name: "CNBC Economy"
+    url: "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+    type: "rss"
+    enabled: true
+    weight: 29
     category: "global_economy"
-  - name: "Bloomberg / Financial Times"
-    url: "https://www.ft.com/rss/home"
+  - name: "CNBC World News"
+    url: "https://www.cnbc.com/id/100727362/device/rss/rss.html"
     type: "rss"
     enabled: true
     weight: 28
-    category: "global_finance"
+    category: "world_politics"
+  - name: "BBC World News"
+    url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+    type: "rss"
+    enabled: true
+    weight: 28
+    category: "world_geopolitics"
 
 news_international_tech:
   - name: "GSMArena"

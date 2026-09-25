@@ -968,7 +968,7 @@ EDITORIAL_HTML_TEMPLATE = """<!DOCTYPE html>
         <div class="idx-box">
           <div class="idx-top">
             <span class="idx-name">XĂNG RON 95</span>
-            <span class="idx-change neutral">▪ 0.0%</span>
+            {fuel_change_badge}
           </div>
           <div class="idx-bottom">
             <span class="idx-val">{fuel_ron95}</span>
@@ -977,16 +977,13 @@ EDITORIAL_HTML_TEMPLATE = """<!DOCTYPE html>
         </div>
       </div>
 
-      <!-- Section: Tổng hợp Diễn biến Thị trường Tài chính & Vàng -->
-      {financial_overview_html}
-
-      <!-- Section: 3 Điểm tin vĩ mô nóng nhất (Black Banner) -->
+      <!-- Section: Tiêu điểm Thời sự & Kinh tế - Chính trị trong nước (Black Banner) -->
       <div class="editorial-banner-card">
         <div class="banner-black-top">
           <div class="banner-title">
-            <span>⚡</span> 3 ĐIỂM TIN VĨ MÔ NÓNG NHẤT
+            <span>⚡</span> TIÊU ĐIỂM THỜI SỰ & KINH TẾ - CHÍNH TRỊ
           </div>
-          <div class="banner-timer">60 GIÂY ĐỌC</div>
+          <div class="banner-timer">90 GIÂY ĐỌC</div>
         </div>
         <div class="banner-card-body">
           {domestic_economy_news_html}
@@ -1076,6 +1073,9 @@ EDITORIAL_HTML_TEMPLATE = """<!DOCTYPE html>
         </table>
       </div>
 
+      <!-- Section: Chuyên mục Tài chính & Diễn biến Thị trường Vàng (Đưa xuống dưới) -->
+      {financial_overview_html}
+
     </div>
 
     <!-- ============================================== -->
@@ -1089,7 +1089,7 @@ EDITORIAL_HTML_TEMPLATE = """<!DOCTYPE html>
           <div class="banner-title">
             <span>🌍</span> KINH TẾ & ĐỊA CHÍNH TRỊ TOÀN CẦU
           </div>
-          <div class="banner-timer">REUTERS • BBC • CNBC</div>
+          <div class="banner-timer">VNEXPRESS • TTXVN • REUTERS • BBC • CNBC</div>
         </div>
         <div class="banner-card-body">
           {intl_macro_news_html}
@@ -1555,9 +1555,9 @@ def build_daily_portal(daily_data: Dict[str, Any], output_dir: Path) -> Path:
     raw_newsletter_text = build_raw_newsletter_text(structured_news, date_str, vn_trends, financial_overview, competitors)
     
     # Render các khối tin tức theo phong cách huy hiệu đen 01, 02, 03...
-    domestic_economy_news_html = render_editorial_news_html(domestic_economy_items[:3], mode="macro")
-    domestic_tech_news_html = render_editorial_news_html(domestic_tech_items[:3], mode="tech")
-    intl_macro_news_html = render_editorial_news_html(intl_macro_items[:3], mode="macro")
+    domestic_economy_news_html = render_editorial_news_html(domestic_economy_items[:5], mode="macro")
+    domestic_tech_news_html = render_editorial_news_html(domestic_tech_items[:4], mode="tech")
+    intl_macro_news_html = render_editorial_news_html(intl_macro_items[:5], mode="macro")
     intl_tech_news_html = render_editorial_news_html(intl_tech_items[:4], mode="tech")
     social_news_html = render_editorial_news_html(social_items[:3], mode="social")
     flash_news_html = render_flash_news_html(flash_items)
@@ -1565,6 +1565,14 @@ def build_daily_portal(daily_data: Dict[str, Any], output_dir: Path) -> Path:
     
     financial_overview_html = render_financial_overview_html(financial_overview)
     competitor_campaigns_html = render_competitor_campaigns_html(competitors)
+
+    fuel_change_str = fuel.get("change_ron95") or fuel.get("change_pct", "")
+    if fuel_change_str and ("+" in fuel_change_str or "▲" in fuel_change_str):
+        fuel_change_badge = f'<span class="idx-change up">▲ {fuel_change_str.replace("▲", "").strip()}</span>'
+    elif fuel_change_str and ("-" in fuel_change_str or "▼" in fuel_change_str):
+        fuel_change_badge = f'<span class="idx-change down">▼ {fuel_change_str.replace("▼", "").strip()}</span>'
+    else:
+        fuel_change_badge = '<span class="idx-change neutral">▪ 0.0%</span>'
 
     html = EDITORIAL_HTML_TEMPLATE.format(
         date_str=date_str,
@@ -1578,7 +1586,8 @@ def build_daily_portal(daily_data: Dict[str, Any], output_dir: Path) -> Path:
         vnindex_points=stocks.get("vnindex_points", "1,285.40"),
         vnindex_change=stocks.get("vnindex_change", "+6.88"),
         vnindex_pct=stocks.get("vnindex_pct", "0.54").replace("+", "").replace("%", ""),
-        fuel_ron95=fuel.get("ron95", "20.850").replace(" đ/lít", "").replace(" đ", "").replace("/lít", ""),
+        fuel_ron95=fuel.get("ron95", "24.230").replace(" đ/lít", "").replace(" đ", "").replace("/lít", ""),
+        fuel_change_badge=fuel_change_badge,
         financial_overview_html=financial_overview_html,
         domestic_economy_news_html=domestic_economy_news_html,
         domestic_tech_news_html=domestic_tech_news_html,

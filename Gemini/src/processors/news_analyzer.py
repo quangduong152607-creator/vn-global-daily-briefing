@@ -125,14 +125,26 @@ def structure_economy_news(item: Dict[str, Any]) -> Dict[str, Any]:
     impact = ""
 
     combined = (title + " " + summary).lower()
-    if "nợ vay" in combined or "trái phiếu" in combined or "bất động sản" in combined:
+    if "chính phủ" in combined or "thủ tướng" in combined or "nghị quyết" in combined or "nghị định" in combined or "chỉ đạo" in combined or "quốc hội" in combined:
+        if not context:
+            context = "Chính phủ và các cơ quan ban ngành ban hành quyết sách điều hành vĩ mô trọng điểm nhằm thúc đẩy phục hồi và tăng trưởng."
+        impact = "Tháo gỡ điểm nghẽn thể chế, đẩy mạnh cải cách hành chính và tạo hành lang thông thoáng cho hoạt động đầu tư, sản xuất kinh doanh."
+    elif "ngoại giao" in combined or "tổng bí thư" in combined or "chủ tịch nước" in combined or "hội đàm" in combined or "đối tác chiến lược" in combined:
+        if not context:
+            context = "Các hoạt động ngoại giao cấp cao mở rộng quan hệ đối tác kinh tế - thương mại chiến lược, nâng tầm vị thế quốc tế của Việt Nam."
+        impact = "Mở rộng thị trường xuất khẩu, đón đầu làn sóng dịch chuyển chuỗi cung ứng toàn cầu và dòng vốn FDI công nghệ cao."
+    elif "chiến sự" in combined or "xung đột" in combined or "trung đông" in combined or "nga" in combined or "ukraine" in combined or "biển đỏ" in combined:
+        if not context:
+            context = "Căng thẳng địa chính trị và xung đột quân sự khu vực tiếp tục đe dọa các tuyến hàng hải thương mại huyết mạch."
+        impact = "Đẩy chi phí cước vận tải biển và bảo hiểm logistics tăng cao; tạo sức ép lạm phát chi phí đẩy lên giá cả hàng hóa nhập khẩu."
+    elif "bầu cử" in combined or "trump" in combined or "harris" in combined or "nhà trắng" in combined or "chính trường" in combined:
+        if not context:
+            context = "Các diễn biến chính trị và định hướng chính sách đối ngoại của các nền kinh tế hàng đầu tác động mạnh đến thương mại toàn cầu."
+        impact = "Doanh nghiệp chủ động theo dõi để ứng phó với nguy cơ áp đặt các rào cản thuế quan mới và biến động chính sách bảo hộ."
+    elif "nợ vay" in combined or "trái phiếu" in combined or "bất động sản" in combined:
         if not context:
             context = "Áp lực đáo hạn nợ và chi phí tài chính gia tăng khiến đòn bẩy vốn của nhóm bất động sản chạm ngưỡng đỉnh 15 quý."
         impact = "Gia tăng áp lực dự phòng rủi ro lên hệ thống ngân hàng; buộc các chủ đầu tư phải tái cấu trúc dòng tiền và tung gói kích cầu chiết khấu lớn."
-    elif "vàng" in combined or "sjc" in combined or "vàng nhẫn" in combined:
-        if not context:
-            context = "Thị trường kim loại quý duy trì mức chênh lệch lớn giữa giá quốc tế và trong nước trước các phiên đấu thầu bình ổn."
-        impact = "Dòng tiền nhàn rỗi trong dân tiếp tục dịch chuyển vào kênh trú ẩn; tạo áp lực tỷ giá ngoại tệ khi nhu cầu nhập khẩu nguyên liệu tăng."
     elif "nợ xấu" in combined or "npl" in combined or "ngân hàng" in combined:
         if not context:
             context = "Các ngân hàng thương mại phân hóa rõ nét về chất lượng tài sản và biên lãi thuần (NIM) trong bối cảnh tăng trưởng tín dụng chậm."
@@ -141,7 +153,11 @@ def structure_economy_news(item: Dict[str, Any]) -> Dict[str, Any]:
         if not context:
             context = "Thị trường toàn cầu dồn sự chú ý vào tín hiệu nới lỏng tiền tệ của ngân hàng trung ương khi lạm phát hạ nhiệt."
         impact = "Hạ nhiệt áp lực tỷ giá USD/VND lên chính sách tiền tệ trong nước; tạo dư địa hỗ trợ giảm thêm lãi suất cho vay kích thích sản xuất."
-    elif "đức" or "châu âu" in combined or "bầu cử" in combined:
+    elif "vàng" in combined or "sjc" in combined or "vàng nhẫn" in combined:
+        if not context:
+            context = "Thị trường kim loại quý duy trì mức chênh lệch giữa giá quốc tế và trong nước trước các phiên điều tiết cung cầu."
+        impact = "Dòng tiền nhàn rỗi phân bổ thận trọng vào kênh phòng thủ; cơ quan quản lý tiếp tục theo dõi sát để đảm bảo ổn định tỷ giá."
+    elif "đức" or "châu âu" in combined:
         if not context:
             context = "Bầu cử khu vực tại nền kinh tế đầu tàu châu Âu định hình lại liên minh chính trị và cơ cấu ngân sách phục hồi."
         impact = "Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam."
@@ -329,14 +345,26 @@ def process_and_structure_all_news(news_by_category: Dict[str, List[Dict[str, An
     if not intl_tech and news_by_category.get("technology"):
         intl_tech = news_by_category.get("technology", [])
 
-    # 1. Tab 1 - Khối Kinh tế trong nước
-    domestic_economy_structured = [structure_economy_news(it) for it in dom_econ[:5]]
+    # Lọc bớt tin về vàng trong mục tin kinh tế vĩ mô (tránh trùng lặp với khối chuyên đề thị trường vàng ở dưới)
+    non_gold_dom = []
+    gold_dom = []
+    for it in dom_econ:
+        combined_txt = (it.get("title", "") + " " + it.get("summary", "")).lower()
+        if any(w in combined_txt for w in ["vàng sjc", "giá vàng", "vàng nhẫn", "vàng miếng"]):
+            gold_dom.append(it)
+        else:
+            non_gold_dom.append(it)
+    # Ưu tiên toàn bộ tin thời sự, chính sách điều hành, kinh tế; chỉ lấy tối đa 1 tin vàng nếu cần
+    prioritized_dom_econ = non_gold_dom + gold_dom[:1]
+
+    # 1. Tab 1 - Khối Thời sự & Kinh tế - Chính trị trong nước (lấy 6 tin tiêu điểm)
+    domestic_economy_structured = [structure_economy_news(it) for it in prioritized_dom_econ[:6]]
 
     # 2. Tab 1 - Khối Công nghệ trong nước (Tinhte, GenK, Số Hóa)
     domestic_tech_structured = [structure_tech_news(it) for it in dom_tech[:4]]
 
-    # 3. Tab 2 - Khối Kinh tế & Địa chính trị quốc tế (Reuters, BBC, CNBC)
-    intl_macro_structured = [structure_economy_news(it) for it in intl_macro[:4]]
+    # 3. Tab 2 - Khối Kinh tế & Địa chính trị quốc tế (lấy 6 tin tiêu điểm)
+    intl_macro_structured = [structure_economy_news(it) for it in intl_macro[:6]]
 
     # 4. Tab 2 - Khối Công nghệ & Di động quốc tế (GSMArena, The Verge)
     intl_tech_structured = [structure_tech_news(it) for it in intl_tech[:5]]
