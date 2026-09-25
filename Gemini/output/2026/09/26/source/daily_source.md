@@ -1,5 +1,5 @@
 # BẢN TIN 24H — Thứ 7, 26/09/2026
-Kỳ dữ liệu: từ 25/09/2026 00:05 đến 26/09/2026 00:05 (giờ Việt Nam)
+Kỳ dữ liệu: từ 25/09/2026 00:11 đến 26/09/2026 00:11 (giờ Việt Nam)
 Số nguồn đã quét: 8 | Số nguồn lỗi: 0
 Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
@@ -16,19 +16,19 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 ### Giá Vàng
 - **SJC Miền Bắc/TP.HCM**: Mua vào 144.60 tr.đ/lượng | Bán ra 147.60 tr.đ/lượng | Thay đổi: -1.00 tr.đ (Giảm sau phiên trước)
 - **Vàng Thế Giới (Kitco)**: 4,429 USD/oz | Chênh lệch trong nước: ~3.0 tr.đ/lượng
-- *Nguồn: SJC / Kitco | Cập nhật: 00:05 26/09/2026*
+- *Nguồn: SJC / Kitco | Cập nhật: 00:11 26/09/2026*
 
 ### Tỷ Giá Ngoại Tệ
-- **USD/VND**: Mua 25.320 đ | Bán 25.580 đ | Tỷ giá trung tâm NHNN: 24.280 đ
-- **CNY/VND (Nhập khẩu ICT)**: Mua 3.520 đ | Bán 3.520 đ
-- **KRW/VND (Chuỗi cung ứng)**: Mua 18.8 đ | Bán 18.8 đ
+- **USD/VND**: Mua 25.821 đ | Bán 26.080 đ | Tỷ giá trung tâm NHNN: 24.280 đ
+- **CNY/VND (Nhập khẩu ICT)**: Mua 3.863.27 đ | Bán 3.863.27 đ
+- **KRW/VND (Chuỗi cung ứng)**: Mua 18.96 đ | Bán 18.96 đ
 - **Chỉ số DXY**: 104.25
-- *Nguồn: Vietcombank / SBV | Cập nhật: 00:05 26/09/2026*
+- *Nguồn: Vietcombank / SBV | Cập nhật: 00:11 26/09/2026*
 
 ### Thị Trường Chứng Khoán
-- **VN-Index**: 1.285,40 điểm | Biến động: +6.85 (+0.54%) | Khối lượng: 680.5M | Nước ngoài: +120.5 tỷ VNĐ (Mua ròng)
+- **VN-Index**: 1.785,11 điểm | Biến động: +6.85 (+0.54%) | Khối lượng: 680.5M | Nước ngoài: +120.5 tỷ VNĐ (Mua ròng)
 - **HNX-Index**: 242.15 điểm | Biến động: +1.20 (+0.50%)
-- *Nguồn: HOSE / CafeF | Cập nhật: 00:05 26/09/2026*
+- *Nguồn: HOSE / CafeF | Cập nhật: 00:11 26/09/2026*
 
 ### Giá Xăng Dầu
 - **RON 95-III**: 27.080 đ/lít | Kỳ điều hành: Kỳ điều hành 15h00 ngày 24/09/2026
@@ -40,100 +40,100 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 
 ## PHẦN 2 — TIN TRONG NƯỚC
 ### 📈 A. Thời Sự & Kinh Tế - Chính Trị Trong Nước
-### 1. Lý do nhà đầu tư cổ phiếu Apple không cần lo lắng dù giá iPhone gần 2.000 USD
-- **Bối cảnh**: Apple đặt mức giá gần 2.000 USD cho iPhone Duo, mức cao nhất của một smartphone khi ra mắt giữa lúc lạm phát nhiều nơi tăng cao, giới phân tích vẫn cho rằng nhà đầu tư của công ty này không cần lo lắng.
+### 1. Ông Lương Hoàng Thái làm Thứ trưởng Công Thương
+- **Bối cảnh**: Ông Lương Hoàng Thái, Cục trưởng Phòng vệ thương mại, được bổ nhiệm giữ chức Thứ trưởng Công Thương.
 - **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [VnExpress Kinh Doanh](https://vnexpress.net/ly-do-nha-dau-tu-co-phieu-apple-khong-can-lo-lang-du-gia-iphone-gan-2-000-usd-5118756.html)
+- **Nguồn**: [VnExpress Kinh Doanh](https://vnexpress.net/ong-luong-hoang-thai-lam-thu-truong-cong-thuong-5124868.html)
 
-### 2. Chính phủ ban hành Nghị quyết thúc đẩy cải cách thủ tục và mở rộng gói hỗ trợ doanh nghiệp sản xuất
-- **Bối cảnh**: Nghị quyết mới nhấn mạnh cắt giảm tối thiểu 30% chi phí tuân thủ thủ tục hành chính, đẩy mạnh gói tín dụng ưu đãi cho chuỗi cung ứng linh kiện điện tử và chuyển đổi công nghệ xanh.
-- **Tác động**: Tháo gỡ điểm nghẽn thể chế, đẩy mạnh cải cách hành chính và tạo hành lang thông thoáng cho hoạt động đầu tư, sản xuất kinh doanh.
-- **Nguồn**: [Báo Chính Phủ Kinh Tế](https://baochinhphu.vn/nghi-quyet-chinh-phu-ho-tro-doanh-nghiep-2026-102260923.htm)
-
-### 3. Đại gia bán lẻ Thái Lan thu hơn trăm tỷ đồng mỗi ngày ở Việt Nam
-- **Bối cảnh**: Central Retail, tập đoàn bán lẻ hàng đầu Thái Lan, ghi nhận doanh thu khoảng 19.200 tỷ đồng tại Việt Nam, tương đương bình quân 105 tỷ đồng mỗi ngày.
+### 2. Loạt sai phạm ở dự án resort ven biển 1.500 tỷ đồng
+- **Bối cảnh**: Thanh tra TP Đà Nẵng chỉ ra hàng loạt sai phạm về giao đất không đấu giá, xác định giá đất và cấp phép tại dự án Khu du lịch ven biển 1.551 tỷ đồng.
 - **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [VnExpress Kinh Doanh](https://vnexpress.net/dai-gia-ban-le-thai-lan-thu-hon-tram-ty-dong-moi-ngay-o-viet-nam-5118821.html)
+- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/loat-sai-pham-o-du-an-resort-ven-bien-1-500-ty-dong-5124862.html)
 
-### 4. MB Life ra mắt Sản phẩm Bảo hiểm y tế mở rộng “Điểm Tựa Viện Phí”
-- **Bối cảnh**: Ngày 10/9 vừa qua, MB Life chính thức ra mắt Sản phẩm Bảo hiểm y tế mở rộng “Điểm Tựa Viện Phí”, hỗ trợ khách hàng giảm áp lực tài chính từ các chi phí điều trị nội trú còn lại sau phần chi trả của Bảo hiểm y tế (BHYT).
+### 3. Hơn 100.000 người xem múa rồng lửa ở Tòa thánh Tây Ninh
+- **Bối cảnh**: Đêm Trung thu, khoảng trăm nghìn người từ khắp nơi đổ về Toà thánh Tây Ninh chiêm ngưỡng màn múa rồng lửa, lân, quy phụng tại đại lễ Yến Diêu Trì Cung.
 - **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [CafeF Tài Chính](https://cafef.vn/mb-life-ra-mat-san-pham-bao-hiem-y-te-mo-rong-diem-tua-vien-phi-188260910145517465.chn)
+- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/hon-100-000-nguoi-xem-mua-rong-lua-o-toa-thanh-tay-ninh-5124714.html)
 
-### 5. Thủ tướng chỉ đạo đẩy nhanh tiến độ các công trình giao thông trọng điểm và giải ngân vốn đầu tư công
-- **Bối cảnh**: Người đứng đầu Chính phủ yêu cầu các bộ ngành, địa phương tập trung tháo gỡ vướng mắc mặt bằng, vật liệu san lấp, đảm bảo các đại dự án cao tốc và sân bay Long Thành về đích đúng hẹn.
-- **Tác động**: Tháo gỡ điểm nghẽn thể chế, đẩy mạnh cải cách hành chính và tạo hành lang thông thoáng cho hoạt động đầu tư, sản xuất kinh doanh.
-- **Nguồn**: [Báo Chính Phủ Thời Sự](https://baochinhphu.vn/thu-tuong-chi-dao-day-nhanh-tien-do-giao-thong-trong-diem-102260924.htm)
-
-### 6. Chính sách ưu đãi vượt trội thu hút các tập đoàn công nghệ bán dẫn và AI vào Việt Nam
-- **Bối cảnh**: Các trung tâm công nghệ cao tại Hà Nội, TP.HCM và Đà Nẵng triển khai cơ chế sandbox và miễn thuế thu nhập doanh nghiệp để thu hút dòng vốn FDI bán dẫn thế hệ mới.
+### 4. Ôtô tông 6 xe máy ở TP HCM, một người chết
+- **Bối cảnh**: Ôtô Mercedes đến giao lộ ở phường An Phú Đông (quận 12 cũ) tông 6 xe máy, khiến một người tử vong, hai người bị thương nhẹ, chiều 25/9.
 - **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/chinh-sach-uu-dai-vuot-troi-thu-hut-ban-dan-ai-5118990.html)
+- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/oto-tong-6-xe-may-o-tp-hcm-mot-nguoi-chet-5124880.html)
+
+### 5. Nước ngập lút bánh xe tại nhiều đường ở TP HCM
+- **Bối cảnh**: Mưa lớn kéo dài hơn một giờ khiến nhiều tuyến đường, khu dân cư ở các phường phía Tây TP HCM ngập lút bánh xe, chiều 25/9.
+- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/nuoc-ngap-lut-banh-xe-tai-nhieu-duong-o-tp-hcm-5124861.html)
+
+### 6. Đèo Mimosa cửa ngõ Đà Lạt nứt mặt đường kéo dài 40 m
+- **Bối cảnh**: Vết nứt dài 40 m, ăn sâu gần hết một làn đường đèo Mimosa trên quốc lộ 20 đang có dấu hiệu mở rộng, tiềm ẩn nguy cơ sạt lở, đứt gãy mặt đường.
+- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
+- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/deo-mimosa-cua-ngo-da-lat-nut-mat-duong-keo-dai-40-m-5124831.html)
 
 
 ### 💻 B. Công Nghệ & Số Hóa Trong Nước (Tinhte, GenK, Số Hóa)
-### 1. Galaxy Z Fold8 mở màn hình mượt như iPhone Duo
-- **Diễn biến**: Galaxy Z Fold8 mở màn hình mượt như iPhone Duo Một người dùng trên Reddit chia sẻ đoạn video cho thấy chiếc Galaxy Z Fold8 của họ có hiệu ứng khi mở màn hình gập mượt như trên iPhone Duo vừa ra...
-- **Ý nghĩa**: Gia tăng áp lực cạnh tranh lên dòng Galaxy Z Fold của Samsung; thúc đẩy xu hướng phổ cập hóa điện thoại màn hình gập.
-- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/galaxy-z-fold8-mo-man-hinh-muot-nhu-iphone-duo.4176138/)
+### 1. Review Apple Vision Pro: thêm 1 sản phẩm thất bại của Apple
+- **Diễn biến**: Mình đã có dịp sử dụng Apple Vision Pro trong khoảng thời gian khá dài, và hôm nay mình muốn viết bài này để chia sẻ nhiều hơn với anh em về những thứ liên quan tới nó.
+- **Ý nghĩa**: Không chỉ là một bài review.
+- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/review-apple-vision-pro-them-1-san-pham-that-bai-cua-apple.3777081/)
 
-### 2. iPhone 18 Pro Max nặng hơn hẳn đời trước, bù lại pin trâu và tản nhiệt ngon hơn
-- **Diễn biến**: iPhone 18 Pro Max nặng hơn hẳn đời trước, bù lại pin trâu và tản nhiệt ngon hơn Kích thước iPhone 18 Pro Max y hệt đời 17 Pro Max nên anh em tận dụng lại ốp cũ thoải mái, nhưng máy lại tăng thêm...
+### 2. macOS 27.2 beta 2 đổi giao diện thanh âm lượng khi bấm phím
+- **Diễn biến**: 2 beta 2 đổi giao diện thanh âm lượng khi bấm phím Apple vừa tung bản macOS Golden Gate 27.
+- **Ý nghĩa**: 2 beta 2 cho lập trình viên, và mình thấy có một thay đổi nhỏ nhưng khá ưng bụng Khi bấm phím.
+- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/macos-27-2-beta-2-doi-giao-dien-thanh-am-luong-khi-bam-phim.4179087/)
+
+### 3. Apple tạm dừng làm thiết bị đeo AI gắn camera rồi anh em
+- **Diễn biến**: Apple tạm dừng làm thiết bị đeo AI gắn camera rồi anh em Nghe tin Bloomberg bảo Apple vừa hoãn phát triển chiếc thiết bị đeo AI có camera làm mình thấy cũng khá hợp lý. Trước đó họ thử nghiệm một...
+- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
+- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/apple-tam-dung-lam-thiet-bi-deo-ai-gan-camera-roi-anh-em.4179061/)
+
+### 4. Miếng dán màn hình - 'gà đẻ trứng vàng' của các hãng phụ kiện
+- **Diễn biến**: Đa số người dùng dán màn hình ngay sau khi mua điện thoại mới, giúp quy mô thị trường đạt 61,59 tỷ USD với biên lợi nhuận cao.
 - **Ý nghĩa**: Định hình xu hướng tiêu dùng và danh mục sản phẩm chủ lực trong các đợt mua sắm sắp tới.
-- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/iphone-18-pro-max-nang-hon-han-doi-truoc-bu-lai-pin-trau-va-tan-nhiet-ngon-hon.4175898/)
-
-### 3. IFA26: Trên tay ốp lưng SKINARMA cho iPhone gập: Có vòng xoay làm chân đế
-- **Diễn biến**: Đi loanh quanh gian hàng Skinarma ở IFA 2026, mình khá bất ngờ khi thấy họ đã trưng bày sẵn loạt ốp lưng dành riêng cho chiếc iPhone màn hình gập sắp tới.
-- **Ý nghĩa**: Dù Apple còn chưa chính thức giới thiệu.
-- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/ifa26-tren-tay-op-lung-skinarma-cho-iphone-gap-co-vong-xoay-lam-chan-de.4175103/)
-
-### 4. Giá iPhone Duo, 18 Pro tại Việt Nam xếp thứ bao nhiêu thế giới?
-- **Diễn biến**: Trong năm thứ tư có Apple Store Online, các mẫu iPhone Duo và 18 Pro tại Việt Nam vẫn nằm ở top giữa những thị trường có giá tốt nhất thế giới.
-- **Ý nghĩa**: Định hình xu hướng tiêu dùng và danh mục sản phẩm chủ lực trong các đợt mua sắm sắp tới.
-- **Nguồn**: [VnExpress Số Hóa](https://vnexpress.net/gia-iphone-duo-18-pro-tai-viet-nam-xep-thu-bao-nhieu-the-gioi-5118722.html)
+- **Nguồn**: [VnExpress Số Hóa](https://vnexpress.net/mieng-dan-man-hinh-ga-de-trung-vang-cua-cac-hang-phu-kien-5123712.html)
 
 
 ### ⚔️ C. Chiến Dịch Quảng Cáo & Khuyến Mãi Đối Thủ (CellphoneS vs FPT Shop — 30 Ngày)
-### 1. [MỚI CẬP NHẬT] [CellphoneS] Siêu Sale 9.9: Đại tiệc công nghệ - Giảm đến 70% toàn bộ smartphone & phụ kiện
-- **Điểm nhấn**: Giảm đến 70%
-- **Nội dung ưu đãi**: CellphoneS tung chuỗi deal sốc ngày đôi 9.9 với hàng loạt mẫu iPhone, Samsung Galaxy và máy tính bảng giảm giá tới 70%. Tặng kèm voucher Smember giảm thêm đến 500.000đ và trả góp 0% qua thẻ tín dụng.
-- **Thời gian áp dụng**: 07/09/2026 - 12/09/2026 | **Cập nhật**: 26/09/2026 08:30
-- **Nguồn**: [CellphoneS](https://cellphones.com.vn)
+### 1. [MỚI CẬP NHẬT] [CellphoneS] CellphoneS mở bán Mac Mini M6, Mac Mini M5 Pro và Mac Studio M5 với nhiều ưu đãi hấp dẫn - CellphoneS
+- **Điểm nhấn**: Ưu đãi hấp dẫn
+- **Nội dung ưu đãi**: CellphoneS mở bán Mac Mini M6, Mac Mini M5 Pro và Mac Studio M5 với nhiều ưu đãi hấp dẫn&nbsp;&nbsp;CellphoneS
+- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Fri, 25 Sep 2026 07:21:34 GMT
+- **Nguồn**: [CellphoneS](https://news.google.com/rss/articles/CBMib0FVX3lxTE0xZXd4WkdIVE9sRnFZMWxLRFV3SXRoU09MS29oWG15dDF5U3NiNVQwS2FBbmY0NFgwWkhtRVlzNV9oc0RVQWk5RUxUbzM0cjZnX2pBWWtSNFlXdEp2OFBsZWpBX0xLZ1lmTk15OVNiTQ?oc=5)
 
-### 2. [MỚI CẬP NHẬT] [FPT Shop] SIÊU SALE NGÀY ĐÔI 9.9: Giảm đến 50%, voucher lên đến 5 triệu đồng trên Shopee Live FPT Shop
-- **Điểm nhấn**: Giảm đến 50% + Voucher 5 Tr
-- **Nội dung ưu đãi**: FPT Shop kết hợp cùng sàn thương mại điện tử triển khai phiên live đại tiệc công nghệ ngày đôi 9.9. Giảm giá trực tiếp lên đến 50% cho laptop, màn hình PC và tặng voucher trợ giá đến 5 triệu đồng.
-- **Thời gian áp dụng**: 08/09/2026 - 11/09/2026 | **Cập nhật**: 26/09/2026 07:45
-- **Nguồn**: [FPT Shop](https://fptshop.com.vn)
+### 2. [MỚI CẬP NHẬT] [CellphoneS] iPhone 14 Pro giảm giá sâu, dọn đường cho iPhone 16 Pro - Baolangson.vn
+- **Điểm nhấn**: Ưu đãi hấp dẫn
+- **Nội dung ưu đãi**: iPhone 14 Pro giảm giá sâu, dọn đường cho iPhone 16 Pro&nbsp;&nbsp;Baolangson.vn
+- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Fri, 25 Sep 2026 08:01:35 GMT
+- **Nguồn**: [CellphoneS](https://news.google.com/rss/articles/CBMikwFBVV95cUxQYXRDenJLZ1ZlVFJFdnE3b2UtWHNHZ3Y1Sl91blRjN29GbkxKZFozcFRlT1hVZjlnSkc5c0xzRWZEekhobGNFOTBoWmZadkhiclh0WjZGXzRlNUZQYm5wMndtcTZkcXlhbkc5S0xDVVl6T3BnRGVua0oyYkk4ZDNYNEVkTkJvR1lxd3RtTUFFdXh1UkE?oc=5)
 
-### 3. [CellphoneS] S-Student 2026: Trợ giá sinh viên - Mua laptop, tablet giảm thêm 10% và thu cũ đổi mới
-- **Điểm nhấn**: Giảm thêm 10% cho HSSV
-- **Nội dung ưu đãi**: Chương trình thường niên dành riêng cho học sinh - sinh viên bước vào năm học mới. CellphoneS trợ giá thêm 10% (tối đa 1 triệu đồng), tặng kèm balo công nghệ và hỗ trợ thu máy cũ với mức trợ giá thêm đến 2 triệu đồng.
-- **Thời gian áp dụng**: 01/08/2026 - 30/09/2026 | **Cập nhật**: 21/09/2026 14:20
-- **Nguồn**: [CellphoneS](https://cellphones.com.vn)
+### 3. [MỚI CẬP NHẬT] [CellphoneS] Tận hưởng ưu đãi ngập tràn cùng Thẻ Agribank JCB - Agribank
+- **Điểm nhấn**: Ưu đãi hấp dẫn
+- **Nội dung ưu đãi**: Tận hưởng ưu đãi ngập tràn cùng Thẻ Agribank JCB&nbsp;&nbsp;Agribank
+- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Tue, 22 Sep 2026 10:51:18 GMT
+- **Nguồn**: [CellphoneS](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQjZFbnA5NGFrVDlFT0t6aU9XY3JQbmxGNHA5bUpuZ3FnYVAzWVNsVjVyaVZLb0xoWVRabFMxSWVCeWROWTBQQzdqcTFKZTczcm1xN0JyZlEweEItQktiRGVuSmFJV0Z2MGlpcnhwd293a043MVZQa1U1czl5OWIxaWtkSDJxcV81alZyMWxpR3F5OTluRzhTOGpabGVrXzdZRkNBRm1VVnFDVWtqSjJyakJ2TU9mT0F2cEI4OWtXcGNRQQ?oc=5)
 
-### 4. [FPT Shop] Điểm thi càng cao - Giảm càng sâu: FPT Shop giảm đến 10% cho tân sinh viên và giáo viên
-- **Điểm nhấn**: Giảm đến 10% theo điểm thi
-- **Nội dung ưu đãi**: Đặc quyền mùa tựu trường tại FPT Shop: Căn cứ vào điểm thi tốt nghiệp THPT, các bạn tân sinh viên được giảm giá từ 5% đến 10% khi mua điện thoại và laptop Asus, Acer, Lenovo. Hỗ trợ trả góp 0% lãi suất duyệt nhanh.
-- **Thời gian áp dụng**: 15/08/2026 - 30/09/2026 | **Cập nhật**: 16/09/2026 09:15
-- **Nguồn**: [FPT Shop](https://fptshop.com.vn)
+### 4. [MỚI CẬP NHẬT] [CellphoneS] iPhone 18 Pro ra mắt, nâng cấp từ iPhone 15 với ưu đãi hấp dẫn tại CellphoneS - Vietnam.vn
+- **Điểm nhấn**: Ưu đãi hấp dẫn
+- **Nội dung ưu đãi**: iPhone 18 Pro ra mắt, nâng cấp từ iPhone 15 với ưu đãi hấp dẫn tại CellphoneS&nbsp;&nbsp;Vietnam.vn
+- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Tue, 22 Sep 2026 10:58:37 GMT
+- **Nguồn**: [CellphoneS](https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0ktb1Z3UnQ3TEVWeUJNWFJUdXJhQlNUWDRfS0trcmx5NWNTLUNvb0d1dnlCTmpycjU0U3VxUlNOMHZfNk1RSlU5eGotR3JFLWdUUGMwZkIzRWlTMHJWZzUwTVFETW9GU3VETG95QTgyVi11Q19ORlFQVEplVG8zZVc1Z3A3X2xKMjU1azA5aGVtc05Ycldhem1LZ09iYmJf?oc=5)
 
-### 5. [MỚI CẬP NHẬT] [CellphoneS] Thu cũ đổi mới iPhone 16 Series: Trợ giá trực tiếp 4 triệu đồng khi lên đời
-- **Điểm nhấn**: Trợ giá đến 4 triệu
-- **Nội dung ưu đãi**: Chương trình chuẩn bị đón đầu làn sóng nâng cấp smartphone flagship quý 3. Khách hàng mang máy cũ thuộc các dòng iPhone 12/13/14/15 sẽ được định giá cao nhất thị trường kèm ưu đãi trợ giá 4 triệu khi đặt trước thế hệ mới.
-- **Thời gian áp dụng**: 01/09/2026 - 30/09/2026 | **Cập nhật**: 24/09/2026 16:00
-- **Nguồn**: [CellphoneS](https://cellphones.com.vn)
+### 5. [MỚI CẬP NHẬT] [FPT Shop] Sắm iPhone 18 Pro Series tại FPT Shop, ưu đãi đến 10 triệu đồng, trả góp 0% - FPT Shop
+- **Điểm nhấn**: Ưu đãi hấp dẫn
+- **Nội dung ưu đãi**: Sắm iPhone 18 Pro Series tại FPT Shop, ưu đãi đến 10 triệu đồng, trả góp 0%&nbsp;&nbsp;FPT Shop
+- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Tue, 22 Sep 2026 11:26:47 GMT
+- **Nguồn**: [FPT Shop](https://news.google.com/rss/articles/CBMitgFBVV95cUxQOTRXUTZJR0w3MWl1aUZzcDlsRFdUa0UwYV9EOHFlblVZZUV6UVhaU0lpdWhBaTc0aE80aTlpajBwN01EV2QzU3RmSlpUYmRRSzNCVXdaQkIycEd6ZnFZT1E4U0NwelZGbEJTcEY3UU9RdTdSWTZIREgzbTFyX2I5dm1EM2pRNzM3ZmdrSXZmaVVvdFJUV1h4eGpudDFEUXBJUEpzd0pRN3VTRTdyd2hNMGEtc2hNUQ?oc=5)
 
-### 6. [FPT Shop] Đặc quyền Galaxy AI: Tặng 6 tháng Google AI Pro 5TB khi sở hữu Galaxy Z8 Series
-- **Điểm nhấn**: Tặng Google AI Pro 6 tháng
-- **Nội dung ưu đãi**: Hợp tác chiến lược giữa FPT Shop, Samsung và Google: Khách hàng mua dòng máy gập Galaxy Z8 Series được tặng ngay gói tài khoản Google AI Pro 5TB lưu trữ đám mây trị giá hàng triệu đồng cùng ưu đãi bảo hành mở rộng 2 năm.
-- **Thời gian áp dụng**: 15/08/2026 - 15/09/2026 | **Cập nhật**: 11/09/2026 11:00
-- **Nguồn**: [FPT Shop](https://fptshop.com.vn)
+### 6. [FPT Shop] Chào mùa tựu trường, nhận ưu đãi đến 10% tại FPT Shop - FPT Shop
+- **Điểm nhấn**: Ưu đãi hấp dẫn
+- **Nội dung ưu đãi**: Chào mùa tựu trường, nhận ưu đãi đến 10% tại FPT Shop&nbsp;&nbsp;FPT Shop
+- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Fri, 10 Jul 2026 04:49:11 GMT
+- **Nguồn**: [FPT Shop](https://news.google.com/rss/articles/CBMikgFBVV95cUxQbVprU21qR3FFQnhTekRiS3VnQ05Zd2MyUVB4V19HTzZsV0FyRVRzMmVOaG93Z2NIOUVNSzNZQU9aMnc3V3RSbkpkZFRjXzREQUtseDcyOW93X2RXc3U4LUJGOEhaN3VrcGVQcVhfZmx6d09MX0Jtam5SUjJ0Z3dnOUJXUDZPT2dLZUxJWU92UVpUdw?oc=5)
 
 
 ### 🏛️ D. Chuyên Đề Thị Trường Tài Chính & Vàng
 #### 1. Thị trường Cổ phiếu (VN-Index): Tăng điểm tích cực
-- **Tóm tắt diễn biến**: Chỉ số VN-Index ghi nhận mức giao dịch quanh ngưỡng 1.285,40 điểm (+6.85 điểm, tương ứng +0.54%), thanh khoản toàn thị trường duy trì ở mức khá với khối lượng khớp lệnh đạt xấp xỉ 680.5M cổ phiếu. Đáng chú ý, dòng tiền khối ngoại duy trì vị thế +120.5 tỷ VNĐ (Mua ròng), tạo bệ đỡ tâm lý vững chắc cho thị trường chung.
+- **Tóm tắt diễn biến**: Chỉ số VN-Index ghi nhận mức giao dịch quanh ngưỡng 1.785,11 điểm (+6.85 điểm, tương ứng +0.54%), thanh khoản toàn thị trường duy trì ở mức khá với khối lượng khớp lệnh đạt xấp xỉ 680.5M cổ phiếu. Đáng chú ý, dòng tiền khối ngoại duy trì vị thế +120.5 tỷ VNĐ (Mua ròng), tạo bệ đỡ tâm lý vững chắc cho thị trường chung.
 - **Phân tích dòng tiền & kỹ thuật**:
 • Dòng tiền dẫn dắt: Nhóm Ngân hàng, Bán lẻ ICT và Cổ phiếu Công nghệ ghi nhận lực cầu bắt đáy chủ động; các mã đầu ngành duy trì đà phân hóa tích cực.
 • Xu hướng & Kỹ thuật: VN-Index tiếp tục vận động trên đường trung bình MA20, vùng hỗ trợ ngắn hạn được xác lập quanh mốc tâm lý quan trọng, trong khi áp lực chốt lời ngắn hạn xuất hiện tại các vùng kháng cự đỉnh cũ.
@@ -142,113 +142,113 @@ Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
 - **Tóm tắt diễn biến**: Giá vàng miếng SJC trong nước sáng nay niêm yết tại mức 144.60 triệu đồng/lượng (mua vào) và 147.60 triệu đồng/lượng (bán ra). Giá vàng nhẫn tròn trơn 999.9 giao dịch quanh mức 144.10 - 147.60 triệu đồng/lượng. Trên thị trường quốc tế, giá vàng giao ngay (Kitco Spot Gold) neo tại mức 4,429 USD/oz.
 - **Tác động vĩ mô & chênh lệch**:
 • Chênh lệch & Biến động: Biên độ chênh lệch giữa giá vàng miếng SJC trong nước và giá vàng thế giới quy đổi duy trì ở mức ~3.0 tr.đ/lượng. Thị trường ghi nhận xu hướng điều chỉnh (-1.00 tr.đ (Giảm sau phiên trước)) sau chuỗi phiên biến động mạnh.
-• Động lực vĩ mô: Diễn biến giá vàng chịu tác động kép từ chỉ số đồng USD (DXY dao động quanh 104.25, tỷ giá USD/VND ở mức 25.450 đ), kỳ vọng điều chỉnh lãi suất chính sách của Cục Dự trữ Liên bang Mỹ (Fed), cùng nhu cầu tích trữ tài sản an toàn trước các bất định địa chính trị toàn cầu.
+• Động lực vĩ mô: Diễn biến giá vàng chịu tác động kép từ chỉ số đồng USD (DXY dao động quanh 104.25, tỷ giá USD/VND ở mức 25.951 đ), kỳ vọng điều chỉnh lãi suất chính sách của Cục Dự trữ Liên bang Mỹ (Fed), cùng nhu cầu tích trữ tài sản an toàn trước các bất định địa chính trị toàn cầu.
 
 
 ---
 
 ## PHẦN 3 — TIN QUỐC TẾ
 ### 🌍 A. Kinh Tế & Địa Chính Trị Toàn Cầu (Reuters, BBC, CNBC)
-### 1. Chính trường Mỹ trước thềm bầu cử: Tranh cãi chính sách thuế quan và tác động tới chuỗi cung ứng toàn cầu
-- **Bối cảnh**: Các cam kết áp thuế nhập khẩu bổ sung và định hình lại hàng rào bảo hộ mậu dịch trở thành tâm điểm tranh luận nảy lửa, đe dọa làm xáo trộn luồng chuỗi cung ứng toàn cầu.
-- **Tác động**: Doanh nghiệp chủ động theo dõi để ứng phó với nguy cơ áp đặt các rào cản thuế quan mới và biến động chính sách bảo hộ.
-- **Nguồn**: [VnExpress Thế Giới](https://vnexpress.net/chinh-truong-my-tranh-cai-thue-quan-5118911.html)
-
-### 2. Làn sóng đầu tư hạ tầng AI thúc đẩy xuất khẩu linh kiện điện tử và bán dẫn tại khu vực châu Á
-- **Bối cảnh**: Nhu cầu xây dựng các trung tâm dữ liệu AI thế hệ mới bùng nổ, kéo theo chuỗi cung ứng sản xuất chip và thiết bị phần cứng tại châu Á ghi nhận sản lượng xuất khẩu cao kỷ lục.
+### 1. Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks
+- **Bối cảnh**: The remarks came as the Houthis ra mắt a new wave of missile and drone attacks at Saudi targets Friday morning.
 - **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [CNBC World News](https://www.cnbc.com/2026/09/24/ai-data-center-boom-drives-asia-chip-exports.html)
+- **Nguồn**: [CNBC Economy](https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html)
 
-### 3. Watch: Is Trump's $5,000 election pledge legal?
-- **Bối cảnh**: The US president has said every American will get $5,000 (£3,700) if the Republican Party wins November's midterms.
+### 2. Warsh's regime change at the Fed pushes ahead – and meets resistance
+- **Bối cảnh**: Fed Chairman Kevin Warsh is driving rapid change in some areas, while his emerging policy framework suggests further rate hikes remain possible.
+- **Tác động**: Hạ nhiệt áp lực tỷ giá USD/VND lên chính sách tiền tệ trong nước; tạo dư địa hỗ trợ giảm thêm lãi suất cho vay kích thích sản xuất.
+- **Nguồn**: [CNBC Economy](https://www.cnbc.com/2026/09/25/kevin-warsh-fed-interest-rates-balance-sheet.html)
+
+### 3. Vợ chồng ông Tập đem theo bình nước riêng tới quốc yến tại Mỹ
+- **Bối cảnh**: Chủ tịch Tập Cận Bình và phu nhân đem theo hai bình giữ nhiệt riêng tới dự quốc yến ở Nhà Trắng, có thể do thói quen uống nước ấm của người Trung Quốc.
 - **Tác động**: Doanh nghiệp chủ động theo dõi để ứng phó với nguy cơ áp đặt các rào cản thuế quan mới và biến động chính sách bảo hộ.
-- **Nguồn**: [Reuters / BBC World](https://www.bbc.co.uk/news/videos/czxzwge59w8o?at_medium=RSS&at_campaign=rss)
+- **Nguồn**: [VnExpress Thế Giới](https://vnexpress.net/vo-chong-ong-tap-dem-theo-binh-nuoc-rieng-toi-quoc-yen-tai-my-5124888.html)
 
-### 4. Iran war won't end until after crucial November elections, says Trump
-- **Bối cảnh**: The president also said oil prices won't come down until after the November races, claiming without evidence that Iran wants to impact the election.
-- **Tác động**: Doanh nghiệp chủ động theo dõi để ứng phó với nguy cơ áp đặt các rào cản thuế quan mới và biến động chính sách bảo hộ.
-- **Nguồn**: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss)
+### 4. Iran đề xuất lộ trình 7 ngày mở lại eo biển Hormuz
+- **Bối cảnh**: Ngoại trưởng Iran Araghchi cho biết nước này đã gửi đề xuất tới Mỹ nhằm chấm dứt xung đột và mở lại eo biển Hormuz trong vòng 7 ngày.
+- **Tác động**: Đẩy chi phí cước vận tải biển và bảo hiểm logistics tăng cao; tạo sức ép lạm phát chi phí đẩy lên giá cả hàng hóa nhập khẩu.
+- **Nguồn**: [VnExpress Thế Giới](https://vnexpress.net/iran-de-xuat-lo-trinh-7-ngay-mo-lai-eo-bien-hormuz-5124885.html)
 
-### 5. Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry
-- **Bối cảnh**: The fire broke out as the vessel nearing its destination at the tourist hotspot of Coron in Palawan.
+### 5. Tổng Bí thư, Chủ tịch nước nêu 5 phương hướng để phát triển quan hệ Việt Nam - Canada
+- **Bối cảnh**: Tổng Bí thư, Chủ tịch nước Tô Lâm phát biểu tại nghị viện Canada, nêu những phương hướng như củng cố tin cậy chính trị, kết nối thế mạnh của hai nước để phát triển quan hệ song phương.
+- **Tác động**: Mở rộng thị trường xuất khẩu, đón đầu làn sóng dịch chuyển chuỗi cung ứng toàn cầu và dòng vốn FDI công nghệ cao.
+- **Nguồn**: [VnExpress Thế Giới](https://vnexpress.net/tong-bi-thu-chu-tich-nuoc-neu-5-phuong-huong-de-phat-trien-quan-he-viet-nam-canada-5124865.html)
+
+### 6. Mỹ - Trung thu được gì từ cuộc gặp thượng đỉnh ở Washington?
+- **Bối cảnh**: Sau màn đón tiếp hoành tráng với những nghi thức hiếm có, lãnh đạo Mỹ - Trung vẫn chưa tháo được những nút thắt về thương mại và công nghệ trong quan hệ song phương.
 - **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss)
-
-### 6. Royal family rift after popular TV news presenter chosen to succeed Ugandan king
-- **Bối cảnh**: King Oyo's family say he left a will naming his young son as heir to the Tooro kingdom.
-- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/c8jdpj4ydm2o?at_medium=RSS&at_campaign=rss)
+- **Nguồn**: [VnExpress Thế Giới](https://vnexpress.net/my-trung-thu-duoc-gi-tu-cuoc-gap-thuong-dinh-o-washington-5124806.html)
 
 
 ### 📱 B. Công Nghệ & Thiết Bị Di Động Quốc Tế (GSMArena, The Verge)
-### 1. The variable aperture isn’t the cool part of the iPhone 18 Pro’s camera
-- **Diễn biến**: Apple always makes a big show of the latest cameras in its phones, and the major talking point of the iPhone 18 Pro is about the new variable aperture. Both the iPhone 18 Pro and Pro Max have an adjustable mechanical iris in their main camera modules to let more or less light int...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/tech/993155/variable-aperture-iphone-18-pro-photography)
+### 1. vivo S2 FE's buổi ra mắt date and design revealed by online retailer
+- **Diễn biến**: A recent rumor claimed that vivo would buổi ra mắt the S2 FE on October 6 alongside the V80. While vivo is yet to say anything about the S2 FE, Indian online retailer Flipkart has set up a promo page on its website, confirming the smartphone's October 6 unveiling. Flipkart has also sh...
+- **Ý nghĩa**: Củng cố thị phần phân khúc cận cao cấp; tạo sức ép trực tiếp lên dòng Reno của OPPO tại thị trường Việt Nam.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/vivo_s2_fe_launch_date_design-news-74766.php)
 
-### 2. Samsung promised this Galaxy bestseller six Android upgrades, but it’s lagging after the first
-- **Diễn biến**: Owners report lag issues, frozen touchscreens, and worsening performance.
-- **Ý nghĩa**: Bảo vệ vững chắc vị thế dẫn đầu 31.2% thị phần bán lẻ GfK trước sự bám đuổi của Xiaomi và Realme.
-- **Nguồn**: [Android Authority](https://www.androidauthority.com/galaxy-a07-one-ui-8-5-lag-touchscreen-issues-3709684/)
+### 2. Exclusive: Here's the buổi ra mắt timeframe of the Oppo F35 and F35 Pro
+- **Diễn biến**: Oppo teased the F35 series earlier this month, and we later heard the brand would buổi ra mắt the F35 and F35 Pro in India in October.
+- **Ý nghĩa**: Now, we have a more definite buổi ra mắt timeframe for both models A reliable source told us the Oppo F35 and F35 Pro will buổi ra mắt in India between October.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/oppo_f35_f35_pro_india_launch_timeframe-news-74764.php)
 
-### 3. 6 secret Samsung apps every Galaxy owner should download right now
-- **Diễn biến**: So many great Samsung apps hiding in plain sight.
-- **Ý nghĩa**: Bảo vệ vững chắc vị thế dẫn đầu 31.2% thị phần bán lẻ GfK trước sự bám đuổi của Xiaomi và Realme.
-- **Nguồn**: [Android Authority](https://www.androidauthority.com/best-secret-samsung-apps-2026-3705438/)
+### 3. thông tin rò rỉ reveal a new Apple HomePod mini, iPad mini, and Apple TV 4K
+- **Diễn biến**: Apple is expected to announce more hardware before the end of the year following the debut of the iPhone 18 Pro and folding iPhone Duo earlier this month. The updated products will include a new version of the HomePod mini, the iPad mini 8, and the Apple TV 4K, according to detai...
+- **Ý nghĩa**: Gia tăng áp lực cạnh tranh lên dòng Galaxy Z Fold của Samsung; thúc đẩy xu hướng phổ cập hóa điện thoại màn hình gập.
+- **Nguồn**: [The Verge Tech](https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k)
 
-### 4. Mathematicians want proof OpenAI didn’t use their work
-- **Diễn biến**: Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models benefited from unpublished work, a second mathematician has come forward accusing ...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data)
+### 4. Infinix unveils GT NX Controller and GT NX Station dock
+- **Diễn biến**: Infinix has now ra mắt the GT NX Controller and the GT NX Station.
+- **Ý nghĩa**: The former is designed to be able to replicate "the nuanced precision" of touchscreen operation, featuring "the world's first Pixel-Level FPS Precision Touchpad" in a mobile gaming controller, delivering "mouse-.
+- **Nguồn**: [GSMArena](https://www.gsmarena.com/infinix_unveils_gt_nx_controller_and_gt_nx_station_dock-news-74768.php)
 
-### 5. The Trump phone just got a $250 price hike
-- **Diễn biến**: Bad news if you didn't lock in a Trump phone at buổi ra mắt: It now costs $749, a $250 increase on its price at buổi ra mắt.
-- **Ý nghĩa**: The T1 Phone itself hasn't changed Trump Mobile didn't announce the price increase, instead âm thầm changing its website overnight This wasn't a total surprise tho.
-- **Nguồn**: [The Verge Tech](https://www.theverge.com/gadgets/993242/trump-phone-t1-price-hike)
+### 5. Deal: Samsung Galaxy A57 5G gets a $100 Amazon price drop
+- **Diễn biến**: Samsung Galaxy A57 5G drops to $449.99 at Amazon, with a 6.7-inch 120Hz AMOLED screen and 5,000mAh battery.
+- **Ý nghĩa**: Tạo đòn bẩy thúc đẩy người dùng nâng cấp thiết bị 5G; gia tăng sức mua cho dòng smartphone tầm trung từ 6-10 triệu đồng.
+- **Nguồn**: [Android Authority](https://www.androidauthority.com/samsung-galaxy-a57-5g-deal-3715684/)
 
 
 ### ⚡ C. Tin Vắn Nhanh Quốc Tế
-• **[At least 20 dead after fire on cargo ...]**: President Xi Jinping has called for urgent search and rescue efforts. (Nguồn: [Reuters / BBC World](https://www.bbc.co.uk/news/articles/cj4jyv7l92eo?at_medium=RSS&at_campaign=rss))
-• **[Ngân hàng Trung ương châu Âu và Fed c...]**: Các số liệu việc làm và chỉ số giá tiêu dùng mới nhất củng cố triển vọng tiếp tục hạ lãi suất điều hành, nhằm trợ lực cho đà phục hồi kinh tế và dòng vốn đầu tư xuyên biên giới. (Nguồn: [CNBC Economy](https://www.cnbc.com/2026/09/24/central-banks-rate-cuts-inflation-cooling.html))
-• **[Căng thẳng địa chính trị Trung Đông v...]**: Các xung đột cục bộ gia tăng áp lực lên chi phí cước vận tải biển tuyến Á - Âu, buộc các hãng tàu lớn tiếp tục duy trì lộ trình vòng qua châu Phi. (Nguồn: [Báo Tin Tức (TTXVN) Thế Giới](https://baotintuc.vn/the-gioi/cang-thang-dia-chinh-tri-va-an-ninh-hang-hai-202609241512.htm))
-• **[Trung Quốc triển khai thêm gói kích t...]**: Ngân hàng Nhân dân Trung Quốc hạ tỷ lệ dự trữ bắt buộc và bơm thêm nguồn vốn thanh khoản trung hạn nhằm vực dậy niềm tin tiêu dùng và hỗ trợ doanh nghiệp xuất khẩu. (Nguồn: [Tuổi Trẻ Thế Giới](https://tuoitre.vn/trung-quoc-tung-goi-kich-thich-kinh-te-moi-202609241200.htm))
-• **[IMF ditched top candidate for chief e...]**: LSE professor Ricardo Reis had said the US president’s trade war would hurt American consumers. (Nguồn: [Bloomberg / Financial Times](https://www.ft.com/content/98329c45-f5b7-4885-9911-e0c8a9c83c0a?syn-25a6b1a6=1))
+• **[Campuchia điều tra trại lừa đảo liên ...]**: Quan chức Campuchia xác nhận đang điều tra mối liên hệ giữa các khu phức hợp lừa đảo trực tuyến với hai thượng nghị sĩ kiêm doanh nhân quyền lực. (Nguồn: [VnExpress Thế Giới](https://vnexpress.net/campuchia-dieu-tra-trai-lua-dao-lien-quan-hai-nghi-si-5124798.html))
+• **[Thông điệp ganh đua ẩn sau cái bắt ta...]**: Hội nghị thượng đỉnh tại Washington cho thấy cuộc cạnh tranh ngầm giữa lãnh đạo Mỹ - Trung từ những cử chỉ ngoại giao nhỏ nhất. (Nguồn: [VnExpress Thế Giới](https://vnexpress.net/thong-diep-ganh-dua-an-sau-cai-bat-tay-giua-ong-trump-va-ong-tap-5124771.html))
+• **[Thước đo thực chất quan hệ Việt Nam -...]**: Theo Tổng Bí thư, Chủ tịch nước Tô Lâm, thước đo thực chất nhất của quan hệ hai nước còn cần nằm ở số dự án, số vốn được giải ngân và những giá trị mới hai bên cùng tạo ra. (Nguồn: [Tuổi Trẻ Thế Giới](https://tuoitre.vn/thuoc-do-thuc-chat-quan-he-viet-nam-canada-khong-chi-nam-o-so-van-kien-ky-ket-100260925231713511.htm))
+• **[Ông Tập hẹn ông Trump thêm hai cuộc g...]**: Tổng thống Trump và Chủ tịch Tập Cận Bình đã phát đi những thông điệp tích cực về quan hệ Mỹ - Trung. (Nguồn: [Tuổi Trẻ Thế Giới](https://tuoitre.vn/ong-tap-hen-ong-trump-them-hai-cuoc-gap-trong-nam-nay-10026092523181654.htm))
+• **[Ông Zelensky]**: Tổng thống Zelensky ngày 25-9 cho biết Mỹ đã đề xuất tổ chức cuộc gặp ba bên với Nga và Ukraine tại UAE. (Nguồn: [Tuổi Trẻ Thế Giới](https://tuoitre.vn/ong-zelensky-my-de-xuat-gap-ba-ben-voi-nga-tai-uae-10026092521144314.htm))
 
 ---
 
 ## PHẦN 4 — TIN SOCIAL, SHOWBIZ GIẢI TRÍ & TOP TỪ KHÓA TRENDING
 ### Top Từ Khóa Thịnh Hành Google Trends (Việt Nam)
-- **#01**: **giá xăng dầu petrolimex tăng** (50K+) [🔥 Thịnh hành]
-- **#02**: **bão số 3 và thời tiết tphcm** (50K+) [🔥 Thịnh hành]
-- **#03**: **iphone 16 pro max mở bán** (50K+) [📱 ICT / Công nghệ]
-- **#04**: **hdbank & cổ phiếu ngân hàng** (20K+) [🔥 Thịnh hành]
-- **#05**: **u17 việt nam thi đấu** (20K+) [🔥 Thịnh hành]
-- **#06**: **giá vàng sjc hôm nay** (20K+) [🔥 Thịnh hành]
-- **#07**: **samsung galaxy z fold 6** (10K+) [📱 ICT / Công nghệ]
-- **#08**: **vivo x200 series ra mắt** (10K+) [📱 ICT / Công nghệ]
-- **#09**: **real madrid cúp châu âu** (10K+) [🔥 Thịnh hành]
-- **#10**: **xổ số kiến thiết miền nam** (10K+) [🔥 Thịnh hành]
+- **#01**: **fifa asean cup** (1000+) [🔥 Thịnh hành]
+- **#02**: **xổ số miền bắc** (200000+) [🔥 Thịnh hành]
+- **#03**: **vtv6** (5000+) [🔥 Thịnh hành]
+- **#04**: **u-23 hàn quốc đấu với u-23 việt nam** (100000+) [🔥 Thịnh hành]
+- **#05**: **australia vs brazil** (500+) [🔥 Thịnh hành]
+- **#06**: **gió** (2000+) [🔥 Thịnh hành]
+- **#07**: **úc đấu với brasil** (20000+) [🔥 Thịnh hành]
+- **#08**: **ngân hàng** (2000+) [🔥 Thịnh hành]
+- **#09**: **quang lê** (5000+) [🔥 Thịnh hành]
+- **#10**: **máy bay trực thăng** (1000+) [🔥 Thịnh hành]
 
 ### Tiêu Điểm Showbiz, Giải Trí & Xu Hướng Viral Mạng Xã Hội
-### 1. 'Cô gái đẹp nhất thế giới' quay MV bằng iPhone 18 Pro
-- **Tiêu điểm**: Rosé (nhóm Blackpink) hợp tác đạo diễn Dave Meyers thực hiện MV "New Trick", quay bằng iPhone 18 Pro.
+### 1. Tom Cruise, kẻ đi ngược thời đại số
+- **Tiêu điểm**: Ở thời đại phim AI, Tom Cruise cống hiến cho điện ảnh những pha mạo hiểm "người thật việc thật", vững vị thế sao hạng A hơn bốn thập niên.
 - **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
-- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/co-gai-dep-nhat-the-gioi-quay-mv-bang-iphone-18-pro-5118672.html)
+- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/tom-cruise-ke-di-nguoc-thoi-dai-so-5123752.html)
 
-### 2. Diễn viên 'Đi đến nơi có gió' tử vong trong phòng trọ
-- **Tiêu điểm**: Thi thể diễn viên Trung Quốc Vương Tân Phưởng, 54 tuổi, được phát hiện trong phòng trọ, cảnh sát loại trừ nguyên nhân án mạng, tự tử.
+### 2. Ngô Diễm Ni, mỹ nhân điền kinh tại ASIAD
+- **Tiêu điểm**: Vận động viên điền kinh Trung Quốc Ngô Diễm Ni (Wu Yanni) thường gắn mi giả, trang điểm kỹ để tự tin khi thi đấu.
 - **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
-- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/dien-vien-di-den-noi-co-gio-tu-vong-trong-phong-tro-5118824.html)
+- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/ngo-diem-ni-my-nhan-dien-kinh-tai-asiad-5124535.html)
 
-### 3. 'Vẻ đẹp cổ tích' của công chúa, hoàng tử Monaco
-- **Tiêu điểm**: Hoàng tử Jacques và Công chúa Gabriella của Monaco được nhiều người nhận xét có nét đẹp như "bước ra từ cổ tích".
+### 3. Trung thu trong cung đình triều Nguyễn
+- **Tiêu điểm**: Năm Minh Mạng thứ 20 (1839), các quan văn từ tam phẩm, quan võ từ nhị phẩm trở lên được miễn chầu vua dịp Tết Trung thu.
 - **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
-- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/ve-dep-co-tich-cua-cong-chua-hoang-tu-monaco-5118614.html)
+- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/trung-thu-trong-cung-dinh-trieu-nguyen-5123672.html)
 
-### 4. Gwyneth Paltrow ôn chuyện tình với Brad Pitt
-- **Tiêu điểm**: Minh tinh Gwyneth Paltrow kể cô và Brad Pitt yêu nhau từ cái nhìn đầu tiên, vẫn duy trì tình bạn sau 30 năm chia tay.
+### 4. George Clooney an ủi gia đình Cindy Crawford
+- **Tiêu điểm**: Vợ chồng tài tử George Clooney chia buồn cùng gia đình Cindy Crawford trước nỗi đau con trai lớn của siêu mẫu qua đời.
 - **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
-- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/gwyneth-paltrow-on-chuyen-tinh-voi-brad-pitt-5118392.html)
+- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/george-clooney-an-ui-gia-dinh-cindy-crawford-5124596.html)
 
 
 ---
