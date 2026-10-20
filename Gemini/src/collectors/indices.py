@@ -135,21 +135,37 @@ def fetch_forex() -> List[Dict[str, Any]]:
             for m in missing:
                 m["error"] = (m["error"] + f" | er-api: {e}").strip(" |")
 
-    # Chuỗi 3 tháng cho biểu đồ: tỷ giá thị trường quốc tế (Yahoo), vì Vietcombank không có lịch sử
-    for key, _, code, _ in spec:
-        try:
-            metrics[key]["series"] = yahoo_chart(f"{code}VND=X" if code != "USD" else "VND=X")[2]
-            metrics[key]["series_note"] = "Biểu đồ: tỷ giá thị trường quốc tế (Yahoo Finance)"
-        except Exception:
-            pass  # không có chuỗi thì dùng lịch sử tự lưu (history.json)
+    # Chuỗi 3 tháng cho biểu đồ: tỷ giá thị trường quốc tế (Yahoo), vì Vietcombank không có lịch sử.
+    # Yahoo không có cặp CNY/VND, KRW/VND -> tính chéo qua USD: (USD/VND) / (USD/CNY)
+    try:
+        usd_series = yahoo_chart("VND=X")[2]
+        crosses = {"USD": usd_series}
+        usd_by_date = dict((d, v) for d, v in usd_series)
+        for code in ("CNY", "KRW"):
+            per_usd = yahoo_chart(f"{code}=X")[2]
+            crosses[code] = [[d, usd_by_date[d] / v] for d, v in per_usd if d in usd_by_date and v]
+        for key, _, code, _ in spec:
+            if len(crosses[code]) >= 2:
+                metrics[key]["series"] = crosses[code]
+                metrics[key]["series_note"] = "Biểu đồ: tỷ giá thị trường quốc tế (Yahoo Finance)"
+    except Exception as e:
+        print(f"     ✕ Chuỗi tỷ giá Yahoo: {e}")  # thiếu chuỗi thì dùng lịch sử tự lưu (history.json)
 
     return [metrics[k] for k, *_ in spec]
 
 
 # ---------------------------------------------------------------- Yahoo Finance (chuỗi giá đóng cửa)
 
-def yahoo_chart(symbol: str, rng: str = "3mo"):
-    """(giá hiện tại, thời điểm, [[ngày ISO, giá đóng cửa], ...]) — điểm cuối là giá hiện tại."""
+def yahoo_chart(symbol: str):
+    """(giá hiện tại, thời điểm, [[ngày ISO, giá đóng cửa], ...]) — điểm cuối là giá hiện tại.
+    Một số mã (vd ^VNINDEX.VN) không trả chuỗi cho khung 3 tháng -> thử lại khung 1 tháng."""
+    price, ts, points = yahoo_chart_range(symbol, "3mo")
+    if len(points) < 2:
+        price, ts, points = yahoo_chart_range(symbol, "1mo")
+    return price, ts, points
+
+
+def yahoo_chart_range(symbol: str, rng: str):
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol)}?interval=1d&range={rng}"
     res = json.loads(http_get(url))["chart"]["result"][0]
     closes = res["indicators"]["quote"][0].get("close", [])
