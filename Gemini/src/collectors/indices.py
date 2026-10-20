@@ -188,9 +188,17 @@ def fetch_yahoo(key: str, label: str, group: str, symbol: str, unit: str, decima
     m = make_metric(key, label, group, unit, decimals, "Yahoo Finance", f"https://finance.yahoo.com/quote/{symbol}")
     try:
         price, ts, points = yahoo_chart(symbol)
+        prev = points[-2][1] if len(points) >= 2 else None
+        if prev is None:
+            # Mã không có chuỗi đóng cửa (vd ^VNINDEX.VN): lấy giá đóng cửa phiên trước từ thông tin phiên;
+            # biểu đồ khi đó tự tích lũy qua history.json
+            meta = json.loads(http_get(f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol)}"
+                                       f"?interval=1d&range=1d"))["chart"]["result"][0]["meta"]
+            prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+            points = []
         m.update({
             "value": price,
-            "prev": points[-2][1] if len(points) >= 2 else None,
+            "prev": prev,
             "series": points,
             "as_of": datetime.fromtimestamp(ts).strftime("%H:%M %d/%m/%Y") if ts else "",
             "ok": True,

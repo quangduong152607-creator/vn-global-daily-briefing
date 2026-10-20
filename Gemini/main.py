@@ -84,7 +84,7 @@ def run_pipeline():
     apply_history(indices, today=now.date().isoformat())
     for m in indices:
         print(f"  {'✓' if m['ok'] else '✕'} {m['label']}: {m['value']} {m['unit']} — {m['source']}"
-              f" | biểu đồ {len(m['series'])} điểm {m['error'][:100]}")
+              f" | trước {m['prev']} | biểu đồ {len(m['series'])} điểm {m['error'][:100]}")
 
     competitors = collect_competitor_campaigns()
     print(f"  -> Khuyến mãi đối thủ: {competitors['total_campaigns']} bài ({competitors['new_campaigns_count']} mới)")
