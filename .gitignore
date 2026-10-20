@@ -6,5 +6,6 @@ __pycache__/
 .agents/
 .repowise/
 .vscode/
-.claude/
+.claude/*
+!.claude/settings.json
 outputs/
