@@ -1,17 +1,16 @@
 """
 Lưu lịch sử chỉ số theo ngày (data/history.json) để tính thay đổi so với kỳ trước
-và vẽ sparkline cho các chỉ số mà nguồn không cung cấp chuỗi lịch sử (tỷ giá VCB, vàng SJC, xăng).
+và vẽ biểu đồ cho các chỉ số mà nguồn không cung cấp chuỗi lịch sử (vàng SJC, xăng, chênh lệch vàng).
 Chỉ lưu số thật đã lấy được; ngày lỗi thì không ghi.
 """
 
 import json
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Dict, Any, List
 
 HISTORY_FILE = Path(__file__).parent.parent.parent / "data" / "history.json"
-MAX_DAYS = 120
-SERIES_LEN = 15
+MAX_DAYS = 400
 
 
 def load_history(path: Path = HISTORY_FILE) -> Dict[str, Dict[str, float]]:
@@ -35,15 +34,15 @@ def apply_history(metrics: List[Dict[str, Any]], today: str = None, path: Path =
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(history, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 
-    days = sorted(history)
     for m in metrics:
         if not m["ok"]:
             continue
+        own = [[d, history[d][m["key"]]] for d in sorted(history) if m["key"] in history[d]]
         if m["prev"] is None:
-            earlier = [history[d][m["key"]] for d in days if d < today and m["key"] in history[d]]
+            earlier = [v for d, v in own if d < today]
             m["prev"] = earlier[-1] if earlier else None
         if not m["series"]:
-            m["series"] = [history[d][m["key"]] for d in days if m["key"] in history[d]][-SERIES_LEN:]
+            m["series"] = own
 
 
 def change_of(metric: Dict[str, Any]):
@@ -52,3 +51,16 @@ def change_of(metric: Dict[str, Any]):
     if v is None or p in (None, 0):
         return None, None
     return v - p, (v - p) / p * 100
+
+
+def change_over(metric: Dict[str, Any], days: int):
+    """% thay đổi của chuỗi biểu đồ so với điểm gần nhất cách ít nhất `days` ngày. None nếu chuỗi chưa đủ dài."""
+    series = metric.get("series") or []
+    if len(series) < 2:
+        return None
+    last_date, last = series[-1]
+    cutoff = (date.fromisoformat(last_date) - timedelta(days=days)).isoformat()
+    base = [v for d, v in series if d <= cutoff]
+    if not base or base[-1] == 0:
+        return None
+    return (last - base[-1]) / base[-1] * 100

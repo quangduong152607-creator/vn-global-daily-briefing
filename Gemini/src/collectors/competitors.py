@@ -21,6 +21,16 @@ PROJECT_ROOT = Path(__file__).parent.parent.parent.resolve()
 CACHE_FILE = PROJECT_ROOT / "data" / "raw" / "competitor_campaigns.json"
 WINDOW_DAYS = 30
 
+# (tên hiển thị, cách gọi trong truy vấn Google News)
+RETAILERS = [
+    ("Thế Giới Di Động", '("Thế Giới Di Động" OR TGDĐ OR TopZone)'),
+    ("FPT Shop", '"FPT Shop"'),
+    ("CellphoneS", 'CellphoneS'),
+    ("Di Động Việt", '"Di Động Việt"'),
+    ("Hoàng Hà Mobile", '"Hoàng Hà Mobile"'),
+    ("Viettel Store", '"Viettel Store"'),
+]
+
 PROMO_KEYWORDS = [
     "khuyến mãi", "ưu đãi", "giảm giá", "sale", "hot sale", "thu cũ",
     "đổi mới", "trả góp", "quà tặng", "voucher", "back to school",
@@ -109,7 +119,7 @@ def fetch_google_news_campaigns(brand: str, query: str) -> List[Dict[str, Any]]:
 
 def collect_competitor_campaigns() -> Dict[str, Any]:
     """
-    Thu thập, đối soát và gắn nhãn các chiến dịch quảng cáo của CellphoneS và FPT Shop trong 1 tháng.
+    Thu thập, đối soát và gắn nhãn các chiến dịch khuyến mãi của các chuỗi bán lẻ ĐTDĐ trong 30 ngày.
     Tự động đánh dấu is_new khi phát hiện bài khuyến mãi mới.
     """
     cached_db = load_cached_campaigns()
@@ -119,16 +129,11 @@ def collect_competitor_campaigns() -> Dict[str, Any]:
     # Thử quét online qua Google News RSS và Sforum
     raw_campaigns = []
     
-    # 1. CellphoneS
-    cellphones_query = 'CellphoneS ("khuyến mãi" OR "ưu đãi" OR "giảm giá" OR "sale" OR "thu cũ" OR "smember")'
-    cp_items = fetch_google_news_campaigns("CellphoneS", cellphones_query)
-    raw_campaigns.extend([c for c in cp_items if is_recent(c.get('pub_date', ''))][:4])
-    
-    # 2. FPT Shop
-    fpt_query = '"FPT Shop" ("khuyến mãi" OR "ưu đãi" OR "giảm giá" OR "sale" OR "thu cũ" OR "sinh viên")'
-    fpt_items = fetch_google_news_campaigns("FPT Shop", fpt_query)
-    raw_campaigns.extend([c for c in fpt_items if is_recent(c.get('pub_date', ''))][:4])
-    
+    promo = '("khuyến mãi" OR "ưu đãi" OR "giảm giá" OR "sale" OR "thu cũ" OR "trả góp")'
+    for brand, name_q in RETAILERS:
+        items = fetch_google_news_campaigns(brand, f"{name_q} {promo}")
+        raw_campaigns.extend([c for c in items if is_recent(c.get("pub_date", ""))][:3])
+
     processed_campaigns = []
     seen_titles = set()
     
@@ -159,27 +164,15 @@ def collect_competitor_campaigns() -> Dict[str, Any]:
     cached_db["campaigns"] = cached_items
     save_cached_campaigns(cached_db)
     
-    # Phân nhóm theo thương hiệu
-    cellphones_list = [c for c in processed_campaigns if c["brand"] == "CellphoneS"]
-    fpt_list = [c for c in processed_campaigns if c["brand"] == "FPT Shop"]
-    
     return {
         "all_campaigns": processed_campaigns,
-        "cellphones": cellphones_list[:4],
-        "fpt_shop": fpt_list[:4],
         "total_campaigns": len(processed_campaigns),
         "new_campaigns_count": sum(1 for c in processed_campaigns if c.get("is_new")),
-        "time_window": "30 ngày qua (1 tháng gần nhất)"
+        "time_window": "30 ngày qua",
     }
 
 if __name__ == "__main__":
     res = collect_competitor_campaigns()
-    print(f"Tổng hợp: {res['total_campaigns']} chiến dịch ({res['new_campaigns_count']} chiến dịch mới)")
-    print(f"- CellphoneS: {len(res['cellphones'])} chiến dịch")
-    for c in res['cellphones']:
-        tag = "[MỚI CẬP NHẬT]" if c.get("is_new") else ""
-        print(f"  * {tag} {c['title']} ({c['discount_highlight']})")
-    print(f"- FPT Shop: {len(res['fpt_shop'])} chiến dịch")
-    for c in res['fpt_shop']:
-        tag = "[MỚI CẬP NHẬT]" if c.get("is_new") else ""
-        print(f"  * {tag} {c['title']} ({c['discount_highlight']})")
+    print(f"Tổng hợp: {res['total_campaigns']} bài ({res['new_campaigns_count']} mới)")
+    for c in res["all_campaigns"]:
+        print(f"  * [{c['brand']}]{' [MỚI]' if c.get('is_new') else ''} {c['title']}")

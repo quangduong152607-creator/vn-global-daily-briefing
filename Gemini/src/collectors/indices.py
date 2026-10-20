@@ -43,7 +43,8 @@ def make_metric(key: str, label: str, group: str, unit: str, decimals: int,
         "decimals": decimals,
         "value": None,
         "prev": None,          # giá trị kỳ trước do NGUỒN cung cấp (nếu có)
-        "series": [],          # chuỗi lịch sử do NGUỒN cung cấp (nếu có)
+        "series": [],          # [[ngày ISO, giá trị], ...] do NGUỒN cung cấp (nếu có)
+        "series_note": "",     # ghi chú khi chuỗi lấy từ nguồn khác với giá trị hiện tại
         "sub": "",             # dòng phụ, ví dụ "Mua 26.020 · Bán 26.370"
         "as_of": "",           # mốc thời gian của số liệu theo nguồn
         "source": source,
@@ -134,32 +135,47 @@ def fetch_forex() -> List[Dict[str, Any]]:
             for m in missing:
                 m["error"] = (m["error"] + f" | er-api: {e}").strip(" |")
 
+    # Chuỗi 3 tháng cho biểu đồ: tỷ giá thị trường quốc tế (Yahoo), vì Vietcombank không có lịch sử
+    for key, _, code, _ in spec:
+        try:
+            metrics[key]["series"] = yahoo_chart(f"{code}VND=X" if code != "USD" else "VND=X")[2]
+            metrics[key]["series_note"] = "Biểu đồ: tỷ giá thị trường quốc tế (Yahoo Finance)"
+        except Exception:
+            pass  # không có chuỗi thì dùng lịch sử tự lưu (history.json)
+
     return [metrics[k] for k, *_ in spec]
 
 
 # ---------------------------------------------------------------- Yahoo Finance (chuỗi giá đóng cửa)
 
+def yahoo_chart(symbol: str, rng: str = "3mo"):
+    """(giá hiện tại, thời điểm, [[ngày ISO, giá đóng cửa], ...]) — điểm cuối là giá hiện tại."""
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol)}?interval=1d&range={rng}"
+    res = json.loads(http_get(url))["chart"]["result"][0]
+    closes = res["indicators"]["quote"][0].get("close", [])
+    points = [[datetime.fromtimestamp(t).date().isoformat(), float(c)]
+              for t, c in zip(res.get("timestamp", []), closes) if c is not None]
+    price = res["meta"].get("regularMarketPrice") or (points[-1][1] if points else None)
+    if price is None:
+        raise ValueError("không có giá")
+    ts = res["meta"].get("regularMarketTime")
+    today = datetime.fromtimestamp(ts).date().isoformat() if ts else (points[-1][0] if points else "")
+    # Yahoo có thể chưa ghi phiên hiện tại vào chuỗi đóng cửa
+    if points and points[-1][0] == today:
+        points[-1][1] = float(price)
+    else:
+        points.append([today, float(price)])
+    return float(price), ts, points
+
+
 def fetch_yahoo(key: str, label: str, group: str, symbol: str, unit: str, decimals: int) -> Dict[str, Any]:
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol)}?interval=1d&range=1mo"
     m = make_metric(key, label, group, unit, decimals, "Yahoo Finance", f"https://finance.yahoo.com/quote/{symbol}")
     try:
-        res = json.loads(http_get(url))["chart"]["result"][0]
-        closes = [c for c in res["indicators"]["quote"][0].get("close", []) if c is not None]
-        price = res["meta"].get("regularMarketPrice") or (closes[-1] if closes else None)
-        if price is None:
-            raise ValueError("không có giá")
-        # Yahoo có thể chưa ghi phiên hôm nay vào closes -> so với close cuối nếu nó khác giá hiện tại
-        if closes and abs(closes[-1] - price) < 1e-9:
-            prev = closes[-2] if len(closes) >= 2 else None
-            series = closes[-15:]
-        else:
-            prev = closes[-1] if closes else None
-            series = (closes + [price])[-15:]
-        ts = res["meta"].get("regularMarketTime")
+        price, ts, points = yahoo_chart(symbol)
         m.update({
-            "value": float(price),
-            "prev": prev,
-            "series": series,
+            "value": price,
+            "prev": points[-2][1] if len(points) >= 2 else None,
+            "series": points,
             "as_of": datetime.fromtimestamp(ts).strftime("%H:%M %d/%m/%Y") if ts else "",
             "ok": True,
         })
@@ -240,11 +256,27 @@ def fetch_fuel() -> Dict[str, Any]:
 
 # ---------------------------------------------------------------- Tổng hợp
 
+OZ_PER_LUONG = 37.5 / 31.1034768  # 1 lượng = 37,5 g; 1 troy ounce = 31,1034768 g
+
+
+def gold_spread(sjc: Dict[str, Any], world: Dict[str, Any], usd: Dict[str, Any]) -> Dict[str, Any]:
+    """Chênh lệch giá bán SJC so với vàng thế giới quy đổi theo tỷ giá bán USD (chưa gồm thuế, phí)."""
+    m = make_metric("gold_spread", "Chênh SJC – thế giới", "gold", "tr.đ/lượng", 2,
+                    "Tính từ Vàng SJC, Vàng thế giới, USD/VND", sjc["source_url"])
+    if not (sjc["ok"] and world["ok"] and usd["ok"]):
+        m["error"] = "Thiếu một trong ba số: vàng SJC, vàng thế giới, USD/VND"
+        return m
+    world_vnd = world["value"] * usd["value"] * OZ_PER_LUONG / 1e6
+    m.update({"value": sjc["value"] - world_vnd, "sub": f"Thế giới quy đổi {world_vnd:.2f}".replace(".", ","), "ok": True})
+    return m
+
+
 def collect_all_indices() -> List[Dict[str, Any]]:
     """Trả về danh sách chỉ số theo thứ tự hiển thị."""
     metrics = fetch_forex()
-    metrics.append(fetch_gold_sjc())
-    metrics.append(fetch_yahoo("gold_world", "Vàng thế giới", "gold", "GC=F", "USD/oz", 1))
+    sjc = fetch_gold_sjc()
+    world = fetch_yahoo("gold_world", "Vàng thế giới", "gold", "GC=F", "USD/oz", 1)
+    metrics += [sjc, world, gold_spread(sjc, world, metrics[0])]
     metrics.append(fetch_yahoo("vnindex", "VN-Index", "stock", "^VNINDEX.VN", "điểm", 2))
     metrics.append(fetch_fuel())
     metrics.append(fetch_yahoo("brent", "Dầu Brent", "commodity", "BZ=F", "USD/thùng", 2))

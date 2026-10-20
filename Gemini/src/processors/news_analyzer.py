@@ -123,15 +123,22 @@ def structure_item(item: Dict[str, Any]) -> Dict[str, Any]:
         "score": item.get("importance_score", 0),
         "tags": topic_tags(f"{title} {summary} {item.get('title_en', '')} {item.get('summary_en', '')}"),
         "from_cache": item.get("from_cache", False),
+        "topic": item.get("topic", ""),
     }
 
 
+# Thứ tự = thứ tự nhận tin: tin đã vào mục trước không lặp lại ở mục sau
 SECTION_LIMITS = {
+    "brand_vn": 14,
+    "supply_chain": 9,
     "domestic_economy": 8,
     "domestic_tech": 6,
     "international_macro": 8,
     "international_tech": 6,
 }
+
+
+WATCH_EXCLUDE = {"brand_vn", "supply_chain"}
 
 
 def process_and_structure_all_news(news_by_category: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
@@ -150,8 +157,9 @@ def process_and_structure_all_news(news_by_category: Dict[str, List[Dict[str, An
                 break
         sections[cat] = out
 
-    # Đáng chú ý: tin có nhãn ngành, ưu tiên nhiều nhãn và điểm cao. Nhãn chỉ có "Tỷ giá"/"Thuế" vẫn được tính.
-    all_items = [it for cat in SECTION_LIMITS for it in sections[cat]]
+    # Đáng chú ý: tin báo chí chung có nhãn ngành, ưu tiên nhiều nhãn và điểm cao
+    # (tin hãng và chuỗi cung ứng đã có mục riêng)
+    all_items = [it for cat in SECTION_LIMITS if cat not in WATCH_EXCLUDE for it in sections[cat]]
     watch = [it for it in all_items if it["tags"]]
     watch.sort(key=lambda it: (len(it["tags"]), it["score"]), reverse=True)
     sections["watchlist"] = watch[:8]

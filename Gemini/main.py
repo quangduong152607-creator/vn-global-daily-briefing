@@ -10,6 +10,7 @@ from datetime import datetime
 
 from src.collectors.indices import collect_all_indices
 from src.collectors.news_rss import collect_news
+from src.collectors.google_news import collect_brand_and_supply_news
 from src.collectors.trends import collect_all_trends
 from src.collectors.marketshare import get_latest_marketshare_data
 from src.collectors.competitors import collect_competitor_campaigns
@@ -18,7 +19,7 @@ from src.processors.dedup import deduplicate_items
 from src.processors.verify import verify_and_tag_items
 from src.processors.ranker import rank_items
 from src.processors.translator import translate_news_batch
-from src.processors.news_analyzer import process_and_structure_all_news, SECTION_LIMITS
+from src.processors.news_analyzer import process_and_structure_all_news, SECTION_LIMITS, WATCH_EXCLUDE
 from src.processors.history import apply_history, change_of
 
 from src.publisher.site_builder import build_daily_portal, fmt_num, NEWS_SECTIONS
@@ -87,6 +88,7 @@ def run_pipeline():
     competitors = collect_competitor_campaigns()
     print(f"  -> Khuyến mãi đối thủ: {competitors['total_campaigns']} bài ({competitors['new_campaigns_count']} mới)")
     raw_news = collect_news(sources_cfg)
+    raw_news.update(collect_brand_and_supply_news())
     trends = collect_all_trends()
     print(f"  -> Google Trends VN: {len(trends['vn_trends'])} từ khóa")
 
@@ -94,7 +96,9 @@ def run_pipeline():
     processed_news = {}
     for cat in SECTION_LIMITS:
         items = raw_news.get(cat, [])
-        ranked = rank_items(verify_and_tag_items(deduplicate_items(items)))
+        tagged = verify_and_tag_items(deduplicate_items(items))
+        # Tin hãng / chuỗi cung ứng giữ thứ tự theo nhóm truy vấn, không xếp hạng lại
+        ranked = tagged if cat in WATCH_EXCLUDE else rank_items(tagged)
         processed_news[cat] = translate_news_batch(ranked[:10]) + ranked[10:]
         print(f"  -> {cat}: {len(items)} tin thô -> {len(ranked)} tin sau khử trùng")
     structured_news = process_and_structure_all_news(processed_news)

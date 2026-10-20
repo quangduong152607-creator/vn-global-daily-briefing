@@ -10,7 +10,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, Any, List
 
-from src.processors.history import change_of
+from src.processors.history import change_of, change_over
 from src.processors.news_analyzer import format_pub_time
 
 WEEKDAYS = ["Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy", "Chủ Nhật"]
@@ -22,7 +22,12 @@ RELIABILITY_SHORT = {
     "OPINION": ("Nhận định", ""),
 }
 
-NEWS_SECTIONS = [
+# Mục tin hiển thị sau "Đáng chú ý", theo thứ tự trên trang
+FOCUS_SECTIONS = [
+    ("brand_vn", "Tin các hãng tại Việt Nam · 3 ngày"),
+    ("supply_chain", "Chuỗi cung ứng & linh kiện · 7 ngày"),
+]
+NEWS_SECTIONS = FOCUS_SECTIONS + [
     ("domestic_economy", "Thời sự & kinh tế trong nước"),
     ("domestic_tech", "Công nghệ trong nước"),
     ("international_macro", "Kinh tế & địa chính trị quốc tế"),
@@ -30,6 +35,8 @@ NEWS_SECTIONS = [
 ]
 
 esc = html.escape
+SPARK_LEN = 15
+HEAT_PERIODS = [(1, "1 ngày"), (7, "7 ngày"), (30, "30 ngày")]
 
 
 def fmt_num(v: float, decimals: int) -> str:
@@ -38,7 +45,8 @@ def fmt_num(v: float, decimals: int) -> str:
     return s.replace(",", "X").replace(".", ",").replace("X", ".")
 
 
-def sparkline(series: List[float], w: int = 96, h: int = 26) -> str:
+def sparkline(points: List[list], w: int = 96, h: int = 26) -> str:
+    series = [v for _, v in points[-SPARK_LEN:]]
     if len(series) < 2:
         return ""
     lo, hi = min(series), max(series)
@@ -77,6 +85,83 @@ def render_metric(m: Dict[str, Any]) -> str:
 </div>"""
 
 
+def fmt_pct(p) -> str:
+    if p is None:
+        return "—"
+    return ("+" if p > 0 else "−" if p < 0 else "") + fmt_num(abs(p), 2) + "%"
+
+
+def render_heatmap(metrics: List[Dict[str, Any]]) -> str:
+    """Bảng % thay đổi 1/7/30 ngày. Màu đậm theo độ lớn (bão hòa ở ±3%)."""
+    rows = []
+    for m in metrics:
+        if not m["ok"]:
+            continue
+        cells = []
+        for days, _ in HEAT_PERIODS:
+            # 1 ngày: so với kỳ trước như ô chỉ số; 7/30 ngày: theo chuỗi biểu đồ
+            pct = change_of(m)[1] if days == 1 else change_over(m, days)
+            if pct is None:
+                cells.append('<td class="num heat-na">—</td>')
+                continue
+            alpha = min(abs(pct) / 3, 1) * 0.55 + 0.08
+            color = "var(--up-rgb)" if pct > 0 else "var(--down-rgb)"
+            style = f' style="background:rgba({color},{alpha:.2f})"' if pct else ""
+            cells.append(f'<td class="num"{style}>{fmt_pct(pct)}</td>')
+        star = "*" if m.get("series_note") else ""
+        rows.append(f"<tr><th scope='row'>{esc(m['label'])}{star}</th>{''.join(cells)}</tr>")
+    head = "".join(f'<th class="num">{label}</th>' for _, label in HEAT_PERIODS)
+    return f"""<div class="table-wrap"><table class="heat">
+<thead><tr><th>Chỉ số</th>{head}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+<p class="note">— : chưa đủ lịch sử (vàng SJC, xăng, chênh lệch vàng do bản tin tự lưu mỗi ngày).
+* 7/30 ngày của tỷ giá tính theo tỷ giá thị trường quốc tế (Yahoo); 1 ngày theo Vietcombank.</p>"""
+
+
+def line_chart(points: List[list], decimals: int, w: int = 260, h: int = 110) -> str:
+    """Biểu đồ đường SVG có nhãn cao/thấp và ngày đầu/cuối."""
+    if len(points) < 2:
+        return '<p class="empty">Chưa đủ dữ liệu để vẽ.</p>'
+    vals = [v for _, v in points]
+    lo, hi = min(vals), max(vals)
+    span = (hi - lo) or 1
+    pad_t, pad_b = 14, 18
+    ih = h - pad_t - pad_b
+    step = w / (len(points) - 1)
+    xy = [(i * step, pad_t + (hi - v) / span * ih) for i, v in enumerate(vals)]
+    line = " ".join(f"{x:.1f},{y:.1f}" for x, y in xy)
+    area = f"0,{pad_t + ih} " + line + f" {w},{pad_t + ih}"
+    lx, ly = xy[-1]
+
+    def d(iso):
+        return f"{iso[8:10]}/{iso[5:7]}"
+    return f"""<svg class="chart" viewBox="0 0 {w} {h}" role="img" aria-label="Biểu đồ {len(points)} phiên">
+<line x1="0" y1="{pad_t}" x2="{w}" y2="{pad_t}" class="grid"/><line x1="0" y1="{pad_t + ih}" x2="{w}" y2="{pad_t + ih}" class="grid"/>
+<polygon points="{area}" class="area"/><polyline points="{line}" class="line"/>
+<circle cx="{lx:.1f}" cy="{ly:.1f}" r="3" class="dot"/>
+<text x="2" y="{pad_t - 4}" class="lbl">cao {fmt_num(hi, decimals)}</text>
+<text x="2" y="{h - 4}" class="lbl">thấp {fmt_num(lo, decimals)}</text>
+<text x="{w - 2}" y="{h - 4}" class="lbl" text-anchor="end">{d(points[0][0])} → {d(points[-1][0])}</text>
+</svg>"""
+
+
+def render_charts(metrics: List[Dict[str, Any]]) -> str:
+    def card(m):
+        p30 = change_over(m, 30)
+        note = f'<p class="note">{esc(m["series_note"])}</p>' if m.get("series_note") else ""
+        return f"""<div class="chart-card">
+  <div class="chart-head"><b>{esc(m['label'])}</b><span class="chart-chg">30 ngày: {fmt_pct(p30)}</span></div>
+  {line_chart(m['series'], m['decimals'])}{note}
+</div>"""
+    charted = [m for m in metrics if m["ok"] and len(m["series"]) >= 2]
+    main = [m for m in charted if m["group"] == "fx" and m["key"] != "dxy"]
+    rest = [m for m in charted if m not in main]
+    html_ = f'<div class="charts">{"".join(card(m) for m in main)}</div>'
+    if rest:
+        html_ += (f'<details class="more"><summary>Xem thêm {len(rest)} biểu đồ (vàng, VN-Index, dầu, DXY…)</summary>'
+                  f'<div class="charts">{"".join(card(m) for m in rest)}</div></details>')
+    return html_ if charted else '<p class="empty">Chưa có chuỗi số liệu để vẽ biểu đồ.</p>'
+
+
 def render_news_item(it: Dict[str, Any], show_tags: bool = False) -> str:
     rel_code = (it.get("reliability") or {}).get("code", "")
     rel_text, rel_cls = RELIABILITY_SHORT.get(rel_code, ("", ""))
@@ -85,9 +170,10 @@ def render_news_item(it: Dict[str, Any], show_tags: bool = False) -> str:
         meta.append(esc(it["time"]))
     if rel_text:
         meta.append(f'<span class="rel {rel_cls}">{rel_text}</span>')
+    labels = ([it["topic"]] if it.get("topic") else []) + (it.get("tags", []) if show_tags else [])
     tags = ""
-    if show_tags and it.get("tags"):
-        tags = '<div class="tags">' + "".join(f'<span class="tag">{esc(t)}</span>' for t in it["tags"]) + "</div>"
+    if labels:
+        tags = '<div class="tags">' + "".join(f'<span class="tag">{esc(t)}</span>' for t in dict.fromkeys(labels)) + "</div>"
     summary = it.get("summary", "")
     if len(summary) > 260:
         summary = summary[:257].rsplit(" ", 1)[0] + "…"
@@ -114,9 +200,9 @@ def render_news_list(items: List[Dict[str, Any]], visible: int = 4, show_tags: b
 def render_campaigns(comp: Dict[str, Any]) -> str:
     items = comp.get("all_campaigns", [])
     if not items:
-        return '<p class="empty">Không tìm thấy bài khuyến mãi mới của CellphoneS / FPT Shop trong 30 ngày (hoặc nguồn lỗi).</p>'
+        return '<p class="empty">Không tìm thấy bài khuyến mãi của các chuỗi bán lẻ trong 30 ngày (hoặc nguồn lỗi).</p>'
     rows = []
-    for c in items[:8]:
+    for c in items[:12]:
         badges = f'<span class="tag">{esc(c["brand"])}</span>'
         if c.get("is_new"):
             badges += '<span class="tag new">Mới</span>'
@@ -190,9 +276,10 @@ def build_plain_text(data: Dict[str, Any], date_str: str) -> str:
 
 CSS = """
 :root{--bg:#f5f4f0;--surface:#fff;--ink:#1b1b1b;--muted:#6a6a6a;--line:#e5e2da;--accent:#b4410f;
---up:#13803b;--down:#c0262d;--chip:#f0ede6;--warn:#a15c00}
+--up:#13803b;--down:#c0262d;--chip:#f0ede6;--warn:#a15c00;--up-rgb:19,128,59;--down-rgb:192,38,45}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111;--surface:#1b1b1b;--ink:#ececec;
---muted:#9b9b9b;--line:#2d2d2d;--accent:#f08a4b;--up:#4ade80;--down:#f87171;--chip:#262626;--warn:#fbbf24}}
+--muted:#9b9b9b;--line:#2d2d2d;--accent:#f08a4b;--up:#4ade80;--down:#f87171;--chip:#262626;--warn:#fbbf24;
+--up-rgb:74,222,128;--down-rgb:248,113,113}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
 a{color:inherit}
@@ -250,6 +337,27 @@ table.share{width:100%;border-collapse:collapse;font-size:14px;background:var(--
 .status{list-style:none;padding:0;margin:8px 0 0;font-size:12.5px;color:var(--muted)}
 .status li{padding:3px 0}.status li::before{content:"● ";}
 .status li.ok::before{color:var(--up)}.status li.fail::before{color:var(--down)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table.heat{width:100%;border-collapse:collapse;font-size:13.5px}
+.heat th,.heat td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+.heat thead th{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.heat tbody th{font-weight:600;white-space:normal}
+@media (max-width:480px){.heat th,.heat td{padding:6px 7px;font-size:12.5px}}
+.heat tr:last-child th,.heat tr:last-child td{border-bottom:0}
+.heat-na{color:var(--muted)}
+.charts{display:grid;grid-template-columns:1fr;gap:8px}
+@media (min-width:640px){.charts{grid-template-columns:repeat(3,minmax(0,1fr))}}
+details.more .charts{margin-bottom:8px}
+.chart-card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0}
+.chart-head{display:flex;justify-content:space-between;gap:8px;font-size:13px;margin-bottom:4px}
+.chart-chg{color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.chart{width:100%;height:auto;display:block}
+.chart .line{fill:none;stroke:var(--accent);stroke-width:1.8;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.chart .area{fill:var(--accent);opacity:.08}
+.chart .grid{stroke:var(--line);stroke-dasharray:3 3;vector-effect:non-scaling-stroke}
+.chart .dot{fill:var(--accent)}
+.chart .lbl{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.chart-card .note{margin-top:4px;font-size:11px}
 footer{margin-top:32px;font-size:12px;color:var(--muted)}
 footer details>summary{cursor:pointer;font-weight:600}
 #toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s}
@@ -274,10 +382,12 @@ def render_page(data: Dict[str, Any], now: datetime, base: str = "") -> str:
     watch = news.get("watchlist", [])
     watch_links = {it["link"] for it in watch}
 
-    news_html = ""
-    for key, title in NEWS_SECTIONS:
-        items = [it for it in news.get(key, []) if it["link"] not in watch_links]
-        news_html += f'<section><h2>{title}</h2><div class="card">{render_news_list(items)}</div></section>'
+    def news_sections(sections):
+        out = ""
+        for key, title in sections:
+            items = [it for it in news.get(key, []) if it["link"] not in watch_links]
+            out += f'<section><h2>{title}</h2><div class="card">{render_news_list(items)}</div></section>'
+        return out
 
     watch_html = render_news_list(watch, visible=5, show_tags=True) if watch else \
         '<p class="empty">Hôm nay chưa có tin nào khớp nhóm từ khóa ngành ĐTDĐ (hãng, bán lẻ, chip, thuế, tỷ giá, logistics).</p>'
@@ -307,14 +417,21 @@ def render_page(data: Dict[str, Any], now: datetime, base: str = "") -> str:
 
 <section><h2>Chỉ số thị trường</h2>
 <div class="kpis">{''.join(render_metric(m) for m in metrics)}</div>
-<p class="note">Thay đổi so với phiên/ngày trước. Tỷ giá Vietcombank là giá bán ra.</p>
+<p class="note">Thay đổi so với phiên/ngày trước. Tỷ giá Vietcombank là giá bán ra.
+Chênh SJC – thế giới: giá bán SJC trừ vàng thế giới quy đổi theo USD/VND (chưa gồm thuế, phí).</p>
 </section>
+
+<section><h2>Biến động 1 · 7 · 30 ngày</h2>{render_heatmap(metrics)}</section>
+
+<section><h2>Tỷ giá 3 tháng</h2>{render_charts(metrics)}</section>
 
 <section><h2>Đáng chú ý cho ngành ĐTDĐ</h2><div class="card watch">{watch_html}</div></section>
 
-{news_html}
+{news_sections(FOCUS_SECTIONS)}
 
-<section><h2>Khuyến mãi đối thủ · 30 ngày</h2><div class="card">{render_campaigns(data.get('competitors', {}))}</div></section>
+<section><h2>Khuyến mãi các chuỗi bán lẻ · 30 ngày</h2><div class="card">{render_campaigns(data.get('competitors', {}))}</div></section>
+
+{news_sections(NEWS_SECTIONS[len(FOCUS_SECTIONS):])}
 
 <section><h2>Google Trends Việt Nam</h2>{render_trends(data.get('trends', {}))}</section>
 
