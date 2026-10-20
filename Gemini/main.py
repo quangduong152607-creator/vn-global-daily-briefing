@@ -1,38 +1,31 @@
 #!/usr/bin/env python3
 """
-ĐIỂM ĐIỀU PHỐI CHÍNH (MASTER ORCHESTRATOR)
-Hệ thống Bản tin 24h tự động — Antigravity × NotebookLM
-Phiên bản: 1.1 (Cập nhật dịch tiếng Việt toàn diện, hỗ trợ song ngữ EN/VI & làm sạch giao diện)
+ĐIỂM ĐIỀU PHỐI CHÍNH — Bản tin 24h tự động.
+Thu thập -> xử lý -> xuất daily_source.md (nguồn cho AI/NotebookLM) -> dựng trang docs/ -> QC.
 """
 
-import os
-import sys
 import yaml
-import json
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime
 
-# Import các module thu thập
 from src.collectors.indices import collect_all_indices
 from src.collectors.news_rss import collect_news
 from src.collectors.trends import collect_all_trends
 from src.collectors.marketshare import get_latest_marketshare_data
 from src.collectors.competitors import collect_competitor_campaigns
 
-# Import các module xử lý
 from src.processors.dedup import deduplicate_items
 from src.processors.verify import verify_and_tag_items
 from src.processors.ranker import rank_items
 from src.processors.translator import translate_news_batch
-from src.processors.news_analyzer import process_and_structure_all_news
-from src.processors.financial_overview import generate_financial_overview
+from src.processors.news_analyzer import process_and_structure_all_news, SECTION_LIMITS
+from src.processors.history import apply_history, change_of
 
-# Import bộ sinh xuất bản và QC
-from src.publisher.site_builder import build_daily_portal
+from src.publisher.site_builder import build_daily_portal, fmt_num, NEWS_SECTIONS
 from src.publisher.quality_check import perform_pre_publish_qc
-from src.notebooklm.client import get_infographic_provider
 
 PROJECT_ROOT = Path(__file__).parent.resolve()
+
 
 def load_yaml_config(file_path: Path) -> dict:
     if not file_path.exists():
@@ -40,259 +33,97 @@ def load_yaml_config(file_path: Path) -> dict:
     with open(file_path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
 
-def format_daily_source_md(data: dict) -> str:
-    """Tạo nội dung cho daily_source.md theo template chuẩn Spec 5.5 với 3 khối phân tích sâu"""
-    template_path = PROJECT_ROOT / "templates" / "source_template.md"
-    with open(template_path, "r", encoding="utf-8") as f:
-        template = f.read()
-        
-    now = datetime.now()
-    yesterday = now - timedelta(hours=24)
-    
-    # Số liệu
-    indices = data.get("indices", {})
-    forex = indices.get("forex", {})
-    gold = indices.get("gold", {})
-    stocks = indices.get("stocks", {})
-    fuel = indices.get("fuel", {})
-    
-    structured = data.get("structured_news", {})
-    
-    # 1. KINH TẾ & THỊ TRƯỜNG TRONG NƯỚC
-    dom_econ_items = structured.get("domestic_economy_news") or structured.get("economy_news", [])
-    eco_lines = []
-    for idx, it in enumerate(dom_econ_items, 1):
-        eco_lines.append(f"### {idx}. {it.get('title')}\n- **Bối cảnh**: {it.get('context')}\n- **Tác động**: {it.get('impact')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
-    economy_news_content = "\n".join(eco_lines) if eco_lines else "*Đang cập nhật các diễn biến kinh tế mới nhất.*"
 
-    # 2. CÔNG NGHỆ & SỐ HÓA TRONG NƯỚC (Tinhte, GenK, Số Hóa)
-    dom_tech_items = structured.get("domestic_tech_news", [])
-    dom_tech_lines = []
-    for idx, it in enumerate(dom_tech_items, 1):
-        dom_tech_lines.append(f"### {idx}. {it.get('title')}\n- **Diễn biến**: {it.get('development')}\n- **Ý nghĩa**: {it.get('significance')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
-    domestic_tech_news_content = "\n".join(dom_tech_lines) if dom_tech_lines else "*Đang cập nhật công nghệ trong nước.*"
-
-    # 3. KINH TẾ & ĐỊA CHÍNH TRỊ QUỐC TẾ (Reuters, BBC, CNBC)
-    intl_macro_items = structured.get("intl_macro_news", [])
-    intl_macro_lines = []
-    for idx, it in enumerate(intl_macro_items, 1):
-        intl_macro_lines.append(f"### {idx}. {it.get('title')}\n- **Bối cảnh**: {it.get('context')}\n- **Tác động**: {it.get('impact')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
-    intl_macro_news_content = "\n".join(intl_macro_lines) if intl_macro_lines else "*Đang cập nhật kinh tế và địa chính trị quốc tế.*"
-    
-    # 4. CÔNG NGHỆ & THIẾT BỊ DI ĐỘNG QUỐC TẾ (GSMArena, The Verge)
-    intl_tech_items = structured.get("intl_tech_news") or structured.get("tech_news", [])
-    intl_tech_lines = []
-    for idx, it in enumerate(intl_tech_items, 1):
-        intl_tech_lines.append(f"### {idx}. {it.get('title')}\n- **Diễn biến**: {it.get('development')}\n- **Ý nghĩa**: {it.get('significance')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
-    intl_tech_news_content = "\n".join(intl_tech_lines) if intl_tech_lines else "*Đang cập nhật diễn biến sản phẩm công nghệ quốc tế.*"
-    
-    # 5. TIN SOCIAL & SHOWBIZ BẮT TREND
-    soc_lines = []
-    for idx, it in enumerate(structured.get("social_news", []), 1):
-        soc_lines.append(f"### {idx}. {it.get('title')}\n- **Tiêu điểm**: {it.get('highlight')}\n- **Độ lan tỏa**: {it.get('virality')}\n- **Nguồn**: [{it.get('source')}]({it.get('link')})\n")
-    social_news_content = "\n".join(soc_lines) if soc_lines else "*Đang cập nhật tiêu điểm social.*"
-
-    # 0. TỔNG HỢP TÀI CHÍNH & VÀNG
-    fin = data.get("financial_overview", {})
-    fin_lines = []
-    if fin:
-        stk = fin.get("stock_market", {})
-        gld = fin.get("gold_market", {})
-        fin_lines.append(f"#### 1. Thị trường Cổ phiếu (VN-Index): {stk.get('trend_label', 'Tích cực')}")
-        fin_lines.append(f"- **Tóm tắt diễn biến**: {stk.get('summary')}")
-        fin_lines.append(f"- **Phân tích dòng tiền & kỹ thuật**:\n{stk.get('analysis')}\n")
-        fin_lines.append(f"#### 2. Thị trường Vàng (SJC & Kitco): Biên độ {gld.get('spread')}")
-        fin_lines.append(f"- **Tóm tắt diễn biến**: {gld.get('summary')}")
-        fin_lines.append(f"- **Tác động vĩ mô & chênh lệch**:\n{gld.get('analysis')}\n")
-    financial_overview_content = "\n".join(fin_lines) if fin_lines else "*Đang tổng hợp diễn biến thị trường tài chính.*"
-
-    # CHIẾN DỊCH QUẢNG CÁO & KHUYẾN MÃI ĐỐI THỦ (30 NGÀY)
-    comp = data.get("competitors", {})
-    comp_lines = []
-    for idx, c in enumerate(comp.get("all_campaigns", [])[:6], 1):
-        new_tag = "[MỚI CẬP NHẬT] " if c.get("is_new") else ""
-        comp_lines.append(f"### {idx}. {new_tag}[{c.get('brand')}] {c.get('title')}")
-        comp_lines.append(f"- **Điểm nhấn**: {c.get('discount_highlight')}")
-        comp_lines.append(f"- **Nội dung ưu đãi**: {c.get('summary')}")
-        comp_lines.append(f"- **Thời gian áp dụng**: {c.get('duration')} | **Cập nhật**: {c.get('pub_date')}")
-        comp_lines.append(f"- **Nguồn**: [{c.get('brand')}]({c.get('url')})\n")
-    competitor_campaigns_content = "\n".join(comp_lines) if comp_lines else "*Chưa ghi nhận chiến dịch mới trong 30 ngày.*"
-
-    # 6. TIN VẮN NHANH
-    flash_lines = []
-    for it in structured.get("flash_news", []):
-        flash_lines.append(f"• **[{it.get('event')}]**: {it.get('summary')} (Nguồn: [{it.get('source')}]({it.get('link')}))")
-    flash_news_content = "\n".join(flash_lines) if flash_lines else "*Đang cập nhật tin vắn nhanh.*"
-    
-    # Trends (Top 10 Google Trends)
-    trends = data.get("trends", {})
-    vn_t = trends.get("vn_trends", [])
-    trend_lines = [f"- **#{t.get('rank', idx+1):02d}**: **{t['keyword']}** ({t['traffic']}) [{t['tag']}]" for idx, t in enumerate(vn_t[:10])]
-    trends_content = "\n".join(trend_lines) if trend_lines else "*Chưa có số liệu trends mới.*"
-    
-    # Thị phần (GfK Vietnam Retail Audit & Counterpoint Research - BỎ KHUYẾN NGHỊ)
-    ms = data.get("marketshare", {})
-    ms_lines = [
-        f"**Kỳ báo cáo**: {ms.get('report_period')}",
-        f"**Nguồn khảo sát**: {ms.get('source', 'GfK & Counterpoint')}\n",
-        "#### Bảng 1: Thị Phần Bán Lẻ Thực Tế Tại Điểm Bán (GfK Vietnam Retail Audit)"
+def format_daily_source_md(data: dict, now: datetime) -> str:
+    """File nguồn dạng Markdown: chỉ chứa số liệu và tin đã thu thập, kèm nguồn."""
+    lines = [
+        f"# BẢN TIN 24H — {now.strftime('%d/%m/%Y %H:%M')}",
+        "",
+        "> Nguồn sự thật gốc. Chỉ dùng số liệu và sự kiện trong tài liệu này; mục ghi CHƯA LẤY ĐƯỢC nghĩa là không có số.",
+        "",
+        "## Chỉ số thị trường",
     ]
-    for brand in ms.get("market_gfk_vietnam", []):
-        ms_lines.append(f"- **{brand['brand']}**: {brand['share']}% ({brand['delta']}) — {brand.get('segment', '')}")
-        
-    ms_lines.append("\n#### Bảng 2: Thị Phần Sản Lượng Xuất Xưởng (Counterpoint Research)")
-    for brand in ms.get("market_vietnam", []):
-        ms_lines.append(f"- **{brand['brand']}**: {brand['share']}% ({brand['delta']}) — {brand.get('status', '')}")
-        
-    marketshare_content = "\n".join(ms_lines)
-    
-    content = template.format(
-        day_of_week="Chủ Nhật" if now.weekday() == 6 else f"Thứ {now.weekday() + 2}",
-        date_str=now.strftime("%d/%m/%Y"),
-        period_start=yesterday.strftime("%d/%m/%Y %H:%M"),
-        period_end=now.strftime("%d/%m/%Y %H:%M"),
-        sources_scanned=data.get("sources_scanned", 15),
-        sources_failed=data.get("sources_failed", 0),
-        system_status="HOẠT ĐỘNG BÌNH THƯỜNG",
-        gold_sjc_buy=gold.get("gold_sjc_buy", "144.60"),
-        gold_sjc_sell=gold.get("gold_sjc_sell", "147.60"),
-        gold_sjc_change=gold.get("gold_sjc_change", "-1.00 tr.đ"),
-        gold_world_price=gold.get("gold_world", "4,429 USD/oz"),
-        gold_spread=gold.get("gold_spread", "~3.0 tr.đ/lượng"),
-        indices_timestamp=now.strftime("%H:%M %d/%m/%Y"),
-        usd_buy=forex.get("usd_buy", "25.320 đ"),
-        usd_sell=forex.get("usd_sell", "25.580 đ"),
-        usd_sbv=forex.get("usd_sbv", "24.280 đ"),
-        cny_buy=forex.get("cny_vnd", "3.520 đ"),
-        cny_sell=forex.get("cny_vnd", "3.550 đ"),
-        krw_buy=forex.get("krw_vnd", "18.8 đ"),
-        krw_sell=forex.get("krw_vnd", "19.2 đ"),
-        dxy_index=forex.get("dxy_index", "104.25"),
-        vnindex_points=stocks.get("vnindex_points", "1.285,40"),
-        vnindex_change=stocks.get("vnindex_change", "+6.85"),
-        vnindex_pct=stocks.get("vnindex_pct", "+0.54"),
-        vnindex_volume=stocks.get("vnindex_volume", "680.5M"),
-        vnindex_foreign=stocks.get("vnindex_foreign", "+120.5 tỷ VNĐ"),
-        hnx_points=stocks.get("hnx_points", "242.15"),
-        hnx_change=stocks.get("hnx_change", "+1.20"),
-        hnx_pct=stocks.get("hnx_pct", "+0.50"),
-        fuel_ron95=fuel.get("ron95", "24.230").replace(" đ/lít", "").replace(" đ", "").replace("/lít", "").strip(),
-        fuel_e5=fuel.get("e5_ron92", "23.740").replace(" đ/lít", "").replace(" đ", "").replace("/lít", "").strip(),
-        fuel_do=fuel.get("diesel_do", "28.480").replace(" đ/lít", "").replace(" đ", "").replace("/lít", "").strip(),
-        fuel_update_date=fuel.get("update_date", "Kỳ điều hành 15h00 ngày 10/09/2026"),
-        financial_overview_content=financial_overview_content,
-        economy_news_content=economy_news_content,
-        domestic_tech_news_content=domestic_tech_news_content,
-        competitor_campaigns_content=competitor_campaigns_content,
-        intl_macro_news_content=intl_macro_news_content,
-        intl_tech_news_content=intl_tech_news_content,
-        social_news_content=social_news_content,
-        flash_news_content=flash_news_content,
-        trends_content=trends_content,
-        marketshare_content=marketshare_content
-    )
-    return content
+    for m in data["indices"]:
+        if not m["ok"]:
+            lines.append(f"- **{m['label']}**: CHƯA LẤY ĐƯỢC ({m['source']})")
+            continue
+        diff, pct = change_of(m)
+        chg = f" | thay đổi {diff:+,.{m['decimals']}f} ({pct:+.2f}%)" if diff is not None else ""
+        sub = f" | {m['sub']}" if m["sub"] else ""
+        lines.append(f"- **{m['label']}**: {fmt_num(m['value'], m['decimals'])} {m['unit']}{chg}{sub} — {m['source']} {m['as_of']}".rstrip())
 
-def run_pipeline(dry_run: bool = False):
-    print("=====================================================")
-    print("🚀 BẮT ĐẦU PIPELINE BẢN TIN 24H (ANTIGRAVITY × NOTEBOOKLM)")
-    print("=====================================================")
-    
-    # 1. Đọc file cấu hình
+    news = data["structured_news"]
+    for key, title in [("watchlist", "Đáng chú ý cho ngành ĐTDĐ")] + NEWS_SECTIONS:
+        lines += ["", f"## {title}"]
+        items = news.get(key, [])
+        if not items:
+            lines.append("- (không có tin)")
+        for it in items:
+            tags = f" [{', '.join(it['tags'])}]" if it["tags"] else ""
+            label = (it.get("reliability") or {}).get("label", "")
+            lines.append(f"- **{it['title']}**{tags} — {it['summary']} ({it['source']} {it['time']}; {label}) {it['link']}")
+
+    camps = data["competitors"].get("all_campaigns", [])
+    lines += ["", "## Khuyến mãi đối thủ (30 ngày)"]
+    lines += [f"- [{c['brand']}] {c['title']} ({c.get('pub_date', '')}) {c['url']}" for c in camps] or ["- (không có)"]
+
+    trends = data["trends"].get("vn_trends", [])
+    lines += ["", "## Google Trends Việt Nam"]
+    lines += [f"- {t['keyword']} ({t['traffic']})" for t in trends] or ["- (chưa lấy được)"]
+    return "\n".join(lines) + "\n"
+
+
+def run_pipeline():
+    now = datetime.now()
+    print("🚀 BẮT ĐẦU PIPELINE BẢN TIN 24H")
     sources_cfg = load_yaml_config(PROJECT_ROOT / "config" / "sources.yaml")
-    modules_cfg = load_yaml_config(PROJECT_ROOT / "config" / "modules.yaml")
-    notebook_cfg = load_yaml_config(PROJECT_ROOT / "config" / "notebooklm.yaml")
-    
-    # 2. GIAI ĐOẠN A: THU THẬP DỮ LIỆU ĐA NGUỒN
-    print("\n[A] Thu thập dữ liệu:")
-    print("  -> Đang lấy chỉ số tài chính, vàng, tỷ giá, xăng dầu...")
-    indices_data = collect_all_indices()
-    
-    print("  -> Đang tổng hợp phân tích tài chính cổ phiếu & thị trường vàng...")
-    financial_overview_data = generate_financial_overview(indices_data)
-    
-    print("  -> Đang quét chiến dịch quảng cáo & khuyến mãi đối thủ (CellphoneS & FPT Shop)...")
-    competitors_data = collect_competitor_campaigns()
-    print(f"     => Thu thập {competitors_data['total_campaigns']} chiến dịch ({competitors_data['new_campaigns_count']} bài mới).")
-    
-    print("  -> Đang quét các kênh RSS báo chí chính thống...")
+
+    print("\n[A] Thu thập dữ liệu")
+    indices = collect_all_indices()
+    apply_history(indices, today=now.date().isoformat())
+    for m in indices:
+        print(f"  {'✓' if m['ok'] else '✕'} {m['label']}: {m['value']} {m['unit']} — {m['source']} {m['error'][:100]}")
+
+    competitors = collect_competitor_campaigns()
+    print(f"  -> Khuyến mãi đối thủ: {competitors['total_campaigns']} bài ({competitors['new_campaigns_count']} mới)")
     raw_news = collect_news(sources_cfg)
-    
-    print("  -> Đang quét Google Trends (VN Top 10 & Global)...")
-    trends_data = collect_all_trends()
-    
-    print("  -> Đang nạp số liệu thị phần Smartphone (Counterpoint / Canalys)...")
-    marketshare_data = get_latest_marketshare_data()
-    
-    # 3. GIAI ĐOẠN B: XỬ LÝ & XÁC MINH & DỊCH THUẬT & CẤU TRÚC HÓA
-    print("\n[B] Xử lý, Xác minh, Dịch thuật & Cấu trúc hóa 3 Khối:")
+    trends = collect_all_trends()
+    print(f"  -> Google Trends VN: {len(trends['vn_trends'])} từ khóa")
+
+    print("\n[B] Xử lý tin")
     processed_news = {}
-    for cat, items in raw_news.items():
-        # Khử trùng lặp
-        deduped = deduplicate_items(items)
-        # Gán nhãn độ tin cậy
-        tagged = verify_and_tag_items(deduped)
-        # Xếp hạng độ ưu tiên ngành hàng ĐTDĐ
-        ranked = rank_items(tagged)
-        # Tự động dịch sang Tiếng Việt & gán metadata song ngữ cho top các bài quan trọng nhất
-        translated_top = translate_news_batch(ranked[:10])
-        processed_news[cat] = translated_top + ranked[10:]
-        print(f"  -> Nhóm {cat}: Từ {len(items)} tin thô -> {len(ranked)} cụm sự kiện sau khi dịch & xếp hạng.")
-        
-    # Bóc tách và cấu trúc hóa sâu 3 phần: Kinh tế, Công nghệ, Tin vắn nhanh
+    for cat in SECTION_LIMITS:
+        items = raw_news.get(cat, [])
+        ranked = rank_items(verify_and_tag_items(deduplicate_items(items)))
+        processed_news[cat] = translate_news_batch(ranked[:10]) + ranked[10:]
+        print(f"  -> {cat}: {len(items)} tin thô -> {len(ranked)} tin sau khử trùng")
     structured_news = process_and_structure_all_news(processed_news)
-    print(f"  -> Đã cấu trúc hóa: {len(structured_news['economy_news'])} tin Kinh tế, {len(structured_news['tech_news'])} tin Công nghệ, {len(structured_news['flash_news'])} tin Vắn nhanh.")
+    print(f"  -> Đáng chú ý ngành ĐTDĐ: {len(structured_news['watchlist'])} tin")
 
     master_data = {
-        "indices": indices_data,
-        "financial_overview": financial_overview_data,
-        "competitors": competitors_data,
-        "news": processed_news,
+        "indices": indices,
+        "competitors": competitors,
         "structured_news": structured_news,
-        "trends": trends_data,
-        "marketshare": marketshare_data,
-        "sources_scanned": len(sources_cfg.get("news_domestic", [])) + len(sources_cfg.get("technology", [])) + 6,
-        "sources_failed": 0
+        "trends": trends,
+        "marketshare": get_latest_marketshare_data(),
     }
-    
-    # Xuất file daily_source.md
-    today_str = datetime.now().strftime("%Y/%m/%d")
-    out_dir = PROJECT_ROOT / "output" / today_str
-    source_dir = out_dir / "source"
+
+    source_dir = PROJECT_ROOT / "output" / now.strftime("%Y/%m/%d") / "source"
     source_dir.mkdir(parents=True, exist_ok=True)
-    
     source_md_path = source_dir / "daily_source.md"
-    source_content = format_daily_source_md(master_data)
-    with open(source_md_path, "w", encoding="utf-8") as f:
-        f.write(source_content)
-    print(f"\n[B5] Đã xuất file nguồn chuẩn hóa cho NotebookLM: {source_md_path}")
-    
-    # 4. GIAI ĐOẠN C: KẾT NỐI NOTEBOOKLM
-    provider = get_infographic_provider(notebook_cfg)
-    nb_id = provider.create_notebook(datetime.now().strftime("Bản tin %d/%m/%Y"))
-    print(f"\n[C] Khởi tạo phiên NotebookLM ({type(provider).__name__}): {nb_id}")
-    provider.upload_source(nb_id, source_md_path)
-    
-    # 5. GIAI ĐOẠN D: XUẤT BẢN & KIỂM TRA CHẤT LƯỢNG (PUBLISH & QC)
-    docs_dir = PROJECT_ROOT / "docs"
-    index_path = build_daily_portal(master_data, docs_dir)
-    print(f"\n[D] Đã sinh trang xuất bản bản tin (Giao diện sạch, đã dịch & có song ngữ): {index_path}")
-    
-    qc_report = perform_pre_publish_qc(source_md_path, index_path, master_data)
-    print("\n[D1] Báo Cáo Kiểm Tra Chất Lượng (Pre-Publish QC):")
-    print(f"  -> Kết quả: {'✓ ĐẠT CHUẨN' if qc_report['passed'] else '✕ CÓ LỖI'}")
-    if qc_report["warnings"]:
-        for w in qc_report["warnings"]:
-            print(f"  -> [CẢNH BÁO]: {w}")
-    if qc_report["errors"]:
-        for e in qc_report["errors"]:
-            print(f"  -> [LỖI]: {e}")
-            
-    print("\n=====================================================")
-    print("✓ HOÀN TẤT CẬP NHẬT: GIAO DIỆN SẠCH & DỊCH TIẾNG VIỆT TOÀN DIỆN!")
-    print(f"- File nguồn NotebookLM: {source_md_path}")
-    print(f"- Cổng bản tin di động: {index_path}")
-    print("=====================================================")
+    source_md_path.write_text(format_daily_source_md(master_data, now), encoding="utf-8")
+    print(f"\n[C] File nguồn: {source_md_path}")
+
+    index_path = build_daily_portal(master_data, PROJECT_ROOT / "docs", now)
+    print(f"[D] Trang bản tin: {index_path}")
+
+    qc = perform_pre_publish_qc(source_md_path, index_path, master_data)
+    print(f"\n[QC] {'✓ ĐẠT' if qc['passed'] else '✕ CÓ LỖI'}")
+    for w in qc["warnings"]:
+        print(f"  [CẢNH BÁO] {w}")
+    for e in qc["errors"]:
+        print(f"  [LỖI] {e}")
+
 
 if __name__ == "__main__":
     run_pipeline()

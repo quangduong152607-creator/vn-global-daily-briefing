@@ -9,7 +9,9 @@ import os
 import ssl
 import json
 import re
+import urllib.parse
 import urllib.request
+from email.utils import parsedate_to_datetime
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -17,6 +19,7 @@ from typing import List, Dict, Any
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent.resolve()
 CACHE_FILE = PROJECT_ROOT / "data" / "raw" / "competitor_campaigns.json"
+WINDOW_DAYS = 30
 
 PROMO_KEYWORDS = [
     "khuyến mãi", "ưu đãi", "giảm giá", "sale", "hot sale", "thu cũ",
@@ -76,12 +79,12 @@ def fetch_rss_campaigns(brand: str, feed_url: str) -> List[Dict[str, Any]]:
                 if is_promo:
                     # Trích xuất điểm nhấn giảm giá nếu có
                     discount_match = re.search(r'(giảm\s+(?:đến|tới|sâu)?\s*[0-9]+%|giảm\s+[0-9]+(?:\.[0-9]+)?\s*(?:triệu|tr|đ)|voucher\s+[0-9]+(?:\.[0-9]+)?\s*(?:triệu|tr|đ))', text_lower)
-                    discount_highlight = discount_match.group(1).title() if discount_match else "Ưu đãi hấp dẫn"
+                    discount_highlight = discount_match.group(1).capitalize() if discount_match else ""
                     
                     campaigns.append({
                         "brand": brand,
                         "title": title,
-                        "summary": desc_clean[:220] + "..." if len(desc_clean) > 220 else (desc_clean or "Chương trình ưu đãi kích cầu mua sắm thiết bị công nghệ chính hãng."),
+                        "summary": desc_clean[:220] + "..." if len(desc_clean) > 220 else desc_clean,
                         "url": link,
                         "pub_date": pub_date,
                         "discount_highlight": discount_highlight
@@ -91,88 +94,18 @@ def fetch_rss_campaigns(brand: str, feed_url: str) -> List[Dict[str, Any]]:
         
     return campaigns
 
+def is_recent(pub_date: str, days: int = WINDOW_DAYS) -> bool:
+    """Bài đăng trong cửa sổ theo dõi. Không đọc được ngày -> loại (tránh hiện tin cũ như tin mới)."""
+    try:
+        dt = parsedate_to_datetime(pub_date)
+    except (TypeError, ValueError):
+        return False
+    return datetime.now(dt.tzinfo) - dt <= timedelta(days=days)
+
 def fetch_google_news_campaigns(brand: str, query: str) -> List[Dict[str, Any]]:
     encoded_q = urllib.parse.quote(query)
     url = f"https://news.google.com/rss/search?q={encoded_q}&hl=vi&gl=VN&ceid=VN:vi"
     return fetch_rss_campaigns(brand, url)
-
-def get_fallback_campaigns() -> List[Dict[str, Any]]:
-    """Dữ liệu chiến dịch 30 ngày gần nhất chuẩn mực khi offline/sandbox"""
-    now = datetime.now()
-    d_today = now.strftime("%d/%m/%Y")
-    d_2days = (now - timedelta(days=2)).strftime("%d/%m/%Y")
-    d_5days = (now - timedelta(days=5)).strftime("%d/%m/%Y")
-    d_10days = (now - timedelta(days=10)).strftime("%d/%m/%Y")
-    d_15days = (now - timedelta(days=15)).strftime("%d/%m/%Y")
-    
-    return [
-        {
-            "brand": "CellphoneS",
-            "title": "Siêu Sale 9.9: Đại tiệc công nghệ - Giảm đến 70% toàn bộ smartphone & phụ kiện",
-            "summary": "CellphoneS tung chuỗi deal sốc ngày đôi 9.9 với hàng loạt mẫu iPhone, Samsung Galaxy và máy tính bảng giảm giá tới 70%. Tặng kèm voucher Smember giảm thêm đến 500.000đ và trả góp 0% qua thẻ tín dụng.",
-            "url": "https://cellphones.com.vn",
-            "category": "Sale Ngày Đôi 9.9",
-            "discount_highlight": "Giảm đến 70%",
-            "pub_date": f"{d_today} 08:30",
-            "is_new": True,
-            "duration": "07/09/2026 - 12/09/2026"
-        },
-        {
-            "brand": "FPT Shop",
-            "title": "SIÊU SALE NGÀY ĐÔI 9.9: Giảm đến 50%, voucher lên đến 5 triệu đồng trên Shopee Live FPT Shop",
-            "summary": "FPT Shop kết hợp cùng sàn thương mại điện tử triển khai phiên live đại tiệc công nghệ ngày đôi 9.9. Giảm giá trực tiếp lên đến 50% cho laptop, màn hình PC và tặng voucher trợ giá đến 5 triệu đồng.",
-            "url": "https://fptshop.com.vn",
-            "category": "Siêu Sale 9.9 & Livestream",
-            "discount_highlight": "Giảm đến 50% + Voucher 5 Tr",
-            "pub_date": f"{d_today} 07:45",
-            "is_new": True,
-            "duration": "08/09/2026 - 11/09/2026"
-        },
-        {
-            "brand": "CellphoneS",
-            "title": "S-Student 2026: Trợ giá sinh viên - Mua laptop, tablet giảm thêm 10% và thu cũ đổi mới",
-            "summary": "Chương trình thường niên dành riêng cho học sinh - sinh viên bước vào năm học mới. CellphoneS trợ giá thêm 10% (tối đa 1 triệu đồng), tặng kèm balo công nghệ và hỗ trợ thu máy cũ với mức trợ giá thêm đến 2 triệu đồng.",
-            "url": "https://cellphones.com.vn",
-            "category": "Back To School (Mùa tựu trường)",
-            "discount_highlight": "Giảm thêm 10% cho HSSV",
-            "pub_date": f"{d_5days} 14:20",
-            "is_new": False,
-            "duration": "01/08/2026 - 30/09/2026"
-        },
-        {
-            "brand": "FPT Shop",
-            "title": "Điểm thi càng cao - Giảm càng sâu: FPT Shop giảm đến 10% cho tân sinh viên và giáo viên",
-            "summary": "Đặc quyền mùa tựu trường tại FPT Shop: Căn cứ vào điểm thi tốt nghiệp THPT, các bạn tân sinh viên được giảm giá từ 5% đến 10% khi mua điện thoại và laptop Asus, Acer, Lenovo. Hỗ trợ trả góp 0% lãi suất duyệt nhanh.",
-            "url": "https://fptshop.com.vn",
-            "category": "Ưu đãi Tân Sinh Viên & Giáo Viên",
-            "discount_highlight": "Giảm đến 10% theo điểm thi",
-            "pub_date": f"{d_10days} 09:15",
-            "is_new": False,
-            "duration": "15/08/2026 - 30/09/2026"
-        },
-        {
-            "brand": "CellphoneS",
-            "title": "Thu cũ đổi mới iPhone 16 Series: Trợ giá trực tiếp 4 triệu đồng khi lên đời",
-            "summary": "Chương trình chuẩn bị đón đầu làn sóng nâng cấp smartphone flagship quý 3. Khách hàng mang máy cũ thuộc các dòng iPhone 12/13/14/15 sẽ được định giá cao nhất thị trường kèm ưu đãi trợ giá 4 triệu khi đặt trước thế hệ mới.",
-            "url": "https://cellphones.com.vn",
-            "category": "Thu Cũ Đổi Mới (Trade-in)",
-            "discount_highlight": "Trợ giá đến 4 triệu",
-            "pub_date": f"{d_2days} 16:00",
-            "is_new": True,
-            "duration": "01/09/2026 - 30/09/2026"
-        },
-        {
-            "brand": "FPT Shop",
-            "title": "Đặc quyền Galaxy AI: Tặng 6 tháng Google AI Pro 5TB khi sở hữu Galaxy Z8 Series",
-            "summary": "Hợp tác chiến lược giữa FPT Shop, Samsung và Google: Khách hàng mua dòng máy gập Galaxy Z8 Series được tặng ngay gói tài khoản Google AI Pro 5TB lưu trữ đám mây trị giá hàng triệu đồng cùng ưu đãi bảo hành mở rộng 2 năm.",
-            "url": "https://fptshop.com.vn",
-            "category": "Đặc Quyền Flagship / Hãng",
-            "discount_highlight": "Tặng Google AI Pro 6 tháng",
-            "pub_date": f"{d_15days} 11:00",
-            "is_new": False,
-            "duration": "15/08/2026 - 15/09/2026"
-        }
-    ]
 
 def collect_competitor_campaigns() -> Dict[str, Any]:
     """
@@ -189,15 +122,12 @@ def collect_competitor_campaigns() -> Dict[str, Any]:
     # 1. CellphoneS
     cellphones_query = 'CellphoneS ("khuyến mãi" OR "ưu đãi" OR "giảm giá" OR "sale" OR "thu cũ" OR "smember")'
     cp_items = fetch_google_news_campaigns("CellphoneS", cellphones_query)
-    raw_campaigns.extend(cp_items[:4])
+    raw_campaigns.extend([c for c in cp_items if is_recent(c.get('pub_date', ''))][:4])
     
     # 2. FPT Shop
     fpt_query = '"FPT Shop" ("khuyến mãi" OR "ưu đãi" OR "giảm giá" OR "sale" OR "thu cũ" OR "sinh viên")'
     fpt_items = fetch_google_news_campaigns("FPT Shop", fpt_query)
-    raw_campaigns.extend(fpt_items[:4])
-    
-    # Nếu không thu thập được đủ do mạng/sandbox, gộp cùng bộ chuẩn 30 ngày
-    fallback_items = get_fallback_campaigns()
+    raw_campaigns.extend([c for c in fpt_items if is_recent(c.get('pub_date', ''))][:4])
     
     processed_campaigns = []
     seen_titles = set()
@@ -222,16 +152,8 @@ def collect_competitor_campaigns() -> Dict[str, Any]:
             # Bài đã có trong cache
             item["is_new"] = False
             
-        item["category"] = "Chiến dịch định kỳ & Ưu đãi nóng"
-        item["duration"] = "Đang diễn ra trong tháng"
         processed_campaigns.append(item)
-        
-    # Bổ sung các campaign chính trong tháng từ fallback nếu thiếu
-    for fb in fallback_items:
-        clean_title = fb["title"]
-        if not any(fb["brand"] == p["brand"] and (clean_title[:30] in p["title"] or p["title"][:30] in clean_title) for p in processed_campaigns):
-            processed_campaigns.append(fb)
-            
+
     # Lưu lại cache
     cached_db["last_updated"] = now_str
     cached_db["campaigns"] = cached_items
