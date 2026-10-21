@@ -16,6 +16,8 @@ def get_latest_marketshare_data() -> Dict[str, Any]:
     return {
         "report_period": "Quý 2/2026 (Số liệu công bố kỳ gần nhất: Tháng 08/2026)",
         "source": "GfK Vietnam Retail Audit & Counterpoint Research",
+        # Bảng này nhập tay, chưa đối chiếu với báo cáo gốc. Cập nhật lại khi có báo cáo quý mới.
+        "manual_note": "Số liệu nhập tay, chưa đối chiếu báo cáo gốc",
         "market_gfk_vietnam": [
             {"brand": "Samsung", "share": 31.2, "delta": "+1.4%", "segment": "Dẫn đầu hệ thống chuỗi MWG, FPT Shop"},
             {"brand": "OPPO", "share": 22.8, "delta": "+0.6%", "segment": "Bán lẻ truyền thống & dòng Reno"},

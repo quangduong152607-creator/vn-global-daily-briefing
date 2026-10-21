@@ -59,40 +59,11 @@ def fetch_google_trends(geo: str = "VN") -> List[Dict[str, Any]]:
     return trends
 
 def collect_all_trends() -> Dict[str, List[Dict[str, Any]]]:
-    """Lấy cả xu hướng VN và Global kèm fallback offline chuẩn 10 từ khóa hot nhất ngày hôm nay"""
+    """Lấy xu hướng tìm kiếm VN và Mỹ từ Google Trends RSS."""
     vn_trends = fetch_google_trends("VN")
     global_trends = fetch_google_trends("US")
     
-    if not vn_trends or len(vn_trends) < 5:
-        vn_trends = [
-            {"rank": 1, "keyword": "giá xăng dầu petrolimex tăng", "traffic": "50K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
-            {"rank": 2, "keyword": "bão số 3 và thời tiết tphcm", "traffic": "50K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
-            {"rank": 3, "keyword": "iphone 16 pro max mở bán", "traffic": "50K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT / Công nghệ"},
-            {"rank": 4, "keyword": "hdbank & cổ phiếu ngân hàng", "traffic": "20K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
-            {"rank": 5, "keyword": "u17 việt nam thi đấu", "traffic": "20K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
-            {"rank": 6, "keyword": "giá vàng sjc hôm nay", "traffic": "20K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
-            {"rank": 7, "keyword": "samsung galaxy z fold 6", "traffic": "10K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT / Công nghệ"},
-            {"rank": 8, "keyword": "vivo x200 series ra mắt", "traffic": "10K+", "geo": "VN", "is_ict": True, "tag": "📱 ICT / Công nghệ"},
-            {"rank": 9, "keyword": "real madrid cúp châu âu", "traffic": "10K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"},
-            {"rank": 10, "keyword": "xổ số kiến thiết miền nam", "traffic": "10K+", "geo": "VN", "is_ict": False, "tag": "🔥 Thịnh hành"}
-        ]
-    else:
-        # Cập nhật lại rank từ 1 đến N
-        for i, item in enumerate(vn_trends):
-            item["rank"] = i + 1
-
-    if not global_trends or len(global_trends) < 5:
-        global_trends = [
-            {"rank": 1, "keyword": "solheim cup 2026", "traffic": "200+", "geo": "US", "is_ict": False, "tag": "🔥 Thịnh hành"},
-            {"rank": 2, "keyword": "pakistan vs england", "traffic": "200+", "geo": "US", "is_ict": False, "tag": "🔥 Thịnh hành"},
-            {"rank": 3, "keyword": "apple intelligence & iphone 16", "traffic": "100+", "geo": "US", "is_ict": True, "tag": "📱 ICT / Công nghệ"},
-            {"rank": 4, "keyword": "meteor shower tonight", "traffic": "100+", "geo": "US", "is_ict": False, "tag": "🔥 Thịnh hành"},
-            {"rank": 5, "keyword": "federal reserve interest rates", "traffic": "50+", "geo": "US", "is_ict": False, "tag": "🔥 Thịnh hành"}
-        ]
-    else:
-        for i, item in enumerate(global_trends):
-            item["rank"] = i + 1
-        
+    # Lỗi mạng thì trả danh sách rỗng; trang bản tin báo "chưa lấy được" (không dùng danh sách mẫu)
     return {
         "vn_trends": vn_trends[:10],
         "global_trends": global_trends[:10]

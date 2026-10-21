@@ -10,6 +10,8 @@ on:
       - main
     paths-ignore:
       - 'index.html'
+      - 'archive.html'
+      - 'archive/**'
       - 'Gemini/docs/**'
       - 'Gemini/output/**'
       - 'Gemini/data/**'
@@ -50,14 +52,17 @@ jobs:
           cd Gemini
           python3 main.py
 
+      # Chạy thủ công trên nhánh khác main = chạy thử, không commit
       - name: Commit & Push to GitHub Pages
+        if: github.ref == 'refs/heads/main'
         env:
           TZ: 'Asia/Ho_Chi_Minh'
         run: |
-          cp Gemini/docs/index.html index.html
+          cp Gemini/docs/index.html Gemini/docs/archive.html .
+          mkdir -p archive && cp Gemini/docs/archive/*.html archive/
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add index.html Gemini/docs/ Gemini/output/ Gemini/data/
+          git add index.html archive.html archive/ Gemini/docs/ Gemini/output/ Gemini/data/
           if git diff --staged --quiet; then
             echo "Không có thay đổi mới để commit."
           else

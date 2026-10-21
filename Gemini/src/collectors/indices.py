@@ -1,263 +1,314 @@
 """
-Bộ thu thập chỉ số thị trường: Vàng, Tỷ giá ngoại tệ, VN-Index, Xăng dầu.
-Tuân thủ tuyệt đối: Số liệu KHÔNG bao giờ do AI sinh ra.
-Mọi con số phải lấy trực tiếp từ API/nguồn chính thống, có mốc thời gian và URL nguồn.
+Bộ thu thập chỉ số thị trường: Tỷ giá, Vàng, Chứng khoán, Hàng hóa, Xăng dầu.
+
+Nguyên tắc: KHÔNG BAO GIỜ trả về số mặc định/ước đoán.
+Nguồn lỗi -> value = None, ok = False, kèm lý do. Trang bản tin sẽ hiển thị "chưa lấy được".
+Mỗi chỉ số là một dict cùng khuôn (xem make_metric).
 """
 
 import json
 import re
 import ssl
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
-from typing import Dict, Any
+from typing import Dict, Any, List, Optional
+
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
 
 def get_ssl_context():
-    ctx = ssl._create_unverified_context()
-    return ctx
+    return ssl._create_unverified_context()
 
-def fetch_forex_rates() -> Dict[str, Any]:
-    """Lấy tỷ giá USD, CNY, KRW, EUR từ nguồn tỷ giá mở và thị trường ngân hàng"""
-    url = "https://open.er-api.com/v6/latest/USD"
-    result = {
-        "usd_vnd": "Không lấy được số liệu",
-        "cny_vnd": "Không lấy được số liệu",
-        "krw_vnd": "Không lấy được số liệu",
-        "usd_sbv": "24.280 đ",
-        "dxy_index": "104.25",
-        "source": url,
-        "timestamp": datetime.now().strftime("%H:%M %d/%m/%Y"),
-        "status": "error"
-    }
-    
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-        with urllib.request.urlopen(req, timeout=8, context=get_ssl_context()) as r:
-            if r.status == 200:
-                data = json.loads(r.read())
-                rates = data.get("rates", {})
-                usd_vnd = rates.get("VND", 25450.0)
-                usd_cny = rates.get("CNY", 7.24)
-                usd_krw = rates.get("KRW", 1380.0)
-                
-                cny_vnd = round(usd_vnd / usd_cny, 2) if usd_cny else 0
-                krw_vnd = round(usd_vnd / usd_krw, 2) if usd_krw else 0
-                
-                result.update({
-                    "usd_vnd": f"{round(usd_vnd):,} đ".replace(",", "."),
-                    "usd_buy": f"{round(usd_vnd * 0.995):,} đ".replace(",", "."),
-                    "usd_sell": f"{round(usd_vnd * 1.005):,} đ".replace(",", "."),
-                    "cny_vnd": f"{cny_vnd:,.2f} đ".replace(",", "."),
-                    "krw_vnd": f"{krw_vnd:,.2f} đ".replace(",", "."),
-                    "status": "success"
-                })
-    except Exception as e:
-        result["error"] = str(e)
-        # Fallback tỷ giá niêm yết Vietcombank & SBV khi chạy offline/sandbox
-        result.update({
-            "usd_vnd": "25.450 đ",
-            "usd_buy": "25.320 đ",
-            "usd_sell": "25.580 đ",
-            "cny_vnd": "3.520 đ",
-            "krw_vnd": "18.8 đ",
-            "status": "success"
-        })
-        
-    return result
 
-def fetch_gold_prices() -> Dict[str, Any]:
-    """
-    Lấy giá vàng miếng SJC và vàng thế giới Kitco theo thời gian thực.
-    Cào trực tiếp từ bảng giá thị trường niêm yết hôm nay.
-    """
-    result = {
-        "gold_world": "4,429 USD/oz",
-        "gold_sjc_buy": "144.60",
-        "gold_sjc_sell": "147.60",
-        "gold_ring_buy": "144.10",
-        "gold_ring_sell": "147.60",
-        "gold_sjc_change": "-1.00 tr.đ (Giảm sau phiên trước)",
-        "gold_spread": "~3.0 tr.đ/lượng",
-        "source": "SJC / DOJI / 24h & Kitco Spot Gold",
-        "timestamp": datetime.now().strftime("%H:%M %d/%m/%Y"),
-        "status": "success"
-    }
-    
-    # Cào trực tiếp từ bảng giá trực tuyến để luôn chuẩn xác theo thời gian thực
-    try:
-        url = "https://24h.com.vn/gia-vang-hom-nay-c425.html"
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"})
-        with urllib.request.urlopen(req, timeout=6, context=get_ssl_context()) as r:
-            html = r.read().decode("utf-8", errors="ignore")
-            
-        # Tìm dòng SJC
-        for tr in re.findall(r'<tr[^>]*>(.*?)</tr>', html, re.DOTALL):
-            if "SJC" in tr:
-                nums = re.findall(r'([0-9]{2,3},[0-9]{3})', tr)
-                if len(nums) >= 2:
-                    buy_val = float(nums[0].replace(",", "")) / 1000.0
-                    sell_val = float(nums[1].replace(",", "")) / 1000.0
-                    result["gold_sjc_buy"] = f"{buy_val:.2f}"
-                    result["gold_sjc_sell"] = f"{sell_val:.2f}"
-                    break
-                    
-        # Tìm giá Kitco
-        kitco_match = re.search(r'Kitco ở mức\s+([0-9.,]+)\s+USD/ounce', html, re.IGNORECASE)
-        if kitco_match:
-            price_str = kitco_match.group(1).replace(".", ",")
-            result["gold_world"] = f"{price_str} USD/oz"
-    except Exception:
-        pass
-        
-    return result
+def http_get(url: str, timeout: int = 10) -> bytes:
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=timeout, context=get_ssl_context()) as r:
+        return r.read()
 
-def fetch_stock_indices() -> Dict[str, Any]:
-    """Lấy điểm số VN-Index, HNX-Index"""
-    url = "https://query1.finance.yahoo.com/v8/finance/chart/%5EVNINDEX.VN?interval=1d"
-    result = {
-        "vnindex_points": "1.285,40",
-        "vnindex_change": "+6.85",
-        "vnindex_pct": "+0.54",
-        "vnindex_volume": "680.5M",
-        "vnindex_foreign": "+120.5 tỷ VNĐ (Mua ròng)",
-        "hnx_points": "242.15",
-        "hnx_change": "+1.20",
-        "hnx_pct": "+0.50",
-        "source": "HOSE / HNX Financial Feeds",
-        "timestamp": datetime.now().strftime("%H:%M %d/%m/%Y"),
-        "status": "error"
-    }
-    
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=8, context=get_ssl_context()) as r:
-            if r.status == 200:
-                data = json.loads(r.read())
-                meta = data["chart"]["result"][0]["meta"]
-                price = meta.get("regularMarketPrice")
-                if price:
-                    result["vnindex_points"] = f"{price:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
-                    result["status"] = "success"
-    except Exception as e:
-        result["error"] = str(e)
-        
-    return result
 
-def fetch_fuel_prices() -> Dict[str, Any]:
-    """
-    Lấy giá xăng dầu Petrolimex theo kỳ điều hành mới nhất của Liên Bộ Công Thương - Tài Chính.
-    Hỗ trợ cào đa tầng:
-    1. Bảng giá niêm yết trực tuyến Petrolimex (webgia.com / petrolimex)
-    2. RSS điều hành giá xăng dầu mới nhất từ VnExpress Thời sự / Kinh doanh
-    3. Fallback chuẩn xác theo kỳ điều hành mới nhất (15h00 ngày 24/09/2026).
-    """
-    result = {
-        "ron95": "27.080 đ/lít",
-        "e5_ron92": "26.390 đ/lít",
-        "diesel_do": "30.490 đ/lít",
-        "change_ron95": "+820 đ",
-        "change_pct": "+3.1%",
-        "update_date": "Kỳ điều hành 15h00 ngày 24/09/2026",
-        "source": "Petrolimex / Bộ Công Thương (moit.gov.vn)",
-        "timestamp": datetime.now().strftime("%H:%M %d/%m/%Y"),
-        "status": "success"
-    }
-    
-    # Tầng 1: Cào trực tiếp từ bảng giá xăng dầu Petrolimex trực tuyến
-    try:
-        url_webgia = "https://webgia.com/gia-xang-dau/petrolimex/"
-        req_wg = urllib.request.Request(url_webgia, headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        })
-        with urllib.request.urlopen(req_wg, timeout=6, context=get_ssl_context()) as r_wg:
-            html_wg = r_wg.read().decode("utf-8", errors="ignore")
-            
-        m_time = re.search(r'áp dụng từ\s*([0-9]{1,2}h[0-9]{0,2}\s*ngày\s*[0-9]{1,2}/[0-9]{1,2}/[0-9]{4})', html_wg, re.I)
-        if m_time:
-            result["update_date"] = f"Kỳ điều hành {m_time.group(1)}"
-            
-        for tr in re.findall(r'<tr[^>]*>(.*?)</tr>', html_wg, re.DOTALL):
-            row_txt = re.sub(r'<[^>]+>', ' ', tr)
-            if "RON 95-III" in row_txt or "RON 95" in row_txt:
-                nums = re.findall(r'([1-3]\d[\.,]\d{3})', row_txt)
-                if nums and not result.get("crawled_ron95"):
-                    result["ron95"] = f"{nums[0].replace('.', ',').replace(',', '.')} đ/lít"
-                    result["crawled_ron95"] = True
-            elif "E5 RON 92" in row_txt:
-                nums = re.findall(r'([1-3]\d[\.,]\d{3})', row_txt)
-                if nums and not result.get("crawled_e5"):
-                    result["e5_ron92"] = f"{nums[0].replace('.', ',').replace(',', '.')} đ/lít"
-                    result["crawled_e5"] = True
-            elif "DO 0,05S" in row_txt or "DO 0.05S" in row_txt or "Diesel" in row_txt:
-                nums = re.findall(r'([1-3]\d[\.,]\d{3})', row_txt)
-                if nums and not result.get("crawled_do"):
-                    result["diesel_do"] = f"{nums[0].replace('.', ',').replace(',', '.')} đ/lít"
-                    result["crawled_do"] = True
-                    
-        if result.get("crawled_ron95"):
-            result["source"] = "Petrolimex Việt Nam (Niêm yết trực tuyến)"
-            return result
-    except Exception:
-        pass
+def now_str() -> str:
+    return datetime.now().strftime("%H:%M %d/%m/%Y")
 
-    # Tầng 2: Cào từ bản tin điều hành mới nhất VnExpress RSS (Kinh doanh & Thời sự)
-    try:
-        rss_urls = [
-            "https://vnexpress.net/rss/kinh-doanh.rss",
-            "https://vnexpress.net/rss/thoi-su.rss"
-        ]
-        latest_link = None
-        for r_url in rss_urls:
-            try:
-                req = urllib.request.Request(r_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-                with urllib.request.urlopen(req, timeout=5, context=get_ssl_context()) as r:
-                    root = ET.fromstring(r.read())
-                for item in root.findall(".//item"):
-                    title = item.find("title").text or ""
-                    desc = item.find("description").text or ""
-                    link = item.find("link").text or ""
-                    if any(w in (title + " " + desc).lower() for w in ["giá xăng", "giá dầu", "xăng dầu", "xăng, dầu", "kỳ điều hành"]):
-                        latest_link = link
-                        break
-                if latest_link:
-                    break
-            except Exception:
-                continue
-                
-        if latest_link:
-            req_art = urllib.request.Request(latest_link, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"})
-            with urllib.request.urlopen(req_art, timeout=6, context=get_ssl_context()) as r_art:
-                html = r_art.read().decode("utf-8", errors="ignore")
-                
-            text = re.sub(r'<[^>]+>', ' ', html)
-            m_ron95 = re.search(r'RON\s*95(?:-III|-V)?[^;\n\r]{1,120}?(?:lên|xuống|giảm|tăng|mức|ở mức|đạt|là|giá mới)\s*([123]\d[\.,]\d{3})', text, re.I)
-            m_e5 = re.search(r'E5\s*RON\s*92[^;\n\r]{1,120}?(?:lên|xuống|giảm|tăng|mức|ở mức|đạt|là|giá mới)\s*([123]\d[\.,]\d{3})', text, re.I)
-            m_diesel = re.search(r'(?:diesel|DO\s*0)[^;\n\r]{1,120}?(?:lên|xuống|giảm|tăng|mức|ở mức|đạt|là|giá mới)\s*([123]\d[\.,]\d{3})', text, re.I)
-            m_period = re.search(r'(?:từ\s*)?([0-9]{1,2}h\s*ngày\s*[0-9]{1,2}/[0-9]{1,2})', text, re.I)
-            
-            if m_period:
-                result["update_date"] = f"Kỳ điều hành {m_period.group(1)}/2026"
-            if m_ron95:
-                result["ron95"] = f"{m_ron95.group(1).replace(',', '.')} đ/lít"
-            if m_e5:
-                result["e5_ron92"] = f"{m_e5.group(1).replace(',', '.')} đ/lít"
-            if m_diesel:
-                result["diesel_do"] = f"{m_diesel.group(1).replace(',', '.')} đ/lít"
-            result["source"] = f"Petrolimex & Liên Bộ Công Thương - Tài chính ({latest_link})"
-    except Exception as e:
-        result["crawl_error"] = str(e)
-        
-    return result
 
-def collect_all_indices() -> Dict[str, Any]:
-    """Gom toàn bộ số liệu 4 nhóm chỉ số"""
+def make_metric(key: str, label: str, group: str, unit: str, decimals: int,
+                source: str, source_url: str) -> Dict[str, Any]:
+    """Khuôn chung cho 1 chỉ số. value/prev/series do collector điền khi lấy được số thật."""
     return {
-        "forex": fetch_forex_rates(),
-        "gold": fetch_gold_prices(),
-        "stocks": fetch_stock_indices(),
-        "fuel": fetch_fuel_prices()
+        "key": key,
+        "label": label,
+        "group": group,
+        "unit": unit,
+        "decimals": decimals,
+        "value": None,
+        "prev": None,          # giá trị kỳ trước do NGUỒN cung cấp (nếu có)
+        "series": [],          # [[ngày ISO, giá trị], ...] do NGUỒN cung cấp (nếu có)
+        "series_note": "",     # ghi chú khi chuỗi lấy từ nguồn khác với giá trị hiện tại
+        "sub": "",             # dòng phụ, ví dụ "Mua 26.020 · Bán 26.370"
+        "as_of": "",           # mốc thời gian của số liệu theo nguồn
+        "source": source,
+        "source_url": source_url,
+        "fetched_at": now_str(),
+        "ok": False,
+        "error": "",
     }
+
+
+def parse_number(text: str) -> Optional[float]:
+    """'26,370.00' -> 26370.0 ; '-' hoặc rỗng -> None"""
+    t = (text or "").strip().replace(",", "")
+    try:
+        return float(t)
+    except ValueError:
+        return None
+
+
+def vn_int(n: float) -> str:
+    return f"{n:,.0f}".replace(",", ".")
+
+
+# ---------------------------------------------------------------- Tỷ giá
+
+VCB_URL = "https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx"
+ER_API_URL = "https://open.er-api.com/v6/latest/USD"
+
+
+def fetch_forex() -> List[Dict[str, Any]]:
+    """USD, CNY, KRW so với VND. Ưu tiên bảng giá Vietcombank; dự phòng tỷ giá tham chiếu quốc tế."""
+    spec = [("usd_vnd", "USD/VND", "USD", 0), ("cny_vnd", "CNY/VND", "CNY", 0), ("krw_vnd", "KRW/VND", "KRW", 2)]
+    metrics = {k: make_metric(k, label, "fx", "đ", dec, "Vietcombank", VCB_URL) for k, label, _, dec in spec}
+
+    try:
+        root = ET.fromstring(http_get(VCB_URL))
+        as_of = (root.findtext("DateTime") or "").strip()
+        try:  # VCB trả dạng Mỹ "10/20/2026 8:00:00 AM"
+            as_of = datetime.strptime(as_of, "%m/%d/%Y %I:%M:%S %p").strftime("%H:%M %d/%m/%Y")
+        except ValueError:
+            pass
+        rates = {e.get("CurrencyCode"): e for e in root.iter("Exrate")}
+        for key, _, code, _ in spec:
+            e = rates.get(code)
+            if e is None:
+                continue
+            buy, transfer, sell = (parse_number(e.get(a)) for a in ("Buy", "Transfer", "Sell"))
+            if sell is None:
+                continue
+            m = metrics[key]
+            m["value"] = sell
+            fmt = (lambda v: f"{v:.2f}".replace(".", ",")) if code == "KRW" else vn_int
+            parts = []
+            if buy is not None:
+                parts.append(f"Mua TM {fmt(buy)}")
+            if transfer is not None:
+                parts.append(f"CK {fmt(transfer)}")
+            m["sub"] = " · ".join(parts) + " · giá bán ra"
+            m["as_of"] = as_of
+            m["ok"] = True
+    except Exception as e:
+        for m in metrics.values():
+            m["error"] = f"Vietcombank: {e}"
+
+    missing = [m for m in metrics.values() if not m["ok"]]
+    if missing:
+        try:
+            data = json.loads(http_get(ER_API_URL))
+            rates = data.get("rates", {})
+            usd_vnd = rates.get("VND")
+            for key, _, code, _ in spec:
+                m = metrics[key]
+                if m["ok"] or not usd_vnd:
+                    continue
+                per_usd = 1.0 if code == "USD" else rates.get(code)
+                if not per_usd:
+                    continue
+                m.update({
+                    "value": usd_vnd / per_usd,
+                    "sub": "Tỷ giá tham chiếu quốc tế (không phải giá ngân hàng)",
+                    "as_of": data.get("time_last_update_utc", ""),
+                    "source": "open.er-api.com",
+                    "source_url": ER_API_URL,
+                    "ok": True,
+                    "error": "",
+                })
+        except Exception as e:
+            for m in missing:
+                m["error"] = (m["error"] + f" | er-api: {e}").strip(" |")
+
+    # Chuỗi 3 tháng cho biểu đồ: tỷ giá thị trường quốc tế (Yahoo), vì Vietcombank không có lịch sử.
+    # Yahoo không có cặp CNY/VND, KRW/VND -> tính chéo qua USD: (USD/VND) / (USD/CNY)
+    try:
+        usd_series = yahoo_chart("VND=X")[2]
+        crosses = {"USD": usd_series}
+        usd_by_date = dict((d, v) for d, v in usd_series)
+        for code in ("CNY", "KRW"):
+            per_usd = yahoo_chart(f"{code}=X")[2]
+            crosses[code] = [[d, usd_by_date[d] / v] for d, v in per_usd if d in usd_by_date and v]
+        for key, _, code, _ in spec:
+            if len(crosses[code]) >= 2:
+                metrics[key]["series"] = crosses[code]
+                metrics[key]["series_note"] = "Biểu đồ: tỷ giá thị trường quốc tế (Yahoo Finance)"
+    except Exception as e:
+        print(f"     ✕ Chuỗi tỷ giá Yahoo: {e}")  # thiếu chuỗi thì dùng lịch sử tự lưu (history.json)
+
+    return [metrics[k] for k, *_ in spec]
+
+
+# ---------------------------------------------------------------- Yahoo Finance (chuỗi giá đóng cửa)
+
+def yahoo_chart(symbol: str):
+    """(giá hiện tại, thời điểm, [[ngày ISO, giá đóng cửa], ...]) — điểm cuối là giá hiện tại.
+    Một số mã (vd ^VNINDEX.VN) không trả chuỗi cho khung 3 tháng -> thử lại khung 1 tháng."""
+    price, ts, points = yahoo_chart_range(symbol, "3mo")
+    if len(points) < 2:
+        price, ts, points = yahoo_chart_range(symbol, "1mo")
+    return price, ts, points
+
+
+def yahoo_chart_range(symbol: str, rng: str):
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol)}?interval=1d&range={rng}"
+    res = json.loads(http_get(url))["chart"]["result"][0]
+    closes = res["indicators"]["quote"][0].get("close", [])
+    points = [[datetime.fromtimestamp(t).date().isoformat(), float(c)]
+              for t, c in zip(res.get("timestamp", []), closes) if c is not None]
+    price = res["meta"].get("regularMarketPrice") or (points[-1][1] if points else None)
+    if price is None:
+        raise ValueError("không có giá")
+    ts = res["meta"].get("regularMarketTime")
+    today = datetime.fromtimestamp(ts).date().isoformat() if ts else (points[-1][0] if points else "")
+    # Yahoo có thể chưa ghi phiên hiện tại vào chuỗi đóng cửa
+    if points and points[-1][0] == today:
+        points[-1][1] = float(price)
+    else:
+        points.append([today, float(price)])
+    return float(price), ts, points
+
+
+def fetch_yahoo(key: str, label: str, group: str, symbol: str, unit: str, decimals: int) -> Dict[str, Any]:
+    m = make_metric(key, label, group, unit, decimals, "Yahoo Finance", f"https://finance.yahoo.com/quote/{symbol}")
+    try:
+        price, ts, points = yahoo_chart(symbol)
+        prev = points[-2][1] if len(points) >= 2 else None
+        if prev is None:
+            # Mã không có chuỗi đóng cửa (vd ^VNINDEX.VN): lấy giá đóng cửa phiên trước từ thông tin phiên;
+            # biểu đồ khi đó tự tích lũy qua history.json
+            meta = json.loads(http_get(f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol)}"
+                                       f"?interval=1d&range=1d"))["chart"]["result"][0]["meta"]
+            prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+            points = []
+        m.update({
+            "value": price,
+            "prev": prev,
+            "series": points,
+            "as_of": datetime.fromtimestamp(ts).strftime("%H:%M %d/%m/%Y") if ts else "",
+            "ok": True,
+        })
+    except Exception as e:
+        m["error"] = str(e)
+    return m
+
+
+# ---------------------------------------------------------------- Vàng SJC
+
+GOLD_URL = "https://24h.com.vn/gia-vang-hom-nay-c425.html"
+
+
+def fetch_gold_sjc() -> Dict[str, Any]:
+    m = make_metric("gold_sjc", "Vàng SJC", "gold", "tr.đ/lượng", 2, "24h.com.vn (bảng giá SJC)", GOLD_URL)
+    try:
+        html = http_get(GOLD_URL).decode("utf-8", errors="ignore")
+        for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.DOTALL):
+            if "SJC" not in tr:
+                continue
+            nums = re.findall(r"([0-9]{2,3},[0-9]{3})", tr)
+            if len(nums) >= 2:
+                buy = float(nums[0].replace(",", "")) / 1000.0
+                sell = float(nums[1].replace(",", "")) / 1000.0
+                m.update({"value": sell, "sub": f"Mua {buy:.2f}".replace(".", ",") + " · bán ra", "ok": True})
+                break
+        if not m["ok"]:
+            m["error"] = "Không tìm thấy dòng SJC trong bảng giá"
+    except Exception as e:
+        m["error"] = str(e)
+    return m
+
+
+# ---------------------------------------------------------------- Xăng dầu
+
+FUEL_URL = "https://webgia.com/gia-xang-dau/petrolimex/"
+
+
+def fetch_fuel() -> Dict[str, Any]:
+    """Giá RON 95-III vùng 1 theo bảng niêm yết Petrolimex. Không có số dự phòng."""
+    m = make_metric("ron95", "Xăng RON 95", "fuel", "đ/lít", 0, "Petrolimex (qua webgia.com)", FUEL_URL)
+    try:
+        html = http_get(FUEL_URL).decode("utf-8", errors="ignore")
+        period = re.search(r"áp dụng từ\s*([0-9]{1,2}h[0-9]{0,2}\s*ngày\s*[0-9]{1,2}/[0-9]{1,2}/[0-9]{4})", html, re.I)
+        found = {}
+        for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.DOTALL):
+            row = re.sub(r"<[^>]+>", " ", tr)
+            nums = re.findall(r"\b([1-3]\d[.,]\d{3})\b", row)
+            if not nums:
+                continue
+            price = float(nums[0].replace(".", "").replace(",", ""))
+            if "RON 95-III" in row and "ron95" not in found:
+                found["ron95"] = price
+            elif "RON 95" in row and "RON 95-V" not in row and "ron95" not in found:
+                found["ron95"] = price
+            elif "E5" in row and "e5" not in found:
+                found["e5"] = price
+            elif ("DO 0" in row or "Dầu DO" in row) and "do" not in found:
+                found["do"] = price
+        if "ron95" in found:
+            sub = []
+            if "e5" in found:
+                sub.append(f"E5 {vn_int(found['e5'])}")
+            if "do" in found:
+                sub.append(f"DO {vn_int(found['do'])}")
+            m.update({
+                "value": found["ron95"],
+                "sub": " · ".join(sub),
+                "as_of": f"Kỳ điều hành {period.group(1)}" if period else "",
+                "ok": True,
+            })
+        else:
+            m["error"] = "Không tìm thấy dòng RON 95 trong bảng giá"
+    except Exception as e:
+        m["error"] = str(e)
+    return m
+
+
+# ---------------------------------------------------------------- Tổng hợp
+
+OZ_PER_LUONG = 37.5 / 31.1034768  # 1 lượng = 37,5 g; 1 troy ounce = 31,1034768 g
+
+
+def gold_spread(sjc: Dict[str, Any], world: Dict[str, Any], usd: Dict[str, Any]) -> Dict[str, Any]:
+    """Chênh lệch giá bán SJC so với vàng thế giới quy đổi theo tỷ giá bán USD (chưa gồm thuế, phí)."""
+    m = make_metric("gold_spread", "Chênh SJC – thế giới", "gold", "tr.đ/lượng", 2,
+                    "Tính từ Vàng SJC, Vàng thế giới, USD/VND", sjc["source_url"])
+    if not (sjc["ok"] and world["ok"] and usd["ok"]):
+        m["error"] = "Thiếu một trong ba số: vàng SJC, vàng thế giới, USD/VND"
+        return m
+    world_vnd = world["value"] * usd["value"] * OZ_PER_LUONG / 1e6
+    m.update({"value": sjc["value"] - world_vnd, "sub": f"Thế giới quy đổi {world_vnd:.2f}".replace(".", ","), "ok": True})
+    return m
+
+
+def collect_all_indices() -> List[Dict[str, Any]]:
+    """Trả về danh sách chỉ số theo thứ tự hiển thị."""
+    metrics = fetch_forex()
+    sjc = fetch_gold_sjc()
+    world = fetch_yahoo("gold_world", "Vàng thế giới", "gold", "GC=F", "USD/oz", 1)
+    metrics += [sjc, world, gold_spread(sjc, world, metrics[0])]
+    metrics.append(fetch_yahoo("vnindex", "VN-Index", "stock", "^VNINDEX.VN", "điểm", 2))
+    metrics.append(fetch_fuel())
+    metrics.append(fetch_yahoo("brent", "Dầu Brent", "commodity", "BZ=F", "USD/thùng", 2))
+    metrics.append(fetch_yahoo("dxy", "Chỉ số USD (DXY)", "fx", "DX-Y.NYB", "điểm", 2))
+    return metrics
+
 
 if __name__ == "__main__":
-    indices = collect_all_indices()
-    print(json.dumps(indices, ensure_ascii=False, indent=2))
+    for m in collect_all_indices():
+        status = "OK " if m["ok"] else "LỖI"
+        print(f"[{status}] {m['label']}: {m['value']} {m['unit']} — {m['source']} {m['error']}")

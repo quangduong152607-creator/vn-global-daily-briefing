@@ -175,7 +175,7 @@ def collect_news(sources_config: Dict[str, Any]) -> Dict[str, List[Dict[str, Any
                 if isinstance(cached, dict):
                     for k in ["domestic_economy", "domestic_tech", "international_macro", "international_tech", "social", "domestic", "international", "technology"]:
                         if k in cached and cached[k]:
-                            results[k] = cached[k]
+                            results[k] = [dict(it, from_cache=True) for it in cached[k]]
                     # Nếu cache cũ chưa phân rã, hỗ trợ migrate
                     if not results["domestic_economy"] and results.get("domestic"):
                         results["domestic_economy"] = results["domestic"]

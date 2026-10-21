@@ -31,22 +31,26 @@ market-intel-notebooklm/
 │   ├── notebooklm/
 │   │   ├── client.py                     # Interface trừu tượng InfographicProvider & Fallback Engine
 │   │   └── prompts.py                    # Bộ prompt 8 module được chuẩn hóa cho NotebookLM
+│   ├── processors/history.py             # Lưu lịch sử chỉ số (data/history.json): thay đổi so với kỳ trước & sparkline
 │   └── publisher/
 │       ├── site_builder.py               # Sinh trang web di động docs/index.html & docs/archive.html
 │       └── quality_check.py              # Kiểm tra số liệu, kích thước và link nguồn trước khi xuất bản
-├── templates/
-│   └── source_template.md                # Khung mẫu daily_source.md (Ground Truth)
 ├── output/
 │   └── [YYYY]/[MM]/[DD]/
 │       └── source/daily_source.md        # File nguồn duy nhất nạp vào NotebookLM
 ├── docs/                                 # Thư mục xuất bản GitHub Pages
 │   ├── index.html                        # Bản tin mới nhất kèm danh sách link nguồn có thể click
-│   └── archive.html                      # Kho lưu trữ các kỳ bản tin
+│   ├── archive.html                      # Kho lưu trữ các kỳ bản tin
+│   └── archive/YYYY-MM-DD.html           # Bản lưu từng ngày
 ├── main.py                               # Bộ điều phối chính (chạy 1 lệnh toàn bộ pipeline)
 └── README.md                             # Tài liệu kỹ thuật
 ```
 
 ---
+
+**Nguyên tắc số liệu:** không có số mặc định. Nguồn nào lỗi thì trang ghi "Chưa lấy được số liệu" và mục "Trạng thái nguồn dữ liệu" ở cuối trang nêu lý do. Bảng thị phần (`src/collectors/marketshare.py`) là số nhập tay, cần cập nhật khi có báo cáo quý mới.
+
+**Chạy thử trên GitHub Actions:** chạy workflow thủ công trên một nhánh khác `main` thì pipeline chạy đủ nhưng không commit (chỉ xem log).
 
 ## 2. Hướng Dẫn Vận Hành
 
