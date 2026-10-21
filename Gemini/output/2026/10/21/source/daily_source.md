@@ -1,276 +1,119 @@
-# BẢN TIN 24H — Thứ 4, 21/10/2026
-Kỳ dữ liệu: từ 20/10/2026 08:11 đến 21/10/2026 08:11 (giờ Việt Nam)
-Số nguồn đã quét: 8 | Số nguồn lỗi: 0
-Trạng thái hệ thống: HOẠT ĐỘNG BÌNH THƯỜNG
+# BẢN TIN 24H — 21/10/2026 10:07
 
-> **LƯU Ý DÀNH CHO NOTEBOOKLM:**
-> Tài liệu này là NGUỒN SỰ THẬT GỐC (GROUND TRUTH).
-> - Tuyệt đối CHỈ sử dụng dữ liệu, con số và sự kiện có trong tài liệu này.
-> - KHÔNG tự ý suy đoán, nội suy, hay thêm thắt thông tin bên ngoài.
-> - Giữ nguyên nhãn độ tin cậy [XÁC THỰC], [MỘT NGUỒN], [TIN ĐỒN], [NHẬN ĐỊNH].
-> - Giữ nguyên mọi con số chính xác 100%.
+> Nguồn sự thật gốc. Chỉ dùng số liệu và sự kiện trong tài liệu này; mục ghi CHƯA LẤY ĐƯỢC nghĩa là không có số.
 
----
+## Chỉ số thị trường
+- **USD/VND**: 26.070 đ | Mua TM 25.660 · CK 25.690 · giá bán ra — Vietcombank 09:58 21/10/2026
+- **CNY/VND**: 3.937 đ | Mua TM 3.777 · CK 3.815 · giá bán ra — Vietcombank 09:58 21/10/2026
+- **KRW/VND**: 20,30 đ | Mua TM 16,84 · CK 18,71 · giá bán ra — Vietcombank 09:58 21/10/2026
+- **Vàng SJC**: 142,30 tr.đ/lượng | Mua 139,30 · bán ra — 24h.com.vn (bảng giá SJC)
+- **Vàng thế giới**: 4.135,5 USD/oz | thay đổi -7.1 (-0.17%) — Yahoo Finance 09:57 21/10/2026
+- **Chênh SJC – thế giới**: 12,32 tr.đ/lượng | Thế giới quy đổi 129,98 — Tính từ Vàng SJC, Vàng thế giới, USD/VND
+- **VN-Index**: 1.697,24 điểm | thay đổi +5.27 (+0.31%) — Yahoo Finance 09:52 21/10/2026
+- **Xăng RON 95**: 29.050 đ/lít | E5 27.700 · DO 30.520 — Petrolimex (qua webgia.com)
+- **Dầu Brent**: 110,36 USD/thùng | thay đổi +1.57 (+1.44%) — Yahoo Finance 09:55 21/10/2026
+- **Chỉ số USD (DXY)**: 101,78 điểm | thay đổi +0.05 (+0.05%) — Yahoo Finance 09:57 21/10/2026
 
-## PHẦN 1 — CHỈ SỐ THỊ TRƯỜNG & TỶ GIÁ 24H
-### Giá Vàng
-- **SJC Miền Bắc/TP.HCM**: Mua vào 139.60 tr.đ/lượng | Bán ra 142.60 tr.đ/lượng | Thay đổi: -1.00 tr.đ (Giảm sau phiên trước)
-- **Vàng Thế Giới (Kitco)**: 4,117 USD/oz | Chênh lệch trong nước: ~3.0 tr.đ/lượng
-- *Nguồn: SJC / Kitco | Cập nhật: 08:11 21/10/2026*
+## Đáng chú ý cho ngành ĐTDĐ
+- **Apple mở rộng quan hệ đối tác với các nhà cung cấp Mỹ cho iPhone Duo và iPhone 18 Pro** [Apple, Chip & bộ nhớ, Smartphone] — Hôm nay, Apple đã công bố quan hệ đối tác mới và mở rộng theo Chương trình Sản xuất Hoa Kỳ (AMP), đối với các vật liệu và linh kiện quan trọng được sử dụng trong iPhone Duo và iPhone 18 Pro, kể từ gần 100 linh kiện trong các điện thoại đó, từ chip không dây đến silicon cung cấp năng lượng... (GSMArena 05:21 21/10; ⚠️ MỘT NGUỒN) https://www.gsmarena.com/apple_expands_partnerships_with_american_suppliers_for_the_iphone_duo_and_iphone_18_pro-news-75136.php
+- **Samsung cải thiện hiệu suất năng lượng của modem Exynos cho điện thoại Galaxy S27** [Samsung, Chip & bộ nhớ, Smartphone] — Điện thoại hỗ trợ Exynos của Samsung không có danh tiếng tốt nhất khi nói đến mức tiêu thụ điện năng ở chế độ chờ – modem của họ có xu hướng sử dụng nhiều pin hơn so với các modem bên trong điện thoại Galaxy hỗ trợ Snapdragon. Nhưng Samsung LSI cuối cùng có thể đã giải quyết được vấn đề. Modem M2700, mà... (GSMArena 01:03 21/10; ⚠️ MỘT NGUỒN) https://www.gsmarena.com/samsung_improves_the_power_efficiency_of_the_exynos_modems_for_the_galaxy_s27_phones-news-75130.php
+- **Apple giới hạn số lần mua iPhone Duo ở mức hai lần mỗi người trong nỗ lực giải quyết các nhà giao dịch lướt sóng** [Apple, Logistics] — Apple đã mở đơn đặt hàng trước cho iPhone Duo khoảng bốn ngày trước và vài giây sau khi ngày giao hàng chuyển sang tháng 1 năm sau. Với mỗi sản phẩm có nhu cầu cực kỳ cao và tồn kho thấp, các nhà giao dịch lướt sóng tập hợp và cố gắng mua mặt hàng đó với số lượng lớn và sau đó bán nó với giá cao... (GSMArena 04:03 21/10; ⚠️ MỘT NGUỒN) https://www.gsmarena.com/apple_caps_iphone_duo_purchases_at_two_per_person_in_an_attempt_to_tackle_scalpers-news-75135.php
+- **Samsung dự kiến ra 6 điện thoại gập Galaxy Z 2027** [Samsung, Smartphone] — Samsung được cho là lên kế hoạch mở rộng dải sản phẩm Galaxy Z 2027, nổi bật là thiết bị màn hình cuộn Galaxy Z Slide và điện thoại gập ba thế hệ hai. (VnExpress Số Hóa 06:37 20/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/samsung-du-kien-ra-6-dien-thoai-gap-galaxy-z-2027-5133915.html
+- **Cùng xem vài hình ảnh KOL, KOC, media chụp bằng Vivo X500 Pro Max** [vivo] — Vừa rồi là concert Anh Trai và Vivo đã phối hợp cùng nhiều media, KOC, KOL đến trải nghiệm và sử dụng Vivo X500 Pro Max để chụp hình tại sự kiện. Mình thấy thú vị là do Vivo trang bị rất nhiều ống... (Tinhte.vn 08:52 21/10; ⚠️ MỘT NGUỒN) https://tinhte.vn/thread/cung-xem-vai-hinh-anh-kol-koc-media-chup-bang-vivo-x500-pro-max.4185397/
+- **Apple now sells iPhone 18 Pro repair parts** [Apple] — Sau khi mở rộng quan hệ đối tác với các nhà cung cấp Mỹ cho iPhone 18 Pro và iPhone Duo, Apple cũng đã bắt đầu bán các bộ phận và công cụ sửa chữa cho iPhone 18 Pro và iPhone 18 Pro Max thông qua Cửa hàng sửa chữa tự phục vụ, cùng với các bộ phận cho M5 Max và M5 Ultra Mac... (GSMArena 07:02 21/10; ⚠️ MỘT NGUỒN) https://www.gsmarena.com/apple_now_sells_iphone_18_pro_repair_parts-news-75137.php
+- **Vương quốc Anh muốn Apple mở công nghệ không tiếp xúc iPhone và tính phí thấp hơn** [Apple] — Cơ quan Cạnh tranh và Thị trường Anh (CMA) đã vạch ra các đề xuất buộc Apple phải mở công nghệ NFC trong iPhone cho nhiều bên thứ ba hơn, với các điều khoản thuận lợi hơn. Theo cơ quan quản lý, "các khoản phí và quy tắc của Apple đang ngăn chặn các công ty công nghệ tài chính của Anh và các doanh nghiệp khác hoạt động trong lĩnh vực này". (GSMArena 02:40 21/10; ⚠️ MỘT NGUỒN) https://www.gsmarena.com/uk_wants_apple_to_open_up_iphone_contactless_tech_and_charge_lower_fees-news-75134.php
+- **Thông số kỹ thuật của Oppo Reno17 Pro bị rò rỉ và nghe có vẻ rất quen thuộc** [OPPO] — Dòng Reno17 của Oppo được đồn đại sẽ ra mắt tại Trung Quốc vào tháng tới và hôm nay, Digital Chat Station đã tiết lộ các thông số kỹ thuật chính của Reno17 Pro. Nếu bạn đã theo dõi sát sao các bản phát hành của thương hiệu, chúng sẽ nghe rất quen thuộc. Theo thông tin rò rỉ, Reno17 Pro... (GSMArena 09:04 21/10; ❓ TIN ĐỒN / CHƯA XÁC MINH) https://www.gsmarena.com/oppo_reno17_pro_specs_leak_and_they_sound_very_familiar-news-75133.php
 
-### Tỷ Giá Ngoại Tệ
-- **USD/VND**: Mua 25.717 đ | Bán 25.975 đ | Tỷ giá trung tâm NHNN: 24.280 đ
-- **CNY/VND (Nhập khẩu ICT)**: Mua 3.862.65 đ | Bán 3.862.65 đ
-- **KRW/VND (Chuỗi cung ứng)**: Mua 19.47 đ | Bán 19.47 đ
-- **Chỉ số DXY**: 104.25
-- *Nguồn: Vietcombank / SBV | Cập nhật: 08:11 21/10/2026*
+## Tin các hãng tại Việt Nam · 3 ngày
+- **Samsung dự kiến ra 6 điện thoại gập Galaxy Z 2027** [Samsung, Smartphone] —  (VnExpress 06:37 20/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMijAFBVV95cUxNUHRqSGFwcGkxemJnZ1VyMmhqU2lFZnZ4SHNEelZvWnAxWGw0a05fMmJMcUhoeUN2Q0YwTU1hQy1OaDdBSnM1NkkzZzJ6NFlfZFVpcXJldFlCZWVSOG5JcEpXNGNCRkZkOHk3bTVBTG9BNDUzZjNKUzJyRWFOY0h5OGhPejBxRmNTTzl3ZA?oc=5
+- **Samsung gây sốc năm 2027: 6 điện thoại gập, Galaxy Z Slide màn hình cuộn lộ diện** [Samsung, Smartphone] —  (Báo VietNamNet 13:00 18/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDNmeXBmVWJSbmJZV3l5azlyaTFwLVRyblVzamhqU2VzNnM2cnZTSmw1R3NFQTIxZS1iUnZ0S0pNNk9IT0FKanFySzdMZFBoVldDVmRJcUxXNUlYYXRhTThhNWhNcnlQMWxLNjc5UGhqNm5raEsyaUFWUHpmQ3RXTWdpUVBVZmo3RTAtNHBuVXlnN1E0TGNMOEFsbWdHcHZ1Qm5TU05meFFMcllhOWNDYjVldw?oc=5
+- **iPhone 18 lộ thiết kế khác lạ: Apple sắp tạo bất ngờ?** [Apple] —  (Báo VietNamNet 05:31 21/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMijwFBVV95cUxOMkV6VnEyUTNacTNTT1RHUENMdHAyXzdlZGNoQ1A1ejdyQVQxcUpoZmxHOFRJZ2NhNzhRZWYzXzdVeXZkRV9TNzlmZjRzaXMySnJYNm1YdmtnN1FlSTIyU0tkVnJ0eTFuSnZaZzVlVVFWc0VEZjkwNUJxbmFJQkRtYkpJUmhic3ZsTkRVdkxndw?oc=5
+- **Apple cho biết gần 100 linh kiện iPhone Duo và iPhone 18 Pro sản xuất tại Mỹ** [Apple] —  (Laodong.vn 07:25 21/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMivgFBVV95cUxPaXhaX2ZjZUQteUJ3a2t5QUp1bTRoZU5BQ0lrMkVsRkdhNTl6SGVxNU9zaVhaQ3RKUkhEcmlYN3FuWmhaSE5pZ1hOYmhDemwyWllEOEozMFZPYUN6TGY5UllBRWtRQ3NPTDJMYXBfMjF6N25STkFSZktGWFB1Q21YbkhzMy0xOEp4MkpOVTZzaUJsVW9Kb1lFWGUtX3dvM2pjSWFPS2xSUU5VdUZyTHN2X1ZKZkcxWkdvNDBFdHVB?oc=5
+- **OPPO Reno X sẽ sớm ra mắt với màn hình rộng 16:9, camera 200MP và pin khủng 8000 mAh** [OPPO] —  (CellphoneS 21:05 20/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMia0FVX3lxTE5PaGs2YU1rVm9YQklvc2tLN2pESjFIZURyTnp3ZXE0cnc2dTZ2dElHYjBhaTU1SmtjdFZITjFUV3FtUHR6T0NLVkh3QWN5ZUxFMkpGZGo0STh6WEt1alFUVDFaa0Zfd0dhNlNj?oc=5
+- **Minigame Find Your Next Pro Max: Đổi máy cũ lên đời OPPO Find X10 Series cực hot** [OPPO] —  (Thegioididong.com 22:00 20/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUXoxaXVwZk5OUTVOcjlTSmU2RF9vT1NBREVUSkxQOG9BQ3Zva3Vyb2YtNGVlOGVpcHRrNHQwZXZsLTBEV3huTmlPeG00V3hRQU1ocFd4MlI3Mk1SRXFnc1UwNDFUVkU2clZQbjJZTHg3NHMwOWRVQUxpQ3VsYWRtOU5KR3BHQk1GQkNzd2tCQjdod2JWR0ZFWHdiZlVnZktMMHk1Mmp4XzBRZmdoS2xCamFHZjRNaFhpcUlhbGZSWkdBSkk?oc=5
+- **Redmi K100 xác nhận pin 10.000 mAh, sạc nhanh 100 W và màn hình 165 Hz** [Xiaomi] —  (Thegioididong.com 07:30 21/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMitgFBVV95cUxPbWJxVXFYNUd5ODZUSHAwUUxUYUd0VE5jazZtaHAwc1dfSW0tb3J0Q29fNkFHZm8yM0pUT1dSWFhwZmk3U0QyQjRFTWk0dkxOQkNrUzVNcy15dEgxYm1yWXAwMlAwZzdLT0tNS3lmNktlOXRhbVlkUlBoWml6aGhwclU2eFNLbnVxbUZMTEFhUGJ6aFpxdy1oeWt5VmUtR1NFQ2g3MGVxZWFERlRXQUh2Z1A5WjhhUQ?oc=5
+- **So sánh Xiaomi Redmi Note 17 vs HONOR X7d: Đâu là lựa chọn đáng mua?** [Xiaomi, Honor] —  (Viettel Store 20:00 20/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0FBemhHeWEtMWtwd0x0N1VCMEpnUUZSUTV2LWo0ZEdyR3VfQThNaDl2aXZ3dWVRNlFMNkVVTl91TWlldF8wdUdvN0tlU05mNTc4RVVoYVJZNUctUl9RMWNDUlZYNWV4aVdNZHZDcG15bUh1ZjNSWXNyc2FUTXFhWGpHWlpQcnBvdG9iVDYwUzZaRzNiVmY5NzRubFJESWc?oc=5
+- **vivo S70 sắp ra mắt tháng 11: Trang bị camera tele tiềm vọng** [vivo] —  (Thegioididong.com 10:24 19/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMihAFBVV95cUxOSnRPVW5KdXFkbmxTaVBBSW1obXZZYnFWQUtlLVJZVkxnZnVMSXN0NDhQYzBaQTk3OGdyS2tOMnZFeFlKSmhzS1J2OTlKaVF3VTgtOWxkcEpCbTVKa0F1ejhNZ2Nwd2x1VzQxd1FiQ0NNb2ZaR1dyVWJodF9xWlBwMHR1YWM?oc=5
+- **vivo sắp ra điện thoại thiết kế đẹp, màn hình 2K 185Hz, pin 9.000mAh, giá tầm trung** [vivo, Smartphone] —  (GenK.vn 17:49 19/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMiugFBVV95cUxPYldTTl9NaF81R2hoMFR5V0tlT3pKX2FsWl9PWWNoSW9yMTBHMkk1Z1hMQXY5VmdFU201X3ZZMVdabTBBbXdhM2pfaWUxSm9ZX0dyZDEwa2tsbFFiX2lELWNJZmpiNTNwQ01pUWtVZE1iVlQweUl5TE9VMm5yQ3VOWWdoR1F2V3E5QWRyUXlac0E3anhkcGpHR2V2T1FsOWJlX0VhVlI3TGRCb09YbGEyVnZPallQd3VKRmc?oc=5
+- **Minigame Đăng ký thông tin realme C01: Cơ hội trúng điện thoại và voucher giảm 50%** [realme, Smartphone] —  (Thegioididong.com 17:00 20/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMixAFBVV95cUxPOGlTUGZINmNnTGFCVTN0R2ZoMGgzYzk5Y2VURzhMZUVYRXpuTEllMnhtVHJWTXJXVzJOc3h4VldReDBvOFFXVW82dWhMdUtxUk9IM3VQUTZUOWlCS1BIajlyb1JoODRYZkRRUVJFNU00a3J6bElZcUE1clRrMmZxaHRJeGNIXzZRYU9ucVdaUjJ5TmlBaG1JcEttelpya2Z4ZnVUNllOdW5Qa0FBU1dHVk5FdFVoanFQVWFwdW5kTDB5a0RX?oc=5
+- **realme C01 lộ giá tại Việt Nam: Màn hình 120Hz, pin 6.500 mAh, giá dự kiến 5,99 triệu đồng** [realme] —  (Viettel Store 16:00 20/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMib0FVX3lxTE4xY0M5eUFsUVpZMUk4Z1JTTWVNZnBQMXM0R1R1WHBOTGxiMmozZHB5bkVaS0lLcDEtVFYwaklhYTl0NHJaankwSE5KZVJYcDlMcEFKQkxRUWVXN3N0ckM5TE5wQW1ZZkVfZU9LMmJZYw?oc=5
+- **Sự thật về điện thoại Honor 2026: Có bền như lời đồn và có đầy đủ dịch vụ Google?** [Honor, Smartphone] —  (Baolangson.vn 00:45 21/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMitAFBVV95cUxOeVlSSEFjSk1wbmFOU24xWC0yTUlYQlJTc2xEc0dPMFlUQ3hINUZ5ZDRBMl9DX2J2Q19WV0hoQkQxOHB0Q2ZObndZYXFKTmRuZExOQlZpM2dMV0Y4Q3QybUs3dlBjeUQ1U1RXVmxhUEIzV05YLXBxZFNZNk1kMlNwREdFdG5jalhxZC1KOHY2VGNfUU5KZlJIYTdsNGFxQm16VXpkbVBxMkFhOUYyemNCR0VndHI?oc=5
+- **HONOR WIN Turbo 2 lộ diện thiết kế và cấu hình, hé lộ loạt nâng cấp đáng chú ý** [Honor] —  (CellphoneS 16:24 20/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMic0FVX3lxTE1UZ09iMHlveUJVbW9SM05wSGVxWE8yWC1PSkJ4WFJRQTd4R3l1dHQxMW04eXFGc2MxR09FMnNsbHlKYkwza3c4Q2RERjJKWkdSNTRaQUpkeU5GYmdCcWhOSGk2Y3NmLWkzZU9qRUZCX1Myb0U?oc=5
 
-### Thị Trường Chứng Khoán
-- **VN-Index**: 1.691,97 điểm | Biến động: +6.85 (+0.54%) | Khối lượng: 680.5M | Nước ngoài: +120.5 tỷ VNĐ (Mua ròng)
-- **HNX-Index**: 242.15 điểm | Biến động: +1.20 (+0.50%)
-- *Nguồn: HOSE / CafeF | Cập nhật: 08:11 21/10/2026*
+## Chuỗi cung ứng & linh kiện · 7 ngày
+- **[Tin tức] Giá DRAM đã tăng 20% theo quý trong Q426 mặc dù lợi nhuận chậm hơn; Nhu cầu AI, Triển vọng hỗ trợ nguồn cung chặt chẽ** [Chip & bộ nhớ] —  (TrendForce 15:05 20/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMi4AFBVV95cUxPV3lnMFNjd3BkNzVHMXdDUVhoZHA0MmhLSnI0TUkteEJFQ0dEUVdnVjdTSE14R2p4TG03dGZRUEpBMWx6bGYzNklNcjBNRjd1RXotcXM5MkNkNzNuZ3hfOVdpTVp4bTJ3cVJ6QUlsYmpXZElxVXZuenlBamY2T1VGc2dJeVVQZ19NUEFUQXlVbUN5VlBIUkozRGFDVzduQlNDNm9CaHFlektTUTVOSVh0NTczZm5paWx3R3FjQXhqbGFXckdHREVvVXhUSVB0YkhRd1N4bUNVLVhJT293Z3FZeg?oc=5
+- **Các OEM điện thoại thông minh hiện đang sử dụng để tái chế DRAM từ 5 đến 6 tuổi để đẩy khối lượng lô hàng lên** [Chip & bộ nhớ, Smartphone] —  (Wccftech 20:46 20/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMixAFBVV95cUxOUUtKTlpvcmd6Ty1YRkxoazFBakVqajJUWW1YS19zOUhvOUMxQ3FQb1E3UWFLdVdfSXpxZlB4UUJEUnpiT2NKNHpNekM0YUIyOEZkRWZYSzZIUnBkNmU3bkdMNlNmTkVrS1poZ1RxZms5MzFXZEVMLU95MzBTdnQ2ZnBWcVJlWl9BbzI2YWRjTEhMYkJkeThKdkNxVDBjNGMtaHo4U0xjQjNpMlU5ekRFS1IxLUZTME5SdS16NXJ4LUUzVlQz0gHKAUFVX3lxTE5xRDZWV0VKTXlaM0tmNkJER21UUld5MVR4OWczS3VoT1huVGpGdjF1aV9KUVVKaHZ2eWlUeTRhVXNyaE5ja01tSEtVOVdja1RzU3l4b0lCMHJSYm5HOUtKMTUxV0RRcDZZU2VhLWJNbE1wdVVzSGstUGhVdnJHUWtXT0xMQWF0QVEtTDg1UnNrdmpQcGc1ZmFMb2N0QklKRkdqaF9tN19HOFdYc0FhMC0yVnUxazNPYkZ2dmZxMy0xZnR6TUFYVHFoeXc?oc=5
+- **Lô hàng điện thoại thông minh vừa đạt mức thấp nhất trong quý 3 kể từ năm 2012. AI là đáng trách.** [Smartphone] —  (Gadget Review 22:51 14/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMiqgFBVV95cUxNay1uUVhaN2wzVTkxVk53OXBaQWpOMS14SVhrZHItMEJDQWtLaWljdGZ5U1N6eU9HN1I4V09iSTRhaHJzbFVraF9iZ3JMVFl4NTBObEl6Rk1UQXRJYnZVbW04VDVuQkVnWkVTbkFVcVFpMmVaWjh2RGxRcDhUUGNwUVZPeFdxOU5aZHdCU0ZuRkNKc0Z0c3hzU1JrZ3lOMzAzN2pYU2l1YlREUQ?oc=5
+- **Omdia: Thị trường điện thoại thông minh toàn cầu giảm 20% trong quý 3 năm nay khi cuộc khủng hoảng bộ nhớ định hình lại sự cạnh tranh** [Chip & bộ nhớ, Smartphone] —  (Omdia 14:31 15/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMiywFBVV95cUxQVmFnRks2WGtyd1NiLWt4UG95QkJRZmlEYXp0NWZyVk5kOEZ5VWZ0YmNRaTRyaUpwNWlLWkhRYmM2X2VQbEhKd3YyUS1KZHkwS1ZYcUo2NEFRXy03Zy1ZU0o5Y0RoSV9CWlFSQXAzb2RPR2d5OXpIeWZoSUdYOGsySzcweERIRndXZ0g5TGJVbHdwVWJVYXg3dWlfTTV3QkZ3dFFET2h2UjR5RnVyV3R5TFd3OFpITjUxaFZYN0stVV8ycnBkeFRXOUtXQQ?oc=5
+- **IDC cho biết các lô hàng điện thoại thông minh sụp đổ 22% trong quý tồi tệ nhất từ trước đến nay** [Smartphone] —  (Bloomberg.com 11:08 15/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMisAFBVV95cUxQTzRkLVJYcV9MRDlsSnhrVmpkWWh1NDJZZEhrSlRMbjVSdnF4RzJ1Rmw5RFkxNVU4VGZXV09uejRwaTc4XzZoY3JiTlJtc3hZb3BYZmRvUHJDRDBYZXhKcEY2NTJoem1CU2VPLVQwWWNKVFByaEh3RlhtUHR4a0JGM1NZeGtKLXZsRlJUcGZtOHEwSndEbm1QelB1S0R5NG5pMnhSMFNIZ1VQLVc2bExmVA?oc=5
+- **IDC: Apple đóng cửa với Samsung khi các lô hàng điện thoại thông minh toàn cầu giảm kỷ lục trong quý 3** [Apple, Samsung, Smartphone] —  (9to5Mac 03:35 16/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMiugFBVV95cUxQTUZ2OHRaSmlDMHcwV3V5OUtjUExDXzZ6Zk9wYjVJcXlWYUpkeTlfcjFKZUJ2Zlo1YXVDQmhZTmN3NlpXYUZUTzNfRW1ianhpVlhKenUwT293WlVZQjJza1Z2M2VoTy1GXzZWZ3ZGMllnNGFqeWY5Nmd5WWJMWGMyRG1kM1dkLVFQUlpKb1BaZHlOazRPNWlWWVpPdnlTNG9COHhrRlI1TEtvMzVzQ0lzWVEyQ194aGVtWVE?oc=5
+- **Qualcomm đặt cược lớn vào điện thoại thông minh AI với chip hàng đầu kép** [Chip & bộ nhớ, Smartphone] —  (Benzinga 18:20 14/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMiswFBVV95cUxQRTktdXhidFl6OHZHMW1BZzJkdl9kZlBUTkJOMjdrSnpybUVvcVZ1czNKb3FERTdVZVItbWk1QmlfOEVHZWFJQklvZ1VlWVpLY05kQnM1OUpfbTRPSlQ2dmRxamt0S3NSclNNcHpzb1Q0dUFmNXp5MzVFd3R2X3pkejRMSnlQNm1aTDdmLThFaDdZZVBSdDZuTmh5eERhYy1qSVhyZE5iRW9yNVFBVFBNX0pJaw?oc=5
+- **Độc quyền: Qualcomm cắt giảm việc làm trên toàn thế giới trong việc sa thải tập trung vào hiệu suất, bản ghi nhớ nội bộ cho thấy** [Chip & bộ nhớ] —  (Reuters 23:29 20/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMivAFBVV95cUxNUndSd0N2Um9RWGtEUDU1MHBGUm1LU3RkT2RpRFVDbVNzRHdNTGVGYnk1MU1pSUFCQklWMnZERzc0bEJ0VDVUWUp5N3JHV3M0eVFMaGRFOEdwcjU0WlUxOG55enFWb09Id3AySlhLenVTT0k4Zk51WUhuQ05oVlBSWmg3d3NmLTFzOVBJTHVsc3RSN21WaGdwYjNCa19RSTRGWUhIXzQ1a25mSDhxQ0JwdzNJRUZiaHdXZTREOQ?oc=5
+- **Qualcomm ở mức $ 175: Sự thay đổi tự sự gửi vốn ra khỏi cửa** [Chip & bộ nhớ] —  (24/7 Wall St. 18:15 14/10; ⚠️ MỘT NGUỒN) https://news.google.com/rss/articles/CBMirAFBVV95cUxNcWZLWkNkbnR1YmdJbUVvYXIxSzVRQllqTEJhcWtBZjViaUd2OVBmeFYwV09acUN5OGlMRVp3ZUdfaDBnQzhvODhaVUt3bjdRVUxMdlVEM3NOb2JiLW80d19yODQ4czJGZmI1UEh5am1VbnFvWHVYZWszd3FZMlRNR2VzanF0VXBuLTV2VzRpM2J0TzNycXEwQlp6YlJiT015OThjaDZYZzR3c0p2?oc=5
 
-### Giá Xăng Dầu
-- **RON 95-III**: 29.050 đ/lít | Kỳ điều hành: Kỳ điều hành 15h00 ngày 24/09/2026
-- **E5 RON 92-II**: 27.700 đ/lít
-- **Dầu DO 0.05S**: 29.120 đ/lít
-- *Nguồn: Petrolimex / Bộ Công Thương*
+## Thời sự & kinh tế trong nước
+- **Hợp long cầu đi bộ bắc qua sông Sài Gòn** — Sau hơn một năm thi công, cầu đi bộ qua sông Sài Gòn dài 720 m hình lá dừa, tổng vốn gần 1.000 tỷ đồng hợp long sáng 21/10, nối Bến Bạch Đằng sang Thủ Thiêm. (VnExpress Thời Sự 04:00 21/10; ✅ XÁC THỰC) https://vnexpress.net/hop-long-cau-di-bo-bac-qua-song-sai-gon-5134828.html
+- **Hiệp định thương mại Việt Nam - EFTA mở cơ hội nâng chuẩn chuỗi cung ứng** — Hiệp định thương mại Việt Nam - EFTA sẽ mở ra những cơ hội cho hàng Việt tại các thị trường mới nhưng lợi thế sẽ thuộc về những chuỗi cung ứng đáp ứng được yêu cầu về chất lượng và bền vững. (Tuổi Trẻ Kinh Doanh ; ⚠️ MỘT NGUỒN) https://tuoitre.vn/hiep-dinh-thuong-mai-viet-nam-efta-mo-co-hoi-nang-chuan-chuoi-cung-ung-100261020195418422.htm
+- **Giá vàng nhẫn, vàng miếng sáng 21/10 tại SJC, PNJ, DOJI, Bảo Tín Minh Châu, Phú Quý đồng loạt giảm** — Hiện giá bán vàng trong nước khoảng 141 - 142,3 triệu đồng/lượng. (CafeF Tài Chính 09:16 21/10; ⚠️ MỘT NGUỒN) https://cafef.vn/gia-vang-nhan-vang-mieng-sang-21-10-tai-sjc-pnj-doji-bao-tin-minh-chau-phu-quy-dong-loat-giam-188261021082257133.chn
+- **Đưa vòm thép 3.400 tấn vào vị trí hợp long cầu đi bộ ra sao?** — Nhịp cầu đi bộ qua sông Sài Gòn dài 187m, nặng khoảng 3.400 tấn sẽ được đưa vào vị trí giữa hai trụ để hợp long. Toàn bộ quá trình được tính toán theo diễn biến thủy triều, với các bước xoay sà lan, căn chỉnh và hạ kết cấu. (Tuổi Trẻ Thời Sự ; ✅ XÁC THỰC) https://tuoitre.vn/dua-vom-thep-3400-tan-vao-vi-tri-hop-long-cau-di-bo-ra-sao-100261021062048117.htm
+- **Quốc hội xem xét bổ sung ngày nghỉ lễ trong luật** — Chính phủ đề xuất bổ sung vào luật ngày Văn hóa Việt Nam 24/11 thành ngày nghỉ hưởng nguyên lương, trong khi cơ quan thẩm tra cho biết có ý kiến nghiên cứu thêm ngày 27/7. (VnExpress Thời Sự 09:35 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/quoc-hoi-xem-xet-bo-sung-ngay-nghi-le-trong-luat-5134918.html
+- **'Chuyển đổi cây hoa sữa không thể chỉ dựa vào cảm xúc'** — Việc di chuyển cây hoa sữa cần dựa trên đánh giá khoa học về mức độ ảnh hưởng đến người dân, mật độ trồng và giá trị cảnh quan, thay vì chỉ dựa vào cảm nhận về mùi hương, theo các chuyên gia. (VnExpress Thời Sự 07:00 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/chuyen-doi-cay-hoa-sua-khong-the-chi-dua-vao-cam-xuc-5134518.html
+- **Hà Nội quy hoạch cây xanh trên các tuyến phố chính thế nào?** — Các tuyến phố chính ở trung tâm Hà Nội được phân chia thành 6 nhóm đặc trưng, gắn với 1-2 loại cây xanh chủ đạo, thay thế dần cây già cỗi và không đúng chủng loài. (VnExpress Thời Sự 04:00 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/ha-noi-quy-hoach-cay-xanh-tren-cac-tuyen-pho-chinh-the-nao-5134811.html
+- **Khánh Hòa định hướng đặt trung tâm hành chính ở Cam Lâm** — Đến năm 2050, trung tâm hành chính tỉnh dự kiến hình thành tại xã Cam Lâm, quy mô khoảng 115 ha, tập trung trụ sở các cơ quan Đảng, HĐND, UBND và các sở, ngành. (VnExpress Thời Sự 00:00 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/khanh-hoa-dinh-huong-dat-trung-tam-hanh-chinh-o-cam-lam-5134801.html
 
----
+## Công nghệ trong nước
+- **Cùng xem vài hình ảnh KOL, KOC, media chụp bằng Vivo X500 Pro Max** [vivo] — Vừa rồi là concert Anh Trai và Vivo đã phối hợp cùng nhiều media, KOC, KOL đến trải nghiệm và sử dụng Vivo X500 Pro Max để chụp hình tại sự kiện. Mình thấy thú vị là do Vivo trang bị rất nhiều ống... (Tinhte.vn 08:52 21/10; ⚠️ MỘT NGUỒN) https://tinhte.vn/thread/cung-xem-vai-hinh-anh-kol-koc-media-chup-bang-vivo-x500-pro-max.4185397/
+- **Cuộc gọi 44 phút đưa Alexandr Wang đến Meta** [Smartphone] — Từ cuộc trao đổi qua điện thoại, CEO Meta Mark Zuckerberg quyết định chi số tiền lớn để mời tỷ phú trẻ Alexandr Wang về lãnh đạo bộ phận AI. (VnExpress Số Hóa 09:00 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/cuoc-goi-44-phut-dua-alexandr-wang-den-meta-5134378.html
+- **Mở hộp Apple Watch Ultra 4 giá 23,9 triệu đồng trước mở bán** [Apple] — Apple Watch Ultra 4, bán ra ngày 22/10 tại Việt Nam, không thay đổi kiểu dáng nhưng nâng cấp mạnh về phần cứng, cảm biến nhịp tim và chấm điểm hồi phục cơ thể. (VnExpress Số Hóa 06:08 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/mo-hop-apple-watch-ultra-4-gia-23-9-trieu-dong-truoc-mo-ban-5134822.html
+- **Samsung dự kiến ra 6 điện thoại gập Galaxy Z 2027** [Samsung, Smartphone] — Samsung được cho là lên kế hoạch mở rộng dải sản phẩm Galaxy Z 2027, nổi bật là thiết bị màn hình cuộn Galaxy Z Slide và điện thoại gập ba thế hệ hai. (VnExpress Số Hóa 06:37 20/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/samsung-du-kien-ra-6-dien-thoai-gap-galaxy-z-2027-5133915.html
+- **Khủng hoảng heli bủa vây ngành chip và bán dẫn** [Chip & bộ nhớ] — Nguồn cung heli thương mại đang thiếu hụt trầm trọng, đe dọa gây gián đoạn sản xuất ở các ngành công nghệ cao như bán dẫn và chip AI. (VnExpress Số Hóa 00:00 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/khung-hoang-heli-bua-vay-nganh-chip-va-ban-dan-5134322.html
+- **Tại sao các hãng công nghệ tự làm chip AI?** [Chip & bộ nhớ] — Microsoft, Google một mặt hợp tác với hãng chip AI lớn nhất thế giới Nvidia, một mặt vẫn có dự án riêng, nhưng không phải để cạnh tranh trực tiếp. (VnExpress Số Hóa 10:00 20/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/tai-sao-cac-hang-cong-nghe-tu-lam-chip-ai-5134331.html
 
-## PHẦN 2 — TIN TRONG NƯỚC
-### 📈 A. Thời Sự & Kinh Tế - Chính Trị Trong Nước
-### 1. Hợp long cầu đi bộ bắc qua sông Sài Gòn
-- **Bối cảnh**: Sau hơn một năm thi công, cầu đi bộ qua sông Sài Gòn dài 720 m hình lá dừa, tổng vốn gần 1.000 tỷ đồng hợp long sáng 21/10, nối Bến Bạch Đằng sang Thủ Thiêm.
-- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/hop-long-cau-di-bo-bac-qua-song-sai-gon-5134828.html)
+## Kinh tế & địa chính trị quốc tế
+- **Những biến động cổ phiếu khổng lồ của Elice cho thấy sự bùng nổ chi tiêu của AI đang ngày càng được các nhà đầu tư xem xét kỹ lưỡng hơn** — Sự bùng nổ AI đang bước vào giai đoạn khó khăn hơn, khi các nhà đầu tư đặt câu hỏi liệu hàng tỷ đô la đổ vào các trung tâm dữ liệu có chuyển thành lợi nhuận bền vững hay không. (CNBC Economy 08:02 21/10; ✅ XÁC THỰC) https://www.cnbc.com/2026/10/21/ai-boom-spending-profit.html
+- **Australian data center operator NextDC's shares plunge 40% after it slashes earnings forecast** — Công ty đã trích dẫn sự chậm trễ cung cấp điện tại cơ sở Melbourne của mình trong bối cảnh cộng đồng địa phương và các bên liên quan phản đối việc giảm dự báo thu nhập. (CNBC Economy 09:55 21/10; ✅ XÁC THỰC) https://www.cnbc.com/2026/10/21/australia-data-center-operator-nexdc-datacenter.html
+- **Xuất khẩu của Nhật Bản đã bỏ lỡ rất lớn trong tháng 9 khi tăng trưởng chậm lại đến 16,7%** [Thuế & nhập khẩu] — Nhập khẩu của Nhật Bản tăng 18,9%, cũng không đạt kỳ vọng 19,6% từ Reuters. (CNBC Economy 07:44 21/10; ✅ XÁC THỰC) https://www.cnbc.com/2026/10/21/japan-trade-exports-semiconductor-yen.html
+- **Anh điều tiêm kích giúp Arab Saudi đối phó tên lửa, UAV Houthi** — Anh triển khai một số tiêm kích Typhoon FGR4 đến Arab Saudi để hỗ trợ nước này đánh chặn tên lửa, UAV của lực lượng Houthi. (VnExpress Thế Giới 08:57 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/anh-dieu-tiem-kich-giup-arab-saudi-doi-pho-ten-lua-uav-houthi-5134889.html
+- **Ukraine tuyên bố đánh tan một sư đoàn Nga trong chiến dịch phản công** — Chỉ huy Quân đoàn 3 Ukraine nói chiến dịch phản công Vivaldi đã khiến Sư đoàn 144 Nga "ngừng tồn tại như lực lượng quân sự có tổ chức". (VnExpress Thế Giới 08:25 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/ukraine-tuyen-bo-danh-tan-mot-su-doan-nga-trong-chien-dich-phan-cong-5134723.html
+- **Ông Trump hối thúc ông Zelensky đạt thỏa thuận với Nga** — Ông Trump tiếp tục gia tăng sức ép lên người đồng cấp Ukraine khi hối thúc ông Zelensky đạt thỏa thuận chấm dứt chiến sự với Nga. (VnExpress Thế Giới 07:49 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/ong-trump-hoi-thuc-ong-zelensky-dat-thoa-thuan-voi-nga-5134863.html
+- **NATO điều thêm máy bay, radar đến biển Đen** — NATO triển khai thêm máy bay, UAV và drone tới khu vực biển Đen sau loạt vụ tàu hàng bị tấn công gần Romania và Bulgaria. (VnExpress Thế Giới 07:13 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/nato-dieu-them-may-bay-radar-den-bien-den-5134869.html
+- **Elon Musk có thể đã ra lệnh hạn chế Starshield ở Ukraine** — Musk được cho là đã ra lệnh hạn chế phiên bản quân sự của mạng lưới vệ tinh Starlink, vốn là hạ tầng viễn thông sống còn của quân đội Ukraine. (VnExpress Thế Giới 06:40 21/10; ⚠️ MỘT NGUỒN) https://vnexpress.net/elon-musk-co-the-da-ra-lenh-han-che-starshield-o-ukraine-5134856.html
 
-### 2. 'Chuyển đổi cây hoa sữa không thể chỉ dựa vào cảm xúc'
-- **Bối cảnh**: Việc di chuyển cây hoa sữa cần dựa trên đánh giá khoa học về mức độ ảnh hưởng đến người dân, mật độ trồng và giá trị cảnh quan, thay vì chỉ dựa vào cảm nhận về mùi hương, theo các chuyên gia.
-- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/chuyen-doi-cay-hoa-sua-khong-the-chi-dua-vao-cam-xuc-5134518.html)
+## Công nghệ & di động quốc tế
+- **Apple now sells iPhone 18 Pro repair parts** [Apple] — Sau khi mở rộng quan hệ đối tác với các nhà cung cấp Mỹ cho iPhone 18 Pro và iPhone Duo, Apple cũng đã bắt đầu bán các bộ phận và công cụ sửa chữa cho iPhone 18 Pro và iPhone 18 Pro Max thông qua Cửa hàng sửa chữa tự phục vụ, cùng với các bộ phận cho M5 Max và M5 Ultra Mac... (GSMArena 07:02 21/10; ⚠️ MỘT NGUỒN) https://www.gsmarena.com/apple_now_sells_iphone_18_pro_repair_parts-news-75137.php
+- **Apple mở rộng quan hệ đối tác với các nhà cung cấp Mỹ cho iPhone Duo và iPhone 18 Pro** [Apple, Chip & bộ nhớ, Smartphone] — Hôm nay, Apple đã công bố quan hệ đối tác mới và mở rộng theo Chương trình Sản xuất Hoa Kỳ (AMP), đối với các vật liệu và linh kiện quan trọng được sử dụng trong iPhone Duo và iPhone 18 Pro, kể từ gần 100 linh kiện trong các điện thoại đó, từ chip không dây đến silicon cung cấp năng lượng... (GSMArena 05:21 21/10; ⚠️ MỘT NGUỒN) https://www.gsmarena.com/apple_expands_partnerships_with_american_suppliers_for_the_iphone_duo_and_iphone_18_pro-news-75136.php
+- **Apple giới hạn số lần mua iPhone Duo ở mức hai lần mỗi người trong nỗ lực giải quyết các nhà giao dịch lướt sóng** [Apple, Logistics] — Apple đã mở đơn đặt hàng trước cho iPhone Duo khoảng bốn ngày trước và vài giây sau khi ngày giao hàng chuyển sang tháng 1 năm sau. Với mỗi sản phẩm có nhu cầu cực kỳ cao và tồn kho thấp, các nhà giao dịch lướt sóng tập hợp và cố gắng mua mặt hàng đó với số lượng lớn và sau đó bán nó với giá cao... (GSMArena 04:03 21/10; ⚠️ MỘT NGUỒN) https://www.gsmarena.com/apple_caps_iphone_duo_purchases_at_two_per_person_in_an_attempt_to_tackle_scalpers-news-75135.php
+- **Vương quốc Anh muốn Apple mở công nghệ không tiếp xúc iPhone và tính phí thấp hơn** [Apple] — Cơ quan Cạnh tranh và Thị trường Anh (CMA) đã vạch ra các đề xuất buộc Apple phải mở công nghệ NFC trong iPhone cho nhiều bên thứ ba hơn, với các điều khoản thuận lợi hơn. Theo cơ quan quản lý, "các khoản phí và quy tắc của Apple đang ngăn chặn các công ty công nghệ tài chính của Anh và các doanh nghiệp khác hoạt động trong lĩnh vực này". (GSMArena 02:40 21/10; ⚠️ MỘT NGUỒN) https://www.gsmarena.com/uk_wants_apple_to_open_up_iphone_contactless_tech_and_charge_lower_fees-news-75134.php
+- **Thông số kỹ thuật của Oppo Reno17 Pro bị rò rỉ và nghe có vẻ rất quen thuộc** [OPPO] — Dòng Reno17 của Oppo được đồn đại sẽ ra mắt tại Trung Quốc vào tháng tới và hôm nay, Digital Chat Station đã tiết lộ các thông số kỹ thuật chính của Reno17 Pro. Nếu bạn đã theo dõi sát sao các bản phát hành của thương hiệu, chúng sẽ nghe rất quen thuộc. Theo thông tin rò rỉ, Reno17 Pro... (GSMArena 09:04 21/10; ❓ TIN ĐỒN / CHƯA XÁC MINH) https://www.gsmarena.com/oppo_reno17_pro_specs_leak_and_they_sound_very_familiar-news-75133.php
+- **Samsung cải thiện hiệu suất năng lượng của modem Exynos cho điện thoại Galaxy S27** [Samsung, Chip & bộ nhớ, Smartphone] — Điện thoại hỗ trợ Exynos của Samsung không có danh tiếng tốt nhất khi nói đến mức tiêu thụ điện năng ở chế độ chờ – modem của họ có xu hướng sử dụng nhiều pin hơn so với các modem bên trong điện thoại Galaxy hỗ trợ Snapdragon. Nhưng Samsung LSI cuối cùng có thể đã giải quyết được vấn đề. Modem M2700, mà... (GSMArena 01:03 21/10; ⚠️ MỘT NGUỒN) https://www.gsmarena.com/samsung_improves_the_power_efficiency_of_the_exynos_modems_for_the_galaxy_s27_phones-news-75130.php
 
-### 3. Hà Nội quy hoạch cây xanh trên các tuyến phố chính thế nào?
-- **Bối cảnh**: Các tuyến phố chính ở trung tâm Hà Nội được phân chia thành 6 nhóm đặc trưng, gắn với 1-2 loại cây xanh chủ đạo, thay thế dần cây già cỗi và không đúng chủng loài.
-- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/ha-noi-quy-hoach-cay-xanh-tren-cac-tuyen-pho-chinh-the-nao-5134811.html)
+## Khuyến mãi đối thủ (30 ngày)
+- [Thế Giới Di Động] Mua iPhone Duo tại TopZone: Thu cũ, trả góp 0%, tổng tiền phải trả là bao nhiêu? - Thuonghieucongluan.com.vn (Fri, 16 Oct 2026 04:46:00 GMT) https://news.google.com/rss/articles/CBMivwFBVV95cUxORC1TOVVxZS1xZ0VKYTJ3UlJ2djdFMG4wU3g4UmhfOW1lNUo0RTBfOVhLenhvYXU1enFQa1ZsN2N1dmRCT2xLNTB5ZE5aek1jRHV1QkUzUjIwUUkxcVpGREowVTZ6akRGbC0tZTJLQnVjcF9NSVRERU5FVFhZc2NaZmJjM0pPWjVjUklrMWZmemRKM0NaTzNSNDJnV3M1REFWQmNKTU1Zem1JeklIdV9MaElwSXpDYXBWaXMxRTdKRQ?oc=5
+- [Thế Giới Di Động] Đặt trước iPhone Duo tại Thế Giới Di Động kèm ưu đãi đến 3 triệu đồng - Vietnam.vn (Fri, 16 Oct 2026 04:37:55 GMT) https://news.google.com/rss/articles/CBMilwFBVV95cUxNbkNLS0Z0SzlTMTF3LXYxNGQ3QXhteDVKeVFVMG9hRk9ILUw5SWk0MWZreDRLTmtxRnF2UmpmN2Q5T3VEcVFSWU40RmR2NFZmRGRMSlNZa0s4aGxlbmRfSUVJUWF6R3U5VkRfd3I0a2dSZVV1NEtwdVNrWV94OUJ4YzV2Umk4TEVsUGRLRzZjRzU4R0tKaDFF?oc=5
+- [Thế Giới Di Động] iPhone Duo trả góp 0% tại Thế Giới Di Động: trả trước từ 6,5 tr - Bongda24h (Fri, 16 Oct 2026 02:33:03 GMT) https://news.google.com/rss/articles/CBMimwFBVV95cUxQWHlhSGVCN01uaTZrOExGR2U2M3JJd3ZjR3lFMENQOXZ1U0pNdTRPSllFT0t3MXlULUl4RThFcy1DSUotYmdsTGc3LUV0ak9WbWM4clhWMEdmeTdmc19RYUZDZS1seTM0clQ5bWtxSHZnTzlBZGhlTFd2S3NiU0p1VTN2ejVCUFFKN2RlUWdDcHNpLVhwb2xnZjVpNNIBoAFBVV95cUxPZWpDM3hxa1RFaVdEb0l4NE5wWjNxTzhHNXBKUzdfdkxYZjhONzFNLUZad1I5cld3Smk1dG12Rk0tWUdBenlOMWhHUmkya1dDOVJrR0RSbkk4VjRnSnBMeHl6Z3hpbHBZTlRTWFNIaDl4clh5ZFgyNUV2N2hIZzFTVlpMOGZrLTN4NjRZUzlrMTFDZzZxMFlRYzlTU1JuUHJO?oc=5
+- [FPT Shop] Đặt trước iPhone Duo tại FPT Shop, ưu đãi đến 10 triệu đồng - FPT Shop (Fri, 16 Oct 2026 12:19:10 GMT) https://news.google.com/rss/articles/CBMisAFBVV95cUxORlJFdDdsSzc3amJOeHIwdF9mVFY0X253X3dLeGRKU3MzWVI4MS13RWxQamcxUjljMDh6UGFpaHZSdURDTTczaDFzclB2UmZtM2ZkcDVIVzB0ZmhUb1VzSWlmSUQ5Tm01UFBaTmdGQmdNZzY3WDRTaUFka01Va1dXNmQ0T1JLbUpfUUs0VWZUYy0zZmpjeFF1RXlCLVMzYW5FZzEtSTVYOFRpZGFxQnljbw?oc=5
+- [FPT Shop] FPT Shop giảm giá mạnh hàng điện máy mừng ngày Phụ nữ Việt Nam - Thanh Niên (Sat, 17 Oct 2026 03:05:00 GMT) https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXR1ZV9nUVNtZzBwMFF5bVpmcVNteVhCR2x2b0FVQkFuOEpyVDF2UDVEbmRXcFF4TlNSakFIVEV0TS01Xy1ZS21OYkdQdkpQcjBZdmNtM0Q0YjR6NmV5UUpfN19OTWxLbkVzbW16Yjd2UUZZM1ZwVFFHQkpVQmlwU0o2WElyVlcwakU0N0tUYmdEUzk0aDJ4LWplU0lLQTRON2M0SHJKM0M3dw?oc=5
+- [FPT Shop] Dịp 20/10, FPT Shop ưu đãi đến 50% cho sản phẩm công nghệ - Vietnam.vn (Sat, 17 Oct 2026 02:18:42 GMT) https://news.google.com/rss/articles/CBMihAFBVV95cUxOS2pNRXR1RjVDTk4xSUNpWk9aUFBoUFhTdy1pSmY3OG5QWl9CcGNQS1JMUlhyWXNrVkRIRVp1MEs0VXBNRDl1UGF6VVBzREUxVHdydzF4bGZ2a2JwOFJ6YXBLdnlGLURFR240WnVCVHBTNkFUWXhlLTY4dGtjZ051ZjFFbU0?oc=5
+- [CellphoneS] Mừng lễ 20/10 - CellphoneS giảm giá iPhone 18 đến 5 triệu, trả góp 0% 18 tháng - Báo Phú Thọ (Mon, 19 Oct 2026 10:19:00 GMT) https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdGJYdno3SUIxZC1KVG42VzdoQ3RfazNWVjJ6M19Jd2xiamFBLUlLdnRkR05YYVZiVDdEeUY4M3JEWHhpbG9Fb0ViQkN2ZW1GVFk0QkhzRE40SDIwSS03NWhla0xBWXM4UGFfRFp1Z1dFNmtFWG93YUN1NTRvTDZSVC1oM1d6NGI0VkJUcWJiUkNMendaOEhFVkVfYWFOSi1RQTU1QW5KQXRhUQ?oc=5
+- [CellphoneS] Chiếc iPhone cũ giảm giá tận 25 triệu đồng - Kenh14.vn (Tue, 20 Oct 2026 23:00:00 GMT) https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa3oybC1yU3NkSlNLNmR2OHJJRkhfOFJRTlB6N1NkTkNxU3A5aC1RejJBa0J1Mlo5Tk5td1JieF85dzQ4QzNxc0VYbTlURWl4T01OVHViaUZNdnlaTXl2TE01Tm5PRFVyRHRqa21VTEFPTmxXbGhFR3NQbFU1WnlkbkFwcVdWVVBteDl3?oc=5
+- [CellphoneS] Mua iPhone Duo tại CellphoneS: Trả trước 0đ, trả góp 0% 18 tháng - Fili.vn (Thu, 15 Oct 2026 04:19:00 GMT) https://news.google.com/rss/articles/CBMipAFBVV95cUxQOFVlXzlMcTJmWW41X1M3REdGb3J5ZnpoemJFWUctU3ExZ3dwSVBCbFpTc0hmMjZuODZPSGFHeF9RUFA5OTA4QktLSWtlby1IaUtoRDc4N0VUc0RXUlFwV2NaS2wzZU9oVmJNc2h1UGQ0eTFLOEdXM0JfZjgyWUxKUElJbm01blRPOF9UdWF3d25LaGZhUlkzaTZfM1R2Z0MzeloxNg?oc=5
+- [Di Động Việt] Di Động Việt nhận đặt trước iPhone Duo, ưu đãi đến 10 triệu đồng - Công Nghệ Việt (Fri, 16 Oct 2026 12:48:09 GMT) https://news.google.com/rss/articles/CBMikwFBVV95cUxOSWNyc0p0UUxuZ3Q3U0tJcUxlZVNUeTh5cERfYXFERDR6QzBHZm03cXRPbm5YLS1pT0tCSEt1TTBHTG9MVWRuSXhOZ2dNTlN5ZG1kN2lVNzNCUDJCNms2YWRxVjVkaURmTGNZYldaZ1NrWEwxenZLbGF6dmNDVFI3WUh3aXV1X2doWHRucFZJYm8zY2s?oc=5
+- [Di Động Việt] Di Động Việt chính thức nhận đặt trước iPhone Duo, ưu đãi lên đến 10 triệu đồng | Dòng chảy | Thế Giới Số - Thế Giới Số (Sat, 17 Oct 2026 05:51:57 GMT) https://news.google.com/rss/articles/CBMilwFBVV95cUxPMXBlSnh2M2xIc2FtMW5rbmthOGxYckZLcWxRRUI4d21FcXM4dVlWdy14MmFwYktSNURjbEo2SXhqTUtQLUd1TWxlYURTRzl3VFVmVVdEZE55aXp3MFBvTFNqN1h4U0wzemlxMS13WmYxaFZPWWNHbmp0a0VKTENmb1FmYlpvamloQXNLTlB5UVBaeGtXOGdn?oc=5
+- [Di Động Việt] Di Động Việt nhận đặt trước iPhone Duo, ưu đãi nâng cấp thiết bị đến 10 triệu đồng - TechTimes Vietnam (Fri, 16 Oct 2026 12:28:06 GMT) https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRVRoM3dLVFJiRzYyNDhydUFxYXMtUmhZdGRoaGFuM1pzcF84LWhKTWRaOTZMZnFEMGUzZC14UE9jUnFCd0FqNmNmUVd0cWxyWnVERWxsM3g0OTdFU01wdXdyVWxUUkFYd29ETHhaNzNoU2xtVUgtRGlxc1BCSndwWXNDU3hUZU1TNUt0aGgwRnU4S1NqMl9UNWF3REdPdUd0UmVBUXFRWTZMT28?oc=5
+- [Hoàng Hà Mobile] Hoàng Hà Mobile mở đặt trước iPhone Duo từ 16/10, gói ưu đãi lên tới 10 triệu đồng - VnReview (Fri, 16 Oct 2026 03:41:04 GMT) https://news.google.com/rss/articles/CBMitwFBVV95cUxQX3BJcTVtbElqb09OV0lEQ2lOcTMzbDlKaHA2U2FpUnFVeWtWUW5MMVFQS1dpaUI0VEZ4cE51bkJLVWJlQ0k2WDF1V1gxdU5qZTdpeUFuR0I4NVVQLWxyRVlaaUdsXzRZcE56ZW9YVVkxSUNFVmc3SDBIalRmanBaX19TTW5Jajd6VW9Cb19aZnJOWXFMVGFYZFJxRS1walFQM3MySlRNbVRYcm1hZ0JZNVU2VFV6M1k?oc=5
+- [Hoàng Hà Mobile] Hàng loạt chuỗi bán lẻ công nghệ tung ưu đãi khủng dịp 20/10 - Thương gia (Mon, 19 Oct 2026 06:53:37 GMT) https://news.google.com/rss/articles/CBMiowFBVV95cUxNQklRTUs1cFI0a3VFdElnd3VrVHozVzhQLTJ2dWpKWTBKNi16OGxRNDc3WHo2Nkl0eDFmdXB6dmxOQUxqSW5fRUwxXzVkVEMwNkVzN1IzakZzZTZwUFc5bWE3THplTDhDQ2Vib1VhMEVZdDE4MWxOVnQzS0NFUE5hU0RrUFJrZm9zSHZhMEJCSGZjR29YQWdIWUVVcDRwd3liLUh30gGjAUFVX3lxTE1CSVFNSzVwUjRrdUV0SWd3dWtUejNXOFAtMnZ1akpZMEo2LXo4bFE0NzdYejY2SXR4MWZ1cHp2bE5BTGpJbl9FTDFfNWRUQzA2RXM3UjNqRnNlNnBQVzltYTdMemVMOENDZWJvVWEwRVl0MTgxbE5WdDNLQ0VQTmFTRGtQUmtmb3NIdmEwQkJIZmNHb1hBZ0hZRVVwNHB3eWItSHc?oc=5
+- [Viettel Store] Đặt trước iPhone Duo dễ dàng cùng 5G Viettel: Ưu đãi giảm đến 18 triệu đồng - Viettel Store (Thu, 15 Oct 2026 04:00:00 GMT) https://news.google.com/rss/articles/CBMiekFVX3lxTFB0bEl0RmZWWVM0S2lpRmctalAwN1d2ZTg0bzRBSDdHZTBhX0puR3ZKSzJ6QndpNHJwQ1NkbEhmMTdmei1uSjVxc3hKTjAwYlM1QURJY3JGS1V3MHVKSUVZdGpabDZzQTViaWJteWk4bzBrYmxsYXlMQl9n?oc=5
+- [Viettel Store] Viettel Store ưu đãi 20/10 với chương trình "Phụ nữ là để yêu", quà tặng lên tới 18 triệu đồng - GenK.vn (Fri, 16 Oct 2026 10:00:00 GMT) https://news.google.com/rss/articles/CBMiygFBVV95cUxQWHJPUlAyN2tORGppQU9DbllLWGJkSnV6SS02Tmc3R0ZKR3MycDdvZlNpLUN0TE13SmdIMHd5TnlWdUZ4V3Q5OU52dmwwNXpWQ2pDSDExSS16VzdYYnJDSXh4X3dWVTlMSGdyZHRPYnB2cndNSHJuTVBqUHV3RWJ1czcydVpsM183djkzSkFwbVQzOFdtMjlYcDJNN1haVWZKUExrZTEzMTFadEFuZVk0Q09YTlJLdHRKcm54VlJPMzhMMUdwVWplbzFR?oc=5
+- [Viettel Store] Đặt trước iPhone Duo dễ dàng cùng 5G Viettel: Ưu đãi giảm đến 18 triệu đồng - Vietnam.vn (Fri, 16 Oct 2026 10:30:44 GMT) https://news.google.com/rss/articles/CBMingFBVV95cUxPUEc1TWxlSUF5dHNSZ3Y5WHE0R21YQXpqbWY3cklpNGFLaFBnb0o2d3Y3TEVQSUdUMjdUMnVsYmVXNHpEMS1ZX0FadG9aWDE3aGIwUTRqU21MQzhybTRXSTFnRkUyRUY2QTNVZDNSdmFlN1BmN2haOExiODk1YzFZb3J3TS1yb3RVel9TcFlsbWFBOEt3Tnc0VzJwN1JHZw?oc=5
 
-### 4. Khánh Hòa định hướng đặt trung tâm hành chính ở Cam Lâm
-- **Bối cảnh**: Đến năm 2050, trung tâm hành chính tỉnh dự kiến hình thành tại xã Cam Lâm, quy mô khoảng 115 ha, tập trung trụ sở các cơ quan Đảng, HĐND, UBND và các sở, ngành.
-- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/khanh-hoa-dinh-huong-dat-trung-tam-hanh-chinh-o-cam-lam-5134801.html)
-
-### 5. TP HCM đề xuất chi hơn 600 tỷ đồng hỗ trợ cán bộ không chuyên trách
-- **Bối cảnh**: TP HCM đề xuất chi 616 tỷ đồng hỗ trợ một lần cho 11.773 người hoạt động không chuyên trách nghỉ việc do sắp xếp khu phố, ấp, thôn, bình quân 50-60 triệu đồng mỗi người.
-- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/tp-hcm-de-xuat-chi-hon-600-ty-dong-ho-tro-can-bo-khong-chuyen-trach-5134798.html)
-
-### 6. Bất an khi sống cạnh nghĩa trang
-- **Bối cảnh**: Nghĩa trang nằm xen giữa khu dân cư hoặc trước bệnh viện khiến nhiều người e ngại, nhất là khi việc mai táng, đốt vàng mã vẫn diễn ra thường xuyên.
-- **Tác động**: Dòng tiền nhàn rỗi phân bổ thận trọng vào kênh phòng thủ; cơ quan quản lý tiếp tục theo dõi sát để đảm bảo ổn định tỷ giá.
-- **Nguồn**: [VnExpress Thời Sự](https://vnexpress.net/bat-an-khi-song-canh-nghia-trang-5132478.html)
-
-
-### 💻 B. Công Nghệ & Số Hóa Trong Nước (Tinhte, GenK, Số Hóa)
-### 1. Cùng xem vài hình ảnh KOL, KOC, media chụp bằng Vivo X500 Pro Max
-- **Diễn biến**: Vừa rồi là concert Anh Trai và Vivo đã phối hợp cùng nhiều media, KOC, KOL đến trải nghiệm và sử dụng Vivo X500 Pro Max để chụp hình tại sự kiện. Mình thấy thú vị là do Vivo trang bị rất nhiều ống...
-- **Ý nghĩa**: Củng cố thị phần phân khúc cận cao cấp; tạo sức ép trực tiếp lên dòng Reno của OPPO tại thị trường Việt Nam.
-- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/cung-xem-vai-hinh-anh-kol-koc-media-chup-bang-vivo-x500-pro-max.4185397/)
-
-### 2. Mở hộp Apple Watch Ultra 4 giá 23,9 triệu đồng trước mở bán
-- **Diễn biến**: Apple Watch Ultra 4, bán ra ngày 22/10 tại Việt Nam, không thay đổi kiểu dáng nhưng nâng cấp mạnh về phần cứng, cảm biến nhịp tim và chấm điểm hồi phục cơ thể.
-- **Ý nghĩa**: Định hình xu hướng tiêu dùng và danh mục sản phẩm chủ lực trong các đợt mua sắm sắp tới.
-- **Nguồn**: [VnExpress Số Hóa](https://vnexpress.net/mo-hop-apple-watch-ultra-4-gia-23-9-trieu-dong-truoc-mo-ban-5134822.html)
-
-### 3. Samsung dự kiến ra 6 điện thoại gập Galaxy Z 2027
-- **Diễn biến**: Samsung được cho là lên kế hoạch mở rộng dải sản phẩm Galaxy Z 2027, nổi bật là thiết bị màn hình cuộn Galaxy Z Slide và điện thoại gập ba thế hệ hai.
-- **Ý nghĩa**: Bảo vệ vững chắc vị thế dẫn đầu 31.2% thị phần bán lẻ GfK trước sự bám đuổi của Xiaomi và Realme.
-- **Nguồn**: [VnExpress Số Hóa](https://vnexpress.net/samsung-du-kien-ra-6-dien-thoai-gap-galaxy-z-2027-5133915.html)
-
-### 4. Suunto Race 3S ra mắt: kính sapphire, màn hình 2.000 nits, pin GPS hai tần số 38 giờ, giá 599 USD
-- **Diễn biến**: Suunto vừa chính thức giới thiệu Race 3S vào ngày 15/10/2026, mẫu đồng hồ thể thao cỡ nhỏ kế nhiệm Race S ra mắt hồi tháng 6/2024. Hãng bỏ qua cái tên Race 2S và hiện cũng chưa công bố phiên bản...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [Tinhte.vn](https://tinhte.vn/thread/suunto-race-3s-ra-mat-kinh-sapphire-man-hinh-2-000-nits-pin-gps-hai-tan-so-38-gio-gia-599-usd.4185565/)
-
-
-### ⚔️ C. Chiến Dịch Quảng Cáo & Khuyến Mãi Đối Thủ (CellphoneS vs FPT Shop — 30 Ngày)
-### 1. [MỚI CẬP NHẬT] [CellphoneS] Chiếc iPhone cũ giảm giá tận 25 triệu đồng - Kenh14.vn
-- **Điểm nhấn**: Ưu đãi hấp dẫn
-- **Nội dung ưu đãi**: Chiếc iPhone cũ giảm giá tận 25 triệu đồng&nbsp;&nbsp;Kenh14.vn
-- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Tue, 20 Oct 2026 23:00:00 GMT
-- **Nguồn**: [CellphoneS](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa3oybC1yU3NkSlNLNmR2OHJJRkhfOFJRTlB6N1NkTkNxU3A5aC1RejJBa0J1Mlo5Tk5td1JieF85dzQ4QzNxc0VYbTlURWl4T01OVHViaUZNdnlaTXl2TE01Tm5PRFVyRHRqa21VTEFPTmxXbGhFR3NQbFU1WnlkbkFwcVdWVVBteDl3?oc=5)
-
-### 2. [MỚI CẬP NHẬT] [CellphoneS] Mừng lễ 20/10 - CellphoneS giảm giá iPhone 18 đến 5 triệu, trả góp 0% 18 tháng - Báo Phú Thọ
-- **Điểm nhấn**: Ưu đãi hấp dẫn
-- **Nội dung ưu đãi**: Mừng lễ 20/10 - CellphoneS giảm giá iPhone 18 đến 5 triệu, trả góp 0% 18 tháng&nbsp;&nbsp;Báo Phú Thọ
-- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Mon, 19 Oct 2026 10:19:00 GMT
-- **Nguồn**: [CellphoneS](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdGJYdno3SUIxZC1KVG42VzdoQ3RfazNWVjJ6M19Jd2xiamFBLUlLdnRkR05YYVZiVDdEeUY4M3JEWHhpbG9Fb0ViQkN2ZW1GVFk0QkhzRE40SDIwSS03NWhla0xBWXM4UGFfRFp1Z1dFNmtFWG93YUN1NTRvTDZSVC1oM1d6NGI0VkJUcWJiUkNMendaOEhFVkVfYWFOSi1RQTU1QW5KQXRhUQ?oc=5)
-
-### 3. [CellphoneS] iPhone 14 Pro giảm giá sâu, dọn đường cho iPhone 16 Pro - Baolangson.vn
-- **Điểm nhấn**: Ưu đãi hấp dẫn
-- **Nội dung ưu đãi**: iPhone 14 Pro giảm giá sâu, dọn đường cho iPhone 16 Pro&nbsp;&nbsp;Baolangson.vn
-- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Tue, 20 Oct 2026 09:50:20 GMT
-- **Nguồn**: [CellphoneS](https://news.google.com/rss/articles/CBMikwFBVV95cUxQYXRDenJLZ1ZlVFJFdnE3b2UtWHNHZ3Y1Sl91blRjN29GbkxKZFozcFRlT1hVZjlnSkc5c0xzRWZEekhobGNFOTBoWmZadkhiclh0WjZGXzRlNUZQYm5wMndtcTZkcXlhbkc5S0xDVVl6T3BnRGVua0oyYkk4ZDNYNEVkTkJvR1lxd3RtTUFFdXh1UkE?oc=5)
-
-### 4. [MỚI CẬP NHẬT] [CellphoneS] Đăng ký sớm, nhận ngay các ưu đãi độc quyền để nâng cấp lên "Pro Max" cùng OPPO Find X10 Series - CellphoneS
-- **Điểm nhấn**: Ưu đãi hấp dẫn
-- **Nội dung ưu đãi**: Đăng ký sớm, nhận ngay các ưu đãi độc quyền để nâng cấp lên "Pro Max" cùng OPPO Find X10 Series&nbsp;&nbsp;CellphoneS
-- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Tue, 20 Oct 2026 10:50:25 GMT
-- **Nguồn**: [CellphoneS](https://news.google.com/rss/articles/CBMic0FVX3lxTE1Yc240VWJoMHpNTXFOQkY4bEtDTU05WXE2QVFqWmxNZHdScTVtV1NvYWIySE11NnR1X1JCbVJ3OXlzeFN0MnBqWmZuSHBHMjlXVjljUmttdGpGT2IzSzk4YUhRWUxPZi1VN212a25iSzRRY1k?oc=5)
-
-### 5. [FPT Shop] FPT Shop giảm giá mạnh hàng điện máy mừng ngày Phụ nữ Việt Nam - Thanh Niên
-- **Điểm nhấn**: Ưu đãi hấp dẫn
-- **Nội dung ưu đãi**: FPT Shop giảm giá mạnh hàng điện máy mừng ngày Phụ nữ Việt Nam&nbsp;&nbsp;Thanh Niên
-- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Sat, 17 Oct 2026 03:05:00 GMT
-- **Nguồn**: [FPT Shop](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXR1ZV9nUVNtZzBwMFF5bVpmcVNteVhCR2x2b0FVQkFuOEpyVDF2UDVEbmRXcFF4TlNSakFIVEV0TS01Xy1ZS21OYkdQdkpQcjBZdmNtM0Q0YjR6NmV5UUpfN19OTWxLbkVzbW16Yjd2UUZZM1ZwVFFHQkpVQmlwU0o2WElyVlcwakU0N0tUYmdEUzk0aDJ4LWplU0lLQTRON2M0SHJKM0M3dw?oc=5)
-
-### 6. [FPT Shop] Dịp 20/10, FPT Shop ưu đãi đến 50% cho sản phẩm công nghệ - Vietnam.vn
-- **Điểm nhấn**: Ưu đãi hấp dẫn
-- **Nội dung ưu đãi**: Dịp 20/10, FPT Shop ưu đãi đến 50% cho sản phẩm công nghệ&nbsp;&nbsp;Vietnam.vn
-- **Thời gian áp dụng**: Đang diễn ra trong tháng | **Cập nhật**: Sat, 17 Oct 2026 02:18:42 GMT
-- **Nguồn**: [FPT Shop](https://news.google.com/rss/articles/CBMihAFBVV95cUxOS2pNRXR1RjVDTk4xSUNpWk9aUFBoUFhTdy1pSmY3OG5QWl9CcGNQS1JMUlhyWXNrVkRIRVp1MEs0VXBNRDl1UGF6VVBzREUxVHdydzF4bGZ2a2JwOFJ6YXBLdnlGLURFR240WnVCVHBTNkFUWXhlLTY4dGtjZ051ZjFFbU0?oc=5)
-
-
-### 🏛️ D. Chuyên Đề Thị Trường Tài Chính & Vàng
-#### 1. Thị trường Cổ phiếu (VN-Index): Tăng điểm tích cực
-- **Tóm tắt diễn biến**: Chỉ số VN-Index ghi nhận mức giao dịch quanh ngưỡng 1.691,97 điểm (+6.85 điểm, tương ứng +0.54%), thanh khoản toàn thị trường duy trì ở mức khá với khối lượng khớp lệnh đạt xấp xỉ 680.5M cổ phiếu. Đáng chú ý, dòng tiền khối ngoại duy trì vị thế +120.5 tỷ VNĐ (Mua ròng), tạo bệ đỡ tâm lý vững chắc cho thị trường chung.
-- **Phân tích dòng tiền & kỹ thuật**:
-• Dòng tiền dẫn dắt: Nhóm Ngân hàng, Bán lẻ ICT và Cổ phiếu Công nghệ ghi nhận lực cầu bắt đáy chủ động; các mã đầu ngành duy trì đà phân hóa tích cực.
-• Xu hướng & Kỹ thuật: VN-Index tiếp tục vận động trên đường trung bình MA20, vùng hỗ trợ ngắn hạn được xác lập quanh mốc tâm lý quan trọng, trong khi áp lực chốt lời ngắn hạn xuất hiện tại các vùng kháng cự đỉnh cũ.
-
-#### 2. Thị trường Vàng (SJC & Kitco): Biên độ ~3.0 tr.đ/lượng
-- **Tóm tắt diễn biến**: Giá vàng miếng SJC trong nước sáng nay niêm yết tại mức 139.60 triệu đồng/lượng (mua vào) và 142.60 triệu đồng/lượng (bán ra). Giá vàng nhẫn tròn trơn 999.9 giao dịch quanh mức 144.10 - 147.60 triệu đồng/lượng. Trên thị trường quốc tế, giá vàng giao ngay (Kitco Spot Gold) neo tại mức 4,117 USD/oz.
-- **Tác động vĩ mô & chênh lệch**:
-• Chênh lệch & Biến động: Biên độ chênh lệch giữa giá vàng miếng SJC trong nước và giá vàng thế giới quy đổi duy trì ở mức ~3.0 tr.đ/lượng. Thị trường ghi nhận xu hướng điều chỉnh (-1.00 tr.đ (Giảm sau phiên trước)) sau chuỗi phiên biến động mạnh.
-• Động lực vĩ mô: Diễn biến giá vàng chịu tác động kép từ chỉ số đồng USD (DXY dao động quanh 104.25, tỷ giá USD/VND ở mức 25.846 đ), kỳ vọng điều chỉnh lãi suất chính sách của Cục Dự trữ Liên bang Mỹ (Fed), cùng nhu cầu tích trữ tài sản an toàn trước các bất định địa chính trị toàn cầu.
-
-
----
-
-## PHẦN 3 — TIN QUỐC TẾ
-### 🌍 A. Kinh Tế & Địa Chính Trị Toàn Cầu (Reuters, BBC, CNBC)
-### 1. Việt Nam - Đan Mạch nâng cấp quan hệ lên Đối tác Chiến lược Toàn diện
-- **Bối cảnh**: Tổng Bí thư, Chủ tịch nước Tô Lâm và Thủ tướng Mette Frederiksen nhất trí thông qua Tuyên bố chung nâng cấp quan hệ Việt Nam - Đan Mạch lên Đối tác Chiến lược Toàn diện.
-- **Tác động**: Tháo gỡ điểm nghẽn thể chế, đẩy mạnh cải cách hành chính và tạo hành lang thông thoáng cho hoạt động đầu tư, sản xuất kinh doanh.
-- **Nguồn**: [VnExpress Thế Giới](https://vnexpress.net/viet-nam-dan-mach-nang-cap-quan-he-len-doi-tac-chien-luoc-toan-dien-5134836.html)
-
-### 2. Xuất khẩu của Nhật Bản đã bỏ lỡ rất lớn trong tháng 9 khi tăng trưởng chậm lại đến 16,7%
-- **Bối cảnh**: Nhập khẩu của Nhật Bản tăng 18,9%, cũng không đạt kỳ vọng 19,6% từ Reuters.
-- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [CNBC Economy](https://www.cnbc.com/2026/10/21/japan-trade-exports-semiconductor-yen.html)
-
-### 3. Những biến động cổ phiếu khổng lồ của Elice cho thấy sự bùng nổ chi tiêu của AI đang ngày càng được các nhà đầu tư xem xét kỹ lưỡng hơn
-- **Bối cảnh**: Sự bùng nổ AI đang bước vào giai đoạn khó khăn hơn, khi các nhà đầu tư đặt câu hỏi liệu hàng tỷ đô la đổ vào các trung tâm dữ liệu có chuyển thành lợi nhuận bền vững hay không.
-- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [CNBC Economy](https://www.cnbc.com/2026/10/21/ai-boom-spending-profit.html)
-
-### 4. Netflix công bố lợi nhuận quý ba, nhưng cổ phiếu giảm theo hướng dẫn về quảng cáo và doanh thu
-- **Bối cảnh**: Phố Wall và các nhà đầu tư sẽ tìm kiếm Netflix để cung cấp thêm chi tiết về chiến lược của công ty sau những thay đổi tổ chức gần đây
-- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [CNBC Economy](https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html)
-
-### 5. Ông Trump hối thúc ông Zelensky đạt thỏa thuận với Nga
-- **Bối cảnh**: Ông Trump tiếp tục gia tăng sức ép lên người đồng cấp Ukraine khi hối thúc ông Zelensky đạt thỏa thuận chấm dứt chiến sự với Nga.
-- **Tác động**: Đẩy chi phí cước vận tải biển và bảo hiểm logistics tăng cao; tạo sức ép lạm phát chi phí đẩy lên giá cả hàng hóa nhập khẩu.
-- **Nguồn**: [VnExpress Thế Giới](https://vnexpress.net/ong-trump-hoi-thuc-ong-zelensky-dat-thoa-thuan-voi-nga-5134863.html)
-
-### 6. NATO điều thêm máy bay, radar đến biển Đen
-- **Bối cảnh**: NATO triển khai thêm máy bay, UAV và drone tới khu vực biển Đen sau loạt vụ tàu hàng bị tấn công gần Romania và Bulgaria.
-- **Tác động**: Tác động đến các chính sách thương mại song phương, rào cản thuế quan và tiêu chuẩn xanh đối với hàng xuất khẩu của Việt Nam.
-- **Nguồn**: [VnExpress Thế Giới](https://vnexpress.net/nato-dieu-them-may-bay-radar-den-bien-den-5134869.html)
-
-
-### 📱 B. Công Nghệ & Thiết Bị Di Động Quốc Tế (GSMArena, The Verge)
-### 1. Apple now sells iPhone 18 Pro repair parts
-- **Diễn biến**: Sau khi mở rộng quan hệ đối tác với các nhà cung cấp Mỹ cho iPhone 18 Pro và iPhone Duo, Apple cũng đã bắt đầu bán các bộ phận và công cụ sửa chữa cho iPhone 18 Pro và iPhone 18 Pro Max thông qua Cửa hàng sửa chữa tự phục vụ, cùng với các bộ phận cho M5 Max và M5 Ultra Mac...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/apple_now_sells_iphone_18_pro_repair_parts-news-75137.php)
-
-### 2. Apple mở rộng quan hệ đối tác với các nhà cung cấp Mỹ cho iPhone Duo và iPhone 18 Pro
-- **Diễn biến**: Hôm nay, Apple đã công bố quan hệ đối tác mới và mở rộng theo Chương trình Sản xuất Hoa Kỳ (AMP), đối với các vật liệu và linh kiện quan trọng được sử dụng trong iPhone Duo và iPhone 18 Pro, kể từ gần 100 linh kiện trong các điện thoại đó, từ chip không dây đến silicon cung cấp năng lượng...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/apple_expands_partnerships_with_american_suppliers_for_the_iphone_duo_and_iphone_18_pro-news-75136.php)
-
-### 3. Apple giới hạn số lần mua iPhone Duo ở mức hai lần mỗi người trong nỗ lực giải quyết các nhà giao dịch lướt sóng
-- **Diễn biến**: Apple đã mở đơn đặt hàng trước cho iPhone Duo khoảng bốn ngày trước và vài giây sau khi ngày giao hàng chuyển sang tháng 1 năm sau. Với mỗi sản phẩm có nhu cầu cực kỳ cao và tồn kho thấp, các nhà giao dịch lướt sóng tập hợp và cố gắng mua mặt hàng đó với số lượng lớn và sau đó bán nó với giá cao...
-- **Ý nghĩa**: Biến tính năng AI thành thông số bắt buộc trên mọi smartphone từ tầm trung đến cao cấp.
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/apple_caps_iphone_duo_purchases_at_two_per_person_in_an_attempt_to_tackle_scalpers-news-75135.php)
-
-### 4. Vương quốc Anh muốn Apple mở công nghệ không tiếp xúc iPhone và tính phí thấp hơn
-- **Diễn biến**: Cơ quan Cạnh tranh và Thị trường Anh (CMA) đã vạch ra các đề xuất buộc Apple phải mở công nghệ NFC trong iPhone cho nhiều bên thứ ba hơn, với các điều khoản thuận lợi hơn.
-- **Ý nghĩa**: Theo cơ quan quản lý, "các khoản phí và quy tắc của Apple đang ngăn chặn các công ty công nghệ tài chính của Anh và các doanh nghiệp khác hoạt động trong lĩnh vực này".
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/uk_wants_apple_to_open_up_iphone_contactless_tech_and_charge_lower_fees-news-75134.php)
-
-### 5. Samsung cải thiện hiệu suất năng lượng của modem Exynos cho điện thoại Galaxy S27
-- **Diễn biến**: Điện thoại hỗ trợ Exynos của Samsung không có danh tiếng tốt nhất khi nói đến mức tiêu thụ điện năng ở chế độ chờ – modem của họ có xu hướng sử dụng nhiều pin hơn so với các modem bên trong điện thoại Galaxy hỗ trợ Snapdragon. Nhưng Samsung LSI cuối cùng có thể đã giải quyết được vấn đề. Modem M2700, mà...
-- **Ý nghĩa**: Bảo vệ vững chắc vị thế dẫn đầu 31.2% thị phần bán lẻ GfK trước sự bám đuổi của Xiaomi và Realme.
-- **Nguồn**: [GSMArena](https://www.gsmarena.com/samsung_improves_the_power_efficiency_of_the_exynos_modems_for_the_galaxy_s27_phones-news-75130.php)
-
-
-### ⚡ C. Tin Vắn Nhanh Quốc Tế
-• **[Elon Musk có thể đã ra lệnh hạn chế S...]**: Musk được cho là đã ra lệnh hạn chế phiên bản quân sự của mạng lưới vệ tinh Starlink, vốn là hạ tầng viễn thông sống còn của quân đội Ukraine. (Nguồn: [VnExpress Thế Giới](https://vnexpress.net/elon-musk-co-the-da-ra-lenh-han-che-starshield-o-ukraine-5134856.html))
-• **[Biểu tình bạo loạn ở Pháp đốt nóng tr...]**: Làn sóng biểu tình ở Pháp khoét sâu tranh cãi về nhập cư, khi một số chính trị gia và phe cánh hữu quy kết người nhập cư gây ra bạo loạn. (Nguồn: [VnExpress Thế Giới](https://vnexpress.net/bieu-tinh-bao-loan-o-phap-dot-nong-tranh-cai-ve-nhap-cu-5134446.html))
-• **[Tiến sĩ Mỹ rải 2.300 hồ sơ vẫn thất n...]**: Jack Weis tự nhận mình là người thất nghiệp đang ăn bám cha mẹ, dù đã lấy bằng tiến sĩ Đại học Princeton và rải hàng loạt hồ sơ xin việc. (Nguồn: [VnExpress Thế Giới](https://vnexpress.net/tien-si-my-rai-2-300-ho-so-van-that-nghiep-5134729.html))
-• **[Tin tức thế giới 21-10]**: Đặc phái viên của ông Trump sắp gặp ông Putin; Báo Mỹ khẳng định chính ông Musk chỉ đạo hạn chế dịch vụ Starshield tại Ukraine. (Nguồn: [Tuổi Trẻ Thế Giới](https://tuoitre.vn/tin-tuc-the-gioi-21-10-ong-zelensky-muon-dat-thoa-thuan-voi-nga-iran-khong-dua-uranium-khoi-lanh-tho-100261021051605196.htm))
-• **[EU cáo buộc Mỹ gây sức ép buộc Ukrain...]**: Đại diện EU Kaja Kallas cáo buộc Mỹ tìm cách gây sức ép buộc Ukraine chấp nhận các điều kiện có lợi cho Nga. (Nguồn: [Tuổi Trẻ Thế Giới](https://tuoitre.vn/eu-cao-buoc-my-gay-suc-ep-buoc-ukraine-dau-hang-100261020230511488.htm))
-
----
-
-## PHẦN 4 — TIN SOCIAL, SHOWBIZ GIẢI TRÍ & TOP TỪ KHÓA TRENDING
-### Top Từ Khóa Thịnh Hành Google Trends (Việt Nam)
-- **#01**: **vasco đấu với boca juniors** (100+) [🔥 Thịnh hành]
-- **#02**: **công đoàn** (100+) [🔥 Thịnh hành]
-- **#03**: **bệnh não mô cầu** (200+) [🔥 Thịnh hành]
-- **#04**: **iphone 15** (100+) [📱 ICT / Công nghệ]
-- **#05**: **tiết học gen z** (200+) [🔥 Thịnh hành]
-- **#06**: **tiền** (500+) [🔥 Thịnh hành]
-- **#07**: **weather** (500+) [🔥 Thịnh hành]
-- **#08**: **24h bong da** (200+) [🔥 Thịnh hành]
-- **#09**: **lê công vinh** (1000+) [🔥 Thịnh hành]
-- **#10**: **thứ hạng của f.c. porto gặp psv eindhoven** (200+) [🔥 Thịnh hành]
-
-### Tiêu Điểm Showbiz, Giải Trí & Xu Hướng Viral Mạng Xã Hội
-### 1. Thất vọng với thiên thần mới
-- **Tiêu điểm**: Vượt qua hơn 100.
-- **Độ lan tỏa**: 000 ứng viên để trở thành thiên thần mới của Victoria's Secret, Solange Omon vẫn vấp phải nhiều ý kiến trái chiều sau màn ra mắt tại show diễn năm 2026 Phần trình diễn bị nhận xét mờ nhạt, trong khi kết quả cuộc thi tuyển chọn cũng gây tranh luận.
-- **Nguồn**: [Kenh14 Star](https://kenh14.vn/that-vong-voi-thien-than-moi-215261020211826812.chn)
-
-### 2. Nghệ sĩ Việt Anh: 'Thu nhập tôi đủ sống'
-- **Tiêu điểm**: Nghệ sĩ Nhân dân Việt Anh nói cátxê đi diễn giúp ông đủ sống qua ngày, đồng thời mãn nguyện vì hóa thân vào những vai tâm đắc.
-- **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
-- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/nghe-si-viet-anh-thu-nhap-toi-du-song-5132251.html)
-
-### 3. Âu Bảo Ngân sau 13 năm gây chú ý tại Giọng hát Việt
-- **Tiêu điểm**: Ca sĩ Âu Bảo Ngân, học trò diva Hồng Nhung tại Giọng hát Việt 2013, về nước hoạt động âm nhạc sau tốt nghiệp thạc sĩ nhạc kịch ở Mỹ.
-- **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
-- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/au-bao-ngan-sau-13-nam-gay-chu-y-tai-giong-hat-viet-5128959.html)
-
-### 4. 10 bóng hồng đứng sau các phim điện ảnh Việt 2026
-- **Tiêu điểm**: Nhà sản xuất Thảo Nguyễn đồng hành "Thỏ ơi", Mai Bảo Ngọc góp phần đưa "Heo năm móng" đạt gần 125 tỷ đồng.
-- **Độ lan tỏa**: Tạo làn sóng bàn luận sôi nổi, lọt top tìm kiếm thịnh hành và chia sẻ rầm rộ trên TikTok, Facebook.
-- **Nguồn**: [VnExpress Giải Trí](https://vnexpress.net/10-bong-hong-dung-sau-cac-phim-dien-anh-viet-2026-5134486.html)
-
-
----
-
-## PHẦN 5 — KHẢO SÁT THỊ PHẦN SMARTPHONE VIỆT NAM (GFK & COUNTERPOINT)
-**Kỳ báo cáo**: Quý 2/2026 (Số liệu công bố kỳ gần nhất: Tháng 08/2026)
-**Nguồn khảo sát**: GfK Vietnam Retail Audit & Counterpoint Research
-
-#### Bảng 1: Thị Phần Bán Lẻ Thực Tế Tại Điểm Bán (GfK Vietnam Retail Audit)
-- **Samsung**: 31.2% (+1.4%) — Dẫn đầu hệ thống chuỗi MWG, FPT Shop
-- **OPPO**: 22.8% (+0.6%) — Bán lẻ truyền thống & dòng Reno
-- **Apple**: 18.5% (-0.5%) — Giữ vững phân khúc cao cấp trên 20 triệu
-- **Xiaomi**: 13.8% (+1.1%) — Tập trung phân khúc online & chuỗi điện máy
-- **Vivo**: 9.2% (+0.8%) — Tăng trưởng dòng V-series & Y-series
-- **Realme**: 4.1% (+0.3%) — Phân khúc phổ thông 3-5 triệu
-- **Khác**: 0.4% (-0.2%) — Các thương hiệu khác
-
-#### Bảng 2: Thị Phần Sản Lượng Xuất Xưởng (Counterpoint Research)
-- **Samsung**: 29.5% (+1.2%) — Dẫn đầu sản lượng xuất xưởng
-- **OPPO**: 23.0% (+0.5%) — Duy trì vị trí số 2 vững chắc
-- **Apple**: 17.8% (-0.8%) — Chững lại trước đợt mở bán thế hệ mới
-- **Xiaomi**: 14.2% (+1.5%) — Tăng trưởng nhờ dải sản phẩm Redmi Note
-- **Vivo**: 8.5% (+0.9%) — Tăng trưởng ổn định ở nhóm tầm trung
-- **Realme**: 4.5% (+0.4%) — Khai thác tốt mùa tựu trường
-- **Khác**: 2.5% (-0.2%) — Honor, TECNO, Infinix
+## Google Trends Việt Nam
+- vix (100+)
+- san luis đấu với querétaro (100+)
+- vô địch quốc gia mexico (100+)
+- không khí lạnh miền bắc (10000+)
+- park hang seo (2000+)
+- đà nẵng (500+)
+- danh sách chủ sở hữu hưởng lợi của doanh nghiệp (500+)
+- cầu đi bộ qua sông sài gòn (2000+)
+- base (200+)
+- vasco đấu với boca juniors (100+)
