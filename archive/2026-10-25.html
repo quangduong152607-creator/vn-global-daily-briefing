@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bản tin 24h — 25/10/2026</title>
+<style>
+:root{--bg:#f5f4f0;--surface:#fff;--ink:#1b1b1b;--muted:#6a6a6a;--line:#e5e2da;--accent:#b4410f;
+--up:#13803b;--down:#c0262d;--chip:#f0ede6;--warn:#a15c00;--up-rgb:19,128,59;--down-rgb:192,38,45}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111;--surface:#1b1b1b;--ink:#ececec;
+--muted:#9b9b9b;--line:#2d2d2d;--accent:#f08a4b;--up:#4ade80;--down:#f87171;--chip:#262626;--warn:#fbbf24;
+--up-rgb:74,222,128;--down-rgb:248,113,113}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:inherit}
+.wrap{max-width:780px;margin:0 auto;padding:16px 16px 48px}
+header.top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:8px 0 16px;border-bottom:2px solid var(--ink)}
+h1{font-size:24px;line-height:1.15;margin:0;letter-spacing:-.01em}
+.kicker{font-size:13px;font-weight:600;color:var(--accent);margin-top:2px}
+.date{color:var(--muted);font-size:13px;margin-top:4px}
+.top-actions{display:flex;gap:8px;flex-shrink:0}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:6px 10px;font-size:13px;cursor:pointer;text-decoration:none;white-space:nowrap}
+.health{display:inline-block;margin-top:8px;font-size:12px;padding:2px 8px;border-radius:99px;background:var(--chip);color:var(--muted)}
+section{margin-top:28px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 10px;font-weight:700}
+.kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (min-width:640px){.kpis{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0;overflow:hidden}
+.kpi-head{display:flex;justify-content:space-between;align-items:center;gap:6px;min-height:20px}
+.kpi-label{font-size:12px;color:var(--muted);font-weight:600}
+.kpi-value{font-size:20px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kpi-unit{font-size:11px;font-weight:500;color:var(--muted)}
+.kpi-delta{margin-top:2px}
+.delta{font-size:12px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.delta.up{color:var(--up)}.delta.down{color:var(--down)}.delta.flat{color:var(--muted);font-weight:500}
+.spark{width:52px;height:18px;color:var(--muted);flex-shrink:0}
+.kpi-sub{font-size:11px;color:var(--muted);margin-top:2px}
+.kpi-foot{font-size:10.5px;color:var(--muted);margin-top:6px;border-top:1px dashed var(--line);padding-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kpi-foot a{text-decoration:none}
+.kpi-missing .kpi-value{color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:4px 14px}
+.watch{border-left:3px solid var(--accent)}
+.news-list{list-style:none;margin:0;padding:0}
+.news{padding:12px 0;border-bottom:1px solid var(--line)}
+.news-list>.news:last-child{border-bottom:0}
+.news-title{font-weight:650;font-size:15.5px;line-height:1.35;text-decoration:none;display:block}
+.news-title:hover{text-decoration:underline}
+.news-sum{margin:4px 0 0;color:var(--muted);font-size:14px}
+.news-meta{font-size:12px;color:var(--muted);margin-top:6px}
+.rel{font-weight:600}.rel.ok{color:var(--up)}.rel.warn{color:var(--warn)}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0 0}
+.tag{font-size:11px;font-weight:600;padding:1px 7px;border-radius:99px;background:var(--chip);color:var(--ink)}
+.tag.new{background:var(--accent);color:#fff}.tag.deal{color:var(--accent)}
+details.more{border-top:1px solid var(--line)}
+details.more>summary{cursor:pointer;padding:10px 0;font-size:13px;font-weight:600;color:var(--accent);list-style:none}
+details.more>summary::-webkit-details-marker{display:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:4px 10px;font-size:13px}
+.chip small{color:var(--muted)}
+.chip.ict{border:2px solid var(--accent)}
+table.share{width:100%;border-collapse:collapse;font-size:14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.share th,.share td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+.share th{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.num{text-align:right!important;font-variant-numeric:tabular-nums}
+.note,.empty{font-size:12.5px;color:var(--muted);margin:8px 0 0}
+.empty{padding:12px 0}
+.status{list-style:none;padding:0;margin:8px 0 0;font-size:12.5px;color:var(--muted)}
+.status li{padding:3px 0}.status li::before{content:"● ";}
+.status li.ok::before{color:var(--up)}.status li.fail::before{color:var(--down)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table.heat{width:100%;border-collapse:collapse;font-size:13.5px}
+.heat th,.heat td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+.heat thead th{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.heat tbody th{font-weight:600;white-space:normal}
+@media (max-width:480px){.heat th,.heat td{padding:6px 7px;font-size:12.5px}}
+.heat tr:last-child th,.heat tr:last-child td{border-bottom:0}
+.heat-na{color:var(--muted)}
+.charts{display:grid;grid-template-columns:1fr;gap:8px}
+@media (min-width:640px){.charts{grid-template-columns:repeat(3,minmax(0,1fr))}}
+details.more .charts{margin-bottom:8px}
+.chart-card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0}
+.chart-head{display:flex;justify-content:space-between;gap:8px;font-size:13px;margin-bottom:4px}
+.chart-chg{color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.chart{width:100%;height:auto;display:block}
+.chart .line{fill:none;stroke:var(--accent);stroke-width:1.8;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.chart .area{fill:var(--accent);opacity:.08}
+.chart .grid{stroke:var(--line);stroke-dasharray:3 3;vector-effect:non-scaling-stroke}
+.chart .dot{fill:var(--accent)}
+.chart .lbl{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.chart-card .note{margin-top:4px;font-size:11px}
+footer{margin-top:32px;font-size:12px;color:var(--muted)}
+footer details>summary{cursor:pointer;font-weight:600}
+#toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s}
+#toast.show{opacity:1}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div>
+    <h1>Bản tin 24h</h1>
+    <div class="kicker">Thị trường · ngành điện thoại</div>
+    <div class="date">Chủ Nhật, 25/10/2026 · cập nhật 07:43</div>
+    <span class="health">10/10 chỉ số lấy được</span>
+  </div>
+  <div class="top-actions">
+    <button class="btn" onclick="copyBrief()">Sao chép</button>
+    <a class="btn" href="../archive.html">Lưu trữ</a>
+  </div>
+</header>
+
+<section><h2>Chỉ số thị trường</h2>
+<div class="kpis"><div class="kpi">
+  <div class="kpi-head"><span class="kpi-label">USD/VND</span><svg class="spark" viewBox="0 0 96 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,2.0 6.9,2.3 13.7,4.3 20.6,16.9 27.4,16.9 34.3,10.3 41.1,13.4 48.0,16.1 54.9,19.3 61.7,16.9 68.6,16.4 75.4,19.3 82.3,21.7 89.1,22.8 96.0,24.0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+  <div class="kpi-value">26.020 <span class="kpi-unit">đ</span></div>
+  <div class="kpi-delta"><span class="delta flat">■ 0 (0,00%)</span></div>
+  <div class="kpi-sub">Mua TM 25.610 · CK 25.640 · giá bán ra</div>
+  <div class="kpi-foot"><a href="https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx" target="_blank" rel="noopener">Vietcombank · 07:32 25/10/2026</a></div>
+</div><div class="kpi">
+  <div class="kpi-head"><span class="kpi-label">CNY/VND</span><svg class="spark" viewBox="0 0 96 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,3.7 6.9,2.0 13.7,2.5 20.6,5.8 27.4,24.0 34.3,14.7 41.1,4.0 48.0,9.0 54.9,14.1 61.7,17.8 68.6,13.7 75.4,13.0 82.3,5.8 89.1,9.6 96.0,11.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+  <div class="kpi-value">3.933 <span class="kpi-unit">đ</span></div>
+  <div class="kpi-delta"><span class="delta flat">■ 0 (0,00%)</span></div>
+  <div class="kpi-sub">Mua TM 3.773 · CK 3.811 · giá bán ra</div>
+  <div class="kpi-foot"><a href="https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx" target="_blank" rel="noopener">Vietcombank · 07:32 25/10/2026</a></div>
+</div><div class="kpi">
+  <div class="kpi-head"><span class="kpi-label">KRW/VND</span><svg class="spark" viewBox="0 0 96 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,18.6 6.9,13.9 13.7,14.0 20.6,24.0 27.4,21.4 34.3,10.5 41.1,19.3 48.0,19.3 54.9,22.6 61.7,12.5 68.6,8.2 75.4,2.0 82.3,5.0 89.1,6.0 96.0,5.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+  <div class="kpi-value">20,33 <span class="kpi-unit">đ</span></div>
+  <div class="kpi-delta"><span class="delta flat">■ 0,00 (0,00%)</span></div>
+  <div class="kpi-sub">Mua TM 16,86 · CK 18,74 · giá bán ra</div>
+  <div class="kpi-foot"><a href="https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx" target="_blank" rel="noopener">Vietcombank · 07:32 25/10/2026</a></div>
+</div><div class="kpi">
+  <div class="kpi-head"><span class="kpi-label">Vàng SJC</span><svg class="spark" viewBox="0 0 96 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,2.0 24.0,2.0 48.0,2.0 72.0,24.0 96.0,24.0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+  <div class="kpi-value">141,70 <span class="kpi-unit">tr.đ/lượng</span></div>
+  <div class="kpi-delta"><span class="delta flat">■ 0,00 (0,00%)</span></div>
+  <div class="kpi-sub">Mua 138,70 · bán ra</div>
+  <div class="kpi-foot"><a href="https://24h.com.vn/gia-vang-hom-nay-c425.html" target="_blank" rel="noopener">24h.com.vn (bảng giá SJC)</a></div>
+</div><div class="kpi">
+  <div class="kpi-head"><span class="kpi-label">Vàng thế giới</span><svg class="spark" viewBox="0 0 96 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,5.1 6.9,10.0 13.7,8.3 20.6,2.0 27.4,4.7 34.3,6.1 41.1,13.4 48.0,6.9 54.9,5.7 61.7,7.9 68.6,9.8 75.4,9.0 82.3,18.5 89.1,24.0 96.0,24.0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+  <div class="kpi-value">4.007,9 <span class="kpi-unit">USD/oz</span></div>
+  <div class="kpi-delta"><span class="delta up">▲ 0,0 (+0,00%)</span></div>
+  
+  <div class="kpi-foot"><a href="https://finance.yahoo.com/quote/GC=F" target="_blank" rel="noopener">Yahoo Finance · 03:59 24/10/2026</a></div>
+</div><div class="kpi">
+  <div class="kpi-head"><span class="kpi-label">Chênh SJC – thế giới</span><svg class="spark" viewBox="0 0 96 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,24.0 24.0,22.5 48.0,6.2 72.0,2.4 96.0,2.0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+  <div class="kpi-value">15,97 <span class="kpi-unit">tr.đ/lượng</span></div>
+  <div class="kpi-delta"><span class="delta up">▲ 0,07 (+0,41%)</span></div>
+  <div class="kpi-sub">Thế giới quy đổi 125,73</div>
+  <div class="kpi-foot"><a href="https://24h.com.vn/gia-vang-hom-nay-c425.html" target="_blank" rel="noopener">Tính từ Vàng SJC, Vàng thế giới, USD/VND</a></div>
+</div><div class="kpi">
+  <div class="kpi-head"><span class="kpi-label">VN-Index</span><svg class="spark" viewBox="0 0 96 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,24.0 24.0,12.1 48.0,5.9 72.0,2.0 96.0,2.0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+  <div class="kpi-value">1.774,15 <span class="kpi-unit">điểm</span></div>
+  <div class="kpi-delta"><span class="delta up">▲ 13,52 (+0,77%)</span></div>
+  
+  <div class="kpi-foot"><a href="https://finance.yahoo.com/quote/^VNINDEX.VN" target="_blank" rel="noopener">Yahoo Finance · 15:33 23/10/2026</a></div>
+</div><div class="kpi">
+  <div class="kpi-head"><span class="kpi-label">Xăng RON 95</span><svg class="spark" viewBox="0 0 96 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,24.0 24.0,24.0 48.0,24.0 72.0,24.0 96.0,24.0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+  <div class="kpi-value">29.050 <span class="kpi-unit">đ/lít</span></div>
+  <div class="kpi-delta"><span class="delta flat">■ 0 (0,00%)</span></div>
+  <div class="kpi-sub">E5 27.700 · DO 30.520</div>
+  <div class="kpi-foot"><a href="https://webgia.com/gia-xang-dau/petrolimex/" target="_blank" rel="noopener">Petrolimex (qua webgia.com)</a></div>
+</div><div class="kpi">
+  <div class="kpi-head"><span class="kpi-label">Dầu Brent</span><svg class="spark" viewBox="0 0 96 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,23.5 6.9,24.0 13.7,18.6 20.6,18.0 27.4,15.4 34.3,16.7 41.1,16.2 48.0,16.4 54.9,11.1 61.7,11.5 68.6,12.6 75.4,12.5 82.3,6.7 89.1,2.0 96.0,8.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+  <div class="kpi-value">111,70 <span class="kpi-unit">USD/thùng</span></div>
+  <div class="kpi-delta"><span class="delta down">▼ 5,02 (−4,30%)</span></div>
+  
+  <div class="kpi-foot"><a href="https://finance.yahoo.com/quote/BZ=F" target="_blank" rel="noopener">Yahoo Finance · 03:59 24/10/2026</a></div>
+</div><div class="kpi">
+  <div class="kpi-head"><span class="kpi-label">Chỉ số USD (DXY)</span><svg class="spark" viewBox="0 0 96 26" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,19.0 6.9,9.7 13.7,12.0 20.6,10.4 27.4,2.0 34.3,11.1 41.1,2.7 48.0,15.2 54.9,18.8 61.7,15.6 68.6,21.3 75.4,20.1 82.3,24.0 89.1,19.5 96.0,20.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+  <div class="kpi-value">101,75 <span class="kpi-unit">điểm</span></div>
+  <div class="kpi-delta"><span class="delta down">▼ 0,06 (−0,06%)</span></div>
+  
+  <div class="kpi-foot"><a href="https://finance.yahoo.com/quote/DX-Y.NYB" target="_blank" rel="noopener">Yahoo Finance · 03:59 24/10/2026</a></div>
+</div></div>
+<p class="note">Thay đổi so với phiên/ngày trước. Tỷ giá Vietcombank là giá bán ra.
+Chênh SJC – thế giới: giá bán SJC trừ vàng thế giới quy đổi theo USD/VND (chưa gồm thuế, phí).</p>
+</section>
+
+<section><h2>Biến động 1 · 7 · 30 ngày</h2><div class="table-wrap"><table class="heat">
+<thead><tr><th>Chỉ số</th><th class="num">1 ngày</th><th class="num">7 ngày</th><th class="num">30 ngày</th></tr></thead><tbody><tr><th scope='row'>USD/VND*</th><td class="num">0,00%</td><td class="num" style="background:rgba(var(--down-rgb),0.10)">−0,12%</td><td class="num" style="background:rgba(var(--down-rgb),0.20)">−0,64%</td></tr><tr><th scope='row'>CNY/VND*</th><td class="num">0,00%</td><td class="num" style="background:rgba(var(--up-rgb),0.10)">+0,10%</td><td class="num" style="background:rgba(var(--down-rgb),0.14)">−0,31%</td></tr><tr><th scope='row'>KRW/VND*</th><td class="num">0,00%</td><td class="num" style="background:rgba(var(--up-rgb),0.27)">+1,05%</td><td class="num" style="background:rgba(var(--up-rgb),0.47)">+2,14%</td></tr><tr><th scope='row'>Vàng SJC</th><td class="num">0,00%</td><td class="num heat-na">—</td><td class="num heat-na">—</td></tr><tr><th scope='row'>Vàng thế giới</th><td class="num" style="background:rgba(var(--up-rgb),0.08)">+0,00%</td><td class="num" style="background:rgba(var(--down-rgb),0.63)">−4,14%</td><td class="num" style="background:rgba(var(--down-rgb),0.63)">−6,75%</td></tr><tr><th scope='row'>Chênh SJC – thế giới</th><td class="num" style="background:rgba(var(--up-rgb),0.16)">+0,41%</td><td class="num heat-na">—</td><td class="num heat-na">—</td></tr><tr><th scope='row'>VN-Index</th><td class="num" style="background:rgba(var(--up-rgb),0.22)">+0,77%</td><td class="num heat-na">—</td><td class="num heat-na">—</td></tr><tr><th scope='row'>Xăng RON 95</th><td class="num">0,00%</td><td class="num heat-na">—</td><td class="num heat-na">—</td></tr><tr><th scope='row'>Dầu Brent</th><td class="num" style="background:rgba(var(--down-rgb),0.63)">−4,30%</td><td class="num" style="background:rgba(var(--up-rgb),0.39)">+1,67%</td><td class="num" style="background:rgba(var(--up-rgb),0.63)">+4,78%</td></tr><tr><th scope='row'>Chỉ số USD (DXY)</th><td class="num" style="background:rgba(var(--down-rgb),0.09)">−0,06%</td><td class="num" style="background:rgba(var(--down-rgb),0.10)">−0,09%</td><td class="num" style="background:rgba(var(--up-rgb),0.16)">+0,46%</td></tr></tbody></table></div>
+<p class="note">— : chưa đủ lịch sử (vàng SJC, xăng, chênh lệch vàng do bản tin tự lưu mỗi ngày).
+* 7/30 ngày của tỷ giá tính theo tỷ giá thị trường quốc tế (Yahoo); 1 ngày theo Vietcombank.</p></section>
+
+<section><h2>Tỷ giá 3 tháng</h2><div class="charts"><div class="chart-card">
+  <div class="chart-head"><b>USD/VND</b><span class="chart-chg">30 ngày: −0,64%</span></div>
+  <svg class="chart" viewBox="0 0 260 110" role="img" aria-label="Biểu đồ 68 phiên">
+<line x1="0" y1="14" x2="260" y2="14" class="grid"/><line x1="0" y1="92" x2="260" y2="92" class="grid"/>
+<polygon points="0,92 0.0,18.0 3.9,16.5 7.8,18.8 11.6,16.7 15.5,14.0 19.4,15.4 23.3,22.1 27.2,20.2 31.0,21.0 34.9,25.3 38.8,26.9 42.7,29.3 46.6,34.2 50.4,42.7 54.3,45.8 58.2,58.7 62.1,55.4 66.0,43.1 69.9,34.7 73.7,38.7 77.6,38.0 81.5,50.8 85.4,49.0 89.3,39.2 93.1,49.2 97.0,50.3 100.9,54.4 104.8,55.4 108.7,55.4 112.5,55.4 116.4,55.4 120.3,55.4 124.2,58.6 128.1,64.1 131.9,70.7 135.8,81.8 139.7,79.1 143.6,79.3 147.5,69.1 151.3,73.2 155.2,68.1 159.1,65.1 163.0,63.5 166.9,63.3 170.7,64.5 174.6,65.4 178.5,68.1 182.4,70.7 186.3,71.5 190.1,71.3 194.0,73.1 197.9,69.9 201.8,69.1 205.7,68.0 209.6,68.3 213.4,70.5 217.3,84.2 221.2,84.2 225.1,77.0 229.0,80.4 232.8,83.4 236.7,86.9 240.6,84.2 244.5,83.7 248.4,86.9 252.2,89.5 256.1,90.7 260.0,92.0 260,92" class="area"/><polyline points="0.0,18.0 3.9,16.5 7.8,18.8 11.6,16.7 15.5,14.0 19.4,15.4 23.3,22.1 27.2,20.2 31.0,21.0 34.9,25.3 38.8,26.9 42.7,29.3 46.6,34.2 50.4,42.7 54.3,45.8 58.2,58.7 62.1,55.4 66.0,43.1 69.9,34.7 73.7,38.7 77.6,38.0 81.5,50.8 85.4,49.0 89.3,39.2 93.1,49.2 97.0,50.3 100.9,54.4 104.8,55.4 108.7,55.4 112.5,55.4 116.4,55.4 120.3,55.4 124.2,58.6 128.1,64.1 131.9,70.7 135.8,81.8 139.7,79.1 143.6,79.3 147.5,69.1 151.3,73.2 155.2,68.1 159.1,65.1 163.0,63.5 166.9,63.3 170.7,64.5 174.6,65.4 178.5,68.1 182.4,70.7 186.3,71.5 190.1,71.3 194.0,73.1 197.9,69.9 201.8,69.1 205.7,68.0 209.6,68.3 213.4,70.5 217.3,84.2 221.2,84.2 225.1,77.0 229.0,80.4 232.8,83.4 236.7,86.9 240.6,84.2 244.5,83.7 248.4,86.9 252.2,89.5 256.1,90.7 260.0,92.0" class="line"/>
+<circle cx="260.0" cy="92.0" r="3" class="dot"/>
+<text x="2" y="10" class="lbl">cao 26.330</text>
+<text x="2" y="106" class="lbl">thấp 25.840</text>
+<text x="258" y="106" class="lbl" text-anchor="end">23/07 → 24/10</text>
+</svg><p class="note">Biểu đồ: tỷ giá thị trường quốc tế (Yahoo Finance)</p>
+</div><div class="chart-card">
+  <div class="chart-head"><b>CNY/VND</b><span class="chart-chg">30 ngày: −0,31%</span></div>
+  <svg class="chart" viewBox="0 0 260 110" role="img" aria-label="Biểu đồ 67 phiên">
+<line x1="0" y1="14" x2="260" y2="14" class="grid"/><line x1="0" y1="92" x2="260" y2="92" class="grid"/>
+<polygon points="0,92 0.0,37.6 3.9,34.6 7.9,38.4 11.8,26.0 15.8,27.2 19.7,23.8 23.6,23.4 27.6,14.0 31.5,17.5 35.5,27.8 39.4,26.6 43.3,30.5 47.3,39.1 51.2,57.0 55.2,60.6 59.1,85.8 63.0,78.0 67.0,52.0 70.9,30.3 74.8,42.3 78.8,23.7 82.7,41.6 86.7,35.9 90.6,16.1 94.5,35.3 98.5,40.6 102.4,49.4 106.4,56.0 110.3,56.0 114.2,48.4 118.2,46.8 122.1,46.8 126.1,42.8 130.0,54.7 133.9,68.2 137.9,92.0 141.8,80.5 145.8,83.3 149.7,61.8 153.6,74.6 157.6,56.9 161.5,52.3 165.5,35.8 169.4,32.5 173.3,40.6 177.3,57.8 181.2,63.6 185.2,71.2 189.1,69.7 193.0,59.7 197.0,65.4 200.9,58.6 204.8,56.9 208.8,54.6 212.7,55.2 216.7,60.0 220.6,86.1 224.5,72.8 228.5,57.5 232.4,64.6 236.4,71.9 240.3,77.1 244.2,71.3 248.2,70.3 252.1,60.0 256.1,65.4 260.0,68.2 260,92" class="area"/><polyline points="0.0,37.6 3.9,34.6 7.9,38.4 11.8,26.0 15.8,27.2 19.7,23.8 23.6,23.4 27.6,14.0 31.5,17.5 35.5,27.8 39.4,26.6 43.3,30.5 47.3,39.1 51.2,57.0 55.2,60.6 59.1,85.8 63.0,78.0 67.0,52.0 70.9,30.3 74.8,42.3 78.8,23.7 82.7,41.6 86.7,35.9 90.6,16.1 94.5,35.3 98.5,40.6 102.4,49.4 106.4,56.0 110.3,56.0 114.2,48.4 118.2,46.8 122.1,46.8 126.1,42.8 130.0,54.7 133.9,68.2 137.9,92.0 141.8,80.5 145.8,83.3 149.7,61.8 153.6,74.6 157.6,56.9 161.5,52.3 165.5,35.8 169.4,32.5 173.3,40.6 177.3,57.8 181.2,63.6 185.2,71.2 189.1,69.7 193.0,59.7 197.0,65.4 200.9,58.6 204.8,56.9 208.8,54.6 212.7,55.2 216.7,60.0 220.6,86.1 224.5,72.8 228.5,57.5 232.4,64.6 236.4,71.9 240.3,77.1 244.2,71.3 248.2,70.3 252.1,60.0 256.1,65.4 260.0,68.2" class="line"/>
+<circle cx="260.0" cy="68.2" r="3" class="dot"/>
+<text x="2" y="10" class="lbl">cao 3.894</text>
+<text x="2" y="106" class="lbl">thấp 3.860</text>
+<text x="258" y="106" class="lbl" text-anchor="end">23/07 → 23/10</text>
+</svg><p class="note">Biểu đồ: tỷ giá thị trường quốc tế (Yahoo Finance)</p>
+</div><div class="chart-card">
+  <div class="chart-head"><b>KRW/VND</b><span class="chart-chg">30 ngày: +2,14%</span></div>
+  <svg class="chart" viewBox="0 0 260 110" role="img" aria-label="Biểu đồ 68 phiên">
+<line x1="0" y1="14" x2="260" y2="14" class="grid"/><line x1="0" y1="92" x2="260" y2="92" class="grid"/>
+<polygon points="0,92 0.0,92.0 3.9,90.8 7.8,82.4 11.6,85.6 15.5,78.7 19.4,72.8 23.3,61.4 27.2,69.9 31.0,65.9 34.9,66.7 38.8,62.7 42.7,63.9 46.6,55.8 50.4,63.6 54.3,61.2 58.2,66.4 62.1,65.9 66.0,62.6 69.9,60.5 73.7,60.6 77.6,45.8 81.5,49.3 85.4,45.3 89.3,40.7 93.1,43.2 97.0,44.7 100.9,43.7 104.8,41.8 108.7,35.2 112.5,39.1 116.4,29.9 120.3,28.0 124.2,21.9 128.1,22.1 131.9,20.7 135.8,23.0 139.7,28.3 143.6,26.1 147.5,24.5 151.3,37.0 155.2,44.1 159.1,45.3 163.0,48.3 166.9,41.3 170.7,26.6 174.6,34.6 178.5,38.3 182.4,30.6 186.3,34.0 190.1,28.2 194.0,32.6 197.9,34.4 201.8,22.5 205.7,23.1 209.6,20.5 213.4,20.5 217.3,26.0 221.2,24.6 225.1,18.7 229.0,23.5 232.8,23.5 236.7,25.3 240.6,19.7 244.5,17.4 248.4,14.0 252.2,15.7 256.1,16.2 260.0,16.1 260,92" class="area"/><polyline points="0.0,92.0 3.9,90.8 7.8,82.4 11.6,85.6 15.5,78.7 19.4,72.8 23.3,61.4 27.2,69.9 31.0,65.9 34.9,66.7 38.8,62.7 42.7,63.9 46.6,55.8 50.4,63.6 54.3,61.2 58.2,66.4 62.1,65.9 66.0,62.6 69.9,60.5 73.7,60.6 77.6,45.8 81.5,49.3 85.4,45.3 89.3,40.7 93.1,43.2 97.0,44.7 100.9,43.7 104.8,41.8 108.7,35.2 112.5,39.1 116.4,29.9 120.3,28.0 124.2,21.9 128.1,22.1 131.9,20.7 135.8,23.0 139.7,28.3 143.6,26.1 147.5,24.5 151.3,37.0 155.2,44.1 159.1,45.3 163.0,48.3 166.9,41.3 170.7,26.6 174.6,34.6 178.5,38.3 182.4,30.6 186.3,34.0 190.1,28.2 194.0,32.6 197.9,34.4 201.8,22.5 205.7,23.1 209.6,20.5 213.4,20.5 217.3,26.0 221.2,24.6 225.1,18.7 229.0,23.5 232.8,23.5 236.7,25.3 240.6,19.7 244.5,17.4 248.4,14.0 252.2,15.7 256.1,16.2 260.0,16.1" class="line"/>
+<circle cx="260.0" cy="16.1" r="3" class="dot"/>
+<text x="2" y="10" class="lbl">cao 19,54</text>
+<text x="2" y="106" class="lbl">thấp 17,83</text>
+<text x="258" y="106" class="lbl" text-anchor="end">23/07 → 24/10</text>
+</svg><p class="note">Biểu đồ: tỷ giá thị trường quốc tế (Yahoo Finance)</p>
+</div></div><details class="more"><summary>Xem thêm 7 biểu đồ (vàng, VN-Index, dầu, DXY…)</summary><div class="charts"><div class="chart-card">
+  <div class="chart-head"><b>Vàng SJC</b><span class="chart-chg">30 ngày: —</span></div>
+  <svg class="chart" viewBox="0 0 260 110" role="img" aria-label="Biểu đồ 5 phiên">
+<line x1="0" y1="14" x2="260" y2="14" class="grid"/><line x1="0" y1="92" x2="260" y2="92" class="grid"/>
+<polygon points="0,92 0.0,14.0 65.0,14.0 130.0,14.0 195.0,92.0 260.0,92.0 260,92" class="area"/><polyline points="0.0,14.0 65.0,14.0 130.0,14.0 195.0,92.0 260.0,92.0" class="line"/>
+<circle cx="260.0" cy="92.0" r="3" class="dot"/>
+<text x="2" y="10" class="lbl">cao 142,30</text>
+<text x="2" y="106" class="lbl">thấp 141,70</text>
+<text x="258" y="106" class="lbl" text-anchor="end">21/10 → 25/10</text>
+</svg>
+</div><div class="chart-card">
+  <div class="chart-head"><b>Vàng thế giới</b><span class="chart-chg">30 ngày: −6,75%</span></div>
+  <svg class="chart" viewBox="0 0 260 110" role="img" aria-label="Biểu đồ 66 phiên">
+<line x1="0" y1="14" x2="260" y2="14" class="grid"/><line x1="0" y1="92" x2="260" y2="92" class="grid"/>
+<polygon points="0,92 0.0,84.9 4.0,84.2 8.0,88.5 12.0,88.8 16.0,81.6 20.0,80.8 24.0,82.7 28.0,75.6 32.0,58.4 36.0,59.0 40.0,47.7 44.0,45.4 48.0,43.0 52.0,40.0 56.0,45.4 60.0,43.5 64.0,39.3 68.0,45.3 72.0,31.2 76.0,28.3 80.0,15.9 84.0,14.0 88.0,14.4 92.0,19.0 96.0,17.8 100.0,33.0 104.0,38.5 108.0,48.1 112.0,46.0 116.0,31.9 120.0,39.0 124.0,43.3 128.0,40.8 132.0,46.8 136.0,46.7 140.0,53.1 144.0,55.3 148.0,49.1 152.0,47.7 156.0,44.9 160.0,49.5 164.0,50.3 168.0,56.9 172.0,59.2 176.0,56.6 180.0,73.9 184.0,72.6 188.0,71.8 192.0,70.0 196.0,74.5 200.0,75.2 204.0,71.7 208.0,77.0 212.0,75.1 216.0,68.4 220.0,71.3 224.0,72.8 228.0,80.7 232.0,73.7 236.0,72.4 240.0,74.8 244.0,76.8 248.0,75.9 252.0,86.1 256.0,92.0 260.0,92.0 260,92" class="area"/><polyline points="0.0,84.9 4.0,84.2 8.0,88.5 12.0,88.8 16.0,81.6 20.0,80.8 24.0,82.7 28.0,75.6 32.0,58.4 36.0,59.0 40.0,47.7 44.0,45.4 48.0,43.0 52.0,40.0 56.0,45.4 60.0,43.5 64.0,39.3 68.0,45.3 72.0,31.2 76.0,28.3 80.0,15.9 84.0,14.0 88.0,14.4 92.0,19.0 96.0,17.8 100.0,33.0 104.0,38.5 108.0,48.1 112.0,46.0 116.0,31.9 120.0,39.0 124.0,43.3 128.0,40.8 132.0,46.8 136.0,46.7 140.0,53.1 144.0,55.3 148.0,49.1 152.0,47.7 156.0,44.9 160.0,49.5 164.0,50.3 168.0,56.9 172.0,59.2 176.0,56.6 180.0,73.9 184.0,72.6 188.0,71.8 192.0,70.0 196.0,74.5 200.0,75.2 204.0,71.7 208.0,77.0 212.0,75.1 216.0,68.4 220.0,71.3 224.0,72.8 228.0,80.7 232.0,73.7 236.0,72.4 240.0,74.8 244.0,76.8 248.0,75.9 252.0,86.1 256.0,92.0 260.0,92.0" class="line"/>
+<circle cx="260.0" cy="92.0" r="3" class="dot"/>
+<text x="2" y="10" class="lbl">cao 4.697,8</text>
+<text x="2" y="106" class="lbl">thấp 4.007,9</text>
+<text x="258" y="106" class="lbl" text-anchor="end">24/07 → 24/10</text>
+</svg>
+</div><div class="chart-card">
+  <div class="chart-head"><b>Chênh SJC – thế giới</b><span class="chart-chg">30 ngày: —</span></div>
+  <svg class="chart" viewBox="0 0 260 110" role="img" aria-label="Biểu đồ 5 phiên">
+<line x1="0" y1="14" x2="260" y2="14" class="grid"/><line x1="0" y1="92" x2="260" y2="92" class="grid"/>
+<polygon points="0,92 0.0,92.0 65.0,86.7 130.0,28.9 195.0,15.4 260.0,14.0 260,92" class="area"/><polyline points="0.0,92.0 65.0,86.7 130.0,28.9 195.0,15.4 260.0,14.0" class="line"/>
+<circle cx="260.0" cy="14.0" r="3" class="dot"/>
+<text x="2" y="10" class="lbl">cao 15,97</text>
+<text x="2" y="106" class="lbl">thấp 12,32</text>
+<text x="258" y="106" class="lbl" text-anchor="end">21/10 → 25/10</text>
+</svg>
+</div><div class="chart-card">
+  <div class="chart-head"><b>VN-Index</b><span class="chart-chg">30 ngày: —</span></div>
+  <svg class="chart" viewBox="0 0 260 110" role="img" aria-label="Biểu đồ 5 phiên">
+<line x1="0" y1="14" x2="260" y2="14" class="grid"/><line x1="0" y1="92" x2="260" y2="92" class="grid"/>
+<polygon points="0,92 0.0,92.0 65.0,50.0 130.0,27.7 195.0,14.0 260.0,14.0 260,92" class="area"/><polyline points="0.0,92.0 65.0,50.0 130.0,27.7 195.0,14.0 260.0,14.0" class="line"/>
+<circle cx="260.0" cy="14.0" r="3" class="dot"/>
+<text x="2" y="10" class="lbl">cao 1.774,15</text>
+<text x="2" y="106" class="lbl">thấp 1.697,24</text>
+<text x="258" y="106" class="lbl" text-anchor="end">21/10 → 25/10</text>
+</svg>
+</div><div class="chart-card">
+  <div class="chart-head"><b>Xăng RON 95</b><span class="chart-chg">30 ngày: —</span></div>
+  <svg class="chart" viewBox="0 0 260 110" role="img" aria-label="Biểu đồ 5 phiên">
+<line x1="0" y1="14" x2="260" y2="14" class="grid"/><line x1="0" y1="92" x2="260" y2="92" class="grid"/>
+<polygon points="0,92 0.0,14.0 65.0,14.0 130.0,14.0 195.0,14.0 260.0,14.0 260,92" class="area"/><polyline points="0.0,14.0 65.0,14.0 130.0,14.0 195.0,14.0 260.0,14.0" class="line"/>
+<circle cx="260.0" cy="14.0" r="3" class="dot"/>
+<text x="2" y="10" class="lbl">cao 29.050</text>
+<text x="2" y="106" class="lbl">thấp 29.050</text>
+<text x="258" y="106" class="lbl" text-anchor="end">21/10 → 25/10</text>
+</svg>
+</div><div class="chart-card">
+  <div class="chart-head"><b>Dầu Brent</b><span class="chart-chg">30 ngày: +4,78%</span></div>
+  <svg class="chart" viewBox="0 0 260 110" role="img" aria-label="Biểu đồ 66 phiên">
+<line x1="0" y1="14" x2="260" y2="14" class="grid"/><line x1="0" y1="92" x2="260" y2="92" class="grid"/>
+<polygon points="0,92 0.0,55.6 4.0,73.2 8.0,82.1 12.0,68.2 16.0,71.8 20.0,69.5 24.0,82.8 28.0,92.0 32.0,91.8 36.0,85.5 40.0,83.3 44.0,74.5 48.0,72.1 52.0,71.9 56.0,75.9 60.0,72.9 64.0,68.0 68.0,67.7 72.0,66.4 76.0,61.9 80.0,60.6 84.0,65.3 88.0,72.8 92.0,74.3 96.0,70.4 100.0,71.2 104.0,68.8 108.0,60.1 112.0,58.0 116.0,58.3 120.0,56.7 124.0,53.3 128.0,46.4 132.0,33.0 136.0,39.3 140.0,37.0 144.0,30.6 148.0,36.7 152.0,38.8 156.0,40.8 160.0,48.2 164.0,50.5 168.0,42.5 172.0,35.1 176.0,39.9 180.0,37.9 184.0,43.5 188.0,41.5 192.0,44.1 196.0,44.2 200.0,48.2 204.0,47.7 208.0,48.5 212.0,40.0 216.0,39.1 220.0,35.0 224.0,37.0 228.0,36.3 232.0,36.5 236.0,28.3 240.0,29.0 244.0,30.6 248.0,30.5 252.0,21.4 256.0,14.0 260.0,24.5 260,92" class="area"/><polyline points="0.0,55.6 4.0,73.2 8.0,82.1 12.0,68.2 16.0,71.8 20.0,69.5 24.0,82.8 28.0,92.0 32.0,91.8 36.0,85.5 40.0,83.3 44.0,74.5 48.0,72.1 52.0,71.9 56.0,75.9 60.0,72.9 64.0,68.0 68.0,67.7 72.0,66.4 76.0,61.9 80.0,60.6 84.0,65.3 88.0,72.8 92.0,74.3 96.0,70.4 100.0,71.2 104.0,68.8 108.0,60.1 112.0,58.0 116.0,58.3 120.0,56.7 124.0,53.3 128.0,46.4 132.0,33.0 136.0,39.3 140.0,37.0 144.0,30.6 148.0,36.7 152.0,38.8 156.0,40.8 160.0,48.2 164.0,50.5 168.0,42.5 172.0,35.1 176.0,39.9 180.0,37.9 184.0,43.5 188.0,41.5 192.0,44.1 196.0,44.2 200.0,48.2 204.0,47.7 208.0,48.5 212.0,40.0 216.0,39.1 220.0,35.0 224.0,37.0 228.0,36.3 232.0,36.5 236.0,28.3 240.0,29.0 244.0,30.6 248.0,30.5 252.0,21.4 256.0,14.0 260.0,24.5" class="line"/>
+<circle cx="260.0" cy="24.5" r="3" class="dot"/>
+<text x="2" y="10" class="lbl">cao 116,72</text>
+<text x="2" y="106" class="lbl">thấp 79,36</text>
+<text x="258" y="106" class="lbl" text-anchor="end">24/07 → 24/10</text>
+</svg>
+</div><div class="chart-card">
+  <div class="chart-head"><b>Chỉ số USD (DXY)</b><span class="chart-chg">30 ngày: +0,46%</span></div>
+  <svg class="chart" viewBox="0 0 260 110" role="img" aria-label="Biểu đồ 66 phiên">
+<line x1="0" y1="14" x2="260" y2="14" class="grid"/><line x1="0" y1="92" x2="260" y2="92" class="grid"/>
+<polygon points="0,92 0.0,36.7 4.0,35.9 8.0,38.6 12.0,50.4 16.0,66.6 20.0,70.9 24.0,67.6 28.0,69.1 32.0,73.2 36.0,67.4 40.0,75.0 44.0,70.7 48.0,70.5 52.0,66.6 56.0,67.6 60.0,73.6 64.0,74.2 68.0,74.0 72.0,90.8 76.0,89.3 80.0,91.4 84.0,87.3 88.0,88.9 92.0,83.8 96.0,84.0 100.0,73.0 104.0,78.5 108.0,73.6 112.0,75.8 116.0,87.3 120.0,84.0 124.0,90.6 128.0,92.0 132.0,85.4 136.0,84.8 140.0,77.9 144.0,74.0 148.0,60.5 152.0,62.3 156.0,62.3 160.0,58.0 164.0,54.5 168.0,44.3 172.0,40.4 176.0,47.0 180.0,42.3 184.0,38.8 188.0,37.1 192.0,23.8 196.0,27.3 200.0,22.4 204.0,29.4 208.0,21.0 212.0,23.0 216.0,21.6 220.0,14.0 224.0,22.2 228.0,14.6 232.0,25.9 236.0,29.1 240.0,26.3 244.0,31.4 248.0,30.4 252.0,33.9 256.0,29.8 260.0,31.0 260,92" class="area"/><polyline points="0.0,36.7 4.0,35.9 8.0,38.6 12.0,50.4 16.0,66.6 20.0,70.9 24.0,67.6 28.0,69.1 32.0,73.2 36.0,67.4 40.0,75.0 44.0,70.7 48.0,70.5 52.0,66.6 56.0,67.6 60.0,73.6 64.0,74.2 68.0,74.0 72.0,90.8 76.0,89.3 80.0,91.4 84.0,87.3 88.0,88.9 92.0,83.8 96.0,84.0 100.0,73.0 104.0,78.5 108.0,73.6 112.0,75.8 116.0,87.3 120.0,84.0 124.0,90.6 128.0,92.0 132.0,85.4 136.0,84.8 140.0,77.9 144.0,74.0 148.0,60.5 152.0,62.3 156.0,62.3 160.0,58.0 164.0,54.5 168.0,44.3 172.0,40.4 176.0,47.0 180.0,42.3 184.0,38.8 188.0,37.1 192.0,23.8 196.0,27.3 200.0,22.4 204.0,29.4 208.0,21.0 212.0,23.0 216.0,21.6 220.0,14.0 224.0,22.2 228.0,14.6 232.0,25.9 236.0,29.1 240.0,26.3 244.0,31.4 248.0,30.4 252.0,33.9 256.0,29.8 260.0,31.0" class="line"/>
+<circle cx="260.0" cy="31.0" r="3" class="dot"/>
+<text x="2" y="10" class="lbl">cao 102,58</text>
+<text x="2" y="106" class="lbl">thấp 98,77</text>
+<text x="258" y="106" class="lbl" text-anchor="end">24/07 → 24/10</text>
+</svg>
+</div></div></details></section>
+
+<section><h2>Đáng chú ý cho ngành ĐTDĐ</h2><div class="card watch"><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://www.gsmarena.com/deals_the_oppo_find_x10_series_and_the_iphone_duo_launch_here_are_some_alternatives_too-news-75185.php" target="_blank" rel="noopener">Ưu đãi: dòng Oppo Find X10 và iPhone Duo ra mắt, dưới đây là một số lựa chọn thay thế</a>
+  <p class="news-sum">Tuần này chứng kiến hai lần ra mắt lớn – dòng Oppo Find X10 được tung ra toàn cầu và Apple iPhone Duo bắt đầu xuất xưởng. Trước tiên chúng ta hãy xem OPPO. Oppo Find X10 Pro Max là một con quái vật của điện thoại – trong bài đánh giá của chúng tôi, chúng…</p>
+  <div class="tags"><span class="tag">Apple</span><span class="tag">OPPO</span><span class="tag">Smartphone</span><span class="tag">Logistics</span></div>
+  <div class="news-meta">GSMArena · 15:01 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://www.gsmarena.com/deals_iphone_duo_launches_faces_off_against_galaxy_z_fold8_motorola_razr_fold_and_others-news-75184.php" target="_blank" rel="noopener">Ưu đãi: ra mắt iPhone Duo, đối mặt với Galaxy Z Fold8, Motorola Razr Fold và các sản phẩm khác</a>
+  <p class="news-sum">IPhone Duo chính thức bắt đầu giao hàng vào thứ Sáu này. Apple đã cảnh báo rằng lượng hàng tồn kho tại cửa hàng sẽ bị hạn chế và việc mua hàng trực tuyến đang phải đối mặt với thời gian chờ đợi lâu. Apple đang làm việc để xây dựng nhiều đơn vị hơn, nhưng…</p>
+  <div class="tags"><span class="tag">Apple</span><span class="tag">Samsung</span><span class="tag">Logistics</span></div>
+  <div class="news-meta">GSMArena · 01:31 25/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://www.gsmarena.com/vivo_s70_tipped_to_launch_soon_with_teleconverter_support-news-75195.php" target="_blank" rel="noopener">vivo S70 sẽ sớm ra mắt với sự hỗ trợ của bộ chuyển đổi teleconverter</a>
+  <p class="news-sum">vivo đã công bố dòng S60 tại Trung Quốc vào tháng 5 năm nay, nhưng một thông tin rò rỉ mới cho biết công ty đã chuẩn bị người kế nhiệm của nó, Vivo S70. Rò rỉ cũng cho thấy điện thoại sẽ hỗ trợ bộ chuyển đổi từ xa. Tipster Digital Chat Station đã tiết lộ…</p>
+  <div class="tags"><span class="tag">vivo</span><span class="tag">Smartphone</span></div>
+  <div class="news-meta">GSMArena · 18:31 24/10 · <span class="rel warn">Tin đồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/mot-so-iphone-duo-bi-nut-soc-man-hinh-5136441.html" target="_blank" rel="noopener">Một số iPhone Duo bị nứt, sọc màn hình</a>
+  <p class="news-sum">Một số người dùng cho biết điện thoại gập iPhone Duo bị nứt hoặc xuất hiện sọc màn hình dù không tác động lực mạnh, trong khi số khác gặp sự cố giao diện.</p>
+  <div class="tags"><span class="tag">Apple</span><span class="tag">Smartphone</span></div>
+  <div class="news-meta">VnExpress Số Hóa · 17:49 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://www.gsmarena.com/oppo_find_x10_and_x10_pro_max_go_global_oled_macbook_coming_on_oct_28-news-75191.php" target="_blank" rel="noopener">Oppo Find X10 VÀ X10 Pro Max đi toàn cầu, MacBook OLED sẽ ra mắt vào ngày 28 tháng 10</a>
+  <p class="news-sum">Apple sẽ ra mắt MacBook OLED màn hình cảm ứng đầu tiên vào ngày 28 tháng 10. Công ty đã gửi lời mời chính thức với khẩu hiệu &quot;Pro and tell&quot;, và nó hoạt động tốt với những gì các báo cáo đã nói từ trước đến nay - mong đợi MacBook Pro mới được trang bị OLED,…</p>
+  <div class="tags"><span class="tag">Apple</span><span class="tag">OPPO</span></div>
+  <div class="news-meta">GSMArena · 22:31 24/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul><details class="more"><summary>Xem thêm 3 tin</summary><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://vnexpress.net/smartphone-gia-re-dang-chet-5134841.html" target="_blank" rel="noopener">Smartphone giá rẻ đang &#x27;chết&#x27;</a>
+  <p class="news-sum">Những chiếc smartphone rẻ nhất thế giới dần biến mất do bị trung tâm dữ liệu AI &quot;hút&quot; chip nhớ, đẩy giá linh kiện lên cao.</p>
+  <div class="tags"><span class="tag">Chip &amp; bộ nhớ</span><span class="tag">Smartphone</span></div>
+  <div class="news-meta">VnExpress Số Hóa · 05:00 25/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/viet-nam-bi-huong-toi-nang-cap-quan-he-len-doi-tac-chien-luoc-5136488.html" target="_blank" rel="noopener">Việt Nam - Bỉ hướng tới nâng cấp quan hệ lên Đối tác Chiến lược</a>
+  <p class="news-sum">Việt Nam - Bỉ ra tuyên bố chung, nhất trí thúc đẩy hợp tác cảng biển, năng lượng sạch, bán dẫn và nông nghiệp công nghệ cao, nâng cấp quan hệ vào thời điểm thích hợp.</p>
+  <div class="tags"><span class="tag">Chip &amp; bộ nhớ</span><span class="tag">Logistics</span></div>
+  <div class="news-meta">VnExpress Thế Giới · 20:00 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro" target="_blank" rel="noopener">Những gì mong đợi từ sự kiện &#x27;Pro and tell’ của Apple</a>
+  <p class="news-sum">Cảm giác như sự kiện Welcome Home của Apple vừa xảy ra. Và thông báo về iPhone Duo cũng không quá xa vời trong gương chiếu hậu của chúng tôi. Tuy nhiên, công ty đã trở lại với một lần ra mắt khác, tập trung vào MacBook Pro. Sự kiện &quot;Pro and tell&quot; dự kiến…</p>
+  <div class="tags"><span class="tag">Apple</span></div>
+  <div class="news-meta">The Verge Tech · 21:13 24/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul></details></div></section>
+
+<section><h2>Tin các hãng tại Việt Nam · 3 ngày</h2><div class="card"><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOTFpfSVY2MzVIUWhFS3ItR3c0WnM4Nm8zTWFaNHczYzhUbFcwTy1uX25QdUZYdlVmZngtU00yWHZnMVJJV0RpYVl3SHlTU0dYX0RMb2d2SkRhMktXajJ4cExXX1B0UWk0WWdRcndmb1ItV3lQMUk3R3pqUVVtdS02aW9US1pLaWZGUTZxOHRSU3lrX1Z3SUdWQlpjUjhRVXRFeVVnbmZHSQ?oc=5" target="_blank" rel="noopener">Samsung sắp tung điện thoại gập W27 mới: Thiết kế vàng xanh đẹp mê mẩn</a>
+  
+  <div class="tags"><span class="tag">Samsung</span></div>
+  <div class="news-meta">Báo VietNamNet · 12:00 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBtc0U2WE9ZNFRIaXZXX3MyWUJpMDN0RmxtUDFWWnMxa2s0YkVUanV3eWF4OFFrME5xNkJvNVNDbVp0SE9fY0JjamRGXzVqRURvbnYtVG5QdTh6bjVnbWZiWEs2Ny10Y2d3eHpDVUVXc1JLUm9xcjdZ?oc=5" target="_blank" rel="noopener">Simon Sim: Samsung Galaxy Z Fold8 thu hút lượng lớn khách hàng mới</a>
+  
+  <div class="tags"><span class="tag">Samsung</span></div>
+  <div class="news-meta">TechSign.in · 13:29 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPa05HeGRhUFZoMk9PYlZHN0JDYVdIbV9zck01ME9GcXVMdTFGeEg5a1FQUks0VUZCQVkxb2NRUnVNV0IwdW9HMXNDaWozeHhhRExzSnUtbm9xNVBkQWZINjlTci1VeUVvR09lOVV4aE5vRlU0LXM2MGNqek5LOEo4TDhZbkVFN0NvQ25MYUFnZ0R3VlVfcjkySTgtWUdwVENtS25UY3ZrRWdfNTNuY0E?oc=5" target="_blank" rel="noopener">Điểm tuần: iPhone Duo lên kệ, Internet toàn cầu gặp sự cố</a>
+  
+  <div class="tags"><span class="tag">Apple</span></div>
+  <div class="news-meta">Báo Dân trí · 07:24 25/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPSHZQWi1hc0RMNlFfYzRtRlBjZDBNVzZqUHRXM1hIblJUWkVIanpiSUUzMGY1aVgwTHVjOU90UXdpVm1UVWdoOVR4dUxUUGM5QkZHSnA4dmZLSmNpaFR2bTNmN3BZSmVyZE1hQUFTX1hpd25jNFQyS3UtTzBMaldRQi1LaTBvXzctS3lSbWhERDlLcGMwa2xDQXBuVm14aUZ6blNoUA?oc=5" target="_blank" rel="noopener">iPhone Duo chính thức lên kệ tại Việt Nam, nguồn cung hạn chế</a>
+  
+  <div class="tags"><span class="tag">Apple</span></div>
+  <div class="news-meta">Tuổi Trẻ · 12:05 23/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul><details class="more"><summary>Xem thêm 10 tin</summary><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQXzVINDRVT2s3MU5nTnZJeXpFc0MtSnk2VTB4a1NvYmlSQzNNd2hnY0FLSWtKODZzR3puNE00azRmYXJ2cU5JVXdkc3NNQ3B6NzRoTHBRLUNnRThqeUFTTGwxRk9fYm5mSERGTXJwY0RhTmZrQUhvRkdjcGJXWGM3ZlQyVWttcEFMczlwalpIUEtBaWFWVmRLQTJWZTctNGM4UjVaemFXN0JiaGpIRUh2Ug?oc=5" target="_blank" rel="noopener">OnePlus và OPPO bắt đầu phát hành ColorOS 17 dựa trên Android 17 sớm hơn dự kiến ban đầu</a>
+  
+  <div class="tags"><span class="tag">OPPO</span></div>
+  <div class="news-meta">Vietnam.vn · 22:03 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9ERE5nS2QwUldLT2F6bXZhajdacU5qU1hsd2ZSZFhlM0I0YndhY19weEJNTjRzYk1GNl9rWHlmcVhKOGppaFNSNjJzUXdZYVFmNGR6a2hEN3Zham9sdnBDSlNWYjRvNW9HRUo4Y0lINmM?oc=5" target="_blank" rel="noopener">ColorOS 17 cập bến sớm trên nhiều điện thoại OnePlus và OPPO, thiết bị của bạn có trong danh sách?</a>
+  
+  <div class="tags"><span class="tag">OPPO</span></div>
+  <div class="news-meta">CellphoneS · 21:20 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMGxzN2p0b2l3X2RuOWl4S0t1SHcyS2RiMFJKWVhZdmxyTm1oY256blc5ZnlvMXk0OWpaWGcyb0FPTUdnZWxOOF9LVTlwN1BlVzBJdS1vUGZ1R2E1WnhvTHVoZUF6Qm5ZX25fX2NkTHduMmNoTm9HWExNdk42TV80MFdhRGlWLVlMVG92eDRrakozYUFVdUREcG9wZm9fa1BVcFdYR21LRElLTkt3WXl0UW9RTW9UVGRVbTdHNkVqak4?oc=5" target="_blank" rel="noopener">Không phải giả lập, AI giúp iOS chạy được trên điện thoại Xiaomi, nhưng chỉ để cho vui</a>
+  
+  <div class="tags"><span class="tag">Xiaomi</span></div>
+  <div class="news-meta">CafeF · 07:28 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQY3ZWeGdqNEF5WmJIRHBIQlNuV0MtbXBQUGJ1eWdhai04Nmw2MHRrYllkU3QzcFZpdzhBbEhrekdtUVhHTmxUdDhKdlpTRE5xenJaTjNWNkEyTzBLOTlUVU9oRTJIdjZDSmxTNGVVcWFKOEhHLXVwNUFDNjN6RzFTVzlhZkVHNEFvc0s3ckxyUHY5MWFIdVRZ?oc=5" target="_blank" rel="noopener">Gợi ý các dòng điện thoại có NFC giá rẻ, bán chạy hiện nay</a>
+  
+  <div class="tags"><span class="tag">Xiaomi</span></div>
+  <div class="news-meta">Baolangson.vn · 17:27 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMUhaZnlUcElqLWcyMmJyTE9oMG5tNldyOGcyYm5EZ0ctRjJRbEhxT28xc21OcFRJeXFoelZSek8tOGV6LUxKMGd2UXJuZTk5amo4TzVzVzlXZ0NSbDY2MTVLWVFsVFBoZEFnRnJSbHF5d3loeU9keHZoMkR4Sl9yWS1vd0lDOUc4SWJDOXh1YW1PVjBkX0R3b3NoT1ZveUxwWGJnem9fX1JpRXVIS3hoaUJJc3lPTkN3R0N0dVg5NE9DM2pwYmZtVkxvLVkxWjFBaEJuMUNsZVM3UjB2MnJv?oc=5" target="_blank" rel="noopener">Vivo Y600 gây sốt với pin 10.000 mAh, từng lập kỷ lục Guinness khi livestream hơn 32 giờ</a>
+  
+  <div class="tags"><span class="tag">vivo</span></div>
+  <div class="news-meta">Tin tức 24h · 06:00 25/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPeVVxVlVFYkkwSU80WUU3aWNWNk55MExUZ0xqT01ScmQwRk00T0RTd3R2RW1XZk42SGE4bmE3d2JKSkRERnFHRHowNEUxeE84OW8za3p5UjNqaGs0eDZ3XzRtUWNPR3RnYUdSTTFJTk5ady1oQUJIX2pfVUdFV19jMUJtdEdlS3dJOVZWZkpyRngxUQ?oc=5" target="_blank" rel="noopener">Lợi thế pin 10.000 mAh từ điện thoại vivo V80 Lite 5G</a>
+  
+  <div class="tags"><span class="tag">vivo</span></div>
+  <div class="news-meta">VnExpress · 12:00 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPbUdoWXFNRzRQSEVERkUyQWhLTHFTbUhURU1ya1VzcnhWZm9EWnlIMHBzUTlpZEZtQ2dRdXgwbGxocUN4MlVwc0tMVW9KbThlelZ1YXdDVHRJN0JBX2x0ejZQY185dGV1SU1CLWJoWDkyUXBQTVFFVnlVRkVrcUlQM1A5MUZIS3N3a090Qk5TWQ?oc=5" target="_blank" rel="noopener">realme C01 có giá dự kiến 5.9 triệu đồng: Phù hợp với những ai?</a>
+  
+  <div class="tags"><span class="tag">realme</span></div>
+  <div class="news-meta">Thegioididong.com · 20:46 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMiekFVX3lxTE85RW9WMnMxaUE4Z3RyemE3VHV5NjFwdUhEcDRMUlg1dzByWFFkanl0MnNmSE93T3JhLU1vNFJDcTlVcWhENzF3TzlleDVEY1dtTlh3eEhKSDdjbjdISTcyNU5fa0NHLWxiYy1meUNqTzBaamNyQXBKLU9B?oc=5" target="_blank" rel="noopener">realme 17 Pro lộ diện: Pin 10.000 mAh, camera 200 MP</a>
+  
+  <div class="tags"><span class="tag">realme</span></div>
+  <div class="news-meta">GenZ Việt · 14:34 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxOeVlSSEFjSk1wbmFOU24xWC0yTUlYQlJTc2xEc0dPMFlUQ3hINUZ5ZDRBMl9DX2J2Q19WV0hoQkQxOHB0Q2ZObndZYXFKTmRuZExOQlZpM2dMV0Y4Q3QybUs3dlBjeUQ1U1RXVmxhUEIzV05YLXBxZFNZNk1kMlNwREdFdG5jalhxZC1KOHY2VGNfUU5KZlJIYTdsNGFxQm16VXpkbVBxMkFhOUYyemNCR0VndHI?oc=5" target="_blank" rel="noopener">Sự thật về điện thoại Honor 2026: Có bền như lời đồn và có đầy đủ dịch vụ Google?</a>
+  
+  <div class="tags"><span class="tag">Honor</span></div>
+  <div class="news-meta">Baolangson.vn · 05:00 25/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMisAFBVV95cUxON3lWMFZxdmtsWHJfdk5YMU8tRk1NdnE5eTR1V1NueUhlRmFybWVmQ2lXZV94X2E1OVVDa3lsZ1A2TE1tWXhGdGhrNXFnZExvUGZFRkNUMzVodV9ES2daZWFFdXNvX0JTaUU3b1BMdDlrZ3E0NzNzdGNGVTdTckZLQlBsVkFjZ2V2dDJZc2lBcl9JZWl1bXdMX2xhcTMydFowZlotWlA4NnR6T0RncVpibA?oc=5" target="_blank" rel="noopener">Honor 700 Pro lộ thông số pin 9.000 mAh, màn hình phụ</a>
+  
+  <div class="tags"><span class="tag">Honor</span></div>
+  <div class="news-meta">Tin tức 24h · 13:30 24/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul></details></div></section><section><h2>Chuỗi cung ứng & linh kiện · 7 ngày</h2><div class="card"><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxPV3lnMFNjd3BkNzVHMXdDUVhoZHA0MmhLSnI0TUkteEJFQ0dEUVdnVjdTSE14R2p4TG03dGZRUEpBMWx6bGYzNklNcjBNRjd1RXotcXM5MkNkNzNuZ3hfOVdpTVp4bTJ3cVJ6QUlsYmpXZElxVXZuenlBamY2T1VGc2dJeVVQZ19NUEFUQXlVbUN5VlBIUkozRGFDVzduQlNDNm9CaHFlektTUTVOSVh0NTczZm5paWx3R3FjQXhqbGFXckdHREVvVXhUSVB0YkhRd1N4bUNVLVhJT293Z3FZeg?oc=5" target="_blank" rel="noopener">[Tin tức] Giá DRAM đã tăng 20% theo quý trong Q426 mặc dù lợi nhuận chậm hơn; Nhu cầu AI, Triển vọng hỗ trợ nguồn cung chặt chẽ</a>
+  
+  <div class="tags"><span class="tag">Bộ nhớ DRAM/NAND</span></div>
+  <div class="news-meta">TrendForce · 15:05 20/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PWFhNZGVUY0VybHhUNm4zNGRzQ2NJTkp1SV8yZ2NZbWpJb3N1X1pJc3NyRlgxbDJ1dUgtd1FJYnFMb3RwX0Q4dXJidW15QzVJeF94TlNuVjZUb0FEOHowXzFVVmRtZw?oc=5" target="_blank" rel="noopener">Sự thiếu hụt NAND Flash khiến giá SSD tăng 303% vào năm 2026</a>
+  
+  <div class="tags"><span class="tag">Bộ nhớ DRAM/NAND</span></div>
+  <div class="news-meta">https://tech-insider.org/ · 08:35 22/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE5CVmg0WVdDUlNmTkV0c21IbWFsc1cwamg4cUUxbVZ3NHRBbU5oNGh2anZVME9pSUZuX1IwbHlPb0E5QUYxRE1hRWlBd1VFcWRxZXQtOWFKb21rX29wYzBaX2dNaVNmakMwam1JUGp5cER6YnZJRDlBU19MNA?oc=5" target="_blank" rel="noopener">Giá RAM tăng: thông tin mới nhất về tình trạng thiếu bộ nhớ toàn cầu</a>
+  
+  <div class="tags"><span class="tag">Bộ nhớ DRAM/NAND</span></div>
+  <div class="news-meta">The Verge · 04:30 23/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSzBwaUZGQjJGd2pEVXRDVWpiUGs2SzZVd2dFa0ktOVZ3cUhYVmZUNkhzUmc3VXo4ME4yYkQwTmNGanNaU2ZkSlJOaFhnaFpKdjdyY1BQTGFhaU5LM2l3VVcwYzhLQ1JWZ1NXdko5MW1JMVhjZS1mWTJpU1pyRVc3U1ctVVQtR29HWF8tYk5kYlFuTHZOYWVlS2VoNUV0VFI2WmNoT2hybUJEQ3IzTW1zUVVCRndWbVUzXzlMWk9xejZsNmNTMFhIUDRJRmdnNXhHajh2YzhGSUc4UUJK?oc=5" target="_blank" rel="noopener">Omdia: Các lô hàng điện thoại thông minh của Ấn Độ đã giảm 26% xuống mức thấp nhất trong quý ba mặc dù mùa lễ hội</a>
+  
+  <div class="tags"><span class="tag">Thị trường smartphone</span></div>
+  <div class="news-meta">Omdia · 17:00 19/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul><details class="more"><summary>Xem thêm 3 tin</summary><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMinwFBVV95cUxOb245bWd3UXF4WVBpbVFwWFRxeFVBamI4ME5INXJJcFdJbmJhdElycURsWk0wQWRUcFloOHdrWFBRcWdFTUJOLVItc2pFRXZhdFh3UG81NnFHRG5wTnJ1MUFyX01fS09BM091SmlqaDFfQjI2X2NnWWVHTlVQV2NJSEJEeE44VU8ybS14M1l5MFhKa012YzVlS3AtUkExVkU?oc=5" target="_blank" rel="noopener">Doanh số điện thoại thông minh Trung Quốc đạt mức thấp nhất trong 14 năm trong quý 3; Huawei và Apple đón đầu xu hướng giảm</a>
+  
+  <div class="tags"><span class="tag">Thị trường smartphone</span></div>
+  <div class="news-meta">Counterpoint Research · 17:01 19/10 · <span class="rel ok">Nhiều nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMivAFBVV95cUxNUndSd0N2Um9RWGtEUDU1MHBGUm1LU3RkT2RpRFVDbVNzRHdNTGVGYnk1MU1pSUFCQklWMnZERzc0bEJ0VDVUWUp5N3JHV3M0eVFMaGRFOEdwcjU0WlUxOG55enFWb09Id3AySlhLenVTT0k4Zk51WUhuQ05oVlBSWmg3d3NmLTFzOVBJTHVsc3RSN21WaGdwYjNCa19RSTRGWUhIXzQ1a25mSDhxQ0JwdzNJRUZiaHdXZTREOQ?oc=5" target="_blank" rel="noopener">Độc quyền: Qualcomm cắt giảm việc làm trên toàn thế giới trong việc sa thải tập trung vào hiệu suất, bản ghi nhớ nội bộ cho thấy</a>
+  
+  <div class="tags"><span class="tag">Chip di động</span></div>
+  <div class="news-meta">Reuters · 23:29 20/10 · <span class="rel ok">Nhiều nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMipAFBVV95cUxOTnRTMG9jaVJtbk5melQtTmktNFJPUTBCT3U3dElsU3k0RTUyUTdEY3k1V2RPdFhTVXNkeWNMTVAtcHZpVFdxQVFiVDk5VDl4bjNmQjVqcGhabngyUC1DUXQzeFF3TnY3LU1SLUFTZVpmUmhmc05RcG9yMl83LUptcjRKU255SjR1N2dpekRGbW5pUkhiUmxZUDNNN2E1a0diUmV0Vw?oc=5" target="_blank" rel="noopener">Qualcomm sẽ cắt giảm việc làm trên toàn cầu trong các đợt sa thải &quot;dựa trên hiệu suất&quot;, khi công ty chuyển hướng sang trung tâm dữ liệu AI và thị trường điện toán biên</a>
+  
+  <div class="tags"><span class="tag">Chip di động</span></div>
+  <div class="news-meta">Yahoo Finance · 20:00 21/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul></details></div></section>
+
+<section><h2>Khuyến mãi các chuỗi bán lẻ · 30 ngày</h2><div class="card"><ul class="news-list"><li class="news">
+  <div class="tags"><span class="tag">Thế Giới Di Động</span><span class="tag new">Mới</span><span class="tag deal">Giảm đến 70%</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQMzhDbU5aNlh3b0hkVlNZRjdmMkJsSFJjbTF5UEo1X0NLVUJGQzRFUjk3aTh2aHF1Y20xX2M1Vzg4d0lTSmdWamRQaENCaTE4N2Z4alJCNlVYeXAyNXRWTEFtdkRjUzU5cDZQMDhWS3ZaX0lHM2c5R0lHMkJLMDBVbWdqV2dYMHI2bm5iVmd5NldNalZwVGh5VXBUeVlhX1VfMW5zd2h0Wm9OUjJLTmpFdWpOVXR4dTBsTGhuUA?oc=5" target="_blank" rel="noopener">Livestream săn sale đồng hồ nữ mừng 20/10 tại TGDĐ: Giảm đến 70%, deal 0 đồng - Thegioididong.com</a>
+  <div class="news-meta">Đăng 16:45 11/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">Thế Giới Di Động</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMivwFBVV95cUxORC1TOVVxZS1xZ0VKYTJ3UlJ2djdFMG4wU3g4UmhfOW1lNUo0RTBfOVhLenhvYXU1enFQa1ZsN2N1dmRCT2xLNTB5ZE5aek1jRHV1QkUzUjIwUUkxcVpGREowVTZ6akRGbC0tZTJLQnVjcF9NSVRERU5FVFhZc2NaZmJjM0pPWjVjUklrMWZmemRKM0NaTzNSNDJnV3M1REFWQmNKTU1Zem1JeklIdV9MaElwSXpDYXBWaXMxRTdKRQ?oc=5" target="_blank" rel="noopener">Mua iPhone Duo tại TopZone: Thu cũ, trả góp 0%, tổng tiền phải trả là bao nhiêu? - Thuonghieucongluan.com.vn</a>
+  <div class="news-meta">Đăng 14:00 16/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">Thế Giới Di Động</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQSFo2eHRQRXg2SDNtdmoyNmZGMnZpaHNSM0R4WlNUbUltMW5VN1BvX0N0ak9KRnMweHRnNXpsdG5jelRoLWhEbGlOVHg5alRTT2g5RXBrZExwZWVLdmhBVWllY3ZlSTJla2RYbUluSVlQbmprZkd1Rmk1UmZoWHBwbUp5N2oxdUcya3BrYg?oc=5" target="_blank" rel="noopener">Gợi ý chọn mua đồng hồ nữ làm quà tặng 20/10 tại Thế Giới Di Động - Thegioididong.com</a>
+  <div class="news-meta">Đăng 15:05 18/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">FPT Shop</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQMHlzR0hId3oyZjhmOEkwVnNTd3dxanR4cUdrZlVUWXh1cmF5QkFMdmE2NXJZeFIwNmhrQkw5NnlJMGVvaU9scGs0NTVZUVhUbU5qb2E1cjhEVlRrbktlM05pX0EzaE9UVmtTTlNENEJMeFIzbFk5a3FiZWdsS1hxbFFrZ1EzeC1sMjVEajBR?oc=5" target="_blank" rel="noopener">FPT Shop giảm giá mạnh hàng điện máy mừng ngày Phụ nữ Việt Nam - Vietnam.vn</a>
+  <div class="news-meta">Đăng 10:55 17/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">FPT Shop</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1CMC1LcGRPUk4weGRWOHBFcE5NV2ZkY1RfbEVsYU5JRFRacDJhRlViQzVncHdZTzczV183WU53SWV2U3ZOUC14R3BmR3BDZG5MSHZzY0JySVZKYUZlQm1iOTkyY05IU08xNGtFTWQxWlpBNVYxNXphdTBxMmV5MkE?oc=5" target="_blank" rel="noopener">FPT Shop giảm giá dịp 20/10, nhiều quà tặng thiết thực - GenZ Việt</a>
+  <div class="news-meta">Đăng 12:32 19/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">FPT Shop</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMiggFBVV95cUxOa19QUVZnSmdEMnR5cF9CQnVUN2lQOGwzNC1KbWlPWlBGWm9NeW1ld25Kak4yeWxLdldqX0RLTWdSUEU0UkprMDFYdU5hc1EzUFpZaURhUUlUMlU0RGJpb1ZZR05zVGxYSFY5Sk5rWUtDRE04eEY2NUJLaE5iNGtKYThn?oc=5" target="_blank" rel="noopener">FPT Shop mở bán PC Mini E-Power, bảo hành đến 3 năm, lắp đặt theo tiêu chuẩn ISO 9001:2015 - Công Nghệ Việt</a>
+  <div class="news-meta">Đăng 06:49 24/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">CellphoneS</span><span class="tag deal">Giảm 5 triệu</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMFEwRWJ6QzU0anp3dHNabHkxZWJKUXJyV3pmUjNpbUU5a1BWS2VBYTF0S05DYTJQR2hoV0NFNGlWcWlmbEF6dFY3ZmNkSkJkRDVvNGx1UXEtZFM5b3hvQVQxWEJLNFRmWGF4MXU2MEJCVEZwM1RTVDZROFZCUnBqN0RkU0VQbVFiZUUzdzZIeVNDS0tvdFpaR1JPbXlqNjJKTUd1TzQ1UWtGQQ?oc=5" target="_blank" rel="noopener">Mua iPhone Duo tại CellphoneS: trả góp và thu cũ giảm 5 triệu đã đủ nhẹ ví? - Báo Cà Mau</a>
+  <div class="news-meta">Đăng 09:19 23/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">CellphoneS</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbE5aeWU2RUYzeVBQUVM4di1XNHhxRDZ2WWQzRnRKeDIyYTVraXpvMjJIMXhzcU42RTdCRndkX0tRTXVkS1NGU241QTNnSVRwUmhmMlAySldhX1dxX0xaR0U5YUNLNUhWU1psUmYzZzZqbF9fRHhPeGRTUmdsTDVoUEZIMmJHZmMyQzNjYWtoMWpBRGYzTUwwdHJBdmtpWmxxclZKTlg4Mzh6NS0tTHlKcmtRSk9uQ3Y3SmZxMGxuRXRjdWU0ME9WTXpHTUdabi1FYTlfWEtEQ0h3UQ?oc=5" target="_blank" rel="noopener">Thu cũ đổi mới OPPO Find X10 tại CellphoneS: Cơ hội trúng ngay Find X10 Pro Max và phiếu mua hàng 10 triệu - Báo Hà Tĩnh</a>
+  <div class="news-meta">Đăng 13:00 22/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">CellphoneS</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdGJYdno3SUIxZC1KVG42VzdoQ3RfazNWVjJ6M19Jd2xiamFBLUlLdnRkR05YYVZiVDdEeUY4M3JEWHhpbG9Fb0ViQkN2ZW1GVFk0QkhzRE40SDIwSS03NWhla0xBWXM4UGFfRFp1Z1dFNmtFWG93YUN1NTRvTDZSVC1oM1d6NGI0VkJUcWJiUkNMendaOEhFVkVfYWFOSi1RQTU1QW5KQXRhUQ?oc=5" target="_blank" rel="noopener">Mừng lễ 20/10 - CellphoneS giảm giá iPhone 18 đến 5 triệu, trả góp 0% 18 tháng - Báo Phú Thọ</a>
+  <div class="news-meta">Đăng 17:19 19/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">Di Động Việt</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMihgFBVV95cUxPMkZualVqLURUWHNOUXMzZkx2b1htaC15S2RGYjJuV3RrT2NCVmpDUUFZWDZpYzVCSG5pdVQwZmxORC1pTWNCdUo4cGFoRXk5UDJFRXNwSkpCQ21KaFdwNHJIMHlfYXgxVGpGVlV0cTJsZGtFYk5pMm1rWFNEMWZra01XbUhsQQ?oc=5" target="_blank" rel="noopener">Di Động Việt mở bán iPhone Duo, ưu đãi đến 9,5 triệu đồng - Vietnam.vn</a>
+  <div class="news-meta">Đăng 06:14 24/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">Di Động Việt</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPXzd3WEY2SmIxcUVoZXJlQlFKazVRMXVLdHNtOV9vU3Mwcmo1OVI0cExkdnBabzRweEhMZ1RlemhEZHo3LVF2UlQxd09nNWxDYjlJNGJqTkhRS1RsazdrMnB0c1pRM0V1QVZTZGpEenV3TGx6a1kwV0NiT2N6RmdITFdnWFNKdzdoMW83QXBzUHZHZ3dXa0E?oc=5" target="_blank" rel="noopener">Di Động Việt mở bán iPhone Duo, tổng ưu đãi lên đến 9.5 triệu đồng - Công Nghệ Việt</a>
+  <div class="news-meta">Đăng 16:29 23/10</div>
+</li><li class="news">
+  <div class="tags"><span class="tag">Di Động Việt</span></div>
+  <a class="news-title" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOZXdHYklkS2dkR295emZfczJGblM4T3o0UEN2VjlHMDQ1dHllTmZDc0lmLXFfeEhkWTFTWXlVREFMUjZINl9VYlBQTzJ5QjVVVUNjRjc0S2poVjZKTWtMWGdVZFM2ZXhsVjB6bkwzbDR5ZThVSDdHQVc4cm1wME9kMzNNak1NS01iVldtdHBn?oc=5" target="_blank" rel="noopener">Di Động Việt mở bán iPhone Duo, ưu đãi lên đến 9,5 triệu đồng - TechTimes Vietnam</a>
+  <div class="news-meta">Đăng 13:26 23/10</div>
+</li></ul></div></section>
+
+<section><h2>Thời sự & kinh tế trong nước</h2><div class="card"><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://vnexpress.net/trau-huc-6-nguoi-bi-thuong-o-lam-dong-5136481.html" target="_blank" rel="noopener">Trâu húc 6 người bị thương ở Lâm Đồng</a>
+  <p class="news-sum">Sau khi tấn công người chủ, hai con trâu chạy trên đường húc người dân, làm hư hỏng xe máy, ôtô, lao vào tiệc cưới khiến thực khách tìm cách thoát thân, chiều 24/10.</p>
+  
+  <div class="news-meta">VnExpress Thời Sự · 19:28 24/10 · <span class="rel ok">Nhiều nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://tuoitre.vn/tin-tuc-sang-25-10-tam-ban-giao-mat-bang-lam-cong-vien-ben-nha-rong-khanh-hoi-100261024180644394.htm" target="_blank" rel="noopener">Tin tức sáng 25-10: Tạm bàn giao mặt bằng làm công viên Bến Nhà Rồng - Khánh Hội</a>
+  <p class="news-sum">Một số tin tức đáng chú ý: Công ty nước giải khát của FLC tăng vốn lên hơn 526 tỉ đồng, mở rộng sang bất động sản; Bốn dự án chỉnh trang bờ nam kênh Đôi đấu thầu xây lắp cuối năm 2027; TP.HCM chấn chỉnh việc đấu giá đất chậm tiến độ...</p>
+  
+  <div class="news-meta">Tuổi Trẻ Thời Sự · <span class="rel ok">Nhiều nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/bao-tang-cua-nhung-cuu-tu-phu-quoc-o-thu-do-5135197.html" target="_blank" rel="noopener">Bảo tàng của những cựu tù Phú Quốc ở Thủ đô</a>
+  <p class="news-sum">Ngày cựu chiến binh Lâm Văn Bảng đi các nghĩa trang liệt sĩ lấy nắm đất, chân hương về đặt trong bảo tàng tư gia, có người nói ông &quot;rước ma về thờ&quot;.</p>
+  
+  <div class="news-meta">VnExpress Thời Sự · 04:00 25/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/ha-noi-khong-dong-loat-thay-the-cay-chua-phu-hop-5136501.html" target="_blank" rel="noopener">Hà Nội không đồng loạt thay thế cây chưa phù hợp</a>
+  <p class="news-sum">Giai đoạn 2026-2030, thành phố sẽ rà soát, di dời, thay thế cây cấm trồng trên đường phố, cây có nguy cơ mất an toàn giao thông, chiếm dụng vỉa hè.</p>
+  
+  <div class="news-meta">VnExpress Thời Sự · 00:00 25/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul><details class="more"><summary>Xem thêm 4 tin</summary><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://vnexpress.net/nguoi-dan-ong-hon-30-nam-giu-dat-cho-chim-troi-5136054.html" target="_blank" rel="noopener">Người đàn ông hơn 30 năm giữ đất cho chim trời</a>
+  <p class="news-sum">Ông Nguyễn Văn Thiệt giữ 10 ha tràm cho hàng nghìn con chim trú ngụ, dù nhiều lần được khuyên chuyển sang nuôi tôm, trồng lúa.</p>
+  
+  <div class="news-meta">VnExpress Thời Sự · 00:00 25/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/cuc-hang-khong-yeu-cau-cac-hang-mo-them-duong-bay-noi-dia-5136485.html" target="_blank" rel="noopener">Cục Hàng không yêu cầu các hãng mở thêm đường bay nội địa</a>
+  <p class="news-sum">Cục Hàng không Việt Nam yêu cầu 6 hãng hàng không nghiên cứu khôi phục các đường bay đã tạm dừng, mở tuyến mới và tăng chuyến trên các đường bay nội địa hiện có.</p>
+  
+  <div class="news-meta">VnExpress Thời Sự · 20:44 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/nam-thanh-nien-song-sot-sau-khi-lan-xuong-vuc-sau-100-m-o-lung-cu-5136480.html" target="_blank" rel="noopener">Nam thanh niên sống sót sau khi lăn xuống vực sâu 100 m ở Lũng Cú</a>
+  <p class="news-sum">Đang ngồi trên lan can bên đường chờ du khách chụp ảnh tại Lũng Cú, nam tài xế 23 tuổi bất ngờ ngất, lăn xuống vực sâu hơn 100 m và may mắn chỉ bị thương nhẹ.</p>
+  
+  <div class="news-meta">VnExpress Thời Sự · 20:22 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/bigbang-co-the-mang-ve-hang-chuc-trieu-usd-loi-nhuan-cho-cong-ty-chu-quan-5136490.html" target="_blank" rel="noopener">BigBang có thể mang về hàng chục triệu USD lợi nhuận cho công ty chủ quản</a>
+  <p class="news-sum">Chuỗi concert kỷ niệm 20 năm của BigBang dự kiến giúp YG Entertainment tăng khoảng 22,6 triệu USD lợi nhuận từ bán vé, vật phẩm và quyền khai thác thương mại.</p>
+  
+  <div class="news-meta">VnExpress Kinh Doanh · 00:05 25/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul></details></div></section><section><h2>Công nghệ trong nước</h2><div class="card"><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://vnexpress.net/cam-bien-cmos-tu-thi-nghiem-nasa-den-linh-kien-tren-hang-ty-camera-5134978.html" target="_blank" rel="noopener">Cảm biến CMOS - từ thí nghiệm NASA đến linh kiện trên hàng tỷ camera</a>
+  <p class="news-sum">Từ nghiên cứu để khám phá không gian, cảm biến ảnh CMOS thành linh kiện phổ biến trong điện thoại và là câu chuyện thương mại hóa sáng chế thành công nhất của NASA.</p>
+  
+  <div class="news-meta">VnExpress Số Hóa · 00:40 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/chi-phi-phu-song-di-dong-mien-nui-cao-gap-doi-dong-bang-5136465.html" target="_blank" rel="noopener">&#x27;Chi phí phủ sóng di động miền núi cao gấp đôi đồng bằng&#x27;</a>
+  <p class="news-sum">Theo Giám đốc Viettel Sơn La Nguyễn Chí Công, chi phí đầu tư hạ tầng cao là nguyên nhân nhiều tỉnh miền núi vẫn tồn tại vùng lõm sóng di động.</p>
+  
+  <div class="news-meta">VnExpress Số Hóa · 06:30 25/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/de-xuat-bo-18-thu-tuc-ve-so-huu-tri-tue-5136315.html" target="_blank" rel="noopener">Đề xuất bỏ 18 thủ tục về sở hữu trí tuệ</a>
+  <p class="news-sum">Chính phủ đề xuất luật hóa việc bãi bỏ 18 thủ tục hành chính, cắt giảm 5 điều kiện kinh doanh, nhằm đơn giản hóa việc chuyển nhượng quyền sở hữu công nghiệp và bảo hộ giống cây trồng.</p>
+  
+  <div class="news-meta">VnExpress Số Hóa · 09:57 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/48-tieng-khong-ngu-cua-gioi-an-ninh-mang-5136169.html" target="_blank" rel="noopener">48 tiếng không ngủ của giới an ninh mạng</a>
+  <p class="news-sum">Nhiều chuyên gia bảo mật đang chạy đua, thậm chí thức trắng hai ngày qua để cập nhật bản vá lỗ hổng ẩn trong ngôn ngữ lập trình PHP trước khi tin tặc gây ra những cuộc tấn công diện rộng.</p>
+  
+  <div class="news-meta">VnExpress Số Hóa · 08:00 24/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul></div></section><section><h2>Kinh tế & địa chính trị quốc tế</h2><div class="card"><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html" target="_blank" rel="noopener">Tại sao máy bay phổ biến bị loại bỏ sớm hàng năm</a>
+  <p class="news-sum">Máy bay đang bị tháo dỡ trước thời hạn nhiều năm vì thiếu động cơ và các bộ phận khác.</p>
+  
+  <div class="news-meta">CNBC Economy · 22:18 24/10 · <span class="rel ok">Nhiều nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html" target="_blank" rel="noopener">Điều gì tiếp theo cho Pháp khi các cuộc bạo loạn làm náo loạn thị trường? Ba câu hỏi mà các nhà đầu tư phải đối mặt trước nhiều cuộc biểu tình hơn</a>
+  <p class="news-sum">Tình trạng bất ổn của Pháp đã đẩy lợi suất trái phiếu lên mức cao nhất trong 24 năm khi các nhà đầu tư cân nhắc ngân sách, tăng trưởng và rủi ro ngành trước nhiều cuộc biểu tình.</p>
+  
+  <div class="news-meta">CNBC Economy · 13:23 24/10 · <span class="rel ok">Nhiều nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html" target="_blank" rel="noopener">After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement</a>
+  <p class="news-sum">Ukraine cho biết các hạn chế đối với Starlink và Starshield đã được dỡ bỏ, khôi phục kết nối với các hệ thống quân sự di chuyển nhanh sau khi bị gián đoạn.</p>
+  
+  <div class="news-meta">CNBC Economy · 03:38 25/10 · <span class="rel ok">Nhiều nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/elon-musk-thua-nhan-da-siet-starlink-o-ukraine-5136550.html" target="_blank" rel="noopener">Elon Musk thừa nhận đã siết Starlink ở Ukraine</a>
+  <p class="news-sum">Elon Musk xác nhận công ty SpaceX của ông đã hạn chế Starlink ở Ukraine do Kiev vi phạm điều khoản sử dụng dịch vụ Internet vệ tinh này.</p>
+  
+  <div class="news-meta">VnExpress Thế Giới · 06:31 25/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul><details class="more"><summary>Xem thêm 3 tin</summary><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://vnexpress.net/iran-mat-dan-huyet-mach-giao-thuong-5136296.html" target="_blank" rel="noopener">Iran mất dần huyết mạch giao thương</a>
+  <p class="news-sum">Sau đường biển và đường không, các tuyến giao thương đường bộ của Iran cũng bị siết chặt, đẩy nền kinh tế vào tình cảnh khó khăn hơn.</p>
+  
+  <div class="news-meta">VnExpress Thế Giới · 05:00 25/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/hon-800-000-nguoi-bieu-tinh-khap-nuoc-phap-5136535.html" target="_blank" rel="noopener">Hơn 800.000 người biểu tình khắp nước Pháp</a>
+  <p class="news-sum">Biểu tình diễn ra tại Paris và nhiều thành phố nhằm phản đối vật giá leo thang, giữa lúc chính phủ siết chặt an ninh đề phòng bạo lực tái diễn.</p>
+  
+  <div class="news-meta">VnExpress Thế Giới · 23:49 24/10 · <span class="rel ">1 nguồn</span></div>
+</li><li class="news">
+  <a class="news-title" href="https://vnexpress.net/khoanh-khac-may-bay-quan-su-philippines-lao-vao-nhau-boc-chay-5136494.html" target="_blank" rel="noopener">Khoảnh khắc máy bay quân sự Philippines lao vào nhau bốc cháy</a>
+  <p class="news-sum">Hai máy bay huấn luyện SF-260 của không quân Philippines va chạm trên không rồi rơi xuống căn cứ Fernando, khiến 4 phi công thiệt mạng.</p>
+  
+  <div class="news-meta">VnExpress Thế Giới · 21:26 24/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul></details></div></section><section><h2>Công nghệ & di động quốc tế</h2><div class="card"><ul class="news-list"><li class="news">
+  <a class="news-title" href="https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis" target="_blank" rel="noopener">Tôi hy vọng MacBook màn hình cảm ứng của Apple học được một số bài học từ máy tính xách tay Lenovo này</a>
+  <p class="news-sum">Có vẻ như MacBook màn hình cảm ứng được đồn đại từ lâu thực sự có thể được công bố vào tuần tới và sau khi sử dụng Lenovo Yoga 9n để thử nghiệm nền tảng RTX Spark của Nvidia, tôi đã suy nghĩ: đây là rất nhiều điều tôi muốn từ MacBook màn hình cảm ứng.…</p>
+  
+  <div class="news-meta">The Verge Tech · 21:39 24/10 · <span class="rel ">1 nguồn</span></div>
+</li></ul></div></section>
+
+<section><h2>Google Trends Việt Nam</h2><div class="chips"><span class="chip">cổ phiếu <small>200+</small></span><span class="chip">dc united đấu với cincinnati <small>100+</small></span><span class="chip">santos đấu với bahia <small>200+</small></span><span class="chip">chelsea f.c. vs tottenham standings <small>1000+</small></span><span class="chip">orlando city đấu với new york city <small>200+</small></span><span class="chip">lionel messi <small>5000+</small></span><span class="chip">atlanta united đấu với chicago fire <small>200+</small></span><span class="chip">giải bóng đá vô địch quốc gia việt nam <small>500+</small></span><span class="chip">quả bóng vàng 2026 <small>100+</small></span><span class="chip">thứ hạng của rc lens gặp paris fc <small>200+</small></span></div><p class="note">Viền đậm: từ khóa liên quan ICT / điện thoại.</p></section>
+
+<section><h2>Thị phần smartphone Việt Nam</h2><table class="share">
+<thead><tr><th>Hãng</th><th class="num">Bán lẻ (GfK)</th><th class="num">Xuất xưởng (Counterpoint)</th></tr></thead>
+<tbody><tr><td>Samsung</td><td class='num'>31.2%</td><td class='num'>29.5%</td></tr><tr><td>OPPO</td><td class='num'>22.8%</td><td class='num'>23.0%</td></tr><tr><td>Apple</td><td class='num'>18.5%</td><td class='num'>17.8%</td></tr><tr><td>Xiaomi</td><td class='num'>13.8%</td><td class='num'>14.2%</td></tr><tr><td>Vivo</td><td class='num'>9.2%</td><td class='num'>8.5%</td></tr><tr><td>Realme</td><td class='num'>4.1%</td><td class='num'>4.5%</td></tr></tbody></table>
+<p class="note">Quý 2/2026 (Số liệu công bố kỳ gần nhất: Tháng 08/2026). ⚠ Số liệu nhập tay, chưa đối chiếu báo cáo gốc.</p></section>
+
+<footer>
+  <details><summary>Trạng thái nguồn dữ liệu</summary><ul class='status'><li class="ok"><b>USD/VND</b> — Vietcombank</li><li class="ok"><b>CNY/VND</b> — Vietcombank</li><li class="ok"><b>KRW/VND</b> — Vietcombank</li><li class="ok"><b>Vàng SJC</b> — 24h.com.vn (bảng giá SJC)</li><li class="ok"><b>Vàng thế giới</b> — Yahoo Finance</li><li class="ok"><b>Chênh SJC – thế giới</b> — Tính từ Vàng SJC, Vàng thế giới, USD/VND</li><li class="ok"><b>VN-Index</b> — Yahoo Finance</li><li class="ok"><b>Xăng RON 95</b> — Petrolimex (qua webgia.com)</li><li class="ok"><b>Dầu Brent</b> — Yahoo Finance</li><li class="ok"><b>Chỉ số USD (DXY)</b> — Yahoo Finance</li><li class="ok"><b>Tin các hãng tại Việt Nam · 3 ngày</b> — 14 tin</li><li class="ok"><b>Chuỗi cung ứng & linh kiện · 7 ngày</b> — 7 tin</li><li class="ok"><b>Thời sự & kinh tế trong nước</b> — 8 tin</li><li class="ok"><b>Công nghệ trong nước</b> — 6 tin</li><li class="ok"><b>Kinh tế & địa chính trị quốc tế</b> — 8 tin</li><li class="ok"><b>Công nghệ & di động quốc tế</b> — 6 tin</li><li class="ok"><b>Google Trends</b> — 10 từ khóa</li><li class="ok"><b>Khuyến mãi đối thủ</b> — 18 bài trong 30 ngày</li></ul></details>
+  <p>Tự động tổng hợp từ RSS báo chí và nguồn số liệu công khai. Nhãn "Nhiều nguồn / 1 nguồn" theo số báo cùng đưa tin.</p>
+</footer>
+</div>
+<div id="toast">Đã sao chép bản tin</div>
+<textarea id="plain" hidden readonly>BẢN TIN 24H — Chủ Nhật, 25/10/2026
+
+CHỈ SỐ
+- USD/VND: 26.020 đ (+0,00%)
+- CNY/VND: 3.933 đ (+0,00%)
+- KRW/VND: 20,33 đ (+0,00%)
+- Vàng SJC: 141,70 tr.đ/lượng (+0,00%)
+- Vàng thế giới: 4.007,9 USD/oz (+0,00%)
+- Chênh SJC – thế giới: 15,97 tr.đ/lượng (+0,41%)
+- VN-Index: 1.774,15 điểm (+0,77%)
+- Xăng RON 95: 29.050 đ/lít (+0,00%)
+- Dầu Brent: 111,70 USD/thùng (−4,30%)
+- Chỉ số USD (DXY): 101,75 điểm (−0,06%)
+
+ĐÁNG CHÚ Ý NGÀNH ĐTDĐ
+- Ưu đãi: dòng Oppo Find X10 và iPhone Duo ra mắt, dưới đây là một số lựa chọn thay thế (GSMArena) https://www.gsmarena.com/deals_the_oppo_find_x10_series_and_the_iphone_duo_launch_here_are_some_alternatives_too-news-75185.php
+- Ưu đãi: ra mắt iPhone Duo, đối mặt với Galaxy Z Fold8, Motorola Razr Fold và các sản phẩm khác (GSMArena) https://www.gsmarena.com/deals_iphone_duo_launches_faces_off_against_galaxy_z_fold8_motorola_razr_fold_and_others-news-75184.php
+- vivo S70 sẽ sớm ra mắt với sự hỗ trợ của bộ chuyển đổi teleconverter (GSMArena) https://www.gsmarena.com/vivo_s70_tipped_to_launch_soon_with_teleconverter_support-news-75195.php
+- Một số iPhone Duo bị nứt, sọc màn hình (VnExpress Số Hóa) https://vnexpress.net/mot-so-iphone-duo-bi-nut-soc-man-hinh-5136441.html
+- Oppo Find X10 VÀ X10 Pro Max đi toàn cầu, MacBook OLED sẽ ra mắt vào ngày 28 tháng 10 (GSMArena) https://www.gsmarena.com/oppo_find_x10_and_x10_pro_max_go_global_oled_macbook_coming_on_oct_28-news-75191.php
+- Smartphone giá rẻ đang &#x27;chết&#x27; (VnExpress Số Hóa) https://vnexpress.net/smartphone-gia-re-dang-chet-5134841.html
+- Việt Nam - Bỉ hướng tới nâng cấp quan hệ lên Đối tác Chiến lược (VnExpress Thế Giới) https://vnexpress.net/viet-nam-bi-huong-toi-nang-cap-quan-he-len-doi-tac-chien-luoc-5136488.html
+- Những gì mong đợi từ sự kiện &#x27;Pro and tell’ của Apple (The Verge Tech) https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro</textarea>
+<script>
+function copyBrief(){
+  const t=document.getElementById('plain').value;
+  const done=()=>{const el=document.getElementById('toast');el.classList.add('show');setTimeout(()=>el.classList.remove('show'),1800)};
+  if(navigator.clipboard){navigator.clipboard.writeText(t).then(done)}else{
+    const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();done()}
+}
+</script>
+</body>
+</html>
